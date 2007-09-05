@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "file:///usr/share/sgml/docbook/xml-dtd-4.2/docbookx.dtd">
+<article id="airbus-nonnormal">
+  <title>Airbus Non-Normal Notes</title>
+    <sect1>
+      <title>Miscellaneous</title>
+      <sect2>
+        <title>Engine failure after V1</title>
+
+        <para>Apply rudder conventionally on the runway. When airborne, adjust rudder to maintain &beta;
+        target. Autopilot can be engaged once gear is up. Consider the use of TOGA if a FLX takeoff was carried
+        out. Initiate ECAM actions at 400ft AGL. Delay acceleration past acceleration altitude if the engine is not yet
+        secure (e.g. master switch turned off or the first fire bottle discharged). To accelerate, push V/S to level
+        off. Managed target speed will jump to initial climb speed. Accelerate to either S speed if an immediate visual
+        return is expected or green dot speed if transiting, then set MCT (will require selecting CL then MCT for FLX
+        takeoff) and continue climb in OP CLIMB.</para>
+      </sect2>
+      <sect2>
+        <title>Immediate VMC recovery with single engine</title>
+        <para>Fly circuit in CONF 1. Select CONF 2 at start of base turn. Gear will usually be extended once flaps have
+        run to 2, but may be delayed until final approach if performance is an issue. Select CONF 3 once gear is down
+        and CONF full when on final approach. {TODO: Check how climb gradient/ flap decision is determined.}</para>
+      </sect2>
+      <sect2>
+        <title>Engine failure in cruise</title>
+        <para>Set MCT on live engine then disconnect the autothrust. Start ECAM actions and notify ATC. Decide on
+        strategy - standard strategy increases the chance of an engine relight, whilst obstacle strategy maintains the
+        greatest possible obstacle clearance. If using standard strategy select speed .78/300kt. If using obstacle
+        strategy select green dot speed. Select altitude to LRC ceiling or green dot ceiling as appropriate to allow
+        drift down once speed is reached. If obstacles remain a problem, MCT and green dot speed can be maintained to
+        give a shallow climbing profile. Once obstacles are no longer a problem, descend to LRC ceiling (use V/S if
+        &lt;500 fpm descent rate), engage the autothrust and continue at LRC speed.
+        </para>
+      </sect2>
+      <sect2>
+        <title>Single engine circling</title>
+        <para>It may not be possible to fly level in the standard circling configuration of CONF 3 gear down. This can
+        be ascertained by checking the table in Vol 3. Gear extension may be delayed until final approach if
+        required.</para>
+      </sect2>
+      <sect2>
+        <title>Emergency descent</title>
+        <para>Don oxygen masks, set them to the N position and establish communication. Descent with autopilot engaged
+        is preferred. The configuration is thrust idle, full speed brake and maximum appropriate speed, taking into
+        account possible structural damage. Target altitude is FL100 or MORA if this is higher. If speed is low, allow
+        speed to increase before deploying full speedbrake to prevent activation of the angle of attack
+        protection. Landing gear may be used below 25,000ft, but speed must be below V<subscript>LE</subscript> when it
+        is extended and remain below V<subscript>LO</subscript>.</para>
+
+        <para>Once descent is established, check the cabin altitude and manually deploy passenger oxygen if it is
+        &gt;14,000ft. The passenger signs should be turned on, the ignitors should be turned on and ATC should be
+        notified.</para>
+        
+        <para>Once level, restore the aircraft to a Normal configuration. When safe to do so, advise cabin crew and
+        passengers that it is safe to remove their masks.</para>
+      </sect2>
+      <sect2>
+        <title>Smoke</title>
+        <para>Smoke procedures are detailed on p1.08 of the QRH. Smoke removal procedures are detailed on p1.07 of the
+        QRH. </para>
+        <para>Immediate actions are to don oxygen masks and establish communication, then isolate the more likely
+        sources by turning off the cabin fans, putting the avionics ventilation system into smoke removal configuration
+        (OVRD on both BLOWER and EXTRACT) and shedding the galley and cabin electrics. The cabin signs should then be
+        turned on. The origin of the smoke should be identified, possibly requiring communication with the cabin, and if
+        successful, the faulty equipment should be isolated.</para>
+        <para>If smoke becomes excessively dense at any time during the procedure, turn on the emergency exit lights and
+        apply the smoke removal procedure. Also consider adopting the emergency electrical configuration.</para>
+        <para>The eventual aim of the smoke removal procedure is depressurisation and the use of ram air. During the
+        descent, the outflow valve is opened by setting the landing elevation to 10,000ft. If the packs are suspected as
+        a smoke source (indicated by fuel vapors), they are turned off and the cabin fans are turned off. Otherwise, the
+        air conditioning is used to provide air flow during the descent phase by setting the pack flow to HIGH and
+        turning off the cabin fans. As a final resort, once below 200kt and depressurised, the cockpit windows can be
+        opened.</para>
+        
+      </sect2>
+      <sect2>
+        <title>Bomb on board</title>
+        <para>The primary aim is to get the aircraft on the ground and evacuated ASAP.</para>
+
+        <para>The secondary aim is to prevent detonation of the device. This is acheived by preventing further increases
+        in cabin altitude through the use of manual pressure control and by avoiding sharp maneuvres and
+        turbulence.</para>
+
+        <para>The tertiary aim is to minimise the effect of any explosion, This is acheived by reducing the diff to 1
+        psi, by descending to a level 2500ft above cabin altitude, and by flying at suitable speeds. As further descent
+        is required, the manual controls should be used to maintain the 1 psi diff for as long as possible. The aircraft
+        should be configured for landing as early as possible to avoid an explosion damaging landing systems.</para>
+
+        <para>In the cabin, procedures are laid down for assessing the risks of moving the device and for moving the
+        device to the LRBL at door 2R.</para> 
+
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Electrical</title>
+      <sect2>
+        <title>Generator fault</title>
+        <para>Try to reset the generator by turning it off, then after a short pause, turning it on again. If
+        unsuccessful, turn it back off.</para>
+      </sect2>
+      <sect2>
+        <title>AC Bus 1 fault</title>
+        <para>All equipment on AC bus 1 becomes unavailable, including TR1. DC Bus 2 is powered from DC Bus 1 via the
+        battery bus, the Essential AC bus is powered by AC bus 2 and the Essential TR powers the DC Essential
+        bus.</para>
+        <para>Notable lost equipment includes the blue hydraulic system and associated services (including spoiler 3),
+        radio altimeter 1 (and hence Cat III capability), half the fuel pumps, the nose wheel steering, the avionics
+        blower fan and p1 windshield heat. Landing distance will increase by 10%.</para>
+      </sect2>
+      <sect2>
+        <title>IDG low pressure or overheat</title>
+        <para>The affected IDG must be disconnected. This is done by pressing the guarded IDG button until the FAULT
+        light comes on on the associated generator button. The button should be held down for a maximum of three
+        seconds. The unaffected generator will power the associated AC bus, with the galley being shed.</para>
+      </sect2>
+      <sect2>
+        <title>Emergency configuration</title>
+        <para>Attempt to restore normal power by recycling the main generators. If that fails, try again after splitting
+        the systems. Start the APU once at least 45 seconds has elapsed since loss of main generators.</para>
+        <para>If normal power cannot be restored, ensure that the emergency generator is on line, deploying the RAT
+        manually if required and maintain speed &gt;140kt to avoid RAT stall. So much equipment is lost in the emergency
+        configuration that a table is provided in the QRH for surviving equipment. Notable losses are all the fuel pumps
+        (so ignition on, avoid negative G, centre tank fuel is unusable), the anti-skid and three fifths of the
+        spoilers. Landing speeds and distances are increased.</para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Flight controls</title>
+      <sect2>
+        <title>Landing with slats or flaps jammed</title>
+        <para>The selected landing configuration should be CONF 3. If the slats are jammed, the flaps will still move
+        and vice versa. Therefore V<subscript>FE</subscript> (barbers pole with CONF&gt;0) and V<subscript>FE
+        next</subscript>, which are a function of flap lever position, must be honored during
+        configuration. V<subscript>LS</subscript> is computed according to actual configuration. It is possible that
+        V<subscript>LS</subscript>&gt;V<subscript>FE next</subscript>. If this occurs, speed should be reduced below
+        V<subscript>LS</subscript> as the surfaces extend. This will require temporary disconnection of the
+        autothrust. Use of managed speed is not recommended during configuration.</para>
+        <para>The autopilot may be used down to 500ft AAL, but since it is not tuned for the abnormal configuration it
+        must be closely monitored.</para>
+        <para>For the go-around, initially maintain flap/ slat configuration. Maximum speeds are available on page 2.05
+        of the QRH, and in general a speed 10kt lower than max speed should be flown. If it is the slats that are jammed
+        or if the flaps are jammed at 0, clean configuration can be used to transit to a diversion airfield.</para>
+        <para>Diversion with flaps and/or slats extended may as much as double fuel consumption. The centre tank pumps
+        will have to be manually controlled to access the fuel if slats are extended.</para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Fire</title>
+      <sect2>
+        <title>Engine fire</title>
+        <para>The basic sequence is to bring the thrust lever of the affected engine to idle, turn off its engine
+        master, push its fire button, wait 10 seconds then deploy its first fire bottle. If the fire is not extinguished
+        after 30 seconds, indicated by the fire button remaining lit, deploy the second bottle. This sequence is
+        modified on the ground in that both fire bottles are fired immediately, and the remaining engine is then also
+        shut down.</para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Landing gear</title>
+      <sect2>
+        <title>Gear not downlocked</title>
+        <para>If the gear has not downlocked, retract the gear and wait until it has fully stowed, then redeploy. If
+        this is not successful, attempt to deploy the gear by gravity using page 2.11 of the QRH .</para>
+      </sect2>
+      <sect2>
+        <title>RA fault</title>
+        <para>A single RA fault results in degradation of approach capability to Cat II. Loss of both RAs will lead to
+        direct law at landing gear extension and a loss of ILS APPR mode capability (so fly in LOC and FPA).</para>
+      </sect2>
+    </sect1>
+    <sect1>
+      <title>Power plant</title>
+      <sect2>
+        <title>Dual engine failure</title>
+        <para>It is recommended that the QRH paper procedure on page 1.16 is used rather than the ECAM.</para>
+        <para>First priority, assuming fuel remains, is to attempt a relight. The FADECs will do this automatically, but
+        to improve the chances of a relight speed should initially be increased to 300kt. At this speed, the aircraft
+        will cover approximately 2nm for every 1000ft lost. With this in mind, a suitable plan should be constructed to
+        cover the possibility that relight is not possible.</para>
+        <para>If there has been no relight after 30 seconds, the engine masters should be turned off for 30 seconds,
+        then back on. This can be repeated until successful.</para>
+        <para>Once below FL250, the APU can be started and then once below FL200, assisted starts can be
+        attempted. Once the APU bleed is available, speed should be reduced to green dot. At this speed, 2½nm will be
+        covered for every 1000ft lost.</para>
+        <para>If a landing must be made without power, flaps and slats are available from blue hydraulics. CONF 3 is
+        recommended. The gear is available through gravity extension. Minimum speed is V<subscript>ref</subscript>+25kt
+        or 150kt, whichever is higher. Accumulator braking will be available. If ditching is required, the recommended
+        configuration is CONF 3 gear up.</para>
+      </sect2>
+    </sect1>
+</article>
+
