@@ -251,8 +251,29 @@
         with associated corrections, the approach should be flown in LOC and FPA and autopilot disconnect should be
         anticipated at gear extension.</para>
       </sect2>
+      <sect2>
+        <title>IR faults</title>
+        <para>A single IR fault will simply require ATT/HDG switching. This may lead to loss of the extended functions
+        of the EPGWS and/or loss of TCAS. It may be possible to recover the IR in ATT mode using the procedure on page
+        2.21 of the QRH.</para>
+
+        <para>A dual IR fault will lead to loss of PFD indications on one side. If IR 1+2 are lost, use ATT/HDG
+        switching to recover. It will also lead to Alternate Law and associated speed restrictions and landing
+        configuration considerations.</para>
+      </sect2>
       
 
+    </sect1>
+    <sect1>
+      <title>Auto-flight</title>
+      <sect2>
+        <title>FCU faults</title>
+        <para>Loss of a single channel will result in the spare channel automatically taking over. All that is required
+        is a cross check of the baro refs.</para>
+        <para>Loss of both channels leads to loss of all FCU and EFIS panels. The autopilots and autothrust are
+        lost and parameters that are normally controlled by the panels revert to sensible default values. If the weather
+        radar image remains displayed, disregard it since the scale will be incorrect.</para>
+      </sect2>
     </sect1>
 </article>
 
