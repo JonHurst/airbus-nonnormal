@@ -204,11 +204,6 @@
         <para>If the gear has not downlocked, retract the gear and wait until it has fully stowed, then redeploy. If
         this is not successful, attempt to deploy the gear by gravity using page 2.11 of the QRH .</para>
       </sect2>
-      <sect2>
-        <title>RA fault</title>
-        <para>A single RA fault results in degradation of approach capability to Cat II. Loss of both RAs will lead to
-        direct law at landing gear extension and a loss of ILS APPR mode capability (so fly in LOC and FPA).</para>
-      </sect2>
     </sect1>
     <sect1>
       <title>Power plant</title>
@@ -241,14 +236,23 @@
 
         <para>Loss of two ADRs will lead to Alternate Law with associated speed restrictions and landing configuration
         considerations. Air data switching is used as necessary, and the affected ADRs are turned off. ATC switching may
-        be required to restore transponder. If ADR 1 and 3 are lost, the landing gear must be gravity extended and
-        cannot be retracted.</para>
+        be required to restore transponder. If ADR 1 and 3 are lost, the landing gear safety valve is controlled closed,
+        so the gear must be gravity extended and cannot subsequently be retracted.</para>
 
         <para>Loss of all ADRs requires reversion to standby instruments. There is no ECAM procedure - the procedure
         displayed is for single ADR operation. Therefore, refer to page 2.20 of the QRH. In addition to the failures
         associated with dual loss, the stall warning is lost, the rudder travel limiter is frozen (full rudder travel
         will be recovered at slat extension) and automatic cabin pressure control is lost.</para> 
       </sect2>
+      <sect2>
+        <title>RA faults</title>
+        <para>A single RA fault results in degradation of approach capability to Cat II. Loss of both RAs will lead to
+        direct law at landing gear extension and a loss of ILS APPR mode capability. Therefore, landing will be CONF 3
+        with associated corrections, the approach should be flown in LOC and FPA and autopilot disconnect should be
+        anticipated at gear extension.</para>
+      </sect2>
+      
+
     </sect1>
 </article>
 
