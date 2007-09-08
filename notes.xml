@@ -230,5 +230,25 @@
         configuration is CONF 3 gear up.</para>
       </sect2>
     </sect1>
+    <sect1>
+      <title>Navigation</title>
+      <sect2>
+        <title>ADR faults</title>
+        <para>A single ADR fault simply requires switching to the hot spare and turning the affected unit off. Loss of
+        ADR1 will lead to the loss of the extended functions of the EGPWS. Loss of ADR2 will lead to both baro reference
+        channels being driven by the same FCU channel {TODO: Find out details of this}, so the baro refs should be
+        checked.</para>
+
+        <para>Loss of two ADRs will lead to Alternate Law with associated speed restrictions and landing configuration
+        considerations. Air data switching is used as necessary, and the affected ADRs are turned off. ATC switching may
+        be required to restore transponder. If ADR 1 and 3 are lost, the landing gear must be gravity extended and
+        cannot be retracted.</para>
+
+        <para>Loss of all ADRs requires reversion to standby instruments. There is no ECAM procedure - the procedure
+        displayed is for single ADR operation. Therefore, refer to page 2.20 of the QRH. In addition to the failures
+        associated with dual loss, the stall warning is lost, the rudder travel limiter is frozen (full rudder travel
+        will be recovered at slat extension) and automatic cabin pressure control is lost.</para> 
+      </sect2>
+    </sect1>
 </article>
 
