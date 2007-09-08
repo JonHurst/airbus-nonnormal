@@ -132,6 +132,20 @@
           V<subscript>LS</subscript>+10.</para>
         </sect3>
       </sect2>
+      <sect2>
+        <title>Overweight landing</title>
+        <para>A landing can be made at any weight, providing sufficient landing distance is available. The preferred
+        landing configuration is CONF FULL, but lower settings may be used if required by QRH/ECAM procedures or if
+        aircraft weight exceeds the CONF 3 go around limit (see QRH 2.25). Packs should be turned off to provide
+        additional go around thrust. If configuration is less than FULL, use 1+F for go-around.</para>
+        <para>It is possible that S speed will be higher than V<subscript>FE next</subscript> for CONF 2. In this case,
+        a speed below V<subscript>FE next</subscript> should be selected until CONF 2 is acheived, then managed speed
+        can be re-engaged.</para>
+        <para>In the final stages of the approach, reduce speed to acheive V<subscript>LS</subscript> at runway
+        threshold. Land as smoothly as possible, and apply max reverse as soon as the main gear touches down. Use brakes
+        as necessary and monitor brake temperatures carefully after landing. If temperatures exceed 800°C, tyre
+        deflation may occur.</para>
+      </sect2>
     </sect1>
     <sect1>
       <title>Electrical</title>
