@@ -169,10 +169,21 @@
         <para>If the reason for the stop was an engine fire on the upwind side, consider turning the aircraft into wind
         to keep the fire away from the fuselage.</para>
         <para>If there is any chance of requiring evacuation, bring the aircraft to a complete halt, apply the parking
-        brake, and order the cabin crew to stations. ECAM actions should then be carried out and the requirement for
-        evacuation assessed.</para>
+        brake, and order "Attention, crew at stations". ECAM actions should then be carried out and the requirement for
+        evacuation assessed. Otherwise order "Cabin crew, normal operations".</para>
         <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming
         the spoilers.</para>
+      </sect2>
+      <sect2>
+        <title>Evacuation</title>
+        <para>Evacuation should be done in accordance with the emergency evacuation checklist. The first two items
+        confirm the RTO actions of stopping the aircraft, setting the parking brake and alerting the cabin crew. The
+        next action is to alert ATC.</para>
+        <para>The next four items prepare the aircraft for evacuation. Check cabin diff is zero, and if necessary open
+        the outflow valve manually. Shut the engines down, and press all the fire buttons, including the APU. If there
+        are positive signs of fire, deploy the remaining extinguishers as required.</para>
+        <para>Finally, order the evacuation. This is primarily done with the PA "Evacuate, unfasten your seat belts and
+        get out", with the evacuation alarm being triggered as a backup.</para>
       </sect2>
     </sect1>
     <sect1>
