@@ -9,6 +9,6 @@
 <xsl:param name="section.label.includes.component.label" select="1"/>
 <xsl:param name="section.autolabel.max.depth" select="2"/>
 <xsl:param name="generate.section.toc.level" select="1"/>
-<xsl:param name="toc.max.depth" select="1"/>
+<xsl:param name="toc.max.depth" select="2"/>
 
 </xsl:stylesheet>
