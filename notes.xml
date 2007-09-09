@@ -146,6 +146,18 @@
         as necessary and monitor brake temperatures carefully after landing. If temperatures exceed 800°C, tyre
         deflation may occur.</para>
       </sect2>
+      <sect2>
+        <title>Stall recovery</title>
+        <para>As soon as a stall warning occurs, apply TOGA power while simultaneously reducing pitch attitude and
+        rolling wings level. Ensure the speedbrake is retracted. If there is a danger of ground contact, maintain a
+        pitch attitude that results in a gradual increase in speed to V<subscript>sw</subscript> (i.e. top of barber's
+        pole), then maintain V<subscript>sw</subscript>. Note that V<subscript>sw</subscript> is g sensitive.</para>
+        <para>If below 20,000ft and CONF 0, select FLAP 1. If the gear is down, retract it once there is no danger of
+        ground contact.</para>
+        <para>A stall warning may occur at high altitude to indicate that the aircraft is reaching
+        &alpha;<subscript>buffet</subscript>. In this case simply reduce the back pressure on the sidestick and/or
+        reduce bank angle.</para>
+      </sect2>
     </sect1>
     <sect1>
       <title>Electrical</title>
