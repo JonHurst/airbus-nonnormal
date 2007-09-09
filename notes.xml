@@ -299,12 +299,10 @@
         of the EPGWS and/or loss of TCAS. It may be possible to recover the IR in ATT mode using the procedure on page
         2.21 of the QRH.</para>
 
-        <para>A dual IR fault will lead to loss of PFD indications on one side. If IR 1+2 are lost, use ATT/HDG
-        switching to recover. It will also lead to Alternate Law and associated speed restrictions and landing
-        configuration considerations.</para>
+        <para>A dual IR fault will lead to loss of PFD indications on at least one side so use ATT/HDG switching to
+        recover. It will also lead to Alternate Law and associated speed restrictions and landing configuration
+        considerations.</para>
       </sect2>
-      
-
     </sect1>
     <sect1>
       <title>Auto-flight</title>
