@@ -158,6 +158,22 @@
         &alpha;<subscript>buffet</subscript>. In this case simply reduce the back pressure on the sidestick and/or
         reduce bank angle.</para>
       </sect2>
+      <sect2>
+        <title>Rejected Takeoff</title>
+
+        <para>Call "Stop" while simultaneously bringing the thrust levers to idle, then to max reverse. Monitor
+        automatic braking, and if there is any doubt, apply maximum manual braking. If normal braking fails, activate
+        alternate braking by turning the A/SKID &amp; N/W STRG switch off, then modulate brake pressure at 1000psi. The
+        F/O meanwhile monitors braking, confirms reverse, cancels any warnings, informs ATC and locates the evac
+        checklist.</para>
+        <para>If the reason for the stop was an engine fire on the upwind side, consider turning the aircraft into wind
+        to keep the fire away from the fuselage.</para>
+        <para>If there is any chance of requiring evacuation, bring the aircraft to a complete halt, apply the parking
+        brake, and order the cabin crew to stations. ECAM actions should then be carried out and the requirement for
+        evacuation assessed.</para>
+        <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming
+        the spoilers.</para>
+      </sect2>
     </sect1>
     <sect1>
       <title>Electrical</title>
