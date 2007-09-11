@@ -12,5 +12,5 @@ html : notes.xml myxhtml.xsl
 pdf: notes.pdf
 
 notes.pdf: notes.xml dblatex.xsl
-	dblatex -p dblatex.xsl notes.xml
+	dblatex -p dblatex.xsl -s mystyle notes.xml
 
