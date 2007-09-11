@@ -349,5 +349,66 @@
         radar image remains displayed, disregard it since the scale will be incorrect.</para>
       </sect2>
     </sect1>
+    <sect1>
+      <title>Hydraulics</title>
+      <sect2>
+        <title>Low Reservoir Air Pressure</title>
+        <para>Loss of air pressure to a hydraulic reservoir may lead to pump cavitation and hence fluctuating
+        pressures. If this occurs, turn off the affected pump, and if applicable, turn off the PTU. Cavitation reduces
+        with altitude, so it may be possible to reinstate the system during the descent.</para>
+      </sect2>
+      <sect2>
+        <title>Overheat</title>
+        <para>Turn off all affected pumps and if applicable, turn off the PTU. The system should be reinstated for the
+        approach if it has cooled sufficiently.</para>
+      </sect2>
+      <sect2>
+        <title>Loss of GREEN system</title>
+        <para>The major lost systems are normal landing gear operation (gravity extension is available), nose wheel
+        steering and normal brake system (including autobrake). Landing distance will be increased due to loss of two
+        spoilers per wing and reverser 1. Flap and slat deployment will be slow.</para>
+      </sect2>
+      <sect2>
+        <title>Loss of YELLOW system</title>
+        <para>Two spoilers per wing and reverser 2 are lost, so landing distance will increase slightly. Flap deployment
+        will be slow. As the alternate braking system is only available through the brake accumulator, ensure there is
+        sufficient pressure when the parking brake is set.</para>
+      </sect2>
+      <sect2>
+        <title>Loss of BLUE system</title>
+        <para>One spoiler per wing will be lost but this has negligible effect on landing distance. Slats will be slow to
+        deploy. Deployment of the RAT is not recommended unless another system is lost.</para>
+      </sect2>
+      <sect2>
+        <title>Loss of GREEN + BLUE </title>
+        <para>If BLUE has been lost due to the loss of its electrical pump, it may be recovered by deploying the
+        RAT.</para>
+        <para>The systems lost include the union of losses for the single hydraulic system losses described above. In
+        addition, the slats are jammed and the ailerons and left elevator are lost. This leads to Alternate Law and
+        hence loss of autopilots. Whilst the autothrust is available, it should be disconnected early in the approach as
+        it is not able to cope with the quantity of failed systems. The speed brake should not be used since the
+        differential spoilers are required for roll control. Due to the single elevator and lost ailerons, expect
+        slightly sluggish response in the flare.</para>
+      </sect2>
+      <sect2>
+        <title>Loss of GREEN + YELLOW</title>
+        <para>It may be possible to recover the YELLOW system using the YELLOW electrical pump.</para>
+        <para>The systems lost include the union of losses for the single hydraulic system losses described above. In
+        addition, the flaps are jammed, the reversers are lost, the yaw damper is lost, the stabiliser is frozen, and
+        the braking is by accumulator only (anti-skid lost). This is the worst case scenario for landing distance. The
+        lost systems lead to reversion to Alternate Law. With the stabiliser frozen, the transition to Direct Law at
+        gear extension should be delayed until CONF 3 and V<subscript>app</subscript> are achieved to allow the
+        elevators to be trimmed correctly for the approach.</para>
+      </sect2>
+      <sect2>
+        <title>Loss of BLUE + YELLOW</title>
+        <para>It may be possible to recover the YELLOW system using the YELLOW electrical pump or the BLUE system using
+        the RAT.</para>
+        <para>This is the least significant dual hydraulic loss. The systems lost include the union of losses for the
+        single hydraulic system losses described above. In addition the right elevator is lost and, due to losing
+        spoilers 2+3+4, the speed brake is unusable. Flight controls revert to Alternate Law so the autopilots are
+        lost.</para>
+      </sect2>
+    </sect1>
 </article>
 
