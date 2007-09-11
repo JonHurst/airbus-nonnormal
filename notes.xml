@@ -263,19 +263,42 @@
       <sect2>
         <title>Dual engine failure</title>
         <para>It is recommended that the QRH paper procedure on page 1.16 is used rather than the ECAM.</para>
-        <para>First priority, assuming fuel remains, is to attempt a relight. The FADECs will do this automatically, but
-        to improve the chances of a relight speed should initially be increased to 300kt. At this speed, the aircraft
-        will cover approximately 2nm for every 1000ft lost. With this in mind, a suitable plan should be constructed to
-        cover the possibility that relight is not possible.</para>
-        <para>If there has been no relight after 30 seconds, the engine masters should be turned off for 30 seconds,
-        then back on. This can be repeated until successful.</para>
-        <para>Once below FL250, the APU can be started and then once below FL200, assisted starts can be
-        attempted. Once the APU bleed is available, speed should be reduced to green dot. At this speed, 2½nm will be
-        covered for every 1000ft lost.</para>
-        <para>If a landing must be made without power, flaps and slats are available from blue hydraulics. CONF 3 is
-        recommended. The gear is available through gravity extension. Minimum speed is V<subscript>ref</subscript>+25kt
-        or 150kt, whichever is higher. Accumulator braking will be available. If ditching is required, the recommended
-        configuration is CONF 3 gear up.</para>
+        <para>First priority, assuming fuel remains, is to attempt a relight by turning the ignitors on and setting the
+        thrust levers to idle. The speed should initially be increased to 300kt to increase windmilling and improve the
+        chance of a relight. At this speed, the aircraft will cover approximately 2nm for every 1000ft lost. With this
+        in mind, a suitable plan should be constructed to cover the possibility that relight is not possible.</para>
+        <para>Whilst awaiting a relight, ensure that the emergency electrical generator is on line and recycle FAC1 to
+        recover characteristic speed display and rudder trim. For communications, VHF1 and ATC1 are available in the
+        emergency electrical config. Due to lack of engine bleeds, a slow depressurisation will be occuring, so be ready
+        to don oxygen masks.</para>
+        <para>If there has been no relight after 30 seconds, the combustion chambers should be ventilated by turning
+        both engine masters off for 30 seconds. Another attempt can then be made by turning them back on. This sequence
+        should be repeated until successful or until APU bleed air becomes available at FL200.</para>
+        <para>Once below FL250, the APU can be started. Once below FL200, speed should be reduced to green dot and
+        assisted starts should be attempted. At green dot speed, 2½nm will be covered for every 1000ft lost. Attempt to
+        start one engine at a time in the normal manner.</para>
+        <para>If a landing must be made without power, CONF 3 slats are recommended (flaps are
+        unavailable). V<subscript>app</subscript> should be V<subscript>ref</subscript>+25kt or 150kt, whichever is
+        higher. The gear is available with gravity extension. The stabilizer will be frozen once engine driven
+        hydraulics are lost and elevator trimming will cease with transition to direct law at gear extension. Therefore,
+        gear extension should be delayed until CONF 3 and V<subscript>app</subscript> are reached. If ditching, do not
+        extend the gear.</para>
+        <para>If an airfield can be reached, cross the outer marker at twice the normal height with CONF 1, gear up. For
+        a clean aircraft, the following rules of thumb apply {TODO: these are Boeing rules - check that they hold for
+        Airbus}:
+        <itemizedlist>
+          <listitem>
+            <para>A standard hold loses 8000ft</para>
+          </listitem>
+          <listitem>
+            <para>An orbit loses 4000ft</para>
+          </listitem>
+          <listitem>
+            <para>400ft is lost per nm</para>
+          </listitem>
+        </itemizedlist>
+        CONF 3, gear down will give a glide ratio of 800ft per nm.
+        </para>
       </sect2>
     </sect1>
     <sect1>
