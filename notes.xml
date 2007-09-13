@@ -303,6 +303,16 @@
         will occur at slat extension rather than gear extension.</para>
         <para>An attempt should be made to reset the affected SEC(s).</para>
       </sect2>
+      <sect2>
+        <title>Direct Law</title>
+        <para>In Direct Law, deflection of the control surfaces is a linear function of deflection of the side-stick and
+        trimming must be done manually. The controls are very sensitive at high speeds. Use of manual thrust is
+        recommended as power changes will result in pitch changes. Similarly, use of the speed brake will result in nose
+        up pitch changes so it should be used with care. Protections are unavailable, so speed is limited to 320kt/0.77M
+        and care must be taken in GPWS or windshear maneuvres. Approach speed is increased by 10kt and landing distances
+        increase by a factor of 1.2.</para>
+      </sect2>
+     
     </sect1>
     <sect1>
       <title>Fire</title>
