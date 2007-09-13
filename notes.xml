@@ -238,6 +238,16 @@
         <para>Diversion with flaps and/or slats extended may as much as double fuel consumption. The centre tank pumps
         will have to be manually controlled to access the fuel if slats are extended.</para>
       </sect2>
+      <sect2>
+        <title>Slats and Flaps fault in CONF 0</title>
+        <para>If the fault cannot be cleared by recycling the flap lever, a flaps and slats up landing must be made. The
+        V<subscript>REF</subscript> increment is 60kt for the approach, but speed is reduced at 500ft to be at
+        V<subscript>REF</subscript>+50kt by the the threshold. Landing distances will increase by a factor of
+        1.8. Landing speed is very close to tyre limiting speed.</para>
+        <para>The flap lever is set to 1 for the approach to enable AP/FD go-arounds. The centre tank pumps must be
+        turned off manually since their automatic mode is triggered by slat extension. Depending on the reason for the
+        failure, flight controls may revert to Alternate Law.</para>
+      </sect2>
     </sect1>
     <sect1>
       <title>Fire</title>
