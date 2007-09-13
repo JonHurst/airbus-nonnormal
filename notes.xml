@@ -273,6 +273,11 @@
         <para>The wingtip brakes activate in case of assymetry, mechanism overspeed, symmetrical runaway or uncommanded
         movements. This protection is lost.</para>
       </sect2>
+      <sect2>
+        <title>Flap attach sensor failure</title>
+        <para>The flap attach sensor monitors detects excessive differential movement between the inner and outer flaps
+        which would indicate failure of a flap attachment. This protection is lost.</para>
+      </sect2>
     </sect1>
     <sect1>
       <title>Fire</title>
