@@ -221,32 +221,57 @@
     </sect1>
     <sect1>
       <title>Flight controls</title>
-      <sect2>
-        <title>Landing with slats or flaps jammed</title>
-        <para>The selected landing configuration should be CONF 3. If the slats are jammed, the flaps will still move
-        and vice versa. Therefore V<subscript>FE</subscript> (barbers pole with CONF&gt;0) and V<subscript>FE
-        next</subscript>, which are a function of flap lever position, must be honored during
-        configuration. V<subscript>LS</subscript> is computed according to actual configuration. It is possible that
-        V<subscript>LS</subscript>&gt;V<subscript>FE next</subscript>. If this occurs, speed should be reduced below
-        V<subscript>LS</subscript> as the surfaces extend. This will require temporary disconnection of the
-        autothrust. Use of managed speed is not recommended during configuration.</para>
+      <sect2 id="flight-controls.slats-flaps-fault">
+        <title>Flaps and/or slats fault/locked</title>
+        <para>If the flaps and/or slats cannot be retracted, max operating speed is reduced to the placard limit for the
+        flap lever position required to attain the position of the most extended device. Bear in mind that CONF 2 and
+        CONF 3 result in the same slat position. V<subscript>FE</subscript> is calculated directly from flap lever
+        position, so the barber's pole will show accurate max operating speed when the flap lever is set to this
+        position.</para>
+
+        <para>The flap lever can be recycled if there is not an obvious reason not to (e.g. wing tip brake on or fault
+        due to dual hydraulic failure).</para>
+
+        <para>The flap lever will continue to move the slats if the flaps are locked and vice versa. In general, flap 3
+        should be selected for landing. There are two exceptions. If flaps are locked at &gt;3, flap full should be
+        used. If both slats and flaps are locked at 0, flap 1 should be used so that the AP/FD go-around is
+        armed.</para>
+        
+        <para>Speeds and landing distance corrections are available on page 2.32 of the QRH. If a flapless and slatless
+        landing is required, the approach speed correction is 60kt, reducing from 500ft aal to be at the threshold at
+        V<subscript>REF</subscript>+50kt. The threshold speed in this case may be below V<subscript>LS</subscript>, but
+        this is necessary as the landing speeds are very close to tyre limit speeds.</para>
+
+        <para>During configuration, V<subscript>LS</subscript> is computed from actual configuration and V<subscript>FE
+        next</subscript> is computed from flap lever position. This may lead to a situation where
+        V<subscript>LS</subscript>&gt;V<subscript>FE next</subscript>. It is therefore acceptable to set the next flap
+        lever position when above V<subscript>FE next</subscript> and reduce the speed to follow
+        V<subscript>LS</subscript> as the surfaces extend. Use of managed speed is not recommended during
+        configuration.</para>
+
         <para>The autopilot may be used down to 500ft AAL, but since it is not tuned for the abnormal configuration it
         must be closely monitored.</para>
-        <para>For the go-around, initially maintain flap/ slat configuration. Maximum speeds are available on page 2.05
-        of the QRH, and in general a speed 10kt lower than max speed should be flown. If it is the slats that are jammed
-        or if the flaps are jammed at 0, clean configuration can be used to transit to a diversion airfield.</para>
-        <para>Diversion with flaps and/or slats extended may as much as double fuel consumption. The centre tank pumps
-        will have to be manually controlled to access the fuel if slats are extended.</para>
+
+        <para>For the go-around, initially maintain flap/ slat configuration. A speed 10kt lower than max operating
+        speed should be flown. If it is the slats that are jammed or if the flaps are jammed at 0, clean configuration
+        can be used to transit to a diversion airfield. Diversion with flaps and/or slats extended may as much as double
+        fuel consumption.</para>
+
+        <para>Other issues include the possible loss of the automatic operation of the centre tank pumps (which
+        is sequenced to the slats) and possible reversion to Alternate Law.</para>
       </sect2>
       <sect2>
-        <title>Slats and Flaps fault in CONF 0</title>
-        <para>If the fault cannot be cleared by recycling the flap lever, a flaps and slats up landing must be made. The
-        V<subscript>REF</subscript> increment is 60kt for the approach, but speed is reduced at 500ft to be at
-        V<subscript>REF</subscript>+50kt by the the threshold. Landing distances will increase by a factor of
-        1.8. Landing speed is very close to tyre limiting speed.</para>
-        <para>The flap lever is set to 1 for the approach to enable AP/FD go-arounds. The centre tank pumps must be
-        turned off manually since their automatic mode is triggered by slat extension. Depending on the reason for the
-        failure, flight controls may revert to Alternate Law.</para>
+        <title>SFCC faults</title>
+        <para>Each SFCC has fully independant slat and flap channels. A failure of a channel in a single controller will
+        lead to slow operation of the associated surfaces. In addition, the flap channel of SFFC1 provides input to the
+        idle control part of the FADECs and to the EGPWC.</para>
+        <para>Failure of both flap channels or failure of both slat channels is covered in <xref
+        linkend="flight-controls.slats-flaps-fault"/>. </para>
+      </sect2>
+      <sect2>
+        <title>Wingtip brake fault</title>
+        <para>The wingtip brakes activate in case of assymetry, mechanism overspeed, symmetrical runaway or uncommanded
+        movements. This protection is lost.</para>
       </sect2>
     </sect1>
     <sect1>
