@@ -312,7 +312,17 @@
         and care must be taken in GPWS or windshear maneuvres. Approach speed is increased by 10kt and landing distances
         increase by a factor of 1.2.</para>
       </sect2>
-     
+      <sect2>
+        <title>Stabilizer jam</title>
+        <para>Manual pitch trim is a mechanical connection to the stabilizer actuator. It may be possible to use manual
+        pitch trim when the ELACs have detected a stabilizer jam, although it may be heavier than normal. If it is
+        useable, trim for neutral elevators.</para>
+        <para>The flight controls will revert to Alternate Law. If the stabilizer could not be moved, gear extension
+        should be delayed until CONF 3 and V<subscript>APP</subscript> are acheived so that the elevators are properly
+        trimmed.</para>
+        <para>If the jam is caused by the mechanical connection, it is possible that the ELACs will not detect the
+        problem. The procedure in this case is similar, but Normal Law will remain.</para>
+      </sect2>
     </sect1>
     <sect1>
       <title>Fire</title>
