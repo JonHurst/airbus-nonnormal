@@ -197,6 +197,19 @@
         the body can be moved. Medical help should be sought from passengers, and the presence of any type rated company
         pilots on board ascertained.</para>
       </sect2>
+      <sect2>
+        <title>Computer reset</title>
+        <para>Abnormal computer behaviour can often be stopped by interupting the power supply of the affected
+        computer. This can be done either with cockpit controls or with circuit breakers. The general procedure is to
+        interupt the power supply, wait 3 seconds (5 seconds if a C/B was used), restore the power, then wait another
+        three seconds for the reset to complete. Specific procedures are detailed in the computer reset tables on page
+        2.36 of the QRH.</para>
+
+        <para>On the ground, almost all computers can be reset. The exceptions are the ECU and EIU while the associated
+        engine is running and the BDCU when the aircraft is not stopped.</para>
+
+        <para>In flight, only the computers listed in the reset table should be considered for reset.</para>
+      </sect2>
     </sect1>
     <sect1>
       <title>Electrical</title>
