@@ -22,6 +22,11 @@
         and CONF full when on final approach. {TODO: Check how climb gradient/ flap decision is determined.}</para>
       </sect2>
       <sect2>
+        <title>Engine inoperative approach</title>
+        <para>Landing configuration is flap full unless a level off is required during final approach. In this case
+        CONF 3 should be used. Selection of full flaps should be delayed until final descent.</para>
+      </sect2>
+      <sect2>
         <title>Engine failure in cruise</title>
         <para>Set MCT on live engine then disconnect the autothrust. Start ECAM actions and notify ATC. Decide on
         strategy - standard strategy increases the chance of an engine relight, whilst obstacle strategy maintains the
