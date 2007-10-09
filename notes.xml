@@ -24,7 +24,9 @@
       <sect2>
         <title>Engine inoperative approach</title>
         <para>Landing configuration is flap full unless a level off is required during final approach. In this case
-        CONF 3 should be used. Selection of full flaps should be delayed until final descent.</para>
+        CONF 3 should be used. Selection of full flaps should be delayed until final descent. It is not permissable to
+        use the autopilot to perform single engine NPAs in FINAL APP, NAV V/S or NAV FPA modes. These modes may,
+        however, be used with the FDs.</para>
       </sect2>
       <sect2>
         <title>Engine failure in cruise</title>
