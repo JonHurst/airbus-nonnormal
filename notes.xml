@@ -410,16 +410,18 @@
       <title>Landing gear</title>
       <sect2>
         <title>Loss of braking</title>
-        <para role="ref">[QRH 1.13, FCOM 3.2.32.20000, no ECAM] <emphasis>(memory item)</emphasis></para> <para>If it is simply an autobrake
-        failure, just brake manually. Otherwise, apply max reverse and attempt to use the alternate brake system. To do
-        this, release the brake pedals and turn off the ASKID &amp; NW STRG switch. If the alternate system also appears
-        to have failed, short successive applications of the parking brake may be used. Use of the parking brake in this
-        way risks tire burst and lateral control difficulties (due brake onset assymetry) so delay until low speed if at
-        all possible.</para>
+        <para><citation>QRH 1.13, FCOM 3.2.32.20000, no ECAM</citation> <emphasis>(memory item)</emphasis></para>
+
+        <para>If it is simply an autobrake failure, just brake manually. Otherwise, apply max reverse and attempt to use
+        the alternate brake system. To do this, release the brake pedals and turn off the ASKID &amp; NW STRG switch. If
+        the alternate system also appears to have failed, short successive applications of the parking brake may be
+        used. Use of the parking brake in this way risks tire burst and lateral control difficulties (due brake onset
+        assymetry) so delay until low speed if at all possible.</para>
       </sect2>
+
       <sect2>
         <title>Residual braking procedure</title>
-        <para role="ref">[QRH 2.10B, FCOM 3.2.32.23000, no ECAM]</para>
+        <para><citation>QRH 2.10B, FCOM 3.2.32.23000, no ECAM</citation></para>
         <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM warning. {TODO:
         This is in 3.3.18 but not in ezy-b - check whether our brake systems are modified}. A brief brake pressure
         indication is expected as the alternate system self tests after the gear is down locked, but pressure should
@@ -430,7 +432,7 @@
       </sect2>
       <sect2 id="gear-gravity-extension">
         <title>Gravity extension</title>
-        <para role="ref">[QRH 2.11, FCOM 3.2.32.4000, no ECAM]</para>
+        <para><citation>QRH 2.11, FCOM 3.2.32.4000, no ECAM</citation></para>
         <para>Gravity extension is acheived by turning the GRAVITY GEAR EXTN handcrank clockwise three times until a
         mechanical stop is reached. Once the gear is down, the LG lever should be set to down to extinguish the UNLK
         lights and remove the LG CTL message from the WHEEL page.</para>
@@ -444,7 +446,7 @@
       </sect2>
       <sect2>
         <title>Asymmetric braking</title>
-        <para role="ref">[QRH 2.11, FCOM 3.2.32.32000, no ECAM]</para>
+        <para><citation>QRH 2.11, FCOM 3.2.32.32000, no ECAM</citation></para>
         <para>If brakes are only available on one side, apply the remaining brake progressively whilst countering swing
         with rudder. Do not use the reverse on the same side as the working brake. Landing distances will increase
         significantly so check QRH 2.32 for landing distance factor. {TODO: How do you tell that all brakes of one gear
@@ -452,7 +454,7 @@
       </sect2>
       <sect2>
         <title>Landing with abnormal landing gear</title>
-        <para role="ref">[QRH 2.12, FCOM 3.2.32.11000, no ECAM]</para>
+        <para><citation>QRH 2.12, FCOM 3.2.32.11000, no ECAM</citation></para>
         <para>A landing should be carried out on a hard surface runway using any available landing gear. Foaming of the
         runway is recommended. Manual braking should be used. Reverse thrust should not be used as it will cause ground
         spoiler extension. The GRVTY GEAR EXTN handcrank should be turned back to normal to allow the landing gear down
