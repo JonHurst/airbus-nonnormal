@@ -408,7 +408,7 @@
     </sect1>
     <sect1>
       <title>Landing gear</title>
-      <sect2>
+      <sect2 id="loss-of-braking">
         <title>Loss of braking <emphasis>(memory item)</emphasis></title>
         <para><citation>QRH 1.13, FCOM 3.2.32.20000</citation></para>
         <para>If it is simply an autobrake failure, just brake manually. Otherwise, apply max reverse and attempt to use
@@ -442,7 +442,7 @@
         <para>Gear doors may show amber on the WHEEL page after gravity extension. There may also be spurious LGCIU 2
         FAULT or BRAKES SYS 1(2) FAULT ECAM warnings</para>
       </sect2>
-      <sect2>
+      <sect2 id="asymmetric-braking">
         <title>Asymmetric braking</title>
         <para><citation>QRH 2.11, FCOM 3.2.32.32000, FCOM 1.32.30</citation></para>
         <para>If brakes are only available on one side (indicated by amber brake release indicators on both wheels of
@@ -632,8 +632,49 @@
         </para>
       </sect2>
       <sect2>
-        <title>Norm + Altn fault</title>
+        <title>Failure of normal braking system</title>
+        <para><citation>FCOM 3.2.32.26000, FCOM 1.32.30.3000, amber ECAM: NORM BRK FAULT</citation></para>
+        <para>Normal braking is lost, but alternate braking and anti-skid are available. Landing distance increases
+        slightly.</para>
+      </sect2>
+      <sect2>
+        <title>Failure of alternate braking system</title>
+        <para><citation>FCOM 3.2.32.30000, FCOM 1.32.30.3000, amber ECAM: BRAKES ALTN BRK FAULT</citation></para>
+        <para>Loss of redundancy only.</para>
+      </sect2>
+      <sect2>
+        <title>Failure of normal and alternate braking systems</title>
         <para><citation>FCOM 3.2.32.25000, FCOM 1.32.30.3000, amber ECAM: NORM + ALTN FAULT</citation></para>
+        <para>The only braking remaining is the parking brake. See <xref linkend="loss-of-braking"/> for method.</para>
+      </sect2>
+      <sect2>
+        <title>Brake accumulator low pressure</title>
+        <para><citation>FCOM 3.2.32.27000, FCOM 1.32.30.3000, amber ECAM: BRK Y ACCU LO PR</citation></para>
+        <para>Braking is not available unless either the green or yellow hydraulic systems are pressurised. If the
+        engines are shut down, attempt to recharge the accumulator using the yellow system electrical pump. When parking
+        the aircraft, use chocks.</para>
+      </sect2>
+      <sect2 id="released-normal-brakes">
+        <title>Released brakes, normal system</title>
+        <para><citation>FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: BRAKES RELEASED</citation></para>
+        <para>If normal braking is active and at least one engine is running, the BSCU self tests when it receives a
+        "gear downlocked" signal from either of the LGCIUs. The BRAKES RELEASED ECAM is provided if at least one set of
+        brakes on a main wheel is incorrectly released during this test. The failed brake is shown by an amber release
+        symbol on the WHEEL page. Loss of a brake leads to increased landing distances. If both brakes on the same gear
+        are released, see <xref linkend="asymmetric-braking"/>.</para>
+      </sect2>
+      <sect2>
+        <title>Released brakes, alternate system</title>
+        <para><citation>FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: ALTERNATE L(R) RELEASED</citation></para>
+        <para>The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
+        linkend="released-normal-brakes"/>). If this test is failed, normal braking can be expected as long as the
+        normal braking system is active. If the alternate braking system is active, braking will be asymmetric (see
+        <xref linkend="asymmetric-braking"/>).</para>
+      </sect2>
+      <sect2>
+        <title>Minor nosewheel steering fault</title>
+        <para><citation>FCOM 3.2.32.29000, FCOM 1.32.30.3000, amber ECAM: BRAKES-N/WS MINOR FAULT</citation></para>
+        <para>{TODO: Its not very clear from the FCOM what this refers to}</para>
       </sect2>
 
       <sect2 id="brake-temperature-limitations">
