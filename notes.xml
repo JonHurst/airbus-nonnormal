@@ -409,19 +409,17 @@
     <sect1>
       <title>Landing gear</title>
       <sect2>
-        <title>Loss of braking</title>
-        <para><citation>QRH 1.13, FCOM 3.2.32.20000, no ECAM</citation> <emphasis>(memory item)</emphasis></para>
-
+        <title>Loss of braking <emphasis>(memory item)</emphasis></title>
+        <para><citation>QRH 1.13, FCOM 3.2.32.20000</citation></para>
         <para>If it is simply an autobrake failure, just brake manually. Otherwise, apply max reverse and attempt to use
         the alternate brake system. To do this, release the brake pedals and turn off the ASKID &amp; NW STRG switch. If
         the alternate system also appears to have failed, short successive applications of the parking brake may be
         used. Use of the parking brake in this way risks tire burst and lateral control difficulties (due brake onset
         assymetry) so delay until low speed if at all possible.</para>
       </sect2>
-
       <sect2>
         <title>Residual braking procedure</title>
-        <para><citation>QRH 2.10B, FCOM 3.2.32.23000, no ECAM</citation></para>
+        <para><citation>QRH 2.10B, FCOM 3.2.32.23000</citation></para>
         <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM warning. {TODO:
         This is in 3.3.18 but not in ezy-b - check whether our brake systems are modified}. A brief brake pressure
         indication is expected as the alternate system self tests after the gear is down locked, but pressure should
@@ -432,7 +430,7 @@
       </sect2>
       <sect2 id="gear-gravity-extension">
         <title>Gravity extension</title>
-        <para><citation>QRH 2.11, FCOM 3.2.32.4000, no ECAM</citation></para>
+        <para><citation>QRH 2.11, FCOM 3.2.32.4000</citation></para>
         <para>Gravity extension is acheived by turning the GRAVITY GEAR EXTN handcrank clockwise three times until a
         mechanical stop is reached. Once the gear is down, the LG lever should be set to down to extinguish the UNLK
         lights and remove the LG CTL message from the WHEEL page.</para>
@@ -446,7 +444,7 @@
       </sect2>
       <sect2>
         <title>Asymmetric braking</title>
-        <para><citation>QRH 2.11, FCOM 3.2.32.32000, FCOM 1.32.30, no ECAM</citation></para>
+        <para><citation>QRH 2.11, FCOM 3.2.32.32000, FCOM 1.32.30</citation></para>
         <para>If brakes are only available on one side (indicated by amber brake release indicators on both wheels of
         one main gear {TODO: check this} ), apply the remaining brake progressively whilst countering swing
         with rudder. Do not use the reverse on the same side as the working brake. Landing distances will increase
@@ -454,7 +452,7 @@
       </sect2>
       <sect2>
         <title>Landing with abnormal landing gear</title>
-        <para><citation>QRH 2.12, FCOM 3.2.32.11000, no ECAM</citation></para>
+        <para><citation>QRH 2.12, FCOM 3.2.32.11000</citation></para>
         <para>A landing should be carried out on a hard surface runway using any available landing gear. Foaming of the
         runway is recommended. Manual braking should be used. Reverse thrust should not be used as it will cause ground
         spoiler extension. The GRVTY GEAR EXTN handcrank should be turned back to normal to allow the landing gear down
@@ -493,52 +491,51 @@
         (see FCOM 3.5.35) must be reduced by 14%. Fuel burn will increase (approximate factor is 2.3). Engine out
         ceiling and take-off performance are also impacted. Tables for calculation are available in FCOM 2.4.25.</para>
       </sect2>
-
       <sect2>
-        <title>L/G shock absorber fault</title>
-        <para><citation>FCOM 3.2.32.1000, FCOM 1.32.10.4000, ECAM (amber)</citation></para>
+        <title>Gear shock absorber fault</title>
+        <para><citation>FCOM 3.2.32.1000, FCOM 1.32.10.4000, amber ECAM: L/G SHOCK ABSORBER FAULT</citation></para>
         
         <para>A shock absorber did not extend when airborne or did not compress on landing. If airborne the gear cannot
         be retracted. Respect the gear extended limit speed of 280kt and see <xref
         linkend="flight-with-gear-extended"/>.</para>
       </sect2>
       <sect2>
-        <title>L/G not uplocked</title>
-        <para><citation>FCOM 3.2.32.2000, FCOM 1.32.10.4000, ECAM (amber)</citation></para>
+        <title>Gear not uplocked</title>
+        <para><citation>FCOM 3.2.32.2000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR NOT UPLOCKED</citation></para>
         <para>Landing gear retraction sequence has not completed within 30 seconds. If the gear doors have closed, the
         gear will rest on the doors so avoid excess g loads. If the doors have not closed, recycle the gear. If this
         does not work, select the gear down and see <xref linkend="flight-with-gear-extended"/>.</para>
       </sect2>
       <sect2>
-        <title>L/G not downlocked</title>
-        <para><citation>FCOM 3.2.32.3000, FCOM 1.32.10.4000, ECAM (red)</citation></para>
+        <title>Gear not downlocked</title>
+        <para><citation>FCOM 3.2.32.3000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWNLOCKED</citation></para>
 
         <para>Landing gear extension sequence has not completed within 30 seconds. Retract the gear and wait until it
         has fully stowed, then redeploy. If this is not successful, attempt to deploy the gear by gravity (see <xref
         linkend="gear-gravity-extension"/>).</para>
       </sect2>
       <sect2>
-        <title>L/G doors not closed</title>
-        <para><citation>FCOM 3.2.32.5000, FCOM 1.32.10.4000, ECAM (amber)</citation></para>
+        <title>Gear doors not closed</title>
+        <para><citation>FCOM 3.2.32.5000, FCOM 1.32.10.4000, amber ECAM: L/G DOORS NOT CLOSED</citation></para>
         
         <para>A gear door is not uplocked. Recycle the gear. If the doors cannot be closed, speed is limited to
         250kt/M0.6.</para>
       </sect2>
       <sect2>
-        <title>L/G uplock fault</title>
-        <para><citation>FCOM 3.2.32.6000, FCOM 1.32.10.4000, ECAM (amber)</citation></para>
+        <title>Uplock fault</title>
+        <para><citation>FCOM 3.2.32.6000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR UPLOCK FAULT</citation></para>
         <para>An uplock is engaged when the corresponding gear is downlocked. As the uplock will not move to accept the
         gear the gear must be left down. See <xref linkend="flight-with-gear-extended"/>.</para>
       </sect2>
       <sect2>
-        <title>L/G sys disagree</title>
-        <para><citation>FCOM 3.2.32.8000, FCOM 1.32.10.4000, ECAM (amber)</citation></para>
+        <title>LGCIU disagreement</title>
+        <para><citation>FCOM 3.2.32.8000, FCOM 1.32.10.4000, amber ECAM: L/G SYS DISAGREE</citation></para>
         <para>The LGCIUs disagree on the position of the gear. In the absence of other ECAM warnings, the gear position
         can be assumed to agree with the gear lever position.</para>
       </sect2>
       <sect2>
         <title>LGCIU fault</title>
-        <para><citation>FCOM 3.2.32.9000, FCOM 1.32.10.4000, ECAM (amber)</citation></para>
+        <para><citation>FCOM 3.2.32.9000, FCOM 1.32.10.4000, amber ECAM: L/G LGCIU 1(2) FAULT</citation></para>
         
         <para>The FADECs use LGCIU input to determine idle mode. If a LGCIU is determined to be faulty, the system
         failsafes to approach idle mode, and modulated idle and reverse idle (and hence reversers) will not be
@@ -554,7 +551,7 @@
       </sect2>
       <sect2>
         <title>Gear not down</title>
-        <para><citation>FCOM 3.2.32.10000, FCOM 1.32.10.4000, ECAM (red)</citation></para>
+        <para><citation>FCOM 3.2.32.10000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWN</citation></para>
         
         <para>Indicates that the landing gear is not downlocked when radio altitude is below 750ft rad alt and N1 and
         flap setting indicate that the aircraft is on approach. If rad alt data is not available, it indicates gear is
@@ -563,27 +560,27 @@
       </sect2>
       <sect2>
         <title>Park brake on</title>
-        <para><citation>FCOM 3.2.32.12000, FCOM 1.32.30.3000, ECAM (red)</citation></para>
+        <para><citation>FCOM 3.2.32.12000, FCOM 1.32.30.3000, red ECAM: CONFIG PARK BRK ON</citation></para>
         <para>The parking brake is set when the thrust levers are set to FLX or TOGA. Check the position of the brake
         handle position and for pressure indications on the brake triple gauge.</para>
       </sect2>
       <sect2>
         <title>Nosewheel steering fault</title>
-        <para><citation>FCOM3.2.32.14000, FCOM 1.32.20.3000, ECAM (amber)</citation></para>
+        <para><citation>FCOM 3.2.32.14000, FCOM 1.32.20.3000, amber ECAM: WHEEL N/W STRG FAULT</citation></para>
         <para>Nosewheel steering is unavailable so differential braking must be used to steer the aircraft. The
         nosewheel may not be aligned if the L/G shock absorber ECAM is also displayed, in which case delay nosewheel
         touch down as long as possible. Cat III dual will not be available.</para>
       </sect2>
       <sect2 id="antiskid-nosewheel-steering-off">
         <title>Antiskid nosewheel steering off</title>
-        <para><citation>FCOM 3.2.32.15000, FCOM 1.32.30.3000, ECAM (amber)</citation></para>
+        <para><citation>FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES ANTI SKID/NWS OFF</citation></para>
         <para>The A/SKID &amp; NW STRG switch is off. The ABCU controls
         braking through the alternate braking system. Antiskid is not available so landing distance will increase
         significantly. Autobrake and nosewheel steering will also not be available.</para>
       </sect2>
       <sect2>
         <title>Antiskid nosewheel steering fault</title>
-        <para><citation>FCOM 3.2.32.15000, FCOM 1.32.30.3000, ECAM (amber)</citation></para>
+        <para><citation>FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES A/SKID NWS FAULT</citation></para>
         <para>Either:
         <itemizedlist>
           <listitem><para>both BSCU channels have failed or</para></listitem>
@@ -594,13 +591,13 @@
           pressure is low braking will be accumulator only.</para>
       </sect2>
       <sect2>
-        <title>Brake sys fault</title>
-        <para><citation>FCOM 3.2.32.17000, FCOM 1.32.30.3000, ECAM (amber)</citation></para>
-        <para>One channel of the BSCU is lost. Loss of redundancy only.</para>
+        <title>Brake system fault</title>
+        <para><citation>FCOM 3.2.32.17000, FCOM 1.32.30.3000, amber ECAM: BRAKES SYS 1(2) FAULT</citation></para>
+        <para>A fault has been detected in one channel of the BSCU. Loss of redundancy only.</para>
       </sect2>
       <sect2>
         <title>Brakes hot</title>
-        <para><citation>FCOM 3.2.32.18000, FCOM 1.32.30.3000, ECAM (amber)</citation></para>
+        <para><citation>FCOM 3.2.32.18000, FCOM 1.32.30.3000, amber ECAM: BRAKES HOT</citation></para>
 
         <para>At least one brake temperature is &gt;300°C. Check <xref linkend="brake-temperature-limitations"/> if the
         temperature is excessive or the brake temperatures are not reasonably even.</para>
@@ -614,16 +611,14 @@
         to allow the brakes to cool.</para>
 
       </sect2>
-
       <sect2>
         <title>Auto brake fault</title>
-        <para><citation>FCOM 3.2.32.19000, FCOM 1.32.30.3000, ECAM (amber)</citation></para>
+        <para><citation>FCOM 3.2.32.19000, FCOM 1.32.30.3000, amber ECAM: BRAKES AUTO BRK FAULT</citation></para>
         <para>A failure was detected when the autobrake was armed. Brake manually.</para>
       </sect2>
-
       <sect2>
-        <title>Hyd sel fault</title>
-        <para><citation>FCOM 3.2.32.21000, FCOM 1.32.30.3000, ECAM (amber)</citation></para>
+        <title>Hydraulic selector valve fault</title>
+        <para><citation>FCOM 3.2.32.21000, FCOM 1.32.30.3000, amber ECAM: WHEEL HYD SEL FAULT</citation></para>
         <para>This ECAM message may indicate two completely different conditions:
         <orderedlist>
           <listitem><para>The normal brake selector valve has failed in the open position. The normal servo valves
@@ -635,6 +630,10 @@
           &amp; N/W STRG switch is selected off or the BSCU is reset.</para></listitem>
         </orderedlist>
         </para>
+      </sect2>
+      <sect2>
+        <title>Norm + Altn fault</title>
+        <para><citation>FCOM 3.2.32.25000, FCOM 1.32.30.3000, amber ECAM: NORM + ALTN FAULT</citation></para>
       </sect2>
 
       <sect2 id="brake-temperature-limitations">
