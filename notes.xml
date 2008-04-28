@@ -410,7 +410,7 @@
       <title>Landing gear</title>
       <sect2 id="loss-of-braking">
         <title>Loss of braking <emphasis>(memory item)</emphasis></title>
-        <para><citation>QRH 1.13, FCOM 3.2.32.20000</citation></para>
+        <para>[QRH 1.13, FCOM 3.2.32.20000]</para>
         <para>If it is simply an autobrake failure, just brake manually. Otherwise, apply max reverse and attempt to use
         the alternate brake system. To do this, release the brake pedals and turn off the ASKID &amp; NW STRG switch. If
         the alternate system also appears to have failed, short successive applications of the parking brake may be
@@ -419,7 +419,7 @@
       </sect2>
       <sect2>
         <title>Residual braking procedure</title>
-        <para><citation>QRH 2.10B, FCOM 3.2.32.23000</citation></para>
+        <para>[QRH 2.10B, FCOM 3.2.32.23000]</para>
         <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM warning. {TODO:
         This is in 3.3.18 but not in ezy-b - check whether our brake systems are modified}. A brief brake pressure
         indication is expected as the alternate system self tests after the gear is down locked, but pressure should
@@ -430,7 +430,7 @@
       </sect2>
       <sect2 id="gear-gravity-extension">
         <title>Gravity extension</title>
-        <para><citation>QRH 2.11, FCOM 3.2.32.4000</citation></para>
+        <para>[QRH 2.11, FCOM 3.2.32.4000]</para>
         <para>Gravity extension is acheived by turning the GRAVITY GEAR EXTN handcrank clockwise three times until a
         mechanical stop is reached. Once the gear is down, the LG lever should be set to down to extinguish the UNLK
         lights and remove the LG CTL message from the WHEEL page.</para>
@@ -444,7 +444,7 @@
       </sect2>
       <sect2 id="asymmetric-braking">
         <title>Asymmetric braking</title>
-        <para><citation>QRH 2.11, FCOM 3.2.32.32000, FCOM 1.32.30</citation></para>
+        <para>[QRH 2.11, FCOM 3.2.32.32000, FCOM 1.32.30]</para>
         <para>If brakes are only available on one side (indicated by amber brake release indicators on both wheels of
         one main gear {TODO: check this} ), apply the remaining brake progressively whilst countering swing
         with rudder. Do not use the reverse on the same side as the working brake. Landing distances will increase
@@ -452,7 +452,7 @@
       </sect2>
       <sect2>
         <title>Landing with abnormal landing gear</title>
-        <para><citation>QRH 2.12, FCOM 3.2.32.11000</citation></para>
+        <para>[QRH 2.12, FCOM 3.2.32.11000]</para>
         <para>A landing should be carried out on a hard surface runway using any available landing gear. Foaming of the
         runway is recommended. Manual braking should be used. Reverse thrust should not be used as it will cause ground
         spoiler extension. The GRVTY GEAR EXTN handcrank should be turned back to normal to allow the landing gear down
@@ -476,7 +476,7 @@
       </sect2>
       <sect2 id="flight-with-gear-extended">
         <title>Flight with landing gear extended</title>
-        <para><citation>FCOM 2.4.25</citation></para>
+        <para>[FCOM 2.4.25]</para>
 
         <para>Flight into expected icing conditions is not approved. Gear down ditching has not been demonstrated. FMGC
         predictions will be erroneous - selected speed should be used for all phases except approach. Altitude alerting
@@ -493,7 +493,7 @@
       </sect2>
       <sect2>
         <title>Gear shock absorber fault</title>
-        <para><citation>FCOM 3.2.32.1000, FCOM 1.32.10.4000, amber ECAM: L/G SHOCK ABSORBER FAULT</citation></para>
+        <para>[FCOM 3.2.32.1000, FCOM 1.32.10.4000, amber ECAM: L/G SHOCK ABSORBER FAULT]</para>
         
         <para>A shock absorber did not extend when airborne or did not compress on landing. If airborne the gear cannot
         be retracted. Respect the gear extended limit speed of 280kt and see <xref
@@ -501,14 +501,14 @@
       </sect2>
       <sect2>
         <title>Gear not uplocked</title>
-        <para><citation>FCOM 3.2.32.2000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR NOT UPLOCKED</citation></para>
+        <para>[FCOM 3.2.32.2000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR NOT UPLOCKED]</para>
         <para>Landing gear retraction sequence has not completed within 30 seconds. If the gear doors have closed, the
         gear will rest on the doors so avoid excess g loads. If the doors have not closed, recycle the gear. If this
         does not work, select the gear down and see <xref linkend="flight-with-gear-extended"/>.</para>
       </sect2>
       <sect2>
         <title>Gear not downlocked</title>
-        <para><citation>FCOM 3.2.32.3000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWNLOCKED</citation></para>
+        <para>[FCOM 3.2.32.3000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWNLOCKED]</para>
 
         <para>Landing gear extension sequence has not completed within 30 seconds. Retract the gear and wait until it
         has fully stowed, then redeploy. If this is not successful, attempt to deploy the gear by gravity (see <xref
@@ -516,26 +516,26 @@
       </sect2>
       <sect2>
         <title>Gear doors not closed</title>
-        <para><citation>FCOM 3.2.32.5000, FCOM 1.32.10.4000, amber ECAM: L/G DOORS NOT CLOSED</citation></para>
+        <para>[FCOM 3.2.32.5000, FCOM 1.32.10.4000, amber ECAM: L/G DOORS NOT CLOSED]</para>
         
         <para>A gear door is not uplocked. Recycle the gear. If the doors cannot be closed, speed is limited to
         250kt/M0.6.</para>
       </sect2>
       <sect2>
         <title>Uplock fault</title>
-        <para><citation>FCOM 3.2.32.6000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR UPLOCK FAULT</citation></para>
+        <para>[FCOM 3.2.32.6000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR UPLOCK FAULT]</para>
         <para>An uplock is engaged when the corresponding gear is downlocked. As the uplock will not move to accept the
         gear the gear must be left down. See <xref linkend="flight-with-gear-extended"/>.</para>
       </sect2>
       <sect2>
         <title>LGCIU disagreement</title>
-        <para><citation>FCOM 3.2.32.8000, FCOM 1.32.10.4000, amber ECAM: L/G SYS DISAGREE</citation></para>
+        <para>[FCOM 3.2.32.8000, FCOM 1.32.10.4000, amber ECAM: L/G SYS DISAGREE]</para>
         <para>The LGCIUs disagree on the position of the gear. In the absence of other ECAM warnings, the gear position
         can be assumed to agree with the gear lever position.</para>
       </sect2>
       <sect2>
         <title>LGCIU fault</title>
-        <para><citation>FCOM 3.2.32.9000, FCOM 1.32.10.4000, amber ECAM: L/G LGCIU 1(2) FAULT</citation></para>
+        <para>[FCOM 3.2.32.9000, FCOM 1.32.10.4000, amber ECAM: L/G LGCIU 1(2) FAULT]</para>
         
         <para>The FADECs use LGCIU input to determine idle mode. If a LGCIU is determined to be faulty, the system
         failsafes to approach idle mode, and modulated idle and reverse idle (and hence reversers) will not be
@@ -551,7 +551,7 @@
       </sect2>
       <sect2>
         <title>Gear not down</title>
-        <para><citation>FCOM 3.2.32.10000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWN</citation></para>
+        <para>[FCOM 3.2.32.10000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWN]</para>
         
         <para>Indicates that the landing gear is not downlocked when radio altitude is below 750ft rad alt and N1 and
         flap setting indicate that the aircraft is on approach. If rad alt data is not available, it indicates gear is
@@ -560,27 +560,27 @@
       </sect2>
       <sect2>
         <title>Park brake on</title>
-        <para><citation>FCOM 3.2.32.12000, FCOM 1.32.30.3000, red ECAM: CONFIG PARK BRK ON</citation></para>
+        <para>[FCOM 3.2.32.12000, FCOM 1.32.30.3000, red ECAM: CONFIG PARK BRK ON]</para>
         <para>The parking brake is set when the thrust levers are set to FLX or TOGA. Check the position of the brake
         handle position and for pressure indications on the brake triple gauge.</para>
       </sect2>
       <sect2>
         <title>Nosewheel steering fault</title>
-        <para><citation>FCOM 3.2.32.14000, FCOM 1.32.20.3000, amber ECAM: WHEEL N/W STRG FAULT</citation></para>
+        <para>[FCOM 3.2.32.14000, FCOM 1.32.20.3000, amber ECAM: WHEEL N/W STRG FAULT]</para>
         <para>Nosewheel steering is unavailable so differential braking must be used to steer the aircraft. The
         nosewheel may not be aligned if the L/G shock absorber ECAM is also displayed, in which case delay nosewheel
         touch down as long as possible. Cat III dual will not be available.</para>
       </sect2>
       <sect2 id="antiskid-nosewheel-steering-off">
         <title>Antiskid nosewheel steering off</title>
-        <para><citation>FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES ANTI SKID/NWS OFF</citation></para>
+        <para>[FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES ANTI SKID/NWS OFF]</para>
         <para>The A/SKID &amp; NW STRG switch is off. The ABCU controls
         braking through the alternate braking system. Antiskid is not available so landing distance will increase
         significantly. Autobrake and nosewheel steering will also not be available.</para>
       </sect2>
       <sect2>
         <title>Antiskid nosewheel steering fault</title>
-        <para><citation>FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES A/SKID NWS FAULT</citation></para>
+        <para>[FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES A/SKID NWS FAULT]</para>
         <para>Either:
         <itemizedlist>
           <listitem><para>both BSCU channels have failed or</para></listitem>
@@ -592,12 +592,12 @@
       </sect2>
       <sect2>
         <title>Brake system fault</title>
-        <para><citation>FCOM 3.2.32.17000, FCOM 1.32.30.3000, amber ECAM: BRAKES SYS 1(2) FAULT</citation></para>
+        <para>[FCOM 3.2.32.17000, FCOM 1.32.30.3000, amber ECAM: BRAKES SYS 1(2) FAULT]</para>
         <para>A fault has been detected in one channel of the BSCU. Loss of redundancy only.</para>
       </sect2>
       <sect2>
         <title>Brakes hot</title>
-        <para><citation>FCOM 3.2.32.18000, FCOM 1.32.30.3000, amber ECAM: BRAKES HOT</citation></para>
+        <para>[FCOM 3.2.32.18000, FCOM 1.32.30.3000, amber ECAM: BRAKES HOT]</para>
 
         <para>At least one brake temperature is &gt;300°C. Check <xref linkend="brake-temperature-limitations"/> if the
         temperature is excessive or the brake temperatures are not reasonably even.</para>
@@ -613,12 +613,12 @@
       </sect2>
       <sect2>
         <title>Auto brake fault</title>
-        <para><citation>FCOM 3.2.32.19000, FCOM 1.32.30.3000, amber ECAM: BRAKES AUTO BRK FAULT</citation></para>
+        <para>[FCOM 3.2.32.19000, FCOM 1.32.30.3000, amber ECAM: BRAKES AUTO BRK FAULT]</para>
         <para>A failure was detected when the autobrake was armed. Brake manually.</para>
       </sect2>
       <sect2>
         <title>Hydraulic selector valve fault</title>
-        <para><citation>FCOM 3.2.32.21000, FCOM 1.32.30.3000, amber ECAM: WHEEL HYD SEL FAULT</citation></para>
+        <para>[FCOM 3.2.32.21000, FCOM 1.32.30.3000, amber ECAM: WHEEL HYD SEL FAULT]</para>
         <para>This ECAM message may indicate two completely different conditions:
         <orderedlist>
           <listitem><para>The normal brake selector valve has failed in the open position. The normal servo valves
@@ -633,30 +633,30 @@
       </sect2>
       <sect2>
         <title>Failure of normal braking system</title>
-        <para><citation>FCOM 3.2.32.26000, FCOM 1.32.30.3000, amber ECAM: NORM BRK FAULT</citation></para>
+        <para>[FCOM 3.2.32.26000, FCOM 1.32.30.3000, amber ECAM: NORM BRK FAULT]</para>
         <para>Normal braking is lost, but alternate braking and anti-skid are available. Landing distance increases
         slightly.</para>
       </sect2>
       <sect2>
         <title>Failure of alternate braking system</title>
-        <para><citation>FCOM 3.2.32.30000, FCOM 1.32.30.3000, amber ECAM: BRAKES ALTN BRK FAULT</citation></para>
+        <para>[FCOM 3.2.32.30000, FCOM 1.32.30.3000, amber ECAM: BRAKES ALTN BRK FAULT]</para>
         <para>Loss of redundancy only.</para>
       </sect2>
       <sect2>
         <title>Failure of normal and alternate braking systems</title>
-        <para><citation>FCOM 3.2.32.25000, FCOM 1.32.30.3000, amber ECAM: NORM + ALTN FAULT</citation></para>
+        <para>[FCOM 3.2.32.25000, FCOM 1.32.30.3000, amber ECAM: NORM + ALTN FAULT]</para>
         <para>The only braking remaining is the parking brake. See <xref linkend="loss-of-braking"/> for method.</para>
       </sect2>
       <sect2>
         <title>Brake accumulator low pressure</title>
-        <para><citation>FCOM 3.2.32.27000, FCOM 1.32.30.3000, amber ECAM: BRK Y ACCU LO PR</citation></para>
+        <para>[FCOM 3.2.32.27000, FCOM 1.32.30.3000, amber ECAM: BRK Y ACCU LO PR]</para>
         <para>Braking is not available unless either the green or yellow hydraulic systems are pressurised. If the
         engines are shut down, attempt to recharge the accumulator using the yellow system electrical pump. When parking
         the aircraft, use chocks.</para>
       </sect2>
       <sect2 id="released-normal-brakes">
         <title>Released brakes, normal system</title>
-        <para><citation>FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: BRAKES RELEASED</citation></para>
+        <para>[FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: BRAKES RELEASED]</para>
         <para>If normal braking is active and at least one engine is running, the BSCU self tests when it receives a
         "gear downlocked" signal from either of the LGCIUs. The BRAKES RELEASED ECAM is provided if at least one set of
         brakes on a main wheel is incorrectly released during this test. The failed brake is shown by an amber release
@@ -665,7 +665,7 @@
       </sect2>
       <sect2>
         <title>Released brakes, alternate system</title>
-        <para><citation>FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: ALTERNATE L(R) RELEASED</citation></para>
+        <para>[FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: ALTERNATE L(R) RELEASED]</para>
         <para>The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
         linkend="released-normal-brakes"/>). If this test is failed, normal braking can be expected as long as the
         normal braking system is active. If the alternate braking system is active, braking will be asymmetric (see
@@ -673,13 +673,13 @@
       </sect2>
       <sect2>
         <title>Minor nosewheel steering fault</title>
-        <para><citation>FCOM 3.2.32.29000, FCOM 1.32.30.3000, amber ECAM: BRAKES-N/WS MINOR FAULT</citation></para>
+        <para>[FCOM 3.2.32.29000, FCOM 1.32.30.3000, amber ECAM: BRAKES-N/WS MINOR FAULT]</para>
         <para>{TODO: Its not very clear from the FCOM what this refers to}</para>
       </sect2>
 
       <sect2 id="brake-temperature-limitations">
         <title>Brake temperature limitations requiring maintenance action</title>
-        <para><citation>FCOM 3.4.32.3000</citation></para>
+        <para>[FCOM 3.4.32.3000]</para>
         <para>Maintenance is required if:
         <itemizedlist>
           <listitem><para>One brake temp is &gt;600°C and the other brake on the same gear is 150°C less</para></listitem>
@@ -696,27 +696,35 @@
       <title>Power plant</title>
       <sect2>
         <title>Dual engine failure</title>
+        <para>[QRH 1.16 &amp; 1.20, FCOM 3.2.70.53000, FCOM 1.70.90.4000, red ECAM: ENG DUAL FAILURE]</para>
+
         <para>It is recommended that the QRH paper procedure on page 1.16 is used rather than the ECAM.</para>
+
         <para>First priority, assuming fuel remains, is to attempt a relight by turning the ignitors on and setting the
         thrust levers to idle. The speed should initially be increased to 300kt to increase windmilling and improve the
         chance of a relight. At this speed, the aircraft will cover approximately 2nm for every 1000ft lost. With this
         in mind, a suitable plan should be constructed to cover the possibility that relight is not possible.</para>
+
         <para>Whilst awaiting a relight, ensure that the emergency electrical generator is on line and recycle FAC1 to
         recover characteristic speed display and rudder trim. For communications, VHF1 and ATC1 are available in the
         emergency electrical config. Due to lack of engine bleeds, a slow depressurisation will be occuring, so be ready
         to don oxygen masks.</para>
+
         <para>If there has been no relight after 30 seconds, the combustion chambers should be ventilated by turning
         both engine masters off for 30 seconds. Another attempt can then be made by turning them back on. This sequence
         should be repeated until successful or until APU bleed air becomes available at FL200.</para>
+
         <para>Once below FL250, the APU can be started. Once below FL200, speed should be reduced to green dot and
         assisted starts should be attempted. At green dot speed, 2½nm will be covered for every 1000ft lost. Attempt to
         start one engine at a time in the normal manner.</para>
+
         <para>If a landing must be made without power, CONF 3 slats are recommended (flaps are
         unavailable). V<subscript>app</subscript> should be V<subscript>ref</subscript>+25kt or 150kt, whichever is
         higher. The gear is available with gravity extension. The stabilizer will be frozen once engine driven
         hydraulics are lost and elevator trimming will cease with transition to direct law at gear extension. Therefore,
         gear extension should be delayed until CONF 3 and V<subscript>app</subscript> are reached. If ditching, do not
         extend the gear.</para>
+
         <para>If an airfield can be reached, cross the outer marker at twice the normal height with CONF 1, gear up. For
         a clean aircraft, the following rules of thumb apply {TODO: these are Boeing rules - check that they hold for
         Airbus}:
@@ -734,6 +742,131 @@
         CONF 3, gear down will give a glide ratio of 800ft per nm.
         </para>
       </sect2>
+      <sect2>
+        <title>Engine relight in flight</title>
+        <para>[QRH 2.22, FCOM 3.2.70.31000]</para>
+
+        <para>A graph showing the in flight relight envelope is provided on page 2.22 of the QRH. The ceiling is 27000
+        ft. Automatic start is recommended, but crew action is required in case of abnormal start.</para>
+
+        <para>To prepare for the start, ensure the affected engine master switch is turned off and the affected thrust
+        lever is at idle. Select ignition on the engine mode selector and open the cross bleed. If it is anticipated
+        starter assist may be required, ensure wing anti ice is selected off.</para>
+
+        <para>To begin the start sequence, select the affected master switch on. The FADEC will determine whether
+        starter assist is required and will open the start valve as needed. Both ignitors are energised as soon as the
+        master switch is turned on, and the HP fuel valve opens at 15% N2. Closure of the start valve and
+        de-energisation of the ignitors occurs at 50% N2 as normal. Light off must occur within 30 seconds of fuel flow
+        initiation. If uncertain about successful relight, move the thrust lever to check for engine response. The START
+        FAULT ENG STALL ECAM may be disregarded if all other parameters are normal. </para>
+
+      </sect2>
+      <sect2>
+        <title>Engine stall</title>
+        <para>[QRH 2.23, FCOM 1.70.90.5000, FCOM 3.2.70.15000, amber ECAM ENG 1(2) STALL]</para>
+
+        <para>A stall is indicated by abnormal engine noise, flame from the engine exhaust (and possibly inlet in
+        extreme cases), fluctuating performance parameters, sluggish thrust lever response, high EGT and/ or rapid EGT
+        rise when the thrust lever is advanced. The ECAM warning will be triggered when N2 is between 50% and idle. If
+        N2 is above idle, the QRH should be used.</para>
+
+        <para>The ECAM simply instructs the master switch to be turned off, and then secures the engine using the after
+        engine shut down procedure (see <xref linkend="engine-shut-down"/>). This procedure should also be followed if a
+        stall occurs on the ground.</para>
+
+        <para>In flight, if no ECAM is triggered, the affected thrust lever should be retarded to idle. If the engine
+        parameters remain abnormal, shut the engine down with the master switch. If the parameters are normal, turn on
+        all the anti-icing to increase bleed demand {TODO: This is inferred - check it} and slowly advance the thrust
+        lever. If the stall recurs, the engine can be operated at low thrust settings, otherwise it can be operated
+        normally.</para>
+
+      </sect2>
+      <sect2>
+        <title>Engine tailpipe fire</title>
+        <para>[QRH 2.23, FCOM 3.2.70.62000, reverse side of normal checklist]</para>
+
+        <para>An internal engine fire may be encountered during engine start or shutdown. It will either be seen by
+        ground crew or may be indicated by EGT failing to decrease after the master switch is selected off.</para>
+
+        <para>Start by getting the engine to a known state by ensuring the man start button is selected off and the
+        affected engine master is selected off.</para>
+
+        <para>The concept is to blow the fire out by dry cranking the engine. It is therefore essential that the fire
+        button is <emphasis>not</emphasis> pressed, as this will remove external power from the FADEC and prevent dry
+        cranking. Firstly, a source of bleed air must be available to power the starter. Possibilities, in order of
+        preference, are the APU, the opposite engine or a ground air cart. If using the opposite engine, the source
+        engine bleed must be on, the target engine bleed should be off, the cross bleed should be opened and thrust
+        increased to provide 30 psi of pressure. {TODO: This is just the crossbleed start procedure from 3.4.70.4000 -
+        check that there are no differences}. If using ground air, both engine bleeds should be off and the cross bleed
+        opened. Once high pressure air is available, select the engine mode selector to crank and select the man start
+        button to on. Once the fire is extinguished, select the man start button off and the engine mode selector to
+        normal.</para>
+
+        <para>As a last resort, external fire suppression agents may be used. They are, however, highly corrosive and
+        the engine will be a write off.</para>
+
+      </sect2>
+      <sect2>
+        <title>High engine vibration</title>
+        <para>[QRH 2.24, FCOM 3.2.70.63000]</para>
+
+        <para>The ECAM VIB advisory (N1≥6 units, N2≥4.3 units) is simply an indication that engine parameters should be
+        monitored more closely. High VIB indications alone do not require the engine to be shut down.</para>
+
+        <para>High engine vibration combined with burning smells may be due to contact of compressor blade tips with
+        associated abradable seals.</para>
+
+        <para>If in icing conditions, high engine vibration may be due to fan blade or spinner icing. The QRH provides a
+        drill to shed this ice, after which normal operations can be resumed.</para>
+
+        <para>If vibrations rapidly increase above the advisory level, the engine should be operated at lower power
+        settings to keep the vibrations below the advisory level.</para>
+      </sect2>
+      <sect2 id="engine-shut-down">
+        <title>Engine shut down</title>
+        <para>[FCOM 1.70.90.5000, FCOM 3.2.70.35000, amber ECAM ENG 1(2) SHUT DOWN]</para>
+
+        <para>This ECAM warning indicates that an engine master switch is off between the start of the takeoff roll and
+        the completion of the landing roll, or that a fire button has been pushed in the other phases. It deals with the
+        subsequent issues arising from single engine operation.</para>
+
+        <para>The most pressing issue is that a single engine cannot support wing anti-ice and two packs, so if wing
+        anti-ice is in use, one of the packs must be turned off. This will generally be the pack on the affected side,
+        but will need to be pack 1 in electrical emergency configuration. The cross bleed must be opened for symmetrical
+        wing anti-icing. If a fire button has been pushed, the cross bleed cannot be opened, and wing anti-ice is
+        unavailable.</para>
+
+        <para>The remaining engine must be safeguarded. To this end, continuous ignition should be selected.</para>
+
+        <para>A fuel imbalance may develop. Fuel imbalance limitations are detailed in FCOM 3.1.28, but an inner tank
+        imbalance of &lt;1500kg will never be limiting if the outer tanks are balanced. Fuel may still need to be
+        crossfed to prevent fuel starvation of the remaining engine. {TODO: Where is the cross feed procedure?}</para>
+
+        <para>TCAS should be selected to TA to avoid unflyable climb RAs.</para>
+        
+        <para>If a reverser is unlocked with associated buffet, speed should be limited to 240kt.</para>
+        
+        <para>If the remaining engine is operated at maximum power with the aircraft at low speed (e.g. responding to
+        windshear) it is possible that directional control may be lost before the flight computer protections apply. Be
+        cautious about reducing speed below V<subscript>LS</subscript> on one engine.</para>
+
+        <para>The main systems lost are the generator, bleeds and hydraulic pump associated with the engine. Other
+        systems may be lost depending on the reason for the shutdown.</para>
+
+      </sect2>
+      <sect2>
+        <title>Low engine oil pressure</title>
+
+        <para>[FCOM 3.2.70.6000, FCOM 1.70.90.4000, red ECAM: ENG 1(2) OIL LO PR]</para>
+        
+        <para>The sources for the gauge on the ECAM ENG page and the ECAM warning are different. If there is a
+        discrepancy between the two, a faulty transducer is the most likely cause and the engine can continue to be
+        operated normally. If both sources agree, the engine should be shut down by retarding its thrust lever and
+        selecting its master switch off and the after shutdown procedure applied (see <xref
+        linkend="engine-shut-down"/>).</para>
+      </sect2>
+
+
     </sect1>
     <sect1>
       <title>Navigation</title>
