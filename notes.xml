@@ -258,6 +258,20 @@
       </sect2>
     </sect1>
     <sect1>
+      <title>Air conditioning, pressurisation and ventilation</title>
+      <sect2>
+        <title>Cabin overpressure</title>
+        <para>[QRH 2.01, FCOM 3.2.21.27000]</para>
+
+        <para>There is no ECAM in the case of total loss of pressure control leading to an overpressure, so apply the
+        QRH procedure. The basic procedure is to reduce air inflow by turning off one of the packs and put the avionics
+        ventilation system in its smoke removal configuration so that it dumps cabin air overboard. The ΔP is monitored,
+        and the remaining pack is turned off if it exceeds 9 psi. 10 minutes before landing, both packs are turned off
+        and remain off, and the avionics ventilation is returned to its normal configuration.</para>
+
+      </sect2>
+    </sect1>
+    <sect1>
       <title>Electrical</title>
       <sect2>
         <title>Generator fault</title>
