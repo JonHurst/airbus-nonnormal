@@ -9,4 +9,4 @@ td {padding: 1em;}
 table.simplelist {margin-left:3em;}
 table.simplelist td {padding:0.5em;}
 dt {font-weight:bold;}
-span.citation {font-weight:bold; font-size:90%;}
+span.underline {text-decoration:underline;}
