@@ -4,6 +4,30 @@
   <title>Airbus Non-Normal Notes</title>
     <sect1>
       <title>Miscellaneous</title>
+      <sect2>
+        <title>Emergency descent <emphasis>(memory item)</emphasis></title>
+        <para>[QRH 1.25, FCOM 3.2.80.4000, EOM B.3.2.80]</para>
+        
+        <para>Don oxygen masks, set them to the N position and establish communication.</para>
+
+        <para>Descent with autopilot and autothrottle engaged is preferred. The configuration is thrust idle, full speed
+        brake and maximum appropriate speed, taking into account possible structural damage. Target altitude is FL100 or
+        MORA if this is higher. If speed is low, allow speed to increase before deploying full speedbrake to prevent
+        activation of the angle of attack protection. Landing gear may be used below 25,000ft, but speed must be below
+        V<subscript>LE</subscript> when it is extended and remain below V<subscript>LO</subscript>. If on an airway,
+        consider turning 90° to the left.</para>
+
+        <para>PNF should, from memory, turn seatbelt signs on, set continuous ignition on the engines, set 7700 on the
+        transponder and inform ATC of the descent. If cabin altitude will exceed 14,000ft, he should also deploy the
+        cabin oxygen masks.</para>
+
+        <para>The rapid decompression PA is:
+        <blockquote><para>"Ladies and Gentlemen, this is the Captain. We have lost cabin pressure and are descending to a lower
+        altitude. Put your oxygen masks on and obey the instructions of the cabin crew"</para></blockquote></para>
+
+        <para>Once level, restore the aircraft to a Normal configuration. When safe to do so, advise cabin crew and
+        passengers that it is safe to remove their masks.</para>
+      </sect2>
       <sect2 id="ditching">
         <title>Ditching</title>
         <para>[QRH 1.23, QRH 1.16, QRH 1.20 FCOM 3.2.80]</para>
@@ -89,22 +113,6 @@
         <para>It may not be possible to fly level in the standard circling configuration of CONF 3 gear down. This can
         be ascertained by checking the table in Vol 3. Gear extension may be delayed until final approach if
         required.</para>
-      </sect2>
-      <sect2>
-        <title>Emergency descent</title>
-        <para>Don oxygen masks, set them to the N position and establish communication. Descent with autopilot engaged
-        is preferred. The configuration is thrust idle, full speed brake and maximum appropriate speed, taking into
-        account possible structural damage. Target altitude is FL100 or MORA if this is higher. If speed is low, allow
-        speed to increase before deploying full speedbrake to prevent activation of the angle of attack
-        protection. Landing gear may be used below 25,000ft, but speed must be below V<subscript>LE</subscript> when it
-        is extended and remain below V<subscript>LO</subscript>.</para>
-
-        <para>Once descent is established, check the cabin altitude and manually deploy passenger oxygen if it is
-        &gt;14,000ft. The passenger signs should be turned on, the ignitors should be turned on and ATC should be
-        notified.</para>
-        
-        <para>Once level, restore the aircraft to a Normal configuration. When safe to do so, advise cabin crew and
-        passengers that it is safe to remove their masks.</para>
       </sect2>
 <sect2>
         <title>Bomb on board</title>
