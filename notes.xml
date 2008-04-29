@@ -989,7 +989,7 @@
     <sect1>
       <title>Hydraulics</title>
       <sect2>
-        <title>BLUE + YELLOW systems low pressure</title>
+        <title>Blue + yellow systems low pressure</title>
 
         <para>[QRH 1.10, FCOM 1.29.20.4000, FCOM 3.2.29.6000, red ECAM: <emphasis role="underline">HYD</emphasis> B + Y
         SYS LO PR]</para>
@@ -1011,7 +1011,7 @@
 
       </sect2>
       <sect2>
-        <title>GREEN + BLUE systems low pressure</title>
+        <title>Green + blue systems low pressure</title>
 
         <para>[QRH 1.11, FCOM 1.29.20.4000, FCOM 3.2.29.4000, red ECAM: <emphasis role="underline">HYD</emphasis> G + B
         SYS LO PR]</para>
@@ -1036,12 +1036,12 @@
 
       </sect2>
       <sect2>
-        <title>GREEN + YELLOW systems low pressure</title>
+        <title>Green + yellow systems low pressure</title>
 
         <para>[QRH 1.12, FCOM 1.29.20.4000, FCOM 3.2.29.5000, red ECAM: <emphasis role="underline">HYD</emphasis> G + Y
         SYS LO PR]</para>
 
-        <para>It may be possible to recover the YELLOW system using the YELLOW electrical pump. Systems lost because of
+        <para>It may be possible to recover the yellow system using the yellow electrical pump. Systems lost because of
         low air pressure in the reservoir will be recoverable at lower altitudes. Systems lost due to reservoir
         overheats may be usable for the approach once they have cooled down.</para>
 
@@ -1059,19 +1059,19 @@
 
       </sect2>
       <sect2 id="green-low-pr">
-        <title>GREEN system low pressure</title>
+        <title>Green system low pressure</title>
         <para>The major lost systems are normal landing gear operation (gravity extension is available), nose wheel
         steering and normal brake system (including autobrake). Landing distance will be increased due to loss of two
         spoilers per wing and reverser 1. Flap and slat deployment will be slow.</para>
       </sect2>
       <sect2 id="yellow-low-pr">
-        <title>YELLOW system low pressure</title>
+        <title>Yellow system low pressure</title>
         <para>Two spoilers per wing and reverser 2 are lost, so landing distance will increase slightly. Flap deployment
         will be slow. As the alternate braking system is only available through the brake accumulator, ensure there is
         sufficient pressure when the parking brake is set.</para>
       </sect2>
       <sect2 id="blue-low-pr">
-        <title>BLUE system low pressure</title>
+        <title>Blue system low pressure</title>
         <para>One spoiler per wing will be lost but this has negligible effect on landing distance. Slats will be slow to
         deploy. Deployment of the RAT is not recommended unless another system is lost. If the system is lost due to low
         reservoir level, emergency generation capability is lost.</para>
