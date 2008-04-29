@@ -275,14 +275,18 @@
       <title>Electrical</title>
       <sect2 id="emerg-elec-config">
         <title>Emergency configuration</title>
-        <para>[QRH 1.01, FCOM 1.24.20.5000, FCOM 3.2.24.17000, red ECAM: <emphasis role="underline">ELEC</emphasis> EMER CONFIG]</para>
+        <para>[QRH 1.01 &amp; 1.05, FCOM 1.24.20.5000, FCOM 3.2.24.17000, red ECAM: <emphasis role="underline">ELEC</emphasis> EMER CONFIG]</para>
+
         <para>Attempt to restore normal power by recycling the main generators. If that fails, try again after splitting
         the systems. Start the APU once at least 45 seconds has elapsed since loss of main generators.</para>
         <para>If normal power cannot be restored, ensure that the emergency generator is on line, deploying the RAT
-        manually if required and maintain speed &gt;140kt to avoid RAT stall. So much equipment is lost in the emergency
-        configuration that a table is provided in the QRH for surviving equipment. Notable losses are all the fuel pumps
-        (so ignition on, avoid negative G, centre tank fuel is unusable), the anti-skid and three fifths of the
-        spoilers. Landing speeds and distances are increased.</para>
+        manually if required and maintain speed &gt;140kt to avoid RAT stall.</para>
+
+        <para>So much equipment is lost in the emergency configuration that a table is provided in the QRH for surviving
+        equipment. Notable losses are all the fuel pumps (so ignition on, avoid negative G, centre tank fuel is
+        unusable), the anti-skid and three fifths of the spoilers. Landing speeds and distances are increased.</para>
+
+        <para>A paper summary is provided on page 1.05 of the QRH, which should be applied once ECAM actions are complete.</para>
       </sect2>
       <sect2>
         <title>Generator fault</title>
@@ -777,7 +781,7 @@
         </itemizedlist></para>
       </sect2>
     </sect1>
-        <sect1>
+    <sect1>
       <title>Power plant</title>
       <sect2>
         <title>Dual engine failure</title>
