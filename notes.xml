@@ -4,6 +4,51 @@
   <title>Airbus Non-Normal Notes</title>
     <sect1>
       <title>Miscellaneous</title>
+      <sect2 id="ditching">
+        <title>Ditching</title>
+        <para>[QRH 1.23, QRH 1.16, QRH 1.20 FCOM 3.2.80]</para>
+        
+        <para>The QRH 1.23 procedure applies if the engines are running. If the engines are not running, refer to QRH
+        1.16 or QRH 1.20 which include ditching.</para>
+
+        <para>Preparation for ditching involves notifying ATC in order to expedite rescue, preparing survival equipment
+        and securing the aircraft for impact. The GPWS should be inhibited to prevent nuisance warnings. The crew oxygen
+        should be turned off below FL100 to prevent potentially dangerous leaks {TODO: this is an assumption}.</para>
+
+        <para>The engines operative ditching configuration is gear up, config full, 11° pitch and minimal V/S. If both
+        engines are inoperative, use config 3 (only slats available) and maintain at least 150kt. In strong winds, land
+        into wind. In lighter winds, land parallel to swell. The bleeds are all turned off and ditching button pushed
+        (ensure pressurisation is in auto for this to work) in order to close all openings below the waterline and
+        reduce water ingress. At 2000ft, make a PA "Cabin crew, landing positions". At 500ft, make a PA "Brace,
+        brace"</para>
+
+        <para>At touchdown, turn the engine and APU masters off. After coming to a stop, notify ATC, push all fire
+        buttons, discharge all agents (engine agent 2 may not be available) and evacuate the aircraft. {TODO: There is a
+        discrepancy between engines operative/ inoperative regarding use of the fire buttons after stopping}</para>
+
+      </sect2>
+      <sect2 id="forced-landing">
+        <title>Forced landing</title>
+        <para>[QRH 1.24, QRH 1.16 &amp; 1.20, FCOM 3.2.80.3000]</para>
+
+        <para>The QRH 1.24 procedure applies if the engines are running. If the engines are not running, refer to QRH
+        1.16 or QRH 1.20 which include forced landing.</para>
+
+        <para>Preparation for forced landing involves notifying ATC in order to expedite rescue, preparing survival equipment
+        and securing the aircraft for impact. The GPWS should be inhibited to prevent nuisance warnings. The crew oxygen
+        should be turned off below FL100 to prevent potentially dangerous leaks {TODO: this is an assumption}.</para>
+
+        <para>The engines operative forced landing configuration is gear down, config full, spoilers armed. If the
+        engines are inoperative, use config 3 (only slats available) and maintain at least 150kt. The ram air button is
+        used to ensure that the aircraft will be completely depressurised at touchdown. At 2000ft, make a PA "Cabin
+        crew, landing positions". At 500ft, make a PA "Brace, brace"</para>
+
+        <para>At touchdown, turn the engine and APU masters off. This will leave accumulator baraking only. After coming
+        to a stop, set the parking brake, notify ATC, push all fire buttons, discharge all agents (engine agent 2 may
+        not be available) and evacuate the aircraft.{TODO: There is a discrepancy between engines operative/ inoperative
+        regarding use of the fire buttons after stopping}</para>
+
+      </sect2>
       <sect2>
         <title>Engine failure after V1</title>
 
@@ -764,7 +809,7 @@
     </sect1>
     <sect1>
       <title>Power plant</title>
-      <sect2>
+      <sect2 id="dual-engine-failure">
         <title>Dual engine failure</title>
         <para>[QRH 1.16 &amp; 1.20, FCOM 3.2.70.53000, FCOM 1.70.90.4000, red ECAM: ENG DUAL FAILURE]</para>
 
@@ -811,6 +856,9 @@
         </itemizedlist>
         CONF 3, gear down will give a glide ratio of 800ft per nm.
         </para>
+
+        <para>If an airfield cannot be reached, refer to <xref linkend="ditching"/> or <xref linkend="forced-landing"/>
+        as appropriate.</para>
       </sect2>
       <sect2>
         <title>Engine relight in flight</title>
