@@ -37,7 +37,26 @@
       <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming the
       spoilers.</para>
       </sect2>
-      
+      <sect2>
+        <title>Engine failure after V1</title>
+        <para>[FCOM 3.2.10.2000]</para>
+
+        <para>PNF will announce "Engine Failure" without specifying which engine. Apply rudder conventionally on the
+        runway. At V<subscript>r</subscript> rotate to 12½° at a slightly reduced rate. When airborne, adjust rudder to
+        maintain &beta; target. Engage the autopilot once gear is up and rudder is trimmed. Consider the use of TOGA if
+        a FLX takeoff was carried out.</para>
+
+        <para>At 400ft, declare intention to fly EOSID. Bank angle should be limited to 15° when more than 3kt below
+        maneuvring speed for the current configuration. Once established on the EOSID request PNF to "Read ECAM". Once
+        the ECAM is confirmed, PF will take the radios and request PNF to carry out ECAM actions. At a suitable moment
+        declare a Mayday.</para>
+
+        <para>When above acceleration altitude with the engine secure (master switch turned off or the first fire bottle
+        discharged), announce "Stop ECAM", accelerate by pushing V/S and clean up as required. Config 1 and S speed is
+        recommended for an immediate visual return; config 0 and green dot speed if recommended for transiting. Once at
+        the required speed set MCT, continue climb in OP CLIMB and announce "Continue ECAM".</para>
+      </sect2>
+            
   </sect1>
   <sect1>
     <title>Miscellaneous</title>
@@ -257,17 +276,6 @@
         threshold. Land as smoothly as possible, and apply max reverse as soon as the main gear touches down. Maximum
         braking can be used after nosewheel touchdown. After landing, switch on the brake fans and monitor brake
         temperatures carefully. If temperatures exceed 800°C, tyre deflation may occur.</para>
-      </sect2>
-      <sect2>
-        <title>Engine failure after V1</title>
-
-        <para>Apply rudder conventionally on the runway. When airborne, adjust rudder to maintain &beta;
-        target. Autopilot can be engaged once gear is up. Consider the use of TOGA if a FLX takeoff was carried
-        out. Initiate ECAM actions at 400ft AGL. Delay acceleration past acceleration altitude if the engine is not yet
-        secure (e.g. master switch turned off or the first fire bottle discharged). To accelerate, push V/S to level
-        off. Managed target speed will jump to initial climb speed. Accelerate to either S speed if an immediate visual
-        return is expected or green dot speed if transiting, then set MCT (will require selecting CL then MCT for FLX
-        takeoff) and continue climb in OP CLIMB.</para>
       </sect2>
       <sect2>
         <title>Immediate VMC recovery with single engine</title>
