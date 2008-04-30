@@ -297,12 +297,24 @@
       </sect2>
       <sect2 id="evacuation">
         <title>Evacuation</title>
-        <para>Evacuation should be done in accordance with the emergency evacuation checklist. The first two items
-        confirm the RTO actions of stopping the aircraft, setting the parking brake and alerting the cabin crew. The
-        next action is to alert ATC.</para>
-        <para>The next four items prepare the aircraft for evacuation. Check cabin diff is zero, and if necessary open
-        the outflow valve manually. Shut the engines down, and press all the fire buttons, including the APU. If there
-        are positive signs of fire, deploy the remaining extinguishers as required.</para>
+        <para>[EOM B.3.2.80, FCOM 3.2.80, FCTM 03.020]</para>
+
+        <para>Evacuation should be carried out in accordance with the emergency evacuation checklist. The easyJet
+        procedure is for CM1 to call for the checklist and then send a Mayday message to ATC before commencing the
+        checklist. {TODO: this strikes me as a bit of an odd order to do things - check its correct}</para>
+
+        <para>The first two items confirm the RTO actions of stopping the aircraft, setting the parking brake and
+        alerting the cabin crew. The next item confirms ATC has been alerted.</para>
+
+        <para>The next four items prepare the aircraft for evacuation. If manual cabin pressure has been used, CM2
+        checks cabin diff is zero, and if necessary manually opens the outflow valve. CM2 then shuts the engines down
+        with their master switches, and pushes all the fire buttons (including the APU). Confirmation is not required
+        before carrying out these actions {TODO: This is not clear from EOM B, but incorporates the FCTM
+        instruction}. CM1 does, however, respond "Confirmed" in response to the checklist items once they have been
+        actioned. In response to the next checklist item, "Agents", CM1 decides if any extinguishing agents should be
+        discharged and instructs CM2 to discharge them as required. Engine agent 2 will not be available. Agents should
+        only be discharged if there are positive signs of fire.</para>
+
         <para>Finally, order the evacuation. This is primarily done with the PA "Evacuate, unfasten your seat belts and
         get out", with the evacuation alarm being triggered as a backup.</para>
       </sect2>
