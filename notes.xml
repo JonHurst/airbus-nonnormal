@@ -28,7 +28,55 @@
         <para>Once level, restore the aircraft to a Normal configuration. When safe to do so, advise cabin crew and
         passengers that it is safe to remove their masks.</para>
       </sect2>
-      <sect2 id="ditching">
+      <sect2>
+        <title>Windshear <emphasis>(memory item)</emphasis></title>
+        <sect3>
+          <title>Reactive</title>
+          <para>[FCOM 3.2.80.13000]</para>
+
+          <para>Indicated by a red "WINDSHEAR" flag on the PFD and a "WINDSHEAR, WINDSHEAR, WINDSHEAR" aural
+          warning.</para>
+
+          <para>Below V1, reject the TO if significant airspeed variations occur and there is sufficient runway to
+          stop.</para>
+
+          <para>If on the ground and above V1 , apply TOGA power, rotate at V<subscript>r</subscript> and follow SRS
+          orders. SRS will maintain a minimum rate of climb, even if airspeed must be sacrificed.</para>
+
+          <para>When airborne, maintain current configuration and apply TOGA power. The autopilot can fly the escape
+          maneuvre as long as &alpha;<subscript>req</subscript>&lt;&alpha;<subscript>prot</subscript>. If the autopilot
+          is not engaged, follow the SRS orders on the FD. If the FD is not available, initially pitch up to 17.5°, then
+          increase as required.</para>
+
+        </sect3>
+        <sect3>
+          <title>Predictive</title>
+          <para>[FCOM 3.2.80.14000, FCOM 3.4.91]</para>
+
+          <para>When below 2300ft AGL, the weather radar scans a 5nm radius 60° arc ahead of the aircraft for returns
+          indicating potential windshear.</para>
+
+          <para>Alerts are categorised as advisory, caution or warning, in increasing order of severity. Severity is
+          determined by range, position and phase of flight. They are inhibited in flight when below 50ft or above
+          1500ft, and inhibited on the ground when above 100kt.</para>
+
+          <para>All types of alert produce an indication of windshear position on the ND, providing the ND range is set
+          to 10nm. A message on the ND instructs the crew to change range to 10nm if not already set. Cautions also give
+          an amber "W/S AHEAD" message on both PFDs and an aural "MONITOR RADAR DISPLAY" warning. Warnings give a red
+          "W/S AHEAD" message on the PFDs and either a "WINDSHEAR AHEAD, WINDSHEAR AHEAD" or "GO AROUND, WINDSHEAR
+          AHEAD" aural message.</para>
+
+          <para>If a warning alert occurs duting the takeoff roll, reject the takeoff. If it occurs during initial
+          climb, apply TOGA thrust and follow SRS orders. Configuration may be changed as long as the windshear is not
+          entered.</para>
+
+          <para>If a warning alert occurs during approach, carry out a normal go-around. If positive verification is
+          made that no hazard exists, the crew may downgrade the warning to a caution. If a caution alert occurs during
+          approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a maximum of
+          V<subscript>LS</subscript>+15.</para>
+        </sect3>
+      </sect2>
+            <sect2 id="ditching">
         <title>Ditching</title>
         <para>[QRH 1.23, QRH 1.16, QRH 1.20 FCOM 3.2.80]</para>
         
@@ -131,49 +179,7 @@
         device to the LRBL at door 2R.</para> 
 
       </sect2>
-      <sect2>
-        <title>Windshear</title>
-        <sect3>
-          <title>Reactive</title>
-          <para>Indicated by a red "WINDSHEAR" flag on the PFD and a "WINDSHEAR, WINDSHEAR, WINDSHEAR" aural
-          warning.</para>
-          <para>Below V1, reject the TO if significant airspeed variations occur and there is sufficient runway to
-          stop.</para>
-          <para>If on the ground and above V1 , apply TOGA power, rotate at V<subscript>r</subscript> and follow SRS
-          orders. SRS will maintain a minimum rate of climb, even if airspeed must be sacrificed.</para>
-
-          <para>When airborne, maintain current configuration and apply TOGA power. The autopilot can fly the escape
-          maneuvre as long as &alpha;<subscript>req</subscript>&lt;&alpha;<subscript>prot</subscript>. If the autopilot
-          is not engaged, follow the SRS orders on the FD. If the FD is not available, initially pitch up to 17.5°, then
-          increase as required.</para>
-
-        </sect3>
-        <sect3>
-          <title>Predictive</title>
-          <para>When below 2300ft AGL, the weather radar scans a 5nm radius 60° arc ahead of the aircraft for returns
-          indicating potential windshear.</para>
-
-          <para>Alerts are categorised as advisory, caution or warning, in increasing order of severity. Severity is
-          determined by range, position and phase of flight. They are inhibited in flight when below 50ft or above
-          1500ft, and inhibited on the ground when above 100kt.</para>
-
-          <para>All types of alert produce an indication of windshear position on the ND, providing the ND range is set
-          to 10nm. A message on the ND instructs the crew to change range to 10nm if not already set. Cautions also give
-          an amber "W/S AHEAD" message on both PFDs and an aural "MONITOR RADAR DISPLAY" warning. Warnings give a red
-          "W/S AHEAD" message on the PFDs and either a "WINDSHEAR AHEAD, WINDSHEAR AHEAD" or "GO AROUND, WINDSHEAR
-          AHEAD" aural message.</para>
-
-          <para>If a warning alert occurs duting the takeoff roll, reject the takeoff. If it occurs during initial
-          climb, apply TOGA thrust and follow SRS orders. Configuration may be changed as long as the windshear is not
-          entered.</para>
-
-          <para>If a warning alert occurs during approach, carry out a normal go-around. If positive verification is
-          made that no hazard exists, the crew may downgrade the warning to a caution. If a caution alert occurs during
-          approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a maximum of
-          V<subscript>LS</subscript>+10.</para>
-        </sect3>
-      </sect2>
-      <sect2>
+<sect2>
         <title>Overweight landing</title>
         <para>A landing can be made at any weight, providing sufficient landing distance is available. The preferred
         landing configuration is CONF FULL, but lower settings may be used if required by QRH/ECAM procedures or if
