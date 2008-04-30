@@ -43,8 +43,10 @@
     <title>Miscellaneous</title>
     <sect2>
       <title>Emergency descent <emphasis>(memory item)</emphasis></title>
-      <para>[QRH 1.25, FCOM 3.2.80.4000, EOM B.3.2.80]</para>
+      <para>[EOM B.3.2.80, QRH 1.25, FCOM 3.2.80.4000]</para>
       
+      <para>If an emergency descent is required, the Captain should consider taking control if not already PF.</para>
+
       <para>Don oxygen masks, set them to the N position and establish communication.</para>
       
       <para>Descent with autopilot and autothrottle engaged is preferred. The configuration is thrust idle, full speed
@@ -58,11 +60,13 @@
       transponder and inform ATC of the descent. If cabin altitude will exceed 14,000ft, he should also deploy the cabin
       oxygen masks.</para>
 
-        <para>The rapid decompression PA is:
+      <para>Once the memory actions are complete and the aircraft is descending, PF should finesse the target altitude,
+      speed and heading. He should then take over communications and call for the emergency descent checklist. Once this is
+      complete, the Captain should make the following PA:
         <blockquote><para>"Ladies and Gentlemen, this is the Captain. We have lost cabin pressure and are descending to a lower
         altitude. Put your oxygen masks on and obey the instructions of the cabin crew"</para></blockquote></para>
 
-        <para>Once level, restore the aircraft to a Normal configuration. When safe to do so, advise cabin crew and
+        <para>Once level, restore the aircraft to a normal configuration. When safe to do so, advise cabin crew and
         passengers that it is safe to remove their masks.</para>
       </sect2>
       <sect2>
