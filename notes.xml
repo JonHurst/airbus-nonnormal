@@ -170,7 +170,7 @@
         enable all phases of flight to be flown using just pitch and thrust settings. The approach configuration should
         be flown in level flight, stabilising each configuration before the next configuration is selected.</para>
       </sect2>
-      <sect2 id="ditching">
+<sect2 id="ditching">
         <title>Ditching</title>
         <para>[QRH 1.23, QRH 1.16, QRH 1.20 FCOM 3.2.80]</para>
         
@@ -215,6 +215,49 @@
         regarding use of the fire buttons after stopping}</para>
 
       </sect2>
+      <sect2 id="evacuation">
+        <title>Evacuation</title>
+        <para>[EOM B.3.2.80, QRH 7.01, FCOM 3.2.80, FCTM 03.020]</para>
+
+        <para>Evacuation should be carried out in accordance with the emergency evacuation checklist. The easyJet
+        procedure is for CM1 to call for the checklist and then send a Mayday message to ATC before commencing the
+        checklist. {TODO: this strikes me as a bit of an odd order to do things - check its correct}</para>
+
+        <para>The first two items confirm the RTO actions of stopping the aircraft, setting the parking brake and
+        alerting the cabin crew. The next item confirms ATC has been alerted.</para>
+
+        <para>The next four items prepare the aircraft for evacuation. If manual cabin pressure has been used, CM2
+        checks cabin diff is zero, and if necessary manually opens the outflow valve. CM2 then shuts the engines down
+        with their master switches, and pushes all the fire buttons (including the APU). Confirmation is not required
+        before carrying out these actions {TODO: This is not clear from EOM B, but incorporates the FCTM
+        instruction}. CM1 does, however, respond "Confirmed" in response to the checklist items once they have been
+        actioned. In response to the next checklist item, "Agents", CM1 decides if any extinguishing agents should be
+        discharged and instructs CM2 to discharge them as required. Engine agent 2 will not be available. Agents should
+        only be discharged if there are positive signs of fire.</para>
+
+        <para>Finally, order the evacuation. This is primarily done with the PA "Evacuate, unfasten your seat belts and
+        get out", with the evacuation alarm being triggered as a backup.</para>
+      </sect2>
+      <sect2>
+        <title>Overweight landing</title>
+        <para>[QRH 2.25, FCOM 3.2.80.5000]</para>
+
+        <para>A landing can be made at any weight, providing sufficient landing distance is available. Automatic
+        landings are certified up to MLW, but flight tests have demonstrated autoland capability to 69000kg in case of
+        emergency. The preferred landing configuration is CONF FULL, but lower settings may be used if required by
+        QRH/ECAM procedures or if aircraft weight exceeds the CONF 3 go around limit (see QRH 2.25). Packs should be
+        turned off to provide additional go around thrust. If configuration is less than FULL, use 1+F for
+        go-around.</para>
+
+        <para>It is possible that S speed will be higher than V<subscript>FE next</subscript> for CONF 2. In this case,
+        a speed below V<subscript>FE next</subscript> should be selected until CONF 2 is acheived, then managed speed
+        can be re-engaged.</para>
+
+        <para>In the final stages of the approach, reduce speed to acheive V<subscript>LS</subscript> at runway
+        threshold. Land as smoothly as possible, and apply max reverse as soon as the main gear touches down. Maximum
+        braking can be used after nosewheel touchdown. After landing, switch on the brake fans and monitor brake
+        temperatures carefully. If temperatures exceed 800°C, tyre deflation may occur.</para>
+      </sect2>
       <sect2>
         <title>Engine failure after V1</title>
 
@@ -256,7 +299,7 @@
         be ascertained by checking the table in Vol 3. Gear extension may be delayed until final approach if
         required.</para>
       </sect2>
-<sect2>
+      <sect2>
         <title>Bomb on board</title>
         <para>The primary aim is to get the aircraft on the ground and evacuated ASAP.</para>
 
@@ -274,20 +317,6 @@
 
       </sect2>
 <sect2>
-        <title>Overweight landing</title>
-        <para>A landing can be made at any weight, providing sufficient landing distance is available. The preferred
-        landing configuration is CONF FULL, but lower settings may be used if required by QRH/ECAM procedures or if
-        aircraft weight exceeds the CONF 3 go around limit (see QRH 2.25). Packs should be turned off to provide
-        additional go around thrust. If configuration is less than FULL, use 1+F for go-around.</para>
-        <para>It is possible that S speed will be higher than V<subscript>FE next</subscript> for CONF 2. In this case,
-        a speed below V<subscript>FE next</subscript> should be selected until CONF 2 is acheived, then managed speed
-        can be re-engaged.</para>
-        <para>In the final stages of the approach, reduce speed to acheive V<subscript>LS</subscript> at runway
-        threshold. Land as smoothly as possible, and apply max reverse as soon as the main gear touches down. Use brakes
-        as necessary and monitor brake temperatures carefully after landing. If temperatures exceed 800°C, tyre
-        deflation may occur.</para>
-      </sect2>
-      <sect2>
         <title>Stall recovery</title>
         <para>As soon as a stall warning occurs, apply TOGA power while simultaneously reducing pitch attitude and
         rolling wings level. Ensure the speedbrake is retracted. If there is a danger of ground contact, maintain a
@@ -299,30 +328,7 @@
         &alpha;<subscript>buffet</subscript>. In this case simply reduce the back pressure on the sidestick and/or
         reduce bank angle.</para>
       </sect2>
-      <sect2 id="evacuation">
-        <title>Evacuation</title>
-        <para>[EOM B.3.2.80, FCOM 3.2.80, FCTM 03.020]</para>
-
-        <para>Evacuation should be carried out in accordance with the emergency evacuation checklist. The easyJet
-        procedure is for CM1 to call for the checklist and then send a Mayday message to ATC before commencing the
-        checklist. {TODO: this strikes me as a bit of an odd order to do things - check its correct}</para>
-
-        <para>The first two items confirm the RTO actions of stopping the aircraft, setting the parking brake and
-        alerting the cabin crew. The next item confirms ATC has been alerted.</para>
-
-        <para>The next four items prepare the aircraft for evacuation. If manual cabin pressure has been used, CM2
-        checks cabin diff is zero, and if necessary manually opens the outflow valve. CM2 then shuts the engines down
-        with their master switches, and pushes all the fire buttons (including the APU). Confirmation is not required
-        before carrying out these actions {TODO: This is not clear from EOM B, but incorporates the FCTM
-        instruction}. CM1 does, however, respond "Confirmed" in response to the checklist items once they have been
-        actioned. In response to the next checklist item, "Agents", CM1 decides if any extinguishing agents should be
-        discharged and instructs CM2 to discharge them as required. Engine agent 2 will not be available. Agents should
-        only be discharged if there are positive signs of fire.</para>
-
-        <para>Finally, order the evacuation. This is primarily done with the PA "Evacuate, unfasten your seat belts and
-        get out", with the evacuation alarm being triggered as a backup.</para>
-      </sect2>
-      <sect2>
+<sect2>
         <title>Incapacitation</title>
         <para>Take control, using the stick priority button if necessary. Contact cabin crew ASAP. They should strap the
         incapacitated pilot to his seat, move the seat back, then recline the seat. If there are two members available,
