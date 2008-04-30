@@ -2,24 +2,61 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "file:///usr/share/sgml/docbook/xml-dtd-4.4/docbookx.dtd">
 <article id="airbus-nonnormal">
   <title>Airbus Non-Normal Notes</title>
-    <sect1>
-      <title>Miscellaneous</title>
-      <sect2>
-        <title>Emergency descent <emphasis>(memory item)</emphasis></title>
-        <para>[QRH 1.25, FCOM 3.2.80.4000, EOM B.3.2.80]</para>
-        
-        <para>Don oxygen masks, set them to the N position and establish communication.</para>
+  <sect1>
+    <title>Operating techniques</title>
+    <sect2>
+      <title>Rejected Takeoff</title>
+      <para>[EOM B.3.2.10, FCOM 3.2.10.1000]</para>
 
-        <para>Descent with autopilot and autothrottle engaged is preferred. The configuration is thrust idle, full speed
-        brake and maximum appropriate speed, taking into account possible structural damage. Target altitude is FL100 or
-        MORA if this is higher. If speed is low, allow speed to increase before deploying full speedbrake to prevent
-        activation of the angle of attack protection. Landing gear may be used below 25,000ft, but speed must be below
-        V<subscript>LE</subscript> when it is extended and remain below V<subscript>LO</subscript>. If on an airway,
-        consider turning 90° to the left.</para>
+      <para>The decision to reject rests solely with CM1. This decision is communicated with the words "Stop" or
+      "Continue". "Stop" implies that CM1 is taking control of the aircraft. Below 100kt the RTO is relatively risk free
+      and a decision to stop should be made for any ECAM and most other problems. Above 100kt the RTO may be hazardous
+      and stopping should only be considered for loss of engine thrust, any fire warning, any uninhibited ECAM or
+      anything which indicates the aircraft will be unsafe or unable to fly.</para>
+      
+      <para>If a stop is required, CM1 calls "Stop" while simultaneously bringing the thrust levers to idle, then to max
+      reverse. If the stop was commenced below 72kt the ground spoilers will not automatically deploy and the autobrake
+      will therefore not engage. Monitor automatic braking, and if there is any doubt, apply manual braking as
+      required. If normal braking fails, announce "Loss of braking" and proceed with the loss of braking memory items
+      (see <xref linkend="loss-of-braking"/>). If the reason for the stop was an engine fire on the upwind side,
+      consider turning the aircraft to keep the fire away from the fuselage. If there is any chance of requiring
+      evacuation, bring the aircraft to a complete halt, stow the reversers, apply the parking brake, and order
+      "Attention, crew at stations" on the PA. If evacuation will definitely not be required, once the aircraft's safety
+      is assured, the RTO can be discontinued and the runway cleared. In this case make a PA of "Cabin crew, normal
+      operations".</para>
 
-        <para>PNF should, from memory, turn seatbelt signs on, set continuous ignition on the engines, set 7700 on the
-        transponder and inform ATC of the descent. If cabin altitude will exceed 14,000ft, he should also deploy the
-        cabin oxygen masks.</para>
+      <para>During this initial phase, CM2 confirms reverse ("Reverse green"), confirms deceleration ("Decel"), cancels
+      any audio warnings, informs ATC and announces "70 knots" when appropriate. Once the aircraft comes to a halt, CM2
+      locates the emergency evacuation checklist.</para>
+
+      <para>Once the aircraft has stopped, CM1 takes the radios and asks CM2 to carry out any required ECAM
+      actions. Whilst the ECAM actions are being completed, CM1 will build up a decision as to whether to evacuate. If
+      an evacuation is required see <xref linkend="evacuation"/>. Otherwise order "Cabin crew, normal
+      operations".</para>
+
+      <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming the
+      spoilers.</para>
+      </sect2>
+      
+  </sect1>
+  <sect1>
+    <title>Miscellaneous</title>
+    <sect2>
+      <title>Emergency descent <emphasis>(memory item)</emphasis></title>
+      <para>[QRH 1.25, FCOM 3.2.80.4000, EOM B.3.2.80]</para>
+      
+      <para>Don oxygen masks, set them to the N position and establish communication.</para>
+      
+      <para>Descent with autopilot and autothrottle engaged is preferred. The configuration is thrust idle, full speed
+      brake and maximum appropriate speed, taking into account possible structural damage. Target altitude is FL100 or
+      MORA if this is higher. If speed is low, allow speed to increase before deploying full speedbrake to prevent
+      activation of the angle of attack protection. Landing gear may be used below 25,000ft, but speed must be below
+      V<subscript>LE</subscript> when it is extended and remain below V<subscript>LO</subscript>. If on an airway,
+      consider turning 90° to the left.</para>
+
+      <para>PNF should, from memory, turn seatbelt signs on, set continuous ignition on the engines, set 7700 on the
+      transponder and inform ATC of the descent. If cabin altitude will exceed 14,000ft, he should also deploy the cabin
+      oxygen masks.</para>
 
         <para>The rapid decompression PA is:
         <blockquote><para>"Ladies and Gentlemen, this is the Captain. We have lost cabin pressure and are descending to a lower
@@ -258,23 +295,7 @@
         &alpha;<subscript>buffet</subscript>. In this case simply reduce the back pressure on the sidestick and/or
         reduce bank angle.</para>
       </sect2>
-      <sect2>
-        <title>Rejected Takeoff</title>
-
-        <para>Call "Stop" while simultaneously bringing the thrust levers to idle, then to max reverse. Monitor
-        automatic braking, and if there is any doubt, apply maximum manual braking. If normal braking fails, activate
-        alternate braking by turning the A/SKID &amp; N/W STRG switch off, then modulate brake pressure at 1000psi. The
-        F/O meanwhile monitors braking, confirms reverse, cancels any warnings, informs ATC and locates the evac
-        checklist.</para>
-        <para>If the reason for the stop was an engine fire on the upwind side, consider turning the aircraft into wind
-        to keep the fire away from the fuselage.</para>
-        <para>If there is any chance of requiring evacuation, bring the aircraft to a complete halt, apply the parking
-        brake, and order "Attention, crew at stations". ECAM actions should then be carried out and the requirement for
-        evacuation assessed. Otherwise order "Cabin crew, normal operations".</para>
-        <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming
-        the spoilers.</para>
-      </sect2>
-      <sect2>
+      <sect2 id="evacuation">
         <title>Evacuation</title>
         <para>Evacuation should be done in accordance with the emergency evacuation checklist. The first two items
         confirm the RTO actions of stopping the aircraft, setting the parking brake and alerting the cabin crew. The
