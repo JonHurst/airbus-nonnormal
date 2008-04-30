@@ -76,7 +76,60 @@
           V<subscript>LS</subscript>+15.</para>
         </sect3>
       </sect2>
-            <sect2 id="ditching">
+      <sect2>
+        <title>Unreliable airspeed <emphasis>(memory item)</emphasis></title>
+
+        <para>[QRH 2.15, FCOM 3.2.34.30000]</para>
+
+        <para>Unreliable airspeed indications may result from radome damage and/or unserviceable probes or
+        ports. Altitude indications may also be erroneous if static probes are affected.</para>
+
+        <para>The FMGCs normally reject erroneous ADR data by isolating a single source that has significant differences
+        to the other two sources. It is possible that a single remaining good source may be rejected if the other two
+        sources are erroneous in a sufficiently similar way. In this case, it falls to the pilots to identify and turn
+        off the erroneous sources to recover good data.</para>
+
+        <para>The first problem is recognition of a failure, since the aircraft systems may be unable to warn of a
+        problem. The primary method of doing this is correlation of aircraft attitude and thrust to displayed
+        performance. Correlation of radio altimeter and GPIRS derived data (available on GPS MONITOR page) may also aid
+        identification. The stall warning (available in alternate or direct law) is based on alpha probes, so will
+        likely be valid. Other clues may include fluctuations in readings, abnormal behavior of the automatics, high
+        speed buffet or low aerodynamic noise.</para>
+
+        <para>If the aircraft flight path is in doubt, disconnect the automatics and fly the following short term
+        attitude and thrust settings to initiate a climb:
+
+        <informaltable>
+          <tgroup cols="3">
+            <colspec align="left" colwidth="2.25in"/><colspec align="center" colwidth="1in"/><colspec align="center" colwidth="1in"/>
+            <thead>
+              <row><entry align="center">Condition</entry><entry>Thrust</entry><entry>Pitch</entry></row>
+            </thead>
+            <tbody>
+              <row><entry>Below Thrust Reduction Altitude</entry><entry>TOGA</entry><entry>15°</entry></row>
+              <row><entry>Below FL100</entry><entry>Climb</entry><entry>10°</entry></row>
+              <row><entry>Above FL100</entry><entry>Climb</entry><entry>5°</entry></row>
+            </tbody>
+          </tgroup>
+        </informaltable>
+
+        Flap configuration should be maintained except when a go-around is initiated with flap full, in which case CONF
+        3 should be selected. The gear and speedbrake should be retracted. If there is any doubt over the validity of
+        altitude information, the FPV must be disregarded. If altitude information is definitely good, the FPV may be
+        used.</para>
+
+        <para>Once the flight path is under control and a safe altitude is attained, refer to the table on page 2.15 of
+        the QRH to extract a pitch and thrust combination for your weight and configuration. Speed should be adjusted
+        until the aircraft flies level with these parameters set. Level flight can be established using the VSI, which
+        is an inertial instrument unless there is there is an amber box around the numerical indication on the V/S scale
+        {TODO: Confirm this - QRH indicates that VSI should not be used if altitude is in doubt}. Once stabilised, an
+        attempt should be made to recover good data by switching off faulty ADRs.</para>
+
+        <para>If good ADR information cannot be recovered, tables are provided on page 2.17 and 2.18 of the QRH to
+        enable all phases of flight to be flown using just pitch and thrust settings. The approach configuration should
+        be flown in level flight, stabilising each configuration before the next configuration is selected.</para>
+      </sect2>
+      <sect2 id="ditching">
         <title>Ditching</title>
         <para>[QRH 1.23, QRH 1.16, QRH 1.20 FCOM 3.2.80]</para>
         
@@ -251,50 +304,6 @@
         engine is running and the BDCU when the aircraft is not stopped.</para>
 
         <para>In flight, only the computers listed in the reset table should be considered for reset.</para>
-      </sect2>
-      <sect2>
-        <title>Unreliable airspeed</title>
-        <para>Unreliable airspeed indications may result from radome damage and/or unserviceable probes or ports.</para>
-
-        <para>The FMGCs normally reject erroneous ADR data by isolating a single source that has significant differences
-        to the other two sources. It is possible that a single remaining good source may be rejected if the other two
-        sources are erroneous in a sufficiently similar way. In this case, it falls to the pilots to identify and turn
-        off the erroneous sources to recover good data.</para>
-
-        <para>The first problem is recognition of a failure, since the aircraft systems may be unable to warn of a
-        problem. The primary method of doing this is correlation of aircraft attitude and thrust to displayed
-        performance. Correlation of radio altimeter and GPIRS derived data (available on GPS MONITOR page) may also aid
-        identification. The stall warning (available in alternate or direct law) is based on alpha probes, so will
-        likely be valid. Other clues may include fluctuations in readings, abnormal behavior of the automatics, high
-        speed buffet or low aerodynamic noise.</para>
-
-        <para>If the aircraft flight path is in doubt, disconnect the automatics and fly the following short term
-        attitude and thrust settings to initiate a climb:
-        <informaltable>
-          <tgroup cols="3">
-            <colspec align="left" colwidth="2.25in"/><colspec align="center" colwidth="1in"/><colspec align="center" colwidth="1in"/>
-            <thead>
-              <row><entry align="center">Condition</entry><entry>Thrust</entry><entry>Pitch</entry></row>
-            </thead>
-            <tbody>
-              <row><entry>Below Thrust Reduction Altitude</entry><entry>TOGA</entry><entry>15°</entry></row>
-              <row><entry>Below FL100</entry><entry>Climb</entry><entry>10°</entry></row>
-              <row><entry>Above FL100</entry><entry>Climb</entry><entry>5°</entry></row>
-            </tbody>
-          </tgroup>
-        </informaltable>
-        Flap configuration should be maintained except when a go-around is initiated with flap full, in which case CONF
-        3 should be selected. The gear and speedbrake should be retracted. If there is any doubt over the validity of
-        altitude information, the FPV must be disregarded. If altitude information is definitely good, the FPV may be
-        used.</para>
-        <para>Once the flight path is under control and a safe altitude is attained, refer to the table on page 2.16 of
-        the QRH to extract a pitch and thrust combination for your weight and configuration. Speed should be adjusted
-        until the aircraft flies level with these parameters set. Level flight can be established using the VSI, which
-        is an inertial instrument unless there is there is an amber box around the numerical indication on the V/S
-        scale. Once stabilised, an attempt should be made to recover good data by switching off faulty ADRs.</para>
-        <para>If good ADR information cannot be recovered, tables are provided on page 2.17 and 2.18 of the QRH to
-        enable all phases of flight to be flown using just pitch and thrust settings. The approach configuration should
-        be flown in level flight, stabilising each configuration before the next configuration is selected.</para>
       </sect2>
     </sect1>
     <sect1>
