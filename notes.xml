@@ -1176,5 +1176,32 @@
       </sect2>
 
     </sect1>
+    <sect1>
+      <title>Pneumatic</title>
+      <sect2>
+        <title>Dual bleed failure</title>
+        <para>[QRH 2.02, FCOM 3.2.36.6000, NTC 1.106]</para>
+
+        <para>A known problem with the A319 is that the load on a single bleed supplying two packs at high altitude may
+        be sufficient to cause it to trip off. In this case, turning off one pack may allow a bleed reset.</para>
+
+        <para>There is no ECAM associated with a dual bleed failure. The QRH 2.02 procedure applies both to the case
+        where the aircraft has dispatched with an inoperative bleed IAW MEL, and in the case where an in-flight failure
+        has left a single bleed remaining.</para>
+
+        <para>In the case of an isolated bleed duct (due bleed air leak, engine fire or failed open start valve), the
+        bleed associated with the duct is clearly unrecoverable. Since the remaining bleed would only have been
+        supplying a single pack, the overload case does not apply. Hence, this bleed is also considered unrecoverable,
+        and a bleed reset should not be attempted. If, on the other hand, both ducts are available and a single bleed
+        has been supplying two packs, an overload may be suspected and an attempt can be made to reset the overloaded
+        bleed once one of the packs is turned off.</para>
+
+        <para>If an engine bleed cannot be recovered, providing #1 bleed duct is available, the APU bleed may be used to
+        supply a single pack when below FL225. If the #2 bleed duct is isolated, only pack 1 can be used since the cross
+        bleed will be closed. Otherwise, either pack may be used. Note that the APU bleed is not capable of supplying
+        bleed air for wing anti-ice.</para>
+      </sect2>
+    </sect1>
 </article>
+
 
