@@ -38,23 +38,44 @@
       spoilers.</para>
       </sect2>
       <sect2>
-        <title>Engine failure after V1</title>
+        <title>Failures during takeoff when above V1</title>
         <para>[FCOM 3.2.10.2000]</para>
 
-        <para>PNF will announce "Engine Failure" without specifying which engine. Apply rudder conventionally on the
-        runway. At V<subscript>r</subscript> rotate to 12½° at a slightly reduced rate. When airborne, adjust rudder to
-        maintain &beta; target. Engage the autopilot once gear is up and rudder is trimmed. Consider the use of TOGA if
-        a FLX takeoff was carried out.</para>
+        <para>Whilst below 400ft, the only failure related actions should be:
+        <itemizedlist>
+          <listitem><para>If applicable, PNF should announcement "Engine failure" or "Engine fire" without specifying an
+          engine.</para></listitem>
+          <listitem><para>Cancellation of master warning or master caution when both pilots confirm they are aware of
+          it.</para></listitem>
+          <listitem><para>Heightened awareness of the possibility of missing essential normal items, such as calling
+          rotate or raising the gear due to the distraction of the failure.</para></listitem>
+        </itemizedlist>
+        </para>
 
-        <para>At 400ft, declare intention to fly EOSID. Bank angle should be limited to 15° when more than 3kt below
-        maneuvring speed for the current configuration. Once established on the EOSID request PNF to "Read ECAM". Once
-        the ECAM is confirmed, PF will take the radios and request PNF to carry out ECAM actions. At a suitable moment
-        declare a Mayday.</para>
+        <para>If an engine has lost thrust, apply rudder conventionally on the runway. At V<subscript>r</subscript>
+        rotate to 12½° at a slightly reduced rate. When airborne, adjust rudder to maintain &beta; target. Bank angle
+        should be limited to 15° when more than 3kt below maneuvering speed for the current configuration. Engage the
+        autopilot once gear is up and rudder is trimmed. Consider the use of TOGA if a FLX takeoff was carried
+        out.</para>
 
-        <para>When above acceleration altitude with the engine secure (master switch turned off or the first fire bottle
-        discharged), announce "Stop ECAM", accelerate by pushing V/S and clean up as required. Config 1 and S speed is
-        recommended for an immediate visual return; config 0 and green dot speed if recommended for transiting. Once at
-        the required speed set MCT, continue climb in OP CLIMB and announce "Continue ECAM".</para>
+        <para>Next, decide on a lateral strategy. In general, any current or impending loss of thrust will require the
+        EOSID to be flown. Otherwise, the cleared SID should be flown. If the lateral strategy selected is the EOSID, a
+        three segment vertical strategy is implied. Segment 1 is a TOGA (FLX may be used) climb at V2 (or current speed
+        limited to V2+15kt if higher) to acceleration altitude. Segment 2 is a TOGA (again, FLX may be used) level
+        acceleration and clean up, either to Conf 1 if an immediate VMC return is desired or to Conf 0. This is usually
+        acheived by pushing V/S. Segment 2 may be delayed until high priority tasks such as securing an engine or firing
+        a squib have been completed. Segment 3 is a MCT climb segment, either at S speed if in Conf 1 or at green dot
+        speed if in Conf 0. This is usually acheived in open climb. TOGA may be used for a maximum of 10 minutes. ATC
+        must be informed if the EOSID is to be flown, usually by declaring a Mayday. <emphasis>Don't start messing around
+        with the ECAM until a lateral strategy has been agreed.</emphasis></para>
+
+        <para>Once above 400ft, the failure can be diagnosed and dealt with. In general, this is initiated by PF asking
+        PNF to "Read ECAM". Once the ECAM is confirmed, PF will take the radios and request PNF to carry out ECAM
+        actions. When applying ECAM procedures, PF is responsible for moving the thrust levers once confirmed by
+        PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors and any
+        guarded switch must be confirmed with PF. PF may interrupt ECAM procedures using the phrase "Stop ECAM". This is
+        often required for segment 2 of the EOSID. PF request continuation of the procedure with the phrase "Continue ECAM".</para>
+
       </sect2>
             
   </sect1>
