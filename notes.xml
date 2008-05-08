@@ -657,7 +657,7 @@
         otherwise unserviceable, providing that it is electrically supplied.</para>
 
         <para>Gear doors may show amber on the WHEEL page after gravity extension. There may also be spurious LGCIU 2
-        FAULT or BRAKES SYS 1(2) FAULT ECAM warnings</para>
+        FAULT or BRAKES SYS 1(2) FAULT ECAM warnings.</para>
       </sect2>
       <sect2 id="asymmetric-braking">
         <title>Asymmetric braking</title>
@@ -1091,7 +1091,7 @@
     <sect1>
       <title>Navigation</title>
       <sect2>
-        <title>EPGWS alerts <emphasis>(memory item)</emphasis></title>
+        <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
         <para>[QRH 1.14, FCOM 3.2.34.23000]</para>
 
         <para>EPGWS alerts can be categorised into warnings and cautions. A warning is any alert with the instruction
