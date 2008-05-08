@@ -585,8 +585,8 @@
         in case this is the source. The packs are then turned off one at a time to determine if the source of the smoke
         is a pack.</para>
 
-        <para>The cabin equipment smoke drill isolates involves selecting the commercial button off and searching for
-        faulty cabin equipment.</para>
+        <para>The cabin equipment smoke drill involves selecting the commercial button off and searching for faulty
+        cabin equipment.</para>
 
         <para>Suspect avionics smoke if the only triggered ECAM is AVIONICS SMOKE. If an item of electrical equipment
         fails immediately prior to the appearance of the smoke, that piece of equipment should be suspected as the
@@ -594,7 +594,7 @@
         buses one at a time by preventing bus transfers and turning generators off. This allows significant portions of
         the electrical equipment to be isolated in blocks. Note that if AC bus 1 is shed, the Captain's instruments and
         the STBY instruments are both supplied from non de-iced sensors and should be suspected if there is any
-        disagreements. If this does not work, the emergency electrical configuration is adopted (see <xref
+        disagreement. If this does not work, the emergency electrical configuration is adopted (see <xref
         linkend="emerg-elec-config"/>).</para>
 
       </sect2>
