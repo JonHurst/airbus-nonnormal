@@ -26,8 +26,8 @@
       operations".</para>
 
       <para>During this initial phase, CM2 confirms reverse ("Reverse green"), confirms deceleration ("Decel"), cancels
-      any audio warnings, informs ATC and announces "70 knots" when appropriate. Once the aircraft comes to a halt, CM2
-      locates the emergency evacuation checklist.</para>
+      any audio warnings, informs ATC and announces "70 knots" when appropriate. CM2 then locates the emergency
+      evacuation checklist.</para>
 
       <para>Once the aircraft has stopped, CM1 takes the radios and asks CM2 to carry out any required ECAM
       actions. Whilst the ECAM actions are being completed, CM1 will build up a decision as to whether to evacuate. If
