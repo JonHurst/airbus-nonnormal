@@ -74,7 +74,7 @@
         actions. When applying ECAM procedures, PF is responsible for moving the thrust levers once confirmed by
         PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors and any
         guarded switch must be confirmed with PF. PF may interrupt ECAM procedures using the phrase "Stop ECAM". This is
-        often required for segment 2 of the EOSID. PF request continuation of the procedure with the phrase "Continue ECAM".</para>
+        often required for segment 2 of the EOSID. PF requests continuation of the procedure with the phrase "Continue ECAM".</para>
 
       </sect2>
             
