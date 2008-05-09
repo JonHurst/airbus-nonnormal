@@ -34,12 +34,19 @@
 
 <xsl:attribute-set name="section.title.level2.properties">
   <xsl:attribute name="font-size">
-    <xsl:value-of select="$body.font.master * 1.2"/>
+    <xsl:value-of select="$body.font.master * 1.25"/>
     <xsl:text>pt</xsl:text>
   </xsl:attribute>
 </xsl:attribute-set>
 
 <xsl:attribute-set name="section.title.level3.properties">
+  <xsl:attribute name="font-size">
+    <xsl:value-of select="$body.font.master*1.1"/>
+    <xsl:text>pt</xsl:text>
+  </xsl:attribute>
+</xsl:attribute-set>
+
+<xsl:attribute-set name="section.title.level4.properties">
   <xsl:attribute name="font-size">
     <xsl:value-of select="$body.font.master"/>
     <xsl:text>pt</xsl:text>
