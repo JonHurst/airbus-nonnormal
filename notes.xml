@@ -1321,6 +1321,15 @@
       </sect2>
     </sect1>
     <sect1>
+      <title>Indicating/ Recording</title>
+      <sect2>
+        <title>Display unit failure</title>
+        <para>[QRH 2.10, FCOM 3.2.31]</para>
+
+        <para>TODO</para>
+      </sect2>
+    </sect1>
+    <sect1>
       <title>Pneumatic</title>
       <sect2>
         <title>Dual bleed failure</title>
