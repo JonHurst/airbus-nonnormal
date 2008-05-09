@@ -164,7 +164,7 @@
           V<subscript>LS</subscript>+15.</para>
         </sect3>
       </sect2>
-      <sect2>
+      <sect2 id="unreliable-airspeed">
         <title>Unreliable airspeed <emphasis>(memory item)</emphasis></title>
 
         <para>[QRH 2.15, FCOM 3.2.34.30000]</para>
@@ -1148,7 +1148,16 @@
         two RNAV systems. If a failure occurs that breaches one of these restrictions, procede as for a loss of
         navigation accuracy.</para>
 
-        
+      </sect2>
+      <sect2>
+        <title>ADR disagree</title>
+        <para>[QRH 2.14, FCOM 3.2.34, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> ADR
+        DISAGREE]</para>
+
+        <para>The ECAM message indicates that, following an ADR fault or rejection, there is a speed or angle of attack
+        disagreement between the two remaining ADRs. This will cause a degradation to alternate law. If there is a speed
+        disagreement, see <xref linkend="unreliable-airspeed"/>. If the speed does not disagree, an AOA sensor is
+        providing incorrect data and there is a risk of spurious stall warnings.</para>
       </sect2>
       <sect2>
         <title>ADR faults</title>
