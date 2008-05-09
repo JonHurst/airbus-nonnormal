@@ -1122,6 +1122,33 @@
         
       </sect2>
       <sect2>
+        <title>RNAV downgrades</title>
+        <para>[EOM A.8.3.2, EOM B.2.4.51]</para>
+
+        <para>If an ECAM or MCDU message indicates navigation accuracy is compromised whilst flying in RNP-5 (BRNAV)
+        airspace, a navigation check should be made using the GPS MONITOR page or raw radio aid data. If a single FMGC
+        is at fault, navigation can be continued using the other FMGC. If RNP-5 ability has been lost, inform ATC and
+        continue with conventional navigation. The IRS provides RNP-5 required accuracy for two hours from last
+        alignment regardless of MCDU ENP.</para>
+
+        <para>In an RNP-1 (PRNAV) environment, loss of navigation accuracy may be more serious as the aircraft may be
+        below MSA when it occurs. The initial response is to notify ATC with the phrase "Unable RNAV due equipment" and
+        request reclearance. It is important to be aware that terrain clearance may be compromised, so an immediate
+        climb above MSA should be considered if a suitable alternative navigation method (e.g. radar vectors) is not
+        available.</para>
+
+        <para>In general, an RNP-1 approach only requires the availability of a single RNAV system consisting of one
+        FMGC, one MCDU, one sensor (GPS, VOR or DME), one IRS and one FD in NAV mode. GPS PRIMARY is not normally a
+        requirement, but if it is not available ensure that RNP is set to 1, NAV ACCURACY is high and a raw data check
+        is carried out prior to commencement of the procedure.</para>
+
+        <para>Some RNP-1 procedures include extra restrictions such as the mandatory use of GPS or the availability of
+        two RNAV systems. If a failure occurs that breaches one of these restrictions, procede as for a loss of
+        navigation accuracy.</para>
+
+        
+      </sect2>
+      <sect2>
         <title>ADR faults</title>
         <para>A single ADR fault simply requires switching to the hot spare and turning the affected unit off. Loss of
         ADR1 will lead to the loss of the extended functions of the EGPWS. Loss of ADR2 will lead to both baro reference
@@ -1312,7 +1339,7 @@
             <para>Fly the published lateral and vertical profiles, including any step climb, until the last waypoint of
             the procedure is reached. Maintain current speed and last assigned level (or MSA if this is higher) until
             <emphasis>7 minutes</emphasis> have elapsed. Then adjust speed and level in accordance with current flight
-            plan.</para>
+            plan. This procedure also applies to RNP-1 (PRNAV) departures.</para>
           </sect4>
           <sect4>
             <title>Under radar vectors without specified limit</title>
@@ -1327,7 +1354,8 @@
             <title>STAR</title>
             <para>Follow lateral profile. Maintain current speed and last assigned level (or MSA if higher) for
             <emphasis>7 minutes</emphasis>, then arrange descent to be as close as possible to published planning
-            profile. If no profile is published, arrange to be at the IAF at minimum published level.</para>
+            profile. If no profile is published, arrange to be at the IAF at minimum published level. This procedure
+            also applies to RNP-1 (PRNAV) arrivals.</para>
           </sect4> 
           <sect4>
             <title>SRA</title>
