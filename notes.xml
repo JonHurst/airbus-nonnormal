@@ -1149,7 +1149,7 @@
         navigation accuracy.</para>
 
       </sect2>
-      <sect2>
+      <sect2 id="adr-disagree">
         <title>ADR disagree</title>
         <para>[QRH 2.14, FCOM 3.2.34, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> ADR
         DISAGREE]</para>
@@ -1307,6 +1307,18 @@
         approach if it has cooled sufficiently.</para>
       </sect2>
 
+    </sect1>
+    <sect1>
+      <title>Ice and rain protection</title>
+      <sect2>
+        <title>Double AOA heat fail</title>
+        <para>[QRH 2.10, FCOM 3.2.30.11000]</para>
+
+        <para>If two AOA probes are affected by icing, the computers may erroneously deselect the remaining good
+        ADR. Switching off one of the affected ADRs leaves the system in the state described in <xref
+        linkend="adr-disagree"/>.</para>
+        
+      </sect2>
     </sect1>
     <sect1>
       <title>Pneumatic</title>
