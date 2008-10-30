@@ -626,6 +626,165 @@
 
     </sect1>
     <sect1>
+      <title>Fuel</title>
+      <sect2 id="fuel-leak">
+        <title>Fuel leak</title>
+        <para>[QRH 2.08, FCTM 3.2.28.{24,25}000, amber ECAM FUEL F USED/FOB DISAGREE]</para>
+
+        <para>Whenever a non-normal fuel event occurs, the possibility that the underlying cause of the event is a fuel
+        leak should be considered. Only when a fuel leak has been categorically ruled out should the cross-feed valve be
+        opened.[FCTM 3.28]</para>
+
+        <para>The primary method used to detect fuel leaks is a regular check that actual fuel remaining corresponds to
+        expected fuel remaining and that fuel used plus fuel remaining corresponds to fuel at engine start. The latter
+        parameter is monitored on some aircraft and may trigger an ECAM warning. Other indications of a leak include
+        fuel imbalance or excessive fuel flow from an engine. It also possible that a fuel leak may be detected visually
+        or by a smell of fuel in the cabin.</para>
+
+        <para>If a leak can be confirmed to be coming from an engine or pylon, the affected engine must be shut down. In
+        this case, cross-feeding is allowable. Otherwise, the cross-feed must be kept closed.</para>
+
+        <para>If the leak cannot be confirmed to be originating from an engine or pylon, an attempt should be made to
+        identify the source of the leak by monitoring the inner tank depletion rates with the crossfeed valve closed and
+        the center tank pumps off.</para>
+
+        <para>If depletion rates are similar, a leak from the center tank or from the APU feeding line should be
+        suspected. If there is a smell of fuel in the cabin, it is likely that the APU feeding line is at fault and the
+        APU should be turned off. Fuel from the center tank should be used once one of the inner tanks has
+        &lt;3000kg. {TODO: I don't understand the logic here - surely an APU feeding line leak would cause the left tank
+        to decrease faster than the right, and why not put the center tank pumps in AUTO and use the fuel as soon as
+        possible if you suspect a leak from the center tank?}</para>
+
+        <para>If, after 30 minutes, one tank has been depleted by 300kg more than the other, the location of leak is
+        narrowed down to the engine or the wing on the more depleted side. To confirm which it is, shut down the engine.
+        If the leak then stops, an engine leak is confirmed and the cross feed can be used. If not, a leak from the wing
+        is most likely. In this case, an engine restart should be considered.</para>
+
+        <para>In an emergency, a landing may be carried out with maximum fuel imbalance.</para>
+      </sect2>
+      <sect2>
+        <title>Fuel imbalance</title>
+        <para>[QRH 2.09, FCOM 3.28.26000]</para>
+
+        <para>There is no requirement to balance fuel until the ECAM advisory appears, indicating a difference between
+        wings of &gt;1500kg. Balancing should not be carried out unless a fuel leak can categorically be ruled
+        out.</para>
+
+        <para>To balance the fuel, open the cross-feed valve and turn the lighter side pumps and the center tank pumps
+        off.</para>
+      </sect2>
+      <sect2 id="gravity-feeding">
+        <title>Gravity fuel feeding</title>
+        <para>[QRH 2.09, FCOM 3.2.28.28000]</para>
+
+        <para>Turn on ignition in case of fuel interruption and avoid negative G. The ceiling at which fuel can be
+        reliably gravity fed depends on whether the fuel has had time to deaerate. If the aircraft has been above FL300
+        for more than 30 minutes, the fuel may be considered deaerated and the current flight level
+        maintained. Otherwise, the fuel must be considered aerated and the gravity feed ceiling is FL300 if the aircraft
+        exceeded FL300 or FL150 if it didn't. If gravity feeding is required, descend to the gravity feed ceiling.</para>
+
+        <para>It is also possible to gravity cross feed by side slipping the aircraft with a bank angle of 2° to 3°
+        should this become necessary.</para>
+      </sect2>
+      <sect2>
+        <title>Wing tank pump(s) low pressure</title>
+        <para>[FCOM 3.2.38.{1,2}000, FCOM 1.28.20.7000, amber ECAM FUEL L(R) TK PUMP 1(2)(1+2) LO PR]</para>
+
+        <para>Failed pumps should be turned off.</para>
+
+        <para>Failure of a single pump in either tank results in reduced redundancy only.</para>
+
+        <para>Failure of both pumps in a given tank means that the fuel in that tank is only available by gravity
+        feeding. Pressurized fuel may be available from the center tank (use manual mode if necessary) or by
+        cross-feeding. A descent to gravity feed ceiling may be required (see <xref linkend="gravity-feeding"/>).</para>
+      </sect2>
+      <sect2>
+        <title>Center tank pumps low pressure</title>
+        <para>[FCOM 3.2.28.{21,22}000, FCOM 1.28.20.7000, amber ECAM FUEL CTR TK PUMP(S)(1(2)) LO PR]</para>
+
+        <para>Failed pumps should be turned off.</para>
+
+        <para>Failure of a single center tank pump results in a loss of redundancy. The crossfeed should be opened until
+        the center tank fuel has been exhausted so that the remaining pump can supply both engines.</para>
+
+        <para>Failure of both center tank pumps makes the fuel in the center tank unusable.</para>
+      </sect2>
+      <sect2>
+        <title>Auto feed fault</title>
+        <para>[FCOM 3.2.28.23000, FCOM 1.28.20.7000, amber ECAM FUEL AUTO FEED FAULT]</para>
+
+        <para>The center tank pumps must be managed manually. They must be switched off whenever slats are extended,
+        wing tank fuel &gt;5000kg or center tank fuel is exhausted.</para>
+      </sect2>
+      <sect2>
+        <title>Low fuel level</title>
+        <para>[FCOM 3.2.28.{3,4}000, FCOM 1.28.20.7000, amber ECAM FUEL L(R)(L+R) WING TK LO LVL]</para>
+        
+        <para>The ECAM is triggered at approximately 750kg. The warning may be spurious if the ECAM is triggered just
+        before the wing cell transfer valves open. If center tank fuel remains, it should be used by selecting the
+        center tank pumps to manual mode. If there is a fuel imbalance and a fuel leak can be ruled out, crossfeed fuel
+        as required.</para>
+
+        <para>If both tanks are low level, about 30 minutes of flying time remain. Declare a PAN if the possibility
+        exists that there will be less than final reserve on landing. Declare a MAYDAY if it is certain that there will
+        be less than final reserve on landing.[EOMA 8.3.7.2]</para>
+      </sect2>
+      <sect2>
+        <title>Outer tank transfer valves failed closed</title>
+        <para>[FCOM 3.2.28.6000, FCOM 1.28.20.7000, amber ECAM FUEL L(R) XFR VALVE CLOSED]</para>
+
+        <para>If both transfer valves fail to open when a wing tank reaches low level, the fuel in that outer tank
+        becomes unusable. The fuel balance will remain within limits since maximum outer tank imbalances are acceptable
+        if the total fuel in either wing is the same [FCOM 3.1.28.1000].</para>
+        
+      </sect2>
+      <sect2>
+        <title>Outer tank transfer valve open out of sequence</title>
+        <para>[FCOM 3.2.28.7000, FCOM 1.28.20.7000, amber ECAM FUEL L(R) XFR VALVE OPEN]</para>
+
+        <para>Maximum outer tank imbalances are acceptable if the total fuel in either wing is the same [FCOM
+        3.1.28.1000], so no action is required.</para>
+        
+      </sect2>
+      <sect2>
+        <title>Cross-feed valve fault</title>
+        <para>[FCOM 3.2.28.8000, FCOM 1.28.20.7000, amber ECAM FUEL X FEED VALVE FAULT]</para>
+
+        <para>If the valve has failed open, fuel balance can be maintained through selective use of fuel pumps. If it
+        has failed closed, crossfeeding is unavailable.</para>
+      </sect2>
+      <sect2>
+        <title>Low fuel temperature</title>
+        <para>[FCOM 3.2.28.{11,12}000, FCOM 1.38.20.7000, amber ECAM xxx TK LO TEMP]</para>
+        
+        <para>ECAM is triggered at approx -43°C. If on the ground, delay takeoff until temperatures are within
+        limits. If in flight, descending or increasing speed should be considered.</para>
+      </sect2>
+      <sect2>
+        <title>High fuel temperature</title>
+        <para>[FCOM 3.2.28.14000. FCOM 1.38.20.7000, amber ECAM xxx TK HI TEMP]</para>
+
+        <para>This ECAM is known to be triggered spuriously by interference from communication equipment. The procedure
+        should only be applied if the message has not disappeared within 2 minutes.</para>
+
+        <para>The ECAM temperature triggers on the ground are 55°C for the outer cell and 45°C for the inner cell. In
+        the air they are 60°C for the outer cell and 54°C for the inner cell.</para>
+
+        <para>The temperature of fuel returning to the tanks is primarily a function of IDG cooling requirement. The
+        immediate action, therefore is to turn the galley off to reduce the IDG load.</para>
+
+        <para>On the ground, the engine on the affected side must be shut down if the outer cell reaches 60°C or the
+        inner cell reaches 54°C. An expeditious taxi may, therefore, be advantageous.</para>
+
+        <para>In the air, if only one side is affected, fuel flow can be increased so that less hot fuel is returned to
+        the tanks. If the temperature gets too high (&gt;65°C outer or &gt;57° inner), IDG disconnection will be
+        required. The engine must be running when the IDG button is pressed, and it must not be held for more than 3
+        seconds.[FCOM 1.24.20.1000]</para>
+
+      </sect2>
+
+    </sect1>
+    <sect1>
       <title>Landing gear</title>
       <sect2 id="loss-of-braking">
         <title>Loss of braking <emphasis>(memory item)</emphasis></title>
