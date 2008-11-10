@@ -415,7 +415,7 @@
         trim. Once 45 seconds have elapsed and when below FL250, the APU can be started.</para>
 
         <para>So much equipment is lost in the emergency configuration that QRH 1.01 provides a table of surviving
-        equipment. Notable losses are all the fuel pumps (so ignition on, avoid negative G, centre tank fuel is
+        equipment. Notable losses are all the fuel pumps (so ignition on, avoid negative G, center tank fuel is
         unusable), the anti-skid and three fifths of the spoilers. Landing speeds and distances are increased
         significantly.</para>
 
@@ -471,7 +471,7 @@
 
         <para>Some or all of the equipment on AC bus 1 becomes unavailable, including TR1. DC Bus 2 is powered from DC
         Bus 1 via the battery bus. Power must be re-routed to the Essential AC bus via AC bus 2. This is automatic on
-        some aircraft. Manual re-routing is acheived with the AC ESS FEED button. Once Essential AC is powered, the
+        some aircraft. Manual re-routing is achieved with the AC ESS FEED button. Once Essential AC is powered, the
         Essential TR powers the DC Essential bus.</para>
 
         <para>Notable lost equipment includes the blue hydraulic system and associated services (including spoiler 3),
@@ -499,17 +499,148 @@
         major issues. Landing distances are unchanged.</para>
       </sect2>
       <sect2>
-        <title>AC essential shed bus lost</title>
+        <title>AC Essential Shed Bus lost</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.11000, <emphasis role="underline">ELEC</emphasis> AC ESS BUS SHED]</para>
       
         <para> Some or all of the equipment on the AC ESS SHED bus is lost. The major issue is the loss of the passenger
         oxygen masks. Landing distances are unchanged.</para>
       </sect2>
       <sect2>
-        <title></title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24., <emphasis role="underline">ELEC</emphasis> ]</para>
+        <title>DC Bus 1 fault</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.12000, <emphasis role="underline">ELEC</emphasis> DC BUS 1 FAULT]</para>
       
+        <para>Some or all of the equipment on DC Bus 1 is lost. Most of the equipment loss causes loss of
+        redundancy only. Landing distances are unchanged.</para>
       </sect2>
+      <sect2>
+        <title>DC Bus 2 fault</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.13000, <emphasis role="underline">ELEC</emphasis> DC BUS 2 FAULT]</para>
+      
+        <para>Some or all of the equipment on DC Bus 2 is lost. The F/O's static probe sensor is lost, so ADR3
+        should be selected on the F/O's side. FCU2 is lost, so check that the baro ref on the FCU and PFD
+        agree. Landing distance increases by up to 35% due to the loss of 3 ground spoilers per side and one
+        reverser. Autobrake is also unavailable. Due to the loss of SFCC2, the slats and flaps will be slow
+        and the engines will remain in approach idle. FAC2 is lost, so the characteristic speeds on both PFDs
+        are provided by FAC1. F/O window heat, wipers and rain repellant is lost.</para>
+
+        <para>The other lost systems either have redundant backups or are non-essential. It should be noted
+        that the only flight computers remaining are ELAC 1, SEC 1 and FAC 1.</para>
+      </sect2>
+      <sect2>
+        <title>DC Essential Bus fault</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.14000 , <emphasis role="underline">ELEC</emphasis> DC ESS BUS
+        FAULT]</para>
+
+        <para>Some or all of the equipment in the DC Essential Bus is lost. Of particular note, the audio
+        cards connecting VHF2 and VHF3 to the Audio Management Unit are lost. Since VHF1 is also lost, the
+        ECAM suggests using VHF2 and VHF3, but this will not work, and all comms are lost. Airbus is working
+        on a fix, apparently.</para>
+
+        <para>FCU1 is lost, so the baro refs should be checked. The GPWS is lost and should be turned off.</para>
+
+        <para>Landing distances are increased due to the loss of reverser 2 and the loss of the blue hydraulic
+        system (and hence spoiler 3). Wing anti-ice is also lost, so landing distances will also increase
+        significantly if ice is accreted and increased approach speeds are required.</para>
+
+        <para>Slats and flaps are slow due to the loss of SFCC1. This also leads to the engines reverting to
+        approach idle.</para>
+
+        <para>Landing capability is Cat 2 due to the loss of the auto-thrust. The ECAM status page incorrectly
+        reports Cat 3 single.</para>
+
+      </sect2>
+      <sect2>
+        <title>DC Essential shed</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.15000, <emphasis role="underline">ELEC</emphasis> DC ESS BUS
+        SHED]</para>
+
+        <para>The only major issue is the loss of wing anti-ice. Therefore, avoid icing conditions, and apply
+        landing distance procedure if ice accretes.</para>
+      </sect2>
+      <sect2 id="dc-1and2">
+        <title>Loss of DC Bus 1 and DC Bus 2</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24. , <emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT]</para>
+
+        <para>Some or all of the systems supplied by DC Bus 1 and DC Bus 2 are lost.</para>
+
+        <para>Both channels of the BSCU are lost (leads to loss of anti-skid) along with 3 spoilers from each
+        side and both reversers. This significantly increases landing distances, particularly in the
+        wet.</para>
+
+        <para>Also of note is that both center tank pumps are lost. As the center tank cannot gravity feed,
+        the fuel in it becomes unusable.</para>
+
+        <para>Finally, loss of SFCC2 means that flaps and slats are slow, and engine idle control reverts to
+        approach idle.</para>
+
+        <para>All other systems are relatively insignificant or have redundant backups.</para>
+      </sect2>
+      <sect2>
+        <title>Generator overload</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.21000 , <emphasis role="underline">ELEC</emphasis> GEN 1(2) or
+        APU GEN OVERLOAD]</para>
+
+        <para>Shed some load by switching off the galleys.</para>
+      </sect2>
+      <sect2>
+        <title>Loss of TR</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.22000 , <emphasis role="underline">ELEC</emphasis> TR 1(2) or
+        ESS TR FAULT]</para>
+
+        <para>No systems are lost as a result of failure of a single TR. If the fault is with TR1 or TR2, only
+        Cat 3 single will be available.</para>
+      </sect2>
+      <sect2 id="dc-bat">
+        <title>Battery bus fault</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.23000 , <emphasis role="underline">ELEC</emphasis> DC BAT BUS
+        FAULT]</para>
+
+        <para>Some or all of the equipment on the Battery bus are lost. The only major items lost are APU fire
+        detection and APU battery start.</para>
+      </sect2>
+      <sect2>
+        <title>DC Emergency configuration</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.24000 , <emphasis role="underline">ELEC</emphasis> DC EMER
+        CONFIG]</para>
+
+        <para>Defined as the loss of DC BUSSES 1 + 2, DC ESS BUS and DC BAT BUS. The check list assumes that
+        DC ESS BUS can be recovered by deploying the RAT with the EMER ELEC PWR button.</para>
+
+        <para>The lost equipment is the sum of loss of DC BUS 1, DC BUS 2 (see <xref linkend="dc-1and2"/>) and
+        the battery bus (see <xref linkend="dc-bat"/>), so all comments regarding these failures apply. In
+        addition, a minimum of 140kt must be maintained to avoid RAT stall. This combination leads to an
+        extreme increase in landing distance requirement.</para>
+      </sect2>
+      <sect2>
+        <title>Static inverter fault</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.25000 , <emphasis role="underline">ELEC</emphasis> STAT INV
+        FAULT ]</para>
+
+        <para>Normal operations are not affected.</para>
+      </sect2>
+      <sect2>
+        <title>Generator 1 line off</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.26000 , <emphasis role="underline">ELEC</emphasis> EMER GEN 1
+        LINE OFF]</para>
+
+        <para>The GEN 1 LINE button on the emergency electrical panel manually opens the generator 1 line
+        contactor, leaving generator 2 to supply GEN 2. It is used for the smoke drill. If it's not meant to
+        be off, turn it on.</para>
+      </sect2>
+      <sect2>
+        <title>Tripped circuit breakers</title>
+        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.27000 , <emphasis role="underline">C/B</emphasis>
+        TRIPPED]</para>
+
+        <para>It is generally not recommended to reset circuit breakers in flight. It is, however, acceptable
+        to attempt a single reset if it is judged necessary for the safe continuation of the flight.</para>
+
+        <para>On the ground, any circuit breakers other than those for the fuel pumps may be reset as long as
+        the action is coordinated with MOC.</para>
+
+        <para>The ECAM warning will be triggered if a green circuit breaker trips.</para>
+      </sect2>
+
 
     </sect1>
     <sect1>
