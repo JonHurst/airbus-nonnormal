@@ -595,7 +595,7 @@
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.23000 , <emphasis role="underline">ELEC</emphasis> DC BAT BUS
         FAULT]</para>
 
-        <para>Some or all of the equipment on the Battery bus are lost. The only major items lost are APU fire
+        <para>Some or all of the equipment on the Battery bus is lost. The only major items lost are APU fire
         detection and APU battery start.</para>
       </sect2>
       <sect2>
@@ -1707,7 +1707,7 @@
         not be automatically deselected.</para>
 
         <para>If pitot heat is lost on all probes, one of the ADRs should, again, be turned off to ensure the "ADR
-        DISAGEE" ECAM caution is provided. If icing is expected, turn off a second ADR and be ready to applu unreliable
+        DISAGREE" ECAM caution is provided. If icing is expected, turn off a second ADR and be ready to apply unreliable
         airspeed procedures (see <xref linkend="unreliable-airspeed"/>).</para>
       </sect2>
       <sect2>
