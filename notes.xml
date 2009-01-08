@@ -41,43 +41,77 @@
         <title>Failures during takeoff when above V1</title>
         <para>[FCOM 3.2.10.2000]</para>
 
-        <para>Whilst below 400ft, the only failure related actions should be:
-        <itemizedlist>
-          <listitem><para>If applicable, PNF should announcement "Engine failure" or "Engine fire" without specifying an
-          engine.</para></listitem>
-          <listitem><para>Cancellation of master warning or master caution when both pilots confirm they are aware of
-          it.</para></listitem>
-          <listitem><para>Heightened awareness of the possibility of missing essential normal items, such as calling
-          rotate or raising the gear due to the distraction of the failure.</para></listitem>
-        </itemizedlist>
-        </para>
-
         <para>If an engine has lost thrust, apply rudder conventionally on the runway. At V<subscript>r</subscript>
         rotate to 12½° at a slightly reduced rate. When airborne, adjust rudder to maintain &beta; target. Bank angle
         should be limited to 15° when more than 3kt below maneuvering speed for the current configuration. Engage the
         autopilot once gear is up and rudder is trimmed. Consider the use of TOGA if a FLX takeoff was carried
         out.</para>
 
-        <para>Next, decide on a lateral strategy. In general, any current or impending loss of thrust will require the
-        EOSID to be flown. Otherwise, the cleared SID should be flown. If the lateral strategy selected is the EOSID, a
-        three segment vertical strategy is implied. Segment 1 is a TOGA (FLX may be used) climb at V2 (or current speed
-        limited to V2+15kt if higher) to acceleration altitude. Segment 2 is a TOGA (again, FLX may be used) level
-        acceleration and clean up, either to Conf 1 if an immediate VMC return is desired or to Conf 0. This is usually
-        acheived by pushing V/S. Segment 2 may be delayed until high priority tasks such as securing an engine or firing
-        a squib have been completed. Segment 3 is a MCT climb segment, either at S speed if in Conf 1 or at green dot
-        speed if in Conf 0. This is usually acheived in open climb. TOGA may be used for a maximum of 10 minutes. ATC
-        must be informed if the EOSID is to be flown, usually by declaring a Mayday. <emphasis>Don't start messing around
-        with the ECAM until a lateral strategy has been agreed.</emphasis></para>
+        <para>Whilst below 400ft, the only failure related actions should be:
+        <itemizedlist>
+          <listitem><para>If applicable, PNF should announcement "Engine failure" or "Engine fire" without specifying an
+          engine.</para></listitem>
+          <listitem><para>Cancellation of master warning or master caution when both pilots confirm they are aware of
+          it.</para></listitem>
+          <listitem><para>Heightened awareness of the possibility of missing essential normal actions, such as calling
+          rotate or raising the gear due to the distraction of the failure.</para></listitem>
+        </itemizedlist>
+        </para>
 
-        <para>Once above 400ft, the failure can be diagnosed and dealt with. In general, this is initiated by PF asking
-        PNF to "Read ECAM". Once the ECAM is confirmed, PF will take the radios and request PNF to carry out ECAM
-        actions. When applying ECAM procedures, PF is responsible for moving the thrust levers once confirmed by
-        PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors and any
-        guarded switch must be confirmed with PF. PF may interrupt ECAM procedures using the phrase "Stop ECAM". This is
-        often required for segment 2 of the EOSID. PF requests continuation of the procedure with the phrase "Continue ECAM".</para>
+        <para>Once above 400ft with safe flight path assured, decide on an initial strategy. In general, where
+        a loss of thrust has occured or will occur, the strategy will be to fly the EOSID with a three segment
+        climb profile (see <xref linkend="eosid"/>). Otherwise, it will be to remain on the normal SID and fly
+        a normal climb profile. Any deviation from the cleared SID will require ATC to be informed as a
+        priority, usually as part of a PAN or MAYDAY message. In rare cases where the cleared SID requires a
+        very early turn it may be necessary to determine and action a strategy when below 400ft. If this is
+        the case, it must be thoroughly briefed.</para>
+
+        <para>Once the flight path strategy has been agreed and actioned, the failure can be diagnosed and
+        dealt with. If the failure has resulted in an ECAM warning, PF initiates this phase by asking PNF to
+        "Read ECAM". Once the ECAM is confirmed, PF will take the radios and request PNF to carry out ECAM
+        actions. When applying ECAM procedures, PF is responsible for moving the thrust levers once confirmed
+        by PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors
+        and any guarded switch must be confirmed with PF.</para>
 
       </sect2>
-            
+        <sect2 id="eosid">
+          <title>EOSID and 3 segment climb</title>
+
+          <para>Before the divergence point (the last common point between the SID and the EOSID), if the
+          aircraft detects a loss of thrust the EOSID will be displayed as a temporary flight plan. In this
+          case the temporary flight plan can be inserted and NAV mode used. Otherwise it will be necessary to
+          pull heading and manually follow either the yellow line or bring up a pre-prepared secondary flight
+          plan and follow the white line.</para>
+
+          <para>If beyond the divergence point, pull heading and make an <emphasis>immediate</emphasis> turn
+          the shortest way onto the EOSID. Airbus specifically recommends against this in FCOM 4.4.30, but
+          easyJet states it as policy in EOMB 4.2.3.</para>
+
+          <para>Electing to fly the EOSID implies a three segment vertical strategy:
+
+          <itemizedlist>
+            <listitem><para>Segment 1 is a TOGA climb at the higher of V<subscript>2</subscript> or current
+            speed, up to a limit of V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX
+            climb is permissable. This segment is continued until all high priority tasks are complete and the
+            aircraft is at or above acceleration altitude. For the engine failure and the engine fire failure
+            cases, EOMB 4.2.3 defines these high priority tasks. For an engine failure, all ECAM actions up to
+            and including the master switch being turned off must be completed. For the engine fire case all
+            ECAM actions up to and including firing the first squib must be completed. If the fire warning
+            light does not extinguish both squibs must be fired.</para></listitem>
+
+            <listitem><para>Segment 2 is a TOGA level acceleration and clean up, either to Conf 1 and S speed
+            if an immediate VMC return is desired or to Conf 0 and green dot. Again FLEX may be used if a FLEX
+            takeoff was carried out. Level acceleration is usually acheived by pushing V/S.  The phrases "Stop
+            ECAM" and "Continue ECAM" can be used to interupt ECAM procedures in order to initiate this
+            segment.</para></listitem>
+
+            <listitem><para>Segment 3 is a MCT climb segment to MSA, either at S speed if in Conf 1 or at
+            green dot speed if in Conf 0. This is usually acheived in open climb.</para></listitem>
+          </itemizedlist>
+
+          TOGA may be used for a maximum of 10 minutes.</para>
+        </sect2>
+
   </sect1>
   <sect1>
     <title>Miscellaneous</title>
@@ -136,6 +170,9 @@
           engaged, follow the SRS orders on the FD. If the FD is not available, initially pitch up to 17.5°, then
           increase as required.</para>
 
+          <para>In severe windshear, it is possible that ALPHA FLOOR protection will activate. As TOGA will
+          already be selected, this will have no immediate effect. Once clear of the windshear, however, TOGA
+          LK will be active, requiring the autothrust to be disconnected to avoid an overspeed.</para>
         </sect3>
         <sect3>
           <title>Predictive</title>
@@ -868,11 +905,17 @@
       </sect2>
       <sect2>
         <title>Fuel imbalance</title>
-        <para>[QRH 2.09, FCOM 3.28.26000]</para>
+        <para>[QRH 2.09, FCOM 3.28.26000, FCOM 3.1.28]</para>
 
-        <para>There is no requirement to balance fuel until the ECAM advisory appears, indicating a difference between
-        wings of &gt;1500kg. Balancing should not be carried out unless a fuel leak can categorically be ruled
-        out.</para>
+        <para>All fuel balancing must be carried out in accordance with QRH 2.09, paying particular attention
+        to the possibility of a fuel leak. Any action should be delayed until sufficient time has passed for a
+        fuel leak to become apparent. FCOM 3.2.28.26000 adds a note not found in the QRH that "there is no
+        requirement to correct an imbalance until the ECAM fuel advisory limit is displayed", an event that
+        occurs when one inner tank holds &gt;1500kg more than the other. The limitations for fuel imbalance in
+        FCOM 3.1.28, however, show that the fuel advisory does not necessarily indicate that a limitation is
+        likely to be breached. In particular, when the outer tanks are balanced and the heavier inner tank
+        contains &le;2250kg, there are no imbalance limitations. Furthermore, the aircraft handling is not
+        significantly impaired even at maximum imbalance. </para>
 
         <para>To balance the fuel, open the cross-feed valve and turn the lighter side pumps and the center tank pumps
         off.</para>
