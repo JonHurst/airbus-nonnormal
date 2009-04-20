@@ -1613,7 +1613,37 @@
     </sect1>
     <sect1>
       <title>Hydraulics</title>
-      <sect2>
+      <sect2 id="green-low-pr">
+        <title>Green system low pressure</title>
+
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.8000, amber ECAM: <emphasis role="underline">HYD</emphasis> G SYS LO PR]</para>
+
+        <para>The major lost systems are normal landing gear operation (gravity extension is available) and the normal
+        brake system, including the autobrake (alternate braking is available). Landing distance will be increased due
+        to loss of two spoilers per wing and reverser 1. Flap and slat deployment will be slow.</para>
+
+      </sect2>
+      <sect2 id="yellow-low-pr">
+        <title>Yellow system low pressure</title>
+
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.8000, amber ECAM: <emphasis role="underline">HYD</emphasis> Y SYS LO PR]</para>
+
+        <para>It may be possible to recover the yellow system by using the yellow electric pump.</para>
+
+        <para>Two spoilers per wing and reverser 2 are lost, so landing distance will increase slightly. Nose wheel
+        steering is lost. Flap deployment will be slow. As the alternate braking system is only available through the
+        brake accumulator, ensure there is sufficient pressure when the parking brake is set.</para>
+      </sect2>
+      <sect2 id="blue-low-pr">
+        <title>Blue system low pressure</title>
+
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.11000, amber ECAM: <emphasis role="underline">HYD</emphasis> B SYS LO PR]</para>
+
+        <para>One spoiler per wing will be lost but this has negligible effect on landing distance. Slats will be slow to
+        deploy. Deployment of the RAT is not recommended unless another system is lost. If the system is lost due to low
+        reservoir level, emergency generation capability is lost.</para>
+      </sect2>
+<sect2>
         <title>Blue + yellow systems low pressure</title>
 
         <para>[QRH 1.10, FCOM 1.29.20.4000, FCOM 3.2.29.6000, red ECAM: <emphasis role="underline">HYD</emphasis> B + Y
@@ -1683,36 +1713,73 @@
         completed.</para>
 
       </sect2>
-      <sect2 id="green-low-pr">
-        <title>Green system low pressure</title>
-        <para>The major lost systems are normal landing gear operation (gravity extension is available), nose wheel
-        steering and normal brake system (including autobrake). Landing distance will be increased due to loss of two
-        spoilers per wing and reverser 1. Flap and slat deployment will be slow.</para>
-      </sect2>
-      <sect2 id="yellow-low-pr">
-        <title>Yellow system low pressure</title>
-        <para>Two spoilers per wing and reverser 2 are lost, so landing distance will increase slightly. Flap deployment
-        will be slow. As the alternate braking system is only available through the brake accumulator, ensure there is
-        sufficient pressure when the parking brake is set.</para>
-      </sect2>
-      <sect2 id="blue-low-pr">
-        <title>Blue system low pressure</title>
-        <para>One spoiler per wing will be lost but this has negligible effect on landing distance. Slats will be slow to
-        deploy. Deployment of the RAT is not recommended unless another system is lost. If the system is lost due to low
-        reservoir level, emergency generation capability is lost.</para>
+      <sect2>
+        <title>Engine driven pump low pressure</title>
+        
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.8000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y) ENG 1(2)
+        PUMP LO PR]</para>
+
+        <para>Turn off the affected pump. The PTU will pressurise the affected system.</para>
+
       </sect2>
       <sect2>
-        <title>Low Reservoir Air Pressure</title>
+        <title>Electric pump low pressure or overheat</title>
+        
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{7,11}000, amber ECAM:<emphasis role="underline">HYD</emphasis> Y(B) ELEC PUMP
+        LO PR or OVHT]</para>
+
+        <para>Turn off the affected pump. In the case of an overheat, the pump may be re-engaged for the approach
+        providing the relevant FAULT light on the overhead panel has extinguished.</para>
+      </sect2>
+      <sect2>
+        <title>Low reservoir air pressure</title>
+
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{1,2,3}000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y)(B)
+        RSVR LO AIR PR]</para>
+        
         <para>Loss of air pressure to a hydraulic reservoir may lead to pump cavitation and hence fluctuating
         pressures. If this occurs, turn off the affected pump, and if applicable, turn off the PTU. Cavitation reduces
         with altitude, so it may be possible to reinstate the system during the descent.</para>
       </sect2>
+
       <sect2>
-        <title>Overheat</title>
+        <title>Reservoir overheat</title>
+
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{1,2,3}000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR OVHT]</para>
+
         <para>Turn off all affected pumps and if applicable, turn off the PTU. The system should be reinstated for the
-        approach if it has cooled sufficiently.</para>
+        approach if it has cooled sufficiently. This is indicated by the FAULT light going out on the overhead panel.</para>
+      </sect2>
+      
+      <sect2>
+        <title>Low reservoir fluid level</title>
+
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{1,2,3}000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR LO LVL]</para>
+
+        <para>Turn off all affected pumps and, if applicable, turn off the PTU. The affected system is not
+        recoverable. In the case of low reservoir level in the yellow system, it is possible that the fluid from the
+        brake accumulator may also be lost. This usually occurs within 10 minutes of the initial warning. Without the
+        brake accumulator, the parking brake is not available, so chock the aircraft before shutting down engine
+        1.</para>
       </sect2>
 
+      <sect2>
+        <title>PTU fault</title>
+
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.9000, amber ECAM:<emphasis role="underline">HYD</emphasis> PTU FAULT]</para>
+        
+        <para>In flight this indicates that either the green or yellow system is low on fluid and has low system
+        pressure. The PTU must be turned off to prevent overheating the supplying system.</para>
+      </sect2>
+
+      <sect2>
+        <title>RAT fault</title>
+
+        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.10000, amber ECAM:<emphasis role="underline">HYD</emphasis> RAT FAULT]</para>
+
+        <para>Indicates that either the RAT is not fully stowed, pressure is present in the RAT stowing actuator or that
+        the RAT pump is not available. No action is required.</para>
+      </sect2>
     </sect1>
     <sect1>
       <title>Ice and rain protection</title>
