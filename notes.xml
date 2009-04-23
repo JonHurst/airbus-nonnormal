@@ -410,7 +410,7 @@
         &alpha;<subscript>buffet</subscript>. In this case simply reduce the back pressure on the sidestick and/or
         reduce bank angle.</para>
       </sect2>
-<sect2>
+      <sect2>
         <title>Computer reset</title>
         <para>Abnormal computer behaviour can often be stopped by interupting the power supply of the affected
         computer. This can be done either with cockpit controls or with circuit breakers. The general procedure is to
@@ -682,6 +682,73 @@
     </sect1>
     <sect1>
       <title>Flight controls</title>
+      <sect2>
+        <title>Elevator faults</title>
+
+        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.25000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> L(R) ELEV FAULT]</para>
+        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.23000, red ECAM:<emphasis role="underline">F/CTL</emphasis> L+R ELEV FAULT]</para>
+
+        <para>If a single elevator fails, the SECs use the remaining elevator to provide pitch control in alternate law
+        (see <xref linkend="alternate-law"/>). In addition, speed brake should not be used and the autopilots are
+        unserviceable {TODO: Find out why}.</para>
+
+        <para>If both elevators fail, the only mechanism for pitch control available is manual pitch trim, so pitch
+        reverts to mechanical back up and roll reverts to direct law. For the approach fly a long final, initiating the
+        descent from at least 5000ft AAL. Do not try to flare using trim and do not remove power until after
+        touchdown. From 1000ft AAL, try to keep power changes to within 2% N1. In the event of a go-around, power
+        <emphasis>must</emphasis> be applied very slowly if control is not to be lost.{TODO: This is Boeing advice -
+        check if it is relevant to Airbus}</para>
+
+      </sect2>
+      <sect2>
+        <title>Stabilizer jam</title>
+
+        <para>[QRH 2.07, FCOM 1.27.40.8000, FCOM 3.2.27.{32,33}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM]</para>
+
+        <para>Manual pitch trim is a mechanical connection to the stabilizer actuator. It may be possible to use manual
+        pitch trim when the ELACs have detected a stabilizer jam, although it may be heavier than normal. If it is
+        useable, trim for neutral elevators.</para>
+
+        <para>The flight controls will revert to Alternate Law. If the stabilizer could not be moved, gear extension
+        should be delayed until CONF 3 and V<subscript>APP</subscript> are acheived so that the elevators are properly
+        trimmed.</para>
+
+        <para>If the jam is caused by the mechanical connection, it is possible that the ELACs will not detect the
+        problem. The procedure in this case is similar, but Normal Law will remain.</para>
+      </sect2>
+      <sect2>
+        <title>Aileron faults</title>
+
+        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.22000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> L(R) AIL
+        FAULT]</para>
+
+        <para>The lateral aircraft handling is not adversely affected even if both ailerons fail, as the systems
+        compensate by using the spoilers. Fuel consumption will, however, increase by approximately 6%.</para>
+
+      </sect2>
+      <sect2>
+        <title>Spoiler faults</title>
+
+        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.{26,27}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> (GND) SPLR
+        (1+2)(3+4) FAULT]</para>
+
+        <para>Spoiler faults should not adversely affect handling, although they may cause some buffeting. A CONF 3
+        landing may reduce this buffeting. Speed brake should not be used if spoilers 3 + 4 are affected. The loss of
+        ground spoilers will increase landing distances by up to 55% (details in QRH 2.32).</para>
+      </sect2>
+      <sect2>
+        <title>Rudder Jam</title>
+
+        <para>[QRH 2.06, FCOM 1.27.40.8000, FCOM 3.2.27.34000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> RUDDER JAM]</para>
+
+        <para>The main indication of jammed rudder is undue and adverse pedal movement during rolling maneuvers caused
+        by the yaw damper orders being fed back to the pedals when they are no longer sent to the rudder.</para>
+
+        <para>Crosswinds from the side that the rudder is deflected should be avoided, and a cross wind limit of 15kt
+        applies. Control on the ground will require differential braking until the steering handle can be used (below
+        70kt), so landing distances are increased. Do not use autobrake.</para>
+        
+      </sect2>
       <sect2 id="flight-controls.slats-flaps-fault">
         <title>Flaps and/or slats fault/locked</title>
 
@@ -748,23 +815,6 @@
         <para>Failure of both flap channels or failure of both slat channels is covered in <xref
         linkend="flight-controls.slats-flaps-fault"/>. </para>
       </sect2>
-      <sect2>
-        <title>Wingtip brake fault</title>
-
-        <para>[FCOM 1.27.50.3000, FCOM 3.2.27.7000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT)
-        TIP BRK FAULT]</para>
-
-        <para>The wingtip brakes activate in case of assymetry, mechanism overspeed, symmetrical runaway or uncommanded
-        movements. This protection is lost.</para>
-      </sect2>
-      <sect2>
-        <title>Flap attach sensor failure</title>
-
-        <para>[FCOM 1.27.50.3000, FCOM 3.2.27.9000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP ATTACH SENSOR]</para>
-
-        <para>The flap attach sensor monitors detects excessive differential movement between the inner and outer flaps
-        which would indicate failure of a flap attachment. This protection is lost.</para>
-      </sect2>
       <sect2 id="flight-controls.elac">
         <title>ELAC fault</title>
 
@@ -800,6 +850,20 @@
 
         <para>An attempt should be made to reset the affected SEC(s).</para>
       </sect2>
+      <sect2>
+        <title>FCDC faults</title>
+
+        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.20000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FCDC
+        1(2)(1+2) FAULT]</para>
+        
+        <para>The two FCDCs are redundant, so a single failure has no immediate effect.</para>
+
+        <para>If both FCDCs fail, the ELACs and SECs can no longer supply data to the EIS. The major effect of this is
+        that F/CTL ECAM warnings are no longer generated. The warning lights on the overhead panel continue to give
+        valid information and should be monitored. The aircraft remains in normal law with all protections, but
+        protection indications (bank and pitch limits, V<subscript>&alpha;-prot</subscript> and
+        V<subscript>&alpha;-max</subscript>) are not shown and the stall warning system becomes active.</para>
+      </sect2>
       <sect2 id="direct-law">
         <title>Direct Law</title>
 
@@ -812,7 +876,7 @@
         and care must be taken in GPWS or windshear maneuvres. Approach speed is increased by 10kt and landing distances
         increase by a factor of 1.2.</para>
       </sect2>
-      <sect2>
+      <sect2 id="alternate-law">
         <title>Alternate Law</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.18000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> ALTN
@@ -829,20 +893,64 @@
         approach speeds and landing distances (see QRH 2.32).</para>
       </sect2>
       <sect2>
-        <title>Stabilizer jam</title>
+        <title>Wingtip brake fault</title>
 
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.{32,33}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM]</para>
+        <para>[FCOM 1.27.50.3000, FCOM 3.2.27.7000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT)
+        TIP BRK FAULT]</para>
 
-        <para>Manual pitch trim is a mechanical connection to the stabilizer actuator. It may be possible to use manual
-        pitch trim when the ELACs have detected a stabilizer jam, although it may be heavier than normal. If it is
-        useable, trim for neutral elevators.</para>
+        <para>The wingtip brakes activate in case of assymetry, mechanism overspeed, symmetrical runaway or uncommanded
+        movements. This protection is lost.</para>
+      </sect2>
+      <sect2>
+        <title>Flap attach sensor failure</title>
 
-        <para>The flight controls will revert to Alternate Law. If the stabilizer could not be moved, gear extension
-        should be delayed until CONF 3 and V<subscript>APP</subscript> are acheived so that the elevators are properly
-        trimmed.</para>
+        <para>[FCOM 1.27.50.3000, FCOM 3.2.27.9000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP ATTACH SENSOR]</para>
 
-        <para>If the jam is caused by the mechanical connection, it is possible that the ELACs will not detect the
-        problem. The procedure in this case is similar, but Normal Law will remain.</para>
+        <para>The flap attach sensor detects excessive differential movement between the inner and outer flaps which
+        would indicate failure of a flap attachment. This protection is lost.</para>
+      </sect2>
+      <sect2>
+        <title>Flight control servo faults</title>
+
+        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.{21,24}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis>
+        AIL(ELEV) SERVO FAULT]</para>
+
+        <para>All flight controls have redundant servos. In the case of an elevator servo fault, a restriction to not
+        use speedbrake above V<subscript>MO</subscript>/M<subscript>MO</subscript> applies.</para>
+
+      </sect2>
+      <sect2>
+        <title>Speed brake disagree</title>
+
+        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.28000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> SPD BRK
+        DISAGREE]</para>
+        
+        <para>This indicates that the spoiler positions do not correspond with the speedbrake lever position. This may
+        be as a result of automatic retraction (alpha floor activation or speed brakes deployed when full flap selected)
+        or as a result of spoiler malfunction. In both cases retract the speedbrake lever and in the case of spoiler
+        malfunction consider the speedbrakes unserviceable.</para>
+
+      </sect2>
+      <sect2>
+        <title>Speed brake fault</title>
+
+        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.29000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> SPD BRK
+        (2)(3+4) FAULT]</para>
+
+        <para>This indicates a failure of the speedbrake lever transducers rather than a problem with the
+        spoilers. Ground spoiler activation may be expected on selection of reverse, so providing reversers are used,
+        landing distances should not be affected.</para>
+
+      </sect2>
+      <sect2>
+        <title>Stiff sidestick/ rudder pedals</title>
+
+        <para>[QRH 2.07, FCOM 3.2.27.42000]</para>
+        
+        <para>This may affect both sidesticks at the same time, but not the rudder pedals or it may affect the rudder
+        pedals and one sidestick. Control forces will remain moderate and the aircraft remains responsive. Confirm
+        autopilot disengagement and consider transferring control if one of the sidesticks is unaffected.</para>
+
       </sect2>
     </sect1>
     <sect1>
