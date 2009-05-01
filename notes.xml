@@ -1771,13 +1771,80 @@
     <sect1>
       <title>Auto-flight</title>
       <sect2>
+        <title>FAC faults</title>
+
+        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{7,8}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis> FAC
+        1(2)(1+2) FAULT]</para>
+
+        <para>Failure of a single FAC results in loss of redundancy and hence loss of Cat 3 Dual. In particular, a
+        single FAC provides all the characteristic speeds (V<subscript>SW</subscript>, V<subscript>LS</subscript>,
+        V<subscript>FE</subscript>, V<subscript>FE-next</subscript>, V<subscript>LE</subscript>,
+        V<subscript>MO</subscript>/M<subscript>MO</subscript>, Green dot, S speed and F speed). It may be worth
+        cross-checking against QRH page 4.01.</para>
+
+        <para>If both FACs are lost characteristic speed calculation is not available. All FAC controlled systems are
+        lost, with the combined effects detailed in <xref linkend="yaw-damper"/>, <xref linkend="rudder-trim"/> and
+        <xref linkend="rudder-limit"/>.{TODO FCOM has a 12kt crosswind limit for rudder travel limiter failure, but none
+        for dual FAC failure - is it implicit or do you get multiple ECAMs}</para>
+
+      </sect2>
+
+      <sect2 id="yaw-damper">
+        <title>Yaw damper faults</title>
+
+        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{1,2}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis> YAW
+        DAMPER 1(2)(SYS)]</para>
+
+        <para>A single failure leads to loss of redundancy, and hence loss of Cat 3 Dual. On some airframes a reset of
+        the affected FAC can be attempted.</para>
+
+        <para>With a dual failure a reset of the FACs should be attempted. If the yaw damper is not recovered, the
+        flight controls revert to alternate law (see <xref linkend="alternate-law"/>). Unless the failure occured below
+        alert height, only Cat I wil be available.</para>
+
+      </sect2>
+      <sect2 id="rudder-trim">
+        <title>Rudder trim faults</title>
+
+        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{3,4}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis>
+        RUDDER TRIM SYS(1(2) FAULT)]</para>
+        
+        <para>Loss of a rudder trim from a single FAC leads to loss of redundancy and hence loss of Cat 3 Dual.</para>
+
+        <para>If complete loss of rudder trim occurs, an attempt should be made to reset the FACs. If this is not
+        successful, only Cat I is available.</para>
+
+      </sect2>
+      <sect2 id="rudder-limit">
+        <title>Rudder travel limiter faults</title>
+
+        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{5,6}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis> RUD
+        TRV LIM 1(2)(SYS)]</para>
+
+        <para>Loss of rudder limit functionality from a single FAC leads to loss of redundancy only.</para>
+
+        <para>The effect of complete loss of rudder limiter functionality depends on when the failure occured. In
+        general, the rudder should be used with caution when above 160kt. Full rudder travel authority can be recovered
+        at slat extension {TODO: FCOM says "can" not "will" - find out if this means "may not"}. An attempt should be
+        made to recover the limiter by resetting the FACs. If this is ineffective, the crosswind limit of the aircraft
+        is reduced to 12kt, and differential braking may be required on the landing roll.</para>
+
+      </sect2>
+      <sect2>
         <title>FCU faults</title>
+
+        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{9,10}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis>
+        FCU 1(2)(1+2) FAULT]</para>
+
         <para>Loss of a single channel will result in the spare channel automatically taking over. All that is required
         is a cross check of the baro refs.</para>
+
         <para>Loss of both channels leads to loss of all FCU and EFIS panels. The autopilots and autothrust are
         lost and parameters that are normally controlled by the panels revert to sensible default values. If the weather
         radar image remains displayed, disregard it since the scale will be incorrect.</para>
       </sect2>
+
+
     </sect1>
     <sect1>
       <title>Hydraulics</title>
