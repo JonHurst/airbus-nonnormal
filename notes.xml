@@ -1684,15 +1684,15 @@
       </sect2>
       <sect2>
         <title>TCAS warnings <emphasis>(memory item)</emphasis></title>
-        <para>[QRH 1.15, FCOM 3.2.34.26000]</para>
+        <para>[QRH 1.15, FCOM 3.2.34.26000, CAP413 1.7]</para>
         
         <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution advisories (anything
         else). The first response to either advisory is to call "TCAS, I have control" to unequivocally establish who
         will be carrying out any maneuvers. If it is a resolution advisory, the autopilot should be disconnected and the
         flight directors turned off. The autothrottle remains engaged and reverts to speed mode. A vertical maneuver
         should then be flown to keep the V/S needle out of the red areas shown on the V/S scale. ATC should then be
-        notified (e.g "Radar, Easy 123 - TCAS climb"). When clear of conflict, negotiate a new clearance with ATC and
-        re-engage the automatics.</para>
+        notified (e.g "Radar, Easy 123 - TCAS RA"). When clear of conflict, return to assigned level and re-engage the
+        automatics (ATC phraseology: "Radar, Easy 123 - clear of conflict, returning to FL XXX").</para>
 
         <para>If a climb resolution advisory occurs on final approach, a go around must be flown.</para>
         
@@ -1723,18 +1723,11 @@
         navigation accuracy.</para>
 
       </sect2>
-      <sect2 id="adr-disagree">
-        <title>ADR disagree</title>
-        <para>[QRH 2.14, FCOM 3.2.34, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> ADR
-        DISAGREE]</para>
-
-        <para>The ECAM message indicates that, following an ADR fault or rejection, there is a speed or angle of attack
-        disagreement between the two remaining ADRs. This will cause a degradation to alternate law. If there is a speed
-        disagreement, see <xref linkend="unreliable-airspeed"/>. If the speed does not disagree, an AOA sensor is
-        providing incorrect data and there is a risk of spurious stall warnings.</para>
-      </sect2>
       <sect2>
         <title>ADR faults</title>
+        <para>[QRH 2.20, FCOM 3.2.34.6000, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> ADR
+        1(2)(3)(1+2)(1+3)(2+3) FAULT]</para>
+
         <para>A single ADR fault simply requires switching to the hot spare and turning the affected unit off. Loss of
         ADR1 will lead to the loss of the extended functions of the EGPWS. Loss of ADR2 will lead to both baro reference
         channels being driven by the same FCU channel {TODO: Find out details of this}, so the baro refs should be
@@ -1745,20 +1738,43 @@
         be required to restore transponder. If ADR 1 and 3 are lost, the landing gear safety valve is controlled closed,
         so the gear must be gravity extended and cannot subsequently be retracted.</para>
 
-        <para>Loss of all ADRs requires reversion to standby instruments. There is no ECAM procedure - the procedure
-        displayed is for single ADR operation. Therefore, refer to page 2.20 of the QRH. In addition to the failures
-        associated with dual loss, the stall warning is lost, the rudder travel limiter is frozen (full rudder travel
-        will be recovered at slat extension) and automatic cabin pressure control is lost.</para> 
+        <para>Loss of all ADRs requires reversion to standby instruments. Disregard ECAM actions as the ECAM procedures
+        shown will be for single ADR operation and will direct you towards meaningless air data and ATC switching. Refer
+        instead to page 2.20 of the QRH. In addition to the failures associated with dual loss, the stall warning is
+        lost, the rudder travel limiter is frozen (full rudder travel will be recovered at slat extension) and automatic
+        cabin pressure control is lost. In case of go-around, auto flap retraction is not available.</para>
       </sect2>
+
+      <sect2 id="adr-disagree">
+        <title>ADR disagree</title>
+        <para>[FCOM 3.2.34, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> ADR
+        DISAGREE]</para>
+
+        <para>The ECAM message indicates that, following an ADR fault or rejection, there is a speed or angle of attack
+        disagreement between the two remaining ADRs. This will cause a degradation to alternate law. If there is a speed
+        disagreement, see <xref linkend="unreliable-airspeed"/>. If the speed does not disagree, an AOA sensor is
+        providing incorrect data and there is a risk of spurious stall warnings.</para>
+      </sect2>
+
       <sect2>
         <title>RA faults</title>
+        <para>[FCOM 3.2.34.8000, FCOM 1.34.40.2000, amber ECAM: <emphasis role="underline">NAV</emphasis> RA 1(2)
+        FAULT</para>
+
         <para>A single RA fault results in degradation of approach capability to Cat II. Loss of both RAs will lead to
         direct law at landing gear extension and a loss of ILS APPR mode capability. Therefore, landing will be CONF 3
         with associated corrections, the approach should be flown in LOC and FPA and autopilot disconnect should be
         anticipated at gear extension.</para>
       </sect2>
+
       <sect2>
         <title>IR faults</title>
+        <para>[FCOM 3.2.34.8000, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> IR
+        1(2)(3)(1+2)(1+3)(2+3) FAULT]</para>
+
+        <para>In case of simultaneous loss of the ADR and IR associated with an ADIRU, apply the ADR FAULT procedure
+        first.[FCOM 3.2.24.6000]</para>
+
         <para>A single IR fault will simply require ATT/HDG switching. This may lead to loss of the extended functions
         of the EPGWS and/or loss of TCAS. It may be possible to recover the IR in ATT mode using the procedure on page
         2.21 of the QRH.</para>
@@ -1766,6 +1782,41 @@
         <para>A dual IR fault will lead to loss of PFD indications on at least one side so use ATT/HDG switching to
         recover. It will also lead to Alternate Law and associated speed restrictions and landing configuration
         considerations.</para>
+      </sect2>
+
+      <sect2>
+        <title>IR disagree</title>
+        <para>[FCOM 3.2.34.13000, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> IR
+        DISAGREE]</para>
+
+        <para>Following rejection or failure of an IR, there is disagreement between the two remaining IRs. Normal and
+        alternate laws are lost, but alternate law with reduced protections can be recovered by isolating the faulty IR
+        (use standby horizon to cross-check) and resetting the ELACs.</para>
+      </sect2>
+
+      <sect2>
+        <title>IR alignment in ATT mode</title>
+        <para>[QRH 2.21, FCOM 3.2.34.10000]</para>
+
+        <para>If IR alignment is lost, it may be possible to recover attitude and heading information by switching the
+        ADIRU selector to ATT and maintaining level constant speed flight for 30 seconds. The magnetic heading will need
+        to be entered, the exact method being dependent on the ADIRS CDU fitted.</para>
+      </sect2>
+
+      <sect2>
+        <title>FM/GPS position disagree</title>
+        <para>[QRH 2.19, FCOM 3.2.34.15000, EOMB 2.3.15]</para>
+
+        <para>This can be disregarded if on an ILS or LOC approach. On an overlay approach, revert to raw data. On an
+        RNAV approach, go around unless visual.</para>
+        
+        <para>In other flight phases, manually tune a VOR and check against either the needle and DME on the ND or the
+        BRG/DIST TO field on the PROG page. If the error is 3nm or less, disregard the message. If the error is greater
+        than 3nm use HDG/TRK and raw data navigation. {TODO: further advice is given regarding checking FM position on
+        POSITION MONITOR page and either switching APs or deselecting GPS, but it is not clear whether this recovers
+        NAV}.</para>
+        
+
       </sect2>
     </sect1>
     <sect1>
