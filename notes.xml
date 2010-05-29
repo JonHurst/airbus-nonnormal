@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "file:///usr/share/sgml/docbook/xml-dtd-4.4/docbookx.dtd">
 <article id="airbus-nonnormal">
-  <title>Airbus Non-Normal Notes</title>
+  <title>
+Airbus Non-Normal Notes</title>
   <sect1>
     <title>Operating techniques</title>
     <sect2>
@@ -791,6 +792,16 @@
         lever position when above V<subscript>FE next</subscript> and reduce the speed to follow
         V<subscript>LS</subscript> as the surfaces extend. Use of managed speed is not recommended during
         configuration.</para>
+
+        <para>It is worth noting that failure of the slat channels of both SFCCs appears to result in the loss of
+        characterisic speed display on both PFDs. This is not mentioned in the FCOM but occurs in the sim. The upshot of
+        this is that neither V<subscript>LS</subscript> nor V<subscript>SW</subscript> are available at all, since they
+        are not displayed and there is no way to calculate them. This is of particular concern when trying to configure
+        to flaps 2 since the aircraft must be slowed to V<subscript>FE(conf 2)</subscript>-5 when still clean (remember
+        conf 1 is slats only when configuring from conf 0). It is highly likely that the stall warner will activate
+        during the transition, and if not anticipated, the subsequent recovery will overspeed the flaps. The solution is
+        to brief that speed will be reduced very slowly and if the stall warning occurs the speed will be maintained
+        whilst allowing the deployment of the flaps to recover the stall margin.</para>
 
         <para>The autopilot may be used down to 500ft AAL, but since it is not tuned for the abnormal configuration it
         must be closely monitored.</para>
