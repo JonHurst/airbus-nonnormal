@@ -45,8 +45,9 @@ Airbus Non-Normal Notes</title>
         <para>If an engine has lost thrust, apply rudder conventionally on the runway. At V<subscript>r</subscript>
         rotate to 12½° at a slightly reduced rate. When airborne, adjust rudder to maintain &beta; target. Bank angle
         should be limited to 15° when more than 3kt below maneuvering speed for the current configuration. Engage the
-        autopilot once gear is up and rudder is trimmed. Consider the use of TOGA if a FLX takeoff was carried
-        out.</para>
+        autopilot once gear is up and rudder is trimmed. Consider pulling heading if there is a possibility of not being
+        able to fly the programmed SID (it is useful to treat autopilot engagement and consideration of pulling heading
+        as a single action). Consider the use of TOGA if a FLX takeoff was carried out. </para>
 
         <para>Whilst below 400ft, the only failure related actions should be:
         <itemizedlist>
