@@ -42,12 +42,14 @@ Airbus Non-Normal Notes</title>
         <title>Failures during takeoff when above V1</title>
         <para>[FCOM 3.2.10.2000]</para>
 
-        <para>If an engine has lost thrust, apply rudder conventionally on the runway. At V<subscript>r</subscript>
-        rotate to 12½° at a slightly reduced rate. When airborne, adjust rudder to maintain &beta; target. Bank angle
-        should be limited to 15° when more than 3kt below maneuvering speed for the current configuration. Engage the
-        autopilot once gear is up and rudder is trimmed. Consider pulling heading if there is a possibility of not being
-        able to fly the programmed SID (it is useful to treat autopilot engagement and consideration of pulling heading
-        as a single action). Consider the use of TOGA if a FLX takeoff was carried out. </para>
+        <para>If an engine has lost thrust, apply rudder conventionally on the runway. At
+        V<subscript>r</subscript> rotate to 12½° at a slightly reduced rate. When airborne, select
+        TOGA (FLX may be used but this tends to allow speed to decay unless pitch is reduced),
+        adjust and trim rudder to maintain &beta; target and request "pull heading". If the EOSID
+        follows the track of the cleared SID, NAV may be used, but this is very rare with easyJet
+        EOSIDs. Bank angle should be limited to 15° when more than 3kt below maneuvering speed for
+        the current configuration. Engage the autopilot once gear is up and rudder is
+        trimmed.</para>
 
         <para>Whilst below 400ft, the only failure related actions should be:
         <itemizedlist>
@@ -60,13 +62,14 @@ Airbus Non-Normal Notes</title>
         </itemizedlist>
         </para>
 
-        <para>Once above 400ft with safe flight path assured, decide on an initial strategy. In general, where
-        a loss of thrust has occured or will occur, the strategy will be to fly the EOSID with a three segment
-        climb profile (see <xref linkend="eosid"/>). Otherwise, it will be to remain on the normal SID and fly
-        a normal climb profile. Any deviation from the cleared SID will require ATC to be informed as a
-        priority, usually as part of a PAN or MAYDAY message. In rare cases where the cleared SID requires a
-        very early turn it may be necessary to determine and action a strategy when below 400ft. If this is
-        the case, it must be thoroughly briefed.</para>
+        <para>Once above 400ft with safe flight path assured, decide on an initial strategy. In
+        general, where a loss of thrust has occured or is anticipated, the strategy will be to fly
+        the EOSID with a level acceleration segment (see <xref linkend="eosid"/>). Otherwise, it
+        will be to remain on the normal SID and fly a normal climb profile. Any deviation from the
+        cleared SID will require ATC to be informed as a priority, usually as part of a PAN or
+        MAYDAY message. In rare cases where the cleared SID requires a very early turn it may be
+        necessary to determine and action a strategy when below 400ft. If this is the case, it must
+        be thoroughly briefed.</para>
 
         <para>Once the flight path strategy has been agreed and actioned, the failure can be diagnosed and
         dealt with. If the failure has resulted in an ECAM warning, PF initiates this phase by asking PNF to
@@ -77,7 +80,7 @@ Airbus Non-Normal Notes</title>
 
       </sect2>
         <sect2 id="eosid">
-          <title>EOSID and 3 segment climb</title>
+          <title>EOSID</title>
 
           <para>Before the divergence point (the last common point between the SID and the EOSID), if the
           aircraft detects a loss of thrust the EOSID will be displayed as a temporary flight plan. In this
@@ -89,25 +92,25 @@ Airbus Non-Normal Notes</title>
           the shortest way onto the EOSID. Airbus specifically recommends against this in FCOM 4.4.30, but
           easyJet states it as policy in EOMB 4.2.3.</para>
 
-          <para>Electing to fly the EOSID implies a three segment vertical strategy:
+          <para>Electing to fly the EOSID implies a level acceleration segment:
 
           <itemizedlist>
-            <listitem><para>Segment 1 is a TOGA climb at the higher of V<subscript>2</subscript> or current
+            <listitem><para>Initially fly a TOGA climb at the higher of V<subscript>2</subscript> or current
             speed, up to a limit of V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX
-            climb is permissable. This segment is continued until all high priority tasks are complete and the
-            aircraft is at or above acceleration altitude. For the engine failure and the engine fire failure
-            cases, EOMB 4.2.3 defines these high priority tasks. For an engine failure, all ECAM actions up to
+            climb is permissable. This climb is continued until all high priority tasks are complete and the
+            aircraft is at or above acceleration altitude. For the engine failure and the engine fire 
+            cases, EOMB 4.2.3 specifically defines the high priority tasks. For an engine failure, all ECAM actions up to
             and including the master switch being turned off must be completed. For the engine fire case all
             ECAM actions up to and including firing the first squib must be completed. If the fire warning
             light does not extinguish both squibs must be fired.</para></listitem>
 
-            <listitem><para>Segment 2 is a TOGA level acceleration and clean up, either to Conf 1 and S speed
+            <listitem><para>The next segment is a TOGA level acceleration and clean up, either to Conf 1 and S speed
             if an immediate VMC return is desired or to Conf 0 and green dot. Again FLEX may be used if a FLEX
             takeoff was carried out. Level acceleration is usually acheived by pushing V/S.  The phrases "Stop
             ECAM" and "Continue ECAM" can be used to interupt ECAM procedures in order to initiate this
             segment.</para></listitem>
 
-            <listitem><para>Segment 3 is a MCT climb segment to MSA, either at S speed if in Conf 1 or at
+            <listitem><para>The final segment is a MCT climb segment to MSA, either at S speed if in Conf 1 or at
             green dot speed if in Conf 0. This is usually acheived in open climb.</para></listitem>
           </itemizedlist>
 
