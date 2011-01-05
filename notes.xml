@@ -401,7 +401,7 @@ Airbus Non-Normal Notes</title>
 
       </sect2>
       <sect2>
-        <title>Stall recovery</title>
+        <title>Stall recovery <emphasis>(memory item)</emphasis></title>
 
         <para>Airbus have determined that there may be insufficient longitudinal control authority
         to recover from a stall if TOGA is selected. The generic stall recovery is therefore simply
