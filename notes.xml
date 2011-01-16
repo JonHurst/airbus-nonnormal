@@ -2,7 +2,7 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "file:///usr/share/sgml/docbook/xml-dtd-4.4/docbookx.dtd">
 <article id="airbus-nonnormal">
   <title>
-Airbus Non-Normal Notes</title>
+Airbus A320 Family Non-Normal Notes</title>
   <sect1>
     <title>Operating techniques</title>
     <sect2>
@@ -231,7 +231,7 @@ Airbus Non-Normal Notes</title>
 
         <informaltable>
           <tgroup cols="3">
-            <colspec align="left" colwidth="2.25in"/><colspec align="center" colwidth="1in"/><colspec align="center" colwidth="1in"/>
+            <colspec align="left" colwidth="2in"/><colspec align="center" colwidth=".75in"/><colspec align="center" colwidth=".75in"/>
             <thead>
               <row><entry align="center">Condition</entry><entry>Thrust</entry><entry>Pitch</entry></row>
             </thead>

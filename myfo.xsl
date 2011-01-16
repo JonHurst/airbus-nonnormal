@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:import href="http://docbook.sourceforge.net/release/xsl/current/fo/docbook.xsl"/>
 <xsl:param name="draft.mode" select="'no'"/>
-<xsl:param name="paper.type" select="'A4'"/>
+<xsl:param name="paper.type" select="'A5'"/>
 
 <!--<xsl:param name="double.sided" select="1"/>-->
 <xsl:param name="hyphenate">true</xsl:param>
@@ -11,10 +11,14 @@
 <xsl:param name="section.autolabel.max.depth" select="2"/>
 <xsl:param name="insert.xref.page.number" select="'yes'"/>
 <xsl:param name="toc.indent.width" select="'30'"/>
-<xsl:param name="default.table.width" select="'5.5in'"/>
-<xsl:param name="default.image.width">5.5in</xsl:param>
-<xsl:param name="body.start.indent">0.768in</xsl:param>
+<xsl:param name="default.table.width" select="'4.5in'"/>
+<xsl:param name="default.image.width">4.5in</xsl:param>
+<xsl:param name="body.start.indent">10pt</xsl:param>
 <xsl:param name="body.font.family">Times New Roman</xsl:param>
+<xsl:param name="title.font.family">Times New Roman</xsl:param>
+<xsl:param name="body.font.master" select="9"/>
+
+<xsl:param name="header.column.widths">1 4 1</xsl:param>
 
 <xsl:attribute-set name="section.title.properties">
   <xsl:attribute name="font-family">Times New Roman</xsl:attribute>
