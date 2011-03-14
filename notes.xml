@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "file:///usr/share/sgml/docbook/xml-dtd-4.4/docbookx.dtd">
-<article id="airbus-nonnormal">
-  <title>
-Airbus A320 Family Non-Normal Notes</title>
-  <sect1>
+<book id="airbus-nonnormal">
+  <title>Airbus A320 Family Non-Normal Notes</title>
+  <chapter>
     <title>Operating techniques</title>
-    <sect2>
+    <sect1>
       <title>Rejected Takeoff</title>
       <para>[EOM B.3.2.10, FCOM 3.2.10.1000]</para>
 
@@ -14,7 +13,7 @@ Airbus A320 Family Non-Normal Notes</title>
       and a decision to stop should be made for any ECAM and most other problems. Above 100kt the RTO may be hazardous
       and stopping should only be considered for loss of engine thrust, any fire warning, any uninhibited ECAM or
       anything which indicates the aircraft will be unsafe or unable to fly.</para>
-      
+
       <para>If a stop is required, CM1 calls "Stop" while simultaneously bringing the thrust levers to idle, then to max
       reverse. If the stop was commenced below 72kt the ground spoilers will not automatically deploy and the autobrake
       will therefore not engage. Monitor automatic braking, and if there is any doubt, apply manual braking as
@@ -37,8 +36,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
       <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming the
       spoilers.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Failures during takeoff when above V1</title>
         <para>[FCOM 3.2.10.2000]</para>
 
@@ -78,8 +77,8 @@ Airbus A320 Family Non-Normal Notes</title>
         by PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors
         and any guarded switch must be confirmed with PF.</para>
 
-      </sect2>
-        <sect2 id="eosid">
+      </sect1>
+        <sect1 id="eosid">
           <title>EOSID</title>
 
           <para>Before the divergence point (the last common point between the SID and the EOSID), if the
@@ -98,7 +97,7 @@ Airbus A320 Family Non-Normal Notes</title>
             <listitem><para>Initially fly a TOGA climb at the higher of V<subscript>2</subscript> or current
             speed, up to a limit of V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX
             climb is permissable. This climb is continued until all high priority tasks are complete and the
-            aircraft is at or above acceleration altitude. For the engine failure and the engine fire 
+            aircraft is at or above acceleration altitude. For the engine failure and the engine fire
             cases, EOMB 4.2.3 specifically defines the high priority tasks. For an engine failure, all ECAM actions up to
             and including the master switch being turned off must be completed. For the engine fire case all
             ECAM actions up to and including firing the first squib must be completed. If the fire warning
@@ -115,19 +114,19 @@ Airbus A320 Family Non-Normal Notes</title>
           </itemizedlist>
 
           TOGA may be used for a maximum of 10 minutes.</para>
-        </sect2>
+        </sect1>
 
-  </sect1>
-  <sect1>
+  </chapter>
+  <chapter>
     <title>Miscellaneous</title>
-    <sect2>
+    <sect1>
       <title>Emergency descent <emphasis>(memory item)</emphasis></title>
       <para>[EOM B.3.2.80, QRH 1.25, FCOM 3.2.80.4000]</para>
-      
+
       <para>If an emergency descent is required, the Captain should consider taking control if not already PF.</para>
 
       <para>Don oxygen masks, set them to the N position and establish communication.</para>
-      
+
       <para>Descent with autopilot and autothrottle engaged is preferred. The configuration is thrust idle, full speed
       brake and maximum appropriate speed, taking into account possible structural damage. Target altitude is FL100 or
       MORA if this is higher. If speed is low, allow speed to increase before deploying full speedbrake to prevent
@@ -147,10 +146,10 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>Once level, restore the aircraft to a normal configuration. When safe to do so, advise cabin crew and
         passengers that it is safe to remove their masks.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Windshear <emphasis>(memory item)</emphasis></title>
-        <sect3>
+        <sect2>
           <title>Reactive</title>
           <para>[FCOM 3.2.80.13000]</para>
 
@@ -178,8 +177,8 @@ Airbus A320 Family Non-Normal Notes</title>
           <para>In severe windshear, it is possible that ALPHA FLOOR protection will activate. As TOGA will
           already be selected, this will have no immediate effect. Once clear of the windshear, however, TOGA
           LK will be active, requiring the autothrust to be disconnected to avoid an overspeed.</para>
-        </sect3>
-        <sect3>
+        </sect2>
+        <sect2>
           <title>Predictive</title>
           <para>[FCOM 3.2.80.14000, FCOM 3.4.91]</para>
 
@@ -204,9 +203,9 @@ Airbus A320 Family Non-Normal Notes</title>
           made that no hazard exists, the crew may downgrade the warning to a caution. If a caution alert occurs during
           approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a maximum of
           V<subscript>LS</subscript>+15.</para>
-        </sect3>
-      </sect2>
-      <sect2 id="unreliable-airspeed">
+        </sect2>
+      </sect1>
+      <sect1 id="unreliable-airspeed">
         <title>Unreliable airspeed <emphasis>(memory item)</emphasis></title>
 
         <para>[QRH 2.15, FCOM 3.2.34.30000]</para>
@@ -231,7 +230,7 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <informaltable>
           <tgroup cols="3">
-            <colspec align="left" colwidth="2in"/><colspec align="center" colwidth=".75in"/><colspec align="center" colwidth=".75in"/>
+            <colspec align="left" colwidth="2*"/><colspec align="center" colwidth="*"/><colspec align="center" colwidth="*"/>
             <thead>
               <row><entry align="center">Condition</entry><entry>Thrust</entry><entry>Pitch</entry></row>
             </thead>
@@ -258,8 +257,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>If good ADR information cannot be recovered, tables are provided on page 2.17 and 2.18 of the QRH to
         enable all phases of flight to be flown using just pitch and thrust settings. The approach configuration should
         be flown in level flight, stabilising each configuration before the next configuration is selected.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Incapacitation <emphasis>(memory item)</emphasis></title>
         <para>[FCOM 3.2.80.6000]</para>
 
@@ -267,11 +266,11 @@ Airbus A320 Family Non-Normal Notes</title>
         incapacitated pilot to his seat, move the seat back, then recline the seat. If there are two members available,
         the body can be moved. Medical help should be sought from passengers, and the presence of any type rated company
         pilots on board ascertained.</para>
-      </sect2>
-      <sect2 id="ditching">
+      </sect1>
+      <sect1 id="ditching">
         <title>Ditching</title>
         <para>[QRH 1.23, QRH 1.16, QRH 1.20 FCOM 3.2.80]</para>
-        
+
         <para>The QRH 1.23 procedure applies if the engines are running. If the engines are not running, refer to QRH
         1.16 or QRH 1.20 which include ditching.</para>
 
@@ -290,8 +289,8 @@ Airbus A320 Family Non-Normal Notes</title>
         buttons, discharge all agents (engine agent 2 may not be available) and evacuate the aircraft. {TODO: There is a
         discrepancy between engines operative/ inoperative regarding use of the fire buttons after stopping}</para>
 
-      </sect2>
-      <sect2 id="forced-landing">
+      </sect1>
+      <sect1 id="forced-landing">
         <title>Forced landing</title>
         <para>[QRH 1.24, QRH 1.16 &amp; 1.20, FCOM 3.2.80.3000]</para>
 
@@ -312,8 +311,8 @@ Airbus A320 Family Non-Normal Notes</title>
         not be available) and evacuate the aircraft.{TODO: There is a discrepancy between engines operative/ inoperative
         regarding use of the fire buttons after stopping}</para>
 
-      </sect2>
-      <sect2 id="evacuation">
+      </sect1>
+      <sect1 id="evacuation">
         <title>Evacuation</title>
         <para>[EOM B.3.2.80, QRH 7.01, FCOM 3.2.80, FCTM 03.020]</para>
 
@@ -335,8 +334,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>Finally, order the evacuation. This is primarily done with the PA "Evacuate, unfasten your seat belts and
         get out", with the evacuation alarm being triggered as a backup.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Overweight landing</title>
         <para>[QRH 2.25, FCOM 3.2.80.5000]</para>
 
@@ -355,21 +354,21 @@ Airbus A320 Family Non-Normal Notes</title>
         threshold. Land as smoothly as possible, and apply max reverse as soon as the main gear touches down. Maximum
         braking can be used after nosewheel touchdown. After landing, switch on the brake fans and monitor brake
         temperatures carefully. If temperatures exceed 800°C, tyre deflation may occur.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Immediate VMC recovery with single engine</title>
         <para>Fly circuit in CONF 1. Select CONF 2 at start of base turn. Gear will usually be extended once flaps have
         run to 2, but may be delayed until final approach if performance is an issue. Select CONF 3 once gear is down
         and CONF full when on final approach. {TODO: Check how climb gradient/ flap decision is determined.}</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Engine inoperative approach</title>
         <para>Landing configuration is flap full unless a level off is required during final approach. In this case
         CONF 3 should be used. Selection of full flaps should be delayed until final descent. It is not permissable to
         use the autopilot to perform single engine NPAs in FINAL APP, NAV V/S or NAV FPA modes. These modes may,
         however, be used with the FDs.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Engine failure in cruise</title>
         <para>Set MCT on live engine then disconnect the autothrust. Start ECAM actions and notify ATC. Decide on
         strategy - standard strategy increases the chance of an engine relight, whilst obstacle strategy maintains the
@@ -379,14 +378,14 @@ Airbus A320 Family Non-Normal Notes</title>
         give a shallow climbing profile. Once obstacles are no longer a problem, descend to LRC ceiling (use V/S if
         &lt;500 fpm descent rate), engage the autothrust and continue at LRC speed.
         </para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Single engine circling</title>
         <para>It may not be possible to fly level in the standard circling configuration of CONF 3 gear down. This can
         be ascertained by checking the table in Vol 3. Gear extension may be delayed until final approach if
         required.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Bomb on board</title>
         <para>The primary aim is to get the aircraft on the ground and evacuated ASAP.</para>
 
@@ -400,10 +399,10 @@ Airbus A320 Family Non-Normal Notes</title>
         should be configured for landing as early as possible to avoid an explosion damaging landing systems.</para>
 
         <para>In the cabin, procedures are laid down for assessing the risks of moving the device and for moving the
-        device to the LRBL at door 2R.</para> 
+        device to the LRBL at door 2R.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Stall recovery <emphasis>(memory item)</emphasis></title>
 
         <para>Airbus have determined that there may be insufficient longitudinal control authority
@@ -420,8 +419,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>A stall warning may occur at high altitude to indicate that the aircraft is reaching
         &alpha;<subscript>buffet</subscript>. In this case simply reduce the back pressure on the
         sidestick and/or reduce bank angle.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Computer reset</title>
         <para>Abnormal computer behaviour can often be stopped by interupting the power supply of the affected
         computer. This can be done either with cockpit controls or with circuit breakers. The general procedure is to
@@ -433,11 +432,11 @@ Airbus A320 Family Non-Normal Notes</title>
         engine is running and the BDCU when the aircraft is not stopped.</para>
 
         <para>In flight, only the computers listed in the reset table should be considered for reset.</para>
-      </sect2>
-    </sect1>
-    <sect1>
+      </sect1>
+    </chapter>
+    <chapter>
       <title>Air conditioning, pressurisation and ventilation</title>
-      <sect2>
+      <sect1>
         <title>Cabin overpressure</title>
         <para>[QRH 2.01, FCOM 3.2.21.27000]</para>
 
@@ -447,11 +446,11 @@ Airbus A320 Family Non-Normal Notes</title>
         and the remaining pack is turned off if it exceeds 9 psi. 10 minutes before landing, both packs are turned off
         and remain off, and the avionics ventilation is returned to its normal configuration.</para>
 
-      </sect2>
-    </sect1>
-    <sect1>
+      </sect1>
+    </chapter>
+    <chapter>
       <title>Electrical</title>
-      <sect2 id="emerg-elec-config">
+      <sect1 id="emerg-elec-config">
         <title>Emergency configuration</title>
         <para>[QRH 1.01 &amp; 1.05, FCOM 1.24.20.5000, FCOM 3.2.24.17000, red ECAM: <emphasis role="underline">ELEC</emphasis> EMER CONFIG]</para>
 
@@ -468,8 +467,8 @@ Airbus A320 Family Non-Normal Notes</title>
         significantly.</para>
 
         <para>QRH 1.05 provides a paper summary which should be applied once ECAM actions are complete.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Battery only</title>
         <para>[QRH 1.01, FCOM 1.24.20.5000, FCOM 3.2.24.19000. red ECAM: <emphasis role="underline">ELEC</emphasis> ESS
         BUSES ON BAT]</para>
@@ -480,8 +479,8 @@ Airbus A320 Family Non-Normal Notes</title>
         should be made to bring the emergency generator on line by ensuring speed is &gt;140kt and deploying the RAT
         with the EMER ELEC PWR MAN ON button.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>IDG low oil pressure/ high oil temperature</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.1000, amber ECAM: <emphasis role="underline">ELEC</emphasis> IDG 1(2) OIL
         LO PR/OVHT]</para>
@@ -490,8 +489,8 @@ Airbus A320 Family Non-Normal Notes</title>
         GEN FAULT light comes on. Do not press the button for more than 3 seconds.</para>
 
         <para>The APU generator should be used if available.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Generator fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.{2,4}000, amber ECAM: <emphasis role="underline">ELEC</emphasis>(APU) GEN (1)(2)
         FAULT]</para>
@@ -504,16 +503,16 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>Single generator operation leads to shedding of the galley. Loss of an engine driven generator leads to
         loss of CAT III DUAL capability.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Battery fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.5000, <emphasis role="underline">ELEC</emphasis> BAT 1(2) FAULT]</para>
 
         <para>The affected battery contactor opens automatically. APU battery start is unavailable with a single
         battery.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>AC Bus 1 fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.8000, <emphasis role="underline">ELEC</emphasis> AC BUS 1 FAULT]</para>
 
@@ -527,17 +526,17 @@ Airbus A320 Family Non-Normal Notes</title>
         blower fan and p1 windshield heat. Landing distance will increase by up to 25% {TODO: There is a discrepancy
         between QRH 2.32 and FCOM 3.2.80.12000 - check once new FCOM 3 is issued}.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>AC Bus 2 fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.9000, <emphasis role="underline">ELEC</emphasis> AC BUS 2 FAULT]</para>
-        
+
         <para>Some or all of the equipment on AC bus 2 becomes unavailable, including TR2. DC bus 2 is powered from DC
         bus 1 via the battery bus. The majority of this equipment has a redundant backup, the loss of the FO's PFD and
         ND and a downgrade to Cat I being the major issue. Landing distances are unchanged.</para>
-        
-      </sect2>
-      <sect2>
+
+      </sect1>
+      <sect1>
         <title>AC Ess Bus fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.10000, <emphasis role="underline">ELEC</emphasis> AC ESS BUS FAULT]</para>
 
@@ -545,25 +544,25 @@ Airbus A320 Family Non-Normal Notes</title>
         button. If this is unsuccessful, some or all of the equipment on the AC ESS bus will be lost. The majority of
         this equipment has a redundant backup, with the loss of the Captain's PFD and ND and a downgrade to Cat I being the
         major issues. Landing distances are unchanged.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>AC Essential Shed Bus lost</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.11000, <emphasis role="underline">ELEC</emphasis> AC ESS BUS SHED]</para>
-      
+
         <para> Some or all of the equipment on the AC ESS SHED bus is lost. The major issue is the loss of the passenger
         oxygen masks. Landing distances are unchanged.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>DC Bus 1 fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.12000, <emphasis role="underline">ELEC</emphasis> DC BUS 1 FAULT]</para>
-      
+
         <para>Some or all of the equipment on DC Bus 1 is lost. Most of the equipment loss causes loss of
         redundancy only. Landing distances are unchanged.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>DC Bus 2 fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.13000, <emphasis role="underline">ELEC</emphasis> DC BUS 2 FAULT]</para>
-      
+
         <para>Some or all of the equipment on DC Bus 2 is lost. The F/O's static probe sensor is lost, so ADR3
         should be selected on the F/O's side. FCU2 is lost, so check that the baro ref on the FCU and PFD
         agree. Landing distance increases by up to 35% due to the loss of 3 ground spoilers per side and one
@@ -573,8 +572,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>The other lost systems either have redundant backups or are non-essential. It should be noted
         that the only flight computers remaining are ELAC 1, SEC 1 and FAC 1.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>DC Essential Bus fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.14000 , <emphasis role="underline">ELEC</emphasis> DC ESS BUS
         FAULT]</para>
@@ -596,16 +595,16 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>Landing capability is Cat 2 due to the loss of the auto-thrust. The ECAM status page incorrectly
         reports Cat 3 single.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>DC Essential shed</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.15000, <emphasis role="underline">ELEC</emphasis> DC ESS BUS
         SHED]</para>
 
         <para>The only major issue is the loss of wing anti-ice. Therefore, avoid icing conditions, and apply
         landing distance procedure if ice accretes.</para>
-      </sect2>
-      <sect2 id="dc-1and2">
+      </sect1>
+      <sect1 id="dc-1and2">
         <title>Loss of DC Bus 1 and DC Bus 2</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24. , <emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT]</para>
 
@@ -622,31 +621,31 @@ Airbus A320 Family Non-Normal Notes</title>
         approach idle.</para>
 
         <para>All other systems are relatively insignificant or have redundant backups.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Generator overload</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.21000 , <emphasis role="underline">ELEC</emphasis> GEN 1(2) or
         APU GEN OVERLOAD]</para>
 
         <para>Shed some load by switching off the galleys.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Loss of TR</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.22000 , <emphasis role="underline">ELEC</emphasis> TR 1(2) or
         ESS TR FAULT]</para>
 
         <para>No systems are lost as a result of failure of a single TR. If the fault is with TR1 or TR2, only
         Cat 3 single will be available.</para>
-      </sect2>
-      <sect2 id="dc-bat">
+      </sect1>
+      <sect1 id="dc-bat">
         <title>Battery bus fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.23000 , <emphasis role="underline">ELEC</emphasis> DC BAT BUS
         FAULT]</para>
 
         <para>Some or all of the equipment on the Battery bus is lost. The only major items lost are APU fire
         detection and APU battery start.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>DC Emergency configuration</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.24000 , <emphasis role="underline">ELEC</emphasis> DC EMER
         CONFIG]</para>
@@ -658,15 +657,15 @@ Airbus A320 Family Non-Normal Notes</title>
         the battery bus (see <xref linkend="dc-bat"/>), so all comments regarding these failures apply. In
         addition, a minimum of 140kt must be maintained to avoid RAT stall. This combination leads to an
         extreme increase in landing distance requirement.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Static inverter fault</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.25000 , <emphasis role="underline">ELEC</emphasis> STAT INV
         FAULT ]</para>
 
         <para>Normal operations are not affected.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Generator 1 line off</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.26000 , <emphasis role="underline">ELEC</emphasis> EMER GEN 1
         LINE OFF]</para>
@@ -674,8 +673,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>The GEN 1 LINE button on the emergency electrical panel manually opens the generator 1 line
         contactor, leaving generator 2 to supply GEN 2. It is used for the smoke drill. If it's not meant to
         be off, turn it on.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Tripped circuit breakers</title>
         <para>[FCOM 1.24.20.5000, FCOM 3.2.24.27000 , <emphasis role="underline">C/B</emphasis>
         TRIPPED]</para>
@@ -687,13 +686,13 @@ Airbus A320 Family Non-Normal Notes</title>
         the action is coordinated with MOC.</para>
 
         <para>The ECAM warning will be triggered if a green circuit breaker trips.</para>
-      </sect2>
+      </sect1>
 
 
-    </sect1>
-    <sect1>
+    </chapter>
+    <chapter>
       <title>Flight controls</title>
-      <sect2>
+      <sect1>
         <title>Elevator faults</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.25000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> L(R) ELEV FAULT]</para>
@@ -710,8 +709,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <emphasis>must</emphasis> be applied very slowly if control is not to be lost.{TODO: This is Boeing advice -
         check if it is relevant to Airbus}</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Stabilizer jam</title>
 
         <para>[QRH 2.07, FCOM 1.27.40.8000, FCOM 3.2.27.{32,33}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM]</para>
@@ -726,8 +725,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>If the jam is caused by the mechanical connection, it is possible that the ELACs will not detect the
         problem. The procedure in this case is similar, but Normal Law will remain.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Aileron faults</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.22000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> L(R) AIL
@@ -736,8 +735,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>The lateral aircraft handling is not adversely affected even if both ailerons fail, as the systems
         compensate by using the spoilers. Fuel consumption will, however, increase by approximately 6%.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Spoiler faults</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.{26,27}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> (GND) SPLR
@@ -746,8 +745,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>Spoiler faults should not adversely affect handling, although they may cause some buffeting. A CONF 3
         landing may reduce this buffeting. Speed brake should not be used if spoilers 3 + 4 are affected. The loss of
         ground spoilers will increase landing distances by up to 55% (details in QRH 2.32).</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Rudder Jam</title>
 
         <para>[QRH 2.06, FCOM 1.27.40.8000, FCOM 3.2.27.34000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> RUDDER JAM]</para>
@@ -758,9 +757,9 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>Crosswinds from the side that the rudder is deflected should be avoided, and a cross wind limit of 15kt
         applies. Control on the ground will require differential braking until the steering handle can be used (below
         70kt), so landing distances are increased. Do not use autobrake.</para>
-        
-      </sect2>
-      <sect2 id="flight-controls.slats-flaps-fault">
+
+      </sect1>
+      <sect1 id="flight-controls.slats-flaps-fault">
         <title>Flaps and/or slats fault/locked</title>
 
         <para>[QRH 2.03, FCOM 1.27.50.3000, FCOM 3.2.27.{1,2,3,4}000, amber ECAM:<emphasis
@@ -822,8 +821,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>Other issues include the possible loss of the automatic operation of the centre tank pumps (which
         is sequenced to the slats) and possible reversion to Alternate Law.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>SFCC faults</title>
 
         <para>[FCOM 1.27.50.3000, FCOM 3.2.27.{5,6}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT)
@@ -835,8 +834,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>Failure of both flap channels or failure of both slat channels is covered in <xref
         linkend="flight-controls.slats-flaps-fault"/>. </para>
-      </sect2>
-      <sect2 id="flight-controls.elac">
+      </sect1>
+      <sect1 id="flight-controls.elac">
         <title>ELAC fault</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.{11,12}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> ELAC 1(2) FAULT]</para>
@@ -847,10 +846,10 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>Failure of both ELACs leads to loss of ailerons and hence Alternate Law. One of the SECs will take over
         control of the elevators and stabiliser. Again, an attempt can be made to reset the computers.</para>
-        
+
         <para>If the fault is designated a pitch fault, only the pitch function of the associated ELAC is lost.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>SEC fault</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.14000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> SEC 1(2)(3) FAULT]</para>
@@ -870,13 +869,13 @@ Airbus A320 Family Non-Normal Notes</title>
         will occur at slat extension rather than gear extension.</para>
 
         <para>An attempt should be made to reset the affected SEC(s).</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>FCDC faults</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.20000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FCDC
         1(2)(1+2) FAULT]</para>
-        
+
         <para>The two FCDCs are redundant, so a single failure has no immediate effect.</para>
 
         <para>If both FCDCs fail, the ELACs and SECs can no longer supply data to the EIS. The major effect of this is
@@ -884,8 +883,8 @@ Airbus A320 Family Non-Normal Notes</title>
         valid information and should be monitored. The aircraft remains in normal law with all protections, but
         protection indications (bank and pitch limits, V<subscript>&alpha;-prot</subscript> and
         V<subscript>&alpha;-max</subscript>) are not shown and the stall warning system becomes active.</para>
-      </sect2>
-      <sect2 id="direct-law">
+      </sect1>
+      <sect1 id="direct-law">
         <title>Direct Law</title>
 
         <para>[FCOM 1.27.40.15000, FCOM 3.2.27.000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> DIRECT LAW]</para>
@@ -896,8 +895,8 @@ Airbus A320 Family Non-Normal Notes</title>
         up pitch changes so it should be used with care. Protections are unavailable, so speed is limited to 320kt/0.77M
         and care must be taken in GPWS or windshear maneuvres. Approach speed is increased by 10kt and landing distances
         increase by a factor of 1.2.</para>
-      </sect2>
-      <sect2 id="alternate-law">
+      </sect1>
+      <sect1 id="alternate-law">
         <title>Alternate Law</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.18000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> ALTN
@@ -912,8 +911,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and hence increased
         approach speeds and landing distances (see QRH 2.32).</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Wingtip brake fault</title>
 
         <para>[FCOM 1.27.50.3000, FCOM 3.2.27.7000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT)
@@ -921,16 +920,16 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>The wingtip brakes activate in case of assymetry, mechanism overspeed, symmetrical runaway or uncommanded
         movements. This protection is lost.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Flap attach sensor failure</title>
 
         <para>[FCOM 1.27.50.3000, FCOM 3.2.27.9000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP ATTACH SENSOR]</para>
 
         <para>The flap attach sensor detects excessive differential movement between the inner and outer flaps which
         would indicate failure of a flap attachment. This protection is lost.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Flight control servo faults</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.{21,24}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis>
@@ -939,20 +938,20 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>All flight controls have redundant servos. In the case of an elevator servo fault, a restriction to not
         use speedbrake above V<subscript>MO</subscript>/M<subscript>MO</subscript> applies.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Speed brake disagree</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.28000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> SPD BRK
         DISAGREE]</para>
-        
+
         <para>This indicates that the spoiler positions do not correspond with the speedbrake lever position. This may
         be as a result of automatic retraction (alpha floor activation or speed brakes deployed when full flap selected)
         or as a result of spoiler malfunction. In both cases retract the speedbrake lever and in the case of spoiler
         malfunction consider the speedbrakes unserviceable.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Speed brake fault</title>
 
         <para>[FCOM 1.27.40.8000, FCOM 3.2.27.29000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> SPD BRK
@@ -962,24 +961,24 @@ Airbus A320 Family Non-Normal Notes</title>
         spoilers. Ground spoiler activation may be expected on selection of reverse, so providing reversers are used,
         landing distances should not be affected.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Stiff sidestick/ rudder pedals</title>
 
         <para>[QRH 2.07, FCOM 3.2.27.42000]</para>
-        
+
         <para>This may affect both sidesticks at the same time, but not the rudder pedals or it may affect the rudder
         pedals and one sidestick. Control forces will remain moderate and the aircraft remains responsive. Confirm
         autopilot disengagement and consider transferring control if one of the sidesticks is unaffected.</para>
 
-      </sect2>
-    </sect1>
-    <sect1>
+      </sect1>
+    </chapter>
+    <chapter>
       <title>Fire</title>
-      <sect2>
+      <sect1>
         <title>Smoke and fumes</title>
         <para>[QRH 1.06, FCOM 3.2.26.6000, amber ECAM: <emphasis role="underline">AVIONICS</emphasis> SMOKE]</para>
-        
+
         <para>The QRH procedure should be applied when smoke is detected and the crew suspect the avionics, air
         conditioning or cabin equipment as the source. The paper procedure includes all the steps of the avionics smoke
         ECAM procedure, so if this caution is triggered, the paper procedure should be applied after completing the
@@ -1029,11 +1028,11 @@ Airbus A320 Family Non-Normal Notes</title>
         disagreement. If this does not work, the emergency electrical configuration is adopted (see <xref
         linkend="emerg-elec-config"/>).</para>
 
-      </sect2>
-      <sect2 id="smoke-fumes-removal">
+      </sect1>
+      <sect1 id="smoke-fumes-removal">
         <title>Smoke/ fumes removal</title>
         <para>[QRH 1.06, FCOM 3.2.26.7000]</para>
-        
+
         <para>Smoke removal procedures initially use the pressurisation system to draw smoke and fumes overboard by
         increasing the cabin altitude. If there are no fuel vapours present, the packs are used to drive the smoke
         overboard. Otherwise it is driven overboard by residual pressure.</para>
@@ -1044,20 +1043,20 @@ Airbus A320 Family Non-Normal Notes</title>
         manual control of the DC powered outflow valve motor. Once at a suitable level and below 200kt, as a last resort
         PNF's cockpit window can be opened.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Engine fire</title>
         <para>The basic sequence is to bring the thrust lever of the affected engine to idle, turn off its engine
         master, push its fire button, wait 10 seconds then deploy its first fire bottle. If the fire is not extinguished
         after 30 seconds, indicated by the fire button remaining lit, deploy the second bottle. This sequence is
         modified on the ground in that both fire bottles are fired immediately, and the remaining engine is then also
         shut down.</para>
-      </sect2>
+      </sect1>
 
-    </sect1>
-    <sect1>
+    </chapter>
+    <chapter>
       <title>Fuel</title>
-      <sect2 id="fuel-leak">
+      <sect1 id="fuel-leak">
         <title>Fuel leak</title>
         <para>[QRH 2.08, FCTM 3.2.28.{24,25}000, amber ECAM FUEL F USED/FOB DISAGREE]</para>
 
@@ -1091,8 +1090,8 @@ Airbus A320 Family Non-Normal Notes</title>
         is most likely. In this case, an engine restart should be considered.</para>
 
         <para>In an emergency, a landing may be carried out with maximum fuel imbalance.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Fuel imbalance</title>
         <para>[QRH 2.09, FCOM 3.28.26000, FCOM 3.1.28]</para>
 
@@ -1108,8 +1107,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>To balance the fuel, open the cross-feed valve and turn the lighter side pumps and the center tank pumps
         off.</para>
-      </sect2>
-      <sect2 id="gravity-feeding">
+      </sect1>
+      <sect1 id="gravity-feeding">
         <title>Gravity fuel feeding</title>
         <para>[QRH 2.09, FCOM 3.2.28.28000]</para>
 
@@ -1121,8 +1120,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>It is also possible to gravity cross feed by side slipping the aircraft with a bank angle of 2° to 3°
         should this become necessary.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Wing tank pump(s) low pressure</title>
         <para>[FCOM 3.2.38.{1,2}000, FCOM 1.28.20.7000, amber ECAM FUEL L(R) TK PUMP 1(2)(1+2) LO PR]</para>
 
@@ -1133,8 +1132,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>Failure of both pumps in a given tank means that the fuel in that tank is only available by gravity
         feeding. Pressurized fuel may be available from the center tank (use manual mode if necessary) or by
         cross-feeding. A descent to gravity feed ceiling may be required (see <xref linkend="gravity-feeding"/>).</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Center tank pumps low pressure</title>
         <para>[FCOM 3.2.28.{21,22}000, FCOM 1.28.20.7000, amber ECAM FUEL CTR TK PUMP(S)(1(2)) LO PR]</para>
 
@@ -1144,18 +1143,18 @@ Airbus A320 Family Non-Normal Notes</title>
         the center tank fuel has been exhausted so that the remaining pump can supply both engines.</para>
 
         <para>Failure of both center tank pumps makes the fuel in the center tank unusable.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Auto feed fault</title>
         <para>[FCOM 3.2.28.23000, FCOM 1.28.20.7000, amber ECAM FUEL AUTO FEED FAULT]</para>
 
         <para>The center tank pumps must be managed manually. They must be switched off whenever slats are extended,
         wing tank fuel &gt;5000kg or center tank fuel is exhausted.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Low fuel level</title>
         <para>[FCOM 3.2.28.{3,4}000, FCOM 1.28.20.7000, amber ECAM FUEL L(R)(L+R) WING TK LO LVL]</para>
-        
+
         <para>The ECAM is triggered at approximately 750kg. The warning may be spurious if the ECAM is triggered just
         before the wing cell transfer valves open. If center tank fuel remains, it should be used by selecting the
         center tank pumps to manual mode. If there is a fuel imbalance and a fuel leak can be ruled out, crossfeed fuel
@@ -1164,39 +1163,39 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>If both tanks are low level, about 30 minutes of flying time remain. Declare a PAN if the possibility
         exists that there will be less than final reserve on landing. Declare a MAYDAY if it is certain that there will
         be less than final reserve on landing.[EOMA 8.3.7.2]</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Outer tank transfer valves failed closed</title>
         <para>[FCOM 3.2.28.6000, FCOM 1.28.20.7000, amber ECAM FUEL L(R) XFR VALVE CLOSED]</para>
 
         <para>If both transfer valves fail to open when a wing tank reaches low level, the fuel in that outer tank
         becomes unusable. The fuel balance will remain within limits since maximum outer tank imbalances are acceptable
         if the total fuel in either wing is the same [FCOM 3.1.28.1000].</para>
-        
-      </sect2>
-      <sect2>
+
+      </sect1>
+      <sect1>
         <title>Outer tank transfer valve open out of sequence</title>
         <para>[FCOM 3.2.28.7000, FCOM 1.28.20.7000, amber ECAM FUEL L(R) XFR VALVE OPEN]</para>
 
         <para>Maximum outer tank imbalances are acceptable if the total fuel in either wing is the same [FCOM
         3.1.28.1000], so no action is required.</para>
-        
-      </sect2>
-      <sect2>
+
+      </sect1>
+      <sect1>
         <title>Cross-feed valve fault</title>
         <para>[FCOM 3.2.28.8000, FCOM 1.28.20.7000, amber ECAM FUEL X FEED VALVE FAULT]</para>
 
         <para>If the valve has failed open, fuel balance can be maintained through selective use of fuel pumps. If it
         has failed closed, crossfeeding is unavailable.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Low fuel temperature</title>
         <para>[FCOM 3.2.28.{11,12}000, FCOM 1.38.20.7000, amber ECAM xxx TK LO TEMP]</para>
-        
+
         <para>ECAM is triggered at approx -43°C. If on the ground, delay takeoff until temperatures are within
         limits. If in flight, descending or increasing speed should be considered.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>High fuel temperature</title>
         <para>[FCOM 3.2.28.14000. FCOM 1.38.20.7000, amber ECAM xxx TK HI TEMP]</para>
 
@@ -1217,12 +1216,12 @@ Airbus A320 Family Non-Normal Notes</title>
         required. The engine must be running when the IDG button is pressed, and it must not be held for more than 3
         seconds.[FCOM 1.24.20.1000]</para>
 
-      </sect2>
+      </sect1>
 
-    </sect1>
-    <sect1>
+    </chapter>
+    <chapter>
       <title>Landing gear</title>
-      <sect2 id="loss-of-braking">
+      <sect1 id="loss-of-braking">
         <title>Loss of braking <emphasis>(memory item)</emphasis></title>
         <para>[QRH 1.13, FCOM 3.2.32.20000]</para>
         <para>If it is simply an autobrake failure, just brake manually. Otherwise, apply max reverse and attempt to use
@@ -1230,8 +1229,8 @@ Airbus A320 Family Non-Normal Notes</title>
         the alternate system also appears to have failed, short successive applications of the parking brake may be
         used. Use of the parking brake in this way risks tire burst and lateral control difficulties (due brake onset
         assymetry) so delay until low speed if at all possible.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Residual braking procedure</title>
         <para>[QRH 2.10B, FCOM 3.2.32.23000]</para>
         <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM warning. {TODO:
@@ -1241,42 +1240,42 @@ Airbus A320 Family Non-Normal Notes</title>
         pressing the brake pedals several times. If a landing must be made with residual pressure in the alternate
         braking system, use autobrake MED or immediate manual braking to prioritise the normal system. Anticipate brake
         assymetry at touchdown.</para>
-      </sect2>
-      <sect2 id="gear-gravity-extension">
+      </sect1>
+      <sect1 id="gear-gravity-extension">
         <title>Gravity extension</title>
         <para>[QRH 2.11, FCOM 3.2.32.4000]</para>
         <para>Gravity extension is acheived by turning the GRAVITY GEAR EXTN handcrank clockwise three times until a
         mechanical stop is reached. Once the gear is down, the LG lever should be set to down to extinguish the UNLK
         lights and remove the LG CTL message from the WHEEL page.</para>
-        
+
         <para>Availability of landing gear indications depends on the nature of the failure that resulted in the
         requirement for gravity extension. LDG GEAR control panel indications may still be available if LGCIU 1 is
         otherwise unserviceable, providing that it is electrically supplied.</para>
 
         <para>Gear doors may show amber on the WHEEL page after gravity extension. There may also be spurious LGCIU 2
         FAULT or BRAKES SYS 1(2) FAULT ECAM warnings.</para>
-      </sect2>
-      <sect2 id="asymmetric-braking">
+      </sect1>
+      <sect1 id="asymmetric-braking">
         <title>Asymmetric braking</title>
         <para>[QRH 2.11, FCOM 3.2.32.32000, FCOM 1.32.30]</para>
         <para>If brakes are only available on one side (indicated by amber brake release indicators on both wheels of
         one main gear {TODO: check this} ), apply the remaining brake progressively whilst countering swing
         with rudder. Do not use the reverse on the same side as the working brake. Landing distances will increase
         significantly so check QRH 2.32 for landing distance factor.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Landing with abnormal landing gear</title>
         <para>[QRH 2.12, FCOM 3.2.32.11000]</para>
         <para>A landing should be carried out on a hard surface runway using any available landing gear. Foaming of the
         runway is recommended. Manual braking should be used. Reverse thrust should not be used as it will cause ground
         spoiler extension. The GRVTY GEAR EXTN handcrank should be turned back to normal to allow the landing gear down
         actuators to be pressurised and thus reduce the chance of gear collapse.</para>
-        
+
         <para>If the nose gear is not available, move the CG aft by moving passengers to the rear of the aircraft. Use
         elevator to keep the nose off the runway, but lower the nose onto the runway before elevator control is
         lost. Braking must be progressive and balanced against available elevator authority. The engines should be shut
         down with the ENG MASTER switches prior to nose impact.</para>
-        
+
         <para>If one main gear is not available, consider crossfeeding to remove the fuel from the wing with the
         unserviceable gear. The anti-skid system cannot operate with a single main gear extended and must be switched
         off to avoid permanent brake release. The ground spoilers should not be armed in order to maintain the maximum
@@ -1287,8 +1286,8 @@ Airbus A320 Family Non-Normal Notes</title>
         touchdown must be >6°.</para>
 
         <para>All doors and slides are available for evacuation in any of the normal gear up attitudes.</para>
-      </sect2>
-      <sect2 id="flight-with-gear-extended">
+      </sect1>
+      <sect1 id="flight-with-gear-extended">
         <title>Flight with landing gear extended</title>
         <para>[FCOM 2.4.25]</para>
 
@@ -1304,53 +1303,53 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>Performance in all phases will be affected. In particular, approach climb limiting weights for go-around
         (see FCOM 3.5.35) must be reduced by 14%. Fuel burn will increase (approximate factor is 2.3). Engine out
         ceiling and take-off performance are also impacted. Tables for calculation are available in FCOM 2.4.25.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Gear shock absorber fault</title>
         <para>[FCOM 3.2.32.1000, FCOM 1.32.10.4000, amber ECAM: L/G SHOCK ABSORBER FAULT]</para>
-        
+
         <para>A shock absorber did not extend when airborne or did not compress on landing. If airborne the gear cannot
         be retracted. Respect the gear extended limit speed of 280kt and see <xref
         linkend="flight-with-gear-extended"/>.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Gear not uplocked</title>
         <para>[FCOM 3.2.32.2000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR NOT UPLOCKED]</para>
         <para>Landing gear retraction sequence has not completed within 30 seconds. If the gear doors have closed, the
         gear will rest on the doors so avoid excess g loads. If the doors have not closed, recycle the gear. If this
         does not work, select the gear down and see <xref linkend="flight-with-gear-extended"/>.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Gear not downlocked</title>
         <para>[FCOM 3.2.32.3000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWNLOCKED]</para>
 
         <para>Landing gear extension sequence has not completed within 30 seconds. Retract the gear and wait until it
         has fully stowed, then redeploy. If this is not successful, attempt to deploy the gear by gravity (see <xref
         linkend="gear-gravity-extension"/>).</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Gear doors not closed</title>
         <para>[FCOM 3.2.32.5000, FCOM 1.32.10.4000, amber ECAM: L/G DOORS NOT CLOSED]</para>
-        
+
         <para>A gear door is not uplocked. Recycle the gear. If the doors cannot be closed, speed is limited to
         250kt/M0.6.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Uplock fault</title>
         <para>[FCOM 3.2.32.6000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR UPLOCK FAULT]</para>
         <para>An uplock is engaged when the corresponding gear is downlocked. As the uplock will not move to accept the
         gear the gear must be left down. See <xref linkend="flight-with-gear-extended"/>.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>LGCIU disagreement</title>
         <para>[FCOM 3.2.32.8000, FCOM 1.32.10.4000, amber ECAM: L/G SYS DISAGREE]</para>
         <para>The LGCIUs disagree on the position of the gear. In the absence of other ECAM warnings, the gear position
         can be assumed to agree with the gear lever position.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>LGCIU fault</title>
         <para>[FCOM 3.2.32.9000, FCOM 1.32.10.4000, amber ECAM: L/G LGCIU 1(2) FAULT]</para>
-        
+
         <para>The FADECs use LGCIU input to determine idle mode. If a LGCIU is determined to be faulty, the system
         failsafes to approach idle mode, and modulated idle and reverse idle (and hence reversers) will not be
         available. {TODO: This is inferred from the information in FCOM 1.70.40 - check that it's true}.</para>
@@ -1362,37 +1361,37 @@ Airbus A320 Family Non-Normal Notes</title>
         gravity extended (see <xref linkend="gear-gravity-extension"/>). {TODO: Autopilot and autothrust are also lost -
         find out why this is}</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Gear not down</title>
         <para>[FCOM 3.2.32.10000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWN]</para>
-        
+
         <para>Indicates that the landing gear is not downlocked when radio altitude is below 750ft rad alt and N1 and
         flap setting indicate that the aircraft is on approach. If rad alt data is not available, it indicates gear is
         not down when flap 3 or flap full is selected. In some cases the warning may be cancelled with the emergency
         cancel pushbutton.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Park brake on</title>
         <para>[FCOM 3.2.32.12000, FCOM 1.32.30.3000, red ECAM: CONFIG PARK BRK ON]</para>
         <para>The parking brake is set when the thrust levers are set to FLX or TOGA. Check the position of the brake
         handle position and for pressure indications on the brake triple gauge.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Nosewheel steering fault</title>
         <para>[FCOM 3.2.32.14000, FCOM 1.32.20.3000, amber ECAM: WHEEL N/W STRG FAULT]</para>
         <para>Nosewheel steering is unavailable so differential braking must be used to steer the aircraft. The
         nosewheel may not be aligned if the L/G shock absorber ECAM is also displayed, in which case delay nosewheel
         touch down as long as possible. Cat III dual will not be available.</para>
-      </sect2>
-      <sect2 id="antiskid-nosewheel-steering-off">
+      </sect1>
+      <sect1 id="antiskid-nosewheel-steering-off">
         <title>Antiskid nosewheel steering off</title>
         <para>[FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES ANTI SKID/NWS OFF]</para>
         <para>The A/SKID &amp; NW STRG switch is off. The ABCU controls
         braking through the alternate braking system. Antiskid is not available so landing distance will increase
         significantly. Autobrake and nosewheel steering will also not be available.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Antiskid nosewheel steering fault</title>
         <para>[FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES A/SKID NWS FAULT]</para>
         <para>Either:
@@ -1403,19 +1402,19 @@ Airbus A320 Family Non-Normal Notes</title>
         </itemizedlist></para>
         <para>Effects are as for <xref linkend="antiskid-nosewheel-steering-off"/>, although if yellow hydraulic
           pressure is low braking will be accumulator only.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Brake system fault</title>
         <para>[FCOM 3.2.32.17000, FCOM 1.32.30.3000, amber ECAM: BRAKES SYS 1(2) FAULT]</para>
         <para>A fault has been detected in one channel of the BSCU. Loss of redundancy only.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Brakes hot</title>
         <para>[FCOM 3.2.32.18000, FCOM 1.32.30.3000, amber ECAM: BRAKES HOT]</para>
 
         <para>At least one brake temperature is &gt;300°C. Check <xref linkend="brake-temperature-limitations"/> if the
         temperature is excessive or the brake temperatures are not reasonably even.</para>
-        
+
         <para>Temperature must be &lt;300°C for takeoff to prevent ignition of any hydraulic fluid that leaks onto the
         brake. Use brake fans as necessary to bring the temperature down in time for the next takeoff. The brake fans
         also cool the temperature sensor, so assume the real brake temperature is twice that indicated if they have
@@ -1424,13 +1423,13 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>If the warning appears in flight, providing that performance permits, the landing gear should be extended
         to allow the brakes to cool.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Auto brake fault</title>
         <para>[FCOM 3.2.32.19000, FCOM 1.32.30.3000, amber ECAM: BRAKES AUTO BRK FAULT]</para>
         <para>A failure was detected when the autobrake was armed. Brake manually.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Hydraulic selector valve fault</title>
         <para>[FCOM 3.2.32.21000, FCOM 1.32.30.3000, amber ECAM: WHEEL HYD SEL FAULT]</para>
         <para>This ECAM message may indicate two completely different conditions:
@@ -1444,31 +1443,31 @@ Airbus A320 Family Non-Normal Notes</title>
           &amp; N/W STRG switch is selected off or the BSCU is reset.</para></listitem>
         </orderedlist>
         </para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Failure of normal braking system</title>
         <para>[FCOM 3.2.32.26000, FCOM 1.32.30.3000, amber ECAM: NORM BRK FAULT]</para>
         <para>Normal braking is lost, but alternate braking and anti-skid are available. Landing distance increases
         slightly.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Failure of alternate braking system</title>
         <para>[FCOM 3.2.32.30000, FCOM 1.32.30.3000, amber ECAM: BRAKES ALTN BRK FAULT]</para>
         <para>Loss of redundancy only.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Failure of normal and alternate braking systems</title>
         <para>[FCOM 3.2.32.25000, FCOM 1.32.30.3000, amber ECAM: NORM + ALTN FAULT]</para>
         <para>The only braking remaining is the parking brake. See <xref linkend="loss-of-braking"/> for method.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Brake accumulator low pressure</title>
         <para>[FCOM 3.2.32.27000, FCOM 1.32.30.3000, amber ECAM: BRK Y ACCU LO PR]</para>
         <para>Braking is not available unless either the green or yellow hydraulic systems are pressurised. If the
         engines are shut down, attempt to recharge the accumulator using the yellow system electrical pump. When parking
         the aircraft, use chocks.</para>
-      </sect2>
-      <sect2 id="released-normal-brakes">
+      </sect1>
+      <sect1 id="released-normal-brakes">
         <title>Released brakes, normal system</title>
         <para>[FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: BRAKES RELEASED]</para>
         <para>If normal braking is active and at least one engine is running, the BSCU self tests when it receives a
@@ -1476,22 +1475,22 @@ Airbus A320 Family Non-Normal Notes</title>
         brakes on a main wheel is incorrectly released during this test. The failed brake is shown by an amber release
         symbol on the WHEEL page. Loss of a brake leads to increased landing distances. If both brakes on the same gear
         are released, see <xref linkend="asymmetric-braking"/>.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Released brakes, alternate system</title>
         <para>[FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: ALTERNATE L(R) RELEASED]</para>
         <para>The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
         linkend="released-normal-brakes"/>). If this test is failed, normal braking can be expected as long as the
         normal braking system is active. If the alternate braking system is active, braking will be asymmetric (see
         <xref linkend="asymmetric-braking"/>).</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Minor nosewheel steering fault</title>
         <para>[FCOM 3.2.32.29000, FCOM 1.32.30.3000, amber ECAM: BRAKES-N/WS MINOR FAULT]</para>
         <para>{TODO: Its not very clear from the FCOM what this refers to}</para>
-      </sect2>
+      </sect1>
 
-      <sect2 id="brake-temperature-limitations">
+      <sect1 id="brake-temperature-limitations">
         <title>Brake temperature limitations requiring maintenance action</title>
         <para>[FCOM 3.4.32.3000]</para>
         <para>Maintenance is required if:
@@ -1504,11 +1503,11 @@ Airbus A320 Family Non-Normal Notes</title>
           <listitem><para>Any brake temp exceeds 900°C</para></listitem>
           <listitem><para>A fuse plug has melted</para></listitem>
         </itemizedlist></para>
-      </sect2>
-    </sect1>
-    <sect1>
+      </sect1>
+    </chapter>
+    <chapter>
       <title>Power plant</title>
-      <sect2 id="dual-engine-failure">
+      <sect1 id="dual-engine-failure">
         <title>Dual engine failure</title>
         <para>[QRH 1.16 &amp; 1.20, FCOM 3.2.70.53000, FCOM 1.70.90.4000, red ECAM: ENG DUAL FAILURE]</para>
 
@@ -1558,8 +1557,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>If an airfield cannot be reached, refer to <xref linkend="ditching"/> or <xref linkend="forced-landing"/>
         as appropriate.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Engine relight in flight</title>
         <para>[QRH 2.22, FCOM 3.2.70.31000]</para>
 
@@ -1577,8 +1576,8 @@ Airbus A320 Family Non-Normal Notes</title>
         initiation. If uncertain about successful relight, move the thrust lever to check for engine response. The START
         FAULT ENG STALL ECAM may be disregarded if all other parameters are normal. </para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Engine stall</title>
         <para>[QRH 2.23, FCOM 1.70.90.5000, FCOM 3.2.70.15000, amber ECAM ENG 1(2) STALL]</para>
 
@@ -1597,8 +1596,8 @@ Airbus A320 Family Non-Normal Notes</title>
         lever. If the stall recurs, the engine can be operated at low thrust settings, otherwise it can be operated
         normally.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Engine tailpipe fire</title>
         <para>[QRH 2.23, FCOM 3.2.70.62000, reverse side of normal checklist]</para>
 
@@ -1622,8 +1621,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>As a last resort, external fire suppression agents may be used. They are, however, highly corrosive and
         the engine will be a write off.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>High engine vibration</title>
         <para>[QRH 2.24, FCOM 3.2.70.63000]</para>
 
@@ -1638,8 +1637,8 @@ Airbus A320 Family Non-Normal Notes</title>
 
         <para>If vibrations rapidly increase above the advisory level, the engine should be operated at lower power
         settings to keep the vibrations below the advisory level.</para>
-      </sect2>
-      <sect2 id="engine-shut-down">
+      </sect1>
+      <sect1 id="engine-shut-down">
         <title>Engine shut down</title>
         <para>[FCOM 1.70.90.5000, FCOM 3.2.70.35000, amber ECAM ENG 1(2) SHUT DOWN]</para>
 
@@ -1660,9 +1659,9 @@ Airbus A320 Family Non-Normal Notes</title>
         crossfed to prevent fuel starvation of the remaining engine. {TODO: Where is the cross feed procedure?}</para>
 
         <para>TCAS should be selected to TA to avoid unflyable climb RAs.</para>
-        
+
         <para>If a reverser is unlocked with associated buffet, speed should be limited to 240kt.</para>
-        
+
         <para>If the remaining engine is operated at maximum power with the aircraft at low speed (e.g. responding to
         windshear) it is possible that directional control may be lost before the flight computer protections apply. Be
         cautious about reducing speed below V<subscript>LS</subscript> on one engine.</para>
@@ -1670,24 +1669,24 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>The main systems lost are the generator, bleeds and hydraulic pump associated with the engine. Other
         systems may be lost depending on the reason for the shutdown.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Low engine oil pressure</title>
 
         <para>[FCOM 3.2.70.6000, FCOM 1.70.90.4000, red ECAM: ENG 1(2) OIL LO PR]</para>
-        
+
         <para>The sources for the gauge on the ECAM ENG page and the ECAM warning are different. If there is a
         discrepancy between the two, a faulty transducer is the most likely cause and the engine can continue to be
         operated normally. If both sources agree, the engine should be shut down by retarding its thrust lever and
         selecting its master switch off and the after shutdown procedure applied (see <xref
         linkend="engine-shut-down"/>).</para>
-      </sect2>
+      </sect1>
 
 
-    </sect1>
-    <sect1>
+    </chapter>
+    <chapter>
       <title>Navigation</title>
-      <sect2>
+      <sect1>
         <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
         <para>[QRH 1.14, FCOM 3.2.34.23000]</para>
 
@@ -1702,11 +1701,11 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>The response to a caution is to correct the flight path or aircraft configuration as necessary. A
         configuration warning will almost always require a go around.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>TCAS warnings <emphasis>(memory item)</emphasis></title>
         <para>[QRH 1.15, FCOM 3.2.34.26000, CAP413 1.7]</para>
-        
+
         <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution advisories (anything
         else). The first response to either advisory is to call "TCAS, I have control" to unequivocally establish who
         will be carrying out any maneuvers. If it is a resolution advisory, the autopilot should be disconnected and the
@@ -1716,9 +1715,9 @@ Airbus A320 Family Non-Normal Notes</title>
         automatics (ATC phraseology: "Radar, Easy 123 - clear of conflict, returning to FL XXX").</para>
 
         <para>If a climb resolution advisory occurs on final approach, a go around must be flown.</para>
-        
-      </sect2>
-      <sect2>
+
+      </sect1>
+      <sect1>
         <title>RNAV downgrades</title>
         <para>[EOM A.8.3.2, EOM B.2.4.51]</para>
 
@@ -1743,8 +1742,8 @@ Airbus A320 Family Non-Normal Notes</title>
         two RNAV systems. If a failure occurs that breaches one of these restrictions, procede as for a loss of
         navigation accuracy.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>ADR faults</title>
         <para>[QRH 2.20, FCOM 3.2.34.6000, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> ADR
         1(2)(3)(1+2)(1+3)(2+3) FAULT]</para>
@@ -1764,9 +1763,9 @@ Airbus A320 Family Non-Normal Notes</title>
         instead to page 2.20 of the QRH. In addition to the failures associated with dual loss, the stall warning is
         lost, the rudder travel limiter is frozen (full rudder travel will be recovered at slat extension) and automatic
         cabin pressure control is lost. In case of go-around, auto flap retraction is not available.</para>
-      </sect2>
+      </sect1>
 
-      <sect2 id="adr-disagree">
+      <sect1 id="adr-disagree">
         <title>ADR disagree</title>
         <para>[FCOM 3.2.34, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> ADR
         DISAGREE]</para>
@@ -1775,9 +1774,9 @@ Airbus A320 Family Non-Normal Notes</title>
         disagreement between the two remaining ADRs. This will cause a degradation to alternate law. If there is a speed
         disagreement, see <xref linkend="unreliable-airspeed"/>. If the speed does not disagree, an AOA sensor is
         providing incorrect data and there is a risk of spurious stall warnings.</para>
-      </sect2>
+      </sect1>
 
-      <sect2>
+      <sect1>
         <title>RA faults</title>
         <para>[FCOM 3.2.34.8000, FCOM 1.34.40.2000, amber ECAM: <emphasis role="underline">NAV</emphasis> RA 1(2)
         FAULT</para>
@@ -1786,9 +1785,9 @@ Airbus A320 Family Non-Normal Notes</title>
         direct law at landing gear extension and a loss of ILS APPR mode capability. Therefore, landing will be CONF 3
         with associated corrections, the approach should be flown in LOC and FPA and autopilot disconnect should be
         anticipated at gear extension.</para>
-      </sect2>
+      </sect1>
 
-      <sect2>
+      <sect1>
         <title>IR faults</title>
         <para>[FCOM 3.2.34.8000, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> IR
         1(2)(3)(1+2)(1+3)(2+3) FAULT]</para>
@@ -1803,9 +1802,9 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>A dual IR fault will lead to loss of PFD indications on at least one side so use ATT/HDG switching to
         recover. It will also lead to Alternate Law and associated speed restrictions and landing configuration
         considerations.</para>
-      </sect2>
+      </sect1>
 
-      <sect2>
+      <sect1>
         <title>IR disagree</title>
         <para>[FCOM 3.2.34.13000, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> IR
         DISAGREE]</para>
@@ -1813,36 +1812,36 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>Following rejection or failure of an IR, there is disagreement between the two remaining IRs. Normal and
         alternate laws are lost, but alternate law with reduced protections can be recovered by isolating the faulty IR
         (use standby horizon to cross-check) and resetting the ELACs.</para>
-      </sect2>
+      </sect1>
 
-      <sect2>
+      <sect1>
         <title>IR alignment in ATT mode</title>
         <para>[QRH 2.21, FCOM 3.2.34.10000]</para>
 
         <para>If IR alignment is lost, it may be possible to recover attitude and heading information by switching the
         ADIRU selector to ATT and maintaining level constant speed flight for 30 seconds. The magnetic heading will need
         to be entered, the exact method being dependent on the ADIRS CDU fitted.</para>
-      </sect2>
+      </sect1>
 
-      <sect2>
+      <sect1>
         <title>FM/GPS position disagree</title>
         <para>[QRH 2.19, FCOM 3.2.34.15000, EOMB 2.3.15]</para>
 
         <para>This can be disregarded if on an ILS or LOC approach. On an overlay approach, revert to raw data. On an
         RNAV approach, go around unless visual.</para>
-        
+
         <para>In other flight phases, manually tune a VOR and check against either the needle and DME on the ND or the
         BRG/DIST TO field on the PROG page. If the error is 3nm or less, disregard the message. If the error is greater
         than 3nm use HDG/TRK and raw data navigation. {TODO: further advice is given regarding checking FM position on
         POSITION MONITOR page and either switching APs or deselecting GPS, but it is not clear whether this recovers
         NAV}.</para>
-        
 
-      </sect2>
-    </sect1>
-    <sect1>
+
+      </sect1>
+    </chapter>
+    <chapter>
       <title>Auto-flight</title>
-      <sect2>
+      <sect1>
         <title>FAC faults</title>
 
         <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{7,8}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis> FAC
@@ -1859,9 +1858,9 @@ Airbus A320 Family Non-Normal Notes</title>
         <xref linkend="rudder-limit"/>.{TODO FCOM has a 12kt crosswind limit for rudder travel limiter failure, but none
         for dual FAC failure - is it implicit or do you get multiple ECAMs}</para>
 
-      </sect2>
+      </sect1>
 
-      <sect2 id="yaw-damper">
+      <sect1 id="yaw-damper">
         <title>Yaw damper faults</title>
 
         <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{1,2}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis> YAW
@@ -1874,20 +1873,20 @@ Airbus A320 Family Non-Normal Notes</title>
         flight controls revert to alternate law (see <xref linkend="alternate-law"/>). Unless the failure occured below
         alert height, only Cat I wil be available.</para>
 
-      </sect2>
-      <sect2 id="rudder-trim">
+      </sect1>
+      <sect1 id="rudder-trim">
         <title>Rudder trim faults</title>
 
         <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{3,4}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis>
         RUDDER TRIM SYS(1(2) FAULT)]</para>
-        
+
         <para>Loss of a rudder trim from a single FAC leads to loss of redundancy and hence loss of Cat 3 Dual.</para>
 
         <para>If complete loss of rudder trim occurs, an attempt should be made to reset the FACs. If this is not
         successful, only Cat I is available.</para>
 
-      </sect2>
-      <sect2 id="rudder-limit">
+      </sect1>
+      <sect1 id="rudder-limit">
         <title>Rudder travel limiter faults</title>
 
         <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{5,6}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis> RUD
@@ -1901,8 +1900,8 @@ Airbus A320 Family Non-Normal Notes</title>
         made to recover the limiter by resetting the FACs. If this is ineffective, the crosswind limit of the aircraft
         is reduced to 12kt, and differential braking may be required on the landing roll.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>FCU faults</title>
 
         <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{9,10}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis>
@@ -1914,13 +1913,13 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>Loss of both channels leads to loss of all FCU and EFIS panels. The autopilots and autothrust are
         lost and parameters that are normally controlled by the panels revert to sensible default values. If the weather
         radar image remains displayed, disregard it since the scale will be incorrect.</para>
-      </sect2>
+      </sect1>
 
 
-    </sect1>
-    <sect1>
+    </chapter>
+    <chapter>
       <title>Hydraulics</title>
-      <sect2 id="green-low-pr">
+      <sect1 id="green-low-pr">
         <title>Green system low pressure</title>
 
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.8000, amber ECAM: <emphasis role="underline">HYD</emphasis> G SYS LO PR]</para>
@@ -1929,8 +1928,8 @@ Airbus A320 Family Non-Normal Notes</title>
         brake system, including the autobrake (alternate braking is available). Landing distance will be increased due
         to loss of two spoilers per wing and reverser 1. Flap and slat deployment will be slow.</para>
 
-      </sect2>
-      <sect2 id="yellow-low-pr">
+      </sect1>
+      <sect1 id="yellow-low-pr">
         <title>Yellow system low pressure</title>
 
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.8000, amber ECAM: <emphasis role="underline">HYD</emphasis> Y SYS LO PR]</para>
@@ -1940,8 +1939,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>Two spoilers per wing and reverser 2 are lost, so landing distance will increase slightly. Nose wheel
         steering is lost. Flap deployment will be slow. As the alternate braking system is only available through the
         brake accumulator, ensure there is sufficient pressure when the parking brake is set.</para>
-      </sect2>
-      <sect2 id="blue-low-pr">
+      </sect1>
+      <sect1 id="blue-low-pr">
         <title>Blue system low pressure</title>
 
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.11000, amber ECAM: <emphasis role="underline">HYD</emphasis> B SYS LO PR]</para>
@@ -1949,8 +1948,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>One spoiler per wing will be lost but this has negligible effect on landing distance. Slats will be slow to
         deploy. Deployment of the RAT is not recommended unless another system is lost. If the system is lost due to low
         reservoir level, emergency generation capability is lost.</para>
-      </sect2>
-<sect2>
+      </sect1>
+<sect1>
         <title>Blue + yellow systems low pressure</title>
 
         <para>[QRH 1.10, FCOM 1.29.20.4000, FCOM 3.2.29.6000, red ECAM: <emphasis role="underline">HYD</emphasis> B + Y
@@ -1971,8 +1970,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>A paper summary is available on page 1.10 of the QRH, and this should be applied once all ECAM actions are
         completed.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Green + blue systems low pressure</title>
 
         <para>[QRH 1.11, FCOM 1.29.20.4000, FCOM 3.2.29.4000, red ECAM: <emphasis role="underline">HYD</emphasis> G + B
@@ -1996,8 +1995,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>A paper summary is available on page 1.11 of the QRH, and this should be applied once all ECAM actions are
         completed.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Green + yellow systems low pressure</title>
 
         <para>[QRH 1.12, FCOM 1.29.20.4000, FCOM 3.2.29.5000, red ECAM: <emphasis role="underline">HYD</emphasis> G + Y
@@ -2019,46 +2018,46 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>A paper summary is available on page 1.12 of the QRH, and this should be applied once all ECAM actions are
         completed.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Engine driven pump low pressure</title>
-        
+
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.8000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y) ENG 1(2)
         PUMP LO PR]</para>
 
         <para>Turn off the affected pump. The PTU will pressurise the affected system.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Electric pump low pressure or overheat</title>
-        
+
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{7,11}000, amber ECAM:<emphasis role="underline">HYD</emphasis> Y(B) ELEC PUMP
         LO PR or OVHT]</para>
 
         <para>Turn off the affected pump. In the case of an overheat, the pump may be re-engaged for the approach
         providing the relevant FAULT light on the overhead panel has extinguished.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Low reservoir air pressure</title>
 
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{1,2,3}000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y)(B)
         RSVR LO AIR PR]</para>
-        
+
         <para>Loss of air pressure to a hydraulic reservoir may lead to pump cavitation and hence fluctuating
         pressures. If this occurs, turn off the affected pump, and if applicable, turn off the PTU. Cavitation reduces
         with altitude, so it may be possible to reinstate the system during the descent.</para>
-      </sect2>
+      </sect1>
 
-      <sect2>
+      <sect1>
         <title>Reservoir overheat</title>
 
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{1,2,3}000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR OVHT]</para>
 
         <para>Turn off all affected pumps and if applicable, turn off the PTU. The system should be reinstated for the
         approach if it has cooled sufficiently. This is indicated by the FAULT light going out on the overhead panel.</para>
-      </sect2>
-      
-      <sect2>
+      </sect1>
+
+      <sect1>
         <title>Low reservoir fluid level</title>
 
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{1,2,3}000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR LO LVL]</para>
@@ -2068,38 +2067,38 @@ Airbus A320 Family Non-Normal Notes</title>
         brake accumulator may also be lost. This usually occurs within 10 minutes of the initial warning. Without the
         brake accumulator, the parking brake is not available, so chock the aircraft before shutting down engine
         1.</para>
-      </sect2>
+      </sect1>
 
-      <sect2>
+      <sect1>
         <title>PTU fault</title>
 
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.9000, amber ECAM:<emphasis role="underline">HYD</emphasis> PTU FAULT]</para>
-        
+
         <para>In flight this indicates that either the green or yellow system is low on fluid and has low system
         pressure. The PTU must be turned off to prevent overheating the supplying system.</para>
-      </sect2>
+      </sect1>
 
-      <sect2>
+      <sect1>
         <title>RAT fault</title>
 
         <para>[FCOM 1.29.20.4000, FCOM 3.2.29.10000, amber ECAM:<emphasis role="underline">HYD</emphasis> RAT FAULT]</para>
 
         <para>Indicates that either the RAT is not fully stowed, pressure is present in the RAT stowing actuator or that
         the RAT pump is not available. No action is required.</para>
-      </sect2>
-    </sect1>
-    <sect1>
+      </sect1>
+    </chapter>
+    <chapter>
       <title>Ice and rain protection</title>
-      <sect2>
+      <sect1>
         <title>Double AOA heat fail</title>
         <para>[QRH 2.10, FCOM 3.2.30.11000]</para>
 
         <para>If two AOA probes are affected by icing, the computers may erroneously deselect the remaining good
         ADR. Switching off one of the affected ADRs leaves the system in the state described in <xref
         linkend="adr-disagree"/>.</para>
-        
-      </sect2>
-      <sect2>
+
+      </sect1>
+      <sect1>
         <title>Single pitot probe heat or static port heat fault</title>
         <para>[FCOM 1.30.50.3000, FCOM 3.2.30.{3,5,9}000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis>
         CAPT(F/O)(STBY) PITOT or L(R) STAT]</para>
@@ -2107,8 +2106,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>The ADR associated with the failed probe or port should be considered unreliable. ADR1 or ADR2 can be
         replaced with ADR3 using air data switching. If using standby instruments with ADR3 unreliable, air data
         information must be monitored closely.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Multiple pitot heat failures</title>
         <para>[FCOM 1.30.50.3000, FCOM 3.2.30.{22,23,24,25}000, amber ECAM: <emphasis role="underline">ANTI
         ICE</emphasis> ALL(CAPT(F/O)+F/O(STBY)) PITOT]</para>
@@ -2126,37 +2125,37 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>If pitot heat is lost on all probes, one of the ADRs should, again, be turned off to ensure the "ADR
         DISAGREE" ECAM caution is provided. If icing is expected, turn off a second ADR and be ready to apply unreliable
         airspeed procedures (see <xref linkend="unreliable-airspeed"/>).</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Single AOA or TAT heat fault</title>
         <para>[FCOM 1.30.50.3000, FCOM 3.2.30.{7,9}000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis>
         CAPT(F/O)(STBY) AOA or TAT]</para>
 
         <para>No immediate operational effect.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Probe heat computer failure</title>
         <para>[FCOM 1.30.50.3000, FCOM 3.2.30.12000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis>
         CAPT(F/O)(STBY) PROBES]</para>
-        
+
         <para>If applicable, deselect the affected ADR.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Window heat fault</title>
         <para>[FCOM 1.30.40.3000, FCOM 3.2.30.{1,2}000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis>
         L(R)(L+R) WINDSHIELD(WINDOW)]</para>
 
         <para>No immediate operational effect.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Engine anti-ice valve fault</title>
         <para>[FCOM 1.30.30.3000, FCOM 3.2.30.{13,14}000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis> ENG
         1(2) VALVE OPEN(CLSD)]</para>
 
         <para>If a valve fails to open when commanded, avoid icing conditions. If it fails to close when commanded, a
         thrust limit penalty applies {TODO: Check this is automatically applied by the relevant FADEC}.</para>
-      </sect2>
-      <sect2 id="wai-valve-open">
+      </sect1>
+      <sect1 id="wai-valve-open">
         <title>Wing anti-ice valve open when commanded closed</title>
         <para>[FCOM 1.30.20.3000, FCOM 3.2.30.18000, amber ECAM: <emphasis role="underline">WING ANTI ICE</emphasis>
         L(R) VALVE OPEN]</para>
@@ -2164,8 +2163,8 @@ Airbus A320 Family Non-Normal Notes</title>
         <para>In the air, just allow the failed side to be continually anti-iced and use wing anti-ice on the working
         side when required. A thrust limit penalty will apply. On the ground, isolate and depressurize the pneumatic
         system on the failed side.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Wing anti-ice valve closed when commanded open</title>
         <para>[FCOM 1.30.20.3000, FCOM 3.2.30.20000, amber ECAM: <emphasis role="underline">WING ANTI ICE</emphasis> SYS
         FAULT]</para>
@@ -2174,37 +2173,37 @@ Airbus A320 Family Non-Normal Notes</title>
         conditions. If ice accretion does occur, landing distances and V<subscript>app</subscript> adjustments are in
         the "Bleed" section of QRH 2.32. Speed must be maintained above V<subscript>&alpha;-prot</subscript> (top of amber
         and black striped band) if ice has accreted as stall margins may be reduced.</para>
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>Wing anti-ice valves fail to close after 30 second self-test on ground</title>
         <para>[FCOM 1.30.30.3000, FCOM 3.2.30.19000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis> OPEN ON GND]</para>
 
         <para>Simply switch off the wing anti-ice with the push button. If the valves still do not close, see <xref
         linkend="wai-valve-open"/>.</para>
 
-      </sect2>
-      <sect2>
+      </sect1>
+      <sect1>
         <title>High pressure detected when wing anti-ice turned on</title>
         <para>[FCOM 1.30.20.3000, FCOM 3.2.30.21000, amber ECAM: <emphasis role="underline">WING ANTI ICE</emphasis>
         L(R) HI PR]</para>
 
         <para>A thrust limit penalty is applied automatically. {TODO: Check that this is automatic}</para>
-      </sect2>
+      </sect1>
 
 
-    </sect1>
-    <sect1>
+    </chapter>
+    <chapter>
       <title>Indicating/ Recording</title>
-      <sect2>
+      <sect1>
         <title>Display unit failure</title>
         <para>[QRH 2.10, FCOM 3.2.31]</para>
 
         <para>TODO</para>
-      </sect2>
-    </sect1>
-    <sect1>
+      </sect1>
+    </chapter>
+    <chapter>
       <title>Pneumatic</title>
-      <sect2>
+      <sect1>
         <title>Dual bleed failure</title>
         <para>[QRH 2.02, FCOM 3.2.36.6000, NTC 1.106]</para>
 
@@ -2226,55 +2225,55 @@ Airbus A320 Family Non-Normal Notes</title>
         supply a single pack when below FL225. If the #2 bleed duct is isolated, only pack 1 can be used since the cross
         bleed will be closed. Otherwise, either pack may be used. Note that the APU bleed is not capable of supplying
         bleed air for wing anti-ice.</para>
-      </sect2>
-    </sect1>
-    <sect1>
+      </sect1>
+    </chapter>
+    <chapter>
       <title>Communications</title>
-      <sect2>
+      <sect1>
         <title>Failure of two-way radio communication equipment in UK airspace</title>
         <para>[UKAIP ENR 1.1.3.2.4]</para>
-        <sect3>
+        <sect2>
           <title>Initial actions</title>
-          
+
           <para>As soon as loss of communication is recognized, squawk 7600, and start timing. Any timings detailed in
           the rest of this section start now.</para>
 
-          <sect4>
+          <sect3>
             <title>SID</title>
             <para>Fly the published lateral and vertical profiles, including any step climb, until the last waypoint of
             the procedure is reached. Maintain current speed and last assigned level (or MSA if this is higher) until
             <emphasis>7 minutes</emphasis> have elapsed. Then adjust speed and level in accordance with current flight
             plan. This procedure also applies to RNP-1 (PRNAV) departures.</para>
-          </sect4>
-          <sect4>
+          </sect3>
+          <sect3>
             <title>Under radar vectors without specified limit</title>
             <para>Continue in accordance with last instructions for <emphasis>3 minutes</emphasis>, then proceed in most
             direct manner to rejoin current flight plan route. If necessary, climb to MSA.</para>
-          </sect4>
-          <sect4>
+          </sect3>
+          <sect3>
             <title>Under radar vectors from Approach Control Radar</title>
             <para>Comply with instructions on radar vectoring chart.</para>
-          </sect4>
-          <sect4>
+          </sect3>
+          <sect3>
             <title>STAR</title>
             <para>Follow lateral profile. Maintain current speed and last assigned level (or MSA if higher) for
             <emphasis>7 minutes</emphasis>, then arrange descent to be as close as possible to published planning
             profile. If no profile is published, arrange to be at the IAF at minimum published level. This procedure
             also applies to RNP-1 (PRNAV) arrivals.</para>
-          </sect4> 
-          <sect4>
+          </sect3>
+          <sect3>
             <title>SRA</title>
             <para>Continue visually or by using an alternate approach aid. If this is not possible, carry out a missed
             approach and continue to the holding position of a suitable aerodrome with a notified instrument approach
             and carry out that procedure.</para>
-          </sect4>
-          <sect4>
+          </sect3>
+          <sect3>
             <title>Other</title>
             <para>Maintain current speed and last assigned flight level (or MSA if higher) for <emphasis>7
             minutes</emphasis>, then adjust speed and level in accordance with current flight plan.</para>
-          </sect4>
-        </sect3>
-        <sect3>
+          </sect3>
+        </sect2>
+        <sect2>
           <title>Further actions</title>
           <para>Destination ETA is either last ETA for the destination acknowledged by ATC or an ETA calculated from the
           last acknowledged position report plus the flight planned times for the remainder of the flight. Arrange to be
@@ -2283,9 +2282,9 @@ Airbus A320 Family Non-Normal Notes</title>
           <para>Destination EAT is either the last acknowledged EAT or destination ETA. If "delay not determined" has
           been acknowledged, divert to alternate specified in current flight plan. Otherwise commence approach at
           destination EAT and land within 30 minutes. Watch for visual signals from the tower.</para>
-        </sect3>
-      </sect2>
-    </sect1>
-</article>
+        </sect2>
+      </sect1>
+    </chapter>
+</book>
 
 
