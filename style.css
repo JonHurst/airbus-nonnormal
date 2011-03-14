@@ -1,12 +1,9 @@
-body {font-family:Verdana;font-size:0.8em;background-color:white;margin:auto;padding-left:2em;padding-right:2em;max-width:50em;}
-td {font-family:verdana;}
+body {margin:auto;padding-left:2em;padding-right:2em;max-width:45em;}
 h1,h2,h3,h4 {color:darkblue;}
 div.sect4 {margin-left:3em;}
-table {font-size:100%; margin:auto; padding 0 2em; border-collapse: collapse;}
+table {margin:auto; padding 0 2em; border-collapse: collapse;}
 div.mediaobject {text-align:center;}
-div.variablelist {margin-left:2em;}
 td {padding: 1em;}
 table.simplelist {margin-left:3em;}
 table.simplelist td {padding:0.5em;}
 dt {font-weight:bold;}
-span.underline {text-decoration:underline;}
