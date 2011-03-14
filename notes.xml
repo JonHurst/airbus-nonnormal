@@ -6,7 +6,6 @@
     <title>Operating techniques</title>
     <sect1>
       <title>Rejected Takeoff</title>
-      <para>[EOM B.3.2.10, FCOM 3.2.10.1000]</para>
 
       <para>The decision to reject rests solely with CM1. This decision is communicated with the words "Stop" or
       "Continue". "Stop" implies that CM1 is taking control of the aircraft. Below 100kt the RTO is relatively risk free
@@ -36,10 +35,12 @@
 
       <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming the
       spoilers.</para>
+
+      <para role="multicite">[EOM B.3.2.10, FCOM 3.2.10.1000]</para>
+
       </sect1>
       <sect1>
         <title>Failures during takeoff when above V1</title>
-        <para>[FCOM 3.2.10.2000]</para>
 
         <para>If an engine has lost thrust, apply rudder conventionally on the runway. At
         V<subscript>r</subscript> rotate to 12½° at a slightly reduced rate. When airborne, select
@@ -77,6 +78,7 @@
         by PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors
         and any guarded switch must be confirmed with PF.</para>
 
+        <para role="multicite">[FCOM 3.2.10.2000]</para>
       </sect1>
         <sect1 id="eosid">
           <title>EOSID</title>
@@ -118,10 +120,9 @@
 
   </chapter>
   <chapter>
-    <title>Miscellaneous</title>
+    <title>Miscellanneous</title>
     <sect1>
       <title>Emergency descent <emphasis>(memory item)</emphasis></title>
-      <para>[EOM B.3.2.80, QRH 1.25, FCOM 3.2.80.4000]</para>
 
       <para>If an emergency descent is required, the Captain should consider taking control if not already PF.</para>
 
@@ -146,12 +147,13 @@
 
         <para>Once level, restore the aircraft to a normal configuration. When safe to do so, advise cabin crew and
         passengers that it is safe to remove their masks.</para>
+
+      <para role="multicite">[EOM B.3.2.80, QRH 1.25, FCOM 3.2.80.4000]</para>
       </sect1>
       <sect1>
         <title>Windshear <emphasis>(memory item)</emphasis></title>
         <sect2>
           <title>Reactive</title>
-          <para>[FCOM 3.2.80.13000]</para>
 
           <para>The windshear detection system is a function of the Flight Augmentation Computer (FAC). It only operates
           during the takeoff and landing phases with at least CONF 1 selected. In the takeoff phase, warnings are
@@ -177,10 +179,11 @@
           <para>In severe windshear, it is possible that ALPHA FLOOR protection will activate. As TOGA will
           already be selected, this will have no immediate effect. Once clear of the windshear, however, TOGA
           LK will be active, requiring the autothrust to be disconnected to avoid an overspeed.</para>
+
+          <para role="multicite">[FCOM 3.2.80.13000]</para>
         </sect2>
         <sect2>
           <title>Predictive</title>
-          <para>[FCOM 3.2.80.14000, FCOM 3.4.91]</para>
 
           <para>When below 2300ft AGL, the weather radar scans a 5nm radius 60° arc ahead of the aircraft for returns
           indicating potential windshear.</para>
@@ -203,12 +206,12 @@
           made that no hazard exists, the crew may downgrade the warning to a caution. If a caution alert occurs during
           approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a maximum of
           V<subscript>LS</subscript>+15.</para>
+
+          <para role="multicite">[FCOM 3.2.80.14000, FCOM 3.4.91]</para>
         </sect2>
       </sect1>
       <sect1 id="unreliable-airspeed">
         <title>Unreliable airspeed <emphasis>(memory item)</emphasis></title>
-
-        <para>[QRH 2.15, FCOM 3.2.34.30000]</para>
 
         <para>Unreliable airspeed indications may result from radome damage and/or unserviceable probes or
         ports. Altitude indications may also be erroneous if static probes are affected.</para>
@@ -257,19 +260,21 @@
         <para>If good ADR information cannot be recovered, tables are provided on page 2.17 and 2.18 of the QRH to
         enable all phases of flight to be flown using just pitch and thrust settings. The approach configuration should
         be flown in level flight, stabilising each configuration before the next configuration is selected.</para>
+
+        <para role="multicite">[QRH 2.15, FCOM 3.2.34.30000]</para>
       </sect1>
       <sect1>
         <title>Incapacitation <emphasis>(memory item)</emphasis></title>
-        <para>[FCOM 3.2.80.6000]</para>
 
         <para>Take control, using the stick priority button if necessary. Contact cabin crew ASAP. They should strap the
         incapacitated pilot to his seat, move the seat back, then recline the seat. If there are two members available,
         the body can be moved. Medical help should be sought from passengers, and the presence of any type rated company
         pilots on board ascertained.</para>
+
+        <para role="multicite">[FCOM 3.2.80.6000]</para>
       </sect1>
       <sect1 id="ditching">
         <title>Ditching</title>
-        <para>[QRH 1.23, QRH 1.16, QRH 1.20 FCOM 3.2.80]</para>
 
         <para>The QRH 1.23 procedure applies if the engines are running. If the engines are not running, refer to QRH
         1.16 or QRH 1.20 which include ditching.</para>
@@ -289,10 +294,10 @@
         buttons, discharge all agents (engine agent 2 may not be available) and evacuate the aircraft. {TODO: There is a
         discrepancy between engines operative/ inoperative regarding use of the fire buttons after stopping}</para>
 
+        <para role="multicite">[QRH 1.23, QRH 1.16, QRH 1.20, FCOM 3.2.80]</para>
       </sect1>
       <sect1 id="forced-landing">
         <title>Forced landing</title>
-        <para>[QRH 1.24, QRH 1.16 &amp; 1.20, FCOM 3.2.80.3000]</para>
 
         <para>The QRH 1.24 procedure applies if the engines are running. If the engines are not running, refer to QRH
         1.16 or QRH 1.20 which include forced landing.</para>
@@ -311,10 +316,10 @@
         not be available) and evacuate the aircraft.{TODO: There is a discrepancy between engines operative/ inoperative
         regarding use of the fire buttons after stopping}</para>
 
+        <para role="multicite">[QRH 1.24, QRH 1.16 &amp; 1.20, FCOM 3.2.80.3000]</para>
       </sect1>
       <sect1 id="evacuation">
         <title>Evacuation</title>
-        <para>[EOM B.3.2.80, QRH 7.01, FCOM 3.2.80, FCTM 03.020]</para>
 
         <para>Evacuation should be carried out in accordance with the emergency evacuation checklist. The easyJet
         procedure is for CM1 to call for the checklist and then send a Mayday message to ATC before commencing the
@@ -334,10 +339,11 @@
 
         <para>Finally, order the evacuation. This is primarily done with the PA "Evacuate, unfasten your seat belts and
         get out", with the evacuation alarm being triggered as a backup.</para>
+
+        <para role="multicite">[EOM B.3.2.80, QRH 7.01, FCOM 3.2.80, FCTM 03.020]</para>
       </sect1>
       <sect1>
         <title>Overweight landing</title>
-        <para>[QRH 2.25, FCOM 3.2.80.5000]</para>
 
         <para>A landing can be made at any weight, providing sufficient landing distance is available. Automatic
         landings are certified up to MLW, but flight tests have demonstrated autoland capability to 69000kg in case of
@@ -354,12 +360,17 @@
         threshold. Land as smoothly as possible, and apply max reverse as soon as the main gear touches down. Maximum
         braking can be used after nosewheel touchdown. After landing, switch on the brake fans and monitor brake
         temperatures carefully. If temperatures exceed 800°C, tyre deflation may occur.</para>
+
+        <para role="multicite">[QRH 2.25, FCOM 3.2.80.5000]</para>
       </sect1>
       <sect1>
         <title>Immediate VMC recovery with single engine</title>
         <para>Fly circuit in CONF 1. Select CONF 2 at start of base turn. Gear will usually be extended once flaps have
         run to 2, but may be delayed until final approach if performance is an issue. Select CONF 3 once gear is down
-        and CONF full when on final approach. {TODO: Check how climb gradient/ flap decision is determined.}</para>
+        and CONF full when on final approach. {TODO: Check how climb gradient/ flap decision is
+	determined.}</para>
+
+	<para role="multicite">[FCOM 3.2.10.3000]</para>
       </sect1>
       <sect1>
         <title>Engine inoperative approach</title>
@@ -367,6 +378,8 @@
         CONF 3 should be used. Selection of full flaps should be delayed until final descent. It is not permissable to
         use the autopilot to perform single engine NPAs in FINAL APP, NAV V/S or NAV FPA modes. These modes may,
         however, be used with the FDs.</para>
+
+	<para role="multicite">[FCOM 3.2.10.4000]</para>
       </sect1>
       <sect1>
         <title>Engine failure in cruise</title>
@@ -438,7 +451,6 @@
       <title>Air conditioning, pressurisation and ventilation</title>
       <sect1>
         <title>Cabin overpressure</title>
-        <para>[QRH 2.01, FCOM 3.2.21.27000]</para>
 
         <para>There is no ECAM in the case of total loss of pressure control leading to an overpressure, so apply the
         QRH procedure. The basic procedure is to reduce air inflow by turning off one of the packs and put the avionics
@@ -446,13 +458,13 @@
         and the remaining pack is turned off if it exceeds 9 psi. 10 minutes before landing, both packs are turned off
         and remain off, and the avionics ventilation is returned to its normal configuration.</para>
 
+        <para role="multicite">[QRH 2.01, FCOM 3.2.21.27000]</para>
       </sect1>
     </chapter>
     <chapter>
       <title>Electrical</title>
       <sect1 id="emerg-elec-config">
         <title>Emergency configuration</title>
-        <para>[QRH 1.01 &amp; 1.05, FCOM 1.24.20.5000, FCOM 3.2.24.17000, red ECAM: <emphasis role="underline">ELEC</emphasis> EMER CONFIG]</para>
 
         <para>Attempt to restore normal power by recycling the main generators. If that fails, try again after splitting
         the systems with the BUS TIE button.</para>
@@ -467,11 +479,12 @@
         significantly.</para>
 
         <para>QRH 1.05 provides a paper summary which should be applied once ECAM actions are complete.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER CONFIG,
+        QRH 1.01, QRH 1.05, FCOM 1.24.20.5000, FCOM 3.2.24.17000]</para>
       </sect1>
       <sect1>
         <title>Battery only</title>
-        <para>[QRH 1.01, FCOM 1.24.20.5000, FCOM 3.2.24.19000. red ECAM: <emphasis role="underline">ELEC</emphasis> ESS
-        BUSES ON BAT]</para>
 
         <para>Power is available for approximately 30 minutes {TODO: Can't find a reference for this - must have been
         part of CBT}. QRH 1.01 provides details of remaining equipment. This is very similar to the emergency electrical
@@ -479,21 +492,22 @@
         should be made to bring the emergency generator on line by ensuring speed is &gt;140kt and deploying the RAT
         with the EMER ELEC PWR MAN ON button.</para>
 
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> ESS BUSES ON BAT,
+        QRH 1.01, FCOM 1.24.20.5000, FCOM 3.2.24.19000]</para>
       </sect1>
       <sect1>
         <title>IDG low oil pressure/ high oil temperature</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.1000, amber ECAM: <emphasis role="underline">ELEC</emphasis> IDG 1(2) OIL
-        LO PR/OVHT]</para>
 
         <para>The IDG should be disconnected. Assuming the associated engine is running, press the IDG button until the
         GEN FAULT light comes on. Do not press the button for more than 3 seconds.</para>
 
         <para>The APU generator should be used if available.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> IDG 1(2) OIL LO PR/OVHT,
+        FCOM 1.24.20.5000, FCOM 3.2.24.1000]</para>
       </sect1>
       <sect1>
         <title>Generator fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.{2,4}000, amber ECAM: <emphasis role="underline">ELEC</emphasis>(APU) GEN (1)(2)
-        FAULT]</para>
 
         <para>Try to reset the generator by turning it off, then after a short pause, turning it on again. If
         unsuccessful, turn it back off.</para>
@@ -503,18 +517,20 @@
         <para>Single generator operation leads to shedding of the galley. Loss of an engine driven generator leads to
         loss of CAT III DUAL capability.</para>
 
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis>(APU) GEN (1)(2) FAULT,
+        FCOM 1.24.20.5000, FCOM 3.2.24.{2,4}000]</para>
       </sect1>
       <sect1>
         <title>Battery fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.5000, <emphasis role="underline">ELEC</emphasis> BAT 1(2) FAULT]</para>
 
         <para>The affected battery contactor opens automatically. APU battery start is unavailable with a single
         battery.</para>
 
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> BAT 1(2) FAULT,
+        FCOM 1.24.20.5000, FCOM 3.2.24.5000]</para>
       </sect1>
       <sect1>
         <title>AC Bus 1 fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.8000, <emphasis role="underline">ELEC</emphasis> AC BUS 1 FAULT]</para>
 
         <para>Some or all of the equipment on AC bus 1 becomes unavailable, including TR1. DC Bus 2 is powered from DC
         Bus 1 via the battery bus. Power must be re-routed to the Essential AC bus via AC bus 2. This is automatic on
@@ -526,42 +542,47 @@
         blower fan and p1 windshield heat. Landing distance will increase by up to 25% {TODO: There is a discrepancy
         between QRH 2.32 and FCOM 3.2.80.12000 - check once new FCOM 3 is issued}.</para>
 
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC BUS 1 FAULT,
+        FCOM 1.24.20.5000, FCOM 3.2.24.8000]</para>
       </sect1>
       <sect1>
         <title>AC Bus 2 fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.9000, <emphasis role="underline">ELEC</emphasis> AC BUS 2 FAULT]</para>
 
         <para>Some or all of the equipment on AC bus 2 becomes unavailable, including TR2. DC bus 2 is powered from DC
         bus 1 via the battery bus. The majority of this equipment has a redundant backup, the loss of the FO's PFD and
         ND and a downgrade to Cat I being the major issue. Landing distances are unchanged.</para>
 
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC BUS 2 FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.9000]</para>
       </sect1>
       <sect1>
         <title>AC Ess Bus fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.10000, <emphasis role="underline">ELEC</emphasis> AC ESS BUS FAULT]</para>
 
         <para>It may be possible to recover the bus by transferring its power source to AC BUS 2 with the AC ESS FEED
         button. If this is unsuccessful, some or all of the equipment on the AC ESS bus will be lost. The majority of
         this equipment has a redundant backup, with the loss of the Captain's PFD and ND and a downgrade to Cat I being the
         major issues. Landing distances are unchanged.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.10000]</para>
+
       </sect1>
       <sect1>
         <title>AC Essential Shed Bus lost</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.11000, <emphasis role="underline">ELEC</emphasis> AC ESS BUS SHED]</para>
 
         <para> Some or all of the equipment on the AC ESS SHED bus is lost. The major issue is the loss of the passenger
         oxygen masks. Landing distances are unchanged.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS SHED, FCOM 1.24.20.5000, FCOM 3.2.24.11000]</para>
       </sect1>
       <sect1>
         <title>DC Bus 1 fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.12000, <emphasis role="underline">ELEC</emphasis> DC BUS 1 FAULT]</para>
 
         <para>Some or all of the equipment on DC Bus 1 is lost. Most of the equipment loss causes loss of
         redundancy only. Landing distances are unchanged.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1 FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.12000]</para>
       </sect1>
       <sect1>
         <title>DC Bus 2 fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.13000, <emphasis role="underline">ELEC</emphasis> DC BUS 2 FAULT]</para>
 
         <para>Some or all of the equipment on DC Bus 2 is lost. The F/O's static probe sensor is lost, so ADR3
         should be selected on the F/O's side. FCU2 is lost, so check that the baro ref on the FCU and PFD
@@ -572,11 +593,11 @@
 
         <para>The other lost systems either have redundant backups or are non-essential. It should be noted
         that the only flight computers remaining are ELAC 1, SEC 1 and FAC 1.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 2 FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.13000]</para>
       </sect1>
       <sect1>
         <title>DC Essential Bus fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.14000 , <emphasis role="underline">ELEC</emphasis> DC ESS BUS
-        FAULT]</para>
 
         <para>Some or all of the equipment in the DC Essential Bus is lost. Of particular note, the audio
         cards connecting VHF2 and VHF3 to the Audio Management Unit are lost. Since VHF1 is also lost, the
@@ -595,18 +616,18 @@
         <para>Landing capability is Cat 2 due to the loss of the auto-thrust. The ECAM status page incorrectly
         reports Cat 3 single.</para>
 
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC ESS BUS FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.14000]</para>
       </sect1>
       <sect1>
         <title>DC Essential shed</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.15000, <emphasis role="underline">ELEC</emphasis> DC ESS BUS
-        SHED]</para>
 
         <para>The only major issue is the loss of wing anti-ice. Therefore, avoid icing conditions, and apply
         landing distance procedure if ice accretes.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC ESS BUS SHED, FCOM 1.24.20.5000, FCOM 3.2.24.15000]</para>
       </sect1>
       <sect1 id="dc-1and2">
         <title>Loss of DC Bus 1 and DC Bus 2</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24. , <emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT]</para>
 
         <para>Some or all of the systems supplied by DC Bus 1 and DC Bus 2 are lost.</para>
 
@@ -621,34 +642,39 @@
         approach idle.</para>
 
         <para>All other systems are relatively insignificant or have redundant backups.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT, FCOM 1.24.20.5000, FCOM 3.2.24]</para>
       </sect1>
       <sect1>
         <title>Generator overload</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.21000 , <emphasis role="underline">ELEC</emphasis> GEN 1(2) or
-        APU GEN OVERLOAD]</para>
 
         <para>Shed some load by switching off the galleys.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> GEN 1(2) OVERLOAD, <emphasis
+        role="underline">ELEC</emphasis> APU GEN OVERLOAD, FCOM 1.24.20.5000, FCOM 3.2.24.21000]</para>
+
       </sect1>
       <sect1>
         <title>Loss of TR</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.22000 , <emphasis role="underline">ELEC</emphasis> TR 1(2) or
-        ESS TR FAULT]</para>
 
         <para>No systems are lost as a result of failure of a single TR. If the fault is with TR1 or TR2, only
         Cat 3 single will be available.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> TR 1(2), <emphasis
+        role="underline">ELEC</emphasis> ESS TR FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.22000 ]</para>
+
       </sect1>
       <sect1 id="dc-bat">
         <title>Battery bus fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.23000 , <emphasis role="underline">ELEC</emphasis> DC BAT BUS
-        FAULT]</para>
 
         <para>Some or all of the equipment on the Battery bus is lost. The only major items lost are APU fire
         detection and APU battery start.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BAT BUS FAULT,
+        FCOM 1.24.20.5000, FCOM 3.2.24.23000]</para>
       </sect1>
       <sect1>
         <title>DC Emergency configuration</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.24000 , <emphasis role="underline">ELEC</emphasis> DC EMER
-        CONFIG]</para>
 
         <para>Defined as the loss of DC BUSSES 1 + 2, DC ESS BUS and DC BAT BUS. The check list assumes that
         DC ESS BUS can be recovered by deploying the RAT with the EMER ELEC PWR button.</para>
@@ -657,27 +683,30 @@
         the battery bus (see <xref linkend="dc-bat"/>), so all comments regarding these failures apply. In
         addition, a minimum of 140kt must be maintained to avoid RAT stall. This combination leads to an
         extreme increase in landing distance requirement.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC EMER CONFIG, FCOM 1.24.20.5000, FCOM 3.2.24.24000]</para>
       </sect1>
       <sect1>
         <title>Static inverter fault</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.25000 , <emphasis role="underline">ELEC</emphasis> STAT INV
-        FAULT ]</para>
 
         <para>Normal operations are not affected.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> STAT INV FAULT,
+        FCOM 1.24.20.5000, FCOM 3.2.24.25000]</para>
+
       </sect1>
       <sect1>
         <title>Generator 1 line off</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.26000 , <emphasis role="underline">ELEC</emphasis> EMER GEN 1
-        LINE OFF]</para>
 
         <para>The GEN 1 LINE button on the emergency electrical panel manually opens the generator 1 line
         contactor, leaving generator 2 to supply GEN 2. It is used for the smoke drill. If it's not meant to
         be off, turn it on.</para>
+
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER GEN 1 LINE OFF,
+        FCOM 1.24.20.5000, FCOM 3.2.24.26000]</para>
       </sect1>
       <sect1>
         <title>Tripped circuit breakers</title>
-        <para>[FCOM 1.24.20.5000, FCOM 3.2.24.27000 , <emphasis role="underline">C/B</emphasis>
-        TRIPPED]</para>
 
         <para>It is generally not recommended to reset circuit breakers in flight. It is, however, acceptable
         to attempt a single reset if it is judged necessary for the safe continuation of the flight.</para>
@@ -686,6 +715,9 @@
         the action is coordinated with MOC.</para>
 
         <para>The ECAM warning will be triggered if a green circuit breaker trips.</para>
+
+        <para role="multicite">[<emphasis role="underline">C/B</emphasis> TRIPPED,
+        FCOM 1.24.20.5000, FCOM 3.2.24.27000 ]</para>
       </sect1>
 
 
@@ -694,9 +726,6 @@
       <title>Flight controls</title>
       <sect1>
         <title>Elevator faults</title>
-
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.25000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> L(R) ELEV FAULT]</para>
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.23000, red ECAM:<emphasis role="underline">F/CTL</emphasis> L+R ELEV FAULT]</para>
 
         <para>If a single elevator fails, the SECs use the remaining elevator to provide pitch control in alternate law
         (see <xref linkend="alternate-law"/>). In addition, speed brake should not be used and the autopilots are
@@ -709,11 +738,12 @@
         <emphasis>must</emphasis> be applied very slowly if control is not to be lost.{TODO: This is Boeing advice -
         check if it is relevant to Airbus}</para>
 
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R)(L+R) ELEV FAULT,
+        FCOM 1.27.40.8000, FCOM 3.2.27.23000, FCOM 3.2.27.25000]</para>
+
       </sect1>
       <sect1>
         <title>Stabilizer jam</title>
-
-        <para>[QRH 2.07, FCOM 1.27.40.8000, FCOM 3.2.27.{32,33}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM]</para>
 
         <para>Manual pitch trim is a mechanical connection to the stabilizer actuator. It may be possible to use manual
         pitch trim when the ELACs have detected a stabilizer jam, although it may be heavier than normal. If it is
@@ -725,31 +755,31 @@
 
         <para>If the jam is caused by the mechanical connection, it is possible that the ELACs will not detect the
         problem. The procedure in this case is similar, but Normal Law will remain.</para>
+
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM,
+        QRH 2.07, FCOM 1.27.40.8000, FCOM 3.2.27.32000, FCOM 3.2.27.33000]</para>
       </sect1>
       <sect1>
         <title>Aileron faults</title>
 
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.22000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> L(R) AIL
-        FAULT]</para>
-
         <para>The lateral aircraft handling is not adversely affected even if both ailerons fail, as the systems
         compensate by using the spoilers. Fuel consumption will, however, increase by approximately 6%.</para>
 
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R) AIL FAULT, FCOM 1.27.40.8000, FCOM 3.2.27.22000]</para>
       </sect1>
       <sect1>
         <title>Spoiler faults</title>
 
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.{26,27}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> (GND) SPLR
-        (1+2)(3+4) FAULT]</para>
-
         <para>Spoiler faults should not adversely affect handling, although they may cause some buffeting. A CONF 3
         landing may reduce this buffeting. Speed brake should not be used if spoilers 3 + 4 are affected. The loss of
         ground spoilers will increase landing distances by up to 55% (details in QRH 2.32).</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT, FCOM 1.27.40.8000,
+        FCOM 3.2.27.26000, FCOM 3.2.27.27000]</para>
       </sect1>
       <sect1>
         <title>Rudder Jam</title>
-
-        <para>[QRH 2.06, FCOM 1.27.40.8000, FCOM 3.2.27.34000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> RUDDER JAM]</para>
 
         <para>The main indication of jammed rudder is undue and adverse pedal movement during rolling maneuvers caused
         by the yaw damper orders being fed back to the pedals when they are no longer sent to the rudder.</para>
@@ -758,12 +788,11 @@
         applies. Control on the ground will require differential braking until the steering handle can be used (below
         70kt), so landing distances are increased. Do not use autobrake.</para>
 
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> RUDDER JAM, QRH 2.06,
+        FCOM 1.27.40.8000, FCOM 3.2.27.34000]</para>
       </sect1>
       <sect1 id="flight-controls.slats-flaps-fault">
         <title>Flaps and/or slats fault/locked</title>
-
-        <para>[QRH 2.03, FCOM 1.27.50.3000, FCOM 3.2.27.{1,2,3,4}000, amber ECAM:<emphasis
-        role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED)</para>
 
         <para>The most pressing concern following a flap or slat problem is to establish a max operating speed that will
         avoid overspeeding the device in its locked position. A table is provided on page 2.05 of the QRH for this
@@ -821,12 +850,13 @@
 
         <para>Other issues include the possible loss of the automatic operation of the centre tank pumps (which
         is sequenced to the slats) and possible reversion to Alternate Law.</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED), QRH 2.03, FCOM 1.27.50.3000,
+        FCOM 3.2.27.1000, FCOM 3.2.27.2000, FCOM 3.2.27.3000, FCOM 3.2.27.4000]</para>
       </sect1>
       <sect1>
         <title>SFCC faults</title>
-
-        <para>[FCOM 1.27.50.3000, FCOM 3.2.27.{5,6}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT)
-        SYS 1(2) FAULT]</para>
 
         <para>Each SFCC has fully independent slat and flap channels. A failure of a channel in a single controller will
         lead to slow operation of the associated surfaces. In addition, the flap channel of SFCC1 provides input to the
@@ -834,11 +864,13 @@
 
         <para>Failure of both flap channels or failure of both slat channels is covered in <xref
         linkend="flight-controls.slats-flaps-fault"/>. </para>
+
+        <para role="multicite">[<emphasis
+	role="underline">F/CTL</emphasis> FLAP(SLAT) SYS 1(2) FAULT, FCOM 1.27.50.3000,
+	FCOM 3.2.27.5000, FCOM 3.2.27.6000]</para>
       </sect1>
       <sect1 id="flight-controls.elac">
         <title>ELAC fault</title>
-
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.{11,12}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> ELAC 1(2) FAULT]</para>
 
         <para>In normal operations, ELAC 1 controls the ailerons and ELAC 2 controls the elevators and
         stabiliser. Failure of a single ELAC will result in failover to the remaining computer. Provided no uncommanded
@@ -848,11 +880,12 @@
         control of the elevators and stabiliser. Again, an attempt can be made to reset the computers.</para>
 
         <para>If the fault is designated a pitch fault, only the pitch function of the associated ELAC is lost.</para>
+
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ELAC 1(2) FAULT,
+	FCOM 1.27.40.8000, FCOM 3.2.27.11000, FCOM 3.2.27.12000]</para>
       </sect1>
       <sect1>
         <title>SEC fault</title>
-
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.14000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> SEC 1(2)(3) FAULT]</para>
 
         <para>Each SEC controls either 1 or 2 spoilers per wing. SEC 1 and 2 also provide back up for the ELACs (see
         <xref linkend="flight-controls.elac"/>). Loss of a SEC leads to loss of its associated spoilers. SEC 1 provides
@@ -869,12 +902,12 @@
         will occur at slat extension rather than gear extension.</para>
 
         <para>An attempt should be made to reset the affected SEC(s).</para>
+
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SEC 1(2)(3) FAULT,
+        FCOM 1.27.40.8000, FCOM 3.2.27.14000]</para>
       </sect1>
       <sect1>
         <title>FCDC faults</title>
-
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.20000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FCDC
-        1(2)(1+2) FAULT]</para>
 
         <para>The two FCDCs are redundant, so a single failure has no immediate effect.</para>
 
@@ -883,11 +916,12 @@
         valid information and should be monitored. The aircraft remains in normal law with all protections, but
         protection indications (bank and pitch limits, V<subscript>&alpha;-prot</subscript> and
         V<subscript>&alpha;-max</subscript>) are not shown and the stall warning system becomes active.</para>
+
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FCDC 1(2)(1+2) FAULT,
+        FCOM 1.27.40.8000, FCOM 3.2.27.20000]</para>
       </sect1>
       <sect1 id="direct-law">
         <title>Direct Law</title>
-
-        <para>[FCOM 1.27.40.15000, FCOM 3.2.27.000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> DIRECT LAW]</para>
 
         <para>In Direct Law, deflection of the control surfaces is a linear function of deflection of the side-stick and
         trimming must be done manually. The controls are very sensitive at high speeds. Use of manual thrust is
@@ -895,12 +929,12 @@
         up pitch changes so it should be used with care. Protections are unavailable, so speed is limited to 320kt/0.77M
         and care must be taken in GPWS or windshear maneuvres. Approach speed is increased by 10kt and landing distances
         increase by a factor of 1.2.</para>
+
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> DIRECT LAW,
+        FCOM 1.27.40.15000, FCOM 3.2.27.000]</para>
       </sect1>
       <sect1 id="alternate-law">
         <title>Alternate Law</title>
-
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.18000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> ALTN
-        LAW]</para>
 
         <para>In alternate law, pitch is as in normal law, but roll is as in direct law. Load factor protection is
         retained, but other protections are either replaced with static stability or are lost, depending on the nature
@@ -911,73 +945,73 @@
 
         <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and hence increased
         approach speeds and landing distances (see QRH 2.32).</para>
+
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ALTN LAW,
+        FCOM 1.27.40.8000, FCOM 3.2.27.18000]</para>
       </sect1>
       <sect1>
         <title>Wingtip brake fault</title>
 
-        <para>[FCOM 1.27.50.3000, FCOM 3.2.27.7000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT)
-        TIP BRK FAULT]</para>
-
         <para>The wingtip brakes activate in case of assymetry, mechanism overspeed, symmetrical runaway or uncommanded
         movements. This protection is lost.</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">F/CTL</emphasis> FLAP(SLAT) TIP BRK FAULT, FCOM 1.27.50.3000,
+        FCOM 3.2.27.7000]</para>
       </sect1>
       <sect1>
         <title>Flap attach sensor failure</title>
 
-        <para>[FCOM 1.27.50.3000, FCOM 3.2.27.9000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> FLAP ATTACH SENSOR]</para>
-
         <para>The flap attach sensor detects excessive differential movement between the inner and outer flaps which
         would indicate failure of a flap attachment. This protection is lost.</para>
+
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAP ATTACH SENSOR,
+        FCOM 1.27.50.3000, FCOM 3.2.27.9000]</para>
       </sect1>
       <sect1>
         <title>Flight control servo faults</title>
 
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.{21,24}000, amber ECAM:<emphasis role="underline">F/CTL</emphasis>
-        AIL(ELEV) SERVO FAULT]</para>
-
         <para>All flight controls have redundant servos. In the case of an elevator servo fault, a restriction to not
         use speedbrake above V<subscript>MO</subscript>/M<subscript>MO</subscript> applies.</para>
 
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> AIL(ELEV) SERVO FAULT,
+	FCOM 1.27.40.8000, FCOM 3.2.27.21000, FCOM 3.2.27.24000]</para>
       </sect1>
       <sect1>
         <title>Speed brake disagree</title>
-
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.28000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> SPD BRK
-        DISAGREE]</para>
 
         <para>This indicates that the spoiler positions do not correspond with the speedbrake lever position. This may
         be as a result of automatic retraction (alpha floor activation or speed brakes deployed when full flap selected)
         or as a result of spoiler malfunction. In both cases retract the speedbrake lever and in the case of spoiler
         malfunction consider the speedbrakes unserviceable.</para>
 
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK DISAGREE,
+        FCOM 1.27.40.8000, FCOM 3.2.27.28000]</para>
       </sect1>
       <sect1>
         <title>Speed brake fault</title>
-
-        <para>[FCOM 1.27.40.8000, FCOM 3.2.27.29000, amber ECAM:<emphasis role="underline">F/CTL</emphasis> SPD BRK
-        (2)(3+4) FAULT]</para>
 
         <para>This indicates a failure of the speedbrake lever transducers rather than a problem with the
         spoilers. Ground spoiler activation may be expected on selection of reverse, so providing reversers are used,
         landing distances should not be affected.</para>
 
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK (2)(3+4) FAULT,
+        FCOM 1.27.40.8000, FCOM 3.2.27.29000]</para>
       </sect1>
       <sect1>
         <title>Stiff sidestick/ rudder pedals</title>
-
-        <para>[QRH 2.07, FCOM 3.2.27.42000]</para>
 
         <para>This may affect both sidesticks at the same time, but not the rudder pedals or it may affect the rudder
         pedals and one sidestick. Control forces will remain moderate and the aircraft remains responsive. Confirm
         autopilot disengagement and consider transferring control if one of the sidesticks is unaffected.</para>
 
+        <para role="multicite">[QRH 2.07, FCOM 3.2.27.42000]</para>
       </sect1>
     </chapter>
     <chapter>
       <title>Fire</title>
       <sect1>
         <title>Smoke and fumes</title>
-        <para>[QRH 1.06, FCOM 3.2.26.6000, amber ECAM: <emphasis role="underline">AVIONICS</emphasis> SMOKE]</para>
 
         <para>The QRH procedure should be applied when smoke is detected and the crew suspect the avionics, air
         conditioning or cabin equipment as the source. The paper procedure includes all the steps of the avionics smoke
@@ -1028,10 +1062,11 @@
         disagreement. If this does not work, the emergency electrical configuration is adopted (see <xref
         linkend="emerg-elec-config"/>).</para>
 
+        <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH 1.06,
+        FCOM 3.2.26.6000]</para>
       </sect1>
       <sect1 id="smoke-fumes-removal">
         <title>Smoke/ fumes removal</title>
-        <para>[QRH 1.06, FCOM 3.2.26.7000]</para>
 
         <para>Smoke removal procedures initially use the pressurisation system to draw smoke and fumes overboard by
         increasing the cabin altitude. If there are no fuel vapours present, the packs are used to drive the smoke
@@ -1043,6 +1078,7 @@
         manual control of the DC powered outflow valve motor. Once at a suitable level and below 200kt, as a last resort
         PNF's cockpit window can be opened.</para>
 
+        <para role="multicite">[QRH 1.06, FCOM 3.2.26.7000]</para>
       </sect1>
       <sect1>
         <title>Engine fire</title>
@@ -1058,7 +1094,6 @@
       <title>Fuel</title>
       <sect1 id="fuel-leak">
         <title>Fuel leak</title>
-        <para>[QRH 2.08, FCTM 3.2.28.{24,25}000, amber ECAM FUEL F USED/FOB DISAGREE]</para>
 
         <para>Whenever a non-normal fuel event occurs, the possibility that the underlying cause of the event is a fuel
         leak should be considered. Only when a fuel leak has been categorically ruled out should the cross-feed valve be
@@ -1090,10 +1125,12 @@
         is most likely. In this case, an engine restart should be considered.</para>
 
         <para>In an emergency, a landing may be carried out with maximum fuel imbalance.</para>
+
+        <para role="multicite">[<emphasis role="underline">FUEL</emphasis> F USED/FOB DISAGREE,
+	QRH 2.08, FCOM 3.2.28.24000, FCOM 3.2.28.25000]</para>
       </sect1>
       <sect1>
         <title>Fuel imbalance</title>
-        <para>[QRH 2.09, FCOM 3.28.26000, FCOM 3.1.28]</para>
 
         <para>All fuel balancing must be carried out in accordance with QRH 2.09, paying particular attention
         to the possibility of a fuel leak. Any action should be delayed until sufficient time has passed for a
@@ -1107,10 +1144,11 @@
 
         <para>To balance the fuel, open the cross-feed valve and turn the lighter side pumps and the center tank pumps
         off.</para>
+
+        <para role="multicite">[QRH 2.09, FCOM 3.28.26000, FCOM 3.1.28]</para>
       </sect1>
       <sect1 id="gravity-feeding">
         <title>Gravity fuel feeding</title>
-        <para>[QRH 2.09, FCOM 3.2.28.28000]</para>
 
         <para>Turn on ignition in case of fuel interruption and avoid negative G. The ceiling at which fuel can be
         reliably gravity fed depends on whether the fuel has had time to deaerate. If the aircraft has been above FL300
@@ -1120,10 +1158,11 @@
 
         <para>It is also possible to gravity cross feed by side slipping the aircraft with a bank angle of 2° to 3°
         should this become necessary.</para>
+
+        <para role="multicite">[QRH 2.09, FCOM 3.2.28.28000]</para>
       </sect1>
       <sect1>
         <title>Wing tank pump(s) low pressure</title>
-        <para>[FCOM 3.2.38.{1,2}000, FCOM 1.28.20.7000, amber ECAM FUEL L(R) TK PUMP 1(2)(1+2) LO PR]</para>
 
         <para>Failed pumps should be turned off.</para>
 
@@ -1132,10 +1171,13 @@
         <para>Failure of both pumps in a given tank means that the fuel in that tank is only available by gravity
         feeding. Pressurized fuel may be available from the center tank (use manual mode if necessary) or by
         cross-feeding. A descent to gravity feed ceiling may be required (see <xref linkend="gravity-feeding"/>).</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">FUEL</emphasis> L(R) TK PUMP 1(2)(1+2) LO PR, FCOM 3.2.38.1000 ,
+        FCOM 3.2.38.2000, FCOM 1.28.20.7000]</para>
       </sect1>
       <sect1>
         <title>Center tank pumps low pressure</title>
-        <para>[FCOM 3.2.28.{21,22}000, FCOM 1.28.20.7000, amber ECAM FUEL CTR TK PUMP(S)(1(2)) LO PR]</para>
 
         <para>Failed pumps should be turned off.</para>
 
@@ -1143,17 +1185,22 @@
         the center tank fuel has been exhausted so that the remaining pump can supply both engines.</para>
 
         <para>Failure of both center tank pumps makes the fuel in the center tank unusable.</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">FUEL</emphasis> CTR TK PUMP(S)(1(2)) LO PR, FCOM 3.2.28.21000,
+        FCOM 3.2.28.22000, FCOM 1.28.20.7000]</para>
       </sect1>
       <sect1>
         <title>Auto feed fault</title>
-        <para>[FCOM 3.2.28.23000, FCOM 1.28.20.7000, amber ECAM FUEL AUTO FEED FAULT]</para>
 
         <para>The center tank pumps must be managed manually. They must be switched off whenever slats are extended,
         wing tank fuel &gt;5000kg or center tank fuel is exhausted.</para>
+
+        <para role="multicite">[<emphasis role="underline">FUEL</emphasis> AUTO FEED FAULT,
+        FCOM 3.2.28.23000, FCOM 1.28.20.7000]</para>
       </sect1>
       <sect1>
         <title>Low fuel level</title>
-        <para>[FCOM 3.2.28.{3,4}000, FCOM 1.28.20.7000, amber ECAM FUEL L(R)(L+R) WING TK LO LVL]</para>
 
         <para>The ECAM is triggered at approximately 750kg. The warning may be spurious if the ECAM is triggered just
         before the wing cell transfer valves open. If center tank fuel remains, it should be used by selecting the
@@ -1163,41 +1210,50 @@
         <para>If both tanks are low level, about 30 minutes of flying time remain. Declare a PAN if the possibility
         exists that there will be less than final reserve on landing. Declare a MAYDAY if it is certain that there will
         be less than final reserve on landing.[EOMA 8.3.7.2]</para>
+
+        <para role="multicite">[<emphasis role="underline">FUEL</emphasis>(R)(L+R) WING TK LO LVL,
+	FCOM 3.2.28.3000, FCOM 3.2.28.4000, FCOM 1.28.20.7000]</para>
       </sect1>
       <sect1>
         <title>Outer tank transfer valves failed closed</title>
-        <para>[FCOM 3.2.28.6000, FCOM 1.28.20.7000, amber ECAM FUEL L(R) XFR VALVE CLOSED]</para>
 
         <para>If both transfer valves fail to open when a wing tank reaches low level, the fuel in that outer tank
         becomes unusable. The fuel balance will remain within limits since maximum outer tank imbalances are acceptable
         if the total fuel in either wing is the same [FCOM 3.1.28.1000].</para>
 
+        <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) XFR VALVE CLOSED,
+        FCOM 3.2.28.6000, FCOM 1.28.20.7000]</para>
       </sect1>
       <sect1>
         <title>Outer tank transfer valve open out of sequence</title>
-        <para>[FCOM 3.2.28.7000, FCOM 1.28.20.7000, amber ECAM FUEL L(R) XFR VALVE OPEN]</para>
 
         <para>Maximum outer tank imbalances are acceptable if the total fuel in either wing is the same [FCOM
         3.1.28.1000], so no action is required.</para>
 
+        <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) XFR VALVE OPEN,
+        FCOM 3.2.28.7000, FCOM 1.28.20.7000]</para>
       </sect1>
       <sect1>
         <title>Cross-feed valve fault</title>
-        <para>[FCOM 3.2.28.8000, FCOM 1.28.20.7000, amber ECAM FUEL X FEED VALVE FAULT]</para>
 
         <para>If the valve has failed open, fuel balance can be maintained through selective use of fuel pumps. If it
         has failed closed, crossfeeding is unavailable.</para>
+
+        <para role="multicite">[<emphasis role="underline">FUEL</emphasis> FEED VALVE FAULT,
+        FCOM 3.2.28.8000, FCOM 1.28.20.7000]</para>
       </sect1>
       <sect1>
         <title>Low fuel temperature</title>
-        <para>[FCOM 3.2.28.{11,12}000, FCOM 1.38.20.7000, amber ECAM xxx TK LO TEMP]</para>
 
         <para>ECAM is triggered at approx -43°C. If on the ground, delay takeoff until temperatures are within
         limits. If in flight, descending or increasing speed should be considered.</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK LO TEMP, FCOM 3.2.28.11000,
+        FCOM 3.2.28.12000, FCOM 1.38.20.7000]</para>
       </sect1>
       <sect1>
         <title>High fuel temperature</title>
-        <para>[FCOM 3.2.28.14000. FCOM 1.38.20.7000, amber ECAM xxx TK HI TEMP]</para>
 
         <para>This ECAM is known to be triggered spuriously by interference from communication equipment. The procedure
         should only be applied if the message has not disappeared within 2 minutes.</para>
@@ -1216,6 +1272,9 @@
         required. The engine must be running when the IDG button is pressed, and it must not be held for more than 3
         seconds.[FCOM 1.24.20.1000]</para>
 
+        <para role="multicite">[<emphasis
+        role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK HI TEMP,
+        FCOM 3.2.28.14000. FCOM 1.38.20.7000]</para>
       </sect1>
 
     </chapter>
