@@ -99,7 +99,7 @@
   <xsl:variable name="keep.together">
     <xsl:call-template name="pi.dbfo_keep-together"/>
   </xsl:variable>
-  <fo:block keep-with-previous="always" xsl:use-attribute-sets="normal.para.spacing">
+  <fo:block color="#404040" text-align="left" keep-with-previous="always" xsl:use-attribute-sets="normal.para.spacing">
     <xsl:if test="$keep.together != ''">
       <xsl:attribute name="keep-together.within-column"><xsl:value-of
                       select="$keep.together"/></xsl:attribute>
