@@ -8,9 +8,9 @@
 <xsl:param name="paper.type" select="'A5'"/>
 <xsl:param name="hyphenate">true</xsl:param>
 
-<xsl:param name="page.margin.inner">0.75in</xsl:param>
-<xsl:param name="page.margin.outer">0.5in</xsl:param>
-<xsl:param name="body.start.indent">0.1in</xsl:param>
+<xsl:param name="page.margin.inner">0.9in</xsl:param>
+<xsl:param name="page.margin.outer">0.65in</xsl:param>
+<xsl:param name="body.start.indent">0.2in</xsl:param>
 <xsl:param name="double.sided">1</xsl:param>
 
 <xsl:param name="body.font.family">FreeSerif</xsl:param>
@@ -24,8 +24,8 @@
 <xsl:param name="toc.indent.width" select="'30'"/>
 <xsl:param name="toc.section.depth" select="'1'"/>
 
-<xsl:param name="default.table.width" select="'112mm'"/>
-<xsl:param name="default.image.width">112mm</xsl:param>
+<xsl:param name="default.table.width" select="'105mm'"/>
+<xsl:param name="default.image.width">105mm</xsl:param>
 <xsl:param name="orderedlist.label.width">2em</xsl:param>
 
 <xsl:param name="header.column.widths">1 10 1</xsl:param>
