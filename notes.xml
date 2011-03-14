@@ -1282,16 +1282,16 @@
       <title>Landing gear</title>
       <sect1 id="loss-of-braking">
         <title>Loss of braking <emphasis>(memory item)</emphasis></title>
-        <para>[QRH 1.13, FCOM 3.2.32.20000]</para>
         <para>If it is simply an autobrake failure, just brake manually. Otherwise, apply max reverse and attempt to use
         the alternate brake system. To do this, release the brake pedals and turn off the ASKID &amp; NW STRG switch. If
         the alternate system also appears to have failed, short successive applications of the parking brake may be
         used. Use of the parking brake in this way risks tire burst and lateral control difficulties (due brake onset
         assymetry) so delay until low speed if at all possible.</para>
+
+        <para role="multicite">[QRH 1.13, FCOM 3.2.32.20000]</para>
       </sect1>
       <sect1>
         <title>Residual braking procedure</title>
-        <para>[QRH 2.10B, FCOM 3.2.32.23000]</para>
         <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM warning. {TODO:
         This is in 3.3.18 but not in ezy-b - check whether our brake systems are modified}. A brief brake pressure
         indication is expected as the alternate system self tests after the gear is down locked, but pressure should
@@ -1299,10 +1299,11 @@
         pressing the brake pedals several times. If a landing must be made with residual pressure in the alternate
         braking system, use autobrake MED or immediate manual braking to prioritise the normal system. Anticipate brake
         assymetry at touchdown.</para>
+
+        <para role="multicite">[QRH 2.10B, FCOM 3.2.32.23000]</para>
       </sect1>
       <sect1 id="gear-gravity-extension">
         <title>Gravity extension</title>
-        <para>[QRH 2.11, FCOM 3.2.32.4000]</para>
         <para>Gravity extension is acheived by turning the GRAVITY GEAR EXTN handcrank clockwise three times until a
         mechanical stop is reached. Once the gear is down, the LG lever should be set to down to extinguish the UNLK
         lights and remove the LG CTL message from the WHEEL page.</para>
@@ -1313,18 +1314,20 @@
 
         <para>Gear doors may show amber on the WHEEL page after gravity extension. There may also be spurious LGCIU 2
         FAULT or BRAKES SYS 1(2) FAULT ECAM warnings.</para>
+
+        <para role="multicite">[QRH 2.11, FCOM 3.2.32.4000]</para>
       </sect1>
       <sect1 id="asymmetric-braking">
         <title>Asymmetric braking</title>
-        <para>[QRH 2.11, FCOM 3.2.32.32000, FCOM 1.32.30]</para>
         <para>If brakes are only available on one side (indicated by amber brake release indicators on both wheels of
         one main gear {TODO: check this} ), apply the remaining brake progressively whilst countering swing
         with rudder. Do not use the reverse on the same side as the working brake. Landing distances will increase
         significantly so check QRH 2.32 for landing distance factor.</para>
+
+        <para role="multicite">[QRH 2.11, FCOM 3.2.32.32000, FCOM 1.32.30]</para>
       </sect1>
       <sect1>
         <title>Landing with abnormal landing gear</title>
-        <para>[QRH 2.12, FCOM 3.2.32.11000]</para>
         <para>A landing should be carried out on a hard surface runway using any available landing gear. Foaming of the
         runway is recommended. Manual braking should be used. Reverse thrust should not be used as it will cause ground
         spoiler extension. The GRVTY GEAR EXTN handcrank should be turned back to normal to allow the landing gear down
@@ -1345,10 +1348,11 @@
         touchdown must be >6°.</para>
 
         <para>All doors and slides are available for evacuation in any of the normal gear up attitudes.</para>
+
+        <para role="multicite">[QRH 2.12, FCOM 3.2.32.11000]</para>
       </sect1>
       <sect1 id="flight-with-gear-extended">
         <title>Flight with landing gear extended</title>
-        <para>[FCOM 2.4.25]</para>
 
         <para>Flight into expected icing conditions is not approved. Gear down ditching has not been demonstrated. FMGC
         predictions will be erroneous - selected speed should be used for all phases except approach. Altitude alerting
@@ -1362,52 +1366,65 @@
         <para>Performance in all phases will be affected. In particular, approach climb limiting weights for go-around
         (see FCOM 3.5.35) must be reduced by 14%. Fuel burn will increase (approximate factor is 2.3). Engine out
         ceiling and take-off performance are also impacted. Tables for calculation are available in FCOM 2.4.25.</para>
+
+        <para role="multicite">[FCOM 2.4.25]</para>
       </sect1>
       <sect1>
         <title>Gear shock absorber fault</title>
-        <para>[FCOM 3.2.32.1000, FCOM 1.32.10.4000, amber ECAM: L/G SHOCK ABSORBER FAULT]</para>
 
         <para>A shock absorber did not extend when airborne or did not compress on landing. If airborne the gear cannot
         be retracted. Respect the gear extended limit speed of 280kt and see <xref
         linkend="flight-with-gear-extended"/>.</para>
+
+        <para role="multicite">[<emphasis role="underline">L/G</emphasis> SHOCK ABSORBER FAULT,
+        FCOM 3.2.32.1000, FCOM 1.32.10.4000]</para>
       </sect1>
       <sect1>
         <title>Gear not uplocked</title>
-        <para>[FCOM 3.2.32.2000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR NOT UPLOCKED]</para>
         <para>Landing gear retraction sequence has not completed within 30 seconds. If the gear doors have closed, the
         gear will rest on the doors so avoid excess g loads. If the doors have not closed, recycle the gear. If this
         does not work, select the gear down and see <xref linkend="flight-with-gear-extended"/>.</para>
+
+        <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT UPLOCKED,
+        FCOM 3.2.32.2000, FCOM 1.32.10.4000]</para>
       </sect1>
       <sect1>
         <title>Gear not downlocked</title>
-        <para>[FCOM 3.2.32.3000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWNLOCKED]</para>
 
         <para>Landing gear extension sequence has not completed within 30 seconds. Retract the gear and wait until it
         has fully stowed, then redeploy. If this is not successful, attempt to deploy the gear by gravity (see <xref
         linkend="gear-gravity-extension"/>).</para>
+
+        <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWNLOCKED,
+        FCOM 3.2.32.3000, FCOM 1.32.10.4000]</para>
       </sect1>
       <sect1>
         <title>Gear doors not closed</title>
-        <para>[FCOM 3.2.32.5000, FCOM 1.32.10.4000, amber ECAM: L/G DOORS NOT CLOSED]</para>
 
         <para>A gear door is not uplocked. Recycle the gear. If the doors cannot be closed, speed is limited to
         250kt/M0.6.</para>
+
+        <para role="multicite">[<emphasis role="underline">L/G</emphasis> DOORS NOT CLOSED,
+        FCOM 3.2.32.5000, FCOM 1.32.10.4000]</para>
       </sect1>
       <sect1>
         <title>Uplock fault</title>
-        <para>[FCOM 3.2.32.6000, FCOM 1.32.10.4000, amber ECAM: L/G GEAR UPLOCK FAULT]</para>
         <para>An uplock is engaged when the corresponding gear is downlocked. As the uplock will not move to accept the
         gear the gear must be left down. See <xref linkend="flight-with-gear-extended"/>.</para>
+
+        <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR UPLOCK FAULT,
+        FCOM 3.2.32.6000, FCOM 1.32.10.4000]</para>
       </sect1>
       <sect1>
         <title>LGCIU disagreement</title>
-        <para>[FCOM 3.2.32.8000, FCOM 1.32.10.4000, amber ECAM: L/G SYS DISAGREE]</para>
         <para>The LGCIUs disagree on the position of the gear. In the absence of other ECAM warnings, the gear position
         can be assumed to agree with the gear lever position.</para>
+
+        <para role="multicite">[<emphasis role="underline">L/G</emphasis> SYS DISAGREE,
+        FCOM 3.2.32.8000, FCOM 1.32.10.4000]</para>
       </sect1>
       <sect1>
         <title>LGCIU fault</title>
-        <para>[FCOM 3.2.32.9000, FCOM 1.32.10.4000, amber ECAM: L/G LGCIU 1(2) FAULT]</para>
 
         <para>The FADECs use LGCIU input to determine idle mode. If a LGCIU is determined to be faulty, the system
         failsafes to approach idle mode, and modulated idle and reverse idle (and hence reversers) will not be
@@ -1420,39 +1437,48 @@
         gravity extended (see <xref linkend="gear-gravity-extension"/>). {TODO: Autopilot and autothrust are also lost -
         find out why this is}</para>
 
+        <para role="multicite">[<emphasis role="underline">L/G</emphasis> LGCIU 1(2) FAULT,
+        FCOM 3.2.32.9000, FCOM 1.32.10.4000]</para>
       </sect1>
       <sect1>
         <title>Gear not down</title>
-        <para>[FCOM 3.2.32.10000, FCOM 1.32.10.4000, red ECAM: L/G GEAR NOT DOWN]</para>
 
         <para>Indicates that the landing gear is not downlocked when radio altitude is below 750ft rad alt and N1 and
         flap setting indicate that the aircraft is on approach. If rad alt data is not available, it indicates gear is
         not down when flap 3 or flap full is selected. In some cases the warning may be cancelled with the emergency
         cancel pushbutton.</para>
+
+        <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWN,
+        FCOM 3.2.32.10000, FCOM 1.32.10.4000]</para>
       </sect1>
       <sect1>
         <title>Park brake on</title>
-        <para>[FCOM 3.2.32.12000, FCOM 1.32.30.3000, red ECAM: CONFIG PARK BRK ON]</para>
         <para>The parking brake is set when the thrust levers are set to FLX or TOGA. Check the position of the brake
         handle position and for pressure indications on the brake triple gauge.</para>
+
+        <para role="multicite">[<emphasis role="underline">CONFIG</emphasis> PARK BRK ON,
+        FCOM 3.2.32.12000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Nosewheel steering fault</title>
-        <para>[FCOM 3.2.32.14000, FCOM 1.32.20.3000, amber ECAM: WHEEL N/W STRG FAULT]</para>
         <para>Nosewheel steering is unavailable so differential braking must be used to steer the aircraft. The
         nosewheel may not be aligned if the L/G shock absorber ECAM is also displayed, in which case delay nosewheel
         touch down as long as possible. Cat III dual will not be available.</para>
+
+        <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> N/W STRG FAULT,
+        FCOM 3.2.32.14000, FCOM 1.32.20.3000]</para>
       </sect1>
       <sect1 id="antiskid-nosewheel-steering-off">
         <title>Antiskid nosewheel steering off</title>
-        <para>[FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES ANTI SKID/NWS OFF]</para>
         <para>The A/SKID &amp; NW STRG switch is off. The ABCU controls
         braking through the alternate braking system. Antiskid is not available so landing distance will increase
         significantly. Autobrake and nosewheel steering will also not be available.</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ANTI SKID/NWS OFF,
+        FCOM 3.2.32.15000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Antiskid nosewheel steering fault</title>
-        <para>[FCOM 3.2.32.15000, FCOM 1.32.30.3000, amber ECAM: BRAKES A/SKID NWS FAULT]</para>
         <para>Either:
         <itemizedlist>
           <listitem><para>both BSCU channels have failed or</para></listitem>
@@ -1461,15 +1487,19 @@
         </itemizedlist></para>
         <para>Effects are as for <xref linkend="antiskid-nosewheel-steering-off"/>, although if yellow hydraulic
           pressure is low braking will be accumulator only.</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> A/SKID NWS FAULT,
+        FCOM 3.2.32.15000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Brake system fault</title>
-        <para>[FCOM 3.2.32.17000, FCOM 1.32.30.3000, amber ECAM: BRAKES SYS 1(2) FAULT]</para>
         <para>A fault has been detected in one channel of the BSCU. Loss of redundancy only.</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> SYS 1(2) FAULT,
+        FCOM 3.2.32.17000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Brakes hot</title>
-        <para>[FCOM 3.2.32.18000, FCOM 1.32.30.3000, amber ECAM: BRAKES HOT]</para>
 
         <para>At least one brake temperature is &gt;300°C. Check <xref linkend="brake-temperature-limitations"/> if the
         temperature is excessive or the brake temperatures are not reasonably even.</para>
@@ -1482,15 +1512,18 @@
         <para>If the warning appears in flight, providing that performance permits, the landing gear should be extended
         to allow the brakes to cool.</para>
 
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> HOT, FCOM 3.2.32.18000,
+        FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Auto brake fault</title>
-        <para>[FCOM 3.2.32.19000, FCOM 1.32.30.3000, amber ECAM: BRAKES AUTO BRK FAULT]</para>
         <para>A failure was detected when the autobrake was armed. Brake manually.</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> AUTO BRK FAULT,
+        FCOM 3.2.32.19000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Hydraulic selector valve fault</title>
-        <para>[FCOM 3.2.32.21000, FCOM 1.32.30.3000, amber ECAM: WHEEL HYD SEL FAULT]</para>
         <para>This ECAM message may indicate two completely different conditions:
         <orderedlist>
           <listitem><para>The normal brake selector valve has failed in the open position. The normal servo valves
@@ -1502,56 +1535,72 @@
           &amp; N/W STRG switch is selected off or the BSCU is reset.</para></listitem>
         </orderedlist>
         </para>
+
+        <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> HYD SEL FAULT,
+        FCOM 3.2.32.21000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Failure of normal braking system</title>
-        <para>[FCOM 3.2.32.26000, FCOM 1.32.30.3000, amber ECAM: NORM BRK FAULT]</para>
         <para>Normal braking is lost, but alternate braking and anti-skid are available. Landing distance increases
         slightly.</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM BRK FAULT,
+        FCOM 3.2.32.26000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Failure of alternate braking system</title>
-        <para>[FCOM 3.2.32.30000, FCOM 1.32.30.3000, amber ECAM: BRAKES ALTN BRK FAULT]</para>
         <para>Loss of redundancy only.</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN BRK FAULT,
+        FCOM 3.2.32.30000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Failure of normal and alternate braking systems</title>
-        <para>[FCOM 3.2.32.25000, FCOM 1.32.30.3000, amber ECAM: NORM + ALTN FAULT]</para>
         <para>The only braking remaining is the parking brake. See <xref linkend="loss-of-braking"/> for method.</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM + ALTN FAULT,
+        FCOM 3.2.32.25000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Brake accumulator low pressure</title>
-        <para>[FCOM 3.2.32.27000, FCOM 1.32.30.3000, amber ECAM: BRK Y ACCU LO PR]</para>
         <para>Braking is not available unless either the green or yellow hydraulic systems are pressurised. If the
         engines are shut down, attempt to recharge the accumulator using the yellow system electrical pump. When parking
         the aircraft, use chocks.</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> BRK Y ACCU LO PR,
+        FCOM 3.2.32.27000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1 id="released-normal-brakes">
         <title>Released brakes, normal system</title>
-        <para>[FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: BRAKES RELEASED]</para>
         <para>If normal braking is active and at least one engine is running, the BSCU self tests when it receives a
         "gear downlocked" signal from either of the LGCIUs. The BRAKES RELEASED ECAM is provided if at least one set of
         brakes on a main wheel is incorrectly released during this test. The failed brake is shown by an amber release
         symbol on the WHEEL page. Loss of a brake leads to increased landing distances. If both brakes on the same gear
         are released, see <xref linkend="asymmetric-braking"/>.</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> RELEASED,
+        FCOM 3.2.32.28000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Released brakes, alternate system</title>
-        <para>[FCOM 3.2.32.28000, FCOM 1.32.30.3000, amber ECAM: ALTERNATE L(R) RELEASED]</para>
         <para>The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
         linkend="released-normal-brakes"/>). If this test is failed, normal braking can be expected as long as the
         normal braking system is active. If the alternate braking system is active, braking will be asymmetric (see
         <xref linkend="asymmetric-braking"/>).</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN L(R) RELEASED,
+        FCOM 3.2.32.28000, FCOM 1.32.30.3000]</para>
       </sect1>
       <sect1>
         <title>Minor nosewheel steering fault</title>
-        <para>[FCOM 3.2.32.29000, FCOM 1.32.30.3000, amber ECAM: BRAKES-N/WS MINOR FAULT]</para>
         <para>{TODO: Its not very clear from the FCOM what this refers to}</para>
+
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> N/WS MINOR FAULT,
+        FCOM 3.2.32.29000, FCOM 1.32.30.3000]</para>
       </sect1>
 
       <sect1 id="brake-temperature-limitations">
         <title>Brake temperature limitations requiring maintenance action</title>
-        <para>[FCOM 3.4.32.3000]</para>
         <para>Maintenance is required if:
         <itemizedlist>
           <listitem><para>One brake temp is &gt;600°C and the other brake on the same gear is 150°C less</para></listitem>
@@ -1562,13 +1611,14 @@
           <listitem><para>Any brake temp exceeds 900°C</para></listitem>
           <listitem><para>A fuse plug has melted</para></listitem>
         </itemizedlist></para>
+
+        <para role="multicite">[FCOM 3.4.32.3000]</para>
       </sect1>
     </chapter>
     <chapter>
       <title>Power plant</title>
       <sect1 id="dual-engine-failure">
         <title>Dual engine failure</title>
-        <para>[QRH 1.16 &amp; 1.20, FCOM 3.2.70.53000, FCOM 1.70.90.4000, red ECAM: ENG DUAL FAILURE]</para>
 
         <para>It is recommended that the QRH paper procedure on page 1.16 is used rather than the ECAM.</para>
 
@@ -1616,10 +1666,12 @@
 
         <para>If an airfield cannot be reached, refer to <xref linkend="ditching"/> or <xref linkend="forced-landing"/>
         as appropriate.</para>
+
+        <para role="multicite">[<emphasis role="underline">ENG</emphasis> DUAL FAILURE, QRH 1.16,
+        QRH 1.20, FCOM 3.2.70.53000, FCOM 1.70.90.4000]</para>
       </sect1>
       <sect1>
         <title>Engine relight in flight</title>
-        <para>[QRH 2.22, FCOM 3.2.70.31000]</para>
 
         <para>A graph showing the in flight relight envelope is provided on page 2.22 of the QRH. The ceiling is 27000
         ft. Automatic start is recommended, but crew action is required in case of abnormal start.</para>
@@ -1635,10 +1687,10 @@
         initiation. If uncertain about successful relight, move the thrust lever to check for engine response. The START
         FAULT ENG STALL ECAM may be disregarded if all other parameters are normal. </para>
 
+        <para role="multicite">[QRH 2.22, FCOM 3.2.70.31000]</para>
       </sect1>
       <sect1>
         <title>Engine stall</title>
-        <para>[QRH 2.23, FCOM 1.70.90.5000, FCOM 3.2.70.15000, amber ECAM ENG 1(2) STALL]</para>
 
         <para>A stall is indicated by abnormal engine noise, flame from the engine exhaust (and possibly inlet in
         extreme cases), fluctuating performance parameters, sluggish thrust lever response, high EGT and/ or rapid EGT
@@ -1655,10 +1707,11 @@
         lever. If the stall recurs, the engine can be operated at low thrust settings, otherwise it can be operated
         normally.</para>
 
+        <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) STALL, QRH 2.23,
+        FCOM 1.70.90.5000, FCOM 3.2.70.15000]</para>
       </sect1>
       <sect1>
         <title>Engine tailpipe fire</title>
-        <para>[QRH 2.23, FCOM 3.2.70.62000, reverse side of normal checklist]</para>
 
         <para>An internal engine fire may be encountered during engine start or shutdown. It will either be seen by
         ground crew or may be indicated by EGT failing to decrease after the master switch is selected off.</para>
@@ -1680,10 +1733,10 @@
         <para>As a last resort, external fire suppression agents may be used. They are, however, highly corrosive and
         the engine will be a write off.</para>
 
+        <para role="multicite">[QRH 2.23, FCOM 3.2.70.62000]</para>
       </sect1>
       <sect1>
         <title>High engine vibration</title>
-        <para>[QRH 2.24, FCOM 3.2.70.63000]</para>
 
         <para>The ECAM VIB advisory (N1≥6 units, N2≥4.3 units) is simply an indication that engine parameters should be
         monitored more closely. High VIB indications alone do not require the engine to be shut down.</para>
@@ -1696,10 +1749,11 @@
 
         <para>If vibrations rapidly increase above the advisory level, the engine should be operated at lower power
         settings to keep the vibrations below the advisory level.</para>
+
+        <para role="multicite">[QRH 2.24, FCOM 3.2.70.63000]</para>
       </sect1>
       <sect1 id="engine-shut-down">
         <title>Engine shut down</title>
-        <para>[FCOM 1.70.90.5000, FCOM 3.2.70.35000, amber ECAM ENG 1(2) SHUT DOWN]</para>
 
         <para>This ECAM warning indicates that an engine master switch is off between the start of the takeoff roll and
         the completion of the landing roll, or that a fire button has been pushed in the other phases. It deals with the
@@ -1728,17 +1782,20 @@
         <para>The main systems lost are the generator, bleeds and hydraulic pump associated with the engine. Other
         systems may be lost depending on the reason for the shutdown.</para>
 
+        <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) SHUT DOWN,
+        FCOM 1.70.90.5000, FCOM 3.2.70.35000]</para>
       </sect1>
       <sect1>
         <title>Low engine oil pressure</title>
-
-        <para>[FCOM 3.2.70.6000, FCOM 1.70.90.4000, red ECAM: ENG 1(2) OIL LO PR]</para>
 
         <para>The sources for the gauge on the ECAM ENG page and the ECAM warning are different. If there is a
         discrepancy between the two, a faulty transducer is the most likely cause and the engine can continue to be
         operated normally. If both sources agree, the engine should be shut down by retarding its thrust lever and
         selecting its master switch off and the after shutdown procedure applied (see <xref
         linkend="engine-shut-down"/>).</para>
+
+        <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) OIL LO PR,
+        FCOM 3.2.70.6000, FCOM 1.70.90.4000]</para>
       </sect1>
 
 
@@ -1747,7 +1804,6 @@
       <title>Navigation</title>
       <sect1>
         <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
-        <para>[QRH 1.14, FCOM 3.2.34.23000]</para>
 
         <para>EPGWS alerts can be categorised into warnings and cautions. A warning is any alert with the instruction
         "Pull up" attached. All other alerts are cautions. A warning may be downgraded to a caution if flying in
@@ -1760,10 +1816,10 @@
         <para>The response to a caution is to correct the flight path or aircraft configuration as necessary. A
         configuration warning will almost always require a go around.</para>
 
+        <para role="multicite">[QRH 1.14, FCOM 3.2.34.23000]</para>
       </sect1>
       <sect1>
         <title>TCAS warnings <emphasis>(memory item)</emphasis></title>
-        <para>[QRH 1.15, FCOM 3.2.34.26000, CAP413 1.7]</para>
 
         <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution advisories (anything
         else). The first response to either advisory is to call "TCAS, I have control" to unequivocally establish who
@@ -1775,10 +1831,10 @@
 
         <para>If a climb resolution advisory occurs on final approach, a go around must be flown.</para>
 
+        <para role="multicite">[QRH 1.15, FCOM 3.2.34.26000, CAP413 1.7]</para>
       </sect1>
       <sect1>
         <title>RNAV downgrades</title>
-        <para>[EOM A.8.3.2, EOM B.2.4.51]</para>
 
         <para>If an ECAM or MCDU message indicates navigation accuracy is compromised whilst flying in RNP-5 (BRNAV)
         airspace, a navigation check should be made using the GPS MONITOR page or raw radio aid data. If a single FMGC
@@ -1801,11 +1857,10 @@
         two RNAV systems. If a failure occurs that breaches one of these restrictions, procede as for a loss of
         navigation accuracy.</para>
 
+        <para role="multicite">[EOM A.8.3.2, EOM B.2.4.51]</para>
       </sect1>
       <sect1>
         <title>ADR faults</title>
-        <para>[QRH 2.20, FCOM 3.2.34.6000, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> ADR
-        1(2)(3)(1+2)(1+3)(2+3) FAULT]</para>
 
         <para>A single ADR fault simply requires switching to the hot spare and turning the affected unit off. Loss of
         ADR1 will lead to the loss of the extended functions of the EGPWS. Loss of ADR2 will lead to both baro reference
@@ -1822,34 +1877,38 @@
         instead to page 2.20 of the QRH. In addition to the failures associated with dual loss, the stall warning is
         lost, the rudder travel limiter is frozen (full rudder travel will be recovered at slat extension) and automatic
         cabin pressure control is lost. In case of go-around, auto flap retraction is not available.</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">NAV</emphasis> ADR 1(2)(3)(1+2)(1+3)(2+3) FAULT, QRH 2.20,
+        FCOM 3.2.34.6000, FCOM 1.34.10.3000]</para>
       </sect1>
 
       <sect1 id="adr-disagree">
         <title>ADR disagree</title>
-        <para>[FCOM 3.2.34, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> ADR
-        DISAGREE]</para>
 
         <para>The ECAM message indicates that, following an ADR fault or rejection, there is a speed or angle of attack
         disagreement between the two remaining ADRs. This will cause a degradation to alternate law. If there is a speed
         disagreement, see <xref linkend="unreliable-airspeed"/>. If the speed does not disagree, an AOA sensor is
         providing incorrect data and there is a risk of spurious stall warnings.</para>
+
+        <para role="multicite">[<emphasis role="underline">NAV</emphasis> ADR DISAGREE, FCOM 3.2.34,
+        FCOM 1.34.10.3000]</para>
       </sect1>
 
       <sect1>
         <title>RA faults</title>
-        <para>[FCOM 3.2.34.8000, FCOM 1.34.40.2000, amber ECAM: <emphasis role="underline">NAV</emphasis> RA 1(2)
-        FAULT</para>
 
         <para>A single RA fault results in degradation of approach capability to Cat II. Loss of both RAs will lead to
         direct law at landing gear extension and a loss of ILS APPR mode capability. Therefore, landing will be CONF 3
         with associated corrections, the approach should be flown in LOC and FPA and autopilot disconnect should be
         anticipated at gear extension.</para>
+
+        <para role="multicite">[<emphasis role="underline">NAV</emphasis> RA 1(2) FAULT,
+        FCOM 3.2.34.8000, FCOM 1.34.40.2000]</para>
       </sect1>
 
       <sect1>
         <title>IR faults</title>
-        <para>[FCOM 3.2.34.8000, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> IR
-        1(2)(3)(1+2)(1+3)(2+3) FAULT]</para>
 
         <para>In case of simultaneous loss of the ADR and IR associated with an ADIRU, apply the ADR FAULT procedure
         first.[FCOM 3.2.24.6000]</para>
@@ -1861,30 +1920,35 @@
         <para>A dual IR fault will lead to loss of PFD indications on at least one side so use ATT/HDG switching to
         recover. It will also lead to Alternate Law and associated speed restrictions and landing configuration
         considerations.</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">NAV</emphasis> IR 1(2)(3)(1+2)(1+3)(2+3) FAULT, FCOM 3.2.34.8000,
+        FCOM 1.34.10.3000]</para>
       </sect1>
 
       <sect1>
         <title>IR disagree</title>
-        <para>[FCOM 3.2.34.13000, FCOM 1.34.10.3000, amber ECAM: <emphasis role="underline">NAV</emphasis> IR
-        DISAGREE]</para>
 
         <para>Following rejection or failure of an IR, there is disagreement between the two remaining IRs. Normal and
         alternate laws are lost, but alternate law with reduced protections can be recovered by isolating the faulty IR
         (use standby horizon to cross-check) and resetting the ELACs.</para>
+
+        <para role="multicite">[<emphasis role="underline">NAV</emphasis> IR DISAGREE,
+        FCOM 3.2.34.13000, FCOM 1.34.10.3000]</para>
       </sect1>
 
       <sect1>
         <title>IR alignment in ATT mode</title>
-        <para>[QRH 2.21, FCOM 3.2.34.10000]</para>
 
         <para>If IR alignment is lost, it may be possible to recover attitude and heading information by switching the
         ADIRU selector to ATT and maintaining level constant speed flight for 30 seconds. The magnetic heading will need
         to be entered, the exact method being dependent on the ADIRS CDU fitted.</para>
+
+        <para role="multicite">[QRH 2.21, FCOM 3.2.34.10000]</para>
       </sect1>
 
       <sect1>
         <title>FM/GPS position disagree</title>
-        <para>[QRH 2.19, FCOM 3.2.34.15000, EOMB 2.3.15]</para>
 
         <para>This can be disregarded if on an ILS or LOC approach. On an overlay approach, revert to raw data. On an
         RNAV approach, go around unless visual.</para>
@@ -1895,16 +1959,13 @@
         POSITION MONITOR page and either switching APs or deselecting GPS, but it is not clear whether this recovers
         NAV}.</para>
 
-
+        <para  role="multicite">[QRH 2.19, FCOM 3.2.34.15000, EOMB 2.3.15]</para>
       </sect1>
     </chapter>
     <chapter>
       <title>Auto-flight</title>
       <sect1>
         <title>FAC faults</title>
-
-        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{7,8}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis> FAC
-        1(2)(1+2) FAULT]</para>
 
         <para>Failure of a single FAC results in loss of redundancy and hence loss of Cat 3 Dual. In particular, a
         single FAC provides all the characteristic speeds (V<subscript>SW</subscript>, V<subscript>LS</subscript>,
@@ -1917,13 +1978,12 @@
         <xref linkend="rudder-limit"/>.{TODO FCOM has a 12kt crosswind limit for rudder travel limiter failure, but none
         for dual FAC failure - is it implicit or do you get multiple ECAMs}</para>
 
+        <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FAC 1(2)(1+2) FAULT,
+        FCOM 1.2.22.60.2000, FCOM 1.2.22.7000, FCOM 1.2.22.8000]</para>
       </sect1>
 
       <sect1 id="yaw-damper">
         <title>Yaw damper faults</title>
-
-        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{1,2}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis> YAW
-        DAMPER 1(2)(SYS)]</para>
 
         <para>A single failure leads to loss of redundancy, and hence loss of Cat 3 Dual. On some airframes a reset of
         the affected FAC can be attempted.</para>
@@ -1932,24 +1992,23 @@
         flight controls revert to alternate law (see <xref linkend="alternate-law"/>). Unless the failure occured below
         alert height, only Cat I wil be available.</para>
 
+        <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> YAW DAMPER 1(2)(SYS),
+	FCOM 1.2.22.60.2000, FCOM 1.2.22.1000, FCOM 1.2.22.2000]</para>
       </sect1>
       <sect1 id="rudder-trim">
         <title>Rudder trim faults</title>
-
-        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{3,4}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis>
-        RUDDER TRIM SYS(1(2) FAULT)]</para>
 
         <para>Loss of a rudder trim from a single FAC leads to loss of redundancy and hence loss of Cat 3 Dual.</para>
 
         <para>If complete loss of rudder trim occurs, an attempt should be made to reset the FACs. If this is not
         successful, only Cat I is available.</para>
 
+        <para role="multicite">[<emphasis
+        role="underline">AUTO FLT</emphasis> RUDDER TRIM SYS(1(2) FAULT), FCOM 1.2.22.60.2000,
+        FCOM 1.2.22.3000, FCOM 1.2.22.4000]</para>
       </sect1>
       <sect1 id="rudder-limit">
         <title>Rudder travel limiter faults</title>
-
-        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{5,6}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis> RUD
-        TRV LIM 1(2)(SYS)]</para>
 
         <para>Loss of rudder limit functionality from a single FAC leads to loss of redundancy only.</para>
 
@@ -1959,12 +2018,12 @@
         made to recover the limiter by resetting the FACs. If this is ineffective, the crosswind limit of the aircraft
         is reduced to 12kt, and differential braking may be required on the landing roll.</para>
 
+        <para role="multicite">[<emphasis
+	role="underline">AUTO FLT</emphasis> RUD TRV LIM_1(2)(SYS), FCOM 1.2.22.60.2000,
+	FCOM 1.2.22.5000, FCOM 1.2.22.6000]</para>
       </sect1>
       <sect1>
         <title>FCU faults</title>
-
-        <para>[FCOM 1.2.22.60.2000, FCOM 1.2.22.{9,10}000, amber ECAM: <emphasis role="underline">AUTO FLT</emphasis>
-        FCU 1(2)(1+2) FAULT]</para>
 
         <para>Loss of a single channel will result in the spare channel automatically taking over. All that is required
         is a cross check of the baro refs.</para>
@@ -1972,6 +2031,9 @@
         <para>Loss of both channels leads to loss of all FCU and EFIS panels. The autopilots and autothrust are
         lost and parameters that are normally controlled by the panels revert to sensible default values. If the weather
         radar image remains displayed, disregard it since the scale will be incorrect.</para>
+
+        <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FCU 1(2)(1+2) FAULT,
+	FCOM 1.2.22.60.2000, FCOM 1.2.22.9000, FCOM 1.2.22.10000]</para>
       </sect1>
 
 
@@ -1981,38 +2043,37 @@
       <sect1 id="green-low-pr">
         <title>Green system low pressure</title>
 
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.8000, amber ECAM: <emphasis role="underline">HYD</emphasis> G SYS LO PR]</para>
-
         <para>The major lost systems are normal landing gear operation (gravity extension is available) and the normal
         brake system, including the autobrake (alternate braking is available). Landing distance will be increased due
         to loss of two spoilers per wing and reverser 1. Flap and slat deployment will be slow.</para>
 
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G SYS LO PR,
+        FCOM 1.29.20.4000, FCOM 3.2.29.8000]</para>
       </sect1>
       <sect1 id="yellow-low-pr">
         <title>Yellow system low pressure</title>
-
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.8000, amber ECAM: <emphasis role="underline">HYD</emphasis> Y SYS LO PR]</para>
 
         <para>It may be possible to recover the yellow system by using the yellow electric pump.</para>
 
         <para>Two spoilers per wing and reverser 2 are lost, so landing distance will increase slightly. Nose wheel
         steering is lost. Flap deployment will be slow. As the alternate braking system is only available through the
         brake accumulator, ensure there is sufficient pressure when the parking brake is set.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> Y SYS LO PR,
+        FCOM 1.29.20.4000, FCOM 3.2.29.8000]</para>
       </sect1>
       <sect1 id="blue-low-pr">
         <title>Blue system low pressure</title>
 
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.11000, amber ECAM: <emphasis role="underline">HYD</emphasis> B SYS LO PR]</para>
-
         <para>One spoiler per wing will be lost but this has negligible effect on landing distance. Slats will be slow to
         deploy. Deployment of the RAT is not recommended unless another system is lost. If the system is lost due to low
         reservoir level, emergency generation capability is lost.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> B SYS LO PR,
+        FCOM 1.29.20.4000, FCOM 3.2.29.11000]</para>
       </sect1>
 <sect1>
         <title>Blue + yellow systems low pressure</title>
-
-        <para>[QRH 1.10, FCOM 1.29.20.4000, FCOM 3.2.29.6000, red ECAM: <emphasis role="underline">HYD</emphasis> B + Y
-        SYS LO PR]</para>
 
         <para>It may be possible to recover the yellow system using the yellow electrical pump or the blue system using
         the RAT. Systems lost because of low air pressure in the reservoir will be recoverable at lower
@@ -2029,12 +2090,11 @@
         <para>A paper summary is available on page 1.10 of the QRH, and this should be applied once all ECAM actions are
         completed.</para>
 
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> B + Y SYS LO PR, QRH 1.10,
+        FCOM 1.29.20.4000, FCOM 3.2.29.6000]</para>
       </sect1>
       <sect1>
         <title>Green + blue systems low pressure</title>
-
-        <para>[QRH 1.11, FCOM 1.29.20.4000, FCOM 3.2.29.4000, red ECAM: <emphasis role="underline">HYD</emphasis> G + B
-        SYS LO PR]</para>
 
         <para>If the blue system has been lost due to the loss of its electrical pump, it may be recovered by deploying
         the RAT. Systems lost because of low air pressure in the reservoir will be recoverable at lower
@@ -2054,12 +2114,11 @@
         <para>A paper summary is available on page 1.11 of the QRH, and this should be applied once all ECAM actions are
         completed.</para>
 
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + B SYS LO PR, QRH 1.11,
+        FCOM 1.29.20.4000, FCOM 3.2.29.4000]</para>
       </sect1>
       <sect1>
         <title>Green + yellow systems low pressure</title>
-
-        <para>[QRH 1.12, FCOM 1.29.20.4000, FCOM 3.2.29.5000, red ECAM: <emphasis role="underline">HYD</emphasis> G + Y
-        SYS LO PR]</para>
 
         <para>It may be possible to recover the yellow system using the yellow electrical pump. Systems lost because of
         low air pressure in the reservoir will be recoverable at lower altitudes. Systems lost due to reservoir
@@ -2077,99 +2136,105 @@
         <para>A paper summary is available on page 1.12 of the QRH, and this should be applied once all ECAM actions are
         completed.</para>
 
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + Y SYS LO PR, QRH 1.12,
+        FCOM 1.29.20.4000, FCOM 3.2.29.5000]</para>
       </sect1>
       <sect1>
         <title>Engine driven pump low pressure</title>
 
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.8000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y) ENG 1(2)
-        PUMP LO PR]</para>
-
         <para>Turn off the affected pump. The PTU will pressurise the affected system.</para>
 
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y) ENG 1(2) PUMP LO PR,
+        FCOM 1.29.20.4000, FCOM 3.2.29.8000]</para>
       </sect1>
       <sect1>
         <title>Electric pump low pressure or overheat</title>
 
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{7,11}000, amber ECAM:<emphasis role="underline">HYD</emphasis> Y(B) ELEC PUMP
-        LO PR or OVHT]</para>
-
         <para>Turn off the affected pump. In the case of an overheat, the pump may be re-engaged for the approach
         providing the relevant FAULT light on the overhead panel has extinguished.</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">HYD</emphasis> Y(B) ELEC PUMP LO PR(OVHT), FCOM 1.29.20.4000,
+        FCOM 3.2.29.7000, FCOM 3.2.29.11000]</para>
       </sect1>
       <sect1>
         <title>Low reservoir air pressure</title>
 
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{1,2,3}000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y)(B)
-        RSVR LO AIR PR]</para>
-
         <para>Loss of air pressure to a hydraulic reservoir may lead to pump cavitation and hence fluctuating
         pressures. If this occurs, turn off the affected pump, and if applicable, turn off the PTU. Cavitation reduces
         with altitude, so it may be possible to reinstate the system during the descent.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR LO AIR PR,
+	FCOM 1.29.20.4000, FCOM 3.2.29.1000, FCOM 3.2.29.2000, FCOM 3.2.29.3000]</para>
       </sect1>
 
       <sect1>
         <title>Reservoir overheat</title>
 
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{1,2,3}000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR OVHT]</para>
-
         <para>Turn off all affected pumps and if applicable, turn off the PTU. The system should be reinstated for the
         approach if it has cooled sufficiently. This is indicated by the FAULT light going out on the overhead panel.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR OVHT,
+	FCOM 1.29.20.4000, FCOM 3.2.29.1000, FCOM 3.2.29.2000, FCOM 3.2.29.3000]</para>
       </sect1>
 
       <sect1>
         <title>Low reservoir fluid level</title>
-
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.{1,2,3}000, amber ECAM:<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR LO LVL]</para>
 
         <para>Turn off all affected pumps and, if applicable, turn off the PTU. The affected system is not
         recoverable. In the case of low reservoir level in the yellow system, it is possible that the fluid from the
         brake accumulator may also be lost. This usually occurs within 10 minutes of the initial warning. Without the
         brake accumulator, the parking brake is not available, so chock the aircraft before shutting down engine
         1.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR LO LVL,
+	FCOM 1.29.20.4000, FCOM 3.2.29.1000, FCOM 3.2.29.2000, FCOM 3.2.29.3000]</para>
       </sect1>
 
       <sect1>
         <title>PTU fault</title>
 
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.9000, amber ECAM:<emphasis role="underline">HYD</emphasis> PTU FAULT]</para>
-
         <para>In flight this indicates that either the green or yellow system is low on fluid and has low system
         pressure. The PTU must be turned off to prevent overheating the supplying system.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> PTU FAULT,
+        FCOM 1.29.20.4000, FCOM 3.2.29.9000]</para>
       </sect1>
 
       <sect1>
         <title>RAT fault</title>
 
-        <para>[FCOM 1.29.20.4000, FCOM 3.2.29.10000, amber ECAM:<emphasis role="underline">HYD</emphasis> RAT FAULT]</para>
-
         <para>Indicates that either the RAT is not fully stowed, pressure is present in the RAT stowing actuator or that
         the RAT pump is not available. No action is required.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> RAT FAULT,
+        FCOM 1.29.20.4000, FCOM 3.2.29.10000]</para>
       </sect1>
     </chapter>
     <chapter>
       <title>Ice and rain protection</title>
       <sect1>
         <title>Double AOA heat fail</title>
-        <para>[QRH 2.10, FCOM 3.2.30.11000]</para>
 
         <para>If two AOA probes are affected by icing, the computers may erroneously deselect the remaining good
         ADR. Switching off one of the affected ADRs leaves the system in the state described in <xref
         linkend="adr-disagree"/>.</para>
 
+        <para role="multicite">[QRH 2.10, FCOM 3.2.30.11000]</para>
       </sect1>
       <sect1>
         <title>Single pitot probe heat or static port heat fault</title>
-        <para>[FCOM 1.30.50.3000, FCOM 3.2.30.{3,5,9}000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis>
-        CAPT(F/O)(STBY) PITOT or L(R) STAT]</para>
 
         <para>The ADR associated with the failed probe or port should be considered unreliable. ADR1 or ADR2 can be
         replaced with ADR3 using air data switching. If using standby instruments with ADR3 unreliable, air data
         information must be monitored closely.</para>
+
+        <para role="multicite">[<emphasis
+	role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PITOT(L(R) STAT), FCOM 1.30.50.3000,
+	FCOM 3.2.30.3000 , FCOM 3.2.30.5000, FCOM 3.2.30.9000]</para>
       </sect1>
       <sect1>
         <title>Multiple pitot heat failures</title>
-        <para>[FCOM 1.30.50.3000, FCOM 3.2.30.{22,23,24,25}000, amber ECAM: <emphasis role="underline">ANTI
-        ICE</emphasis> ALL(CAPT(F/O)+F/O(STBY)) PITOT]</para>
 
         <para>The issue with loss of anti-ice on more than one pitot probe is that it is possible that the two
         unprotected pitot probes will ice up at the same time and provide erroneous but coherent data. This leads to a
@@ -2184,69 +2249,85 @@
         <para>If pitot heat is lost on all probes, one of the ADRs should, again, be turned off to ensure the "ADR
         DISAGREE" ECAM caution is provided. If icing is expected, turn off a second ADR and be ready to apply unreliable
         airspeed procedures (see <xref linkend="unreliable-airspeed"/>).</para>
+
+        <para role="multicite">[<emphasis
+	role="underline">ANTI ICE</emphasis> ALL(CAPT(F/O)+F/O(STBY)) PITOT, FCOM 1.30.50.3000,
+	FCOM 3.2.30.22000, FCOM 3.2.30.23000, FCOM 3.2.30.24000, FCOM 3.2.30.25000]</para>
       </sect1>
       <sect1>
         <title>Single AOA or TAT heat fault</title>
-        <para>[FCOM 1.30.50.3000, FCOM 3.2.30.{7,9}000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis>
-        CAPT(F/O)(STBY) AOA or TAT]</para>
 
         <para>No immediate operational effect.</para>
+
+        <para role="multicite">[<emphasis
+	role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) AOA(TAT), FCOM 1.30.50.3000,
+	FCOM 3.2.30.7000, FCOM 3.2.30.9000]</para>
       </sect1>
       <sect1>
         <title>Probe heat computer failure</title>
-        <para>[FCOM 1.30.50.3000, FCOM 3.2.30.12000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis>
-        CAPT(F/O)(STBY) PROBES]</para>
 
         <para>If applicable, deselect the affected ADR.</para>
+
+        <para role="multicite">[<emphasis
+        role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PROBES, FCOM 1.30.50.3000,
+        FCOM 3.2.30.12000]</para>
       </sect1>
       <sect1>
         <title>Window heat fault</title>
-        <para>[FCOM 1.30.40.3000, FCOM 3.2.30.{1,2}000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis>
-        L(R)(L+R) WINDSHIELD(WINDOW)]</para>
 
         <para>No immediate operational effect.</para>
+
+        <para role="multicite">[<emphasis
+	role="underline">ANTI ICE</emphasis> L(R)(L+R) WINDSHIELD(WINDOW), FCOM 1.30.40.3000,
+	FCOM 3.2.30.1000, FCOM 3.2.30.2000]</para>
       </sect1>
       <sect1>
         <title>Engine anti-ice valve fault</title>
-        <para>[FCOM 1.30.30.3000, FCOM 3.2.30.{13,14}000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis> ENG
-        1(2) VALVE OPEN(CLSD)]</para>
 
         <para>If a valve fails to open when commanded, avoid icing conditions. If it fails to close when commanded, a
         thrust limit penalty applies {TODO: Check this is automatically applied by the relevant FADEC}.</para>
+
+        <para role="multicite">[<emphasis
+	role="underline">ANTI ICE</emphasis> ENG 1(2) VALVE OPEN(CLSD), FCOM 1.30.30.3000,
+	FCOM 3.2.30.13000, FCOM 3.2.30.14000]</para>
       </sect1>
       <sect1 id="wai-valve-open">
         <title>Wing anti-ice valve open when commanded closed</title>
-        <para>[FCOM 1.30.20.3000, FCOM 3.2.30.18000, amber ECAM: <emphasis role="underline">WING ANTI ICE</emphasis>
-        L(R) VALVE OPEN]</para>
 
         <para>In the air, just allow the failed side to be continually anti-iced and use wing anti-ice on the working
         side when required. A thrust limit penalty will apply. On the ground, isolate and depressurize the pneumatic
         system on the failed side.</para>
+
+        <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) VALVE OPEN,
+	FCOM 1.30.20.3000, FCOM 3.2.30.18000]</para>
       </sect1>
       <sect1>
         <title>Wing anti-ice valve closed when commanded open</title>
-        <para>[FCOM 1.30.20.3000, FCOM 3.2.30.20000, amber ECAM: <emphasis role="underline">WING ANTI ICE</emphasis> SYS
-        FAULT]</para>
 
         <para>The wing anti-ice must be turned off to avoid asymmetrically de-icing the wings. Avoid icing
         conditions. If ice accretion does occur, landing distances and V<subscript>app</subscript> adjustments are in
         the "Bleed" section of QRH 2.32. Speed must be maintained above V<subscript>&alpha;-prot</subscript> (top of amber
         and black striped band) if ice has accreted as stall margins may be reduced.</para>
+
+        <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> SYS FAULT,
+        FCOM 1.30.20.3000, FCOM 3.2.30.20000]</para>
       </sect1>
       <sect1>
-        <title>Wing anti-ice valves fail to close after 30 second self-test on ground</title>
-        <para>[FCOM 1.30.30.3000, FCOM 3.2.30.19000, amber ECAM: <emphasis role="underline">ANTI ICE</emphasis> OPEN ON GND]</para>
+        <title>Wing anti-ice valves fail to close after ground self-test</title>
 
         <para>Simply switch off the wing anti-ice with the push button. If the valves still do not close, see <xref
         linkend="wai-valve-open"/>.</para>
 
+        <para role="multicite">[<emphasis role="underline">ANTI ICE</emphasis> OPEN ON GND,
+        FCOM 1.30.30.3000, FCOM 3.2.30.19000]</para>
       </sect1>
       <sect1>
         <title>High pressure detected when wing anti-ice turned on</title>
-        <para>[FCOM 1.30.20.3000, FCOM 3.2.30.21000, amber ECAM: <emphasis role="underline">WING ANTI ICE</emphasis>
-        L(R) HI PR]</para>
 
         <para>A thrust limit penalty is applied automatically. {TODO: Check that this is automatic}</para>
+
+        <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) HI PR,
+        FCOM 1.30.20.3000, FCOM 3.2.30.21000]</para>
       </sect1>
 
 
@@ -2255,16 +2336,16 @@
       <title>Indicating/ Recording</title>
       <sect1>
         <title>Display unit failure</title>
-        <para>[QRH 2.10, FCOM 3.2.31]</para>
 
         <para>TODO</para>
+
+        <para role="multicite">[QRH  2.10, FCOM  3.2.31]</para>
       </sect1>
     </chapter>
     <chapter>
       <title>Pneumatic</title>
       <sect1>
         <title>Dual bleed failure</title>
-        <para>[QRH 2.02, FCOM 3.2.36.6000, NTC 1.106]</para>
 
         <para>A known problem with the A319 is that the load on a single bleed supplying two packs at high altitude may
         be sufficient to cause it to trip off. In this case, turning off one pack may allow a bleed reset.</para>
@@ -2284,13 +2365,14 @@
         supply a single pack when below FL225. If the #2 bleed duct is isolated, only pack 1 can be used since the cross
         bleed will be closed. Otherwise, either pack may be used. Note that the APU bleed is not capable of supplying
         bleed air for wing anti-ice.</para>
+
+        <para role="multicite">[QRH 2.02, FCOM 3.2.36.6000]</para>
       </sect1>
     </chapter>
     <chapter>
       <title>Communications</title>
       <sect1>
         <title>Failure of two-way radio communication equipment in UK airspace</title>
-        <para>[UKAIP ENR 1.1.3.2.4]</para>
         <sect2>
           <title>Initial actions</title>
 
@@ -2341,6 +2423,8 @@
           <para>Destination EAT is either the last acknowledged EAT or destination ETA. If "delay not determined" has
           been acknowledged, divert to alternate specified in current flight plan. Otherwise commence approach at
           destination EAT and land within 30 minutes. Watch for visual signals from the tower.</para>
+
+        <para role="multicite">[UKAIP ENR 1.1.3.2.4]</para>
         </sect2>
       </sect1>
     </chapter>
