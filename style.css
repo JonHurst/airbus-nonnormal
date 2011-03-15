@@ -7,3 +7,5 @@ td {padding: 1em;}
 table.simplelist {margin-left:3em;}
 table.simplelist td {padding:0.5em;}
 dt {font-weight:bold;}
+span.underline{text-decoration:underline;}
+.multicite{color:#303030; font-size:0.8em;}
