@@ -474,7 +474,7 @@
 	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT, FCOM 3.2.21.1000, FCOM 1.21.10.6000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 id="pack-fault">
 	<title>Pack fault</title>
 
 	<para>The PACK FAULT ECAM indicates that the pack valve position disagrees with the selected
@@ -532,6 +532,91 @@
 	FCOM 3.2.21.38000, FCOM 1.21.10.6000]</para>
 
       </sect1>
+
+      <sect1>
+	<title>Duct overheats</title>
+
+	<para></para>
+
+	<para>A duct overheat is defined as a duct reaching 88°C or a duct reaching 80°C four times
+	in one flight. If this occurs, the hot air pressure regulating valve and trim air valves
+	close automatically and the FAULT light illuminates in the HOT AIR button. This light will
+	extinguish when the temperature drops to 70°C.</para>
+
+	<para>Once the duct has cooled, an attempt can be made to recover the hot air system by
+	cycling the HOT AIR button. If recovery is not possible, basic temperature regulation will
+	continue to be provided by the packs.</para>
+
+	<para role="multicite">[<emphasis role="underline">COND</emphasis> FWD
+	CAB/AFT CAB/CKPT DUCT OVHT, FCOM 3.2.21.6000, FCOM 1.21.10.5000, FCOM 1.21.10.6000]</para>
+
+      </sect1>
+
+      <sect1>
+	<title>Hot air fault</title>
+
+	<para>If the hot air pressure regulating valve is not in it's commanded position, the
+	effects will depend on it's actual position. If it is closed when commanded open, the packs
+	will provide basic temperature regulation. More serious is if it has been commanded closed
+	in response to a duct overheat and it fails to close. Manual control may be effective, but
+	if it is not the only option is to turn off both packs and proceed as per <xref
+	linkend="pack-fault"/>.</para>
+
+	<para role="multicite">[<emphasis role="underline">COND</emphasis> HOT AIR FAULT,
+	FCOM 3.2.21.10000, FCOM 1.21.10.6000]</para>
+
+      </sect1>
+
+      <sect1>
+	<title>Trim air faults</title>
+
+	<para>Either a fault with one of the trim air valves or an overpressure downstream of the
+	hot air valve. An associated message indicates which condition exists.</para>
+
+	<para>Failure of a trim valve leads to loss of optimized temperature regulation for the
+	corresponding zone; basic temperature regulation is still available.</para>
+
+	<para>The TRIM AIR HIGH PR message may be disregarded if triggered when all the trim air
+	valves are closed. This occurs during the first 30 seconds after the packs are selected on
+	and in flight if all zone heating demands are fulfilled. {TODO: FCOM is not very informative
+	regarding response to overpressure when this does not apply. Investigate further.}</para>
+
+	<para role="multicite">[<emphasis role="underline">COND</emphasis> TRIM AIR SYS FAULT,
+	FCOM 3.2.21.11000, FCOM 1.21.10.3000, FCOM 1.21.10.6000]</para>
+
+      </sect1>
+
+      <sect1>
+	<title>Cabin fan faults</title>
+
+	<para>If both cabin fans fail, their flow should be replaced by increasing the pack flow to
+	HI.</para>
+
+	<para role="multicite">[<emphasis role="underline">COND</emphasis> L + R CAB FAN FAULT,
+	FCOM 3.1.21.22000]</para>
+
+      </sect1>
+
+      <sect1>
+	<title>Lavatory and galley fan faults</title>
+
+	<para>The cabin zone temperature sensors are normally ventilated by air extracted by these
+	fans. Loss of the fans therefore leads to loss of accurate zone temperature
+	indication.</para>
+
+	<para>On older aircraft, temperature control reverts to maintenance of a fixed cabin zone
+	inlet duct temperature of 15°C.</para>
+
+	<para>On newer aircraft the temperature controls for the cabin revert to controlling
+	temperature in the ducts. If ACSC 2 has also failed, the duct temperatures are maintained at
+	the same level as the cockpit duct temperature, and may therefore be controlled with the
+	cockpit temperature selector.</para>
+
+	<para role="multicite">[<emphasis role="underline">COND</emphasis> L + R CAB FAN FAULT,
+	FCOM 3.2.21.23000]</para>
+
+      </sect1>
+
     </chapter>
     <chapter>
       <title>Electrical</title>
