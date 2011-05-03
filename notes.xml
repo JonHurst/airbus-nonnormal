@@ -554,9 +554,7 @@
       </sect1>
 
       <sect1>
-	<title>Duct overheats</title>
-
-	<para></para>
+	<title>Duct overheat</title>
 
 	<para>A duct overheat is defined as a duct reaching 88°C or a duct reaching 80°C four times
 	in one flight. If this occurs, the hot air pressure regulating valve and trim air valves
