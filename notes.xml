@@ -121,7 +121,7 @@
   </chapter>
   <chapter>
     <title>Miscellanneous</title>
-    <sect1>
+    <sect1 id="emerg-descent">
       <title>Emergency descent <emphasis>(memory item)</emphasis></title>
 
       <para>If an emergency descent is required, the Captain should consider taking control if not already PF.</para>
@@ -482,16 +482,19 @@
       </sect1>
 
       <sect1>
-	<title>Pack overheat</title>
+	<title>Excess cabin altitude</title>
 
-	<para>The associated pack flow control valve closes automatically in the event of a pack
-	overheating (outlet temp > 260°C or outlet temp > 230°C four times in one flight). The
-	remaining pack will automatically go to high flow, and is capable of supplying all of the
-	air conditioning requirement. This system's automatic response is backed up by turning off
-	the pack. The FAULT light in the PACK button remains illuminated whilst the overheat
-	condition exists. The pack can be turned back on once it has cooled.</para>
+	<para>An ECAM warning of excess (>9550ft) cabin altitude should be relied upon, even if not
+	backed up by other indications.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT, FCOM 3.2.21.1000, FCOM 1.21.10.6000]</para>
+	<para>The initial response should be to protect yourself by getting an oxygen mask
+	on. Initiate a descent; if above FL160, this should be according to <xref
+	linkend="emerg-descent"/>. Once the descent is established and all relevant checklists are
+	complete, check the position of the outflow valve and, if it is not fully closed, use manual
+	control to close it.</para>
+
+        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> EXCESS CAB_ALT,
+	FCOM 3.2.21.25000, FCOM 1.21.20.5000]</para>
       </sect1>
 
       <sect1 id="pack-fault">
@@ -634,6 +637,60 @@
 	FCOM 3.2.21.23000]</para>
 
       </sect1>
+
+      <sect1>
+	<title>Pressure controller faults</title>
+
+	<para>Loss of a single cabin pressure controller leads to loss of redundancy only.</para>
+
+	<para>If both pressure controllers are lost, use manual control. The outflow valve reacts
+	slowly in manual mode, and it may be 10 seconds before positive control of the outflow valve
+	can be verified. It may also react too slowly to prevent a temporary
+	depressurization.</para>
+
+        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SYS 1(2)(1+2) FAULT, FCOM 3.2.21.26000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Low diff pressure</title>
+
+	<para>High rates of descent may lead to the aircraft descending through the cabin altitude
+	when more than 3000ft above the landing altitude. An ECAM warning indicates that this
+	situation is projected to occur within the next 1½ minutes. If the rate of descent of the
+	aircraft is not reduced, the pressure controllers will have to resort to high rates of
+	change of cabin altitude, which may cause passenger discomfort. The aircraft's vertical
+	speed should be reduced unless there is a pressing reason not to.</para>
+
+        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> LO DIFF PR,
+	FCOM 3.2.21.28000, FCOM 1.21.20.5000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Outflow valve closed on ground</title>
+
+	<para>If the outlow valve fails to automatically open on the ground, manual control should
+	be attempted. If that doesn't work, depressurise the aircraft by turning off both packs.</para>
+
+        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN, FCOM 3.2.21.30000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Open safety valve</title>
+
+	<para>There are safety valves for both cabin overpressure and negative differential
+	pressure; the associated ECAM message does not distinguish between the two.</para>
+
+	<para>If diff pressure is above 8psi, it is the overpressure valve that has opened. Attempt
+	manual pressurisation control and if that fails, reduce aircraft altitude.</para>
+
+	<para>If diff pressure is below zero, it is the negative differential valve. Reduce aircraft
+	vertical speed or expect high cabin rates.</para>
+
+        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SAFETY VALVE OPEN, FCOM
+	3.2.21.33000, FCOM 1.21.20.5000]</para>
+      </sect1>
+
+
 
     </chapter>
     <chapter>
