@@ -1994,7 +1994,7 @@
         lever. If the stall recurs, the engine can be operated at low thrust settings, otherwise it can be operated
         normally.</para>
 
-        <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) STALL, QRH 2.23,
+        <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> STALL, QRH 2.23,
         FCOM 1.70.90.5000, FCOM 3.2.70.15000]</para>
       </sect1>
       <sect1>
@@ -2073,7 +2073,7 @@
         FCOM 1.70.90.5000, FCOM 3.2.70.35000]</para>
       </sect1>
       <sect1>
-        <title>Low engine oil pressure</title>
+        <title>Low oil pressure</title>
 
         <para>The sources for the gauge on the ECAM ENG page and the ECAM warning are different. If there is a
         discrepancy between the two, a faulty transducer is the most likely cause and the engine can continue to be
@@ -2081,10 +2081,158 @@
         selecting its master switch off and the after shutdown procedure applied (see <xref
         linkend="engine-shut-down"/>).</para>
 
-        <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) OIL LO PR,
+        <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL LO PR,
         FCOM 3.2.70.6000, FCOM 1.70.90.4000]</para>
       </sect1>
 
+      <sect1>
+	<title>High oil temperature</title>
+
+	<para>If oil temperature exceeds 155°C or exceeds 140°C for 15 minutes, the engine must be
+	shut down.</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL HI TEMP, FCOM 3.2.70.7000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Oil filter clog</title>
+
+	<para>If a warning occurs during a cold engine start with oil temperature &lt;40°C, the
+	warning may be considered spurious. The oil filter features a bypass mechanism, so there is
+	no immediate problem.</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL FILTER CLOG,
+	FCOM 3.2.70.9000, FCOM 1.70.50.1000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Fuel filter clog</title>
+
+	<para>No immediate crew action required. {TODO: I assume there is some sort of bypass
+	mechanism, but this isn't apparent from the FCOM}</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FUEL FILTER CLOG, FCOM 3.2.70.1000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Uncommanded reverser pressurisation</title>
+
+	<para>There are two valves that prevent pressure reaching the thrust reverser actuators at
+	an inopportune moment, plus a third that commands direction of movement. The most upstream
+	of these, controlled by the SECs, prevents any hydraulic pressure reaching the Hydraulic
+	Control Unit (HCU) when the thrust levers are not in the reverse quadrant. If this
+	protection is lost, the correct operation of the HCU should keep the doors properly
+	stowed. An HCU malfunction, however, could result in an in-flight reverser deployment. If
+	flight conditions permit, idle thrust should be selected on the affected engine.</para>
+
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REV PRESSURIZED,
+	FCOM 3.2.70.3000]</para>
+      </sect1>
+
+       <sect1>
+	<title>Reverser unlocked in flight</title>
+
+	<para>If one or more reverser doors are detected as not stowed in flight, the associated
+	FADEC will automatically command idle on the associated engine. This should be backed up by
+	setting the thrust lever to idle.</para>
+
+	<para>A warning without associated buffet is likely to be spurious. In this case limit speed
+	to 300kt/M.78, keep the engine running at idle and expect to make a normal single engine
+	approach and landing.</para>
+
+	<para>If there is buffet, shut the engine down and limit speed to 240kt. Full rudder trim
+	may be required. The ECAM will provide one of two approach procedures depending on how many
+	doors are detected as not stowed:</para>
+
+	<itemizedlist>
+	  <listitem><para>If all 4 doors are not stowed, it will be a flap 1 landing, with approach
+	  speed V<subscript>REF</subscript>+55kt slowing to V<subscript>REF</subscript>+40kt below
+	  800ft. Gear should only be deployed once landing is assured.</para></listitem>
+
+	  <listitem><para>Otherwise, it will be a flap 3 landing at
+	  V<subscript>REF</subscript>+10kt.</para></listitem>
+	</itemizedlist>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REVERSE UNLOCKED,
+	FCOM 3.2.70.13000, FCOM_3.2.70.33000]</para>
+      </sect1>
+
+      <sect1>
+	<title>EIU fault</title>
+
+	<para>The Engine Interface Unit (EIU) receives data from the engine start system, the
+	auto-thrust system, the LGCIUs, the air conditioning controller and the engine anti ice
+	system and feeds it to its related FADEC. Thus loss of the EIU leads to loss of auto-thrust,
+	reverser, idle control (defaults to approach idle) and start for the affected engine. If
+	engine anti ice is used, the ignitors must be manually selected.</para>
+
+	<para role="multicite"></para>
+      </sect1>
+
+      <sect1>
+	<title>N1/N2/EGT overlimit</title>
+
+	<para>If the overlimit is moderate, the associated thrust lever can be retarded until the
+	overlimit ceases, and the flight may be continued normally.</para>
+
+	<para>If the overlimit is excessive, the engine should generally be shut down. If there are
+	over-riding factors precluding a shut down, the engine may be run at minimum required
+	thrust.</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> N1/N2/EGT OVERLIMIT,
+	FCOM 3.2.70.10000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Start valve fault</title>
+
+	<para>If a start valve fails open, remove bleed sources supplying the faulty valve. If on
+	the ground, turn off the MAN START button if used, and shut the engine down with its master
+	switch.</para>
+
+	<para>If the start valve fails closed, it may be that insufficient pressure is reaching
+	it. Try opening the cross bleed and turning on the APU bleed.</para>
+
+	<para>On the ground, a start may still be possible with manual operation of the start
+	valve.</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START VALVE FAULT,
+	FCOM 3.2.70.17000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Start faults</title>
+
+	<para>Start faults include ignition faults (no light off within 18 seconds of ignition
+	start), engine stalls, EGT overlimit (>725°C) and starter time exceedance (2 mins
+	max).</para>
+
+	<para>On the ground, nearly all starts are auto starts. In this case the FADEC will
+	automatically abort as needed. It will then automatically carry out the required dry crank
+	phase and make further attempts. Once the FADEC gives up, an ECAM message will instruct the
+	crew to turn off the relevant engine master. If the fault was a stall due to low pressure,
+	consider another automatic start using cross bleed air.</para>
+
+	<para>If a manual start is attempted, the crew must monitor the relevant parameters (the
+	FADECs will provide some passive monitoring) and, if necessary, abort the start by turning
+	the engine master and man start button off. The crew must then carry out a 30 second dry
+	crank phase manually. Note that this is not mentioned in the relevant supplementary
+	procedure, nor are the relevant lines displayed on the ECAM. It is probably worth having
+	FCOM 3.2.70.20000 handy when carrying out manual starts.</para>
+
+	<para>Following an aborted start in flight, the engine master should be turned off for 30
+	seconds to drain the engine. A further start attempt can then be made.</para>
+
+	<para>If the electrical power supply is interrupted during a start (indicated by loss of
+	ECAM DUs) turn the master switch off, then perform a 30 second dry crank.</para>
+
+	<para>If a fuel leak from the engine drain mast is reported, run the engine at idle for 5
+	minutes. If the leak ceases in this time, the aircraft may dispatch.</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START FAULT,
+	FCOM 3.2.70.20000, FCOM 3.3.8.1000]</para>
+      </sect1>
 
     </chapter>
     <chapter>
