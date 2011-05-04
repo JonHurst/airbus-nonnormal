@@ -690,7 +690,58 @@
 	3.2.21.33000, FCOM 1.21.20.5000]</para>
       </sect1>
 
+      <sect1>
+	<title>Blower fault</title>
 
+	<para>Defined as low blowing pressure or duct overheat. Unless there is a DC ESS Bus fault,
+	the blower fan should be set to OVRD. This puts the avionics ventilation into closed
+	configuration and adds cooling air from the air conditioning system.{TODO:investigate
+	involvement of DC ESS BUS fault}</para>
+
+	<para role="multicite">[<emphasis role="underline">VENT</emphasis> BLOWER FAULT,
+	FCOM 3.2.21.34000, FCOM 1.21.30.7000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Extract fault</title>
+
+	<para>Defined as low extract pressure. The extract fan should be put in OVRD. This puts the
+	avionics ventilation into closed configuration and adds cooling air from the air
+	conditioning system.</para>
+
+	<para role="multicite">[<emphasis role="underline">VENT</emphasis> EXTRACT FAULT,
+	FCOM 3.2.21.35000, FCOM 1.21.30.7000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Skin valve fault</title>
+
+	<para>Defined as one of three faults: the inlet valve is not fully closed in flight, the
+	extract valve is fully open in flight or the extract valve did not automatically close on
+	application of take-off power. The ECAM Cab Press page will differentiate.</para>
+
+	<para>If the fault is with the inlet valve, no action is required since it incorporates a
+	non-return valve.</para>
+
+	<para>If the extract valve is affected, the system should be put into smoke configuration;
+	this sends additional close signals to the extract valve. If this fails, the aircraft must
+	be depressurized {TODO: find out why}.</para>
+
+	<para role="multicite">[<emphasis role="underline">VENT</emphasis> SKIN VALVE FAULT,
+	FCOM 3.2.21.36000, FCOM 1.21.30.7000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Avionics ventilation system vault</title>
+
+	<para>Defined as either a valve not in its commanded position or the Avionics Equipment
+	Ventilation Controller (AEVC) being either unpowered or failing its power-up test. The
+	system will automatically default to a safe configuration similar to smoke configuration. No
+	crew action is required.</para>
+
+	<para role="multicite">[<emphasis role="underline">VENT</emphasis> AVNCS SYS FAULT,
+	FCOM 3.2.21.37000, FCOM_1.21.30.7000]</para>
+      </sect1>
 
     </chapter>
     <chapter>
