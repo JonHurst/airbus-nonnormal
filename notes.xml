@@ -1957,6 +1957,92 @@
         <para role="multicite">[<emphasis role="underline">ENG</emphasis> DUAL FAILURE, QRH 1.16,
         QRH 1.20, FCOM 3.2.70.53000, FCOM 1.70.90.4000]</para>
       </sect1>
+
+      <sect1>
+	<title>Single Engine failure</title>
+
+	<para>Defined as a rapid decrease in EGT, N2 and FF, followed by a decrease in N1. The crew
+	must determine whether the engine has been damaged or whether a simple flame-out has
+	occured. Indications of damage are loud noises, significantly increased vibration or
+	buffeting, repeated or uncontrollable engine stalls or abnormal post-failure indications
+	(e.g. hydraulic fluid loss, zero N1 or N2 etc.).</para>
+
+	<para>Firstly, the ignitors are turned on to protect the remaining engine and to confirm an
+	immediate relight attempt. The thrust lever of the failed engine is then moved to idle (PF
+	moves the lever after confirmation from PNF). If the FADEC hasn't relit the failed engine
+	within 30 seconds of the failure, it is shut down with the master switch. If damage is
+	believed to have occured, the associated fire button is pushed and, after 10 seconds, agent
+	1 discharged.</para>
+
+	<para>If it is believed that the engine is undamaged, a relight can be considered. The
+	relight procedure is fairly long and highly unlikely to be successful; do not delay
+	diversion and landing by attempting a relight. Also note that a relight attempt will erase
+	FADEC troubleshooting data.</para>
+
+	<para>If there is vibration and/or buffeting, attempt to find an airspeed and altitude
+	combination that minimizes the syptoms.</para>
+
+	<para>Refer to <xref linkend="engine-shut-down"/> if unable to relight the engine.</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FAIL]</para>
+      </sect1>
+
+      <sect1 id="engine-shut-down">
+        <title>Single engine operation</title>
+
+        <para>The most pressing issue is that a single engine cannot support wing anti-ice and two packs, so if wing
+        anti-ice is in use, one of the packs must be turned off. This will generally be the pack on the affected side,
+        but will need to be pack 1 in electrical emergency configuration. The cross bleed must be opened for symmetrical
+        wing anti-icing. If a fire button has been pushed, the cross bleed cannot be opened, and wing anti-ice is
+        unavailable.</para>
+
+        <para>The remaining engine must be safeguarded. To this end, continuous ignition should be selected.</para>
+
+        <para>A fuel imbalance may develop. Fuel imbalance limitations are detailed in FCOM 3.1.28.
+        If the outer tanks are balanced, once the fuller inner tank contains less than 2250kg, fuel
+        balance will never be limiting. Since this first occurs with approximately 5900kg of fuel
+        remaining, fuel balancing due to balance limitations will generally not be required. Fuel
+        may, however, still need to be crossfed to prevent fuel starvation of the remaining
+        engine. Balance this concern against feeding your live engine the same fuel that was feeding
+        your failed engine when it stopped working.</para>
+
+        <para>TCAS should be selected to TA to avoid unflyable climb RAs.</para>
+
+        <para>If a reverser is unlocked with associated buffet, speed should be limited to
+        240kt. See <xref linkend="reverser-unlocked"/> for more details of this scenario.</para>
+
+        <para>If the remaining engine is operated at maximum power with the aircraft at low speed (e.g. responding to
+        windshear) it is possible that directional control may be lost before the flight computer protections apply. Be
+        cautious about reducing speed below V<subscript>LS</subscript> on one engine.</para>
+
+        <para>The main systems lost are the generator, bleed and hydraulic pump associated with the
+        engine. Other systems may be lost depending on the reason for the shutdown. The APU can be
+        used to replace the lost generator and, providing the left side of the pneumatic system is
+        available, provide pressurisation through pack 1, thus giving additional margin for the
+        go-around.</para>
+
+	<para>Approach and landing will be fairly normal. The main provisos are
+
+	<itemizedlist>
+	  <listitem><para>Full flap should only be selected once descending on the glidepath; if a
+	  level off is required, the landing should be CONF3 [QRH 2.5].</para></listitem>
+
+	  <listitem><para>Only Cat 3 Single is available due to the loss of the ability to split the
+	  electrical system.[QRH 5.04]</para></listitem>
+
+	  <listitem><para>The autopilot cannot fly FINAL APP, NAV/VS or NAV/FPA approaches. All
+	  modes are available for manual flight with flight directors. [FCOM 3.1.22.1000]</para></listitem>
+
+	  <listitem><para>If flying manually, consider using manual thrust to better anticipate
+	  the rudder inputs required by thrust changes. Also consider setting rudder trim to zero at
+	  a late stage of the approach.[FCTM]</para></listitem>
+	</itemizedlist></para>
+
+        <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) SHUT DOWN,
+        FCOM 1.70.90.5000, FCOM 3.2.70.35000]</para>
+      </sect1>
+
+
       <sect1>
         <title>Engine relight in flight</title>
 
@@ -2039,40 +2125,7 @@
 
         <para role="multicite">[QRH 2.24, FCOM 3.2.70.63000]</para>
       </sect1>
-      <sect1 id="engine-shut-down">
-        <title>Engine shut down</title>
-
-        <para>This ECAM warning indicates that an engine master switch is off between the start of the takeoff roll and
-        the completion of the landing roll, or that a fire button has been pushed in the other phases. It deals with the
-        subsequent issues arising from single engine operation.</para>
-
-        <para>The most pressing issue is that a single engine cannot support wing anti-ice and two packs, so if wing
-        anti-ice is in use, one of the packs must be turned off. This will generally be the pack on the affected side,
-        but will need to be pack 1 in electrical emergency configuration. The cross bleed must be opened for symmetrical
-        wing anti-icing. If a fire button has been pushed, the cross bleed cannot be opened, and wing anti-ice is
-        unavailable.</para>
-
-        <para>The remaining engine must be safeguarded. To this end, continuous ignition should be selected.</para>
-
-        <para>A fuel imbalance may develop. Fuel imbalance limitations are detailed in FCOM 3.1.28, but an inner tank
-        imbalance of &lt;1500kg will never be limiting if the outer tanks are balanced. Fuel may still need to be
-        crossfed to prevent fuel starvation of the remaining engine. {TODO: Where is the cross feed procedure?}</para>
-
-        <para>TCAS should be selected to TA to avoid unflyable climb RAs.</para>
-
-        <para>If a reverser is unlocked with associated buffet, speed should be limited to 240kt.</para>
-
-        <para>If the remaining engine is operated at maximum power with the aircraft at low speed (e.g. responding to
-        windshear) it is possible that directional control may be lost before the flight computer protections apply. Be
-        cautious about reducing speed below V<subscript>LS</subscript> on one engine.</para>
-
-        <para>The main systems lost are the generator, bleeds and hydraulic pump associated with the engine. Other
-        systems may be lost depending on the reason for the shutdown.</para>
-
-        <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) SHUT DOWN,
-        FCOM 1.70.90.5000, FCOM 3.2.70.35000]</para>
-      </sect1>
-      <sect1>
+<sect1>
         <title>Low oil pressure</title>
 
         <para>The sources for the gauge on the ECAM ENG page and the ECAM warning are different. If there is a
@@ -2125,12 +2178,17 @@
 	stowed. An HCU malfunction, however, could result in an in-flight reverser deployment. If
 	flight conditions permit, idle thrust should be selected on the affected engine.</para>
 
+	<para>{TODO: It is unclear from the FCOM whether the ECAM indicates pressure has reached the
+	directional solenoid valve and hence that the reverser door jacks are pressurised, albeit in
+	the closed direction. The existence of the REV ISOL FAULT ECAM indicates that this is
+	probably the case. Investigate further.}</para>
+
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REV PRESSURIZED,
 	FCOM 3.2.70.3000]</para>
       </sect1>
 
-       <sect1>
+       <sect1 id="reverser-unlocked">
 	<title>Reverser unlocked in flight</title>
 
 	<para>If one or more reverser doors are detected as not stowed in flight, the associated
@@ -2167,7 +2225,7 @@
 	reverser, idle control (defaults to approach idle) and start for the affected engine. If
 	engine anti ice is used, the ignitors must be manually selected.</para>
 
-	<para role="multicite"></para>
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> EIU FAULT, FCOM 3.2.70.4000]</para>
       </sect1>
 
       <sect1>
@@ -2182,6 +2240,18 @@
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> N1/N2/EGT OVERLIMIT,
 	FCOM 3.2.70.10000]</para>
+      </sect1>
+
+      <sect1>
+	<title>N1/N2/EGT/FF discrepancy</title>
+
+	<para>The system can detect a discrepancy between actual and displayed values of N1, N2, EGT
+	and fuel flow. This is indicated by an amber CHECK beneath the affected parameter. Attempt
+	to recover normal indications by switching from DMC1 to DMC3. If this fails, values can be
+	inferred from the opposite engine.</para>
+
+	<para role="multicite">[<emphasis
+	role="underline">ENG 1(2)</emphasis> N1(N2)(EGT)(FF) DISCREPANCY, FCOM 3.2.70.24000]</para>
       </sect1>
 
       <sect1>
@@ -2233,6 +2303,77 @@
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START FAULT,
 	FCOM 3.2.70.20000, FCOM 3.3.8.1000]</para>
       </sect1>
+
+      <sect1>
+	<title>Ignition faults</title>
+
+	<para>Each engine has two ignitors. If both fail on a single engine, avoid heavy rain,
+	turbulence and, as far as possible, icing conditions.</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> IGN FAULT,
+	FCOM 3.2.70.34000]</para>
+      </sect1>
+
+      <sect1>
+	<title>Thrust lever angle sensor faults</title>
+
+	<para>Each thrust lever has two thrust lever angle (TLA) sensors.</para>
+
+	<para>Failure of one sensor only leads to a loss of redundancy; the proviso is that it must
+	have failed in a way that the system can positively detect.</para>
+
+	<para>More difficult is when the sensors are in disagreement. In this case, the FADEC makes
+	the assumption that one of the sensors is accurate and provides a default thrust setting based on
+	this assumption:
+
+	<itemizedlist>
+	  <listitem><para>On the ground, if neither sensor is in a take-off position, idle power is
+	  commanded. If one sensor is in take-off position and the other is above idle, take-off
+	  thrust is commanded. This leaves the completely conflicted case of one sensor at take-off
+	  and the other at idle or below; the FADEC selects idle power as the best
+	  compromise.</para></listitem>
+
+	  <listitem><para>In flight, once above thrust reduction altitude the FADEC will assume that
+	  the largest TLA, limited to CLB, is correct. The autothrust can then manage the thrust
+	  between idle and this position. For approach (slats extended), as long as both TLAs
+	  indicate less than MCT, thrust is commanded to idle.</para></listitem>
+	</itemizedlist></para>
+
+	<para>If both TLA sensors fail, the FADEC again goes for sensible defaults. On the ground,
+	idle thrust is set. In flight, if the thrust was TO or FLEX at the time of failure, this
+	setting will be maintained until slat retraction, whereupon CLB will be selected. If the
+	thrust was between IDLE and MCT, CLB will be selected immediately. As soon as slats are
+	deployed, IDLE is commanded; this remains the case even for go-around. Autothrust will
+	manage thrust between IDLE and CLB whenever CLB is assumed.</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> THR LEVER DISAGREE,
+	<emphasis role="underline">ENG 1(2)</emphasis> THR LEVER FAULT, <emphasis
+	role="underline">ENG 1(2)</emphasis> ONE TLA FAULT, FCOM 3.2.70.35000,
+	FCOM 3.2.70.36000, FCOM 3.2.70.37000]</para>
+      </sect1>
+
+      <sect1>
+	<title>FADEC faults</title>
+
+	<para>The FADECs have two redundant channels; loss of a single channel does not generally
+	require crew action. Single channel FADEC faults during start may be considered spurious on
+	successful application of the reset procedure detailed in FCOM 3.2.70.52000.</para>
+
+	<para>If both channels of a FADEC are lost, the thrust lever should be set to idle. Engine
+	indications will be lost. If all other parameters are normal (check all ECAM system pages),
+	the engine can be left running. Otherwise, shut it down.</para>
+
+	<para>If a FADEC overheats, reducing engine power may reduce temperature in the ECU area
+	sufficiently to prevent shutdown. If on the ground the engine must be shut down and the
+	FADEC depowered.</para>
+
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FADEC A(B) FAULT,
+	<emphasis role="underline">ENG 1(2)</emphasis> FADEC FAULT,
+	<emphasis role="underline">ENG 1(2)</emphasis> FADEC HI TEMP, FCOM 3.2.70.53000,
+	FCOM 3.2.70.52000, FCOM 3.2.70.54000]</para>
+      </sect1>
+
+
 
     </chapter>
     <chapter>
