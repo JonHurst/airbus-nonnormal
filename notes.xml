@@ -2620,6 +2620,100 @@
     </chapter>
     <chapter>
       <title>Hydraulics</title>
+
+      <sect1>
+        <title>Green + yellow systems low pressure</title>
+
+        <para>It may be possible to recover the yellow system using the yellow electrical pump. Systems lost because of
+        low air pressure in the reservoir will be recoverable at lower altitudes. Systems lost due to reservoir
+        overheats may be usable for the approach once they have cooled down.</para>
+
+	<para>Roll control is available from ailerons and spoiler 3. Pitch control is available from the elevators, but
+	the THS is frozen. Yaw damping is lost. Slats are available, but slow. Flaps are frozen. Control law reverts to
+	alternate law without stability protections. The autopilots are lost.</para>
+
+	<para>The gear must be gravity extended, but due to the frozen THS this must be delayed until
+	V<subscript>APP</subscript> is acheived in CONF 3. Furthermore, transition to CONF 3 must be acheived in
+	accordance with <xref linkend="flight-controls.slats-flaps-fault"/> due to the flaps being frozen. Transition to
+	direct law on gear deployment adds to the fun, espescially as pitch trim is unavailable.</para>
+
+	<para>Cat 2 and 3 capability is lost. The landing will be CONF 3, most probably with only the slats deployed;
+	the flare attitude will be abnormal. There will only be one spoiler (#3), no reversers, accumulator only braking
+	and no nose wheel steering. Hence required landing distances almost triple.</para>
+
+	<para>The go around, in some ways, is exceptionally straightforward. The gear cannot be raised and the
+	configuration should be maintained. Therefore all that needs to be done is selecting a speed of
+	V<subscript>FE</subscript>&#x2011;10. As long as the flaps are frozen at zero, the slats can be retracted for a
+	subsequent diversion; fuel flow will be approximately 2.3 times normal due to the extended gear.</para>
+
+        <para>A paper summary is available on page 1.12 of the QRH, and this should be applied once all ECAM actions are
+        completed.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + Y SYS LO PR, QRH 1.12,
+        FCOM 1.29.20.4000, FCOM 3.2.29.5000]</para>
+      </sect1>
+
+      <sect1>
+        <title>Blue + yellow systems low pressure</title>
+
+        <para>It may be possible to recover the yellow system using the yellow electrical pump or the blue system using
+        the RAT. Systems lost because of low air pressure in the reservoir will be recoverable at lower
+        altitudes. Systems lost due to reservoir overheats may be usable for the approach once they have cooled
+        down.</para>
+
+        <para>Roll control is provided by ailerons and spoilers 1+5, pitch control by the THS and
+        left elevator. Slats and flaps are available at reduced rate. The autopilots are lost but
+        Normal law is retained. Speedbrake is unavailable.</para>
+
+	<para>Cat 2 and 3 capability is lost. Landing is CONF 3 to improve go-around
+	performance. Landing distances are approximately doubled due to loss of spoilers 2,3 and 4
+	and loss of #2 reverser. Approach configuration is normal apart from slow flaps and slats
+	and gravity gear extension (protects green system). Nose wheel steering is lost.</para>
+
+	<para>Gear cannot be retracted on go-around. Fuel burn for a subsequent diversion will be
+	significantly greater (approx factor 2.3); see <xref linkend="flight-with-gear-extended"/>
+	for further details.</para>
+
+        <para>A paper summary is available on page 1.10 of the QRH, and this should be applied once all ECAM actions are
+        completed.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> B + Y SYS LO PR, QRH 1.10,
+        FCOM 1.29.20.4000, FCOM 3.2.29.6000]</para>
+      </sect1>
+
+      <sect1>
+        <title>Green + blue systems low pressure</title>
+
+        <para>If the blue system has been lost due to the loss of its electrical pump, it may be recovered by deploying
+        the RAT. Systems lost because of low air pressure in the reservoir will be recoverable at lower
+        altitudes. Systems lost due to reservoir overheats may be usable for the approach once they have cooled
+        down.</para>
+
+	<para>Roll control is provided by spoilers 2 and 4 only. Use of speedbrake would therefore lead to loss of roll
+	control. Pitch control is available from the starboard elevator; the THS remains available. Due to the limited
+	control surfaces available, the aircraft will be slightly sluggish. The slats are frozen, but flaps are
+	available. Control law reverts to alternate law without stability protections. The autopilots are lost. The
+	approach will be flown with the autothrust off.</para>
+
+	<para>Due to the frozen slats, configuration changes must be carried out in accordance with <xref
+	linkend="flight-controls.slats-flaps-fault"/>. The gear must be gravity extended; to benefit from the improved
+	elevator response available in direct law, this is done at 200kt. Manual trim will be available.</para>
+
+	<para>Cat 2 and 3 capability is lost. The landing will be CONF 3. Two spoilers per wing are available, reverser
+	2 is available, alternate braking is available and nose wheel steering is available. Landing distances
+	approximately double.</para>
+
+	<para>Go around is straightforward - the gear cannot be retracted and the flap configuration should be
+	maintained. Simply select V<subscript>FE</subscript>&#x2011;10. For diversion, the flaps can be retracted. With
+	the gear remaining down, fuel burn will increase by a factor of approximately 2.3.</para>
+
+        <para>A paper summary is available on page 1.11 of the QRH, and this should be applied once all ECAM actions are
+        completed.</para>
+
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + B SYS LO PR, QRH 1.11,
+        FCOM 1.29.20.4000, FCOM 3.2.29.4000]</para>
+      </sect1>
+
       <sect1 id="green-low-pr">
         <title>Green system low pressure</title>
 
@@ -2642,6 +2736,7 @@
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> Y SYS LO PR,
         FCOM 1.29.20.4000, FCOM 3.2.29.8000]</para>
       </sect1>
+
       <sect1 id="blue-low-pr">
         <title>Blue system low pressure</title>
 
@@ -2652,74 +2747,8 @@
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> B SYS LO PR,
         FCOM 1.29.20.4000, FCOM 3.2.29.11000]</para>
       </sect1>
+
 <sect1>
-        <title>Blue + yellow systems low pressure</title>
-
-        <para>It may be possible to recover the yellow system using the yellow electrical pump or the blue system using
-        the RAT. Systems lost because of low air pressure in the reservoir will be recoverable at lower
-        altitudes. Systems lost due to reservoir overheats may be usable for the approach once they have cooled
-        down.</para>
-
-        <para>This is the least significant dual hydraulic loss. The systems lost include the union of losses for the
-        single hydraulic system losses described in <xref linkend="blue-low-pr"/> and <xref
-        linkend="yellow-low-pr"/>. In addition the right elevator is lost, the speedbrake is unusable due to losing
-        spoilers 2+3+4 and the gear will be gravity extended to protect the green system (gear retraction becomes
-        unavailable). The flight controls remain in Normal Law, but the autopilots are not available. Landing will be
-        CONF FULL, but distances are approximately doubled.</para>
-
-        <para>A paper summary is available on page 1.10 of the QRH, and this should be applied once all ECAM actions are
-        completed.</para>
-
-        <para role="multicite">[<emphasis role="underline">HYD</emphasis> B + Y SYS LO PR, QRH 1.10,
-        FCOM 1.29.20.4000, FCOM 3.2.29.6000]</para>
-      </sect1>
-      <sect1>
-        <title>Green + blue systems low pressure</title>
-
-        <para>If the blue system has been lost due to the loss of its electrical pump, it may be recovered by deploying
-        the RAT. Systems lost because of low air pressure in the reservoir will be recoverable at lower
-        altitudes. Systems lost due to reservoir overheats may be usable for the approach once they have cooled
-        down.</para>
-
-        <para>The systems lost include the union of losses for the single hydraulic system losses described in <xref
-        linkend="green-low-pr"/> and <xref linkend="blue-low-pr"/>. In addition, the slats are jammed (see <xref
-        linkend="flight-controls.slats-flaps-fault"/>) and the ailerons and left elevator are lost. This leads to
-        Alternate Law and hence loss of autopilots. Whilst the autothrust is available, it should be disconnected early
-        in the approach as it is not able to cope with the quantity of failed systems. The gear should be gravity
-        extended (hence Direct Law) at 200kt in order to improve contollability with the single elevator. The speed
-        brake should not be used since the differential spoilers are required for roll control. Due to the single
-        elevator and lost ailerons, expect slightly sluggish response in the flare. Landing will be CONF 3 (flaps only)
-        and landing distance is approximately doubled.</para>
-
-        <para>A paper summary is available on page 1.11 of the QRH, and this should be applied once all ECAM actions are
-        completed.</para>
-
-        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + B SYS LO PR, QRH 1.11,
-        FCOM 1.29.20.4000, FCOM 3.2.29.4000]</para>
-      </sect1>
-      <sect1>
-        <title>Green + yellow systems low pressure</title>
-
-        <para>It may be possible to recover the yellow system using the yellow electrical pump. Systems lost because of
-        low air pressure in the reservoir will be recoverable at lower altitudes. Systems lost due to reservoir
-        overheats may be usable for the approach once they have cooled down.</para>
-
-        <para>This is the worst case dual hydraulic loss. The systems lost include the union of losses for the single
-        hydraulic system losses described in <xref linkend="green-low-pr"/> and <xref linkend="yellow-low-pr"/>. In
-        addition, the flaps are jammed (see <xref linkend="flight-controls.slats-flaps-fault"/>), the reversers are
-        lost, the yaw damper is lost, the stabiliser is frozen, and the braking is by accumulator only (7 full
-        applications available, anti-skid lost). The lost systems lead to reversion to Alternate Law. With the
-        stabiliser frozen, the transition to Direct Law at gear extension should be delayed until CONF 3 and
-        V<subscript>app</subscript> are achieved to allow the elevators to be trimmed correctly for the
-        approach. Landing will be CONF 3 (slats only), and landing distances are almost tripled.</para>
-
-        <para>A paper summary is available on page 1.12 of the QRH, and this should be applied once all ECAM actions are
-        completed.</para>
-
-        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + Y SYS LO PR, QRH 1.12,
-        FCOM 1.29.20.4000, FCOM 3.2.29.5000]</para>
-      </sect1>
-      <sect1>
         <title>Engine driven pump low pressure</title>
 
         <para>Turn off the affected pump. The PTU will pressurise the affected system.</para>
