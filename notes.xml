@@ -1053,12 +1053,22 @@
       <sect1>
         <title>Spoiler faults</title>
 
-        <para>Spoiler faults should not adversely affect handling, although they may cause some buffeting. A CONF 3
-        landing may reduce this buffeting. Speed brake should not be used if spoilers 3 + 4 are affected. The loss of
-        ground spoilers will increase landing distances by up to 55% (details in QRH 2.32).</para>
+	<para>The effect of a spoiler fault depends on whether the spoiler fails retracted or extended.</para>
+
+        <para>If the spoiler failes in the retracted position, handling should not be adversely affected. A CONF 3
+        landing may reduce any buffeting that is encountered. Speed brake should not be used if spoilers 3 + 4 are
+        affected. The loss of ground spoilers will increase landing distances by up to 55% (details in QRH 2.32).</para>
+
+	<para>Airbus have identified a failure scenario that leads to high pressure hydraulic fluid reaching the extend
+	chamber of a spoiler actuator via a failed o-ring. This has the effect of a spoiler failing in the fully
+	extended position. In this case, the autopilot does not necessarily have sufficient authority to control the
+	aircraft, and it should be disconnected. Fuel burn will increase significantly; FMGC fuel predictions do not
+	account for the failure and should be disregarded. Green dot speed will minimize this increased fuel burn, but
+	may not be viable if there is excessive buffet - attempt to find a compromise speed. Landing will be flap 3;
+	V<subscript>APP</subscript> and LDG DIST factors are available in OEB 208/1.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT, FCOM 1.27.40.8000,
+        role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT, OEB 208/1, FCOM 1.27.40.8000,
         FCOM 3.2.27.26000, FCOM 3.2.27.27000]</para>
       </sect1>
       <sect1>
