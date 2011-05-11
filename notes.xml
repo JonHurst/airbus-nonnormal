@@ -368,9 +368,9 @@
         <para>A landing can be made at any weight, providing sufficient landing distance is available. Automatic
         landings are certified up to MLW, but flight tests have demonstrated autoland capability to 69000kg in case of
         emergency. The preferred landing configuration is CONF&nbsp;FULL, but lower settings may be used if required by
-        QRH/ECAM procedures or if aircraft weight exceeds the CONF&nbsp;3 go around limit (see QRH 2.25). Packs should be
-        turned off to provide additional go around thrust. If configuration is less than FULL, use 1+F for
-        go-around.</para>
+        QRH/ECAM procedures or if aircraft weight exceeds the CONF&nbsp;3 go around limit (see QRH 2.25). Packs should
+        be turned off to provide additional go around thrust. If planned landing configuration is less than FULL, use
+        1+F for go-around.</para>
 
         <para>It is possible that S speed will be higher than V<subscript>FE&nbsp;next</subscript> for CONF 2. In this case,
         a speed below V<subscript>FE&nbsp;next</subscript> should be selected until CONF 2 is acheived, then managed speed
