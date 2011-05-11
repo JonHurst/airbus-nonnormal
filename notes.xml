@@ -2,6 +2,47 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "file:///usr/share/sgml/docbook/xml-dtd-4.4/docbookx.dtd">
 <book id="airbus-nonnormal">
   <title>Airbus A320 Family Non-Normal Notes</title>
+  <subtitle>Version 1.0</subtitle>
+  <preface>
+    <title>Change log</title>
+    <sect1>
+      <title>Change highlighting</title>
+      <para>Change highlighting is only available in the online version. This may be found at:
+
+      <blockquote><para><ulink
+			    url="http://www.hursts.eclipse.co.uk">http://www.hursts.eclipse.co.uk</ulink></para></blockquote></para>
+
+      <para>Change bars will be incorporated into the printed version as soon as they are supported
+      by the Apache Formatting Objects Processor.</para>
+    </sect1>
+    <sect1>
+      <title>Changes since version 0.7.1</title>
+      <itemizedlist>
+	<listitem><para>Added note regarding short duration of oxygen protection to <xref
+	linkend="smoke-fumes"/>.</para></listitem>
+	<listitem><para>Added multiple new sections to <xref linkend="aircon-press-vent"/></para></listitem>
+	<listitem><para>Improved <xref linkend="unreliable-airspeed"/> to expand on the method for levelling off at
+	prescribed speed.</para></listitem>
+	<listitem><para>Added multiple new sections to <xref linkend="power-plant"/>. Also changed "Engine Shut Down"
+	section to <xref linkend="engine-shut-down"/> and updated it, including incorporation of single engine approach
+	considerations. This renders the old section 2.10 redundant, so this has been removed.</para></listitem>
+	<listitem><para>Improved <xref linkend="flight-controls.slats-flaps-fault"/>.</para></listitem>
+	<listitem><para>Improved dual hydraulic failures to make them standalone: <xref linkend="dualhyd.gy"/>, <xref
+	linkend="dualhyd.by"/>, <xref linkend="dualhyd.gb"/></para></listitem>
+	<listitem><para>Updated electrical/avionics smoke part of <xref linkend="smoke-fumes"/> to incorporate Airbus
+	changes (no incremental shedding of AC busses; go straight to Emergency Electrical Config) and Direct Law
+	landing due IR loss gotcha.</para></listitem>
+	<listitem><para>Added note to <xref linkend="adr-faults"/> about gravity gear extension not being mentioned on
+	ECAM for ADR 1+3 loss.</para></listitem>
+	<listitem><para>Updated <xref linkend="spoiler-faults"/> to incorporate OEB 208.</para></listitem>
+	<listitem><para>Expanded <xref linkend="bomb"/> to incorporate actual method for achievement of 1 psi
+	diff.</para></listitem>
+	<listitem><para>Added <xref linkend="sidestick-transducer"/>.</para></listitem>
+	<listitem><para>Updated <xref linkend="gear-not-downlocked"/> to incorporate two minute
+	delay after gear cycling recommended in OEB 209.</para></listitem>
+      </itemizedlist>
+    </sect1>
+  </preface>
   <chapter>
     <title>Operating techniques</title>
     <sect1>
@@ -253,7 +294,7 @@
         there is any doubt over the validity of altitude information, the FPV must be
         disregarded. If altitude information is definitely good, the FPV may be used.</para>
 
-        <para>Once the flight path is under control and a safe altitude is attained, the aircraft
+        <para revisionflag="changed">Once the flight path is under control and a safe altitude is attained, the aircraft
         should be transitioned into level flight. Refer to QRH 2.15 to extract a ballpark thrust
         setting, a reference attitude and a reference speed for the current configuration, bearing
         in mind that an auto-retraction of the flap may have occurred. Set the ballpark thrust
@@ -263,15 +304,15 @@
         damage case, the required N1 may be as much as 5% greater than the ballpark figure. Once
         stable, the speed will be equal to the reference speed.</para>
 
-	<para>If there is insufficient data available to fly level (e.g. GPS data unavailable and
+	<para revisionflag="changed">If there is insufficient data available to fly level (e.g. GPS data unavailable and
 	barometric data unreliable), fly the reference attitude with the ballpark thrust
 	setting. This will give approximately level flight at approximately reference speed.</para>
 
-	<para>With the speed now known, the ADRs can be checked to see if any are giving accurate
+	<para revisionflag="changed">With the speed now known, the ADRs can be checked to see if any are giving accurate
 	data. If at least one ADR is reliable, turn off the faulty ADRs. GPS and IRS ground speeds
 	may also be used for an approximate cross check.</para>
 
-        <para>If all ADRs are considered unreliable, turn off any two of them; one is kept on to
+        <para revisionflag="changed">If all ADRs are considered unreliable, turn off any two of them; one is kept on to
         provide stall warning from the alpha probes. Tables are provided on page 2.17 and 2.18 of
         the QRH to enable all phases of flight to be flown using just pitch and thrust
         settings. Acceleration and clean up are carried out in level flight. Flap 1 can be selected
@@ -409,7 +450,7 @@
         be ascertained by checking the table in QRH 2.50. Gear extension may be delayed until final approach if
         required.</para>
       </sect1>
-      <sect1>
+      <sect1 id="bomb">
         <title>Bomb on board</title>
         <para>The primary aim is to get the aircraft on the ground and evacuated ASAP.</para>
 
@@ -417,7 +458,7 @@
         in cabin altitude through the use of manual pressure control and by avoiding sharp maneuvres and
         turbulence.</para>
 
-        <para>The tertiary aim is to minimise the effect of any explosion. This is acheived by reducing the diff to 1
+        <para revisionflag="changed">The tertiary aim is to minimise the effect of any explosion. This is acheived by reducing the diff to 1
         psi. The method is to set cabin vertical speed to zero using manual pressurisation control, then descend to an
         altitude 2500ft above cabin altitude. As further descent is required, cabin vertical speed should be adjusted to
         maintain the 1 psi diff for as long as possible. Automatic pressure control is then reinstated on approach. Low
@@ -461,7 +502,7 @@
         <para>In flight, only the computers listed in the reset table should be considered for reset.</para>
       </sect1>
     </chapter>
-    <chapter>
+    <chapter id="aircon-press-vent">
       <title>Air conditioning, pressurisation and ventilation</title>
       <sect1>
         <title>Cabin overpressure</title>
@@ -475,7 +516,7 @@
         <para role="multicite">[QRH 2.01, FCOM 3.2.21.27000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Excess cabin altitude</title>
 
 	<para>An ECAM warning of excess (>9550ft) cabin altitude should be relied upon, even if not
@@ -491,7 +532,7 @@
 	FCOM 3.2.21.25000, FCOM 1.21.20.5000]</para>
       </sect1>
 
-      <sect1 id="pack-fault">
+      <sect1 id="pack-fault" revisionflag="added">
 	<title>Pack fault</title>
 
 	<para>The PACK FAULT ECAM indicates that the pack valve position disagrees with the selected
@@ -509,7 +550,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Pack overheat</title>
 
 	<para>The associated pack flow control valve closes automatically in the event of a pack overheating (outlet
@@ -522,7 +563,7 @@
 	FCOM 1.21.10.6000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Pack off</title>
 
 	<para>A warning is generated if a functional pack is selected off in a phase of flight when
@@ -535,7 +576,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Pack regulator faults</title>
 
 	<para>A regulator fault is defined as a failure of one of four devices: the bypass valve,
@@ -552,7 +593,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1  revisionflag="added">
 	<title>ACSC single lane failure</title>
 
 	<para>Each ACSC has two fully redundant "lanes", so loss of a single "lane" results in
@@ -563,7 +604,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Duct overheat</title>
 
 	<para>A duct overheat is defined as a duct reaching 88°C or a duct reaching 80°C four times
@@ -580,7 +621,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Hot air fault</title>
 
 	<para>If the hot air pressure regulating valve is not in it's commanded position, the
@@ -595,7 +636,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Trim air faults</title>
 
 	<para>Either a fault with one of the trim air valves or an overpressure downstream of the
@@ -614,7 +655,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Cabin fan faults</title>
 
 	<para>If both cabin fans fail, their flow should be replaced by increasing the pack flow to
@@ -625,7 +666,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1  revisionflag="added">
 	<title>Lavatory and galley fan faults</title>
 
 	<para>The cabin zone temperature sensors are normally ventilated by air extracted by these
@@ -645,7 +686,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Pressure controller faults</title>
 
 	<para>Loss of a single cabin pressure controller leads to loss of redundancy only.</para>
@@ -658,7 +699,7 @@
         <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SYS 1(2)(1+2) FAULT, FCOM 3.2.21.26000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Low diff pressure</title>
 
 	<para>High rates of descent may lead to the aircraft descending through the cabin altitude
@@ -672,7 +713,7 @@
 	FCOM 3.2.21.28000, FCOM 1.21.20.5000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Outflow valve closed on ground</title>
 
 	<para>If the outlow valve fails to automatically open on the ground, manual control should
@@ -681,7 +722,7 @@
         <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN, FCOM 3.2.21.30000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Open safety valve</title>
 
 	<para>There are safety valves for both cabin overpressure and negative differential
@@ -697,7 +738,7 @@
 	3.2.21.33000, FCOM 1.21.20.5000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Blower fault</title>
 
 	<para>Defined as low blowing pressure or duct overheat. Unless there is a DC ESS Bus fault,
@@ -709,7 +750,7 @@
 	FCOM 3.2.21.34000, FCOM 1.21.30.7000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Extract fault</title>
 
 	<para>Defined as low extract pressure. The extract fan should be put in OVRD. This puts the
@@ -720,7 +761,7 @@
 	FCOM 3.2.21.35000, FCOM 1.21.30.7000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Skin valve fault</title>
 
 	<para>Defined as one of three faults: the inlet valve is not fully closed in flight, the
@@ -738,7 +779,7 @@
 	FCOM 3.2.21.36000, FCOM 1.21.30.7000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Avionics ventilation system vault</title>
 
 	<para>Defined as either a valve not in its commanded position or the Avionics Equipment
@@ -1057,7 +1098,7 @@
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R) AIL FAULT, FCOM 1.27.40.8000, FCOM 3.2.27.22000]</para>
       </sect1>
-      <sect1>
+      <sect1 id="spoiler-faults"  revisionflag="changed">
         <title>Spoiler faults</title>
 
 	<para>The effect of a spoiler fault depends on whether the spoiler fails retracted or extended.</para>
@@ -1094,7 +1135,7 @@
       <sect1 id="flight-controls.slats-flaps-fault">
         <title>Flaps and/or slats fault/locked</title>
 
-        <para>The most pressing concern following a flap or slat problem is to establish a max operating speed that will
+        <para revisionflag="changed">The most pressing concern following a flap or slat problem is to establish a max operating speed that will
         avoid overspeeding the device in its locked position. A table is provided on page 2.05 of the QRH for this
         purpose, but a quick estimation can be made by establishing what flap lever position would be required to get
         the device into its current position and using V<subscript>FE</subscript> for the configuration associated with
@@ -1126,7 +1167,7 @@
         speed in may be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this configuration
         are very close to tyre limit speeds.</para>
 
-        <para>During configuration, V<subscript>LS</subscript> is computed from actual configuration
+        <para revisionflag="changed">During configuration, V<subscript>LS</subscript> is computed from actual configuration
         and V<subscript>FE next</subscript> is computed from flap lever position. F and S speeds are
         essentially meaningless. The deployment method is to reduce speed to slightly (5kt) below
         the limiting speed for a configuration before selecting it. If
@@ -1312,7 +1353,7 @@
         <para role="multicite">[QRH 2.07, FCOM 3.2.27.42000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 id="sidestick-transducer" revisionflag="added">
 	<title>Sidestick unannunciated transducer faults</title>
 
 	<para>It is possible for a failed sidestick transducer to cause uncommanded control inputs. If no fault is
@@ -1327,7 +1368,7 @@
     </chapter>
     <chapter>
       <title>Fire</title>
-      <sect1>
+      <sect1 id="smoke-fumes">
         <title>Smoke and fumes</title>
 
         <para>The QRH procedure should be applied when smoke is detected and the crew suspect the avionics, air
@@ -1349,7 +1390,7 @@
         smoke removal drill is most effective and adaptable at lower levels, so a descent to 10,000ft or MSA is also a
         priority.</para>
 
-        <para>The first priority is to protect yourself, so get an oxygen mask on. The mask must be
+        <para revisionflag="changed">The first priority is to protect yourself, so get an oxygen mask on. The mask must be
 	set to 100% oxygen to exclude fumes; at minimum dispatch oxygen levels this will provide as
 	little as 15 minutes of protection. Pushing the "Emergency pressure selector" knob will
 	provide a few seconds of overpressure, which can be used to clear any smoke trapped in the
@@ -1374,7 +1415,7 @@
         <para>The cabin equipment smoke drill involves selecting the commercial button off and searching for faulty
         cabin equipment.</para>
 
-        <para>Suspect avionics smoke if the only triggered ECAM is AVIONICS SMOKE. If an item of electrical equipment
+        <para revisionflag="changed">Suspect avionics smoke if the only triggered ECAM is AVIONICS SMOKE. If an item of electrical equipment
         fails immediately prior to the appearance of the smoke, that equipment should be suspected as the source. The
         avionics/ electrical drill (which includes the undetermined source drill) no longer involves systematic shedding
         of the AC busses due to the negative interaction that this procedure had with the battery chargers. Instead,
@@ -1710,7 +1751,7 @@
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT UPLOCKED,
         FCOM 3.2.32.2000, FCOM 1.32.10.4000]</para>
       </sect1>
-      <sect1>
+      <sect1 id="gear-not-downlocked" revisionflag="changed">
         <title>Gear not downlocked</title>
 
         <para>If the landing gear extension sequence has not completed within 30 seconds, retract the gear, wait until
@@ -1939,7 +1980,7 @@
         <para role="multicite">[FCOM 3.4.32.3000]</para>
       </sect1>
     </chapter>
-    <chapter>
+    <chapter id="power-plant">
       <title>Power plant</title>
       <sect1 id="dual-engine-failure">
         <title>Dual engine failure</title>
@@ -1995,7 +2036,7 @@
         QRH 1.20, FCOM 3.2.70.53000, FCOM 1.70.90.4000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Single Engine failure</title>
 
 	<para>Defined as a rapid decrease in EGT, N2 and FF, followed by a decrease in N1. The crew
@@ -2024,7 +2065,7 @@
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FAIL]</para>
       </sect1>
 
-      <sect1 id="engine-shut-down">
+      <sect1 id="engine-shut-down" revisionflag="changed">
         <title>Single engine operation</title>
 
         <para>The most pressing issue is that a single engine cannot support wing anti-ice and two packs, so if wing
@@ -2175,7 +2216,7 @@
         FCOM 3.2.70.6000, FCOM 1.70.90.4000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>High oil temperature</title>
 
 	<para>If oil temperature exceeds 155°C or exceeds 140°C for 15 minutes, the engine must be
@@ -2184,7 +2225,7 @@
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL HI TEMP, FCOM 3.2.70.7000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Oil filter clog</title>
 
 	<para>If a warning occurs during a cold engine start with oil temperature &lt;40°C, the
@@ -2195,7 +2236,7 @@
 	FCOM 3.2.70.9000, FCOM 1.70.50.1000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Fuel filter clog</title>
 
 	<para>No immediate crew action required. {TODO: I assume there is some sort of bypass
@@ -2204,7 +2245,7 @@
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FUEL FILTER CLOG, FCOM 3.2.70.1000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Uncommanded reverser pressurisation</title>
 
 	<para>There are two valves that prevent pressure reaching the thrust reverser actuators at
@@ -2225,7 +2266,7 @@
 	FCOM 3.2.70.3000]</para>
       </sect1>
 
-       <sect1 id="reverser-unlocked">
+       <sect1 id="reverser-unlocked" revisionflag="added">
 	<title>Reverser unlocked in flight</title>
 
 	<para>If one or more reverser doors are detected as not stowed in flight, the associated
@@ -2253,7 +2294,7 @@
 	FCOM 3.2.70.13000, FCOM_3.2.70.33000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>EIU fault</title>
 
 	<para>The Engine Interface Unit (EIU) receives data from the engine start system, the
@@ -2265,7 +2306,7 @@
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> EIU FAULT, FCOM 3.2.70.4000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>N1/N2/EGT overlimit</title>
 
 	<para>If the overlimit is moderate, the associated thrust lever can be retarded until the
@@ -2279,7 +2320,7 @@
 	FCOM 3.2.70.10000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>N1/N2/EGT/FF discrepancy</title>
 
 	<para>The system can detect a discrepancy between actual and displayed values of N1, N2, EGT
@@ -2291,7 +2332,7 @@
 	role="underline">ENG 1(2)</emphasis> N1(N2)(EGT)(FF) DISCREPANCY, FCOM 3.2.70.24000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Start valve fault</title>
 
 	<para>If a start valve fails open, remove bleed sources supplying the faulty valve. If on
@@ -2308,7 +2349,7 @@
 	FCOM 3.2.70.17000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Start faults</title>
 
 	<para>Start faults include ignition faults (no light off within 18 seconds of ignition
@@ -2341,7 +2382,7 @@
 	FCOM 3.2.70.20000, FCOM 3.3.8.1000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Ignition faults</title>
 
 	<para>Each engine has two ignitors. If both fail on a single engine, avoid heavy rain,
@@ -2351,7 +2392,7 @@
 	FCOM 3.2.70.34000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>Thrust lever angle sensor faults</title>
 
 	<para>Each thrust lever has two thrust lever angle (TLA) sensors.</para>
@@ -2389,7 +2430,7 @@
 	FCOM 3.2.70.36000, FCOM 3.2.70.37000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 revisionflag="added">
 	<title>FADEC faults</title>
 
 	<para>The FADECs have two redundant channels; loss of a single channel does not generally
@@ -2472,7 +2513,7 @@
 
         <para role="multicite">[EOM A.8.3.2, EOM B.2.4.51]</para>
       </sect1>
-      <sect1>
+      <sect1 id="adr-faults">
         <title>ADR faults</title>
 
         <para>A single ADR fault simply requires switching to the hot spare and turning the affected unit off. Loss of
@@ -2480,7 +2521,7 @@
         channels being driven by the same FCU channel {TODO: Find out details of this}, so the baro refs should be
         checked.</para>
 
-        <para>Loss of two ADRs will lead to Alternate Law with associated speed restrictions and landing configuration
+        <para revisionflag="changed">Loss of two ADRs will lead to Alternate Law with associated speed restrictions and landing configuration
         considerations. Air data switching is used as necessary, and the affected ADRs are turned off. ATC switching may
         be required to restore transponder. If ADR 1 and 3 are lost, the landing gear safety valve is controlled closed,
         so the gear must be gravity extended and cannot subsequently be retracted. This is not mentioned by the ECAM -
@@ -2655,7 +2696,7 @@
     <chapter>
       <title>Hydraulics</title>
 
-      <sect1>
+      <sect1 id="dualhyd.gy" revisionflag="changed">
         <title>Green + yellow systems low pressure</title>
 
         <para>It may be possible to recover the yellow system using the yellow electrical pump. Systems lost because of
@@ -2687,7 +2728,7 @@
         FCOM 1.29.20.4000, FCOM 3.2.29.5000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 id="dualhyd.by" revisionflag="changed">
         <title>Blue + yellow systems low pressure</title>
 
         <para>It may be possible to recover the yellow system using the yellow electrical pump or the blue system using
@@ -2715,7 +2756,7 @@
         FCOM 1.29.20.4000, FCOM 3.2.29.6000]</para>
       </sect1>
 
-      <sect1>
+      <sect1 id="dualhyd.gb" revisionflag="changed">
         <title>Green + blue systems low pressure</title>
 
         <para>If the blue system has been lost due to the loss of its electrical pump, it may be recovered by deploying
