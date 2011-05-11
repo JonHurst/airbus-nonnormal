@@ -393,15 +393,6 @@
 	<para role="multicite">[FCOM 3.2.10.3000]</para>
       </sect1>
       <sect1>
-        <title>Engine inoperative approach</title>
-        <para>Landing configuration is flap full unless a level off is required during final approach. In this case
-        CONF 3 should be used. Selection of full flaps should be delayed until final descent. It is not permissable to
-        use the autopilot to perform single engine NPAs in FINAL APP, NAV V/S or NAV FPA modes. These modes may,
-        however, be used with the FDs.</para>
-
-	<para role="multicite">[FCOM 3.2.10.4000]</para>
-      </sect1>
-      <sect1>
         <title>Engine failure in cruise</title>
         <para>Set MCT on live engine then disconnect the autothrust. Start ECAM actions and notify ATC. Decide on
         strategy - standard strategy increases the chance of an engine relight, whilst obstacle strategy maintains the
