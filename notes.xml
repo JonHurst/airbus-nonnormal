@@ -1211,8 +1211,8 @@
         <para>If both FCDCs fail, the ELACs and SECs can no longer supply data to the EIS. The major effect of this is
         that F/CTL ECAM warnings are no longer generated. The warning lights on the overhead panel continue to give
         valid information and should be monitored. The aircraft remains in normal law with all protections, but
-        protection indications (bank and pitch limits, V<subscript>&alpha;-prot</subscript> and
-        V<subscript>&alpha;-max</subscript>) are not shown and the stall warning system becomes active.</para>
+        protection indications (bank and pitch limits, V<subscript>&alpha;&#x2011;prot</subscript> and
+        V<subscript>&alpha;&#x2011;max</subscript>) are not shown and the stall warning system becomes active.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FCDC 1(2)(1+2) FAULT,
         FCOM 1.27.40.8000, FCOM 3.2.27.20000]</para>
