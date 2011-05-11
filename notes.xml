@@ -2198,7 +2198,7 @@
 	<title>Reverser unlocked in flight</title>
 
 	<para>If one or more reverser doors are detected as not stowed in flight, the associated
-	FADEC will automatically command idle on the associated engine. This should be backed up by
+	FADEC will automatically command idle on the affected engine. This should be backed up by
 	setting the thrust lever to idle.</para>
 
 	<para>A warning without associated buffet is likely to be spurious. In this case limit speed
