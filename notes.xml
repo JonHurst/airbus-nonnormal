@@ -2921,8 +2921,8 @@
 
         <para>The wing anti-ice must be turned off to avoid asymmetrically de-icing the wings. Avoid icing
         conditions. If ice accretion does occur, landing distances and V<subscript>app</subscript> adjustments are in
-        the "Bleed" section of QRH 2.32. Speed must be maintained above V<subscript>&alpha;-prot</subscript> (top of amber
-        and black striped band) if ice has accreted as stall margins may be reduced.</para>
+        QRH 2.32. Speed must be maintained above V<subscript>&alpha;&#x2011;prot</subscript> (top of amber and black striped
+        band) if ice has accreted as stall margins may be reduced.</para>
 
         <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> SYS FAULT,
         FCOM 1.30.20.3000, FCOM 3.2.30.20000]</para>
