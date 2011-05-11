@@ -1700,12 +1700,14 @@
       <sect1>
         <title>Gear not downlocked</title>
 
-        <para>Landing gear extension sequence has not completed within 30 seconds. Retract the gear and wait until it
-        has fully stowed, then redeploy. If this is not successful, attempt to deploy the gear by gravity (see <xref
-        linkend="gear-gravity-extension"/>).</para>
+        <para>If the landing gear extension sequence has not completed within 30 seconds, retract the gear, wait until
+        it has fully stowed, and then redeploy it. Recent studies show that if the gear does not immediately deploy
+        successfully following reselection, it may deploy normally within the next two minutes as hydraulic pressure
+        continues to act on the gear and doors throughout this time. If still unsuccessful after two minutes, attempt to
+        deploy the gear by gravity (see <xref linkend="gear-gravity-extension"/>).</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWNLOCKED,
-        FCOM 3.2.32.3000, FCOM 1.32.10.4000]</para>
+        OEB 209, FCOM 3.2.32.3000, FCOM 1.32.10.4000]</para>
       </sect1>
       <sect1>
         <title>Gear doors not closed</title>
