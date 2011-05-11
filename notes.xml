@@ -510,6 +510,19 @@
       </sect1>
 
       <sect1>
+	<title>Pack overheat</title>
+
+	<para>The associated pack flow control valve closes automatically in the event of a pack overheating (outlet
+	temp > 260°C or outlet temp > 230°C four times in one flight). The remaining pack will automatically go to high
+	flow, and is capable of supplying all of the air conditioning requirement. This system's automatic response is
+	backed up by turning off the pack. The FAULT light in the PACK button remains illuminated whilst the overheat
+	condition exists. The pack can be turned back on once it has cooled.</para>
+
+	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT, FCOM 3.2.21.1000,
+	FCOM 1.21.10.6000]</para>
+      </sect1>
+
+      <sect1>
 	<title>Pack off</title>
 
 	<para>A warning is generated if a functional pack is selected off in a phase of flight when
