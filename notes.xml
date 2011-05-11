@@ -1345,13 +1345,14 @@
         cabin equipment.</para>
 
         <para>Suspect avionics smoke if the only triggered ECAM is AVIONICS SMOKE. If an item of electrical equipment
-        fails immediately prior to the appearance of the smoke, that piece of equipment should be suspected as the
-        source. The avionics/ electrical drill (which includes the undetermined source drill) involves shedding the AC
-        buses one at a time by preventing bus transfers and turning generators off. This allows significant portions of
-        the electrical equipment to be isolated in blocks. Note that if AC bus 1 is shed, the Captain's instruments and
-        the STBY instruments are both supplied from non de-iced sensors and should be suspected if there is any
-        disagreement. If this does not work, the emergency electrical configuration is adopted (see <xref
-        linkend="emerg-elec-config"/>).</para>
+        fails immediately prior to the appearance of the smoke, that equipment should be suspected as the source. The
+        avionics/ electrical drill (which includes the undetermined source drill) no longer involves systematic shedding
+        of the AC busses due to the negative interaction that this procedure had with the battery chargers. Instead,
+        emergency electrical configuration (see <xref linkend="emerg-elec-config"/>) is adopted immediately. The
+        electrical system should be restored just before deploying the gear. Note that since you will not be able to
+        restore the two IRs that were depowered, the landing will be in Direct Law and hence CONF 3. Refer to QRH 2.32
+        for V<subscript>App</subscript> and LDR factor. This is not mentioned in QRH 1.06, and is only mentioned on the
+        ECAM once gear is extended.</para>
 
         <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH 1.06,
         FCOM 3.2.26.6000]</para>
