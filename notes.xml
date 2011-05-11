@@ -2576,7 +2576,7 @@
 
         <para>With a dual failure a reset of the FACs should be attempted. If the yaw damper is not recovered, the
         flight controls revert to alternate law (see <xref linkend="alternate-law"/>). Unless the failure occured below
-        alert height, only Cat I wil be available.</para>
+        alert height, only Cat I will be available.</para>
 
         <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> YAW DAMPER 1(2)(SYS),
 	FCOM 1.2.22.60.2000, FCOM 1.2.22.1000, FCOM 1.2.22.2000]</para>
