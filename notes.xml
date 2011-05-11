@@ -2451,7 +2451,8 @@
         <para>Loss of two ADRs will lead to Alternate Law with associated speed restrictions and landing configuration
         considerations. Air data switching is used as necessary, and the affected ADRs are turned off. ATC switching may
         be required to restore transponder. If ADR 1 and 3 are lost, the landing gear safety valve is controlled closed,
-        so the gear must be gravity extended and cannot subsequently be retracted.</para>
+        so the gear must be gravity extended and cannot subsequently be retracted. This is not mentioned by the ECAM -
+        the gear will simply fail to extend normally.</para>
 
         <para>Loss of all ADRs requires reversion to standby instruments. Disregard ECAM actions as the ECAM procedures
         shown will be for single ADR operation and will direct you towards meaningless air data and ATC switching. Refer
