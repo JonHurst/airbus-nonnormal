@@ -417,10 +417,13 @@
         in cabin altitude through the use of manual pressure control and by avoiding sharp maneuvres and
         turbulence.</para>
 
-        <para>The tertiary aim is to minimise the effect of any explosion, This is acheived by reducing the diff to 1
-        psi, by descending to a level 2500ft above cabin altitude, and by flying at suitable speeds. As further descent
-        is required, the manual controls should be used to maintain the 1 psi diff for as long as possible. The aircraft
-        should be configured for landing as early as possible to avoid an explosion damaging landing systems.</para>
+        <para>The tertiary aim is to minimise the effect of any explosion. This is acheived by reducing the diff to 1
+        psi. The method is to set cabin vertical speed to zero using manual pressurisation control, then descend to an
+        altitude 2500ft above cabin altitude. As further descent is required, cabin vertical speed should be adjusted to
+        maintain the 1 psi diff for as long as possible. Automatic pressure control is then reinstated on approach. Low
+        speeds reduce the damage from an explosion but increase the risk of a timed explosion occuring whilst airborne;
+        a compromise needs to be found. The aircraft should be configured for landing as early as possible to avoid an
+        explosion damaging landing systems.</para>
 
         <para>In the cabin, procedures are laid down for assessing the risks of moving the device and for moving the
         device to the LRBL at door 2R.</para>
