@@ -1298,6 +1298,19 @@
 
         <para role="multicite">[QRH 2.07, FCOM 3.2.27.42000]</para>
       </sect1>
+
+      <sect1>
+	<title>Sidestick unannunciated transducer faults</title>
+
+	<para>It is possible for a failed sidestick transducer to cause uncommanded control inputs. If no fault is
+	detected, the result is that the aircraft behaves as if that input had actually been made. Generally, the
+	autopilot will disconnect and any attempt to control the aircraft with the failed sidestick will fail. The
+	aircraft should be recovered with the other sidestick using the takeover button. Keeping this button
+	pressed for 40 seconds will lock out the failed sidestick, and the autopilot can then be re-engaged. The
+	autopilot should not be disconnected in the normal manner as pressing the takeover button will re-introduce the
+	failed sidestick and the uncommanded input; use the FCU instead.</para>
+
+      </sect1>
     </chapter>
     <chapter>
       <title>Fire</title>
