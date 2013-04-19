@@ -22,6 +22,8 @@
         FCOM, FCTM and QRH and renumbering in EOM-A and EOM-B.</para></listitem>
         <listitem><para>Added note to <xref linkend="efato"/> to warn against selection of TOGA
         before ground to flight mode transition is complete.</para></listitem>
+        <listitem><para>Added note to <xref linkend="eosid"/> that acceleration should be commenced
+        prior to the first turn if the EOSID is annotated as “STD”.</para></listitem>
         <listitem><para>Added note to <xref linkend="evacuation"/> detailing the conflict in the
         handling of guarded switches between the FCTM and the ATSG.</para></listitem>
         <listitem><para>Added note to <xref linkend="overweight_landing"/> that Conf 3 go around
@@ -181,6 +183,9 @@
           </itemizedlist>
 
           TOGA may be used for a maximum of 10 minutes.</para>
+
+          <para revisionflag="added">If an EOSID is annotated as “STD”, then acceleration should be
+          completed prior to commencing the first turn. If “NON-STD”, the turn takes priority.</para>
 
 	  <para role="multicite">[EOMB 4.4.4, FCOM DSC.22_20.60.40]</para>
 
