@@ -32,7 +32,7 @@
         handling of guarded switches between the FCTM and the ATSG.</para></listitem>
         <listitem><para>Added note to <xref linkend="overweight_landing"/> that Conf 3 go around
         limit will never be limiting for airfields with elevations below 1000ft.</para></listitem>
-        <listitem><para>Added note to <xref linkend="se_vmc"/> that the "Determine landing flaps"
+        <listitem><para>Added note to <xref linkend="se_vmc"/> that the “Determine landing flaps”
         box refers to checking missed approach gradient in the overweight landing
         checklist.</para></listitem>
         <listitem><para>Added note to <xref linkend="se_circling"/> regarding anticipated landing
@@ -47,7 +47,7 @@
 	<listitem><para>Added multiple new sections to <xref linkend="aircon-press-vent"/></para></listitem>
 	<listitem><para>Improved <xref linkend="unreliable-airspeed"/> to expand on the method for levelling off at
 	prescribed speed.</para></listitem>
-	<listitem><para>Added multiple new sections to <xref linkend="power-plant"/>. Also changed "Engine Shut Down"
+	<listitem><para>Added multiple new sections to <xref linkend="power-plant"/>. Also changed “Engine Shut Down”
 	section to <xref linkend="engine-shut-down"/> and updated it, including incorporation of single engine approach
 	considerations. This renders the old section 2.10 redundant, so this has been removed.</para></listitem>
 	<listitem><para>Improved <xref linkend="flight-controls.slats-flaps-fault"/>.</para></listitem>
@@ -72,31 +72,31 @@
     <sect1 id="rejected_takeoff">
       <title>Rejected Takeoff</title>
 
-      <para>The decision to reject rests solely with CM1. This decision is communicated with the words "Stop" or
-      "Continue". "Stop" implies that CM1 is taking control of the aircraft. Below 100kt the RTO is relatively risk free
+      <para>The decision to reject rests solely with CM1. This decision is communicated with the words “Stop” or
+      “Continue”. “Stop” implies that CM1 is taking control of the aircraft. Below 100kt the RTO is relatively risk free
       and a decision to stop should be made for any ECAM and most other problems. Above 100kt the RTO may be hazardous
       and stopping should only be considered for loss of engine thrust, any fire warning, any uninhibited ECAM or
       anything which indicates the aircraft will be unsafe or unable to fly.</para>
 
-      <para>If a stop is required, CM1 calls "Stop" while simultaneously bringing the thrust levers to idle, then to max
+      <para>If a stop is required, CM1 calls “Stop” while simultaneously bringing the thrust levers to idle, then to max
       reverse. If the stop was commenced below 72kt the ground spoilers will not automatically deploy and the autobrake
       will therefore not engage. Monitor automatic braking, and if there is any doubt, apply manual braking as
-      required. If normal braking fails, announce "Loss of braking" and proceed with the loss of braking memory items
+      required. If normal braking fails, announce “Loss of braking” and proceed with the loss of braking memory items
       (see <xref linkend="loss-of-braking"/>). If the reason for the stop was an engine fire on the upwind side,
       consider turning the aircraft to keep the fire away from the fuselage. If there is any chance of requiring
       evacuation, bring the aircraft to a complete halt, stow the reversers, apply the parking brake, and order
-      "Attention, crew at stations" on the PA. If evacuation will definitely not be required, once the aircraft's safety
-      is assured the RTO can be discontinued and the runway cleared. In this case make a PA of "Cabin crew, normal
-      operations".</para>
+      “Attention, crew at stations” on the PA. If evacuation will definitely not be required, once the aircraft’s safety
+      is assured the RTO can be discontinued and the runway cleared. In this case make a PA of “Cabin crew, normal
+      operations”.</para>
 
-      <para>During this initial phase, CM2 confirms reverse ("Reverse green"), confirms deceleration ("Decel"), cancels
-      any audio warnings, informs ATC and announces "70 knots" when appropriate. CM2 then locates the emergency
+      <para>During this initial phase, CM2 confirms reverse (“Reverse green”), confirms deceleration (“Decel”), cancels
+      any audio warnings, informs ATC and announces “70 knots” when appropriate. CM2 then locates the emergency
       evacuation checklist.</para>
 
       <para>Once the aircraft has stopped, CM1 takes the radios and asks CM2 to carry out any required ECAM
       actions. Whilst the ECAM actions are being completed, CM1 will build up a decision as to whether to evacuate. If
-      an evacuation is required see <xref linkend="evacuation"/>. Otherwise order "Cabin crew, normal
-      operations".</para>
+      an evacuation is required see <xref linkend="evacuation"/>. Otherwise order “Cabin crew, normal
+      operations”.</para>
 
       <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming the
       spoilers.</para>
@@ -117,14 +117,14 @@
         pause before selecting TOGA results in much more normal and predictable
         handling.</para></footnote>, select TOGA (FLX may be used but this tends to allow speed to
         decay unless pitch is reduced), adjust and trim rudder to maintain &beta; target and request
-        "pull heading". If the EOSID follows the track of the cleared SID, NAV may be used, but this
+        “pull heading”. If the EOSID follows the track of the cleared SID, NAV may be used, but this
         is very rare with easyJet EOSIDs. Bank angle should be limited to 15° when more than 3kt
         below maneuvering speed for the current configuration. Engage the autopilot once gear is up
         and rudder is trimmed.</para>
 
         <para>Whilst below 400ft, the only failure related actions should be:
         <itemizedlist>
-          <listitem><para>If applicable, PNF should announce "Engine failure" or "Engine fire" without specifying an
+          <listitem><para>If applicable, PNF should announce “Engine failure” or “Engine fire” without specifying an
           engine.</para></listitem>
           <listitem><para>Cancellation of master warning or master caution when both pilots confirm they are aware of
           it.</para></listitem>
@@ -144,7 +144,7 @@
 
         <para>Once the flight path strategy has been agreed and actioned, the failure can be diagnosed and
         dealt with. If the failure has resulted in an ECAM warning, PF initiates this phase by asking PNF to
-        "Read ECAM". Once the ECAM is confirmed, PF will take the radios and request PNF to carry out ECAM
+        “Read ECAM”. Once the ECAM is confirmed, PF will take the radios and request PNF to carry out ECAM
         actions. When applying ECAM procedures, PF is responsible for moving the thrust levers once confirmed
         by PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors
         and any guarded switch must be confirmed with PF.</para>
@@ -178,8 +178,8 @@
 
             <listitem><para>The next segment is a TOGA level acceleration and clean up, either to Conf 1 and S speed
             if an immediate VMC return is desired or to Conf 0 and green dot. Again FLEX may be used if a FLEX
-            takeoff was carried out. Level acceleration is usually acheived by pushing V/S.  The phrases "Stop
-            ECAM" and "Continue ECAM" can be used to interupt ECAM procedures in order to initiate this
+            takeoff was carried out. Level acceleration is usually acheived by pushing V/S.  The phrases “Stop
+            ECAM” and “Continue ECAM” can be used to interupt ECAM procedures in order to initiate this
             segment.</para></listitem>
 
             <listitem><para>The final segment is a MCT climb segment to MSA, either at S speed if in Conf 1 or at
@@ -241,19 +241,19 @@
           <para>The windshear detection system is a function of the Flight Augmentation Computer (FAC). It only operates
           during the takeoff and landing phases with at least CONF 1 selected. In the takeoff phase, warnings are
           provided from 3 seconds after lift off until 1300ft RA is acheived. In the landing phase warnings are provided
-          between 1300ft RA and 50ft RA. A warning is indicated by a red "WINDSHEAR" flag on the PFD and a "WINDSHEAR,
-          WINDSHEAR, WINDSHEAR" aural warning.</para>
+          between 1300ft RA and 50ft RA. A warning is indicated by a red “WINDSHEAR” flag on the PFD and a “WINDSHEAR,
+          WINDSHEAR, WINDSHEAR” aural warning.</para>
 
           <para>When on the ground, windshear is <emphasis>only</emphasis> indicated by significant airspeed
           variations. It is possible that these fluctuations may cause V1 to occur significantly later in the takeoff
           run then it should. It therefore falls to the Captain to make an assessment of whether sufficient runway
           remains to reject the takeoff, or whether getting airborne below V<subscript>r</subscript> would be the better
-          option. If the takeoff is to be continued in windshear conditions, call "Windshear, TOGA" and apply TOGA
+          option. If the takeoff is to be continued in windshear conditions, call “Windshear, TOGA” and apply TOGA
           power.  Rotate at V<subscript>r</subscript> or with sufficient runway remaining and follow SRS orders. {TODO:
           This is Boeing advice - Airbus offers no advice if there is insufficient runway available to rotate at normal
           speeds}. SRS will maintain a minimum rate of climb, even if airspeed must be sacrificed.</para>
 
-          <para>If a warning occurs when airborne, call "Windshear, TOGA", apply TOGA power and maintain current
+          <para>If a warning occurs when airborne, call “Windshear, TOGA”, apply TOGA power and maintain current
           configuration. The autopilot can fly the escape maneuvre as long as
           &alpha;<subscript>req</subscript>&nbsp;&lt;&nbsp;&alpha;<subscript>prot</subscript>. If the autopilot is not
           engaged, follow the SRS orders on the FD. If the FD is not available, initially pitch up to 17.5°, then
@@ -277,12 +277,12 @@
 
           <para>All types of alert produce an indication of windshear position on the ND, providing the ND range is set
           to 10nm. A message on the ND instructs the crew to change range to 10nm if not already set. Cautions also give
-          an amber "W/S AHEAD" message on both PFDs and an aural "MONITOR RADAR DISPLAY" warning. Warnings give a red
-          "W/S AHEAD" message on the PFDs and either a "WINDSHEAR AHEAD, WINDSHEAR AHEAD" or "GO AROUND, WINDSHEAR
-          AHEAD" aural message.</para>
+          an amber “W/S AHEAD” message on both PFDs and an aural “MONITOR RADAR DISPLAY” warning. Warnings give a red
+          “W/S AHEAD” message on the PFDs and either a “WINDSHEAR AHEAD, WINDSHEAR AHEAD” or “GO AROUND, WINDSHEAR
+          AHEAD” aural message.</para>
 
           <para>If a warning alert occurs during the takeoff roll, reject the takeoff. If it occurs during initial
-          climb, call "Windshear, TOGA", apply TOGA thrust and follow SRS orders. Configuration may be changed as long
+          climb, call “Windshear, TOGA”, apply TOGA thrust and follow SRS orders. Configuration may be changed as long
           as the windshear is not entered.</para>
 
           <para>If a warning alert occurs during approach, carry out a normal go-around. If positive verification is
@@ -390,8 +390,8 @@
         engines are inoperative, use config 3 (only slats available) and maintain at least 150kt. In strong winds, land
         into wind. In lighter winds, land parallel to swell. The bleeds are all turned off and ditching button pushed
         (ensure pressurisation is in auto for this to work) in order to close all openings below the waterline and
-        reduce water ingress. At 2000ft, make a PA "Cabin crew, landing positions". At 500ft, make a PA "Brace,
-        brace"</para>
+        reduce water ingress. At 2000ft, make a PA “Cabin crew, landing positions”. At 500ft, make a PA “Brace,
+        brace”</para>
 
         <para>At touchdown, turn the engine and APU masters off. After coming to a stop, notify ATC, push all fire
         buttons, discharge all agents (engine agent 2 may not be available) and evacuate the aircraft. {TODO: There is a
@@ -412,8 +412,8 @@
 
         <para>The engines operative forced landing configuration is gear down, config full, spoilers armed. If the
         engines are inoperative, use config 3 (only slats available) and maintain at least 150kt. The ram air button is
-        used to ensure that the aircraft will be completely depressurised at touchdown. At 2000ft, make a PA "Cabin
-        crew, landing positions". At 500ft, make a PA "Brace, brace"</para>
+        used to ensure that the aircraft will be completely depressurised at touchdown. At 2000ft, make a PA “Cabin
+        crew, landing positions”. At 500ft, make a PA “Brace, brace”</para>
 
         <para>At touchdown, turn the engine and APU masters off. This will leave accumulator braking only. After coming
         to a stop, set the parking brake, notify ATC, push all fire buttons, discharge all agents (engine agent 2 may
@@ -439,13 +439,13 @@
         confirmation is not required before carrying out these actions, but the Airbus Training
         Study Guide issued by the training department specifies that cross confirmation should be
         carried out exactly as if airborne. In theory, but possibly not in practice, the FCTM
-        supercedes the ATSG. In response to the next checklist item, "Agents", CM1 decides if any
+        supercedes the ATSG. In response to the next checklist item, “Agents”, CM1 decides if any
         extinguishing agents should be discharged and instructs CM2 to discharge them as
         required. Engine agent 2 will not be available. Agents should only be discharged if there
         are positive signs of fire.</para>
 
-        <para>Finally, order the evacuation. This is primarily done with the PA "Evacuate, unfasten your seat belts and
-        get out", with the evacuation alarm being triggered as a backup.</para>
+        <para>Finally, order the evacuation. This is primarily done with the PA “Evacuate, unfasten your seat belts and
+        get out”, with the evacuation alarm being triggered as a backup.</para>
 
         <para role="multicite">[EOMB 3.80.1, FCOM PRO.ABN.80, FCTM AO.020]</para>
       </sect1>
@@ -617,7 +617,7 @@
 
 	<para>The associated pack flow control valve closes automatically in the event of a pack overheating (outlet
 	temp > 260°C or outlet temp > 230°C four times in one flight). The remaining pack will automatically go to high
-	flow, and is capable of supplying all of the air conditioning requirement. This system's automatic response is
+	flow, and is capable of supplying all of the air conditioning requirement. This system’s automatic response is
 	backed up by turning off the pack. The FAULT light in the PACK button remains illuminated whilst the overheat
 	condition exists. The pack can be turned back on once it has cooled.</para>
 
@@ -657,7 +657,7 @@
       <sect1 >
 	<title>ACSC single lane failure</title>
 
-	<para>Each ACSC has two fully redundant "lanes", so loss of a single "lane" results in
+	<para>Each ACSC has two fully redundant “lanes”, so loss of a single “lane” results in
 	loss of redundancy only.</para>
 
 	<para role="multicite">[<emphasis role="underline">AIR</emphasis> COND CTL 1(2) A(B) FAULT,
@@ -686,8 +686,8 @@
       <sect1>
 	<title>Hot air fault</title>
 
-	<para>If the hot air pressure regulating valve is not in it's commanded position, the
-	effects will depend on it's actual position. If it is closed when commanded open, the packs
+	<para>If the hot air pressure regulating valve is not in its commanded position, the
+	effects will depend on its actual position. If it is closed when commanded open, the packs
 	will provide basic temperature regulation. More serious is if it has been commanded closed
 	in response to a duct overheat and it fails to close. Manual control may be effective, but
 	if it is not the only option is to turn off both packs and proceed as per <xref
@@ -768,7 +768,7 @@
 	when more than 3000ft above the landing altitude. An ECAM warning indicates that this
 	situation is projected to occur within the next 1½ minutes. If the rate of descent of the
 	aircraft is not reduced, the pressure controllers will have to resort to high rates of
-	change of cabin altitude, which may cause passenger discomfort. The aircraft's vertical
+	change of cabin altitude, which may cause passenger discomfort. The aircraft’s vertical
 	speed should be reduced unless there is a pressing reason not to.</para>
 
         <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> LO DIFF PR,
@@ -778,7 +778,7 @@
 	<title>Outflow valve closed on ground</title>
 
 	<para>If the outlow valve fails to automatically open on the ground, manual control should
-	be attempted. If that doesn't work, depressurise the aircraft by turning off both packs.</para>
+	be attempted. If that doesn’t work, depressurise the aircraft by turning off both packs.</para>
 
    <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN,
    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
@@ -879,7 +879,7 @@
       <sect1>
         <title>Battery only</title>
 
-        <para>Power is available for approximately 30 minutes {TODO: Can't find a reference for this - must have been
+        <para>Power is available for approximately 30 minutes {TODO: Can’t find a reference for this - must have been
         part of CBT}. QRH 1.01 provides details of remaining equipment. This is very similar to the emergency electrical
         configuration (see <xref linkend="emerg-elec-config"/>) with the additional loss of FAC1 and FMGC1. An attempt
         should be made to bring the emergency generator on line by ensuring speed is &gt;140kt and deploying the RAT
@@ -942,7 +942,7 @@
         <title>AC Bus 2 fault</title>
 
         <para>Some or all of the equipment on AC bus 2 becomes unavailable, including TR2. DC bus 2 is powered from DC
-        bus 1 via the battery bus. The majority of this equipment has a redundant backup, the loss of the FO's PFD and
+        bus 1 via the battery bus. The majority of this equipment has a redundant backup, the loss of the FO’s PFD and
         ND and a downgrade to Cat I being the major issue. Landing distances are unchanged.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC BUS 2 FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.9000]</para>
@@ -952,7 +952,7 @@
 
         <para>It may be possible to recover the bus by transferring its power source to AC BUS 2 with the AC ESS FEED
         button. If this is unsuccessful, some or all of the equipment on the AC ESS bus will be lost. The majority of
-        this equipment has a redundant backup, with the loss of the Captain's PFD and ND and a downgrade to Cat I being the
+        this equipment has a redundant backup, with the loss of the Captain’s PFD and ND and a downgrade to Cat I being the
         major issues. Landing distances are unchanged.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.10000]</para>
@@ -977,8 +977,8 @@
       <sect1>
         <title>DC Bus 2 fault</title>
 
-        <para>Some or all of the equipment on DC Bus 2 is lost. The F/O's static probe sensor is lost, so ADR3
-        should be selected on the F/O's side. FCU2 is lost, so check that the baro ref on the FCU and PFD
+        <para>Some or all of the equipment on DC Bus 2 is lost. The F/O’s static probe sensor is lost, so ADR3
+        should be selected on the F/O’s side. FCU2 is lost, so check that the baro ref on the FCU and PFD
         agree. Landing distance increases by up to 35% due to the loss of 3 ground spoilers per side and one
         reverser. Autobrake is also unavailable. Due to the loss of SFCC2, the slats and flaps will be slow
         and the engines will remain in approach idle. FAC2 is lost, so the characteristic speeds on both PFDs
@@ -1204,7 +1204,7 @@
         that flap lever position as V<subscript>MO</subscript>. In doing this, it must be remembered that slat
         deployment in CONF 2 and CONF 3 is the same (tip: think of available slat positions as being 0, 1, Intermediate
         or Full). This also affects use of the QRH table; the second dot on the slat indicator on the E/WD should be
-        considered slat 3 for the purpose of this table, not slat 2 as might be expected. The barber's pole displayed
+        considered slat 3 for the purpose of this table, not slat 2 as might be expected. The barber’s pole displayed
         for V<subscript>FE</subscript> on the PFD is a function of the flap lever position, so it may be worth initially
         selecting the flap lever to the matching CONF to have this reference available. For minimum speeds, the
         V<subscript>LS</subscript> displayed on the PFD is calculated from actual flap and slat position and can be
@@ -1298,7 +1298,7 @@
         <xref linkend="flight-controls.elac"/>). Loss of a SEC leads to loss of its associated spoilers. SEC 1 provides
         spoiler position to the FACs. If speedbrakes are deployed with SEC 1 u/s and SEC 3 operative, spoiler 2 will
         deploy without a corresponding increase in V<subscript>LS</subscript>. Therefore, do not use speedbrake if SEC 1
-        is affected (it won't do much anyway!).</para>
+        is affected (it won’t do much anyway!).</para>
 
         <para>Pairs of SECs also provide the signal for reverse thrust lever angle to the reversers and spoiler
         deployment to the autobrake. A dual SEC failure will therefore lead to a loss of a reverser and loss of
@@ -1454,7 +1454,7 @@
 
         <para>The first priority is to protect yourself, so get an oxygen mask on. The mask must be
 	set to 100% oxygen to exclude fumes; at minimum dispatch oxygen levels this will provide as
-	little as 15 minutes of protection. Pushing the "Emergency pressure selector" knob will
+	little as 15 minutes of protection. Pushing the “Emergency pressure selector” knob will
 	provide a few seconds of overpressure, which can be used to clear any smoke trapped in the
 	mask as it was donned.</para>
 
@@ -1501,7 +1501,7 @@
         depressurises the aircraft, it can only be acheived at lower levels (preferably FL100). If in emergency
         configuration, turning the APU master switch on connects the batteries for a maximum of 3 minutes and allows
         manual control of the DC powered outflow valve motor. Once at a suitable level and below 200kt, as a last resort
-        PNF's cockpit window can be opened.</para>
+        PNF’s cockpit window can be opened.</para>
 
         <para role="multicite">[QRH 1.06, FCOM 3.2.26.7000]</para>
       </sect1>
@@ -1540,7 +1540,7 @@
         <para>If depletion rates are similar, a leak from the center tank or from the APU feeding line should be
         suspected. If there is a smell of fuel in the cabin, it is likely that the APU feeding line is at fault and the
         APU should be turned off. Fuel from the center tank should be used once one of the inner tanks has
-        &lt;3000kg. {TODO: I don't understand the logic here - surely an APU feeding line leak would cause the left tank
+        &lt;3000kg. {TODO: I don’t understand the logic here - surely an APU feeding line leak would cause the left tank
         to decrease faster than the right, and why not put the center tank pumps in AUTO and use the fuel as soon as
         possible if you suspect a leak from the center tank?}</para>
 
@@ -1559,8 +1559,8 @@
 
         <para>All fuel balancing must be carried out in accordance with QRH 2.09, paying particular attention
         to the possibility of a fuel leak. Any action should be delayed until sufficient time has passed for a
-        fuel leak to become apparent. FCOM 3.2.28.26000 adds a note not found in the QRH that "there is no
-        requirement to correct an imbalance until the ECAM fuel advisory limit is displayed", an event that
+        fuel leak to become apparent. FCOM 3.2.28.26000 adds a note not found in the QRH that “there is no
+        requirement to correct an imbalance until the ECAM fuel advisory limit is displayed”, an event that
         occurs when one inner tank holds &gt;1500kg more than the other. The limitations for fuel imbalance in
         FCOM 3.1.28, however, show that the fuel advisory does not necessarily indicate that a limitation is
         likely to be breached. In particular, when the outer tanks are balanced and the heavier inner tank
@@ -1579,7 +1579,7 @@
         reliably gravity fed depends on whether the fuel has had time to deaerate. If the aircraft has been above FL300
         for more than 30 minutes, the fuel may be considered deaerated and the current flight level
         maintained. Otherwise, the fuel must be considered aerated and the gravity feed ceiling is FL300 if the aircraft
-        exceeded FL300 or FL150 if it didn't. If gravity feeding is required, descend to the gravity feed ceiling.</para>
+        exceeded FL300 or FL150 if it didn’t. If gravity feeding is required, descend to the gravity feed ceiling.</para>
 
         <para>It is also possible to gravity cross feed by side slipping the aircraft with a bank angle of 2° to 3°
         should this become necessary.</para>
@@ -1855,7 +1855,7 @@
 
         <para>The FADECs use LGCIU input to determine idle mode. If a LGCIU is determined to be faulty, the system
         failsafes to approach idle mode, and modulated idle and reverse idle (and hence reversers) will not be
-        available. {TODO: This is inferred from the information in FCOM 1.70.40 - check that it's true}.</para>
+        available. {TODO: This is inferred from the information in FCOM 1.70.40 - check that it’s true}.</para>
 
         <para>The GPWS uses LGCIU 1 to determine landing gear position. If this LGCIU is faulty, the GPWS will need to
         be inhibited to prevent spurious warnings.</para>
@@ -2000,7 +2000,7 @@
       <sect1 id="released-normal-brakes">
         <title>Released brakes, normal system</title>
         <para>If normal braking is active and at least one engine is running, the BSCU self tests when it receives a
-        "gear downlocked" signal from either of the LGCIUs. The BRAKES RELEASED ECAM is provided if at least one set of
+        “gear downlocked” signal from either of the LGCIUs. The BRAKES RELEASED ECAM is provided if at least one set of
         brakes on a main wheel is incorrectly released during this test. The failed brake is shown by an amber release
         symbol on the WHEEL page. Loss of a brake leads to increased landing distances. If both brakes on the same gear
         are released, see <xref linkend="asymmetric-braking"/>.</para>
@@ -2109,7 +2109,7 @@
 
 	<para>Firstly, the ignitors are turned on to protect the remaining engine and to confirm an
 	immediate relight attempt. The thrust lever of the failed engine is then moved to idle (PF
-	moves the lever after confirmation from PNF). If the FADEC hasn't relit the failed engine
+	moves the lever after confirmation from PNF). If the FADEC hasn’t relit the failed engine
 	within 30 seconds of the failure, it is shut down with the master switch. If damage is
 	believed to have occured, the associated fire button is pushed and, after 10 seconds, agent
 	1 discharged.</para>
@@ -2302,7 +2302,7 @@
 	<title>Fuel filter clog</title>
 
 	<para>No immediate crew action required. {TODO: I assume there is some sort of bypass
-	mechanism, but this isn't apparent from the FCOM}</para>
+	mechanism, but this isn’t apparent from the FCOM}</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FUEL FILTER CLOG, FCOM 3.2.70.1000]</para>
       </sect1>
@@ -2522,10 +2522,10 @@
         <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
 
         <para>EPGWS alerts can be categorised into warnings and cautions. A warning is any alert with the instruction
-        "Pull up" attached. All other alerts are cautions. A warning may be downgraded to a caution if flying in
+        “Pull up” attached. All other alerts are cautions. A warning may be downgraded to a caution if flying in
         daylight VMC and positive visual verification is made that no hazard exists [EOM-A 8.3.5].</para>
 
-        <para>The response to a warning is to call "Pull up, TOGA", disconnect the autopilot and simultaneously roll the
+        <para>The response to a warning is to call “Pull up, TOGA”, disconnect the autopilot and simultaneously roll the
         wings level, apply full backstick and set TOGA power. The speedbrake should then be checked retracted. Once the
         flight path is safe and the warning stops, accelerate and clean up as required.</para>
 
@@ -2538,12 +2538,12 @@
         <title>TCAS warnings <emphasis>(memory item)</emphasis></title>
 
         <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution advisories (anything
-        else). The first response to either advisory is to call "TCAS, I have control" to unequivocally establish who
+        else). The first response to either advisory is to call “TCAS, I have control” to unequivocally establish who
         will be carrying out any maneuvers. If it is a resolution advisory, the autopilot should be disconnected and the
         flight directors turned off. The autothrottle remains engaged and reverts to speed mode. A vertical maneuver
         should then be flown to keep the V/S needle out of the red areas shown on the V/S scale. ATC should then be
-        notified (e.g "Radar, Easy 123 - TCAS RA"). When clear of conflict, return to assigned level and re-engage the
-        automatics (ATC phraseology: "Radar, Easy 123 - clear of conflict, returning to FL XXX").</para>
+        notified (e.g “Radar, Easy 123 - TCAS RA”). When clear of conflict, return to assigned level and re-engage the
+        automatics (ATC phraseology: “Radar, Easy 123 - clear of conflict, returning to FL XXX”).</para>
 
         <para>If a climb resolution advisory occurs on final approach, a go around must be flown.</para>
 
@@ -2559,7 +2559,7 @@
         alignment regardless of MCDU ENP.</para>
 
         <para>In an RNP-1 (PRNAV) environment, loss of navigation accuracy may be more serious as the aircraft may be
-        below MSA when it occurs. The initial response is to notify ATC with the phrase "Unable RNAV due equipment" and
+        below MSA when it occurs. The initial response is to notify ATC with the phrase “Unable RNAV due equipment” and
         request reclearance. It is important to be aware that terrain clearance may be compromised, so an immediate
         climb above MSA should be considered if a suitable alternative navigation method (e.g. radar vectors) is not
         available.</para>
@@ -2731,7 +2731,7 @@
 
         <para>The effect of complete loss of rudder limiter functionality depends on when the failure occured. In
         general, the rudder should be used with caution when above 160kt. Full rudder travel authority can be recovered
-        at slat extension {TODO: FCOM says "can" not "will" - find out if this means "may not"}. An attempt should be
+        at slat extension {TODO: FCOM says “can” not “will” - find out if this means “may not”}. An attempt should be
         made to recover the limiter by resetting the FACs. If this is ineffective, the crosswind limit of the aircraft
         is reduced to 12kt, and differential braking may be required on the landing roll.</para>
 
@@ -2988,12 +2988,12 @@
         correct source.</para>
 
         <para>Obviously, the first thing to do is to avoid icing conditions. If there is a working ADR connected to a
-        protected probe, turn one of the ADRs associated with an unprotected probe off. This ensures that an "ADR
-        DISAGREE" ECAM caution is triggered by significant speed discrepancies and ensures that the protected ADR will
+        protected probe, turn one of the ADRs associated with an unprotected probe off. This ensures that an “ADR
+        DISAGREE” ECAM caution is triggered by significant speed discrepancies and ensures that the protected ADR will
         not be automatically deselected.</para>
 
-        <para>If pitot heat is lost on all probes, one of the ADRs should, again, be turned off to ensure the "ADR
-        DISAGREE" ECAM caution is provided. If icing is expected, turn off a second ADR and be ready to apply unreliable
+        <para>If pitot heat is lost on all probes, one of the ADRs should, again, be turned off to ensure the “ADR
+        DISAGREE” ECAM caution is provided. If icing is expected, turn off a second ADR and be ready to apply unreliable
         airspeed procedures (see <xref linkend="unreliable-airspeed"/>).</para>
 
         <para role="multicite">[<emphasis
@@ -3166,7 +3166,7 @@
           last acknowledged position report plus the flight planned times for the remainder of the flight. Arrange to be
           at the appropriate designated landing aid at this time.</para>
 
-          <para>Destination EAT is either the last acknowledged EAT or destination ETA. If "delay not determined" has
+          <para>Destination EAT is either the last acknowledged EAT or destination ETA. If “delay not determined” has
           been acknowledged, divert to alternate specified in current flight plan. Otherwise commence approach at
           destination EAT and land within 30 minutes. Watch for visual signals from the tower.</para>
 
