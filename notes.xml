@@ -24,6 +24,8 @@
         before ground to flight mode transition is complete.</para></listitem>
         <listitem><para>Added note to <xref linkend="eosid"/> that acceleration should be commenced
         prior to the first turn if the EOSID is annotated as “STD”.</para></listitem>
+        <listitem><para>Added explanation of training standards position on PA to <xref
+        linkend="emerg-descent"/>.</para></listitem>
         <listitem><para>Added note to <xref linkend="evacuation"/> detailing the conflict in the
         handling of guarded switches between the FCTM and the ATSG.</para></listitem>
         <listitem><para>Added note to <xref linkend="overweight_landing"/> that Conf 3 go around
@@ -213,10 +215,16 @@
       oxygen masks.</para>
 
       <para>Once the memory actions are complete and the aircraft is descending, PF should finesse the target altitude,
-      speed and heading. He should then take over communications and call for the emergency descent checklist. Once this is
-      complete, the Captain should make the following PA:
-        <blockquote><para>"Ladies and Gentlemen, this is the Captain. We have lost cabin pressure and are descending to a lower
-        altitude. Put your oxygen masks on and obey the instructions of the cabin crew"</para></blockquote></para>
+      speed and heading. He should then take over communications and call for the emergency descent checklist.</para> <!-- Once this is -->
+      <!-- complete, the Captain should make the following PA: -->
+        <!-- <blockquote><para>"Ladies and Gentlemen, this is the Captain. We have lost cabin pressure and are descending to a lower -->
+        <!-- altitude. Put your oxygen masks on and obey the instructions of the cabin crew"</para></blockquote></para> -->
+
+        <para>The QRH checklist calls for an announcement of the Emergency Descent on the
+        PA. Training standards have decreed that the automated PA that occurs in the event of loss
+        of cabin pressure fulfills this requirement, and thus no PA is required from the flight crew
+        during the descent. {TODO: this is just information from a TRE; I can find no reference in
+        any controlled documentation.}</para>
 
         <para>Once level, restore the aircraft to a normal configuration. When safe to do so, advise cabin crew and
         passengers that it is safe to remove their masks.</para>
