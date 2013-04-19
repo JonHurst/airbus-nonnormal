@@ -26,6 +26,8 @@
         prior to the first turn if the EOSID is annotated as “STD”.</para></listitem>
         <listitem><para>Added explanation of training standards position on PA to <xref
         linkend="emerg-descent"/>.</para></listitem>
+        <listitem><para>Modified <xref linkend="unreliable-airspeed"/> to conform to new memory
+        items (see FCOM PRO.ABN.34)</para></listitem>
         <listitem><para>Added note to <xref linkend="evacuation"/> detailing the conflict in the
         handling of guarded switches between the FCTM and the ATSG.</para></listitem>
         <listitem><para>Added note to <xref linkend="overweight_landing"/> that Conf 3 go around
@@ -312,7 +314,7 @@
         valid. Other clues may include fluctuations in readings, abnormal behavior of the
         automatics, high speed buffet or low aerodynamic noise.</para>
 
-        <para>If the aircraft flight path is in doubt, disconnect the automatics and fly the
+        <para revisionflag="changed">If the aircraft flight path is in doubt, disconnect the automatics and fly the
         following short term attitude and thrust settings to initiate a climb:
 
         <informaltable>
@@ -329,10 +331,10 @@
           </tgroup>
         </informaltable>
 
-        Flap configuration should be maintained except when a go-around is initiated with flap full,
-        in which case CONF 3 should be selected. The gear and speedbrake should be retracted. If
-        there is any doubt over the validity of altitude information, the FPV must be
-        disregarded. If altitude information is definitely good, the FPV may be used.</para>
+        If configured CONF Full, select CONF 3, otherwise flap/slat configuration should be
+        maintained. The gear and speedbrake should be retracted. If there is any doubt over the
+        validity of altitude information, the FPV must be disregarded. If altitude information is
+        definitely good, the FPV may be used.</para>
 
         <para>Once the flight path is under control and a safe altitude is attained, the aircraft
         should be transitioned into level flight. Refer to QRH ABN.34.07 to extract a ballpark thrust
