@@ -560,7 +560,7 @@
         and the remaining pack is turned off if it exceeds 9 psi. 10 minutes before landing, both packs are turned off
         and remain off, and the avionics ventilation is returned to its normal configuration.</para>
 
-        <para role="multicite">[QRH 2.01, FCOM 3.2.21.27000]</para>
+        <para role="multicite">[QRH 21.1, FCOM PRO.ABN.21]</para>
       </sect1>
 
       <sect1>
@@ -575,8 +575,8 @@
 	complete, check the position of the outflow valve and, if it is not fully closed, use manual
 	control to close it.</para>
 
-        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> EXCESS CAB_ALT,
-	FCOM 3.2.21.25000, FCOM 1.21.20.5000]</para>
+        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> EXCESS CAB ALT,
+	FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
       </sect1>
 
       <sect1 id="pack-fault">
@@ -593,7 +593,7 @@
 	required. If a PACK button FAULT light subsequently extinguishes, an attempt should be made
 	to reinstate that pack.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2)(1+2) FAULT, FCOM 3.2.21.2000, FCOM 1.21.10.6000]</para>
+	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2)(1+2) FAULT, FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
 
       </sect1>
 
@@ -606,8 +606,8 @@
 	backed up by turning off the pack. The FAULT light in the PACK button remains illuminated whilst the overheat
 	condition exists. The pack can be turned back on once it has cooled.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT, FCOM 3.2.21.1000,
-	FCOM 1.21.10.6000]</para>
+	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT, FCOM PRO.ABN.21,
+	FCOM DSC.21.10.60]</para>
       </sect1>
 
       <sect1>
@@ -619,7 +619,7 @@
 	on.</para>
 
 	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OFF,
-	FCOM 3.2.21.3000, FCOM 1.21.10.6000]</para>
+	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
 
       </sect1>
 
@@ -635,9 +635,8 @@
 	temperatures become uncomfortable, consideration should be given to turning off the affected
 	pack.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) RECUL FAULT,
-	FCOM 3.2.21.5000, FCOM 1.21.10.6000, FCOM 1.21.10.5000]</para>
-
+	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) REGUL FAULT,
+	FCOM PRO.ABN.21, FCOM 21.10.60]</para>
       </sect1>
 
       <sect1 >
@@ -646,8 +645,8 @@
 	<para>Each ACSC has two fully redundant "lanes", so loss of a single "lane" results in
 	loss of redundancy only.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> COND CTL 1(2)_A(B) FAULT,
-	FCOM 3.2.21.38000, FCOM 1.21.10.6000]</para>
+	<para role="multicite">[<emphasis role="underline">AIR</emphasis> COND CTL 1(2) A(B) FAULT,
+	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
 
       </sect1>
 
@@ -663,8 +662,9 @@
 	cycling the HOT AIR button. If recovery is not possible, basic temperature regulation will
 	continue to be provided by the packs.</para>
 
-	<para role="multicite">[<emphasis role="underline">COND</emphasis> FWD
-	CAB/AFT CAB/CKPT DUCT OVHT, FCOM 3.2.21.6000, FCOM 1.21.10.5000, FCOM 1.21.10.6000]</para>
+	<para role="multicite">[<emphasis role="underline">
+   COND</emphasis> FWD CAB/AFT CAB/CKPT DUCT OVHT,
+   FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
 
       </sect1>
 
@@ -679,7 +679,7 @@
 	linkend="pack-fault"/>.</para>
 
 	<para role="multicite">[<emphasis role="underline">COND</emphasis> HOT AIR FAULT,
-	FCOM 3.2.21.10000, FCOM 1.21.10.6000]</para>
+	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
 
       </sect1>
 
@@ -698,10 +698,9 @@
 	regarding response to overpressure when this does not apply. Investigate further.}</para>
 
 	<para role="multicite">[<emphasis role="underline">COND</emphasis> TRIM AIR SYS FAULT,
-	FCOM 3.2.21.11000, FCOM 1.21.10.3000, FCOM 1.21.10.6000]</para>
+	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
 
       </sect1>
-
       <sect1>
 	<title>Cabin fan faults</title>
 
@@ -709,7 +708,7 @@
 	HI.</para>
 
 	<para role="multicite">[<emphasis role="underline">COND</emphasis> L + R CAB FAN FAULT,
-	FCOM 3.1.21.22000]</para>
+	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
 
       </sect1>
 
@@ -728,8 +727,8 @@
 	the same level as the cockpit duct temperature, and may therefore be controlled with the
 	cockpit temperature selector.</para>
 
-	<para role="multicite">[<emphasis role="underline">COND</emphasis> L + R CAB FAN FAULT,
-	FCOM 3.2.21.23000]</para>
+	<para role="multicite">[<emphasis role="underline">COND</emphasis> LAV + GALLEY FAN FAULT,
+	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
 
       </sect1>
 
@@ -743,7 +742,8 @@
 	can be verified. It may also react too slowly to prevent a temporary
 	depressurization.</para>
 
-        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SYS 1(2)(1+2) FAULT, FCOM 3.2.21.26000]</para>
+        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SYS 1(2)(1+2) FAULT,
+        FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
       </sect1>
 
       <sect1>
@@ -757,16 +757,16 @@
 	speed should be reduced unless there is a pressing reason not to.</para>
 
         <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> LO DIFF PR,
-	FCOM 3.2.21.28000, FCOM 1.21.20.5000]</para>
+	FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
       </sect1>
-
       <sect1>
 	<title>Outflow valve closed on ground</title>
 
 	<para>If the outlow valve fails to automatically open on the ground, manual control should
 	be attempted. If that doesn't work, depressurise the aircraft by turning off both packs.</para>
 
-        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN, FCOM 3.2.21.30000]</para>
+   <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN,
+   FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
       </sect1>
 
       <sect1>
@@ -781,8 +781,8 @@
 	<para>If diff pressure is below zero, it is the negative differential valve. Reduce aircraft
 	vertical speed or expect high cabin rates.</para>
 
-        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SAFETY VALVE OPEN, FCOM
-	3.2.21.33000, FCOM 1.21.20.5000]</para>
+        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SAFETY VALVE OPEN,
+        FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
       </sect1>
 
       <sect1>
@@ -794,7 +794,7 @@
 	involvement of DC ESS BUS fault}</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> BLOWER FAULT,
-	FCOM 3.2.21.34000, FCOM 1.21.30.7000]</para>
+	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
       </sect1>
 
       <sect1>
@@ -805,7 +805,7 @@
 	conditioning system.</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> EXTRACT FAULT,
-	FCOM 3.2.21.35000, FCOM 1.21.30.7000]</para>
+	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
       </sect1>
 
       <sect1>
@@ -823,7 +823,7 @@
 	be depressurized {TODO: find out why}.</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> SKIN VALVE FAULT,
-	FCOM 3.2.21.36000, FCOM 1.21.30.7000]</para>
+	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
       </sect1>
 
       <sect1>
@@ -835,7 +835,7 @@
 	crew action is required.</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> AVNCS SYS FAULT,
-	FCOM 3.2.21.37000, FCOM_1.21.30.7000]</para>
+	FCOM PRO.ABN.21, FCOM_DSC.21.30.70]</para>
       </sect1>
 
     </chapter>
