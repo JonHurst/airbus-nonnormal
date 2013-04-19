@@ -866,27 +866,27 @@
         manually if required) and maintain speed &gt;140kt to avoid RAT stall. Cycling FAC 1 will recover rudder
         trim. Once 45 seconds have elapsed and when below FL250, the APU can be started.</para>
 
-        <para>So much equipment is lost in the emergency configuration that QRH 1.01 provides a table of surviving
+        <para>So much equipment is lost in the emergency configuration that QRH 24.1 provides a table of surviving
         equipment. Notable losses are all the fuel pumps (so ignition on, avoid negative G, center tank fuel is
         unusable), the anti-skid and three fifths of the spoilers. Landing speeds and distances are increased
         significantly.</para>
 
-        <para>QRH 1.05 provides a paper summary which should be applied once ECAM actions are complete.</para>
+        <para>QRH 24.4 provides a paper summary which should be applied once ECAM actions are complete.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER CONFIG,
-        QRH 1.01, QRH 1.05, FCOM 1.24.20.5000, FCOM 3.2.24.17000]</para>
+        QRH 24.1, QRH 24.4, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>Battery only</title>
 
         <para>Power is available for approximately 30 minutes {TODO: Can’t find a reference for this - must have been
-        part of CBT}. QRH 1.01 provides details of remaining equipment. This is very similar to the emergency electrical
+        part of CBT}. QRH 24.1 provides details of remaining equipment. This is very similar to the emergency electrical
         configuration (see <xref linkend="emerg-elec-config"/>) with the additional loss of FAC1 and FMGC1. An attempt
         should be made to bring the emergency generator on line by ensuring speed is &gt;140kt and deploying the RAT
         with the EMER ELEC PWR MAN ON button.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> ESS BUSES ON BAT,
-        QRH 1.01, FCOM 1.24.20.5000, FCOM 3.2.24.19000]</para>
+        QRH 24.1, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>IDG low oil pressure/ high oil temperature</title>
@@ -897,7 +897,7 @@
         <para>The APU generator should be used if available.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> IDG 1(2) OIL LO PR/OVHT,
-        FCOM 1.24.20.5000, FCOM 3.2.24.1000]</para>
+        FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>Generator fault</title>
@@ -911,7 +911,7 @@
         loss of CAT III DUAL capability.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis>(APU) GEN (1)(2) FAULT,
-        FCOM 1.24.20.5000, FCOM 3.2.24.{2,4}000]</para>
+        FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>Battery fault</title>
@@ -920,7 +920,7 @@
         battery.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> BAT 1(2) FAULT,
-        FCOM 1.24.20.5000, FCOM 3.2.24.5000]</para>
+        FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>AC Bus 1 fault</title>
@@ -932,11 +932,10 @@
 
         <para>Notable lost equipment includes the blue hydraulic system and associated services (including spoiler 3),
         radio altimeter 1 (and hence Cat III capability), half the fuel pumps, the nose wheel steering, the avionics
-        blower fan and p1 windshield heat. Landing distance will increase by up to 25% {TODO: There is a discrepancy
-        between QRH 2.32 and FCOM 3.2.80.12000 - check once new FCOM 3 is issued}.</para>
+        blower fan and p1 windshield heat.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC BUS 1 FAULT,
-        FCOM 1.24.20.5000, FCOM 3.2.24.8000]</para>
+        FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>AC Bus 2 fault</title>
@@ -945,7 +944,7 @@
         bus 1 via the battery bus. The majority of this equipment has a redundant backup, the loss of the FO’s PFD and
         ND and a downgrade to Cat I being the major issue. Landing distances are unchanged.</para>
 
-        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC BUS 2 FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.9000]</para>
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC BUS 2 FAULT, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>AC Ess Bus fault</title>
@@ -955,7 +954,7 @@
         this equipment has a redundant backup, with the loss of the Captain’s PFD and ND and a downgrade to Cat I being the
         major issues. Landing distances are unchanged.</para>
 
-        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.10000]</para>
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS FAULT, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
 
       </sect1>
       <sect1>
@@ -964,7 +963,7 @@
         <para> Some or all of the equipment on the AC ESS SHED bus is lost. The major issue is the loss of the passenger
         oxygen masks. Landing distances are unchanged.</para>
 
-        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS SHED, FCOM 1.24.20.5000, FCOM 3.2.24.11000]</para>
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS SHED, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>DC Bus 1 fault</title>
@@ -972,7 +971,7 @@
         <para>Some or all of the equipment on DC Bus 1 is lost. Most of the equipment loss causes loss of
         redundancy only. Landing distances are unchanged.</para>
 
-        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1 FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.12000]</para>
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1 FAULT, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>DC Bus 2 fault</title>
@@ -987,7 +986,7 @@
         <para>The other lost systems either have redundant backups or are non-essential. It should be noted
         that the only flight computers remaining are ELAC 1, SEC 1 and FAC 1.</para>
 
-        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 2 FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.13000]</para>
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 2 FAULT, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>DC Essential Bus fault</title>
@@ -1009,7 +1008,7 @@
         <para>Landing capability is Cat 2 due to the loss of the auto-thrust. The ECAM status page incorrectly
         reports Cat 3 single.</para>
 
-        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC ESS BUS FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.14000]</para>
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC ESS BUS FAULT, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>DC Essential shed</title>
@@ -1017,7 +1016,7 @@
         <para>The only major issue is the loss of wing anti-ice. Therefore, avoid icing conditions, and apply
         landing distance procedure if ice accretes.</para>
 
-        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC ESS BUS SHED, FCOM 1.24.20.5000, FCOM 3.2.24.15000]</para>
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC ESS BUS SHED, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1 id="dc-1and2">
         <title>Loss of DC Bus 1 and DC Bus 2</title>
@@ -1036,7 +1035,7 @@
 
         <para>All other systems are relatively insignificant or have redundant backups.</para>
 
-        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT, FCOM 1.24.20.5000, FCOM 3.2.24]</para>
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT, FCOM DSC.24.30, FCOM 3.2.24]</para>
       </sect1>
       <sect1>
         <title>Generator overload</title>
@@ -1044,7 +1043,7 @@
         <para>Shed some load by switching off the galleys.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> GEN 1(2) OVERLOAD, <emphasis
-        role="underline">ELEC</emphasis> APU GEN OVERLOAD, FCOM 1.24.20.5000, FCOM 3.2.24.21000]</para>
+        role="underline">ELEC</emphasis> APU GEN OVERLOAD, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
 
       </sect1>
       <sect1>
@@ -1054,7 +1053,7 @@
         Cat 3 single will be available.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> TR 1(2), <emphasis
-        role="underline">ELEC</emphasis> ESS TR FAULT, FCOM 1.24.20.5000, FCOM 3.2.24.22000 ]</para>
+        role="underline">ELEC</emphasis> ESS TR FAULT, FCOM DSC.24.30, FCOM PRO.ABN.24 ]</para>
 
       </sect1>
       <sect1 id="dc-bat">
@@ -1064,7 +1063,7 @@
         detection and APU battery start.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BAT BUS FAULT,
-        FCOM 1.24.20.5000, FCOM 3.2.24.23000]</para>
+        FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>DC Emergency configuration</title>
@@ -1077,7 +1076,7 @@
         addition, a minimum of 140kt must be maintained to avoid RAT stall. This combination leads to an
         extreme increase in landing distance requirement.</para>
 
-        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC EMER CONFIG, FCOM 1.24.20.5000, FCOM 3.2.24.24000]</para>
+        <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC EMER CONFIG, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>Static inverter fault</title>
@@ -1085,7 +1084,7 @@
         <para>Normal operations are not affected.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> STAT INV FAULT,
-        FCOM 1.24.20.5000, FCOM 3.2.24.25000]</para>
+        FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
 
       </sect1>
       <sect1>
@@ -1096,7 +1095,7 @@
         be off, turn it on.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER GEN 1 LINE OFF,
-        FCOM 1.24.20.5000, FCOM 3.2.24.26000]</para>
+        FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>Tripped circuit breakers</title>
@@ -1110,7 +1109,7 @@
         <para>The ECAM warning will be triggered if a green circuit breaker trips.</para>
 
         <para role="multicite">[<emphasis role="underline">C/B</emphasis> TRIPPED,
-        FCOM 1.24.20.5000, FCOM 3.2.24.27000 ]</para>
+        FCOM DSC.24.30, FCOM PRO.ABN.24 ]</para>
       </sect1>
 
 
