@@ -2,7 +2,7 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "file:///usr/share/sgml/docbook/xml-dtd-4.4/docbookx.dtd">
 <book id="airbus-nonnormal">
   <title>Airbus A320 Family Non-Normal Notes</title>
-  <subtitle>Version 1.0</subtitle>
+  <subtitle>Version 1.1</subtitle>
   <preface>
     <title>Change log</title>
     <sect1>
@@ -14,6 +14,24 @@
 
       <para>Change bars will be incorporated into the printed version as soon as they are supported
       by the Apache Formatting Objects Processor.</para>
+    </sect1>
+    <sect1>
+      <title>Changes since version 1.0</title>
+      <itemizedlist>
+        <listitem><para>All citations and external cross references updated to account for new style
+        FCOM, FCTM and QRH and renumbering in EOM-A and EOM-B.</para></listitem>
+        <listitem><para>Added note to <xref linkend="efato"/> to warn against selection of TOGA
+        before ground to flight mode transition is complete.</para></listitem>
+        <listitem><para>Added note to <xref linkend="evacuation"/> detailing the conflict in the
+        handling of guarded switches between the FCTM and the ATSG.</para></listitem>
+        <listitem><para>Added note to <xref linkend="overweight_landing"/> that Conf 3 go around
+        limit will never be limiting for airfields with elevations below 1000ft.</para></listitem>
+        <listitem><para>Added note to <xref linkend="se_vmc"/> that the "Determine landing flaps"
+        box refers to checking missed approach gradient in the overweight landing
+        checklist.</para></listitem>
+        <listitem><para>Added note to <xref linkend="se_circling"/> regarding anticipated landing
+        gear warnings if circling at low levels without the gear deployed.</para></listitem>
+      </itemizedlist>
     </sect1>
     <sect1>
       <title>Changes since version 0.7.1</title>
@@ -45,7 +63,7 @@
   </preface>
   <chapter>
     <title>Operating techniques</title>
-    <sect1>
+    <sect1 id="rejected_takeoff">
       <title>Rejected Takeoff</title>
 
       <para>The decision to reject rests solely with CM1. This decision is communicated with the words "Stop" or
@@ -77,20 +95,26 @@
       <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming the
       spoilers.</para>
 
-      <para role="multicite">[EOM B.3.2.10, FCOM 3.2.10.1000]</para>
+      <para role="multicite">[EOMB 3.10, FCOM PRO.ABN.10, FCTM A0-020]</para>
 
       </sect1>
-      <sect1>
+      <sect1 id="efato">
         <title>Failures during takeoff when above V1</title>
 
-        <para>If an engine has lost thrust, apply rudder conventionally on the runway. At
-        V<subscript>r</subscript> rotate to 12½° at a slightly reduced rate. When airborne, select
-        TOGA (FLX may be used but this tends to allow speed to decay unless pitch is reduced),
-        adjust and trim rudder to maintain &beta; target and request "pull heading". If the EOSID
-        follows the track of the cleared SID, NAV may be used, but this is very rare with easyJet
-        EOSIDs. Bank angle should be limited to 15° when more than 3kt below maneuvering speed for
-        the current configuration. Engage the autopilot once gear is up and rudder is
-        trimmed.</para>
+        <para revisionflag="changed">If an engine has lost thrust, apply rudder conventionally on the runway. At
+        V<subscript>r</subscript> rotate to 12½° at a slightly reduced rate. When the ground to
+        flight mode transition is complete<footnote><para>Introducing TOGA during the ground to
+        flight mode transition (commences as the pitch increases through 8°, complete after 5
+        seconds) results in a pitch up moment at a time where the effect of stick pitch control is
+        not wholly predictable: the stick will need to be moved forward of neutral to counteract the
+        introduced pitch moment and then returned to neutral as flight mode blends in. A slight
+        pause before selecting TOGA results in much more normal and predictable
+        handling.</para></footnote>, select TOGA (FLX may be used but this tends to allow speed to
+        decay unless pitch is reduced), adjust and trim rudder to maintain &beta; target and request
+        "pull heading". If the EOSID follows the track of the cleared SID, NAV may be used, but this
+        is very rare with easyJet EOSIDs. Bank angle should be limited to 15° when more than 3kt
+        below maneuvering speed for the current configuration. Engage the autopilot once gear is up
+        and rudder is trimmed.</para>
 
         <para>Whilst below 400ft, the only failure related actions should be:
         <itemizedlist>
@@ -119,7 +143,7 @@
         by PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors
         and any guarded switch must be confirmed with PF.</para>
 
-        <para role="multicite">[FCOM 3.2.10.2000]</para>
+        <para role="multicite">[FCOM PRO.ABN.10, FCTM A0-020]</para>
       </sect1>
         <sect1 id="eosid">
           <title>EOSID</title>
@@ -131,8 +155,8 @@
           plan and follow the white line.</para>
 
           <para>If beyond the divergence point, pull heading and make an <emphasis>immediate</emphasis> turn
-          the shortest way onto the EOSID. Airbus specifically recommends against this in FCOM 4.4.30, but
-          easyJet states it as policy in EOMB 4.2.3.</para>
+          the shortest way onto the EOSID. Airbus specifically recommends against this in DSC.22_20.60.40, but
+          easyJet states it as policy in EOMB 4.4.4.</para>
 
           <para>Electing to fly the EOSID implies a level acceleration segment:
 
@@ -141,7 +165,7 @@
             speed, up to a limit of V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX
             climb is permissable. This climb is continued until all high priority tasks are complete and the
             aircraft is at or above acceleration altitude. For the engine failure and the engine fire
-            cases, EOMB 4.2.3 specifically defines the high priority tasks. For an engine failure, all ECAM actions up to
+            cases, EOMB 4.4.4 specifically defines the high priority tasks. For an engine failure, all ECAM actions up to
             and including the master switch being turned off must be completed. For the engine fire case all
             ECAM actions up to and including firing the first squib must be completed. If the fire warning
             light does not extinguish both squibs must be fired.</para></listitem>
@@ -157,6 +181,9 @@
           </itemizedlist>
 
           TOGA may be used for a maximum of 10 minutes.</para>
+
+	  <para role="multicite">[EOMB 4.4.4, FCOM DSC.22_20.60.40]</para>
+
         </sect1>
 
   </chapter>
@@ -189,7 +216,7 @@
         <para>Once level, restore the aircraft to a normal configuration. When safe to do so, advise cabin crew and
         passengers that it is safe to remove their masks.</para>
 
-      <para role="multicite">[EOM B.3.2.80, QRH 1.25, FCOM 3.2.80.4000]</para>
+      <para role="multicite">[EOMB 3.80.2, QRH ABN.80.05, FCOM PRO.ABN.80, FCTM A0.90]</para>
       </sect1>
       <sect1>
         <title>Windshear <emphasis>(memory item)</emphasis></title>
@@ -221,7 +248,7 @@
           already be selected, this will have no immediate effect. Once clear of the windshear, however, TOGA
           LK will be active, requiring the autothrust to be disconnected to avoid an overspeed.</para>
 
-          <para role="multicite">[FCOM 3.2.80.13000]</para>
+          <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80.10]</para>
         </sect2>
         <sect2>
           <title>Predictive</title>
@@ -248,7 +275,7 @@
           approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a maximum of
           V<subscript>LS</subscript>+15.</para>
 
-          <para role="multicite">[FCOM 3.2.80.14000, FCOM 3.4.91]</para>
+          <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80.10]</para>
         </sect2>
       </sect1>
       <sect1 id="unreliable-airspeed">
@@ -316,13 +343,13 @@
         provide stall warning from the alpha probes. Tables are provided in section ABN.34.07 of the
         QRH to enable all phases of flight to be flown using just pitch and thrust
         settings. Acceleration and clean up are carried out in level flight. Flap 1 can be selected
-        as soon as climb thrust is selected, flap 0 once the S speed pitch attitudes in the table on
-        QRH 2.15 are reached. Configuration for approach is also carried out in level flight,
-        stabilising in each configuration using the technique described above. The approach is flown
-        in CONF 3 at an attitude that should result in VLS+10 when flying a 3° glide. Landing
-        distance will be increased.</para>
+        as soon as climb thrust is selected, flap 0 once the appropriate S speed pitch attitude from
+        the table on the first page of QRH ABN.34.07 is reached. Configuration for approach is also
+        carried out in level flight, stabilising in each configuration using the technique described
+        above. The approach is flown in CONF 3 at an attitude that should result in VLS+10 when
+        flying a 3° glide. Landing distance will be increased.</para>
 
-        <para role="multicite">[QRH 2.15, FCOM 3.2.34.30000]</para>
+        <para role="multicite">[QRH ABN.34.07, FCOM PRO.ABN.34, FCTM A0.034]</para>
       </sect1>
       <sect1>
         <title>Incapacitation <emphasis>(memory item)</emphasis></title>
@@ -332,13 +359,13 @@
         the body can be moved. Medical help should be sought from passengers, and the presence of any type rated company
         pilots on board ascertained.</para>
 
-        <para role="multicite">[FCOM 3.2.80.6000]</para>
+        <para role="multicite">[FCOM PRO.ABN.80, FCTM A0.090]</para>
       </sect1>
       <sect1 id="ditching">
         <title>Ditching</title>
 
-        <para>The QRH 1.23 procedure applies if the engines are running. If the engines are not running, refer to QRH
-        1.16 or QRH 1.20 which include ditching.</para>
+        <para>The QRH ABN.80.03 procedure applies if the engines are running. If the engines are not
+        running, refer to the dual engine failure procedures (QRH ABN.70.01) which include ditching.</para>
 
         <para>Preparation for ditching involves notifying ATC in order to expedite rescue, preparing survival equipment
         and securing the aircraft for impact. The GPWS should be inhibited to prevent nuisance warnings. The crew oxygen
@@ -355,13 +382,14 @@
         buttons, discharge all agents (engine agent 2 may not be available) and evacuate the aircraft. {TODO: There is a
         discrepancy between engines operative/ inoperative regarding use of the fire buttons after stopping}</para>
 
-        <para role="multicite">[QRH 1.23, QRH 1.16, QRH 1.20, FCOM 3.2.80]</para>
+        <para role="multicite">[QRH ABN.80.03, QRH ABN.70.01, FCOM PRO.ABN.80]</para>
       </sect1>
       <sect1 id="forced-landing">
         <title>Forced landing</title>
 
-        <para>The QRH 1.24 procedure applies if the engines are running. If the engines are not running, refer to QRH
-        1.16 or QRH 1.20 which include forced landing.</para>
+        <para>The QRH ABN.80.04 procedure applies if the engines are running. If the engines are not
+        running, refer to the dual engine failure procedures (QRH ABN.70.01) which include forced
+        landing.</para>
 
         <para>Preparation for forced landing involves notifying ATC in order to expedite rescue, preparing survival equipment
         and securing the aircraft for impact. The GPWS should be inhibited to prevent nuisance warnings. The crew oxygen
@@ -377,7 +405,7 @@
         not be available) and evacuate the aircraft.{TODO: There is a discrepancy between engines operative/ inoperative
         regarding use of the fire buttons after stopping}</para>
 
-        <para role="multicite">[QRH 1.24, QRH 1.16 &amp; 1.20, FCOM 3.2.80.3000]</para>
+        <para role="multicite">[QRH ABN.80.04, QRH ABN.70.01, FCOM PRO.ABN.80]</para>
       </sect1>
       <sect1 id="evacuation">
         <title>Evacuation</title>
@@ -389,29 +417,34 @@
         <para>The first two items confirm the RTO actions of stopping the aircraft, setting the parking brake and
         alerting the cabin crew. The next item confirms ATC has been alerted.</para>
 
-        <para>The next four items prepare the aircraft for evacuation. If manual cabin pressure has been used, CM2
-        checks cabin diff is zero, and if necessary manually opens the outflow valve. CM2 then shuts the engines down
-        with their master switches, and pushes all the fire buttons (including the APU). Confirmation is not required
-        before carrying out these actions {TODO: This is not clear from EOM B, but incorporates the FCTM
-        instruction}. CM1 does, however, respond "Confirmed" in response to the checklist items once they have been
-        actioned. In response to the next checklist item, "Agents", CM1 decides if any extinguishing agents should be
-        discharged and instructs CM2 to discharge them as required. Engine agent 2 will not be available. Agents should
-        only be discharged if there are positive signs of fire.</para>
+        <para revisionflag="changed">The next four items prepare the aircraft for evacuation. If
+        manual cabin pressure has been used, CM2 checks cabin diff is zero, and if necessary
+        manually opens the outflow valve. CM2 then shuts the engines down with their master
+        switches, and pushes all the fire buttons (including the APU). FCTM AO.020 indicates that
+        confirmation is not required before carrying out these actions, but the Airbus Training
+        Study Guide issued by the training department specifies that cross confirmation should be
+        carried out exactly as if airborne. In theory, but possibly not in practice, the FCTM
+        supercedes the ATSG. In response to the next checklist item, "Agents", CM1 decides if any
+        extinguishing agents should be discharged and instructs CM2 to discharge them as
+        required. Engine agent 2 will not be available. Agents should only be discharged if there
+        are positive signs of fire.</para>
 
         <para>Finally, order the evacuation. This is primarily done with the PA "Evacuate, unfasten your seat belts and
         get out", with the evacuation alarm being triggered as a backup.</para>
 
-        <para role="multicite">[EOM B.3.2.80, QRH 7.01, FCOM 3.2.80, FCTM 03.020]</para>
+        <para role="multicite">[EOMB 3.80.1, FCOM PRO.ABN.80, FCTM AO.020]</para>
       </sect1>
-      <sect1>
+      <sect1 id="overweight_landing">
         <title>Overweight landing</title>
 
-        <para>A landing can be made at any weight, providing sufficient landing distance is available. Automatic
-        landings are certified up to MLW, but flight tests have demonstrated autoland capability to 69000kg in case of
-        emergency. The preferred landing configuration is CONF&nbsp;FULL, but lower settings may be used if required by
-        QRH/ECAM procedures or if aircraft weight exceeds the CONF&nbsp;3 go around limit (see QRH 2.25). Packs should
-        be turned off to provide additional go around thrust. If planned landing configuration is less than FULL, use
-        1+F for go-around.</para>
+        <para revisionflag="changed">A landing can be made at any weight, providing sufficient
+        landing distance is available. Automatic landings are certified up to MLW, but flight tests
+        have demonstrated autoland capability to 69000kg in case of emergency. The preferred landing
+        configuration is CONF&nbsp;FULL, but lower settings may be used if required by QRH/ECAM
+        procedures. QRH ABN.80.06 also specifies CONF 3 if the aircraft weight exceeds the
+        CONF&nbsp;3 go around limit; this will only ever be a factor for airfields with elevations
+        above 1000ft. Packs should be turned off to provide additional go around thrust. If planned
+        landing configuration is less than FULL, use 1+F for go-around.</para>
 
         <para>It is possible that S speed will be higher than V<subscript>FE&nbsp;next</subscript> for CONF 2. In this case,
         a speed below V<subscript>FE&nbsp;next</subscript> should be selected until CONF 2 is acheived, then managed speed
@@ -422,16 +455,17 @@
         braking can be used after nosewheel touchdown. After landing, switch on the brake fans and monitor brake
         temperatures carefully. If temperatures exceed 800°C, tyre deflation may occur.</para>
 
-        <para role="multicite">[QRH 2.25, FCOM 3.2.80.5000]</para>
+        <para role="multicite">[QRH 80.12, FCOM PRO.ABN.80]</para>
       </sect1>
-      <sect1>
+      <sect1 id="se_vmc">
         <title>Immediate VMC recovery with single engine</title>
-        <para>Fly circuit in CONF 1. Select CONF 2 at start of base turn. Gear will usually be extended once flaps have
-        run to 2, but may be delayed until final approach if performance is an issue. Select CONF 3 once gear is down
-        and CONF full when on final approach. {TODO: Check how climb gradient/ flap decision is
-	determined.}</para>
+        <para revisionflag="changed">Fly circuit in CONF 1. If landing overweight check the
+        appropriate landing flap configuration using the table on QRH 80.12. Select CONF 2 at start
+        of base turn. Gear will usually be extended once flaps have run to 2, but may be delayed
+        until final approach if performance is an issue. Select CONF 3 once gear is down and CONF
+        full, if required, when on final approach.</para>
 
-	<para role="multicite">[FCOM 3.2.10.3000]</para>
+	<para role="multicite">[FCOM_PRO.ABN.10]</para>
       </sect1>
       <sect1>
         <title>Engine failure in cruise</title>
@@ -443,12 +477,18 @@
         give a shallow climbing profile. Once obstacles are no longer a problem, descend to LRC ceiling (use V/S if
         &lt;500 fpm descent rate), engage the autothrust and continue at LRC speed.
         </para>
+
+        <para role="multicite">[FCOM PER.OEI.GEN.10]</para>
       </sect1>
-      <sect1>
+      <sect1 id="se_circling">
         <title>Single engine circling</title>
-        <para>It may not be possible to fly level in the standard circling configuration of CONF 3 gear down. This can
-        be ascertained by checking the table in QRH 2.50. Gear extension may be delayed until final approach if
-        required.</para>
+        <para revisionflag="changed">It may not be possible to fly level in the standard circling
+        configuration of CONF 3 gear down. This can be ascertained by checking the table in
+        QRH 80.1. Gear extension may be delayed until final approach if required; the L/G NOT DOWN
+        warning which will occur if circling below 750ft can be silenced with the EMER CANC pb, and
+        a TOO LOW GEAR should be anticipated if below 500ft RA.</para>
+
+        <para role="multicite">[QRH 80.1]</para>
       </sect1>
       <sect1 id="bomb">
         <title>Bomb on board</title>
@@ -469,6 +509,7 @@
         <para>In the cabin, procedures are laid down for assessing the risks of moving the device and for moving the
         device to the LRBL at door 2R.</para>
 
+        <para role="multicite">[FCOM PRO.ABN.80, QRH 80.3]</para>
       </sect1>
       <sect1>
         <title>Stall recovery <emphasis>(memory item)</emphasis></title>
@@ -487,19 +528,25 @@
         <para>A stall warning may occur at high altitude to indicate that the aircraft is reaching
         &alpha;<subscript>buffet</subscript>. In this case simply reduce the back pressure on the
         sidestick and/or reduce bank angle.</para>
+
+        <para role="multicite">[FCOM PRO.ABN.80, QRH 80.3]</para>
       </sect1>
       <sect1>
         <title>Computer reset</title>
-        <para>Abnormal computer behaviour can often be stopped by interupting the power supply of the affected
-        computer. This can be done either with cockpit controls or with circuit breakers. The general procedure is to
-        interupt the power supply, wait 3 seconds (5 seconds if a C/B was used), restore the power, then wait another
-        three seconds for the reset to complete. Specific procedures are detailed in the computer reset tables on page
-        2.36 of the QRH.</para>
+        <para>Abnormal computer behaviour can often be stopped by interupting the power supply of
+        the affected computer. This can be done either with cockpit controls or with circuit
+        breakers. The general procedure is to interupt the power supply, wait 3 seconds (5 seconds
+        if a C/B was used), restore the power, then wait another three seconds for the reset to
+        complete. Specific procedures are detailed in the computer reset tables startin on page
+        80.22 of the QRH.</para>
 
         <para>On the ground, almost all computers can be reset. The exceptions are the ECU and EIU while the associated
         engine is running and the BDCU when the aircraft is not stopped.</para>
 
-        <para>In flight, only the computers listed in the reset table should be considered for reset.</para>
+        <para>In flight, only the computers listed in the reset table should be considered for
+        reset.</para>
+
+        <para role="multicite">[QRH 80.22, FCOM PRO.SUP.24]</para>
       </sect1>
     </chapter>
     <chapter id="aircon-press-vent">
