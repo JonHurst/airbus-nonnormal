@@ -1527,7 +1527,7 @@
 
         <para>Whenever a non-normal fuel event occurs, the possibility that the underlying cause of the event is a fuel
         leak should be considered. Only when a fuel leak has been categorically ruled out should the cross-feed valve be
-        opened.[FCTM 3.28]</para>
+        opened.</para>
 
         <para>The primary method used to detect fuel leaks is a regular check that actual fuel remaining corresponds to
         expected fuel remaining and that fuel used plus fuel remaining corresponds to fuel at engine start. The latter
@@ -1557,17 +1557,17 @@
         <para>In an emergency, a landing may be carried out with maximum fuel imbalance.</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> F USED/FOB DISAGREE,
-	QRH 2.08, FCOM 3.2.28.24000, FCOM 3.2.28.25000]</para>
+        QRH ABN.28.1, FCOM PRO.ABN.28]</para>
       </sect1>
       <sect1>
         <title>Fuel imbalance</title>
 
-        <para>All fuel balancing must be carried out in accordance with QRH 2.09, paying particular attention
+        <para>All fuel balancing must be carried out in accordance with QRH ABN.28.1, paying particular attention
         to the possibility of a fuel leak. Any action should be delayed until sufficient time has passed for a
-        fuel leak to become apparent. FCOM 3.2.28.26000 adds a note not found in the QRH that “there is no
+        fuel leak to become apparent. FCOM PRO.ABN.28 adds a note not found in the QRH that “there is no
         requirement to correct an imbalance until the ECAM fuel advisory limit is displayed”, an event that
         occurs when one inner tank holds &gt;1500kg more than the other. The limitations for fuel imbalance in
-        FCOM 3.1.28, however, show that the fuel advisory does not necessarily indicate that a limitation is
+        FCOM LIM.28, however, show that the fuel advisory does not necessarily indicate that a limitation is
         likely to be breached. In particular, when the outer tanks are balanced and the heavier inner tank
         contains &le;2250kg, there are no imbalance limitations. Furthermore, the aircraft handling is not
         significantly impaired even at maximum imbalance. </para>
@@ -1575,7 +1575,7 @@
         <para>To balance the fuel, open the cross-feed valve and turn the lighter side pumps and the center tank pumps
         off.</para>
 
-        <para role="multicite">[QRH 2.09, FCOM 3.28.26000, FCOM 3.1.28]</para>
+        <para role="multicite">[QRH ABN.28.1, FCOM 3.28.26000, FCOM LIM.28]</para>
       </sect1>
       <sect1 id="gravity-feeding">
         <title>Gravity fuel feeding</title>
@@ -1589,7 +1589,7 @@
         <para>It is also possible to gravity cross feed by side slipping the aircraft with a bank angle of 2° to 3°
         should this become necessary.</para>
 
-        <para role="multicite">[QRH 2.09, FCOM 3.2.28.28000]</para>
+        <para role="multicite">[QRH ABN.28.5, FCOM PRO.ABN.28]</para>
       </sect1>
       <sect1>
         <title>Wing tank pump(s) low pressure</title>
@@ -1604,7 +1604,7 @@
 
         <para role="multicite">[<emphasis
         role="underline">FUEL</emphasis> L(R) TK PUMP 1(2)(1+2) LO PR, FCOM 3.2.38.1000 ,
-        FCOM 3.2.38.2000, FCOM 1.28.20.7000]</para>
+        FCOM 3.2.38.2000, FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>Center tank pumps low pressure</title>
@@ -1617,8 +1617,8 @@
         <para>Failure of both center tank pumps makes the fuel in the center tank unusable.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">FUEL</emphasis> CTR TK PUMP(S)(1(2)) LO PR, FCOM 3.2.28.21000,
-        FCOM 3.2.28.22000, FCOM 1.28.20.7000]</para>
+        role="underline">FUEL</emphasis> CTR TK PUMP(S)(1(2)) LO PR, FCOM PRO.ABN.28,
+        FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>Auto feed fault</title>
@@ -1627,7 +1627,7 @@
         wing tank fuel &gt;5000kg or center tank fuel is exhausted.</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> AUTO FEED FAULT,
-        FCOM 3.2.28.23000, FCOM 1.28.20.7000]</para>
+        FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>Low fuel level</title>
@@ -1642,7 +1642,7 @@
         be less than final reserve on landing.[EOMA 8.3.7.2]</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis>(R)(L+R) WING TK LO LVL,
-	FCOM 3.2.28.3000, FCOM 3.2.28.4000, FCOM 1.28.20.7000]</para>
+	FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>Outer tank transfer valves failed closed</title>
@@ -1652,7 +1652,7 @@
         if the total fuel in either wing is the same [FCOM 3.1.28.1000].</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) XFR VALVE CLOSED,
-        FCOM 3.2.28.6000, FCOM 1.28.20.7000]</para>
+        FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>Outer tank transfer valve open out of sequence</title>
@@ -1661,7 +1661,7 @@
         3.1.28.1000], so no action is required.</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) XFR VALVE OPEN,
-        FCOM 3.2.28.7000, FCOM 1.28.20.7000]</para>
+        FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>Cross-feed valve fault</title>
@@ -1670,7 +1670,7 @@
         has failed closed, crossfeeding is unavailable.</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> FEED VALVE FAULT,
-        FCOM 3.2.28.8000, FCOM 1.28.20.7000]</para>
+        FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>Low fuel temperature</title>
@@ -1679,8 +1679,8 @@
         limits. If in flight, descending or increasing speed should be considered.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK LO TEMP, FCOM 3.2.28.11000,
-        FCOM 3.2.28.12000, FCOM 1.38.20.7000]</para>
+        role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK LO TEMP, FCOM PRO.ABN.28,
+        FCOM PRO.ABN.28, FCOM 1.38.20.7000]</para>
       </sect1>
       <sect1>
         <title>High fuel temperature</title>
@@ -1704,7 +1704,7 @@
 
         <para role="multicite">[<emphasis
         role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK HI TEMP,
-        FCOM 3.2.28.14000. FCOM 1.38.20.7000]</para>
+        FCOM PRO.ABN.28, FCOM 1.38.20.7000]</para>
       </sect1>
 
     </chapter>
@@ -1718,7 +1718,7 @@
         used. Use of the parking brake in this way risks tire burst and lateral control difficulties (due brake onset
         assymetry) so delay until low speed if at all possible.</para>
 
-        <para role="multicite">[QRH 1.13, FCOM 3.2.32.20000]</para>
+        <para role="multicite">[QRH ABN.32.1, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1>
         <title>Residual braking procedure</title>
@@ -1730,7 +1730,7 @@
         braking system, use autobrake MED or immediate manual braking to prioritise the normal system. Anticipate brake
         assymetry at touchdown.</para>
 
-        <para role="multicite">[QRH 2.10B, FCOM 3.2.32.23000]</para>
+        <para role="multicite">[QRH ABN.32.1, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1 id="gear-gravity-extension">
         <title>Gravity extension</title>
@@ -1745,16 +1745,16 @@
         <para>Gear doors may show amber on the WHEEL page after gravity extension. There may also be spurious LGCIU 2
         FAULT or BRAKES SYS 1(2) FAULT ECAM warnings.</para>
 
-        <para role="multicite">[QRH 2.11, FCOM 3.2.32.4000]</para>
+        <para role="multicite">[QRH ABN.32.2, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1 id="asymmetric-braking">
         <title>Asymmetric braking</title>
         <para>If brakes are only available on one side (indicated by amber brake release indicators on both wheels of
         one main gear {TODO: check this} ), apply the remaining brake progressively whilst countering swing
         with rudder. Do not use the reverse on the same side as the working brake. Landing distances will increase
-        significantly so check QRH 2.32 for landing distance factor.</para>
+        significantly.</para>
 
-        <para role="multicite">[QRH 2.11, FCOM 3.2.32.32000, FCOM 1.32.30]</para>
+        <para role="multicite">[QRH ABN.32.5, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1>
         <title>Landing with abnormal landing gear</title>
@@ -1779,7 +1779,7 @@
 
         <para>All doors and slides are available for evacuation in any of the normal gear up attitudes.</para>
 
-        <para role="multicite">[QRH 2.12, FCOM 3.2.32.11000]</para>
+        <para role="multicite">[QRH ABN.32.3, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1 id="flight-with-gear-extended">
         <title>Flight with landing gear extended</title>
@@ -1794,10 +1794,10 @@
         not select flaps or slats below 200kt {TODO: find out why this is.}</para>
 
         <para>Performance in all phases will be affected. In particular, approach climb limiting weights for go-around
-        (see FCOM 3.5.35) must be reduced by 14%. Fuel burn will increase (approximate factor is 2.3). Engine out
-        ceiling and take-off performance are also impacted. Tables for calculation are available in FCOM 2.4.25.</para>
+        (see FCOM PRO.SPO.25) must be reduced by 14%. Fuel burn will increase (approximate factor is 2.3). Engine out
+        ceiling and take-off performance are also impacted.</para>
 
-        <para role="multicite">[FCOM 2.4.25]</para>
+        <para role="multicite">[FCOM PRO.SPO.25]</para>
       </sect1>
       <sect1>
         <title>Gear shock absorber fault</title>
@@ -1807,7 +1807,7 @@
         linkend="flight-with-gear-extended"/>.</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> SHOCK ABSORBER FAULT,
-        FCOM 3.2.32.1000, FCOM 1.32.10.4000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
       </sect1>
       <sect1>
         <title>Gear not uplocked</title>
@@ -1816,7 +1816,7 @@
         does not work, select the gear down and see <xref linkend="flight-with-gear-extended"/>.</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT UPLOCKED,
-        FCOM 3.2.32.2000, FCOM 1.32.10.4000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
       </sect1>
       <sect1 id="gear-not-downlocked">
         <title>Gear not downlocked</title>
@@ -1828,7 +1828,7 @@
         deploy the gear by gravity (see <xref linkend="gear-gravity-extension"/>).</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWNLOCKED,
-        OEB 209, FCOM 3.2.32.3000, FCOM 1.32.10.4000]</para>
+        OEB 44, FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
       </sect1>
       <sect1>
         <title>Gear doors not closed</title>
@@ -1837,7 +1837,7 @@
         250kt/M0.6.</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> DOORS NOT CLOSED,
-        FCOM 3.2.32.5000, FCOM 1.32.10.4000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
       </sect1>
       <sect1>
         <title>Uplock fault</title>
@@ -1845,7 +1845,7 @@
         gear the gear must be left down. See <xref linkend="flight-with-gear-extended"/>.</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR UPLOCK FAULT,
-        FCOM 3.2.32.6000, FCOM 1.32.10.4000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
       </sect1>
       <sect1>
         <title>LGCIU disagreement</title>
@@ -1853,14 +1853,14 @@
         can be assumed to agree with the gear lever position.</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> SYS DISAGREE,
-        FCOM 3.2.32.8000, FCOM 1.32.10.4000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
       </sect1>
       <sect1>
         <title>LGCIU fault</title>
 
         <para>The FADECs use LGCIU input to determine idle mode. If a LGCIU is determined to be faulty, the system
         failsafes to approach idle mode, and modulated idle and reverse idle (and hence reversers) will not be
-        available. {TODO: This is inferred from the information in FCOM 1.70.40 - check that it’s true}.</para>
+        available.</para>
 
         <para>The GPWS uses LGCIU 1 to determine landing gear position. If this LGCIU is faulty, the GPWS will need to
         be inhibited to prevent spurious warnings.</para>
@@ -1870,7 +1870,7 @@
         find out why this is}</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> LGCIU 1(2) FAULT,
-        FCOM 3.2.32.9000, FCOM 1.32.10.4000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
       </sect1>
       <sect1>
         <title>Gear not down</title>
@@ -1881,7 +1881,7 @@
         cancel pushbutton.</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWN,
-        FCOM 3.2.32.10000, FCOM 1.32.10.4000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
       </sect1>
       <sect1>
         <title>Park brake on</title>
@@ -1889,7 +1889,7 @@
         handle position and for pressure indications on the brake triple gauge.</para>
 
         <para role="multicite">[<emphasis role="underline">CONFIG</emphasis> PARK BRK ON,
-        FCOM 3.2.32.12000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Nosewheel steering fault</title>
@@ -1898,7 +1898,7 @@
         touch down as long as possible. Cat III dual will not be available.</para>
 
         <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> N/W STRG FAULT,
-        FCOM 3.2.32.14000, FCOM 1.32.20.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.20.30]</para>
       </sect1>
       <sect1 id="antiskid-nosewheel-steering-off">
         <title>Antiskid nosewheel steering off</title>
@@ -1907,7 +1907,7 @@
         significantly. Autobrake and nosewheel steering will also not be available.</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ANTI SKID/NWS OFF,
-        FCOM 3.2.32.15000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Antiskid nosewheel steering fault</title>
@@ -1921,14 +1921,14 @@
           pressure is low braking will be accumulator only.</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> A/SKID NWS FAULT,
-        FCOM 3.2.32.15000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Brake system fault</title>
         <para>A fault has been detected in one channel of the BSCU. Loss of redundancy only.</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> SYS 1(2) FAULT,
-        FCOM 3.2.32.17000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Brakes hot</title>
@@ -1944,15 +1944,15 @@
         <para>If the warning appears in flight, providing that performance permits, the landing gear should be extended
         to allow the brakes to cool.</para>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> HOT, FCOM 3.2.32.18000,
-        FCOM 1.32.30.3000]</para>
+        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> HOT, FCOM PRO.ABN.32,
+        FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Auto brake fault</title>
         <para>A failure was detected when the autobrake was armed. Brake manually.</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> AUTO BRK FAULT,
-        FCOM 3.2.32.19000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Hydraulic selector valve fault</title>
@@ -1969,7 +1969,7 @@
         </para>
 
         <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> HYD SEL FAULT,
-        FCOM 3.2.32.21000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Failure of normal braking system</title>
@@ -1977,21 +1977,21 @@
         slightly.</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM BRK FAULT,
-        FCOM 3.2.32.26000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Failure of alternate braking system</title>
         <para>Loss of redundancy only.</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN BRK FAULT,
-        FCOM 3.2.32.30000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Failure of normal and alternate braking systems</title>
         <para>The only braking remaining is the parking brake. See <xref linkend="loss-of-braking"/> for method.</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM + ALTN FAULT,
-        FCOM 3.2.32.25000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Brake accumulator low pressure</title>
@@ -2000,7 +2000,7 @@
         the aircraft, use chocks.</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> BRK Y ACCU LO PR,
-        FCOM 3.2.32.27000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1 id="released-normal-brakes">
         <title>Released brakes, normal system</title>
@@ -2011,7 +2011,7 @@
         are released, see <xref linkend="asymmetric-braking"/>.</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> RELEASED,
-        FCOM 3.2.32.28000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Released brakes, alternate system</title>
@@ -2021,14 +2021,14 @@
         <xref linkend="asymmetric-braking"/>).</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN L(R) RELEASED,
-        FCOM 3.2.32.28000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
       <sect1>
         <title>Minor nosewheel steering fault</title>
         <para>{TODO: Its not very clear from the FCOM what this refers to}</para>
 
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> N/WS MINOR FAULT,
-        FCOM 3.2.32.29000, FCOM 1.32.30.3000]</para>
+        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
 
       <sect1 id="brake-temperature-limitations">
@@ -2044,7 +2044,7 @@
           <listitem><para>A fuse plug has melted</para></listitem>
         </itemizedlist></para>
 
-        <para role="multicite">[FCOM 3.4.32.3000]</para>
+        <para role="multicite">[FCOM PRO.SUP.32]</para>
       </sect1>
     </chapter>
     <chapter id="power-plant">
