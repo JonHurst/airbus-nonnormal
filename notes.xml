@@ -1131,7 +1131,7 @@
         check if it is relevant to Airbus}</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R)(L+R) ELEV FAULT,
-        FCOM 1.27.40.8000, FCOM 3.2.27.23000, FCOM 3.2.27.25000]</para>
+        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
 
       </sect1>
       <sect1>
@@ -1149,7 +1149,7 @@
         problem. The procedure in this case is similar, but Normal Law will remain.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM,
-        QRH 2.07, FCOM 1.27.40.8000, FCOM 3.2.27.32000, FCOM 3.2.27.33000]</para>
+        QRH ABN.27.3, FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>Aileron faults</title>
@@ -1157,7 +1157,7 @@
         <para>The lateral aircraft handling is not adversely affected even if both ailerons fail, as the systems
         compensate by using the spoilers. Fuel consumption will, however, increase by approximately 6%.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R) AIL FAULT, FCOM 1.27.40.8000, FCOM 3.2.27.22000]</para>
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R) AIL FAULT, FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1 id="spoiler-faults" >
         <title>Spoiler faults</title>
@@ -1166,7 +1166,7 @@
 
         <para>If the spoiler failes in the retracted position, handling should not be adversely affected. A CONF 3
         landing may reduce any buffeting that is encountered. Speed brake should not be used if spoilers 3 + 4 are
-        affected. The loss of ground spoilers will increase landing distances by up to 55% (details in QRH 2.32).</para>
+        affected. The loss of ground spoilers will signigicantly increase landing distances.</para>
 
 	<para>Airbus have identified a failure scenario that leads to high pressure hydraulic fluid reaching the extend
 	chamber of a spoiler actuator via a failed o-ring. This has the effect of a spoiler failing in the fully
@@ -1177,8 +1177,8 @@
 	V<subscript>APP</subscript> and LDG DIST factors are available in OEB 208/1.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT, OEB 208/1, FCOM 1.27.40.8000,
-        FCOM 3.2.27.26000, FCOM 3.2.27.27000]</para>
+        role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT, OEB 208/1, FCOM DSC.27.20.40,
+        FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>Rudder Jam</title>
@@ -1190,14 +1190,14 @@
         applies. Control on the ground will require differential braking until the steering handle can be used (below
         70kt), so landing distances are increased. Do not use autobrake.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> RUDDER JAM, QRH 2.06,
-        FCOM 1.27.40.8000, FCOM 3.2.27.34000]</para>
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> RUDDER JAM, QRH ABN.27.3,
+        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1 id="flight-controls.slats-flaps-fault">
         <title>Flaps and/or slats fault/locked</title>
 
         <para>The most pressing concern following a flap or slat problem is to establish a max operating speed that will
-        avoid overspeeding the device in its locked position. A table is provided on page 2.05 of the QRH for this
+        avoid overspeeding the device in its locked position. A table is provided on page ABN.27.2 of the QRH for this
         purpose, but a quick estimation can be made by establishing what flap lever position would be required to get
         the device into its current position and using V<subscript>FE</subscript> for the configuration associated with
         that flap lever position as V<subscript>MO</subscript>. In doing this, it must be remembered that slat
@@ -1212,19 +1212,19 @@
         <para>Unless there is an obvious reason not to (e.g. wing tip brake on, alignment fault or fault due to dual
         hydraulic failure), the flap lever can be recycled.</para>
 
-        <para>If normal operation cannot be restored, there are two major issues that must be quickly
-        addressed. Firstly, fuel burn will be dramatically higher when flying with a locked device. With slats extended,
-        fuel burn will increase by 60%. With flaps extended it will increase by 80%. With slats and flaps extended, fuel
-        burn will double. The paragraph at the bottom of page 2.05 of the QRH provides these figures. The second issue
-        is that landing distances are significantly increased, in the worst case by a factor of 2.2. Landing distance
-        can be assessed using the tables on page 2.32 and 4.03 of the QRH. It may be that the combination of these
-        factors requires a fairly prompt diversion decision.</para>
+        <para>If normal operation cannot be restored, there are two major issues that must be
+        quickly addressed. Firstly, fuel burn will be dramatically higher when flying with a locked
+        device. With slats extended, fuel burn will increase by 60%. With flaps extended it will
+        increase by 80%. With slats and flaps extended, fuel burn will double. The paragraph at the
+        bottom of page ABN.27.2 of the QRH provides these figures. The second issue is that landing
+        distances are significantly increased, in the worst case by a factor of 2.2. It may be that
+        the combination of these factors requires a fairly prompt diversion decision.</para>
 
         <para>The flap and slat systems are largely independent, so the flap lever will continue to move the slats if
         the flaps are locked and vice versa. In general, flap 3 should be selected for landing. There are two
         exceptions. If flaps are locked at &gt;3, flap full should be used. If both slats and flaps are locked at 0,
         flap 1 should be used so that the AP/FD go-around is armed. Configurations and V<subscript>REF</subscript>
-        increments are available on page 2.32 of the QRH. If a flapless and slatless landing is required, the threshold
+        increments are available on page FPE.IFL.27.A.1 of the QRH. If a flapless and slatless landing is required, the threshold
         speed in may be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this configuration
         are very close to tyre limit speeds.</para>
 
@@ -1258,8 +1258,8 @@
         is sequenced to the slats) and possible reversion to Alternate Law.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED), QRH 2.03, FCOM 1.27.50.3000,
-        FCOM 3.2.27.1000, FCOM 3.2.27.2000, FCOM 3.2.27.3000, FCOM 3.2.27.4000]</para>
+        role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED), QRH ABN.27.1, FCOM DSC.27.30.30,
+        FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>SFCC faults</title>
@@ -1272,8 +1272,8 @@
         linkend="flight-controls.slats-flaps-fault"/>. </para>
 
         <para role="multicite">[<emphasis
-	role="underline">F/CTL</emphasis> FLAP(SLAT) SYS 1(2) FAULT, FCOM 1.27.50.3000,
-	FCOM 3.2.27.5000, FCOM 3.2.27.6000]</para>
+	role="underline">F/CTL</emphasis> FLAP(SLAT) SYS 1(2) FAULT, FCOM DSC.27.30.30,
+	FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1 id="flight-controls.elac">
         <title>ELAC fault</title>
@@ -1288,7 +1288,7 @@
         <para>If the fault is designated a pitch fault, only the pitch function of the associated ELAC is lost.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ELAC 1(2) FAULT,
-	FCOM 1.27.40.8000, FCOM 3.2.27.11000, FCOM 3.2.27.12000]</para>
+	FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>SEC fault</title>
@@ -1310,7 +1310,7 @@
         <para>An attempt should be made to reset the affected SEC(s).</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SEC 1(2)(3) FAULT,
-        FCOM 1.27.40.8000, FCOM 3.2.27.14000]</para>
+        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>FCDC faults</title>
@@ -1324,7 +1324,7 @@
         V<subscript>&alpha;&#x2011;max</subscript>) are not shown and the stall warning system becomes active.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FCDC 1(2)(1+2) FAULT,
-        FCOM 1.27.40.8000, FCOM 3.2.27.20000]</para>
+        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1 id="direct-law">
         <title>Direct Law</title>
@@ -1337,7 +1337,7 @@
         increase by a factor of 1.2.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> DIRECT LAW,
-        FCOM 1.27.40.15000, FCOM 3.2.27.000]</para>
+        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1 id="alternate-law">
         <title>Alternate Law</title>
@@ -1350,10 +1350,10 @@
         EGPWS maneuvers.</para>
 
         <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and hence increased
-        approach speeds and landing distances (see QRH 2.32).</para>
+        approach speeds and landing distances (see QRH FPE.IFL.27).</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ALTN LAW,
-        FCOM 1.27.40.8000, FCOM 3.2.27.18000]</para>
+        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>Wingtip brake fault</title>
@@ -1362,8 +1362,8 @@
         movements. This protection is lost.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">F/CTL</emphasis> FLAP(SLAT) TIP BRK FAULT, FCOM 1.27.50.3000,
-        FCOM 3.2.27.7000]</para>
+        role="underline">F/CTL</emphasis> FLAP(SLAT) TIP BRK FAULT, FCOM DSC.27.30.30,
+        FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>Flap attach sensor failure</title>
@@ -1372,7 +1372,7 @@
         would indicate failure of a flap attachment. This protection is lost.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAP ATTACH SENSOR,
-        FCOM 1.27.50.3000, FCOM 3.2.27.9000]</para>
+        FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>Flight control servo faults</title>
@@ -1381,7 +1381,7 @@
         use speedbrake above V<subscript>MO</subscript>/M<subscript>MO</subscript> applies.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> AIL(ELEV) SERVO FAULT,
-	FCOM 1.27.40.8000, FCOM 3.2.27.21000, FCOM 3.2.27.24000]</para>
+	FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>Speed brake disagree</title>
@@ -1392,7 +1392,7 @@
         malfunction consider the speedbrakes unserviceable.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK DISAGREE,
-        FCOM 1.27.40.8000, FCOM 3.2.27.28000]</para>
+        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>Speed brake fault</title>
@@ -1402,7 +1402,7 @@
         landing distances should not be affected.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK (2)(3+4) FAULT,
-        FCOM 1.27.40.8000, FCOM 3.2.27.29000]</para>
+        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>Stiff sidestick/ rudder pedals</title>
@@ -1411,7 +1411,7 @@
         pedals and one sidestick. Control forces will remain moderate and the aircraft remains responsive. Confirm
         autopilot disengagement and consider transferring control if one of the sidesticks is unaffected.</para>
 
-        <para role="multicite">[QRH 2.07, FCOM 3.2.27.42000]</para>
+        <para role="multicite">[QRH ABN.27.2, FCOM PRO.ABN.27]</para>
       </sect1>
 
       <sect1 id="sidestick-transducer">
@@ -1482,12 +1482,12 @@
         of the AC busses due to the negative interaction that this procedure had with the battery chargers. Instead,
         emergency electrical configuration (see <xref linkend="emerg-elec-config"/>) is adopted immediately. The
         electrical system should be restored just before deploying the gear. Note that since you will not be able to
-        restore the two IRs that were depowered, the landing will be in Direct Law and hence CONF 3. Refer to QRH 2.32
-        for V<subscript>App</subscript> and LDR factor. This is not mentioned in QRH 1.06, and is only mentioned on the
+        restore the two IRs that were depowered, the landing will be in Direct Law and hence CONF 3. Refer to QRH FPE.IPL.27.1
+        for V<subscript>App</subscript> and LDR factor. This is not mentioned in QRH ABN.26.3, and is only mentioned on the
         ECAM once gear is extended.</para>
 
-        <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH 1.06,
-        FCOM 3.2.26.6000]</para>
+        <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH ABN.26.3,
+        FCOM PRO.ABN.26]</para>
       </sect1>
       <sect1 id="smoke-fumes-removal">
         <title>Smoke/ fumes removal</title>
@@ -1502,15 +1502,21 @@
         manual control of the DC powered outflow valve motor. Once at a suitable level and below 200kt, as a last resort
         PNF’s cockpit window can be opened.</para>
 
-        <para role="multicite">[QRH 1.06, FCOM 3.2.26.7000]</para>
+        <para role="multicite">[QRH ABN.26.1, FCOM PRO.ABN.26]</para>
       </sect1>
       <sect1>
         <title>Engine fire</title>
         <para>The basic sequence is to bring the thrust lever of the affected engine to idle, turn off its engine
         master, push its fire button, wait 10 seconds then deploy its first fire bottle. If the fire is not extinguished
-        after 30 seconds, indicated by the fire button remaining lit, deploy the second bottle. This sequence is
-        modified on the ground in that both fire bottles are fired immediately, and the remaining engine is then also
-        shut down.</para>
+        after 30 seconds, indicated by the fire button remaining lit, deploy the second
+        bottle.</para>
+
+        <para>This sequence is modified on the ground in that both fire bottles are fired
+        immediately, and the remaining engine is then also shut down. Note that shutting down both
+        engines without the APU running will leave only batteries, resulting in loss of all COMS
+        except VHF1 and loss of ECAM reference for the final actions.</para>
+
+        <para role="multicite">[<emphasis role="underline">ENG 1(2) FIRE</emphasis>, FCOM PRO.ABN.26]</para>
       </sect1>
 
     </chapter>
