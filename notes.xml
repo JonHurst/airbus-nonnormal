@@ -256,7 +256,7 @@
           remains to reject the takeoff, or whether getting airborne below V<subscript>r</subscript> would be the better
           option. If the takeoff is to be continued in windshear conditions, call “Windshear, TOGA” and apply TOGA
           power.  Rotate at V<subscript>r</subscript> or with sufficient runway remaining and follow SRS orders. {TODO:
-          This is Boeing advice - Airbus offers no advice if there is insufficient runway available to rotate at normal
+          This is Boeing advice – Airbus offers no advice if there is insufficient runway available to rotate at normal
           speeds}. SRS will maintain a minimum rate of climb, even if airspeed must be sacrificed.</para>
 
           <para>If a warning occurs when airborne, call “Windshear, TOGA”, apply TOGA power and maintain current
@@ -441,7 +441,7 @@
 
         <para>Evacuation should be carried out in accordance with the emergency evacuation checklist. The easyJet
         procedure is for CM1 to call for the checklist and then send a Mayday message to ATC before commencing the
-        checklist. {TODO: this strikes me as a bit of an odd order to do things - check its correct}</para>
+        checklist. {TODO: this strikes me as a bit of an odd order to do things – check its correct}</para>
 
         <para>The first two items confirm the RTO actions of stopping the aircraft, setting the parking brake and
         alerting the cabin crew. The next item confirms ATC has been alerted.</para>
@@ -499,7 +499,7 @@
       <sect1>
         <title>Engine failure in cruise</title>
         <para>Set MCT on live engine then disconnect the autothrust. Start ECAM actions and notify ATC. Decide on
-        strategy - standard strategy increases the chance of an engine relight, whilst obstacle strategy maintains the
+        strategy – standard strategy increases the chance of an engine relight, whilst obstacle strategy maintains the
         greatest possible obstacle clearance. If using standard strategy select speed .78/300kt. If using obstacle
         strategy select green dot speed. Select altitude to LRC ceiling or green dot ceiling as appropriate to allow
         drift down once speed is reached. If obstacles remain a problem, MCT and green dot speed can be maintained to
@@ -893,7 +893,7 @@
       <sect1>
         <title>Battery only</title>
 
-        <para>Power is available for approximately 30 minutes {TODO: Can’t find a reference for this - must have been
+        <para>Power is available for approximately 30 minutes {TODO: Can’t find a reference for this – must have been
         part of CBT}. QRH 24.1 provides details of remaining equipment. This is very similar to the emergency electrical
         configuration (see <xref linkend="emerg-elec-config"/>) with the additional loss of FAC1 and FMGC1. An attempt
         should be made to bring the emergency generator on line by ensuring speed is &gt;140kt and deploying the RAT
@@ -1141,7 +1141,7 @@
         reverts to mechanical back up and roll reverts to direct law. For the approach fly a long final, initiating the
         descent from at least 5000ft AAL. Do not try to flare using trim and do not remove power until after
         touchdown. From 1000ft AAL, try to keep power changes to within 2% N1. In the event of a go-around, power
-        <emphasis>must</emphasis> be applied very slowly if control is not to be lost.{TODO: This is Boeing advice -
+        <emphasis>must</emphasis> be applied very slowly if control is not to be lost.{TODO: This is Boeing advice –
         check if it is relevant to Airbus}</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R)(L+R) ELEV FAULT,
@@ -1187,7 +1187,7 @@
 	extended position. In this case, the autopilot does not necessarily have sufficient authority to control the
 	aircraft, and it should be disconnected. Fuel burn will increase significantly; FMGC fuel predictions do not
 	account for the failure and should be disregarded. Green dot speed will minimize this increased fuel burn, but
-	may not be viable if there is excessive buffet - attempt to find a compromise speed. Landing will be flap 3;
+	may not be viable if there is excessive buffet – attempt to find a compromise speed. Landing will be flap 3;
 	V<subscript>APP</subscript> and LDG DIST factors are available in OEB 208/1.</para>
 
         <para role="multicite">[<emphasis
@@ -1559,7 +1559,7 @@
         <para>If depletion rates are similar, a leak from the center tank or from the APU feeding line should be
         suspected. If there is a smell of fuel in the cabin, it is likely that the APU feeding line is at fault and the
         APU should be turned off. Fuel from the center tank should be used once one of the inner tanks has
-        &lt;3000kg. {TODO: I don’t understand the logic here - surely an APU feeding line leak would cause the left tank
+        &lt;3000kg. {TODO: I don’t understand the logic here – surely an APU feeding line leak would cause the left tank
         to decrease faster than the right, and why not put the center tank pumps in AUTO and use the fuel as soon as
         possible if you suspect a leak from the center tank?}</para>
 
@@ -1737,7 +1737,7 @@
       <sect1>
         <title>Residual braking procedure</title>
         <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM warning. {TODO:
-        This is in 3.3.18 but not in ezy-b - check whether our brake systems are modified}. A brief brake pressure
+        This is in 3.3.18 but not in ezy-b – check whether our brake systems are modified}. A brief brake pressure
         indication is expected as the alternate system self tests after the gear is down locked, but pressure should
         quickly return to zero. If the triple indicator shows residual pressure after this test, try to zero it by
         pressing the brake pedals several times. If a landing must be made with residual pressure in the alternate
@@ -1799,7 +1799,7 @@
         <title>Flight with landing gear extended</title>
 
         <para>Flight into expected icing conditions is not approved. Gear down ditching has not been demonstrated. FMGC
-        predictions will be erroneous - selected speed should be used for all phases except approach. Altitude alerting
+        predictions will be erroneous – selected speed should be used for all phases except approach. Altitude alerting
         will not be available. Any failure that normally causes a degradation to alternate law will instead cause a
         degradation to direct law.</para>
 
@@ -1880,7 +1880,7 @@
         be inhibited to prevent spurious warnings.</para>
 
         <para>If both LGCIUs are lost, normal landing gear control and indicating systems are lost. The gear must be
-        gravity extended (see <xref linkend="gear-gravity-extension"/>). {TODO: Autopilot and autothrust are also lost -
+        gravity extended (see <xref linkend="gear-gravity-extension"/>). {TODO: Autopilot and autothrust are also lost –
         find out why this is}</para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> LGCIU 1(2) FAULT,
@@ -2094,7 +2094,7 @@
         extend the gear.</para>
 
         <para>If an airfield can be reached, cross the outer marker at twice the normal height with CONF 1, gear up. For
-        a clean aircraft, the following rules of thumb apply {TODO: these are Boeing rules - check that they hold for
+        a clean aircraft, the following rules of thumb apply {TODO: these are Boeing rules – check that they hold for
         Airbus}:
         <itemizedlist>
           <listitem>
@@ -2235,7 +2235,7 @@
 
         <para>In flight, if no ECAM is triggered, the affected thrust lever should be retarded to idle. If the engine
         parameters remain abnormal, shut the engine down with the master switch. If the parameters are normal, turn on
-        all the anti-icing to increase bleed demand {TODO: This is inferred - check it} and slowly advance the thrust
+        all the anti-icing to increase bleed demand {TODO: This is inferred – check it} and slowly advance the thrust
         lever. If the stall recurs, the engine can be operated at low thrust settings, otherwise it can be operated
         normally.</para>
 
@@ -2256,7 +2256,7 @@
         cranking. Firstly, a source of bleed air must be available to power the starter. Possibilities, in order of
         preference, are the APU, the opposite engine or a ground air cart. If using the opposite engine, the source
         engine bleed must be on, the target engine bleed should be off, the cross bleed should be opened and thrust
-        increased to provide 30 psi of pressure. {TODO: This is just the crossbleed start procedure from 3.4.70.4000 -
+        increased to provide 30 psi of pressure. {TODO: This is just the crossbleed start procedure from 3.4.70.4000 –
         check that there are no differences}. If using ground air, both engine bleeds should be off and the cross bleed
         opened. Once high pressure air is available, select the engine mode selector to crank and select the man start
         button to on. Once the fire is extinguished, select the man start button off and the engine mode selector to
@@ -2561,8 +2561,8 @@
         will be carrying out any maneuvers. If it is a resolution advisory, the autopilot should be disconnected and the
         flight directors turned off. The autothrottle remains engaged and reverts to speed mode. A vertical maneuver
         should then be flown to keep the V/S needle out of the red areas shown on the V/S scale. ATC should then be
-        notified (e.g “Radar, Easy 123 - TCAS RA”). When clear of conflict, return to assigned level and re-engage the
-        automatics (ATC phraseology: “Radar, Easy 123 - clear of conflict, returning to FL XXX”).</para>
+        notified (e.g “Radar, Easy 123 – TCAS RA”). When clear of conflict, return to assigned level and re-engage the
+        automatics (ATC phraseology: “Radar, Easy 123 – clear of conflict, returning to FL XXX”).</para>
 
         <para>If a climb resolution advisory occurs on final approach, a go around must be flown.</para>
 
@@ -2605,7 +2605,7 @@
         <para>Loss of two ADRs will lead to Alternate Law with associated speed restrictions and landing configuration
         considerations. Air data switching is used as necessary, and the affected ADRs are turned off. ATC switching may
         be required to restore transponder. If ADR 1 and 3 are lost, the landing gear safety valve is controlled closed,
-        so the gear must be gravity extended and cannot subsequently be retracted. This is not mentioned by the ECAM -
+        so the gear must be gravity extended and cannot subsequently be retracted. This is not mentioned by the ECAM –
         the gear will simply fail to extend normally.</para>
 
         <para>Loss of all ADRs requires reversion to standby instruments. Disregard ECAM actions as the ECAM procedures
@@ -2712,7 +2712,7 @@
         <para>If both FACs are lost characteristic speed calculation is not available. All FAC controlled systems are
         lost, with the combined effects detailed in <xref linkend="yaw-damper"/>, <xref linkend="rudder-trim"/> and
         <xref linkend="rudder-limit"/>.{TODO FCOM has a 12kt crosswind limit for rudder travel limiter failure, but none
-        for dual FAC failure - is it implicit or do you get multiple ECAMs}</para>
+        for dual FAC failure – is it implicit or do you get multiple ECAMs}</para>
 
         <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FAC 1(2)(1+2) FAULT,
         FCOM 1.2.22.60.2000, FCOM 1.2.22.7000, FCOM 1.2.22.8000]</para>
@@ -2750,7 +2750,7 @@
 
         <para>The effect of complete loss of rudder limiter functionality depends on when the failure occured. In
         general, the rudder should be used with caution when above 160kt. Full rudder travel authority can be recovered
-        at slat extension {TODO: FCOM says “can” not “will” - find out if this means “may not”}. An attempt should be
+        at slat extension {TODO: FCOM says “can” not “will” – find out if this means “may not”}. An attempt should be
         made to recover the limiter by resetting the FACs. If this is ineffective, the crosswind limit of the aircraft
         is reduced to 12kt, and differential braking may be required on the landing roll.</para>
 
@@ -2859,7 +2859,7 @@
 	2 is available, alternate braking is available and nose wheel steering is available. Landing distances
 	approximately double.</para>
 
-	<para>Go around is straightforward - the gear cannot be retracted and the flap configuration should be
+	<para>Go around is straightforward – the gear cannot be retracted and the flap configuration should be
 	maintained. Simply select V<subscript>FE</subscript>&#x2011;10. For diversion, the flaps can be retracted. With
 	the gear remaining down, fuel burn will increase by a factor of approximately 2.3.</para>
 
