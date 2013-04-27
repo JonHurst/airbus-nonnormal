@@ -512,12 +512,13 @@
       <sect1 id="se_circling">
         <title>Single engine circling</title>
         <para revisionflag="changed">It may not be possible to fly level in the standard circling
-        configuration of CONF 3 gear down. This can be ascertained by checking the table in
-        QRH 80.1. Gear extension may be delayed until final approach if required; the L/G NOT DOWN
-        warning which will occur if circling below 750ft can be silenced with the EMER CANC pb, and
-        a TOO LOW GEAR should be anticipated if below 500ft RA.</para>
+        configuration of CONF 3 gear down. This can be ascertained by checking the table in QRH ABN.80
+        CIRCLING APPROACH WITH ONE ENGINE OPERATIVE. Gear extension may be delayed until final
+        approach if required; the L/G NOT DOWN warning which will occur if circling below 750ft can
+        be silenced with the EMER CANC pb, and a TOO LOW GEAR should be anticipated if below 500ft
+        RA.</para>
 
-        <para role="multicite">[QRH 80.1]</para>
+        <para role="multicite">[QRH ABN.80]</para>
       </sect1>
       <sect1 id="bomb">
         <title>Bomb on board</title>
