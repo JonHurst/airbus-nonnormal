@@ -392,8 +392,9 @@
       <sect1 id="ditching">
         <title>Ditching</title>
 
-        <para>The QRH ABN.80.03 procedure applies if the engines are running. If the engines are not
-        running, refer to the dual engine failure procedures (QRH ABN.70.01) which include ditching.</para>
+        <para>The QRH ABN.80 DITCHING procedure applies if the engines are running. If the engines are not
+        running, refer to the appropriate QRH ABN.70 <emphasis role="underline">ENG</emphasis> DUAL FAILURE
+        procedure, both of which include ditching.</para>
 
         <para>Preparation for ditching involves notifying ATC in order to expedite rescue, preparing survival equipment
         and securing the aircraft for impact. The GPWS should be inhibited to prevent nuisance warnings. The crew oxygen
@@ -415,9 +416,9 @@
       <sect1 id="forced-landing">
         <title>Forced landing</title>
 
-        <para>The QRH ABN.80.04 procedure applies if the engines are running. If the engines are not
-        running, refer to the dual engine failure procedures (QRH ABN.70.01) which include forced
-        landing.</para>
+        <para>The QRH ABN.80 FORCED LANDING procedure applies if the engines are running. If the engines are not
+        running, refer to the appropriate QRH ABN.70 <emphasis role="underline">ENG</emphasis> DUAL FAILURE
+        procedure, both of which include forced landing.</para>
 
         <para>Preparation for forced landing involves notifying ATC in order to expedite rescue, preparing survival equipment
         and securing the aircraft for impact. The GPWS should be inhibited to prevent nuisance warnings. The crew oxygen
