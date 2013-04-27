@@ -541,7 +541,7 @@
         <para>In the cabin, procedures are laid down for assessing the risks of moving the device and for moving the
         device to the LRBL at door 2R.</para>
 
-        <para role="multicite">[FCOM PRO.ABN.80, QRH 80.3]</para>
+        <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
       </sect1>
       <sect1>
         <title>Stall recovery <emphasis>(memory item)</emphasis></title>
@@ -561,7 +561,7 @@
         &alpha;<subscript>buffet</subscript>. In this case simply reduce the back pressure on the
         sidestick and/or reduce bank angle.</para>
 
-        <para role="multicite">[FCOM PRO.ABN.80, QRH 80.3]</para>
+        <para role="multicite">[FCOM PRO.ABN.10, QRH ABN.80]</para>
       </sect1>
       <sect1 id="computer-reset">
         <title>Computer reset</title>
@@ -578,7 +578,7 @@
 
         <para>In flight, only the computers listed in the QRH should be considered for reset.</para>
 
-        <para role="multicite">[QRH 80.22, FCOM PRO.SUP.24]</para>
+        <para role="multicite">[QRH ABN.80, FCOM PRO.SUP.24]</para>
       </sect1>
     </chapter>
     <chapter id="aircon-press-vent">
