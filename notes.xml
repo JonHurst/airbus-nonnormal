@@ -1499,9 +1499,11 @@
         avionics/ electrical drill (which includes the undetermined source drill) no longer involves systematic shedding
         of the AC busses due to the negative interaction that this procedure had with the battery chargers. Instead,
         emergency electrical configuration (see <xref linkend="emerg-elec-config"/>) is adopted immediately. The
-        electrical system should be restored just before deploying the gear. Note that since you will not be able to
-        restore the two IRs that were depowered, the landing will be in Direct Law and hence CONF 3. Refer to QRH FPE.IPL.27
-        for V<subscript>App</subscript> and LDR factor. This is not mentioned in QRH ABN.26, and is only mentioned on the
+        electrical system should be restored just before deploying the gear {TODO: There is an odd discrepancy
+        concerning when the generators should be restored – some airframes it is “just before L/G extension”, others “at
+        3min or 2000ft aal before landing”. Why?}. Note that since you will not be able to restore the two IRs that were
+        depowered, the landing will be in Direct Law and hence CONF 3. Refer to QRH FPE.IPL.27 for
+        V<subscript>App</subscript> and LDR factor. This is not mentioned in QRH ABN.26, and is only mentioned on the
         ECAM once gear is extended.</para>
 
         <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH ABN.26,
