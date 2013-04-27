@@ -30,6 +30,8 @@
         must be serviceable to downgrade a predictive warning to a caution.</para></listitem>
         <listitem><para>Modified <xref linkend="unreliable-airspeed"/> to conform to new memory
         items (see FCOM PRO.ABN.34)</para></listitem>
+        <listitem><para>Added description and reference for backup speed/altitude scales to <xref
+        linkend="unreliable-airspeed"/></para></listitem>
         <listitem><para>Added note to <xref linkend="evacuation"/> detailing the conflict in the
         handling of guarded switches between the FCTM and the ATSG.</para></listitem>
         <listitem><para>Added note to <xref linkend="overweight_landing"/> that Conf 3 go around
@@ -359,12 +361,17 @@
 	data. If at least one ADR is reliable, turn off the faulty ADRs. GPS and IRS ground speeds
 	may also be used for an approximate cross check.</para>
 
-        <para>If all ADRs are considered unreliable, turn off any two of them; one is kept on to
-        provide stall warning from the alpha probes. Tables are provided in section ABN.34.07 of the
-        QRH to enable all phases of flight to be flown using just pitch and thrust
-        settings. Acceleration and clean up are carried out in level flight. Flap 1 can be selected
-        as soon as climb thrust is selected, flap 0 once the appropriate S speed pitch attitude from
-        the table on the first page of QRH ABN.34.07 is reached. Configuration for approach is also
+        <para revisionflag="changed">If all ADRs are considered unreliable, turn off any two of
+        them; one is kept on to provide stall warning from the alpha probes. More recent aircraft
+        have backup speed/altitude scales based on AOA probes and GPS altitudes which are activated
+        when below FL250 by turning off the third ADR. The ALL ADR OFF procedure in QRH ABN.34
+        describes the use of these scales, but it boils down to fly the green on the speed scale and
+        anticipate slightly reduced accuracy from the altitude scale.  For aircraft without this
+        fuctionality, tables are provided in section ABN.34.07 of the QRH to enable all phases of
+        flight to be flown using just pitch and thrust settings. Acceleration and clean up are
+        carried out in level flight. Flap 1 can be selected as soon as climb thrust is selected,
+        flap 0 once the appropriate S speed pitch attitude from the table on the first page of the
+        QRH ABN.34 UNRELIABLE SPEED… procedure is reached. Configuration for approach is also
         carried out in level flight, stabilising in each configuration using the technique described
         above. The approach is flown in CONF 3 at an attitude that should result in VLS+10 when
         flying a 3° glide. Landing distance will be increased.</para>
