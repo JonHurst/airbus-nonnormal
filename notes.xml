@@ -3196,6 +3196,17 @@
         </sect2>
       </sect1>
     </chapter>
+    <chapter>
+      <title>Miscellaneous Tips</title>
+        <itemizedlist>
+          <listitem><para>When configuring, V<subscript>LS</subscript> is more critical than
+          V<subscript>FE</subscript> is more critical than manoeuvring speeds (S and F
+          speeds).</para></listitem>
+          <listitem><para>When configuring, flaps do not begin to extend until CONF 2 is
+          selected.</para></listitem>
+          <listitem><para>Slat position does not change between CONF 2 and CONF 3.</para></listitem>
+        </itemizedlist>
+    </chapter>
 </book>
 
 
