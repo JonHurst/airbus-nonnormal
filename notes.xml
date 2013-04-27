@@ -41,6 +41,8 @@
         checklist.</para></listitem>
         <listitem><para>Added note to <xref linkend="se_circling"/> regarding anticipated landing
         gear warnings if circling at low levels without the gear deployed.</para></listitem>
+        <listitem><para>Added note to <xref linkend="computer-reset"/> that MOC has resets available
+        that are not contained in the QRH.</para></listitem>
         <listitem><para>Added note to <xref linkend="eng_fire"/> warning of loss of ECAM and COMs
         after shutting down second engine on the ground.</para></listitem>
       </itemizedlist>
@@ -561,20 +563,20 @@
 
         <para role="multicite">[FCOM PRO.ABN.80, QRH 80.3]</para>
       </sect1>
-      <sect1>
+      <sect1 id="computer-reset">
         <title>Computer reset</title>
         <para>Abnormal computer behaviour can often be stopped by interupting the power supply of
         the affected computer. This can be done either with cockpit controls or with circuit
         breakers. The general procedure is to interupt the power supply, wait 3 seconds (5 seconds
         if a C/B was used), restore the power, then wait another three seconds for the reset to
-        complete. Specific procedures are detailed in the computer reset tables startin on page
-        80.22 of the QRH.</para>
+        complete. QRH ABN.80 COMPUTER RESET details the specific procedures for a variety of
+        systems.</para>
 
-        <para>On the ground, almost all computers can be reset. The exceptions are the ECU and EIU while the associated
-        engine is running and the BDCU when the aircraft is not stopped.</para>
+        <para revisionflag="changed">On the ground, almost all computers can be reset. MOC can usually supply a reset
+        procedure if nothing applicable is available in the QRH. The exceptions are the ECU and EIU
+        while the associated engine is running and the BDCU when the aircraft is not stopped.</para>
 
-        <para>In flight, only the computers listed in the reset table should be considered for
-        reset.</para>
+        <para>In flight, only the computers listed in the QRH should be considered for reset.</para>
 
         <para role="multicite">[QRH 80.22, FCOM PRO.SUP.24]</para>
       </sect1>
