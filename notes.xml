@@ -496,7 +496,7 @@
         until final approach if performance is an issue. Select CONF 3 once gear is down and CONF
         full, if required, when on final approach.</para>
 
-	<para role="multicite">[FCOM_PRO.ABN.10]</para>
+	<para role="multicite">[FCOM PRO.ABN.10]</para>
       </sect1>
       <sect1>
         <title>Engine failure in cruise</title>
@@ -867,7 +867,7 @@
 	crew action is required.</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> AVNCS SYS FAULT,
-	FCOM PRO.ABN.21, FCOM_DSC.21.30.70]</para>
+	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
       </sect1>
 
     </chapter>
@@ -2375,7 +2375,7 @@
 	</itemizedlist>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REVERSE UNLOCKED,
-	FCOM 3.2.70.13000, FCOM_3.2.70.33000]</para>
+	FCOM 3.2.70.13000, FCOM 3.2.70.33000]</para>
       </sect1>
 
       <sect1>
