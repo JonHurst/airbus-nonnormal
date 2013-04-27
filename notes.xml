@@ -592,7 +592,7 @@
         and the remaining pack is turned off if it exceeds 9 psi. 10 minutes before landing, both packs are turned off
         and remain off, and the avionics ventilation is returned to its normal configuration.</para>
 
-        <para role="multicite">[QRH 21.1, FCOM PRO.ABN.21]</para>
+        <para role="multicite">[QRH ABN.21, FCOM PRO.ABN.21]</para>
       </sect1>
 
       <sect1>
@@ -883,27 +883,28 @@
         manually if required) and maintain speed &gt;140kt to avoid RAT stall. Cycling FAC 1 will recover rudder
         trim. Once 45 seconds have elapsed and when below FL250, the APU can be started.</para>
 
-        <para>So much equipment is lost in the emergency configuration that QRH 24.1 provides a table of surviving
+        <para>So much equipment is lost in the emergency configuration that QRH ABN.24 provides a table of surviving
         equipment. Notable losses are all the fuel pumps (so ignition on, avoid negative G, center tank fuel is
         unusable), the anti-skid and three fifths of the spoilers. Landing speeds and distances are increased
         significantly.</para>
 
-        <para>QRH 24.4 provides a paper summary which should be applied once ECAM actions are complete.</para>
+        <para>QRH ABN.24 also provides a paper summary which should be applied once ECAM actions are
+        complete.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER CONFIG,
-        QRH 24.1, QRH 24.4, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+        QRH ABN.24.1 FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>Battery only</title>
 
         <para>Power is available for approximately 30 minutes {TODO: Can’t find a reference for this – must have been
-        part of CBT}. QRH 24.1 provides details of remaining equipment. This is very similar to the emergency electrical
+        part of CBT}. QRH ABN.24 provides details of remaining equipment. This is very similar to the emergency electrical
         configuration (see <xref linkend="emerg-elec-config"/>) with the additional loss of FAC1 and FMGC1. An attempt
         should be made to bring the emergency generator on line by ensuring speed is &gt;140kt and deploying the RAT
         with the EMER ELEC PWR MAN ON button.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> ESS BUSES ON BAT,
-        QRH 24.1, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+        QRH ABN.24, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
       <sect1>
         <title>IDG low oil pressure/ high oil temperature</title>
