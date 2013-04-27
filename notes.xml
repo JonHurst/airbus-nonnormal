@@ -1192,10 +1192,10 @@
 	aircraft, and it should be disconnected. Fuel burn will increase significantly; FMGC fuel predictions do not
 	account for the failure and should be disregarded. Green dot speed will minimize this increased fuel burn, but
 	may not be viable if there is excessive buffet – attempt to find a compromise speed. Landing will be flap 3;
-	V<subscript>APP</subscript> and LDG DIST factors are available in OEB 208/1.</para>
+	V<subscript>APP</subscript> and LDG DIST factors are available in OEB 43.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT, OEB 208/1, FCOM DSC.27.20.40,
+        role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT, OEB 43, FCOM DSC.27.20.40,
         FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
@@ -1242,7 +1242,7 @@
         the flaps are locked and vice versa. In general, flap 3 should be selected for landing. There are two
         exceptions. If flaps are locked at &gt;3, flap full should be used. If both slats and flaps are locked at 0,
         flap 1 should be used so that the AP/FD go-around is armed. Configurations and V<subscript>REF</subscript>
-        increments are available on page FPE.IFL.27.A.1 of the QRH. If a flapless and slatless landing is required, the threshold
+        increments are available on page FPE.IFL.27A of the QRH. If a flapless and slatless landing is required, the threshold
         speed in may be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this configuration
         are very close to tyre limit speeds.</para>
 
