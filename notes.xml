@@ -233,7 +233,7 @@
         <para>Once level, restore the aircraft to a normal configuration. When safe to do so, advise cabin crew and
         passengers that it is safe to remove their masks.</para>
 
-      <para role="multicite">[EOMB 3.80.2, QRH ABN.80.05, FCOM PRO.ABN.80, FCTM A0.90]</para>
+      <para role="multicite">[EOMB 3.80.2, QRH ABN.80, FCOM PRO.ABN.80, FCTM A0.90]</para>
       </sect1>
       <sect1>
         <title>Windshear <emphasis>(memory item)</emphasis></title>
@@ -265,7 +265,7 @@
           already be selected, this will have no immediate effect. Once clear of the windshear, however, TOGA
           LK will be active, requiring the autothrust to be disconnected to avoid an overspeed.</para>
 
-          <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80.10]</para>
+          <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
         </sect2>
         <sect2>
           <title>Predictive</title>
@@ -292,7 +292,7 @@
           approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a maximum of
           V<subscript>LS</subscript>+15.</para>
 
-          <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80.10]</para>
+          <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
         </sect2>
       </sect1>
       <sect1 id="unreliable-airspeed">
@@ -366,7 +366,7 @@
         above. The approach is flown in CONF 3 at an attitude that should result in VLS+10 when
         flying a 3° glide. Landing distance will be increased.</para>
 
-        <para role="multicite">[QRH ABN.34.07, FCOM PRO.ABN.34, FCTM A0.034]</para>
+        <para role="multicite">[QRH ABN.34, FCOM PRO.ABN.34, FCTM A0.034]</para>
       </sect1>
       <sect1>
         <title>Incapacitation <emphasis>(memory item)</emphasis></title>
@@ -399,7 +399,7 @@
         buttons, discharge all agents (engine agent 2 may not be available) and evacuate the aircraft. {TODO: There is a
         discrepancy between engines operative/ inoperative regarding use of the fire buttons after stopping}</para>
 
-        <para role="multicite">[QRH ABN.80.03, QRH ABN.70.01, FCOM PRO.ABN.80]</para>
+        <para role="multicite">[QRH ABN.80, QRH ABN.70, FCOM PRO.ABN.80]</para>
       </sect1>
       <sect1 id="forced-landing">
         <title>Forced landing</title>
@@ -422,7 +422,7 @@
         not be available) and evacuate the aircraft.{TODO: There is a discrepancy between engines operative/ inoperative
         regarding use of the fire buttons after stopping}</para>
 
-        <para role="multicite">[QRH ABN.80.04, QRH ABN.70.01, FCOM PRO.ABN.80]</para>
+        <para role="multicite">[QRH ABN.80, QRH ABN.70, FCOM PRO.ABN.80]</para>
       </sect1>
       <sect1 id="evacuation">
         <title>Evacuation</title>
@@ -1151,7 +1151,7 @@
         problem. The procedure in this case is similar, but Normal Law will remain.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM,
-        QRH ABN.27.3, FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+        QRH ABN.27, FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
         <title>Aileron faults</title>
@@ -1192,7 +1192,7 @@
         applies. Control on the ground will require differential braking until the steering handle can be used (below
         70kt), so landing distances are increased. Do not use autobrake.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> RUDDER JAM, QRH ABN.27.3,
+        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> RUDDER JAM, QRH ABN.27,
         FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1 id="flight-controls.slats-flaps-fault">
@@ -1260,7 +1260,7 @@
         is sequenced to the slats) and possible reversion to Alternate Law.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED), QRH ABN.27.1, FCOM DSC.27.30.30,
+        role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED), QRH ABN.27, FCOM DSC.27.30.30,
         FCOM PRO.ABN.27]</para>
       </sect1>
       <sect1>
@@ -1413,7 +1413,7 @@
         pedals and one sidestick. Control forces will remain moderate and the aircraft remains responsive. Confirm
         autopilot disengagement and consider transferring control if one of the sidesticks is unaffected.</para>
 
-        <para role="multicite">[QRH ABN.27.2, FCOM PRO.ABN.27]</para>
+        <para role="multicite">[QRH ABN.27, FCOM PRO.ABN.27]</para>
       </sect1>
 
       <sect1 id="sidestick-transducer">
@@ -1484,11 +1484,11 @@
         of the AC busses due to the negative interaction that this procedure had with the battery chargers. Instead,
         emergency electrical configuration (see <xref linkend="emerg-elec-config"/>) is adopted immediately. The
         electrical system should be restored just before deploying the gear. Note that since you will not be able to
-        restore the two IRs that were depowered, the landing will be in Direct Law and hence CONF 3. Refer to QRH FPE.IPL.27.1
-        for V<subscript>App</subscript> and LDR factor. This is not mentioned in QRH ABN.26.3, and is only mentioned on the
+        restore the two IRs that were depowered, the landing will be in Direct Law and hence CONF 3. Refer to QRH FPE.IPL.27
+        for V<subscript>App</subscript> and LDR factor. This is not mentioned in QRH ABN.26, and is only mentioned on the
         ECAM once gear is extended.</para>
 
-        <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH ABN.26.3,
+        <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH ABN.26,
         FCOM PRO.ABN.26]</para>
       </sect1>
       <sect1 id="smoke-fumes-removal">
@@ -1504,7 +1504,7 @@
         manual control of the DC powered outflow valve motor. Once at a suitable level and below 200kt, as a last resort
         PNF’s cockpit window can be opened.</para>
 
-        <para role="multicite">[QRH ABN.26.1, FCOM PRO.ABN.26]</para>
+        <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26]</para>
       </sect1>
       <sect1 id="eng_fire">
         <title>Engine fire</title>
@@ -1559,12 +1559,12 @@
         <para>In an emergency, a landing may be carried out with maximum fuel imbalance.</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> F USED/FOB DISAGREE,
-        QRH ABN.28.1, FCOM PRO.ABN.28]</para>
+        QRH ABN.28, FCOM PRO.ABN.28]</para>
       </sect1>
       <sect1>
         <title>Fuel imbalance</title>
 
-        <para>All fuel balancing must be carried out in accordance with QRH ABN.28.1, paying particular attention
+        <para>All fuel balancing must be carried out in accordance with QRH ABN.28, paying particular attention
         to the possibility of a fuel leak. Any action should be delayed until sufficient time has passed for a
         fuel leak to become apparent. FCOM PRO.ABN.28 adds a note not found in the QRH that “there is no
         requirement to correct an imbalance until the ECAM fuel advisory limit is displayed”, an event that
@@ -1577,7 +1577,7 @@
         <para>To balance the fuel, open the cross-feed valve and turn the lighter side pumps and the center tank pumps
         off.</para>
 
-        <para role="multicite">[QRH ABN.28.1, FCOM 3.28.26000, FCOM LIM.28]</para>
+        <para role="multicite">[QRH ABN.28, FCOM 3.28.26000, FCOM LIM.28]</para>
       </sect1>
       <sect1 id="gravity-feeding">
         <title>Gravity fuel feeding</title>
@@ -1591,7 +1591,7 @@
         <para>It is also possible to gravity cross feed by side slipping the aircraft with a bank angle of 2° to 3°
         should this become necessary.</para>
 
-        <para role="multicite">[QRH ABN.28.5, FCOM PRO.ABN.28]</para>
+        <para role="multicite">[QRH ABN.28, FCOM PRO.ABN.28]</para>
       </sect1>
       <sect1>
         <title>Wing tank pump(s) low pressure</title>
@@ -1720,7 +1720,7 @@
         used. Use of the parking brake in this way risks tire burst and lateral control difficulties (due brake onset
         assymetry) so delay until low speed if at all possible.</para>
 
-        <para role="multicite">[QRH ABN.32.1, FCOM PRO.ABN.32]</para>
+        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1>
         <title>Residual braking procedure</title>
@@ -1732,7 +1732,7 @@
         braking system, use autobrake MED or immediate manual braking to prioritise the normal system. Anticipate brake
         assymetry at touchdown.</para>
 
-        <para role="multicite">[QRH ABN.32.1, FCOM PRO.ABN.32]</para>
+        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1 id="gear-gravity-extension">
         <title>Gravity extension</title>
@@ -1747,7 +1747,7 @@
         <para>Gear doors may show amber on the WHEEL page after gravity extension. There may also be spurious LGCIU 2
         FAULT or BRAKES SYS 1(2) FAULT ECAM warnings.</para>
 
-        <para role="multicite">[QRH ABN.32.2, FCOM PRO.ABN.32]</para>
+        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1 id="asymmetric-braking">
         <title>Asymmetric braking</title>
@@ -1756,7 +1756,7 @@
         with rudder. Do not use the reverse on the same side as the working brake. Landing distances will increase
         significantly.</para>
 
-        <para role="multicite">[QRH ABN.32.5, FCOM PRO.ABN.32]</para>
+        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1>
         <title>Landing with abnormal landing gear</title>
@@ -1781,7 +1781,7 @@
 
         <para>All doors and slides are available for evacuation in any of the normal gear up attitudes.</para>
 
-        <para role="multicite">[QRH ABN.32.3, FCOM PRO.ABN.32]</para>
+        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1 id="flight-with-gear-extended">
         <title>Flight with landing gear extended</title>
