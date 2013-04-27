@@ -37,6 +37,8 @@
         checklist.</para></listitem>
         <listitem><para>Added note to <xref linkend="se_circling"/> regarding anticipated landing
         gear warnings if circling at low levels without the gear deployed.</para></listitem>
+        <listitem><para>Added note to <xref linkend="eng_fire"/> warning of loss of ECAM and COMs
+        after shutting down second engine on the ground.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -1504,14 +1506,14 @@
 
         <para role="multicite">[QRH ABN.26.1, FCOM PRO.ABN.26]</para>
       </sect1>
-      <sect1>
+      <sect1 id="eng_fire">
         <title>Engine fire</title>
         <para>The basic sequence is to bring the thrust lever of the affected engine to idle, turn off its engine
         master, push its fire button, wait 10 seconds then deploy its first fire bottle. If the fire is not extinguished
         after 30 seconds, indicated by the fire button remaining lit, deploy the second
         bottle.</para>
 
-        <para>This sequence is modified on the ground in that both fire bottles are fired
+        <para revisionflag="changed">This sequence is modified on the ground in that both fire bottles are fired
         immediately, and the remaining engine is then also shut down. Note that shutting down both
         engines without the APU running will leave only batteries, resulting in loss of all COMS
         except VHF1 and loss of ECAM reference for the final actions.</para>
