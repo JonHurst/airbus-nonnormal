@@ -26,6 +26,8 @@
         prior to the first turn if the EOSID is annotated as “STD”.</para></listitem>
         <listitem><para>Added explanation of training standards position on PA to <xref
         linkend="emerg-descent"/>.</para></listitem>
+        <listitem><para>Added note to <xref linkend="predictive_ws"/> that reactive windshear system
+        must be serviceable to downgrade a predictive warning to a caution.</para></listitem>
         <listitem><para>Modified <xref linkend="unreliable-airspeed"/> to conform to new memory
         items (see FCOM PRO.ABN.34)</para></listitem>
         <listitem><para>Added note to <xref linkend="evacuation"/> detailing the conflict in the
@@ -267,7 +269,7 @@
 
           <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
         </sect2>
-        <sect2>
+        <sect2 id="predictive_ws">
           <title>Predictive</title>
 
           <para>When below 2300ft AGL, the weather radar scans a 5nm radius 60° arc ahead of the aircraft for returns
@@ -287,10 +289,11 @@
           climb, call “Windshear, TOGA”, apply TOGA thrust and follow SRS orders. Configuration may be changed as long
           as the windshear is not entered.</para>
 
-          <para>If a warning alert occurs during approach, carry out a normal go-around. If positive verification is
-          made that no hazard exists, the crew may downgrade the warning to a caution. If a caution alert occurs during
-          approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a maximum of
-          V<subscript>LS</subscript>+15.</para>
+          <para revisionflag="changed">If a warning alert occurs during approach, carry out a normal go-around. If positive
+          verification is made that no hazard exists, providing that the reactive windshear is
+          servicable the crew may downgrade the warning to a caution. If a caution alert occurs
+          during approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a
+          maximum of V<subscript>LS</subscript>+15.</para>
 
           <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
         </sect2>
