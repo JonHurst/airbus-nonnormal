@@ -1741,13 +1741,12 @@
       </sect1>
       <sect1>
         <title>Residual braking procedure</title>
-        <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM warning. {TODO:
-        This is in 3.3.18 but not in ezy-b – check whether our brake systems are modified}. A brief brake pressure
-        indication is expected as the alternate system self tests after the gear is down locked, but pressure should
-        quickly return to zero. If the triple indicator shows residual pressure after this test, try to zero it by
-        pressing the brake pedals several times. If a landing must be made with residual pressure in the alternate
-        braking system, use autobrake MED or immediate manual braking to prioritise the normal system. Anticipate brake
-        assymetry at touchdown.</para>
+        <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM warning. A brief
+        brake pressure indication is expected as the alternate system self tests after the gear is down locked, but
+        pressure should quickly return to zero. If the triple indicator shows residual pressure after this test, try to
+        zero it by pressing the brake pedals several times. If a landing must be made with residual pressure in the
+        alternate braking system, use autobrake MED or immediate manual braking to prioritise the normal
+        system. Anticipate brake assymetry at touchdown.</para>
 
         <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
       </sect1>
