@@ -1623,8 +1623,7 @@
         cross-feeding. A descent to gravity feed ceiling may be required (see <xref linkend="gravity-feeding"/>).</para>
 
         <para role="multicite">[<emphasis
-        role="underline">FUEL</emphasis> L(R) TK PUMP 1(2)(1+2) LO PR, FCOM 3.2.38.1000 ,
-        FCOM 3.2.38.2000, FCOM DSC.28.30]</para>
+        role="underline">FUEL</emphasis> L(R) TK PUMP 1(2)(1+2) LO PR, FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>Center tank pumps low pressure</title>
@@ -1638,7 +1637,7 @@
 
         <para role="multicite">[<emphasis
         role="underline">FUEL</emphasis> CTR TK PUMP(S)(1(2)) LO PR, FCOM PRO.ABN.28,
-        FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+        FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>Auto feed fault</title>
@@ -1669,7 +1668,7 @@
 
         <para>If both transfer valves fail to open when a wing tank reaches low level, the fuel in that outer tank
         becomes unusable. The fuel balance will remain within limits since maximum outer tank imbalances are acceptable
-        if the total fuel in either wing is the same [FCOM 3.1.28.1000].</para>
+        if the total fuel in either wing is the same [FCOM LIM.28].</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) XFR VALVE CLOSED,
         FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
@@ -1677,8 +1676,8 @@
       <sect1>
         <title>Outer tank transfer valve open out of sequence</title>
 
-        <para>Maximum outer tank imbalances are acceptable if the total fuel in either wing is the same [FCOM
-        3.1.28.1000], so no action is required.</para>
+        <para>Maximum outer tank imbalances are acceptable if the total fuel in either wing is the same [FCOM LIM.28],
+        so no action is required.</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) XFR VALVE OPEN,
         FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
@@ -1699,8 +1698,8 @@
         limits. If in flight, descending or increasing speed should be considered.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK LO TEMP, FCOM PRO.ABN.28,
-        FCOM PRO.ABN.28, FCOM 1.38.20.7000]</para>
+        role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK LO TEMP,
+        FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
       <sect1>
         <title>High fuel temperature</title>
@@ -1720,11 +1719,11 @@
         <para>In the air, if only one side is affected, fuel flow can be increased so that less hot fuel is returned to
         the tanks. If the temperature gets too high (&gt;65°C outer or &gt;57° inner), IDG disconnection will be
         required. The engine must be running when the IDG button is pressed, and it must not be held for more than 3
-        seconds.[FCOM 1.24.20.1000]</para>
+        seconds.[FCOM DSC.24.20]</para>
 
         <para role="multicite">[<emphasis
         role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK HI TEMP,
-        FCOM PRO.ABN.28, FCOM 1.38.20.7000]</para>
+        FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
 
     </chapter>
