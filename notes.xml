@@ -2747,15 +2747,14 @@
         single FAC provides all the characteristic speeds (V<subscript>SW</subscript>, V<subscript>LS</subscript>,
         V<subscript>FE</subscript>, V<subscript>FE-next</subscript>, V<subscript>LE</subscript>,
         V<subscript>MO</subscript>/M<subscript>MO</subscript>, Green dot, S speed and F speed). It may be worth
-        cross-checking against QRH page 4.01.</para>
+        cross-checking against QRH FPE.SPD.</para>
 
         <para>If both FACs are lost characteristic speed calculation is not available. All FAC controlled systems are
         lost, with the combined effects detailed in <xref linkend="yaw-damper"/>, <xref linkend="rudder-trim"/> and
-        <xref linkend="rudder-limit"/>.{TODO FCOM has a 12kt crosswind limit for rudder travel limiter failure, but none
-        for dual FAC failure – is it implicit or do you get multiple ECAMs}</para>
+        <xref linkend="rudder-limit"/>.</para>
 
         <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FAC 1(2)(1+2) FAULT,
-        FCOM 1.2.22.60.2000, FCOM 1.2.22.7000, FCOM 1.2.22.8000]</para>
+        FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
       </sect1>
 
       <sect1 id="yaw-damper">
@@ -2769,7 +2768,7 @@
         alert height, only Cat I will be available.</para>
 
         <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> YAW DAMPER 1(2)(SYS),
-	FCOM 1.2.22.60.2000, FCOM 1.2.22.1000, FCOM 1.2.22.2000]</para>
+	FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
       </sect1>
       <sect1 id="rudder-trim">
         <title>Rudder trim faults</title>
@@ -2780,8 +2779,7 @@
         successful, only Cat I is available.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">AUTO FLT</emphasis> RUDDER TRIM SYS(1(2) FAULT), FCOM 1.2.22.60.2000,
-        FCOM 1.2.22.3000, FCOM 1.2.22.4000]</para>
+        role="underline">AUTO FLT</emphasis> RUDDER TRIM SYS(1(2) FAULT), FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
       </sect1>
       <sect1 id="rudder-limit">
         <title>Rudder travel limiter faults</title>
@@ -2795,8 +2793,7 @@
         is reduced to 12kt, and differential braking may be required on the landing roll.</para>
 
         <para role="multicite">[<emphasis
-	role="underline">AUTO FLT</emphasis> RUD TRV LIM_1(2)(SYS), FCOM 1.2.22.60.2000,
-	FCOM 1.2.22.5000, FCOM 1.2.22.6000]</para>
+	role="underline">AUTO FLT</emphasis> RUD TRV LIM_1(2)(SYS), FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
       </sect1>
       <sect1>
         <title>FCU faults</title>
@@ -2809,7 +2806,7 @@
         radar image remains displayed, disregard it since the scale will be incorrect.</para>
 
         <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FCU 1(2)(1+2) FAULT,
-	FCOM 1.2.22.60.2000, FCOM 1.2.22.9000, FCOM 1.2.22.10000]</para>
+	FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
       </sect1>
 
 
