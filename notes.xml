@@ -52,6 +52,10 @@
         <listitem><para>Added note to <xref linkend="TCAS"/> explaining the consequences of only one FD being turned
         off.</para></listitem>
         <listitem><para>Rewrote <xref linkend="rnav-downgrade"/>.</para></listitem>
+        <listitem><para>Removed note from <xref linkend="dualhyd.by"/> that CONF 3 should be used to improve go-around
+        performance as CONF FULL now appears to be the recommended landing configuration. Also removed incorrect
+        assertion that spoiler 1 was available for rolll control – only spoilers 2 to 5 are ever used for this
+        purpose.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -2839,11 +2843,11 @@
 	V<subscript>FE</subscript>&#x2011;10. As long as the flaps are frozen at zero, the slats can be retracted for a
 	subsequent diversion; fuel flow will be approximately 2.3 times normal due to the extended gear.</para>
 
-        <para>A paper summary is available on page 1.12 of the QRH, and this should be applied once all ECAM actions are
+        <para>A paper summary is available in section ABN.29 of the QRH, and this should be applied once all ECAM actions are
         completed.</para>
 
-        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + Y SYS LO PR, QRH 1.12,
-        FCOM 1.29.20.4000, FCOM 3.2.29.5000]</para>
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + Y SYS LO PR, QRH ABN.29,
+        FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
 
       <sect1 id="dualhyd.by">
@@ -2854,24 +2858,23 @@
         altitudes. Systems lost due to reservoir overheats may be usable for the approach once they have cooled
         down.</para>
 
-        <para>Roll control is provided by ailerons and spoilers 1+5, pitch control by the THS and
+        <para revisionflag="changed">Roll control is provided by ailerons and spoiler 5, pitch control by the THS and
         left elevator. Slats and flaps are available at reduced rate. The autopilots are lost but
         Normal law is retained. Speedbrake is unavailable.</para>
 
-	<para>Cat 2 and 3 capability is lost. Landing is CONF 3 to improve go-around
-	performance. Landing distances are approximately doubled due to loss of spoilers 2,3 and 4
-	and loss of #2 reverser. Approach configuration is normal apart from slow flaps and slats
-	and gravity gear extension (protects green system). Nose wheel steering is lost.</para>
+	<para revisionflag="changed">Cat 2 and 3 capability is lost. Landing distances are approximately doubled due to loss
+	of spoilers 2,3 and 4 and loss of #2 reverser. Approach configuration is normal apart from slow flaps and slats and
+	gravity gear extension (protects green system). Nose wheel steering is lost.</para>
 
 	<para>Gear cannot be retracted on go-around. Fuel burn for a subsequent diversion will be
 	significantly greater (approx factor 2.3); see <xref linkend="flight-with-gear-extended"/>
 	for further details.</para>
 
-        <para>A paper summary is available on page 1.10 of the QRH, and this should be applied once all ECAM actions are
+        <para>A paper summary is available in section ABN.29 of the QRH, and this should be applied once all ECAM actions are
         completed.</para>
 
-        <para role="multicite">[<emphasis role="underline">HYD</emphasis> B + Y SYS LO PR, QRH 1.10,
-        FCOM 1.29.20.4000, FCOM 3.2.29.6000]</para>
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> B + Y SYS LO PR, QRH ABN.29,
+        FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
 
       <sect1 id="dualhyd.gb">
@@ -2900,11 +2903,11 @@
 	maintained. Simply select V<subscript>FE</subscript>&#x2011;10. For diversion, the flaps can be retracted. With
 	the gear remaining down, fuel burn will increase by a factor of approximately 2.3.</para>
 
-        <para>A paper summary is available on page 1.11 of the QRH, and this should be applied once all ECAM actions are
+        <para>A paper summary is available in section ABN.29 of the QRH, and this should be applied once all ECAM actions are
         completed.</para>
 
-        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + B SYS LO PR, QRH 1.11,
-        FCOM 1.29.20.4000, FCOM 3.2.29.4000]</para>
+        <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + B SYS LO PR, QRH ABN.29,
+        FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
 
       <sect1 id="green-low-pr">
@@ -2915,7 +2918,7 @@
         to loss of two spoilers per wing and reverser 1. Flap and slat deployment will be slow.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> G SYS LO PR,
-        FCOM 1.29.20.4000, FCOM 3.2.29.8000]</para>
+        FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
       <sect1 id="yellow-low-pr">
         <title>Yellow system low pressure</title>
@@ -2927,7 +2930,7 @@
         brake accumulator, ensure there is sufficient pressure when the parking brake is set.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> Y SYS LO PR,
-        FCOM 1.29.20.4000, FCOM 3.2.29.8000]</para>
+        FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
 
       <sect1 id="blue-low-pr">
@@ -2938,7 +2941,7 @@
         reservoir level, emergency generation capability is lost.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> B SYS LO PR,
-        FCOM 1.29.20.4000, FCOM 3.2.29.11000]</para>
+        FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
 
 <sect1>
@@ -2947,7 +2950,7 @@
         <para>Turn off the affected pump. The PTU will pressurise the affected system.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y) ENG 1(2) PUMP LO PR,
-        FCOM 1.29.20.4000, FCOM 3.2.29.8000]</para>
+        FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
       <sect1>
         <title>Electric pump low pressure or overheat</title>
@@ -2956,8 +2959,8 @@
         providing the relevant FAULT light on the overhead panel has extinguished.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">HYD</emphasis> Y(B) ELEC PUMP LO PR(OVHT), FCOM 1.29.20.4000,
-        FCOM 3.2.29.7000, FCOM 3.2.29.11000]</para>
+        role="underline">HYD</emphasis> Y(B) ELEC PUMP LO PR(OVHT), FCOM DSC.29.30,
+        FCOM PRO.ABN.29]</para>
       </sect1>
       <sect1>
         <title>Low reservoir air pressure</title>
@@ -2967,7 +2970,7 @@
         with altitude, so it may be possible to reinstate the system during the descent.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR LO AIR PR,
-	FCOM 1.29.20.4000, FCOM 3.2.29.1000, FCOM 3.2.29.2000, FCOM 3.2.29.3000]</para>
+	FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
 
       <sect1>
@@ -2977,7 +2980,7 @@
         approach if it has cooled sufficiently. This is indicated by the FAULT light going out on the overhead panel.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR OVHT,
-	FCOM 1.29.20.4000, FCOM 3.2.29.1000, FCOM 3.2.29.2000, FCOM 3.2.29.3000]</para>
+	FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
 
       <sect1>
@@ -2990,7 +2993,7 @@
         1.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR LO LVL,
-	FCOM 1.29.20.4000, FCOM 3.2.29.1000, FCOM 3.2.29.2000, FCOM 3.2.29.3000]</para>
+	FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
 
       <sect1>
@@ -3000,7 +3003,7 @@
         pressure. The PTU must be turned off to prevent overheating the supplying system.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> PTU FAULT,
-        FCOM 1.29.20.4000, FCOM 3.2.29.9000]</para>
+        FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
 
       <sect1>
@@ -3010,7 +3013,7 @@
         the RAT pump is not available. No action is required.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> RAT FAULT,
-        FCOM 1.29.20.4000, FCOM 3.2.29.10000]</para>
+        FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
       </sect1>
     </chapter>
     <chapter>
