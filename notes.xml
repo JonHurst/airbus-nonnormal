@@ -29,7 +29,7 @@
         <listitem><para>Added note to <xref linkend="predictive_ws"/> that reactive windshear system
         must be serviceable to downgrade a predictive warning to a caution.</para></listitem>
         <listitem><para>Modified <xref linkend="unreliable-airspeed"/> to conform to new memory
-        items (see FCOM PRO.ABN.34)</para></listitem>
+        items (see FCOM PRO.ABN.34)</para></listitem>
         <listitem><para>Added description and reference for backup speed/altitude scales to <xref
         linkend="unreliable-airspeed"/></para></listitem>
         <listitem><para>Added note to <xref linkend="evacuation"/> detailing the conflict in the
@@ -357,7 +357,7 @@
         definitely good, the FPV may be used.</para>
 
         <para>Once the flight path is under control and a safe altitude is attained, the aircraft
-        should be transitioned into level flight. Refer to QRH ABN.34.07 to extract a ballpark thrust
+        should be transitioned into level flight. Refer to QRH ABN.34.07 to extract a ballpark thrust
         setting, a reference attitude and a reference speed for the current configuration, bearing
         in mind that an auto-retraction of the flap may have occurred. Set the ballpark thrust
         setting and adjust pitch attitude to fly level; if barometric altitude data is considered
@@ -483,7 +483,7 @@
         landing distance is available. Automatic landings are certified up to MLW, but flight tests
         have demonstrated autoland capability to 69000kg in case of emergency. The preferred landing
         configuration is CONF&nbsp;FULL, but lower settings may be used if required by QRH/ECAM
-        procedures. QRH ABN.80.06 also specifies CONF 3 if the aircraft weight exceeds the
+        procedures. QRH ABN.80.06 also specifies CONF 3 if the aircraft weight exceeds the
         CONF&nbsp;3 go around limit; this will only ever be a factor for airfields with elevations
         above 1000ft. Packs should be turned off to provide additional go around thrust. If planned
         landing configuration is less than FULL, use 1+F for go-around.</para>
@@ -1379,7 +1379,7 @@
         EGPWS maneuvers.</para>
 
         <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and hence increased
-        approach speeds and landing distances (see QRH FPE.IFL.27).</para>
+        approach speeds and landing distances (see QRH FPE.IFL.27).</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ALTN LAW,
         FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
@@ -1595,7 +1595,7 @@
 
         <para>All fuel balancing must be carried out in accordance with QRH ABN.28, paying particular attention
         to the possibility of a fuel leak. Any action should be delayed until sufficient time has passed for a
-        fuel leak to become apparent. FCOM PRO.ABN.28 adds a note not found in the QRH that “there is no
+        fuel leak to become apparent. FCOM PRO.ABN.28 adds a note not found in the QRH that “there is no
         requirement to correct an imbalance until the ECAM fuel advisory limit is displayed”, an event that
         occurs when one inner tank holds &gt;1500kg more than the other. The limitations for fuel imbalance in
         FCOM LIM.28, however, show that the fuel advisory does not necessarily indicate that a limitation is
