@@ -3237,7 +3237,7 @@
       <title>Miscellaneous Tips</title>
         <itemizedlist>
           <listitem><para>When configuring, V<subscript>LS</subscript> is more critical than
-          V<subscript>FE</subscript> is more critical than manoeuvring speeds (S and F
+          V<subscript>FE</subscript>, which in turn is more critical than manoeuvring speeds (S and F
           speeds).</para></listitem>
           <listitem><para>When configuring, flaps do not begin to extend until CONF 2 is
           selected.</para></listitem>
