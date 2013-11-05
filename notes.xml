@@ -3025,7 +3025,7 @@
         ADR. Switching off one of the affected ADRs leaves the system in the state described in <xref
         linkend="adr-disagree"/>.</para>
 
-        <para role="multicite">[QRH 2.10, FCOM 3.2.30.11000]</para>
+        <para role="multicite">[QRH ABN.30, FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1>
         <title>Single pitot probe heat or static port heat fault</title>
@@ -3035,8 +3035,8 @@
         information must be monitored closely.</para>
 
         <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PITOT(L(R) STAT), FCOM 1.30.50.3000,
-	FCOM 3.2.30.3000 , FCOM 3.2.30.5000, FCOM 3.2.30.9000]</para>
+	role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PITOT(L(R) STAT), FCOM DSC.30.50.30,
+	FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1>
         <title>Multiple pitot heat failures</title>
@@ -3056,8 +3056,8 @@
         airspeed procedures (see <xref linkend="unreliable-airspeed"/>).</para>
 
         <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> ALL(CAPT(F/O)+F/O(STBY)) PITOT, FCOM 1.30.50.3000,
-	FCOM 3.2.30.22000, FCOM 3.2.30.23000, FCOM 3.2.30.24000, FCOM 3.2.30.25000]</para>
+	role="underline">ANTI ICE</emphasis> ALL(CAPT(F/O)+F/O(STBY)) PITOT, FCOM DSC.30.50.30,
+	FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1>
         <title>Single AOA or TAT heat fault</title>
@@ -3065,8 +3065,8 @@
         <para>No immediate operational effect.</para>
 
         <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) AOA(TAT), FCOM 1.30.50.3000,
-	FCOM 3.2.30.7000, FCOM 3.2.30.9000]</para>
+	role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) AOA(TAT), FCOM DSC.30.50.30,
+	FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1>
         <title>Probe heat computer failure</title>
@@ -3074,8 +3074,8 @@
         <para>If applicable, deselect the affected ADR.</para>
 
         <para role="multicite">[<emphasis
-        role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PROBES, FCOM 1.30.50.3000,
-        FCOM 3.2.30.12000]</para>
+        role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PROBES, FCOM DSC.30.50.30,
+        FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1>
         <title>Window heat fault</title>
@@ -3083,8 +3083,8 @@
         <para>No immediate operational effect.</para>
 
         <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> L(R)(L+R) WINDSHIELD(WINDOW), FCOM 1.30.40.3000,
-	FCOM 3.2.30.1000, FCOM 3.2.30.2000]</para>
+	role="underline">ANTI ICE</emphasis> L(R)(L+R) WINDSHIELD(WINDOW), FCOM DSC.30.50.30,
+	FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1>
         <title>Engine anti-ice valve fault</title>
@@ -3093,8 +3093,8 @@
         thrust limit penalty applies {TODO: Check this is automatically applied by the relevant FADEC}.</para>
 
         <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> ENG 1(2) VALVE OPEN(CLSD), FCOM 1.30.30.3000,
-	FCOM 3.2.30.13000, FCOM 3.2.30.14000]</para>
+	role="underline">ANTI ICE</emphasis> ENG 1(2) VALVE OPEN(CLSD), FCOM DSC.30.30.30,
+	FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1 id="wai-valve-open">
         <title>Wing anti-ice valve open when commanded closed</title>
@@ -3104,18 +3104,18 @@
         system on the failed side.</para>
 
         <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) VALVE OPEN,
-	FCOM 1.30.20.3000, FCOM 3.2.30.18000]</para>
+	FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1>
         <title>Wing anti-ice valve closed when commanded open</title>
 
         <para>The wing anti-ice must be turned off to avoid asymmetrically de-icing the wings. Avoid icing
         conditions. If ice accretion does occur, landing distances and V<subscript>app</subscript> adjustments are in
-        QRH 2.32. Speed must be maintained above V<subscript>&alpha;&#x2011;prot</subscript> (top of amber and black striped
+        QRH FPE.IFL.30. Speed must be maintained above V<subscript>&alpha;&#x2011;prot</subscript> (top of amber and black striped
         band) if ice has accreted as stall margins may be reduced.</para>
 
         <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> SYS FAULT,
-        FCOM 1.30.20.3000, FCOM 3.2.30.20000]</para>
+        FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1>
         <title>Wing anti-ice valves fail to close after ground self-test</title>
@@ -3124,7 +3124,7 @@
         linkend="wai-valve-open"/>.</para>
 
         <para role="multicite">[<emphasis role="underline">ANTI ICE</emphasis> OPEN ON GND,
-        FCOM 1.30.30.3000, FCOM 3.2.30.19000]</para>
+        FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
       </sect1>
       <sect1>
         <title>High pressure detected when wing anti-ice turned on</title>
@@ -3132,7 +3132,7 @@
         <para>A thrust limit penalty is applied automatically. {TODO: Check that this is automatic}</para>
 
         <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) HI PR,
-        FCOM 1.30.20.3000, FCOM 3.2.30.21000]</para>
+        FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
       </sect1>
 
 
@@ -3144,7 +3144,7 @@
 
         <para>TODO</para>
 
-        <para role="multicite">[QRH  2.10, FCOM  3.2.31]</para>
+        <para role="multicite">[QRH ABN.31, FCOM PRO.ABN.31]</para>
       </sect1>
     </chapter>
     <chapter>
@@ -3155,7 +3155,7 @@
         <para>A known problem with the A319 is that the load on a single bleed supplying two packs at high altitude may
         be sufficient to cause it to trip off. In this case, turning off one pack may allow a bleed reset.</para>
 
-        <para>There is no ECAM associated with a dual bleed failure. The QRH 2.02 procedure applies both to the case
+        <para>There is no ECAM associated with a dual bleed failure. The QRH ABN.36 procedure applies both to the case
         where the aircraft has dispatched with an inoperative bleed IAW MEL, and in the case where an in-flight failure
         has left a single bleed remaining.</para>
 
@@ -3171,7 +3171,7 @@
         bleed will be closed. Otherwise, either pack may be used. Note that the APU bleed is not capable of supplying
         bleed air for wing anti-ice.</para>
 
-        <para role="multicite">[QRH 2.02, FCOM 3.2.36.6000]</para>
+        <para role="multicite">[QRH ABN.36, FCOM PRO.ABN.36]</para>
       </sect1>
     </chapter>
     <chapter>
@@ -3229,7 +3229,7 @@
           been acknowledged, divert to alternate specified in current flight plan. Otherwise commence approach at
           destination EAT and land within 30 minutes. Watch for visual signals from the tower.</para>
 
-        <para role="multicite">[UKAIP ENR 1.1.3.2.4]</para>
+        <para role="multicite">[UKAIP ENR 1.1.3.4]</para>
         </sect2>
       </sect1>
     </chapter>
