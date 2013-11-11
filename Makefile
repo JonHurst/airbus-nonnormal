@@ -1,7 +1,7 @@
 all: xhtml
 
 clean:
-	rm -r  html notes.pdf notes.fo
+	rm -rf  html *.pdf *.fo
 
 xhtml: html
 
