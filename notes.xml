@@ -1032,7 +1032,7 @@
       <sect1>
         <title>DC Essential Bus fault</title>
 
-        <para>Some or all of the equipment in the DC Essential Bus is lost. Of particular note, the audio
+        <para>Some or all of the equipment on the DC Essential Bus is lost. Of particular note, the audio
         cards connecting VHF2 and VHF3 to the Audio Management Unit are lost. Since VHF1 is also lost, the
         ECAM suggests using VHF2 and VHF3, but this will not work, and all comms are lost. Airbus is working
         on a fix, apparently.</para>
