@@ -45,6 +45,8 @@
         gear warnings if circling at low levels without the gear deployed.</para></listitem>
         <listitem><para>Added note to <xref linkend="computer-reset"/> that MOC has resets available
         that are not contained in the QRH.</para></listitem>
+	<listitem><para>Expanded <xref linkend="pressure-controller"/> to detail methodology for manual pressurisation
+	control.</para></listitem>
         <listitem><para>Added note to <xref linkend="eng_fire"/> warning of loss of ECAM and COMs
         after shutting down second engine on the ground.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that EGPWS warnings can be downgraded to cautions if the
@@ -776,7 +778,7 @@
 
       </sect1>
 
-      <sect1>
+      <sect1 id="pressure-controller">
 	<title>Pressure controller faults</title>
 
 	<para>Loss of a single cabin pressure controller leads to loss of redundancy only.</para>
@@ -785,6 +787,15 @@
 	slowly in manual mode, and it may be 10 seconds before positive control of the outflow valve
 	can be verified. It may also react too slowly to prevent a temporary
 	depressurization.</para>
+
+	<para revisionflag="added">Manual pressurisation control is activated by pressing the MODE SEL button. This
+	allows the MAN V/S CTL toggle switch to directly control the outflow valve. Moving the toggle to DN closes the
+	outflow valve causing the cabin altitude to descend, whilst moving the toggle to UP opens the outflow valve
+	causing the cabin altitude to climb. The target cabin altitudes and climb and descent rates are available on the
+	status page – the exact values are airframe dependant. The CAB ALT and a modified CAB V/S dial are available on
+	the ECAM Cruise Page.  Note that it is perfectly possible to descend the cabin well below sea level, so constant
+	monitoring is required. When below 2500ft aal the outflow valve should be fully opened. Ensure cabin diff
+	pressure is zero before attempting to open the doors.</para>
 
         <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SYS 1(2)(1+2) FAULT,
         FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
