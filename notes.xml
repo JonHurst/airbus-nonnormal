@@ -1074,7 +1074,7 @@
         <para>Finally, loss of SFCC2 means that flaps and slats are slow, and engine idle control reverts to
         approach idle.</para>
 
-        <para>All other systems are relatively insignificant or have redundant backups.</para>
+        <para>All other lost systems are relatively insignificant or have redundant backups.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT, FCOM DSC.24.30, FCOM 3.2.24]</para>
       </sect1>
