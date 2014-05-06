@@ -503,11 +503,10 @@
       </sect1>
       <sect1 id="se_vmc">
         <title>Immediate VMC recovery with single engine</title>
-        <para revisionflag="changed">Fly circuit in CONF 1. If landing overweight check the
-        appropriate landing flap configuration using the table on QRH 80.12. Select CONF 2 at start
-        of base turn. Gear will usually be extended once flaps have run to 2, but may be delayed
-        until final approach if performance is an issue. Select CONF 3 once gear is down and CONF
-        full, if required, when on final approach.</para>
+        <para revisionflag="changed">Fly circuit in CONF 1. If landing overweight check the appropriate landing flap
+        configuration using the table from QRH ABN.80 Overweight Landing. Select CONF 2 at start of base turn. Gear will
+        usually be extended once flaps have run to 2, but may be delayed until final approach if performance is an
+        issue. Select CONF 3 once gear is down and CONF full, if required, when on final approach.</para>
 
 	<para role="multicite">[FCOM PRO.ABN.10]</para>
       </sect1>
