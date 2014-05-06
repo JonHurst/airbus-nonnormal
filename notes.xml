@@ -1267,7 +1267,7 @@
         exceptions. If flaps are locked at &gt;3, flap full should be used. If both slats and flaps are locked at 0,
         flap 1 should be used so that the AP/FD go-around is armed. Configurations and V<subscript>REF</subscript>
         increments are available on page FPE.IFL.27A of the QRH. If a flapless and slatless landing is required, the threshold
-        speed in may be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this configuration
+        speed may be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this configuration
         are very close to tyre limit speeds.</para>
 
         <para>During configuration, V<subscript>LS</subscript> is computed from actual configuration
