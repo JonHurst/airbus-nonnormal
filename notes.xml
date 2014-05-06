@@ -1255,13 +1255,12 @@
         <para>Unless there is an obvious reason not to (e.g. wing tip brake on, alignment fault or fault due to dual
         hydraulic failure), the flap lever can be recycled.</para>
 
-        <para>If normal operation cannot be restored, there are two major issues that must be
-        quickly addressed. Firstly, fuel burn will be dramatically higher when flying with a locked
-        device. With slats extended, fuel burn will increase by 60%. With flaps extended it will
-        increase by 80%. With slats and flaps extended, fuel burn will double. The paragraph at the
-        bottom of page ABN.27.2 of the QRH provides these figures. The second issue is that landing
-        distances are significantly increased, in the worst case by a factor of 2.2. It may be that
-        the combination of these factors requires a fairly prompt diversion decision.</para>
+        <para>If normal operation cannot be restored, there are two major issues that must be quickly
+        addressed. Firstly, fuel burn will be dramatically higher when flying with a locked device. With slats extended,
+        fuel burn will increase by 60%. With flaps extended it will increase by 80%. With slats and flaps extended, fuel
+        burn will double. These figures are available in QRH FPE.FPF. The second issue is that landing distances are
+        significantly increased, in the worst case by a factor of 2.2. It may be that the combination of these factors
+        requires a fairly prompt diversion decision.</para>
 
         <para>The flap and slat systems are largely independent, so the flap lever will continue to move the slats if
         the flaps are locked and vice versa. In general, flap 3 should be selected for landing. There are two
