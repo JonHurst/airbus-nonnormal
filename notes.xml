@@ -265,13 +265,14 @@
           WINDSHEAR, WINDSHEAR” aural warning.</para>
 
           <para>When on the ground, windshear is <emphasis>only</emphasis> indicated by significant airspeed
-          variations. It is possible that these fluctuations may cause V1 to occur significantly later in the takeoff
-          run then it should. It therefore falls to the Captain to make an assessment of whether sufficient runway
-          remains to reject the takeoff, or whether getting airborne below V<subscript>r</subscript> would be the better
-          option. If the takeoff is to be continued in windshear conditions, call “Windshear, TOGA” and apply TOGA
-          power.  Rotate at V<subscript>r</subscript> or with sufficient runway remaining and follow SRS orders. {TODO:
-          This is Boeing advice – Airbus offers no advice if there is insufficient runway available to rotate at normal
-          speeds}. SRS will maintain a minimum rate of climb, even if airspeed must be sacrificed.</para>
+          variations. It is possible that these fluctuations may cause V<subscript>1</subscript> to occur significantly
+          later in the takeoff run then it should. It therefore falls to the Captain to make an assessment of whether
+          sufficient runway remains to reject the takeoff, or whether getting airborne below V<subscript>r</subscript>
+          would be the better option. If the takeoff is to be continued in windshear conditions, call “Windshear, TOGA”
+          and apply TOGA power.  Rotate at V<subscript>r</subscript> or with sufficient runway remaining and follow SRS
+          orders. {TODO: This is Boeing advice – Airbus offers no advice if there is insufficient runway available to
+          rotate at normal speeds}. SRS will maintain a minimum rate of climb, even if airspeed must be
+          sacrificed.</para>
 
           <para>If a warning occurs when airborne, call “Windshear, TOGA”, apply TOGA power and maintain current
           configuration. The autopilot can fly the escape maneuvre as long as
