@@ -47,6 +47,8 @@
         that are not contained in the QRH.</para></listitem>
 	<listitem><para>Expanded <xref linkend="pressure-controller"/> to detail methodology for manual pressurisation
 	control.</para></listitem>
+	<listitem><para>Updated <xref linkend="gen1-line-off"/> so that it actually makes sense. Must have been very
+	tired.</para></listitem>
         <listitem><para>Added note to <xref linkend="eng_fire"/> warning of loss of ECAM and COMs
         after shutting down second engine on the ground.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that EGPWS warnings can be downgraded to cautions if the
@@ -1128,12 +1130,12 @@
         FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
 
       </sect1>
-      <sect1>
+      <sect1 id="gen1-line-off">
         <title>Generator 1 line off</title>
 
-        <para>The GEN 1 LINE button on the emergency electrical panel manually opens the generator 1 line
-        contactor, leaving generator 2 to supply GEN 2. It is used for the smoke drill. If it's not meant to
-        be off, turn it on.</para>
+        <para revisionflag="changed">Pressing the GEN 1 LINE button on the emergency electrical panel has much the same effect as pressing the
+        GEN 1 button on the main electrical panel, with the difference that GEN 1 continues to supply its associated
+        fuel pumps. It is primarily used for the smoke drill. If it's not meant to be off, turn it on.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER GEN 1 LINE OFF,
         FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
