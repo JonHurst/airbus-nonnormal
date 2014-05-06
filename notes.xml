@@ -1217,7 +1217,7 @@
 	aircraft, and it should be disconnected. Fuel burn will increase significantly; FMGC fuel predictions do not
 	account for the failure and should be disregarded. Green dot speed will minimize this increased fuel burn, but
 	may not be viable if there is excessive buffet – attempt to find a compromise speed. Landing will be flap 3;
-	V<subscript>APP</subscript> and LDG DIST factors are available in OEB 43.</para>
+	V<subscript>APP</subscript> and LDG DIST factors are available in QRH FPE-IFL.</para>
 
         <para role="multicite">[<emphasis
         role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT, OEB 43, FCOM DSC.27.20.40,
