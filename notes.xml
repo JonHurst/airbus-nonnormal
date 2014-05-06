@@ -49,6 +49,8 @@
 	control.</para></listitem>
 	<listitem><para>Updated <xref linkend="gen1-line-off"/> so that it actually makes sense. Must have been very
 	tired.</para></listitem>
+	<listitem><para>Added footnote to <xref linkend="smoke-fumes"/> to describe the airframe dependency of the
+	relationship between the AVIONICS SMOKE ECAM and the SMOKE/FUMES/AVNCS SMOKE QRH checklist.</para></listitem>
         <listitem><para>Added note to <xref linkend="eng_fire"/> warning of loss of ECAM and COMs
         after shutting down second engine on the ground.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that EGPWS warnings can be downgraded to cautions if the
@@ -1476,8 +1478,12 @@
 
         <para>The QRH procedure should be applied when smoke is detected and the crew suspect the avionics, air
         conditioning or cabin equipment as the source. The paper procedure includes all the steps of the avionics smoke
-        ECAM procedure, so if this caution is triggered, the paper procedure should be applied after completing the
-        immediate actions of the ECAM procedure.</para>
+        ECAM procedure, so if this caution is triggered, the paper procedure should be applied instead of the
+        ECAM<footnote><para revisionflag="added">There is an odd airframe dependancy with this; on some airframes the
+        instruction is to run the paper checklist at latest after completing the immediate actions of the Avionics Smoke
+        ECAM, whilst on others it is when requested by the Avionics Smoke ECAM. Unfortunately the Avionics Smoke ECAM
+        itself is not described in the FCOM. A general policy of running the paper procedure instead of the Avionics
+        Smoke ECAM procedure seems to cover all eventualities.</para></footnote>.</para>
 
         <para>In the case of other smoke related ECAMs, the relevant ECAM procedure should be applied first and then the
         use of the paper checklist considered.</para>
