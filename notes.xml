@@ -26,6 +26,8 @@
         prior to the first turn if the EOSID is annotated as “STD”.</para></listitem>
         <listitem><para>Added explanation of training standards position on PA to <xref
         linkend="emerg-descent"/>.</para></listitem>
+        <listitem><para>Fixed reversed references to V<subscript>LO</subscript> and
+        V<subscript>LE</subscript> in <xref linkend="emerg-descent"/>.</para></listitem>
         <listitem><para>Added note to <xref linkend="predictive_ws"/> that reactive windshear system
         must be serviceable to downgrade a predictive warning to a caution.</para></listitem>
         <listitem><para>Modified <xref linkend="unreliable-airspeed"/> to conform to new memory
@@ -219,7 +221,6 @@
     <title>Miscellanneous</title>
     <sect1 id="emerg-descent">
       <title>Emergency descent <emphasis>(memory item)</emphasis></title>
-
       <para>If an emergency descent is required, the Captain should consider taking control if not already PF.</para>
 
       <para>Don oxygen masks, set them to the N position and establish communication.</para>
@@ -228,7 +229,7 @@
       brake and maximum appropriate speed, taking into account possible structural damage. Target altitude is FL100 or
       MORA if this is higher. If speed is low, allow speed to increase before deploying full speedbrake to prevent
       activation of the angle of attack protection. Landing gear may be used below 25,000ft, but speed must be below
-      V<subscript>LE</subscript> when it is extended and remain below V<subscript>LO</subscript>. If on an airway,
+      V<subscript>LO</subscript> when it is extended and remain below V<subscript>LE</subscript>. If on an airway,
       consider turning 90° to the left.</para>
 
       <para>PNF should, from memory, turn seatbelt signs on, set continuous ignition on the engines, set 7700 on the
