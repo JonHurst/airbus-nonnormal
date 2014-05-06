@@ -225,12 +225,12 @@
 
       <para>Don oxygen masks, set them to the N position and establish communication.</para>
 
-      <para>Descent with autopilot and autothrottle engaged is preferred. The configuration is thrust idle, full speed
-      brake and maximum appropriate speed, taking into account possible structural damage. Target altitude is FL100 or
-      MORA if this is higher. If speed is low, allow speed to increase before deploying full speedbrake to prevent
-      activation of the angle of attack protection. Landing gear may be used below 25,000ft, but speed must be below
-      V<subscript>LO</subscript> when it is extended and remain below V<subscript>LE</subscript>. If on an airway,
-      consider turning 90° to the left.</para>
+      <para revisionflag="changed">Descent with autopilot and autothrottle engaged is preferred. The configuration is
+      thrust idle, full speed brake and maximum appropriate speed, taking into account possible structural
+      damage. Target altitude is FL100 or MORA if this is higher. If speed is low, allow speed to increase before
+      deploying full speedbrake to prevent activation of the angle of attack protection. Landing gear may be used below
+      25,000ft, but speed must be below V<subscript>LO</subscript> when it is extended and remain below
+      V<subscript>LE</subscript>. If on an airway, consider turning 90° to the left.</para>
 
       <para>PNF should, from memory, turn seatbelt signs on, set continuous ignition on the engines, set 7700 on the
       transponder and inform ATC of the descent. If cabin altitude will exceed 14,000ft, he should also deploy the cabin
@@ -242,7 +242,7 @@
         <!-- <blockquote><para>"Ladies and Gentlemen, this is the Captain. We have lost cabin pressure and are descending to a lower -->
         <!-- altitude. Put your oxygen masks on and obey the instructions of the cabin crew"</para></blockquote></para> -->
 
-        <para>The QRH checklist calls for an announcement of the Emergency Descent on the
+        <para revisionflag="added">The QRH checklist calls for an announcement of the Emergency Descent on the
         PA. Training standards have decreed that the automated PA that occurs in the event of loss
         of cabin pressure fulfills this requirement, and thus no PA is required from the flight crew
         during the descent. {TODO: this is just information from a TRE; I can find no reference in
