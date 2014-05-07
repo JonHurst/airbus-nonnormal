@@ -60,6 +60,7 @@
 	anti-ice inoperative mitigation.</para></listitem>
 	<listitem><para>Clarified use of APU for extra go-around margin (<xref
 	linkend="engine-shut-down"/>).</para></listitem>
+	<listitem><para>Added note to <xref linkend="engine-stall"/> that N2 idle is approximately 60%.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that EGPWS warnings can be downgraded to cautions if the
         company has promulgated an applicable nuisance warning notice.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that autothrust will likely be in TOGA LK following an
@@ -2278,13 +2279,13 @@
 
         <para role="multicite">[QRH ABN.70, FCOM PRO.ABN.70]</para>
       </sect1>
-      <sect1>
+      <sect1 id="engine-stall">
         <title>Engine stall</title>
 
-        <para>A stall is indicated by abnormal engine noise, flame from the engine exhaust (and possibly inlet in
+        <para revisionflag="changed">A stall is indicated by abnormal engine noise, flame from the engine exhaust (and possibly inlet in
         extreme cases), fluctuating performance parameters, sluggish thrust lever response, high EGT and/ or rapid EGT
-        rise when the thrust lever is advanced. The ECAM warning will be triggered when N2 is between 50% and idle. If
-        N2 is above idle, the QRH should be used.</para>
+        rise when the thrust lever is advanced. The ECAM warning will be triggered when N2 is
+	between 50% and idle (approx 60%). If N2 is above idle, the QRH should be used.</para>
 
         <para>The ECAM simply instructs the master switch to be turned off, and then secures the engine using the after
         engine shut down procedure (see <xref linkend="engine-shut-down"/>). This procedure should also be followed if a
