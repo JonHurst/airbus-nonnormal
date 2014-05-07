@@ -77,6 +77,8 @@
         performance as CONF FULL now appears to be the recommended landing configuration. Also removed incorrect
         assertion that spoiler 1 was available for roll control – only spoilers 2 to 5 are ever used for this
         purpose.</para></listitem>
+	<listitem><para>Added <xref linkend="com-failure-icao"/> and updated <xref linkend="com-failure-uk"/> to include
+	generic ICAO communication failure procedures.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -3234,61 +3236,65 @@
     </chapter>
     <chapter>
       <title>Communications</title>
-      <sect1>
-        <title>Failure of two-way radio communication equipment in UK airspace</title>
-        <sect2>
-          <title>Initial actions</title>
+      <sect1 id="com-failure-icao" revisionflag="added">
+	<title>Communication failure (ICAO)</title>
+	<para>If all attempts to establish contact fail, transmit message twice on designated channel, proceeded by the
+	phrase “Transmitting Blind.”</para>
 
-          <para>As soon as loss of communication is recognized, squawk 7600, and start timing. Any timings detailed in
-          the rest of this section start now.</para>
+	<para>Set Mode A Transponder Code to 7600.</para>
 
-          <sect3>
-            <title>SID</title>
-            <para>Fly the published lateral and vertical profiles, including any step climb, until the last waypoint of
-            the procedure is reached. Maintain current speed and last assigned level (or MSA if this is higher) until
-            <emphasis>7 minutes</emphasis> have elapsed. Then adjust speed and level in accordance with current flight
-            plan. This procedure also applies to RNP-1 (PRNAV) departures.</para>
-          </sect3>
-          <sect3>
-            <title>Under radar vectors without specified limit</title>
-            <para>Continue in accordance with last instructions for <emphasis>3 minutes</emphasis>, then proceed in most
-            direct manner to rejoin current flight plan route. If necessary, climb to MSA.</para>
-          </sect3>
-          <sect3>
-            <title>Under radar vectors from Approach Control Radar</title>
-            <para>Comply with instructions on radar vectoring chart.</para>
-          </sect3>
-          <sect3>
-            <title>STAR</title>
-            <para>Follow lateral profile. Maintain current speed and last assigned level (or MSA if higher) for
-            <emphasis>7 minutes</emphasis>, then arrange descent to be as close as possible to published planning
-            profile. If no profile is published, arrange to be at the IAF at minimum published level. This procedure
-            also applies to RNP-1 (PRNAV) arrivals.</para>
-          </sect3>
-          <sect3>
-            <title>SRA</title>
-            <para>Continue visually or by using an alternate approach aid. If this is not possible, carry out a missed
-            approach and continue to the holding position of a suitable aerodrome with a notified instrument approach
-            and carry out that procedure.</para>
-          </sect3>
-          <sect3>
-            <title>Other</title>
-            <para>Maintain current speed and last assigned flight level (or MSA if higher) for <emphasis>7
-            minutes</emphasis>, then adjust speed and level in accordance with current flight plan.</para>
-          </sect3>
-        </sect2>
-        <sect2>
-          <title>Further actions</title>
-          <para>Destination ETA is either last ETA for the destination acknowledged by ATC or an ETA calculated from the
-          last acknowledged position report plus the flight planned times for the remainder of the flight. Arrange to be
-          at the appropriate designated landing aid at this time.</para>
+	<para>If in VMC, continue in VMC to the nearest suitable airfield and land, reporting arrival to appropriate ATS
+	by the most expeditious means.</para>
 
-          <para>Destination EAT is either the last acknowledged EAT or destination ETA. If “delay not determined” has
-          been acknowledged, divert to alternate specified in current flight plan. Otherwise commence approach at
-          destination EAT and land within 30 minutes. Watch for visual signals from the tower.</para>
+	<para>If in IMC or unlikely to be able to maintain VMC:
 
-        <para role="multicite">[UKAIP ENR 1.1.3.4]</para>
-        </sect2>
+	<itemizedlist>
+	  <listitem><para>If in airspace where a <emphasis>procedural</emphasis> separation service is being applied,
+	  maintain speed and level, or minimum flight altitude if higher, for a period of <emphasis>20
+	  minutes</emphasis> following failure to report over a compulsory reporting point, then adjust level and speed
+	  in accordance with flight plan.</para></listitem>
+
+	  <listitem><para>If in airspace where an ATS surveillance system is in use, maintain speed and level, or
+	  minimum flight altitude if higher, for <emphasis>7 minutes</emphasis> after Code 7600 is set, then adjust
+	  level and speed in accordance with flight plan.</para></listitem>
+
+	  <listitem><para>If being radar vectored or having been directed to proceed offset using RNAV without specified
+	  limit, rejoin the flight plan route no later than the next significant point.</para></listitem>
+
+	  <listitem><para>On reaching the appropriate NAVAID or fix serving the destination aerodrome, hold if
+	  necessary, then at EAT, or if no EAT has been received and acknowledged, computed flight plan ETA, commence an
+	  appropriate instrument approach procedure. If possible land within 30 minutes of this time.</para></listitem>
+	</itemizedlist></para>
+
+      </sect1>
+      <sect1 id="com-failure-uk" revisionflag="changed">
+        <title>Communication failure (UK airspace)</title>
+	<para>The UK procedures expand on the ICAO procedures:
+	<itemizedlist>
+	  <listitem><para>If following a SID fly the published lateral and vertical profiles, including any step climb,
+	  until the last waypoint of the procedure is reached. Maintain current speed and last assigned level (or
+	  minimum flight altitude if this is higher) until <emphasis>7 minutes</emphasis> have elapsed since setting
+	  7600. Then adjust speed and level in accordance with current flight plan. This procedure also applies to RNP-1
+	  (PRNAV) departures.</para></listitem>
+
+	  <listitem><para>If following a STAR, follow the lateral profile but maintain current speed and last assigned
+	  level (or minimum flight altitude if this is higher) until <emphasis>7 minutes</emphasis> have elapsed since
+	  setting 7600. Subsequently, arrange descent to be as close as possible to published planning profile. If no
+	  profile is published, arrange to be at the IAF at minimum published level. This procedure also applies to
+	  RNP-1 (PRNAV) arrivals.</para></listitem>
+
+	  <listitem><para>If under radar vectors from Approach Control Radar, comply with instructions on radar
+	  vectoring chart. If under radar vectors without specified limit from other ATS unit, continue in accordance
+	  with last instructions until <emphasis>3 minutes</emphasis> have elapsed since setting 7600, then proceed in
+	  most direct manner to rejoin current flight plan route. If necessary, climb to minimum flight
+	  altitude.</para></listitem>
+
+	  <listitem><para>If performing an SRA, continue visually or by using an alternate approach aid. If this is not
+	  possible, carry out a missed approach and continue to the holding position of a suitable aerodrome with a
+	  notified instrument approach and carry out that procedure.</para></listitem>
+	</itemizedlist></para>
+
+        <para role="multicite">[ICAO Annex 10, ICAO DOC 4444, UKAIP ENR 1.1.3.4]</para>
       </sect1>
     </chapter>
     <chapter>
