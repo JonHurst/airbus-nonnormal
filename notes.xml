@@ -70,7 +70,7 @@
         off.</para></listitem>
         <listitem><para>Rewrote <xref linkend="rnav-downgrade"/>.</para></listitem>
 	<listitem><para>Added airframe difference for handling of triple ADR failure to <xref
-	linkend="pressure-controller"/>.</para></listitem>
+	linkend="adr-faults"/>.</para></listitem>
 	<listitem><para>Clarified effect of dual FAC failure in <xref linkend="fac-faults"/>.</para></listitem>
 	<listitem><para>Updated <xref linkend="rudder-limit"/> to incorporate latest FCOM advice.</para></listitem>
         <listitem><para>Removed note from <xref linkend="dualhyd.by"/> that CONF 3 should be used to improve go-around
