@@ -61,6 +61,7 @@
 	<listitem><para>Clarified use of APU for extra go-around margin (<xref
 	linkend="engine-shut-down"/>).</para></listitem>
 	<listitem><para>Added note to <xref linkend="engine-stall"/> that N2 idle is approximately 60%.</para></listitem>
+	<listitem><para>Added acceptable fuel mast drip rates to <xref linkend="start-faults"/>.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that EGPWS warnings can be downgraded to cautions if the
         company has promulgated an applicable nuisance warning notice.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that autothrust will likely be in TOGA LK following an
@@ -2488,7 +2489,7 @@
 	FCOM PRO.ABN.70]</para>
       </sect1>
 
-      <sect1>
+      <sect1 id="start-faults">
 	<title>Start faults</title>
 
 	<para>Start faults include ignition faults (no light off within 18 seconds of ignition
@@ -2514,11 +2515,13 @@
 	<para>If the electrical power supply is interrupted during a start (indicated by loss of
 	ECAM DUs) turn the master switch off, then perform a 30 second dry crank.</para>
 
-	<para>If a fuel leak from the engine drain mast is reported, run the engine at idle for 5
-	minutes. If the leak ceases in this time, the aircraft may dispatch.</para>
+	<para revisionflag="changed">If a fuel leak from the engine drain mast is reported, run the
+	engine at idle for 5 minutes. If, after this time, the leakage rate is less than 90
+	drops/min<footnote><para>A leak rate of 60-90 drops/min requires maintenance action within
+	25 cycles.</para></footnote>, the aircraft may despatch.</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START FAULT,
-	FCOM PRO.ABN.70]</para>
+	FCOM PRO.ABN.70], EOMB 2.3.8.1</para>
       </sect1>
 
       <sect1>
