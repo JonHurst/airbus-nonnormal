@@ -53,6 +53,7 @@
 	relationship between the AVIONICS SMOKE ECAM and the SMOKE/FUMES/AVNCS SMOKE QRH checklist.</para></listitem>
         <listitem><para>Added note to <xref linkend="eng_fire"/> warning of loss of ECAM and COMs
         after shutting down second engine on the ground.</para></listitem>
+	<listitem><para>Updated <xref linkend="low-fuel"/> to reflect new guidance in EOM-A.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that EGPWS warnings can be downgraded to cautions if the
         company has promulgated an applicable nuisance warning notice.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that autothrust will likely be in TOGA LK following an
@@ -1678,7 +1679,7 @@
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> AUTO FEED FAULT,
         FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
       </sect1>
-      <sect1>
+      <sect1 id="low-fuel">
         <title>Low fuel level</title>
 
         <para>The ECAM is triggered at approximately 750kg. The warning may be spurious if the ECAM is triggered just
@@ -1686,12 +1687,15 @@
         center tank pumps to manual mode. If there is a fuel imbalance and a fuel leak can be ruled out, crossfeed fuel
         as required.</para>
 
-        <para>If both tanks are low level, about 30 minutes of flying time remain. Declare a PAN if the possibility
-        exists that there will be less than final reserve on landing. Declare a MAYDAY if it is certain that there will
-        be less than final reserve on landing.[EOMA 8.3.7.2]</para>
+        <para>If both tanks are low level, about 30 minutes of flying time remain.</para>
+
+	<para revisionflag="changed">If any change to the current clearance will lead to landing
+	with less than minimum reserve fuel, declare "minimum fuel" to ATC. This is just a heads up
+	to ATC, not a declaration of an emergency situation. If it is calculated that less than
+	minimum fuel will remain after landing, declare a MAYDAY.</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis>(R)(L+R) WING TK LO LVL,
-	FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+	FCOM PRO.ABN.28, FCOM DSC.28.30, EOMA 8.3.7.2]</para>
       </sect1>
       <sect1>
         <title>Outer tank transfer valves failed closed</title>
