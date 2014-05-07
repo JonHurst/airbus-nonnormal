@@ -58,6 +58,8 @@
 	<listitem><para>Expanded explanation of cross bleed usage in <xref
 	linkend="engine-shut-down"/>, including 1200ft gross ceiling penalty. Added a reference to
 	anti-ice inoperative mitigation.</para></listitem>
+	<listitem><para>Clarified use of APU for extra go-around margin (<xref
+	linkend="engine-shut-down"/>).</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that EGPWS warnings can be downgraded to cautions if the
         company has promulgated an applicable nuisance warning notice.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that autothrust will likely be in TOGA LK following an
@@ -2226,11 +2228,14 @@
         windshear) it is possible that directional control may be lost before the flight computer protections apply. Be
         cautious about reducing speed below V<subscript>LS</subscript> on one engine.</para>
 
-        <para>The main systems lost are the generator, bleed and hydraulic pump associated with the
-        engine. Other systems may be lost depending on the reason for the shutdown. The APU can be
-        used to replace the lost generator and, providing the left side of the pneumatic system is
-        available, provide pressurisation through pack 1, thus giving additional margin for the
-        go-around.</para>
+        <para revisionflag="changed">The main systems lost are the generator, bleed and hydraulic
+        pump associated with the engine. Other systems may be lost depending on the reason for the
+        shutdown. The APU can be used to replace the lost generator and, providing the left side of
+        the pneumatic system is available, provide pressurisation through pack 1, thus giving
+        additional margin for the go-around. The BMCs automatically close the engine bleeds when the
+        APU bleed valve is opened, so it is not necessary to manually turn them off to achieve this
+        additional go-around margin. Note, however, that the APU cannot support wing
+        anti-ice.</para>
 
 	<para>Approach and landing will be fairly normal. The main provisos are
 
