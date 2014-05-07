@@ -2660,18 +2660,18 @@
         </para>
 
         <para>For RNAV approaches, a go-around is mandated for any of these messages or if GPS PRIMARY LOST is
-        annunciated on both NDs<footnote><para>If only one FMGC is affected, the approach may be continuted using the
-        unaffected FMGC.</para></footnote>. {TODO: The 15th April EOMA update replaced the GPS PRIMARY restriction for
-        RNAV(VOR/DME) or RNAV(DME/DME) with a restriction that the underlying navigation source must be available, but
-        EOMB still mandates a go-around in the event of GPS PRIMARY LOST.}</para>
+        annunciated on both NDs<footnote><para>If GPS PRIMARY LOST is annunciated on only one ND, the approach may be
+        continuted using the unaffected FMGC.</para></footnote>. {TODO: The 15th April EOMA update replaced the GPS
+        PRIMARY restriction for RNAV(VOR/DME) or RNAV(DME/DME) with a restriction that the underlying navigation source
+        must be available, but EOMB still mandates a go-around in the event of GPS PRIMARY LOST.}</para>
 
-        <para>In addition to the above list, some RNP-1 procedures specify additional downgrade criteria such as loss of
-        either RNAV systems or loss of GPS. In an RNP-1 (PRNAV) environment, an RNAV downgrade may leave the aircraft
-        unsure of position and below MSA. The initial response is to notify ATC with the phrase “Unable RNAV due
-        equipment” and request reclearance. An immediate climb above MSA should be considered if a suitable alternative
-        navigation method (e.g. radar vectors) is not available.</para>
+	<para>In an RNP-1 (PRNAV) environment, an RNAV downgrade may leave the aircraft unsure of position and below
+	MSA. The initial response is to notify ATC with the phrase “Unable RNAV due equipment” and request
+	reclearance. An immediate climb above MSA should be considered if a suitable alternative navigation method
+	(e.g. radar vectors) is not available.</para>
 
-        <para>Provided that GPS is not mandated as an additional restriction, an RNP-1 procedure may still be flown
+        <para>Some RNP-1 procedures specify additional downgrade criteria such as a requirement for dual RNAV systems or
+        GPS. If GPS is not specifically mandated as an additional restriction, an RNP-1 procedure may still be flown
         without GPS PRIMARY: set RNP to 1, check NAV ACCURACY is HIGH and carry out a raw data check prior to
         commencement.</para>
 
