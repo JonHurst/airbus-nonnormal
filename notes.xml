@@ -78,7 +78,9 @@
         assertion that spoiler 1 was available for roll control – only spoilers 2 to 5 are ever used for this
         purpose.</para></listitem>
 	<listitem><para>Added <xref linkend="com-failure-icao"/> and updated <xref linkend="com-failure-uk"/> to include
-	generic ICAO communication failure procedures.</para></listitem>
+	generic ICAO communication failure procedures and tower visual signals.</para></listitem>
+	<listitem><para>Added non-standard ECAM procedures and dual hydraulic failure fundamentals to <xref
+	linkend="misc-tips"/></para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -3264,8 +3266,17 @@
 	  <listitem><para>On reaching the appropriate NAVAID or fix serving the destination aerodrome, hold if
 	  necessary, then at EAT, or if no EAT has been received and acknowledged, computed flight plan ETA, commence an
 	  appropriate instrument approach procedure. If possible land within 30 minutes of this time.</para></listitem>
-	</itemizedlist></para>
 
+	  <listitem><para>Watch for visual signals from the tower:
+	  <itemizedlist>
+	    <listitem><para>Red Pyro: Permission to land cancelled</para></listitem>
+	    <listitem><para>Flashing Red Light: Land elsewhere</para></listitem>
+	    <listitem><para>Continuous Red: Give way to other aircraft, continue circling</para></listitem>
+	    <listitem><para>Flashing Green: Return to circuit, await landing clearance</para></listitem>
+	    <listitem><para>Continuous Green: Permission to land</para></listitem>
+	  </itemizedlist></para></listitem>
+	</itemizedlist>
+	</para>
       </sect1>
       <sect1 id="com-failure-uk" revisionflag="changed">
         <title>Communication failure (UK airspace)</title>
@@ -3297,16 +3308,41 @@
         <para role="multicite">[ICAO Annex 10, ICAO DOC 4444, UKAIP ENR 1.1.3.4]</para>
       </sect1>
     </chapter>
-    <chapter>
+    <chapter id="misc-tips">
       <title>Miscellaneous Tips</title>
         <itemizedlist>
           <listitem><para>When configuring, V<subscript>LS</subscript> is more critical than
           V<subscript>FE</subscript>, which in turn is more critical than manoeuvring speeds (S and F
           speeds).</para></listitem>
-          <listitem><para>When configuring, flaps do not begin to extend until CONF 2 is
+          <listitem><para>When configuring on approach, flaps do not begin to extend until CONF 2 is
           selected.</para></listitem>
           <listitem><para>Slat position does not change between CONF 2 and CONF 3.</para></listitem>
-        </itemizedlist>
+	  <listitem revisionflag="added"><para>The AVIONICS SMOKE ECAM is non-standard. Do not run the procedure from the ECAM, use the QRH
+	  procedure instead.</para></listitem>
+	  <listitem revisionflag="added"><para>The Engine Fire on the Ground procedure is non-standard. The FO must remember to mitigate the
+	  effects of loss of electrical power (which includes loss of ECAM and non-emergency lighting) before shutting
+	  down the second engine.</para></listitem>
+	  <listitem revisionflag="added"><para>Dual hydraulic failure fundamentals:
+	  <itemizedlist>
+	    <listitem><para>You will always need to gravity extend the gear, so you will never be able to retract
+	    it on the go-around.</para></listitem>
+
+	    <listitem><para>If you only have blue, you lose the flaps; if you only have yellow, you lose the slats. The
+	    flaps/slats jammed procedure (including go-around modifications) is therefore incorporated into both these
+	    procedures.</para></listitem>
+
+	    <listitem><para>If you only have blue, you don't have the THS, so you need to go Direct Law late (at Conf 3,
+	    V<subscript>APP</subscript>) to get neutral trimming of the elevators. If you only have yellow, you only
+	    have one elevator; combined with lack of slats this requires going Direct Law early (at 200kt) to improve
+	    pitch response.</para></listitem>
+
+	    <listitem><para>You're going to need a longish runway. Worst case is if you only have blue, since you have,
+	    at best, accumulator braking and you're coming in fast due to lack of flaps. Yellow is better since you have
+	    alternate braking, and its mainly about the lack of slats. If you have green, its not really all that
+	    bad.</para></listitem>
+
+	  </itemizedlist></para>
+	</listitem></itemizedlist>
     </chapter>
 </book>
 
