@@ -75,7 +75,7 @@
 	<listitem><para>Updated <xref linkend="rudder-limit"/> to incorporate latest FCOM advice.</para></listitem>
         <listitem><para>Removed note from <xref linkend="dualhyd.by"/> that CONF 3 should be used to improve go-around
         performance as CONF FULL now appears to be the recommended landing configuration. Also removed incorrect
-        assertion that spoiler 1 was available for rolll control – only spoilers 2 to 5 are ever used for this
+        assertion that spoiler 1 was available for roll control – only spoilers 2 to 5 are ever used for this
         purpose.</para></listitem>
       </itemizedlist>
     </sect1>
