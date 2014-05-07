@@ -53,7 +53,11 @@
 	relationship between the AVIONICS SMOKE ECAM and the SMOKE/FUMES/AVNCS SMOKE QRH checklist.</para></listitem>
         <listitem><para>Added note to <xref linkend="eng_fire"/> warning of loss of ECAM and COMs
         after shutting down second engine on the ground.</para></listitem>
-	<listitem><para>Updated <xref linkend="low-fuel"/> to reflect new guidance in EOM-A.</para></listitem>
+	<listitem><para>Updated <xref linkend="low-fuel"/> to reflect new guidance in
+	EOM-A.</para></listitem>
+	<listitem><para>Expanded explanation of cross bleed usage in <xref
+	linkend="engine-shut-down"/>, including 1200ft gross ceiling penalty. Added a reference to
+	anti-ice inoperative mitigation.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that EGPWS warnings can be downgraded to cautions if the
         company has promulgated an applicable nuisance warning notice.</para></listitem>
         <listitem><para>Added note to <xref linkend="egpws"/> that autothrust will likely be in TOGA LK following an
@@ -2188,11 +2192,20 @@
       <sect1 id="engine-shut-down">
         <title>Single engine operation</title>
 
-        <para>The most pressing issue is that a single engine cannot support wing anti-ice and two packs, so if wing
-        anti-ice is in use, one of the packs must be turned off. This will generally be the pack on the affected side,
-        but will need to be pack 1 in electrical emergency configuration. The cross bleed must be opened for symmetrical
-        wing anti-icing. If a fire button has been pushed, the cross bleed cannot be opened, and wing anti-ice is
-        unavailable.</para>
+        <para>The most pressing issue is that a single engine bleed cannot support wing anti-ice and
+        two packs. With the crossbleed valve selector in the normal AUTO position, the crossbleed
+        valve is effectively synchronised to the APU bleed valve<footnote><para>The exception is
+        that the crossbleed won't open if a bleed air duct leak is detected except during engine
+        start.</para></footnote> and thus will most probably be closed; wing anti-ice, if it is in
+        use, will be operating asymmetrically. If a fire button has been pushed, its associated side
+        of the pneumatic system will be locked out and thus the only option is to turn the wing
+        anti-ice off. PRO.SUP.30 OPERATIONS IN ICING CONDITIONS provides mitigation of icing in the
+        event of inoperative wing anti-ice. If both sides of the cross bleed system are available,
+        the cross bleed valve can be manually opened at a cost of 1200ft to the single engine gross
+        ceiling. With the cross bleed valve open, wing anti-ice is available, but one of the packs
+        must be turned off<footnote><para>It will need to be pack 1 in Emergency Electrical config;
+        otherwise it will generally be the pack on the dead engine side.</para></footnote> whenever
+        it is used.</para>
 
         <para>The remaining engine must be safeguarded. To this end, continuous ignition should be selected.</para>
 
