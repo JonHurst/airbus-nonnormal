@@ -163,7 +163,7 @@
         decay unless pitch is reduced), adjust and trim rudder to maintain &beta; target and request
         “pull heading”. If the EOSID follows the track of the cleared SID, NAV may be used, but this
         is very rare with easyJet EOSIDs. Bank angle should be limited to 15° when more than 3kt
-        below maneuvering speed for the current configuration. Engage the autopilot once gear is up
+        below manoeuvring speed for the current configuration. Engage the autopilot once gear is up
         and rudder is trimmed.</para>
 
         <para>Whilst below 400ft, the only failure related actions should be:
@@ -178,7 +178,7 @@
         </para>
 
         <para>Once above 400ft with safe flight path assured, decide on an initial strategy. In
-        general, where a loss of thrust has occured or is anticipated, the strategy will be to fly
+        general, where a loss of thrust has occurred or is anticipated, the strategy will be to fly
         the EOSID with a level acceleration segment (see <xref linkend="eosid"/>). Otherwise, it
         will be to remain on the normal SID and fly a normal climb profile. Any deviation from the
         cleared SID will require ATC to be informed as a priority, usually as part of a PAN or
@@ -213,7 +213,7 @@
           <itemizedlist>
             <listitem><para>Initially fly a TOGA climb at the higher of V<subscript>2</subscript> or current
             speed, up to a limit of V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX
-            climb is permissable. This climb is continued until all high priority tasks are complete and the
+            climb is permissible. This climb is continued until all high priority tasks are complete and the
             aircraft is at or above acceleration altitude. For the engine failure and the engine fire
             cases, EOMB 4.4.4 specifically defines the high priority tasks. For an engine failure, all ECAM actions up to
             and including the master switch being turned off must be completed. For the engine fire case all
@@ -222,12 +222,12 @@
 
             <listitem><para>The next segment is a TOGA level acceleration and clean up, either to Conf 1 and S speed
             if an immediate VMC return is desired or to Conf 0 and green dot. Again FLEX may be used if a FLEX
-            takeoff was carried out. Level acceleration is usually acheived by pushing V/S.  The phrases “Stop
-            ECAM” and “Continue ECAM” can be used to interupt ECAM procedures in order to initiate this
+            takeoff was carried out. Level acceleration is usually achieved by pushing V/S.  The phrases “Stop
+            ECAM” and “Continue ECAM” can be used to interrupt ECAM procedures in order to initiate this
             segment.</para></listitem>
 
             <listitem><para>The final segment is a MCT climb segment to MSA, either at S speed if in Conf 1 or at
-            green dot speed if in Conf 0. This is usually acheived in open climb.</para></listitem>
+            green dot speed if in Conf 0. This is usually achieved in open climb.</para></listitem>
           </itemizedlist>
 
           TOGA may be used for a maximum of 10 minutes.</para>
@@ -241,7 +241,7 @@
 
   </chapter>
   <chapter>
-    <title>Miscellanneous</title>
+    <title>Miscellaneous</title>
     <sect1 id="emerg-descent">
       <title>Emergency descent <emphasis>(memory item)</emphasis></title>
       <para>If an emergency descent is required, the Captain should consider taking control if not already PF.</para>
@@ -267,7 +267,7 @@
 
         <para revisionflag="added">The QRH checklist calls for an announcement of the Emergency Descent on the
         PA. Training standards have decreed that the automated PA that occurs in the event of loss
-        of cabin pressure fulfills this requirement, and thus no PA is required from the flight crew
+        of cabin pressure fulfils this requirement, and thus no PA is required from the flight crew
         during the descent. {TODO: this is just information from a TRE; I can find no reference in
         any controlled documentation.}</para>
 
@@ -283,7 +283,7 @@
 
           <para>The windshear detection system is a function of the Flight Augmentation Computer (FAC). It only operates
           during the takeoff and landing phases with at least CONF 1 selected. In the takeoff phase, warnings are
-          provided from 3 seconds after lift off until 1300ft RA is acheived. In the landing phase warnings are provided
+          provided from 3 seconds after lift off until 1300ft RA is achieved. In the landing phase warnings are provided
           between 1300ft RA and 50ft RA. A warning is indicated by a red “WINDSHEAR” flag on the PFD and a “WINDSHEAR,
           WINDSHEAR, WINDSHEAR” aural warning.</para>
 
@@ -298,7 +298,7 @@
           sacrificed.</para>
 
           <para>If a warning occurs when airborne, call “Windshear, TOGA”, apply TOGA power and maintain current
-          configuration. The autopilot can fly the escape maneuvre as long as
+          configuration. The autopilot can fly the escape manoeuvre as long as
           &alpha;<subscript>req</subscript>&nbsp;&lt;&nbsp;&alpha;<subscript>prot</subscript>. If the autopilot is not
           engaged, follow the SRS orders on the FD. If the FD is not available, initially pitch up to 17.5°, then
           increase as required.</para>
@@ -331,7 +331,7 @@
 
           <para revisionflag="changed">If a warning alert occurs during approach, carry out a normal go-around. If positive
           verification is made that no hazard exists, providing that the reactive windshear is
-          servicable the crew may downgrade the warning to a caution. If a caution alert occurs
+          serviceable the crew may downgrade the warning to a caution. If a caution alert occurs
           during approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a
           maximum of V<subscript>LS</subscript>+15.</para>
 
@@ -356,7 +356,7 @@
         attitude and thrust to displayed performance. Correlation of radio altimeter and GPIRS
         derived data (available on GPS MONITOR page) may also aid identification. The stall warning
         (available in alternate or direct law) is based on alpha probes, so will likely be
-        valid. Other clues may include fluctuations in readings, abnormal behavior of the
+        valid. Other clues may include fluctuations in readings, abnormal behaviour of the
         automatics, high speed buffet or low aerodynamic noise.</para>
 
         <para revisionflag="changed">If the aircraft flight path is in doubt, disconnect the automatics and fly the
@@ -405,7 +405,7 @@
         when below FL250 by turning off the third ADR. The ALL ADR OFF procedure in QRH ABN.34
         describes the use of these scales, but it boils down to fly the green on the speed scale and
         anticipate slightly reduced accuracy from the altitude scale.  For aircraft without this
-        fuctionality, tables are provided in section ABN.34.07 of the QRH to enable all phases of
+        functionality, tables are provided in section ABN.34.07 of the QRH to enable all phases of
         flight to be flown using just pitch and thrust settings. Acceleration and clean up are
         carried out in level flight. Flap 1 can be selected as soon as climb thrust is selected,
         flap 0 once the appropriate S speed pitch attitude from the table on the first page of the
@@ -491,7 +491,7 @@
         confirmation is not required before carrying out these actions, but the Airbus Training
         Study Guide issued by the training department specifies that cross confirmation should be
         carried out exactly as if airborne. In theory, but possibly not in practice, the FCTM
-        supercedes the ATSG. In response to the next checklist item, “Agents”, CM1 decides if any
+        supersedes the ATSG. In response to the next checklist item, “Agents”, CM1 decides if any
         extinguishing agents should be discharged and instructs CM2 to discharge them as
         required. Engine agent 2 will not be available. Agents should only be discharged if there
         are positive signs of fire.</para>
@@ -514,10 +514,10 @@
         landing configuration is less than FULL, use 1+F for go-around.</para>
 
         <para>It is possible that S speed will be higher than V<subscript>FE&nbsp;next</subscript> for CONF 2. In this case,
-        a speed below V<subscript>FE&nbsp;next</subscript> should be selected until CONF 2 is acheived, then managed speed
+        a speed below V<subscript>FE&nbsp;next</subscript> should be selected until CONF 2 is achieved, then managed speed
         can be re-engaged.</para>
 
-        <para>In the final stages of the approach, reduce speed to acheive V<subscript>LS</subscript> at runway
+        <para>In the final stages of the approach, reduce speed to achieve V<subscript>LS</subscript> at runway
         threshold. Land as smoothly as possible, and apply max reverse as soon as the main gear touches down. Maximum
         braking can be used after nosewheel touchdown. After landing, switch on the brake fans and monitor brake
         temperatures carefully. If temperatures exceed 800°C, tyre deflation may occur.</para>
@@ -561,15 +561,15 @@
         <title>Bomb on board</title>
         <para>The primary aim is to get the aircraft on the ground and evacuated ASAP.</para>
 
-        <para>The secondary aim is to prevent detonation of the device. This is acheived by preventing further increases
-        in cabin altitude through the use of manual pressure control and by avoiding sharp maneuvres and
+        <para>The secondary aim is to prevent detonation of the device. This is achieved by preventing further increases
+        in cabin altitude through the use of manual pressure control and by avoiding sharp manoeuvres and
         turbulence.</para>
 
-        <para>The tertiary aim is to minimise the effect of any explosion. This is acheived by reducing the diff to 1
+        <para>The tertiary aim is to minimise the effect of any explosion. This is achieved by reducing the diff to 1
         psi. The method is to set cabin vertical speed to zero using manual pressurisation control, then descend to an
         altitude 2500ft above cabin altitude. As further descent is required, cabin vertical speed should be adjusted to
         maintain the 1 psi diff for as long as possible. Automatic pressure control is then reinstated on approach. Low
-        speeds reduce the damage from an explosion but increase the risk of a timed explosion occuring whilst airborne;
+        speeds reduce the damage from an explosion but increase the risk of a timed explosion occurring whilst airborne;
         a compromise needs to be found. The aircraft should be configured for landing as early as possible to avoid an
         explosion damaging landing systems.</para>
 
@@ -600,16 +600,16 @@
       </sect1>
       <sect1 id="computer-reset">
         <title>Computer reset</title>
-        <para>Abnormal computer behaviour can often be stopped by interupting the power supply of
+        <para>Abnormal computer behaviour can often be stopped by interrupting the power supply of
         the affected computer. This can be done either with cockpit controls or with circuit
-        breakers. The general procedure is to interupt the power supply, wait 3 seconds (5 seconds
+        breakers. The general procedure is to interrupt the power supply, wait 3 seconds (5 seconds
         if a C/B was used), restore the power, then wait another three seconds for the reset to
         complete. QRH ABN.80 COMPUTER RESET details the specific procedures for a variety of
         systems.</para>
 
         <para revisionflag="changed">On the ground, almost all computers can be reset. MOC can usually supply a reset
         procedure if nothing applicable is available in the QRH. The exceptions are the ECU and EIU
-        while the associated engine is running and the BDCU when the aircraft is not stopped.</para>
+        while the associated engine is running and the BSCU when the aircraft is not stopped.</para>
 
         <para>In flight, only the computers listed in the QRH should be considered for reset.</para>
 
@@ -756,7 +756,7 @@
 	<para>Either a fault with one of the trim air valves or an overpressure downstream of the
 	hot air valve. An associated message indicates which condition exists.</para>
 
-	<para>Failure of a trim valve leads to loss of optimized temperature regulation for the
+	<para>Failure of a trim valve leads to loss of optimised temperature regulation for the
 	corresponding zone; basic temperature regulation is still available.</para>
 
 	<para>The TRIM AIR HIGH PR message may be disregarded if triggered when all the trim air
@@ -807,7 +807,7 @@
 	<para>If both pressure controllers are lost, use manual control. The outflow valve reacts
 	slowly in manual mode, and it may be 10 seconds before positive control of the outflow valve
 	can be verified. It may also react too slowly to prevent a temporary
-	depressurization.</para>
+	depressurisation.</para>
 
 	<para revisionflag="added">Manual pressurisation control is activated by pressing the MODE SEL button. This
 	allows the MAN V/S CTL toggle switch to directly control the outflow valve. Moving the toggle to DN closes the
@@ -838,7 +838,7 @@
       <sect1>
 	<title>Outflow valve closed on ground</title>
 
-	<para>If the outlow valve fails to automatically open on the ground, manual control should
+	<para>If the outflow valve fails to automatically open on the ground, manual control should
 	be attempted. If that doesn’t work, depressurise the aircraft by turning off both packs.</para>
 
    <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN,
@@ -896,7 +896,7 @@
 
 	<para>If the extract valve is affected, the system should be put into smoke configuration;
 	this sends additional close signals to the extract valve. If this fails, the aircraft must
-	be depressurized {TODO: find out why}.</para>
+	be depressurised {TODO: find out why}.</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> SKIN VALVE FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
@@ -1043,7 +1043,7 @@
         agree. Landing distance increases by up to 35% due to the loss of 3 ground spoilers per side and one
         reverser. Autobrake is also unavailable. Due to the loss of SFCC2, the slats and flaps will be slow
         and the engines will remain in approach idle. FAC2 is lost, so the characteristic speeds on both PFDs
-        are provided by FAC1. F/O window heat, wipers and rain repellant is lost.</para>
+        are provided by FAC1. F/O window heat, wipers and rain repellent is lost.</para>
 
         <para>The other lost systems either have redundant backups or are non-essential. It should be noted
         that the only flight computers remaining are ELAC 1, SEC 1 and FAC 1.</para>
@@ -1201,7 +1201,7 @@
 
         <para>Manual pitch trim is a mechanical connection to the stabilizer actuator. It may be possible to use manual
         pitch trim when the ELACs have detected a stabilizer jam, although it may be heavier than normal. If it is
-        useable, trim for neutral elevators.</para>
+        usable, trim for neutral elevators.</para>
 
         <para>The flight controls will revert to Alternate Law. If the stabilizer could not be moved, gear extension
         should be delayed until CONF 3 and V<subscript>APP</subscript> are achieved so that the elevators are properly
@@ -1228,7 +1228,7 @@
 
         <para>If the spoiler fails in the retracted position, handling should not be adversely affected. A CONF 3
         landing may reduce any buffeting that is encountered. Speed brake should not be used if spoilers 3 + 4 are
-        affected. The loss of ground spoilers will signigicantly increase landing distances.</para>
+        affected. The loss of ground spoilers will significantly increase landing distances.</para>
 
 	<para>Airbus have identified a failure scenario that leads to high pressure hydraulic fluid reaching the extend
 	chamber of a spoiler actuator via a failed o-ring. This has the effect of a spoiler failing in the fully
@@ -1245,7 +1245,7 @@
       <sect1>
         <title>Rudder Jam</title>
 
-        <para>The main indication of jammed rudder is undue and adverse pedal movement during rolling maneuvers caused
+        <para>The main indication of jammed rudder is undue and adverse pedal movement during rolling manoeuvres caused
         by the yaw damper orders being fed back to the pedals when they are no longer sent to the rudder.</para>
 
         <para>Crosswinds from the side that the rudder is deflected should be avoided, and a cross wind limit of 15kt
@@ -1299,7 +1299,7 @@
         device. In most cases, overspeed warnings can be avoided.</para>
 
         <para>It is worth noting that failure of the slat channels of both SFCCs appears to result in the loss of
-        characterisic speed display on both PFDs. This is not mentioned in the FCOM but occurs in the sim. The upshot of
+        characteristic speed display on both PFDs. This is not mentioned in the FCOM but occurs in the sim. The upshot of
         this is that neither V<subscript>LS</subscript> nor V<subscript>SW</subscript> are available at all, since they
         are not displayed and there is no way to calculate them. This is of particular concern when trying to configure
         to flaps 2 since the aircraft must be slowed to V<subscript>FE(conf 2)</subscript>-5 when still clean (remember
@@ -1341,7 +1341,7 @@
 
         <para>In normal operations, ELAC 1 controls the ailerons and ELAC 2 controls the elevators and
         stabiliser. Failure of a single ELAC will result in failover to the remaining computer. Provided no uncommanded
-        maneuvres occured, an attempt can be made to reset the failed ELAC.</para>
+        manoeuvres occurred, an attempt can be made to reset the failed ELAC.</para>
 
         <para>Failure of both ELACs leads to loss of ailerons and hence Alternate Law. One of the SECs will take over
         control of the elevators and stabiliser. Again, an attempt can be made to reset the computers.</para>
@@ -1394,7 +1394,7 @@
         trimming must be done manually. The controls are very sensitive at high speeds. Use of manual thrust is
         recommended as power changes will result in pitch changes. Similarly, use of the speed brake will result in nose
         up pitch changes so it should be used with care. Protections are unavailable, so speed is limited to 320kt/0.77M
-        and care must be taken in GPWS or windshear maneuvres. Approach speed is increased by 10kt and landing distances
+        and care must be taken in GPWS or windshear manoeuvres. Approach speed is increased by 10kt and landing distances
         increase by a factor of 1.2.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> DIRECT LAW,
@@ -1408,7 +1408,7 @@
         of the failure. Stall warnings and overspeed warnings become active.</para>
 
         <para>The main effects are that speed is limited to 320kt and stall warnings must be respected when carrying out
-        EGPWS maneuvers.</para>
+        EGPWS manoeuvres.</para>
 
         <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and hence increased
         approach speeds and landing distances (see QRH FPE.IFL.27).</para>
@@ -1419,7 +1419,7 @@
       <sect1>
         <title>Wingtip brake fault</title>
 
-        <para>The wingtip brakes activate in case of assymetry, mechanism overspeed, symmetrical runaway or uncommanded
+        <para>The wingtip brakes activate in case of asymmetry, mechanism overspeed, symmetrical runaway or uncommanded
         movements. This protection is lost.</para>
 
         <para role="multicite">[<emphasis
@@ -1496,7 +1496,7 @@
         <para>The QRH procedure should be applied when smoke is detected and the crew suspect the avionics, air
         conditioning or cabin equipment as the source. The paper procedure includes all the steps of the avionics smoke
         ECAM procedure, so if this caution is triggered, the paper procedure should be applied instead of the
-        ECAM<footnote><para revisionflag="added">There is an odd airframe dependancy with this; on some airframes the
+        ECAM<footnote><para revisionflag="added">There is an odd airframe dependency with this; on some airframes the
         instruction is to run the paper checklist at latest after completing the immediate actions of the Avionics Smoke
         ECAM, whilst on others it is when requested by the Avionics Smoke ECAM. Unfortunately the Avionics Smoke ECAM
         itself is not described in the FCOM. A general policy of running the paper procedure instead of the Avionics
@@ -1564,7 +1564,7 @@
         overboard. Otherwise it is driven overboard by residual pressure.</para>
 
         <para>The final target configuration is packs off, outflow valve fully open and ram air on. As this
-        depressurises the aircraft, it can only be acheived at lower levels (preferably FL100). If in emergency
+        depressurises the aircraft, it can only be achieved at lower levels (preferably FL100). If in emergency
         configuration, turning the APU master switch on connects the batteries for a maximum of 3 minutes and allows
         manual control of the DC powered outflow valve motor. Once at a suitable level and below 200kt, as a last resort
         PNF’s cockpit window can be opened.</para>
@@ -1785,7 +1785,7 @@
         the alternate brake system. To do this, release the brake pedals and turn off the ASKID &amp; NW STRG switch. If
         the alternate system also appears to have failed, short successive applications of the parking brake may be
         used. Use of the parking brake in this way risks tire burst and lateral control difficulties (due brake onset
-        assymetry) so delay until low speed if at all possible.</para>
+        asymmetry) so delay until low speed if at all possible.</para>
 
         <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
       </sect1>
@@ -1796,13 +1796,13 @@
         pressure should quickly return to zero. If the triple indicator shows residual pressure after this test, try to
         zero it by pressing the brake pedals several times. If a landing must be made with residual pressure in the
         alternate braking system, use autobrake MED or immediate manual braking to prioritise the normal
-        system. Anticipate brake assymetry at touchdown.</para>
+        system. Anticipate brake asymmetry at touchdown.</para>
 
         <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
       </sect1>
       <sect1 id="gear-gravity-extension">
         <title>Gravity extension</title>
-        <para>Gravity extension is acheived by turning the GRAVITY GEAR EXTN handcrank clockwise three times until a
+        <para>Gravity extension is achieved by turning the GRAVITY GEAR EXTN handcrank clockwise three times until a
         mechanical stop is reached. Once the gear is down, the LG lever should be set to down to extinguish the UNLK
         lights and remove the LG CTL message from the WHEEL page.</para>
 
@@ -2129,7 +2129,7 @@
 
         <para>Whilst awaiting a relight, ensure that the emergency electrical generator is on line and recycle FAC1 to
         recover characteristic speed display and rudder trim. For communications, VHF1 and ATC1 are available in the
-        emergency electrical config. Due to lack of engine bleeds, a slow depressurisation will be occuring, so be ready
+        emergency electrical config. Due to lack of engine bleeds, a slow depressurisation will be occurring, so be ready
         to don oxygen masks.</para>
 
         <para>If there has been no relight after 30 seconds, the combustion chambers should be ventilated by turning
@@ -2176,7 +2176,7 @@
 
 	<para>Defined as a rapid decrease in EGT, N2 and FF, followed by a decrease in N1. The crew
 	must determine whether the engine has been damaged or whether a simple flame-out has
-	occured. Indications of damage are loud noises, significantly increased vibration or
+	occurred. Indications of damage are loud noises, significantly increased vibration or
 	buffeting, repeated or uncontrollable engine stalls or abnormal post-failure indications
 	(e.g. hydraulic fluid loss, zero N1 or N2 etc.).</para>
 
@@ -2184,7 +2184,7 @@
 	immediate relight attempt. The thrust lever of the failed engine is then moved to idle (PF
 	moves the lever after confirmation from PNF). If the FADEC hasn’t relit the failed engine
 	within 30 seconds of the failure, it is shut down with the master switch. If damage is
-	believed to have occured, the associated fire button is pushed and, after 10 seconds, agent
+	believed to have occurred, the associated fire button is pushed and, after 10 seconds, agent
 	1 discharged.</para>
 
 	<para>If it is believed that the engine is undamaged, a relight can be considered. The
@@ -2193,7 +2193,7 @@
 	FADEC troubleshooting data.</para>
 
 	<para>If there is vibration and/or buffeting, attempt to find an airspeed and altitude
-	combination that minimizes the syptoms.</para>
+	combination that minimizes the symptoms.</para>
 
 	<para>Refer to <xref linkend="engine-shut-down"/> if unable to relight the engine.</para>
 
@@ -2526,7 +2526,7 @@
 	<para revisionflag="changed">If a fuel leak from the engine drain mast is reported, run the
 	engine at idle for 5 minutes. If, after this time, the leakage rate is less than 90
 	drops/min<footnote><para>A leak rate of 60-90 drops/min requires maintenance action within
-	25 cycles.</para></footnote>, the aircraft may despatch.</para>
+	25 cycles.</para></footnote>, the aircraft may dispatch.</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START FAULT,
 	FCOM PRO.ABN.70], EOMB 2.3.8.1</para>
@@ -2659,7 +2659,7 @@
         <itemizedlist>
           <listitem><para>NAV ACCUR DOWNGRAD (MCDU and ND)<footnote><para>For RNP-1 and RNP-5 procedures, if NAV ACCUR
           DOWNGRAD occurs on one side only, the procedure may be continued using the unaffected
-          FMCG.</para></footnote></para></listitem>
+          FMGC.</para></footnote></para></listitem>
           <listitem><para>FMS1/FMS2 POS DIFF (MCDU)</para></listitem>
           <listitem><para><emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE (ECAM)</para></listitem>
           <listitem><para>CHECK IRS 1(2)(3)/FM POSITION (MCDU) {TODO: This is missing from the RNP-1 list in EOMB but
@@ -2669,7 +2669,7 @@
 
         <para>For RNAV approaches, a go-around is mandated for any of these messages or if GPS PRIMARY LOST is
         annunciated on both NDs<footnote><para>If GPS PRIMARY LOST is annunciated on only one ND, the approach may be
-        continuted using the unaffected FMGC.</para></footnote>. {TODO: The 15th April EOMA update replaced the GPS
+        continued using the unaffected FMGC.</para></footnote>. {TODO: The 15th April EOMA update replaced the GPS
         PRIMARY restriction for RNAV(VOR/DME) or RNAV(DME/DME) with a restriction that the underlying navigation source
         must be available, but EOMB still mandates a go-around in the event of GPS PRIMARY LOST.}</para>
 
@@ -2829,7 +2829,7 @@
         the affected FAC can be attempted.</para>
 
         <para>With a dual failure a reset of the FACs should be attempted. If the yaw damper is not recovered, the
-        flight controls revert to alternate law (see <xref linkend="alternate-law"/>). Unless the failure occured below
+        flight controls revert to alternate law (see <xref linkend="alternate-law"/>). Unless the failure occurred below
         alert height, only Cat I will be available.</para>
 
         <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> YAW DAMPER 1(2)(SYS),
@@ -2852,7 +2852,7 @@
         <para>Loss of rudder limit functionality from a single FAC leads to loss of redundancy only.</para>
 
         <para revisionflag="changed">The effect of complete loss of rudder limiter functionality depends on when the
-        failure occured. In general, the rudder should be used with caution when above 160kt. An attempt should be made
+        failure occurred. In general, the rudder should be used with caution when above 160kt. An attempt should be made
         to recover the limiter by resetting the FACs. If unsuccessful, full rudder travel authority may or may not be
         recovered at slat extension. If a landing must be made with the rudder travel limiter frozen in the high speed
         regime, max crosswind is reduced to 15kt and differential braking may be required on the landing roll (do not
@@ -2892,9 +2892,9 @@
 	alternate law without stability protections. The autopilots are lost.</para>
 
 	<para>The gear must be gravity extended, but due to the frozen THS this must be delayed until
-	V<subscript>APP</subscript> is acheived in CONF 3. Furthermore, transition to CONF 3 must be acheived in
+	V<subscript>APP</subscript> is achieved in CONF 3. Furthermore, transition to CONF 3 must be achieved in
 	accordance with <xref linkend="flight-controls.slats-flaps-fault"/> due to the flaps being frozen. Transition to
-	direct law on gear deployment adds to the fun, espescially as pitch trim is unavailable.</para>
+	direct law on gear deployment adds to the fun, especially as pitch trim is unavailable.</para>
 
 	<para>Cat 2 and 3 capability is lost. The landing will be CONF 3, most probably with only the slats deployed;
 	the flare attitude will be abnormal. There will only be one spoiler (#3), no reversers, accumulator only braking
