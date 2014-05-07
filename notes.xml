@@ -71,6 +71,8 @@
         <listitem><para>Rewrote <xref linkend="rnav-downgrade"/>.</para></listitem>
 	<listitem><para>Added airframe difference for handling of triple ADR failure to <xref
 	linkend="pressure-controller"/>.</para></listitem>
+	<listitem><para>Clarified effect of dual FAC failure in <xref linkend="fac-faults"/>.</para></listitem>
+	<listitem><para>Updated <xref linkend="rudder-limit"/> to incorporate latest FCOM advice.</para></listitem>
         <listitem><para>Removed note from <xref linkend="dualhyd.by"/> that CONF 3 should be used to improve go-around
         performance as CONF FULL now appears to be the recommended landing configuration. Also removed incorrect
         assertion that spoiler 1 was available for rolll control – only spoilers 2 to 5 are ever used for this
@@ -2798,7 +2800,7 @@
     </chapter>
     <chapter>
       <title>Auto-flight</title>
-      <sect1>
+      <sect1 id="fac-faults">
         <title>FAC faults</title>
 
         <para>Failure of a single FAC results in loss of redundancy and hence loss of Cat 3 Dual. In particular, a
@@ -2807,9 +2809,10 @@
         V<subscript>MO</subscript>/M<subscript>MO</subscript>, Green dot, S speed and F speed). It may be worth
         cross-checking against QRH FPE.SPD.</para>
 
-        <para>If both FACs are lost characteristic speed calculation is not available. All FAC controlled systems are
-        lost, with the combined effects detailed in <xref linkend="yaw-damper"/>, <xref linkend="rudder-trim"/> and
-        <xref linkend="rudder-limit"/>.</para>
+        <para revisionflag="changed">If both FACs are lost the rudder travel limit system, rudder trim control, yaw
+        damper and PFD characteristic speeds are lost and Alternate Law with mechanical yaw control becomes
+        active. Recovery of full rudder authority at flap extension should be anticipated, but use rudder with care
+        above 160kt.</para>
 
         <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FAC 1(2)(1+2) FAULT,
         FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
@@ -2844,11 +2847,12 @@
 
         <para>Loss of rudder limit functionality from a single FAC leads to loss of redundancy only.</para>
 
-        <para>The effect of complete loss of rudder limiter functionality depends on when the failure occured. In
-        general, the rudder should be used with caution when above 160kt. Full rudder travel authority can be recovered
-        at slat extension {TODO: FCOM says “can” not “will” – find out if this means “may not”}. An attempt should be
-        made to recover the limiter by resetting the FACs. If this is ineffective, the crosswind limit of the aircraft
-        is reduced to 12kt, and differential braking may be required on the landing roll.</para>
+        <para revisionflag="changed">The effect of complete loss of rudder limiter functionality depends on when the
+        failure occured. In general, the rudder should be used with caution when above 160kt. An attempt should be made
+        to recover the limiter by resetting the FACs. If unsuccessful, full rudder travel authority may or may not be
+        recovered at slat extension. If a landing must be made with the rudder travel limiter frozen in the high speed
+        regime, max crosswind is reduced to 15kt and differential braking may be required on the landing roll (do not
+        arm autobrake).</para>
 
         <para role="multicite">[<emphasis
 	role="underline">AUTO FLT</emphasis> RUD TRV LIM_1(2)(SYS), FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
