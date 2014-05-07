@@ -69,6 +69,8 @@
         <listitem><para>Added note to <xref linkend="TCAS"/> explaining the consequences of only one FD being turned
         off.</para></listitem>
         <listitem><para>Rewrote <xref linkend="rnav-downgrade"/>.</para></listitem>
+	<listitem><para>Added airframe difference for handling of triple ADR failure to <xref
+	linkend="pressure-controller"/>.</para></listitem>
         <listitem><para>Removed note from <xref linkend="dualhyd.by"/> that CONF 3 should be used to improve go-around
         performance as CONF FULL now appears to be the recommended landing configuration. Also removed incorrect
         assertion that spoiler 1 was available for rolll control – only spoilers 2 to 5 are ever used for this
@@ -2697,11 +2699,18 @@
         so the gear must be gravity extended and cannot subsequently be retracted. This is not mentioned by the ECAM –
         the gear will simply fail to extend normally.</para>
 
-        <para>Loss of all ADRs requires reversion to standby instruments. Disregard ECAM actions as the ECAM procedures
-        shown will be for single ADR operation and will direct you towards meaningless air data and ATC switching. Refer
-        instead to QRH ABN.34 ADR 1+2+3 FAULT. In addition to the failures associated with dual loss, the stall warning
-        is lost, the rudder travel limiter is frozen (full rudder travel will be recovered at slat extension) and
-        automatic cabin pressure control is lost. In case of go-around, auto flap retraction is not available.</para>
+	<para revisionflag="changed">If all three ADRs are lost, the result is airframe dependent. Some of the fleet now
+	have a <emphasis role="underline">NAV</emphasis> ADR 1+2+3 FAULT ECAM and an appropriate procedure utilising the
+	Backup Speed Scale, completing with the QRH ABN.34 ALL ADR OFF paper procedure. For older airframes the ECAM
+	displayed will be for Dual ADR failure and must be ignored since it will request meaningless air data and ATC
+	switching. Instead revert to standby instruments (the standby ASI and Altimeter have direct pressure feeds from
+	the the standby pitot and static ports) and refer to QRH ABN.34 ADR 1+2+3 FAULT. Interestingly, when Backup
+	Speed Scale is available, the ECAM advises that the standby instrument indications may be unreliable…</para>
+
+	<para revisionflag="changed">Triple ADR failure has a few additional ramifications. Of note is loss of automatic
+	cabin pressure control (see <xref linkend="pressure-controller"/> for manual pressure control methodology),
+	Alternate Law and gravity gear extension. Of lesser concern are loss of stall warning, rudder travel limiter
+	frozen until slat extension and loss of auto flap retraction.</para>
 
         <para role="multicite">[<emphasis
         role="underline">NAV</emphasis> ADR 1(2)(3)(1+2)(1+3)(2+3) FAULT, QRH ABN.34,
