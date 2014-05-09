@@ -2662,16 +2662,18 @@
           FMGC.</para></footnote></para></listitem>
           <listitem><para>FMS1/FMS2 POS DIFF (MCDU)</para></listitem>
           <listitem><para><emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE (ECAM)</para></listitem>
-          <listitem><para>CHECK IRS 1(2)(3)/FM POSITION (MCDU) {TODO: This is missing from the RNP-1 list in EOMB but
-          is listed in FCOM}</para></listitem>
+          <listitem><para>CHECK IRS 1(2)(3)/FM POSITION (MCDU)<footnote><para>This is missing from
+          the RNP-1 list in EOMB but is listed in the FCOM. It is not listed as a go around criteria
+          for RNAV approach, but continuing would seem somewhat
+          brave…</para></footnote></para></listitem>
         </itemizedlist>
         </para>
 
         <para>For RNAV approaches, a go-around is mandated for any of these messages or if GPS PRIMARY LOST is
         annunciated on both NDs<footnote><para>If GPS PRIMARY LOST is annunciated on only one ND, the approach may be
-        continued using the unaffected FMGC.</para></footnote>. {TODO: The 15th April EOMA update replaced the GPS
-        PRIMARY restriction for RNAV(VOR/DME) or RNAV(DME/DME) with a restriction that the underlying navigation source
-        must be available, but EOMB still mandates a go-around in the event of GPS PRIMARY LOST.}</para>
+        continued using the unaffected FMGC. There is also conflict between EOMA and EOMB as to
+	whether GPS PRIMARY is required at all for RNAV(VOR/DME) or RNAV(DME/DME) etc. – I've gone
+	with the most restrictive here.</para></footnote>.</para>
 
 	<para>In an RNP-1 (PRNAV) environment, an RNAV downgrade may leave the aircraft unsure of position and below
 	MSA. The initial response is to notify ATC with the phrase “Unable RNAV due equipment” and request
