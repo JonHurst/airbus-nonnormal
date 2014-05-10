@@ -165,7 +165,7 @@
         decay unless pitch is reduced), adjust and trim rudder to maintain &beta; target and request
         “pull heading”. If the EOSID follows the track of the cleared SID, NAV may be used, but this
         is very rare with easyJet EOSIDs. Bank angle should be limited to 15° when more than 3kt
-        below manoeuvring speed for the current configuration<footnote><para>This is a conservative
+        below manoeuvring speed for the current configuration<footnote revisionflag="added"><para>This is a conservative
         rule of thumb. If the FMGC has correctly identified an engine out condition, the FD/AP will
         automatically limit bank angle according to a less conservative
         algorithm. [FCOM 22.20.60.40]</para></footnote>. Engage the autopilot once gear is up and rudder is
