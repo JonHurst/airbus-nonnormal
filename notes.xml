@@ -1554,7 +1554,10 @@
         electrical system should be restored just before deploying the gear {TODO: There is an odd discrepancy
         concerning when the generators should be restored – some airframes it is “just before L/G extension”, others “at
         3min or 2000ft aal before landing”. Why?}. Note that since you will not be able to restore the two IRs that were
-        depowered, the landing will be in Direct Law and hence CONF 3. Refer to QRH FPE.IPL.27 for
+        depowered, the landing will be in Direct Law and hence CONF 3 {TODO: QRH PRO.ABN.24 ELEC
+	EMER CONFIG SYS REMAINING indicates that by selecting ATT HDG selector to CAPT 3 it may be
+	possible to retain IR3 and hence have sufficient equipment for a Cat 3A landing once power
+	is restored - investigate further}. Refer to QRH FPE.IPL.27 for
         V<subscript>App</subscript> and LDR factor. This is not mentioned in QRH ABN.26, and is only mentioned on the
         ECAM once gear is extended.</para>
 
