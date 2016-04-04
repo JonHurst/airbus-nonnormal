@@ -101,33 +101,6 @@
 	linkend="misc-tips"/></para></listitem>
       </itemizedlist>
     </sect1>
-    <sect1>
-      <title>Changes since version 0.7.1</title>
-      <itemizedlist>
-	<listitem><para>Added note regarding short duration of oxygen protection to <xref
-	linkend="smoke-fumes"/>.</para></listitem>
-	<listitem><para>Added multiple new sections to <xref linkend="aircon-press-vent"/></para></listitem>
-	<listitem><para>Improved <xref linkend="unreliable-airspeed"/> to expand on the method for levelling off at
-	prescribed speed.</para></listitem>
-	<listitem><para>Added multiple new sections to <xref linkend="power-plant"/>. Also changed “Engine Shut Down”
-	section to <xref linkend="engine-shut-down"/> and updated it, including incorporation of single engine approach
-	considerations. This renders the old section 2.10 redundant, so this has been removed.</para></listitem>
-	<listitem><para>Improved <xref linkend="flight-controls.slats-flaps-fault"/>.</para></listitem>
-	<listitem><para>Improved dual hydraulic failures to make them standalone: <xref linkend="dualhyd.gy"/>, <xref
-	linkend="dualhyd.by"/>, <xref linkend="dualhyd.gb"/></para></listitem>
-	<listitem><para>Updated electrical/avionics smoke part of <xref linkend="smoke-fumes"/> to incorporate Airbus
-	changes (no incremental shedding of AC busses; go straight to Emergency Electrical Config) and Direct Law
-	landing due IR loss gotcha.</para></listitem>
-	<listitem><para>Added note to <xref linkend="adr-faults"/> about gravity gear extension not being mentioned on
-	ECAM for ADR 1+3 loss.</para></listitem>
-	<listitem><para>Updated <xref linkend="spoiler-faults"/> to incorporate OEB 208.</para></listitem>
-	<listitem><para>Expanded <xref linkend="bomb"/> to incorporate actual method for achievement of 1 psi
-	diff.</para></listitem>
-	<listitem><para>Added <xref linkend="sidestick-transducer"/>.</para></listitem>
-	<listitem><para>Updated <xref linkend="gear-not-downlocked"/> to incorporate two minute
-	delay after gear cycling recommended in OEB 209.</para></listitem>
-      </itemizedlist>
-    </sect1>
   </preface>
   <chapter>
     <title>Operating techniques</title>
