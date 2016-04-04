@@ -26,6 +26,8 @@
         linkend="high-oil-temp"/>.</para></listitem>
         <listitem><para>Changed references for required equipment lists in <xref
         linkend="rnav-downgrade"/> since they have been removed from QRH Supplementary Information.</para></listitem>
+        <listitem><para>Added tip that V<subscript>LS</subscript> and V<subscript>FE</subscript> are
+        trustworthy with jammed flaps/slats to <xref linkend="misc-tips"/>.</para></listitem>
         <listitem><para>Added mnemonic for double hydraulic failure to <xref linkend="misc-tips"/>.</para></listitem>
       </itemizedlist>
     </sect1>
@@ -3348,9 +3350,10 @@
     <chapter id="misc-tips">
       <title>Miscellaneous Tips</title>
         <itemizedlist>
-          <listitem><para>When configuring, V<subscript>LS</subscript> is more critical than
+          <listitem><para revisionflag="changed">When configuring, V<subscript>LS</subscript> is more critical than
           V<subscript>FE</subscript>, which in turn is more critical than manoeuvring speeds (S and F
-          speeds).</para></listitem>
+          speeds). Both V<subscript>LS</subscript> and V<subscript>FE</subscript> are trustworthy
+          with jammed flaps/slats.</para></listitem>
           <listitem><para>When configuring on approach, flaps do not begin to extend until CONF 2 is
           selected.</para></listitem>
           <listitem><para>Slat position does not change between CONF 2 and CONF 3.</para></listitem>
