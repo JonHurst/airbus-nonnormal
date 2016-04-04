@@ -198,6 +198,18 @@
         by PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors
         and any guarded switch must be confirmed with PF.</para>
 
+        <para>PNF indicates high priorty tasks are completed with the phrase “Engine is secure.”
+        This call is not official SOP (i.e. it is not mentioned in any manual), but has evolved to
+        be standard in the sim since it is PF’s trigger to interrupt ECAM and accelerate.  High
+        priority tasks are defined as:
+
+        <itemizedlist>
+          <listitem><para>For engine failure, the master switch of the affected engine has been
+          turned off.</para></listitem>
+          <listitem><para>For engine fire, one squib has been fired and the fire warning has
+          extinguished or both squips have been fired.</para></listitem>
+        </itemizedlist></para>
+
         <para role="multicite">[FCOM PRO.ABN.10, FCTM A0-020]</para>
       </sect1>
         <sect1 id="eosid">
@@ -218,12 +230,8 @@
           <itemizedlist>
             <listitem><para>Initially fly a TOGA climb at the higher of V<subscript>2</subscript> or current
             speed, up to a limit of V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX
-            climb is permissible. This climb is continued until all high priority tasks are complete and the
-            aircraft is at or above acceleration altitude. For the engine failure and the engine fire
-            cases, EOMB 4.4.4 specifically defines the high priority tasks. For an engine failure, all ECAM actions up to
-            and including the master switch being turned off must be completed. For the engine fire case all
-            ECAM actions up to and including firing the first squib must be completed. If the fire warning
-            light does not extinguish both squibs must be fired.</para></listitem>
+            climb is permissible. This climb is continued until all high priority tasks are complete
+            (see <xref linkend="efato"/>)</para></listitem>
 
             <listitem><para>The next segment is a TOGA level acceleration and clean up, either to Conf 1 and S speed
             if an immediate VMC return is desired or to Conf 0 and green dot. Again FLEX may be used if a FLEX
