@@ -22,6 +22,8 @@
         linkend="rejected_takeoff"/>.</para></listitem>
         <listitem><para>Added phrase “Engine is secure” to <xref linkend="efato"/>.</para></listitem>
         <listitem><para>Added caution to not use reversers with <xref linkend="fuel-leak"/>.</para></listitem>
+        <listitem><para>Added possibility of reducing oil temp by increasing fuel flow to <xref
+        linkend="high-oil-temp"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -2391,8 +2393,10 @@
         FCOM PRO.ABN.70, FCOM DSC.70.90]</para>
       </sect1>
 
-      <sect1>
+      <sect1 id="high-oil-temp">
 	<title>High oil temperature</title>
+        <para revisionflag="added">It may be possible to reduce oil temperature by increasing engine
+        fuel flow.</para>
 
 	<para>If oil temperature exceeds 155°C or exceeds 140°C for 15 minutes, the engine must be
 	shut down.</para>
