@@ -24,6 +24,8 @@
         <listitem><para>Added caution to not use reversers with <xref linkend="fuel-leak"/>.</para></listitem>
         <listitem><para>Added possibility of reducing oil temp by increasing fuel flow to <xref
         linkend="high-oil-temp"/>.</para></listitem>
+        <listitem><para>Changed references for required equipment lists in <xref
+        linkend="rnav-downgrade"/> since they have been removed from QRH Supplementary Information.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -2675,7 +2677,7 @@
       <sect1 id="rnav-downgrade">
         <title>RNAV downgrades</title>
 
-        <para>RNAV operations fall into three main categories:
+        <para revisionflag="changed">RNAV operations fall into three main categories:
 
         <orderedlist>
           <listitem><para>RNAV approach (usually RNP 0.3)</para></listitem>
@@ -2683,7 +2685,8 @@
           <listitem><para>RNP-5 (aka BRNAV)</para></listitem>
         </orderedlist>
 
-        The equipment that must be serviceable is listed at QRH SI.80, QRH SI.90 and QRH SI.100 respectively.</para>
+        The equipment that must be serviceable is listed in EOMB 2.3.18.3.2 for RNAV approach
+        FCOM PRO.SPO.51 for RNP SID/STAR.</para>
 
         <para>The following messages indicate loss of RNAV capability:
 
