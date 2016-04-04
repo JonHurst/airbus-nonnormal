@@ -21,6 +21,7 @@
         <listitem><para>Changed phraseology from “Continue” to “Go” in <xref
         linkend="rejected_takeoff"/>.</para></listitem>
         <listitem><para>Added phrase “Engine is secure” to <xref linkend="efato"/>.</para></listitem>
+        <listitem><para>Added caution to not use reversers with <xref linkend="fuel-leak"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -1646,6 +1647,8 @@
         is most likely. In this case, an engine restart should be considered.</para>
 
         <para>In an emergency, a landing may be carried out with maximum fuel imbalance.</para>
+
+        <para revisionflag="added">Do not use thrust reversers.</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> F USED/FOB DISAGREE,
         QRH ABN.28, FCOM PRO.ABN.28]</para>
