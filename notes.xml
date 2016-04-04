@@ -16,11 +16,11 @@
       by the Apache Formatting Objects Processor.</para>
     </sect1>
     <sect1>
-      <title>Chages since version 2.0</title>
+      <title>Changes since version 2.0</title>
       <itemizedlist>
         <listitem><para>Changed phraseology from “Continue” to “Go” in <xref
-        linkend="rejected_takeoff"/></para></listitem>
-        <listitem><para>Added phrase “Engine is secure” to <xref linkend="efato"/></para></listitem>
+        linkend="rejected_takeoff"/>.</para></listitem>
+        <listitem><para>Added phrase “Engine is secure” to <xref linkend="efato"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
