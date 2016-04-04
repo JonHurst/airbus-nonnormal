@@ -119,7 +119,7 @@
       <title>Rejected Takeoff</title>
 
       <para>The decision to reject rests solely with CM1. This decision is communicated with the words “Stop” or
-      “Continue”. “Stop” implies that CM1 is taking control of the aircraft. Below 100kt the RTO is relatively risk free
+      “Go”. “Stop” implies that CM1 is taking control of the aircraft. Below 100kt the RTO is relatively risk free
       and a decision to stop should be made for any ECAM and most other problems. Above 100kt the RTO may be hazardous
       and stopping should only be considered for loss of engine thrust, any fire warning, any uninhibited ECAM or
       anything which indicates the aircraft will be unsafe or unable to fly.</para>
@@ -3355,5 +3355,3 @@
 	</listitem></itemizedlist>
     </chapter>
 </book>
-
-
