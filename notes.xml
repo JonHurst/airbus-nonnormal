@@ -26,6 +26,7 @@
         linkend="high-oil-temp"/>.</para></listitem>
         <listitem><para>Changed references for required equipment lists in <xref
         linkend="rnav-downgrade"/> since they have been removed from QRH Supplementary Information.</para></listitem>
+        <listitem><para>Added mnemonic for double hydraulic failure to <xref linkend="misc-tips"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -3367,10 +3368,11 @@
 	    flaps/slats jammed procedure (including go-around modifications) is therefore incorporated into both these
 	    procedures.</para></listitem>
 
-	    <listitem><para>If you only have blue, you don't have the THS, so you need to go Direct Law late (at Conf 3,
-	    V<subscript>APP</subscript>) to get neutral trimming of the elevators. If you only have yellow, you only
-	    have one elevator; combined with lack of slats this requires going Direct Law early (at 200kt) to improve
-	    pitch response.</para></listitem>
+	    <listitem><para revisionflag="changed">If you only have blue, the THS is frozen (think BLUE=COLD=FROZEN THS),
+	    so you need to go Direct Law late (at Conf 3, V<subscript>APP</subscript>) to get
+	    neutral trimming of the elevators. If you only have yellow, you only have one elevator
+	    (think YELLOW=COWARDLY=Timid control response); combined with lack of slats this
+	    requires going Direct Law early (at 200kt) to improve pitch response.</para></listitem>
 
 	    <listitem><para>You're going to need a longish runway. Worst case is if you only have blue, since you have,
 	    at best, accumulator braking and you're coming in fast due to lack of flaps. Yellow is better since you have
