@@ -21,6 +21,7 @@
         <listitem><para>Changed phraseology from “Continue” to “Go” in <xref
         linkend="rejected_takeoff"/>.</para></listitem>
         <listitem><para>Added phrase “Engine is secure” to <xref linkend="efato"/>.</para></listitem>
+        <listitem><para>Added <xref linkend="landing-distance"/></para></listitem>
         <listitem><para>Added caution to not use reversers with <xref linkend="fuel-leak"/>.</para></listitem>
         <listitem><para>Added possibility of reducing oil temp by increasing fuel flow to <xref
         linkend="high-oil-temp"/>.</para></listitem>
@@ -616,6 +617,21 @@
         <para>In flight, only the computers listed in the QRH should be considered for reset.</para>
 
         <para role="multicite">[QRH ABN.80, FCOM PRO.SUP.24]</para>
+      </sect1>
+      <sect1 id="landing-distance" revisionflag="added">
+        <title>Landing distance calculations</title>
+        <para>Many failures result in a longer than normal landing distance. The QRH inflight
+        performance section has tables for calculating V<subscript>APP</subscript> and Reference
+        Landing Distances for single failures. These reflect the performance achievable in a typical
+        operational landing without margin. easyJet requires a factor of 1.15 to be applied to these
+        distances.</para>
+
+        <para>The EFB module provides both factored and unfactored landing distances, and also can
+        calculate for multiple failures.</para>
+
+        <para>The safety factor may be disregarded in exceptional circumstances.</para>
+
+        <para role="multicite">[FCOM PER.LDG, EOMB 4.14.2]</para>
       </sect1>
     </chapter>
     <chapter id="aircon-press-vent">
