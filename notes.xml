@@ -23,6 +23,7 @@
         <listitem><para>Added phrase “Engine is secure” to <xref linkend="efato"/>.</para></listitem>
         <listitem><para>Added <xref linkend="landing-distance"/></para></listitem>
         <listitem><para>Added <xref linkend="abn-valphaprot"/></para></listitem>
+        <listitem><para>Added <xref linkend="overspeed"/>.</para></listitem>
         <listitem><para>Added caution to not use reversers with <xref linkend="fuel-leak"/>.</para></listitem>
         <listitem><para>Added possibility of reducing oil temp by increasing fuel flow to <xref
         linkend="high-oil-temp"/>.</para></listitem>
@@ -655,6 +656,20 @@
         receiving data from a blocked angle of attack vane, erroneous presentation is possible.</para>
 
         <para role="multicite">[OEBPROC-48]</para>
+      </sect1>
+      <sect1 id="overspeed" revisionflag="added">
+        <title>Overspeed Recovery</title>
+
+        <para>In general the response to an overspeed should be to deploy the speedbrake and monitor
+        the thrust reduction actioned by the autothrust. Disconnection of the autopilot will not
+        normally be required. If autothrust is not in use, the thrust levers will need to be
+        manually retarded.</para>
+
+        <para>It is possible that the autopilot will automatically disengage and high speed
+        protection will activate, resulting in an automatic pitch up. In this case, smoothly adjust
+        pitch attitude as required.</para>
+
+        <para role="multicite">[QRH ABN.80]</para>
       </sect1>
     </chapter>
     <chapter id="aircon-press-vent">
