@@ -25,6 +25,7 @@
         <listitem><para>Added <xref linkend="abn-valphaprot"/>.</para></listitem>
         <listitem><para>Added <xref linkend="overspeed"/>.</para></listitem>
         <listitem><para>Added <xref linkend="volcanic"/>.</para></listitem>
+        <listitem><para>Added <xref linkend="lithium-battery-fire"/>.</para></listitem>
         <listitem><para>Added caution to not use reversers with <xref linkend="fuel-leak"/>.</para></listitem>
         <listitem><para>Added possibility of reducing oil temp by increasing fuel flow to <xref
         linkend="high-oil-temp"/>.</para></listitem>
@@ -1673,7 +1674,22 @@
 
         <para role="multicite">[<emphasis role="underline">ENG 1(2) FIRE</emphasis>, FCOM PRO.ABN.26]</para>
       </sect1>
+      <sect1 revisionflag="added" id="lithium-battery-fire">
+        <title>Lithium Battery Fire</title>
 
+        <para>If there are flames, they should be attacked with a halon extinguisher. This will
+        necessitate PF donning a crew oxygen mask and PNF donning the smoke hood.</para>
+
+        <para>If there are no flames, or once the flames have been extinguished, the cabin crew
+        should remove the device from the cockpit and store it in a lined container filled with
+        water. If the device cannot be removed, water or non-alcoholic liquid should be poured on
+        the device, and it should be continuously monitored for re-ignition.</para>
+
+        <para>If smoke becomes the biggest threat, see <xref linkend="smoke-fumes-removal"/>. If the
+        situation becomes unmanageable, consider an immediate landing.</para>
+
+        <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26]</para>
+      </sect1>
     </chapter>
     <chapter>
       <title>Fuel</title>
