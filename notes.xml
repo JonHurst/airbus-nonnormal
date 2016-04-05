@@ -22,6 +22,7 @@
         linkend="rejected_takeoff"/>.</para></listitem>
         <listitem><para>Added phrase “Engine is secure” to <xref linkend="efato"/>.</para></listitem>
         <listitem><para>Added <xref linkend="landing-distance"/></para></listitem>
+        <listitem><para>Added <xref linkend="abn-valphaprot"/></para></listitem>
         <listitem><para>Added caution to not use reversers with <xref linkend="fuel-leak"/>.</para></listitem>
         <listitem><para>Added possibility of reducing oil temp by increasing fuel flow to <xref
         linkend="high-oil-temp"/>.</para></listitem>
@@ -632,6 +633,28 @@
         <para>The safety factor may be disregarded in exceptional circumstances.</para>
 
         <para role="multicite">[FCOM PER.LDG, EOMB 4.14.2]</para>
+      </sect1>
+      <sect1 id="abn-valphaprot" revisionflag="added">
+        <title>Abnormal V Alpha Prot</title>
+        <para>If two or more angle of attack vanes become blocked at the same angle during climb,
+        alpha floor protection will be activated once a Mach number is reached where the angle of
+        attack at which the vanes were blocked becomes indicitive of an incipient stall
+        condition. Since the flight computer's attempts to reduce angle of attack will not be
+        registered by the blocked vanes, a continuous nose down pitch rate which cannot be stopped
+        with sidestick inputs will result.</para>
+
+        <para>Indications of the incipient condition are available from the Alpha Prot and Alpha max
+        strips. If the Alpha Max strip (solid red) completely hides the Alpha Prot strip (black and
+        amber) or the Alpha Prot strip moves rapidly by more than 30kt during flight manoeuvres
+        with AP on and speed brakes retracted, blocked angle of attack vanes should be
+        suspected.</para>
+
+        <para>The solution is to force the flight computers into Alternate Law where the protection
+        does not apply. This is most conventiently done by turning off any two ADRs. Once in
+        Alternate Law, the stall warning strip (red and black) becomes available. Since this may be
+        receiving data from a blocked angle of attack vane, erroneous presentation is possible.</para>
+
+        <para role="multicite">[OEBPROC-48]</para>
       </sect1>
     </chapter>
     <chapter id="aircon-press-vent">
