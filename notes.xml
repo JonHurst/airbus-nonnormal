@@ -24,6 +24,7 @@
         <listitem><para>Added <xref linkend="landing-distance"/>.</para></listitem>
         <listitem><para>Added <xref linkend="abn-valphaprot"/>.</para></listitem>
         <listitem><para>Added <xref linkend="overspeed"/>.</para></listitem>
+        <listitem><para>Added <xref linkend="volcanic"/>.</para></listitem>
         <listitem><para>Added caution to not use reversers with <xref linkend="fuel-leak"/>.</para></listitem>
         <listitem><para>Added possibility of reducing oil temp by increasing fuel flow to <xref
         linkend="high-oil-temp"/>.</para></listitem>
@@ -670,6 +671,32 @@
         pitch attitude as required.</para>
 
         <para role="multicite">[QRH ABN.80]</para>
+      </sect1>
+      <sect1 id="volcanic" revisionflag="added">
+        <title>Volcanic Ash Encounter</title>
+
+        <para>Volcanic ash clouds are usually extensive, so the quickest exit will be acheived by a
+        180° turn.</para>
+
+        <para>Air quality may be affected, so crew oxygen masks should be donned with 100%
+        oxygen to exclude fumes. Passenger oxygen may also need to be deployed.</para>
+
+        <para>Be prepared to carry out the unreliable speed procedure as airspeed indications may be
+        compromised.</para>
+
+        <para>Disconnect the autothrust to prevent thrust variations. To minimise the impact on the
+        engines, if conditions permit thrust should be reduced. Turn on all anti-ice and set pack
+        flow to high in order to increase bleed demand and thus increase stall margin. Wing anti-ice
+        should be turned off before restart in case of double engine flameout.</para>
+
+        <para>If engine EGT limits are exceeded, consider precautionary engine shutdown with restart
+        once clear of volcanic ash. Engine acceleration may be very slow during restart. Since
+        compressor and turbine blades may have been eroded, avoid sudden thrust changes.</para>
+
+        <para>Damage to the windshield may necessitate an autoland or landing with a sliding window
+        open.</para>
+
+        <para role="multicite">[QRH ABN.80, FCOM PRO.ABN.80]</para>
       </sect1>
     </chapter>
     <chapter id="aircon-press-vent">
