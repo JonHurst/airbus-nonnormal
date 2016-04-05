@@ -21,8 +21,8 @@
         <listitem><para>Changed phraseology from “Continue” to “Go” in <xref
         linkend="rejected_takeoff"/>.</para></listitem>
         <listitem><para>Added phrase “Engine is secure” to <xref linkend="efato"/>.</para></listitem>
-        <listitem><para>Added <xref linkend="landing-distance"/></para></listitem>
-        <listitem><para>Added <xref linkend="abn-valphaprot"/></para></listitem>
+        <listitem><para>Added <xref linkend="landing-distance"/>.</para></listitem>
+        <listitem><para>Added <xref linkend="abn-valphaprot"/>.</para></listitem>
         <listitem><para>Added <xref linkend="overspeed"/>.</para></listitem>
         <listitem><para>Added caution to not use reversers with <xref linkend="fuel-leak"/>.</para></listitem>
         <listitem><para>Added possibility of reducing oil temp by increasing fuel flow to <xref
