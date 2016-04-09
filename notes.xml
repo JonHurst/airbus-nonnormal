@@ -20,6 +20,8 @@
       <itemizedlist>
         <listitem><para>Changed phraseology from “Continue” to “Go” in <xref
         linkend="rejected_takeoff"/>.</para></listitem>
+        <listitem><para>Reordered initial actions to emphasise speed and bank angle targets in <xref
+        linkend="efato"/>.</para></listitem>
         <listitem><para>Added phrase “Engine is secure” to <xref linkend="efato"/>.</para></listitem>
         <listitem><para>Added <xref linkend="landing-distance"/>.</para></listitem>
         <listitem><para>Added <xref linkend="abn-valphaprot"/>.</para></listitem>
@@ -149,22 +151,25 @@
       <sect1 id="efato">
         <title>Failures during takeoff when above V1</title>
 
-        <para>If an engine has lost thrust, apply rudder conventionally on
-        the runway. At V<subscript>r</subscript> rotate to 12½° at a slightly reduced rate. When the
-        ground to flight mode transition is complete<footnote><para>Introducing TOGA during the
-        ground to flight mode transition (commences as the pitch increases through 8°, complete
-        after 5 seconds) results in a pitch up moment at a time where the effect of stick pitch
-        control is not wholly predictable: the stick will need to be moved forward of neutral to
-        counteract the introduced pitch moment and then returned to neutral as flight mode blends
+        <para>If an engine has lost thrust, apply rudder conventionally. At
+        V<subscript>r</subscript> rotate towards an initial pitch target of 12½° at a slightly
+        reduced rate, then target speed V<subscript>2</subscript> to
+        V<subscript>2</subscript>+15kt. Bank angle should be limited to 15° when more than 3kt below
+        manoeuvring speed for the current configuration<footnote><para>This is a conservative rule
+        of thumb. If the FMGC has correctly identified an engine out condition, the FD/AP will
+        automatically limit bank angle according to a less conservative
+        algorithm. [FCOM 22.20.60.40]</para></footnote>.</para>
+
+        <para>When the ground to flight mode transition is complete<footnote><para>Introducing TOGA
+        during the ground to flight mode transition (commences as the pitch increases through 8°,
+        complete after 5 seconds) results in a pitch up moment at a time where the effect of stick
+        pitch control is not wholly predictable: the stick will need to be moved forward of neutral
+        to counteract the introduced pitch moment and then returned to neutral as flight mode blends
         in. A slight pause before selecting TOGA results in much more normal and predictable
         handling.</para></footnote>, select TOGA (FLX may be used but this tends to allow speed to
         decay unless pitch is reduced), adjust and trim rudder to maintain &beta; target and request
         “pull heading”. If the EOSID follows the track of the cleared SID, NAV may be used, but this
-        is very rare with easyJet EOSIDs. Bank angle should be limited to 15° when more than 3kt
-        below manoeuvring speed for the current configuration<footnote><para>This is a conservative
-        rule of thumb. If the FMGC has correctly identified an engine out condition, the FD/AP will
-        automatically limit bank angle according to a less conservative
-        algorithm. [FCOM 22.20.60.40]</para></footnote>. Engage the autopilot once gear is up and rudder is
+        is very rare with easyJet EOSIDs.  Engage the autopilot once gear is up and rudder is
         trimmed.</para>
 
         <para>Whilst below 400ft, the only failure related actions should be:
