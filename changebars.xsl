@@ -26,14 +26,14 @@
 div.added    { background-color: #ffffB9;}
 div.deleted  { text-decoration: line-through;
                background-color: #FF7F7F; }
-div.changed  { background-color: #B9ffB9; }
+div.changed  { background-color: #E0ffE0; }
 div.off      {  }
 
 span.added   { background-color: #ffff99;
                text-decoration: underline; }
 span.deleted { text-decoration: line-through;
                background-color: #FF7F7F; }
-span.changed { background-color: #99ff99; }
+span.changed { background-color: #E0ffE0; }
 span.off     {  }
 </xsl:text>
 </style>
