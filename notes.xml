@@ -19,6 +19,7 @@
       <title>Changes since version 2.1</title>
       <itemizedlist>
         <listitem><para>Added target speed to <xref linkend="efato"/>.</para></listitem>
+        <listitem><para>Improved <xref linkend="stall"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -598,14 +599,47 @@
 
         <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
       </sect1>
-      <sect1>
+      <sect1 revisionflag="changed" id="stall">
         <title>Stall recovery <emphasis>(memory item)</emphasis></title>
 
-        <para>Airbus have determined that there may be insufficient longitudinal control authority
-        to recover from a stall if TOGA is selected. The generic stall recovery is therefore simply
-        to pitch the nose down to break the stall and level the wings. Once there are no longer any
-        indications of the stall, smoothly apply thrust, check speedbrakes retracted and if
-        appropriate (clean and below 20,000ft) deploy the slats by selecting flaps 1.</para>
+        <para>Aerofoil stall is always and only an angle of attack issue. It is not possible to
+        directly prove an unstalled condition from attitude and airspeed data. The flight recorders
+        from the December 2014 Air Asia accident recorded an angle of attack of 40 degrees
+        (i.e. around 25 degrees greater than critical angle) with both pitch and roll zero and
+        speeds up to 160kt. Importantly, it is perfectly possible to be fully stalled in the
+        emergency configurations described in <xref linkend="unreliable-airspeed"/>. Identification
+        of a fully stalled condition is thus largely dependent on identifying a high and
+        uncontrollable descent rate that does not correlate with normal flight path expectations for
+        the attitude and thrust applied.</para>
+
+        <para>To recover from a fully stalled condition, the angle of attack of the aerofoils must
+        be reduced to below critical. The generic stall recovery is therefore simply to pitch the
+        nose down sufficiently to break the stall and level the wings. In normal operations, the
+        velocity vector of the aircraft is around 3° below the centreline of the aircraft (i.e. an
+        attitude of around 3° is required to fly level). In a stalled condition, the velocity vector
+        may be 40° or more below the centreline of the aircraft. Thus the amount of pitch down
+        required to recover a fully stalled aircraft can be 30° or more.</para>
+
+        <para>The aircraft's thrust vector helps to accelerate the aircraft during the recovery, and
+        increasing speed along the aircraft's centreline acts to reduce the stalled angle of
+        attack. Thus, while thrust is not a primary means of recovery, it does help. Unfortunately,
+        Airbus have determined that due to the pitch couple associated with underslung engines,
+        there may be insufficient longitudinal control authority to pitch the aircraft sufficiently
+        to recover from a stall if TOGA is selected. It may therefore be necessary to initially
+        reduce thrust to allow the primary recovery technique to be applied; this is extremely
+        counterintuitive.</para>
+
+        <para>In the two recent Airbus accidents involving stalls, the lack of physical cross
+        coupling of sidesticks was a major factor. If one pilot elects to hold full back sidestick,
+        the aircraft cannot be recovered by the other pilot unless the takeover pushbutton is
+        used. With all the alarms, it is easy to miss “Dual Input”.</para>
+
+        <para>Once there are no longer any indications of the stall, smoothly recover from the dive,
+        adjust thrust, check speedbrakes retracted and if appropriate (clean and below 20,000ft)
+        deploy the slats by selecting flaps 1. The load factor associated with an overly aggressive
+        pull out can induce a secondary stall; on the flip side, once reattachment of the airflow
+        occurs, drag rapidly diminishes and exceedance of high speed airframe limitations becomes a
+        threat.</para>
 
         <para>If a stall warner sounds on takeoff it is likely to be spurious since you are almost
         certainly in normal law. The procedure in this case is essentially to initially assume
