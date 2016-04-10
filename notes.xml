@@ -206,7 +206,7 @@
 
         <para revisionflag="changed">Once the flight path strategy has been agreed and actioned, the
         failure can be triaged, diagnosed and contained. If the failure has resulted in an ECAM
-        warning, PF initiates this phase by asking PNF to “Read ECAM”. Once the diagnoses is agreed,
+        warning, PF initiates this phase by asking PNF to “Read ECAM”. Once the diagnosis is agreed,
         PF will take the radios and request PNF to carry out the containment actions. The standard
         phrasology is "My Radios, ECAM actions". PF taking the radios is also a good trigger to
         consider a Mayday and an "Attention crew at stations".</para>
