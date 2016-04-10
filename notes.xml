@@ -16,6 +16,12 @@
       by the Apache Formatting Objects Processor.</para>
     </sect1>
     <sect1>
+      <title>Changes since version 2.1</title>
+      <itemizedlist>
+        <listitem><para>Added target speed to <xref linkend="efato"/>.</para></listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
       <title>Changes since version 2.0</title>
       <itemizedlist>
         <listitem><para>Changed phraseology from “Continue” to “Go” in <xref
@@ -151,7 +157,7 @@
       <sect1 id="efato">
         <title>Failures during takeoff when above V1</title>
 
-        <para>If an engine has lost thrust, apply rudder conventionally. At
+        <para revisionflag="changed">If an engine has lost thrust, apply rudder conventionally. At
         V<subscript>r</subscript> rotate towards an initial pitch target of 12½° at a slightly
         reduced rate, then target speed V<subscript>2</subscript> to
         V<subscript>2</subscript>+15kt. Bank angle should be limited to 15° when more than 3kt below
@@ -160,7 +166,7 @@
         automatically limit bank angle according to a less conservative
         algorithm. [FCOM 22.20.60.40]</para></footnote>.</para>
 
-        <para>When the ground to flight mode transition is complete<footnote><para>Introducing TOGA
+        <para revisionflag="changed">When the ground to flight mode transition is complete<footnote><para>Introducing TOGA
         during the ground to flight mode transition (commences as the pitch increases through 8°,
         complete after 5 seconds) results in a pitch up moment at a time where the effect of stick
         pitch control is not wholly predictable: the stick will need to be moved forward of neutral
