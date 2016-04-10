@@ -20,6 +20,12 @@
       by the Apache Formatting Objects Processor.</para>
     </sect1>
     <sect1>
+      <title>Changes since version 2.1.1</title>
+      <itemizedlist>
+        <listitem><para>Updated <xref linkend="flight-with-gear-extended"/>.</para></listitem>
+      </itemizedlist>
+    </sect1>
+        <sect1>
       <title>Changes since version 2.1</title>
       <itemizedlist>
         <listitem><para>Added target speed and to <xref linkend="efato"/>. Also improved wording of
@@ -2012,14 +2018,16 @@
       <sect1 id="flight-with-gear-extended">
         <title>Flight with landing gear extended</title>
 
-        <para>Flight into expected icing conditions is not approved. Gear down ditching has not been demonstrated. FMGC
-        predictions will be erroneous – selected speed should be used for all phases except approach. Altitude alerting
-        will not be available. Any failure that normally causes a degradation to alternate law will instead cause a
-        degradation to direct law.</para>
+        <para revisionflag="changed">Flight into expected icing conditions is not approved. Gear down ditching has not been
+        demonstrated. FMGC predictions will be erroneous – selected speed should be used for all
+        phases except approach. CLB and DES modes should not be used. Altitude alerting will not be
+        available. Any failure that normally causes a degradation to alternate law will instead
+        cause a degradation to direct law.</para>
 
-        <para>The dual engine failure scenario is modified to reflect the gear limiting speed. Assisted start should be
-        preferred. If the APU is not available, gear limit speeds should be disregarded to achieve a windmill start. Do
-        not select flaps or slats below 200kt {TODO: find out why this is.}</para>
+        <para revisionflag="changed">The dual engine failure scenario is modified to reflect the gear limiting speed. Assisted start should be
+        preferred. If the APU is not available, gear limit speeds should be disregarded to achieve a
+        windmill start. Flight controls will be in direct law; manual pitch trim should be
+        available, even when not annunciated on the PFD.</para>
 
         <para>Performance in all phases will be affected. In particular, approach climb limiting weights for go-around
         (see FCOM PRO.SPO.25) must be reduced by 14%. Fuel burn will increase (approximate factor is 2.3). Engine out
