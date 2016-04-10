@@ -22,7 +22,8 @@
     <sect1>
       <title>Changes since version 2.1</title>
       <itemizedlist>
-        <listitem><para>Added target speed to <xref linkend="efato"/>.</para></listitem>
+        <listitem><para>Added target speed and to <xref linkend="efato"/>. Also improved wording of
+        containment phase.</para></listitem>
         <listitem><para>Improved <xref linkend="stall"/>.</para></listitem>
       </itemizedlist>
     </sect1>
@@ -203,12 +204,16 @@
         necessary to determine and action a strategy when below 400ft. If this is the case, it must
         be thoroughly briefed.</para>
 
-        <para>Once the flight path strategy has been agreed and actioned, the failure can be diagnosed and
-        dealt with. If the failure has resulted in an ECAM warning, PF initiates this phase by asking PNF to
-        “Read ECAM”. Once the ECAM is confirmed, PF will take the radios and request PNF to carry out ECAM
-        actions. When applying ECAM procedures, PF is responsible for moving the thrust levers once confirmed
-        by PNF. PNF is responsible for everything else, but movement of engine master switches, IR selectors
-        and any guarded switch must be confirmed with PF.</para>
+        <para revisionflag="changed">Once the flight path strategy has been agreed and actioned, the
+        failure can be triaged, diagnosed and contained. If the failure has resulted in an ECAM
+        warning, PF initiates this phase by asking PNF to “Read ECAM”. Once the diagnoses is agreed,
+        PF will take the radios and request PNF to carry out the containment actions. The standard
+        phrasology is "My Radios, ECAM actions". PF taking the radios is also a good trigger to
+        consider a Mayday and an "Attention crew at stations".</para>
+
+        <para>When applying ECAM procedures, PF is responsible for moving the thrust levers once
+        confirmed by PNF. PNF is responsible for everything else, but movement of engine master
+        switches, IR selectors and any guarded switch must be confirmed with PF.</para>
 
         <para revisionflag="added">PNF indicates high priorty tasks are completed with the phrase “Engine is secure.”
         This call is not official SOP (i.e. it is not mentioned in any manual), but has evolved to
