@@ -22,19 +22,19 @@
     <sect1>
       <title>Changes since version 2.1.1</title>
       <itemizedlist>
-        <listitem><para>Updated <xref linkend="flight-with-gear-extended"/>.</para></listitem>
-        <listitem><para>Added <xref linkend="fwc"/>.</para></listitem>
         <listitem><para>Improved <xref linkend="pressure-controller"/>.</para></listitem>
         <listitem><para>Updated <xref linkend="dc-ess"/> to account for progress in the AMU audio
         card retrofit program.</para></listitem>
         <listitem><para>Updated <xref linkend="flight-controls.slats-flaps-fault"/> with recommended
         authothrust handling in overweight case.</para></listitem>
+        <listitem><para>Updated <xref linkend="flight-with-gear-extended"/>.</para></listitem>
         <listitem><para>Improved section of <xref linkend="dual-engine-failure"/> dealing with how
         to fly a glide approach.</para></listitem>
         <listitem><para>Updated <xref linkend="egpws"/> to cover “Avoid” style warnings associated
         with T3CAS.</para></listitem>
         <listitem><para>Updated <xref linkend="pos-disagree"/> with nav accuracy check method from
         FCTM.</para></listitem>
+        <listitem><para>Added <xref linkend="fwc"/>.</para></listitem>
       </itemizedlist>
     </sect1>
         <sect1>
