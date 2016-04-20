@@ -24,6 +24,7 @@
       <itemizedlist>
         <listitem><para>Updated <xref linkend="flight-with-gear-extended"/>.</para></listitem>
         <listitem><para>Added <xref linkend="fwc"/>.</para></listitem>
+        <listitem><para>Improved <xref linkend="pressure-controller"/>.</para></listitem>
       </itemizedlist>
     </sect1>
         <sect1>
@@ -956,14 +957,28 @@
 	can be verified. It may also react too slowly to prevent a temporary
 	depressurisation.</para>
 
-	<para>Manual pressurisation control is activated by pressing the MODE SEL button. This
-	allows the MAN V/S CTL toggle switch to directly control the outflow valve. Moving the toggle to DN closes the
-	outflow valve causing the cabin altitude to descend, whilst moving the toggle to UP opens the outflow valve
-	causing the cabin altitude to climb. The target cabin altitudes and climb and descent rates are available on the
-	status page – the exact values are airframe dependant. The CAB ALT and a modified CAB V/S dial are available on
-	the ECAM Cruise Page.  Note that it is perfectly possible to descend the cabin well below sea level, so constant
-	monitoring is required. When below 2500ft aal the outflow valve should be fully opened. Ensure cabin diff
-	pressure is zero before attempting to open the doors.</para>
+	<para revisionflag="changed">Manual pressurisation control is activated by pressing the MODE
+	SEL button. This allows the MAN V/S CTL toggle switch to directly control the outflow
+	valve. Moving the toggle to DN closes the outflow valve causing the cabin altitude to
+	descend, whilst moving the toggle to UP opens the outflow valve causing the cabin altitude
+	to climb. The target climb and descent rates are 500fpm and 300fpm, these being displayed on
+	the status page for easy reference.</para>
+
+        <para revisionflag="changed">A table of FL versus ‘CAB ALT TGT’ is also provided on the
+        status page; no guidance is given for the interpretation of this table. The final action of
+        the procedure is to fully open the outflow valve when 2500ft QFE in preparation for an
+        unpressurised landing, so to avoid large pressurisation changes during this action, the
+        final cabin altitude target needs to be aerodrome elevation plus 2500ft . This gives an
+        indication of how ‘CAB ALT TGT’ should be interpreted: it is the lowest cabin altitude that
+        results in a safe &#x394;P at a given FL. A cabin altitude greater then ‘CAB ALT TGT’ is
+        always acceptable<footnote><para>A reasonable maximum cabin altitude is 8800ft, which is
+        when the CAB ALTITUDE advisory triggers.</para></footnote> and, moreover, for the final
+        stages of the approach, it is necessary. The method is therefore to avoid cabin altitudes
+        below ‘CAB ALT TGT’ for your actual FL while ensuring that a cabin altitude of aerodrome
+        elevation plus 2500ft will be achieved by the time you need to fully open the outflow
+        valve.</para>
+
+        <para>Ensure cabin diff pressure is zero before attempting to open the doors.</para>
 
         <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SYS 1(2)(1+2) FAULT,
         FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
