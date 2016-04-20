@@ -23,6 +23,7 @@
       <title>Changes since version 2.1.1</title>
       <itemizedlist>
         <listitem><para>Updated <xref linkend="flight-with-gear-extended"/>.</para></listitem>
+        <listitem><para>Added <xref linkend="fwc"/>.</para></listitem>
       </itemizedlist>
     </sect1>
         <sect1>
@@ -3419,6 +3420,24 @@
         DMC3.</para>
 
         <para role="multicite">[QRH ABN.31, PRO.ABN.31]</para>
+      </sect1>
+
+      <sect1 revisionflag="added" id="fwc">
+        <title>Flight Warning Computer failure</title>
+
+        <para> The two identical FWCs generate alert messages, memos, aural alerts, and synthetic
+        voice messages. Loss of a single FWC leads to downgrade to CAT 3 Single due to loss of
+        redundancy. The major effects of loss of both FWCs are loss of ECAM (including attention
+        getters, status page and takeoff/landing memos), loss of auto callouts<footnote><para>There
+        is some question as to whether windshear and GPWS aural alerts are included under ‘auto
+        callouts’. The FCOM is unclear on the matter.</para></footnote> (radio height and decision
+        height) and loss of altitude alerting. In the sim, there is also loss of rudder trim reset,
+        loss of APU fuel valve status and loss of cabin crew call alert as side-effects.</para>
+
+        <para>The procedure is simply to use the SYS pages and overhead panel warning lights to
+        monitor the systems, and for PM to make the relevant callouts. Alternative method for cabin
+        crew to get flight deck attention may be required.</para>
+
       </sect1>
     </chapter>
     <chapter>
