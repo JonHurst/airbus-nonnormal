@@ -31,6 +31,8 @@
         authothrust handling in overweight case.</para></listitem>
         <listitem><para>Improved section of <xref linkend="dual-engine-failure"/> dealing with how
         to fly a glide approach.</para></listitem>
+        <listitem><para>Updated <xref linkend="egpws"/> to cover “Avoid” style warnings associated
+        with T3CAS.</para></listitem>
       </itemizedlist>
     </sect1>
         <sect1>
@@ -2818,16 +2820,25 @@
       <sect1 id="egpws">
         <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
 
-        <para>EPGWS alerts can be categorised into warnings and cautions. A warning is any alert
-        with the instruction “Pull up” attached. All other alerts are cautions. A warning may be downgraded to a caution
-        if flying in daylight VMC and positive visual verification is made that no hazard exists, or if an applicable
-        nuisance warning notice is promulgated in Company documentation [EOMA 8.3.5].</para>
+        <para revisionflag="changed">EPGWS alerts can be categorised into warnings and cautions. A warning is any alert
+        with the instruction “Pull up” or “Avoid” attached. All other alerts are cautions. A warning
+        may be downgraded to a caution if flying in daylight VMC and positive visual verification is
+        made that no hazard exists, or if an applicable nuisance warning notice is promulgated in
+        Company documentation [EOMA 8.3.5].</para>
 
-        <para>The response to a warning is to call “Pull up, TOGA”, disconnect the autopilot and
-        simultaneously roll the wings level, apply full backstick and set TOGA power. The speedbrake should then be
-        checked retracted. Once the flight path is safe and the warning stops, accelerate and clean up as required. Note
-        that it is highly likely that the autothrust ALPHA FLOOR protection will have engaged and thus the autothrust
+        <para revisionflag="changed">The response to a “Pull up” type warning is to call “Pull up, TOGA”,
+        disconnect the autopilot and simultaneously roll the wings level, apply full backstick and
+        set TOGA power. The speedbrake should then be checked retracted. Once the flight path is
+        safe and the warning stops, accelerate and clean up as required. Note that it is highly
+        likely that the autothrust ALPHA FLOOR protection will have engaged and thus the autothrust
         will need to be disengaged to cancel TOGA LK mode.</para>
+
+        <para revisionflag="added">An “Avoid” warning indicates that a vertical manoeuvre alone is insufficient to
+        prevent collision, and lateral avoiding action must also be taken. The response is
+        essentially the same except that instead of rolling wings level, a turn must be
+        initiated. The direction of the turn is at the discretion of the pilot, with the terrain or
+        obstacle that is the source of the warning being displayed in red and black crosshatch on
+        the ND.</para>
 
         <para>The response to a caution is to correct the flight path or aircraft configuration as necessary. A
         configuration warning will almost always require a go around.</para>
