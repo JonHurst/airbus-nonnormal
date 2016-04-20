@@ -27,6 +27,8 @@
         <listitem><para>Improved <xref linkend="pressure-controller"/>.</para></listitem>
         <listitem><para>Updated <xref linkend="dc-ess"/> to account for progress in the AMU audio
         card retrofit program.</para></listitem>
+        <listitem><para>Updated <xref linkend="flight-controls.slats-flaps-fault"/> with recommended
+        authothrust handling in overweight case.</para></listitem>
       </itemizedlist>
     </sect1>
         <sect1>
@@ -1467,14 +1469,16 @@
         speed may be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this configuration
         are very close to tyre limit speeds.</para>
 
-        <para>During configuration, V<subscript>LS</subscript> is computed from actual configuration
+        <para revisionflag="changed">During configuration, V<subscript>LS</subscript> is computed from actual configuration
         and V<subscript>FE next</subscript> is computed from flap lever position. F and S speeds are
         essentially meaningless. The deployment method is to reduce speed to slightly (5kt) below
         the limiting speed for a configuration before selecting it. If
         V<subscript>LS</subscript>&gt;V<subscript>FE next</subscript>, prioritise
         V<subscript>LS</subscript>: fly V<subscript>LS</subscript>, select the next configuration,
         then track V<subscript>LS</subscript> as it reduces with the extension of the lift
-        device. In most cases, overspeed warnings can be avoided.</para>
+        device. Use of autothrust with selected speed is generally recommended for all phases of the
+        approach, but in this case it will need to be temporarily disconnected until landing
+        configuration is established.</para>
 
         <para>It is worth noting that failure of the slat channels of both SFCCs appears to result in the loss of
         characteristic speed display on both PFDs. This is not mentioned in the FCOM but occurs in the sim. The upshot of
