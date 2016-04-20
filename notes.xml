@@ -33,6 +33,8 @@
         to fly a glide approach.</para></listitem>
         <listitem><para>Updated <xref linkend="egpws"/> to cover “Avoid” style warnings associated
         with T3CAS.</para></listitem>
+        <listitem><para>Updated <xref linkend="pos-disagree"/> with nav accuracy check method from
+        FCTM.</para></listitem>
       </itemizedlist>
     </sect1>
         <sect1>
@@ -3011,20 +3013,19 @@
         <para role="multicite">[IR ALIGNMENT IN ATT MODE, QRH ABN.34, FCOM PRO.ABN.34]</para>
       </sect1>
 
-      <sect1>
+      <sect1 id="pos-disagree">
         <title>FM/GPS position disagree</title>
 
         <para>This can be disregarded if on an ILS or LOC approach. On an overlay approach, revert to raw data. On an
         RNAV approach, go around unless visual.</para>
 
-        <para>In other flight phases, manually tune a VOR and check against either the needle and DME on the ND or the
-        BRG/DIST TO field on the PROG page. If the error is 3nm or less, disregard the message. If the error is greater
-        than 3nm use HDG/TRK and raw data navigation. {TODO: further advice is given regarding checking FM position on
-        POSITION MONITOR page and either switching APs or deselecting GPS, but it is not clear whether this recovers
-        NAV}.</para>
+        <para revisionflag="changed">In other flight phases, manually tune a VOR and check against either the needle and
+        DME on the ND or the BRG/DIST TO field on the PROG page. If the error is greater than 3nm in the
+        cruise or greater than 1nm for approach, raw data navigation and AP/FD selected lateral and
+        vertical modes should be used.</para>
 
-        <para role="multicite">[<emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE, QRH ABN.34,
-        FCOM PRO.ABN.34]</para>
+        <para role="multicite" revisionflag="changed">[<emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE, QRH ABN.34,
+        FCOM PRO.ABN.34, FCTM SI-030]</para>
       </sect1>
     </chapter>
     <chapter>
