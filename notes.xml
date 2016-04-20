@@ -29,6 +29,8 @@
         card retrofit program.</para></listitem>
         <listitem><para>Updated <xref linkend="flight-controls.slats-flaps-fault"/> with recommended
         authothrust handling in overweight case.</para></listitem>
+        <listitem><para>Improved section of <xref linkend="dual-engine-failure"/> dealing with how
+        to fly a glide approach.</para></listitem>
       </itemizedlist>
     </sect1>
         <sect1>
@@ -2351,21 +2353,24 @@
         gear extension should be delayed until CONF 3 and V<subscript>app</subscript> are reached. If ditching, do not
         extend the gear.</para>
 
-        <para>If an airfield can be reached, cross the outer marker at twice the normal height with CONF 1, gear up. For
-        a clean aircraft, the following rules of thumb apply {TODO: these are Boeing rules – check that they hold for
-        Airbus}:
+        <para revisionflag="changed">If an airfield can be reached, arrange to be inbound on the runway centreline at 4nm
+        and 2400ft aal with CONF 1, S speed and gear up. To help achieve this, for a clean aircraft,
+        the following rules of thumb apply:
         <itemizedlist>
           <listitem>
-            <para>A standard hold loses 8000ft</para>
+            <para>A standard one minute leg holding pattern loses 8000ft and an orbit loses
+            4000ft. Thus for every 15 seconds outbound in a holding pattern, approximately 1000ft is
+            lost.</para>
           </listitem>
           <listitem>
-            <para>An orbit loses 4000ft</para>
-          </listitem>
-          <listitem>
-            <para>400ft is lost per nm</para>
+            <para>Wings level, 400ft is lost per nm.</para>
           </listitem>
         </itemizedlist>
-        CONF 3, gear down will give a glide ratio of 800ft per nm.
+        For the segment inbound from 4nm, macro adjustment of glide path is available through the
+        timing of gear and slat deployment, then micro adjustment is available from temporarily
+        increasing speed above V<subscript>app</subscript>. If necessary, disregard slat limiting
+        speeds. It is better to land fast then long. CONF 3, gear down will give a glide ratio of
+        approximately 850ft per nm.
         </para>
 
         <para>If an airfield cannot be reached, refer to <xref linkend="ditching"/> or <xref linkend="forced-landing"/>
