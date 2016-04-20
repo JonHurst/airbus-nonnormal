@@ -25,6 +25,8 @@
         <listitem><para>Updated <xref linkend="flight-with-gear-extended"/>.</para></listitem>
         <listitem><para>Added <xref linkend="fwc"/>.</para></listitem>
         <listitem><para>Improved <xref linkend="pressure-controller"/>.</para></listitem>
+        <listitem><para>Updated <xref linkend="dc-ess"/> to account for progress in the AMU audio
+        card retrofit program.</para></listitem>
       </itemizedlist>
     </sect1>
         <sect1>
@@ -1212,13 +1214,22 @@
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 2 FAULT, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
-      <sect1>
+      <sect1 id="dc-ess">
         <title>DC Essential Bus fault</title>
 
-        <para>Some or all of the equipment on the DC Essential Bus is lost. Of particular note, the audio
-        cards connecting VHF2 and VHF3 to the Audio Management Unit are lost. Since VHF1 is also lost, the
-        ECAM suggests using VHF2 and VHF3, but this will not work, and all comms are lost. Airbus is working
-        on a fix, apparently.</para>
+        <para revisionflag="changed"> The major headache associated with loss of DC Essential Bus
+        failure is substantial loss of communications systems. This is exacerbated by a design flaw
+        which, at time of writing, affects MSNs 2037–2402 and MSNs 2471–3122. By design, ACP1 and
+        ACP2 are lost, along with VHF1. This allows two-way communication to be recovered by one
+        pilot using ACP3 (selected via the AUDIO SWTG rotary selector) with VHF2 or VHF3. Since
+        speaker 1 is also lost, having P2 handle the radios with speaker 2 at high volume is the
+        only method of both pilots having awareness of ATC communications. On the MSNs detailed
+        above, however, the audio cards connecting cockpit mikes and headsets are
+        <emphasis>all</emphasis> powered from the DC Essential Bus. It may be possible to receive
+        transmissions with a combination of VHF2/3, ACP3 on FO and speaker 2 on, but transmission is
+        limited to morse code on the transmit switch<footnote><para>I am only inferring this
+        solution from the list of equipment lost; there is no specific documentation to indicate
+        that it will work.</para></footnote>.</para>
 
         <para>FCU1 is lost, so the baro refs should be checked. The GPWS is lost and should be turned off.</para>
 
@@ -1231,6 +1242,11 @@
 
         <para>Landing capability is Cat 2 due to the loss of the auto-thrust. The ECAM status page incorrectly
         reports Cat 3 single.</para>
+
+        <para revisionflag="added">The FCOM lists additional systems beyond those listed on the
+        STATUS page that are lost with DC Essential Bus failure. Of note among these is loss of HP
+        fuel shutoff valves. This requires that the engines are shut down with the Engine Fire
+        pushbutton switches.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC ESS BUS FAULT, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
