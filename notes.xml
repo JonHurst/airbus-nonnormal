@@ -1225,8 +1225,8 @@
       <sect1 id="dc-ess">
         <title>DC Essential Bus fault</title>
 
-        <para revisionflag="changed"> The major headache associated with loss of DC Essential Bus
-        failure is substantial loss of communications systems. This is exacerbated by a design flaw
+        <para revisionflag="changed"> The major headache associated with DC Essential Bus
+        failure is significant loss of communications systems. This is exacerbated by a design flaw
         which, at time of writing, affects MSNs 2037–2402 and MSNs 2471–3122. By design, ACP1 and
         ACP2 are lost, along with VHF1. This allows two-way communication to be recovered by one
         pilot using ACP3 (selected via the AUDIO SWTG rotary selector) with VHF2 or VHF3. Since
