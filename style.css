@@ -28,7 +28,10 @@ sup {vertical-align:top; font-size:0.75em;position:relative; top:-0.25em;}
     h2, h3 {
         font-size: 115%;
     }
-    /*footer navigation table doesn't work well on very narrow screens*/
+     ol, ul {
+        padding-left:1.5em;;
+    }
+   /*footer navigation table doesn't work well on very narrow screens*/
     .navfooter tbody tr:last-child {
         display: none;
     }
