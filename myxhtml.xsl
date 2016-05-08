@@ -1,5 +1,6 @@
 <?xml version='1.0'?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns="http://www.w3.org/1999/xhtml" version="1.0">
 <xsl:import href="http://docbook.sourceforge.net/release/xsl/current/xhtml/chunk.xsl"/>
 <xsl:param name="html.stylesheet" select="'style.css'"/>
 <xsl:param name="chunk.section.depth" select="0"/>
@@ -10,5 +11,7 @@
 <xsl:param name="generate.section.toc.level" select="0"/>
 <xsl:param name="toc.max.depth" select="1"/>
 
-
+<xsl:template name="user.head.content">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+</xsl:template>
 </xsl:stylesheet>
