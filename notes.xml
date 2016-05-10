@@ -39,7 +39,7 @@
         <sect1>
       <title>Changes since version 2.1</title>
       <itemizedlist>
-        <listitem><para>Added target speed and to <xref linkend="efato"/>. Also improved wording of
+        <listitem><para>Added target speed and bank angle limit to <xref linkend="efato"/>. Also improved wording of
         containment phase.</para></listitem>
         <listitem><para>Improved <xref linkend="stall"/>.</para></listitem>
       </itemizedlist>
