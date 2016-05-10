@@ -3,6 +3,11 @@ body {
     color: black;
     font-family: sans-serif;
     padding: 1px;
+    line-height: 1.4;
+}
+
+sup, sub {
+    line-height: 0;
 }
 
 body > div {
@@ -19,7 +24,7 @@ td {padding: 1em;}
 dt {font-weight:bold;}
 span.underline{text-decoration:underline;}
 .multicite{color:#303030; font-size:0.8em;}
-sup {vertical-align:top; font-size:0.75em;position:relative; top:-0.25em;}
+/* sup {vertical-align:top; font-size:0.75em;position:relative; top:-0.25em;} */
 
 @media (max-width: 30em) {
     h1 {
@@ -29,7 +34,7 @@ sup {vertical-align:top; font-size:0.75em;position:relative; top:-0.25em;}
         font-size: 115%;
     }
      ol, ul {
-        padding-left:1.5em;;
+        padding-left:1.5em;
     }
    /*footer navigation table doesn't work well on very narrow screens*/
     .navfooter tbody tr:last-child {
