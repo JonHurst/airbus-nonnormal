@@ -1786,10 +1786,19 @@
         water. If the device cannot be removed, water or non-alcoholic liquid should be poured on
         the device, and it should be continuously monitored for re-ignition.</para>
 
+        <para>Note that these procedures assume that you are dealing with lithium ion batteries
+        (i.e. rechargeable batteries found in laptops, tablets, phones etc.) where the amount of
+        water reactive lithium metal is actually fairly low. Once the flames have been knocked down,
+        the focus is on cooling to prevent thermal runaway in adjacent cells. Counter-intuitively,
+        it is vital that ice is <emphasis>not</emphasis> used as this acts as a thermal insulator
+        and will likely cause adjacent cells to explode. For the same reason, smothering with
+        anything that might thermally insulate the battery pack (e.g. a fire bag) is probably a bad
+        idea.</para>
+
         <para>If smoke becomes the biggest threat, see <xref linkend="smoke-fumes-removal"/>. If the
         situation becomes unmanageable, consider an immediate landing.</para>
 
-        <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26]</para>
+        <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26, FAA videos (available on youtube)]</para>
       </sect1>
     </chapter>
     <chapter>
