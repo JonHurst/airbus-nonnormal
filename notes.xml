@@ -22,6 +22,7 @@
       <title>Changes since version 2.2</title>
       <itemizedlist>
         <listitem><para>Added information to <xref linkend="eiu-fault"/>.</para></listitem>
+        <listitem><para>Added new AP/FD TCAS mode to <xref linkend="TCAS"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -2799,7 +2800,19 @@
         <title>TCAS warnings <emphasis>(memory item)</emphasis></title>
 
         <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution advisories (anything
-        else). The first response to either advisory is to call “TCAS, I have control” to unequivocally establish who
+        else).</para>
+
+        <para revisionflag="added">From 28th January 2017, new easyJet deliveries are fitted with
+        the new AP/FD TCAS mode. When this mode is fitted, the autopilot is capable of autonomously
+        flying the TCAS escape manoeuvre, with the pilots simply calling the FMAs and monitoring. If
+        flying manually with flight directors and autothrust on, the flight directors will give
+        standard guidance to fly the manoeuvre. If flying fully manually, the flight directors will
+        pop up and the autothrust will engage, although it may be necessary to set the thrust levers
+        to the climb gate.</para>
+
+        <para revisionflag="changed">If AP/FD TCAS mode is not installed or not available,
+        the first response to either advisory
+        is to call “TCAS, I have control” to unequivocally establish who
         will be carrying out any manoeuvres. If it is a resolution advisory, the autopilot should be disconnected and
         <emphasis>both</emphasis> flight directors turned off<footnote><para>If one FD is left engaged, the autothrust
         will not revert to speed mode, possibly resulting in speed decay and engagement of normal law
