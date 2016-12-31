@@ -2,7 +2,7 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "file:///usr/share/sgml/docbook/xml-dtd-4.4/docbookx.dtd">
 <book id="airbus-nonnormal">
   <title>Airbus A320 Family Non-Normal Notes</title>
-  <subtitle>Version 2.2</subtitle>
+  <subtitle>Version 2.2.1</subtitle>
   <preface>
     <title>Change log</title>
     <sect1>
@@ -67,76 +67,6 @@
         <listitem><para>Added tip that V<subscript>LS</subscript> and V<subscript>FE</subscript> are
         trustworthy with jammed flaps/slats to <xref linkend="misc-tips"/>.</para></listitem>
         <listitem><para>Added mnemonic for double hydraulic failure to <xref linkend="misc-tips"/>.</para></listitem>
-      </itemizedlist>
-    </sect1>
-    <sect1>
-      <title>Changes since version 1.0</title>
-      <itemizedlist>
-        <listitem><para>All citations and external cross references updated to account for new style
-        FCOM, FCTM and QRH and renumbering in EOM-A and EOM-B.</para></listitem>
-        <listitem><para>Added note to <xref linkend="efato"/> to warn against selection of TOGA
-        before ground to flight mode transition is complete.</para></listitem>
-        <listitem><para>Added footnote to <xref linkend="efato"/> to explain AP/FD engine out bank
-        angle protection.</para></listitem>
-        <listitem><para>Added note to <xref linkend="eosid"/> that acceleration should be commenced
-        prior to the first turn if the EOSID is annotated as “STD”.</para></listitem>
-        <listitem><para>Added explanation of training standards position on PA to <xref
-        linkend="emerg-descent"/>.</para></listitem>
-        <listitem><para>Fixed reversed references to V<subscript>LO</subscript> and
-        V<subscript>LE</subscript> in <xref linkend="emerg-descent"/>.</para></listitem>
-        <listitem><para>Added note to <xref linkend="predictive_ws"/> that reactive windshear system
-        must be serviceable to downgrade a predictive warning to a caution.</para></listitem>
-        <listitem><para>Modified <xref linkend="unreliable-airspeed"/> to conform to new memory
-        items (see FCOM PRO.ABN.34)</para></listitem>
-        <listitem><para>Added description and reference for backup speed/altitude scales to <xref
-        linkend="unreliable-airspeed"/></para></listitem>
-        <listitem><para>Added note to <xref linkend="evacuation"/> detailing the conflict in the
-        handling of guarded switches between the FCTM and the ATSG.</para></listitem>
-        <listitem><para>Added note to <xref linkend="overweight_landing"/> that Conf 3 go around
-        limit will never be limiting for airfields with elevations below 1000ft.</para></listitem>
-        <listitem><para>Added note to <xref linkend="se_vmc"/> that the “Determine landing flaps”
-        box refers to checking missed approach gradient in the overweight landing
-        checklist.</para></listitem>
-        <listitem><para>Added note to <xref linkend="se_circling"/> regarding anticipated landing
-        gear warnings if circling at low levels without the gear deployed.</para></listitem>
-        <listitem><para>Added note to <xref linkend="computer-reset"/> that MOC has resets available
-        that are not contained in the QRH.</para></listitem>
-	<listitem><para>Expanded <xref linkend="pressure-controller"/> to detail methodology for manual pressurisation
-	control.</para></listitem>
-	<listitem><para>Updated <xref linkend="gen1-line-off"/> so that it actually makes sense. Must have been very
-	tired.</para></listitem>
-	<listitem><para>Added footnote to <xref linkend="smoke-fumes"/> to describe the airframe dependency of the
-	relationship between the AVIONICS SMOKE ECAM and the SMOKE/FUMES/AVNCS SMOKE QRH checklist.</para></listitem>
-        <listitem><para>Added note to <xref linkend="eng_fire"/> warning of loss of ECAM and COMs
-        after shutting down second engine on the ground.</para></listitem>
-	<listitem><para>Updated <xref linkend="low-fuel"/> to reflect new guidance in
-	EOM-A.</para></listitem>
-	<listitem><para>Expanded explanation of cross bleed usage in <xref
-	linkend="engine-shut-down"/>, including 1200ft gross ceiling penalty. Added a reference to
-	anti-ice inoperative mitigation.</para></listitem>
-	<listitem><para>Clarified use of APU for extra go-around margin (<xref
-	linkend="engine-shut-down"/>).</para></listitem>
-	<listitem><para>Added note to <xref linkend="engine-stall"/> that N2 idle is approximately 60%.</para></listitem>
-	<listitem><para>Added acceptable fuel mast drip rates to <xref linkend="start-faults"/>.</para></listitem>
-        <listitem><para>Added note to <xref linkend="egpws"/> that EGPWS warnings can be downgraded to cautions if the
-        company has promulgated an applicable nuisance warning notice.</para></listitem>
-        <listitem><para>Added note to <xref linkend="egpws"/> that autothrust will likely be in TOGA LK following an
-        EGPWS escape manoeuvre.</para></listitem>
-        <listitem><para>Added note to <xref linkend="TCAS"/> explaining the consequences of only one FD being turned
-        off.</para></listitem>
-        <listitem><para>Rewrote <xref linkend="rnav-downgrade"/>.</para></listitem>
-	<listitem><para>Added airframe difference for handling of triple ADR failure to <xref
-	linkend="adr-faults"/>.</para></listitem>
-	<listitem><para>Clarified effect of dual FAC failure in <xref linkend="fac-faults"/>.</para></listitem>
-	<listitem><para>Updated <xref linkend="rudder-limit"/> to incorporate latest FCOM advice.</para></listitem>
-        <listitem><para>Removed note from <xref linkend="dualhyd.by"/> that CONF 3 should be used to improve go-around
-        performance as CONF FULL now appears to be the recommended landing configuration. Also removed incorrect
-        assertion that spoiler 1 was available for roll control – only spoilers 2 to 5 are ever used for this
-        purpose.</para></listitem>
-	<listitem><para>Added <xref linkend="com-failure-icao"/> and updated <xref linkend="com-failure-uk"/> to include
-	generic ICAO communication failure procedures and tower visual signals.</para></listitem>
-	<listitem><para>Added non-standard ECAM procedures and dual hydraulic failure fundamentals to <xref
-	linkend="misc-tips"/></para></listitem>
       </itemizedlist>
     </sect1>
   </preface>
