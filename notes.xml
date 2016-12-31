@@ -19,6 +19,12 @@
       by the Apache Formatting Objects Processor.</para>
     </sect1>
     <sect1>
+      <title>Changes since version 2.2</title>
+      <itemizedlist>
+        <listitem><para>Added information to <xref linkend="eiu-fault"/>.</para></listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
       <title>Changes since version 2.1.1</title>
       <itemizedlist>
         <listitem><para>Improved <xref linkend="pressure-controller"/>.</para></listitem>
@@ -2595,7 +2601,7 @@
 	FCOM PRO.ABN.70]</para>
       </sect1>
 
-      <sect1>
+      <sect1 id="eiu-fault">
 	<title>EIU fault</title>
 
 	<para>The Engine Interface Unit (EIU) receives data from the engine start system, the
@@ -2603,6 +2609,10 @@
 	system and feeds it to its related FADEC. Thus loss of the EIU leads to loss of auto-thrust,
 	reverser, idle control (defaults to approach idle) and start for the affected engine. If
 	engine anti ice is used, the ignitors must be manually selected.</para>
+
+    <para revisionflag="added">If an engine fails whilst its associated EIU is inoperative, the
+    usual ECAM messages will not be generated. The failure can still be diagnosed from the system
+    pages and an appropriate drill can be actioned from the FCOM.</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> EIU FAULT, FCOM PRO.ABN.70]</para>
       </sect1>
