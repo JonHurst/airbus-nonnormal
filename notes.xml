@@ -21,7 +21,7 @@
     <sect1>
       <title>Changes since version 2.2.1</title>
       <itemizedlist>
-        <listitem><para></para></listitem>
+        <listitem><para>Added requirement to be above single engine acceleration altitude before accelerating to <xref linkend="eosid"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -154,10 +154,12 @@
           <para>Electing to fly the EOSID implies a level acceleration segment:
 
           <itemizedlist>
-            <listitem><para>Initially fly a TOGA climb at the higher of V<subscript>2</subscript> or current
-            speed, up to a limit of V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX
-            climb is permissible. This climb is continued until all high priority tasks are complete
-            (see <xref linkend="efato"/>)</para></listitem>
+            <listitem><para revisionflag="changed">Initially fly a TOGA climb at the higher of
+            V<subscript>2</subscript> or current speed, up to a limit of V<subscript>2</subscript>+15kt. If a
+            FLEX takeoff was carried out, a FLEX climb is permissible. This climb is continued until all high
+            priority tasks are complete (see <xref linkend="efato"/>) and the aircraft is above single engine
+            acceleration altitude (usually 1000ft QFE, but may be higher if so specified by the take-off
+            performance calculation).</para></listitem>
 
             <listitem><para>The next segment is a TOGA level acceleration and clean up, either to Conf 1 and S speed
             if an immediate VMC return is desired or to Conf 0 and green dot. Again FLEX may be used if a FLEX
