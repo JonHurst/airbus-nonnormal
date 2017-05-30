@@ -82,7 +82,7 @@
     <sect1 id="rejected_takeoff">
       <title>Rejected Takeoff</title>
 
-      <para revisionflag="changed">The decision to reject rests solely with CM1. This decision is communicated with the words “Stop” or
+      <para>The decision to reject rests solely with CM1. This decision is communicated with the words “Stop” or
       “Go”. “Stop” implies that CM1 is taking control of the aircraft. Below 100kt the RTO is relatively risk free
       and a decision to stop should be made for any ECAM and most other problems. Above 100kt the RTO may be hazardous
       and stopping should only be considered for loss of engine thrust, any fire warning, any uninhibited ECAM or
@@ -117,7 +117,7 @@
       <sect1 id="efato">
         <title>Failures during takeoff when above V1</title>
 
-        <para revisionflag="changed">If an engine has lost thrust, apply rudder conventionally. At
+        <para>If an engine has lost thrust, apply rudder conventionally. At
         V<subscript>r</subscript> rotate towards an initial pitch target of 12½° at a slightly
         reduced rate, then target speed V<subscript>2</subscript> to
         V<subscript>2</subscript>+15kt. Bank angle should be limited to 15° when more than 3kt below
@@ -126,7 +126,7 @@
         automatically limit bank angle according to a less conservative
         algorithm. [FCOM 22.20.60.40]</para></footnote>.</para>
 
-        <para revisionflag="changed">When the ground to flight mode transition is complete<footnote><para>Introducing TOGA
+        <para>When the ground to flight mode transition is complete<footnote><para>Introducing TOGA
         during the ground to flight mode transition (commences as the pitch increases through 8°,
         complete after 5 seconds) results in a pitch up moment at a time where the effect of stick
         pitch control is not wholly predictable: the stick will need to be moved forward of neutral
@@ -158,7 +158,7 @@
         necessary to determine and action a strategy when below 400ft. If this is the case, it must
         be thoroughly briefed.</para>
 
-        <para revisionflag="changed">Once the flight path strategy has been agreed and actioned, the
+        <para>Once the flight path strategy has been agreed and actioned, the
         failure can be triaged, diagnosed and contained. If the failure has resulted in an ECAM
         warning, PF initiates this phase by asking PNF to “Read ECAM”. Once the diagnosis is agreed,
         PF will take the radios and request PNF to carry out the containment actions. The standard
@@ -169,7 +169,7 @@
         confirmed by PNF. PNF is responsible for everything else, but movement of engine master
         switches, IR selectors and any guarded switch must be confirmed with PF.</para>
 
-        <para revisionflag="added">PNF indicates high priorty tasks are completed with the phrase “Engine is secure.”
+        <para>PNF indicates high priorty tasks are completed with the phrase “Engine is secure.”
         This call is not official SOP (i.e. it is not mentioned in any manual), but has evolved to
         be standard in the sim since it is PF’s trigger to interrupt ECAM and accelerate.  High
         priority tasks are defined as:
@@ -199,7 +199,7 @@
           <para>Electing to fly the EOSID implies a level acceleration segment:
 
           <itemizedlist>
-            <listitem><para revisionflag="changed">Initially fly a TOGA climb at the higher of V<subscript>2</subscript> or current
+            <listitem><para>Initially fly a TOGA climb at the higher of V<subscript>2</subscript> or current
             speed, up to a limit of V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX
             climb is permissible. This climb is continued until all high priority tasks are complete
             (see <xref linkend="efato"/>)</para></listitem>
@@ -562,7 +562,7 @@
 
         <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
       </sect1>
-      <sect1 revisionflag="changed" id="stall">
+      <sect1 id="stall">
         <title>Stall recovery <emphasis>(memory item)</emphasis></title>
 
         <para>Aerofoil stall is always and only an angle of attack issue. It is not possible to
@@ -632,7 +632,7 @@
 
         <para role="multicite">[QRH ABN.80, FCOM PRO.SUP.24]</para>
       </sect1>
-      <sect1 id="landing-distance" revisionflag="added">
+      <sect1 id="landing-distance">
         <title>Landing distance calculations</title>
         <para>Many failures result in a longer than normal landing distance. The QRH inflight
         performance section has tables for calculating V<subscript>APP</subscript> and Reference
@@ -647,7 +647,7 @@
 
         <para role="multicite">[FCOM PER.LDG, EOMB 4.14.2]</para>
       </sect1>
-      <sect1 id="abn-valphaprot" revisionflag="added">
+      <sect1 id="abn-valphaprot">
         <title>Abnormal V Alpha Prot</title>
         <para>If two or more angle of attack vanes become blocked at the same angle during climb,
         alpha floor protection will be activated once a Mach number is reached where the angle of
@@ -669,7 +669,7 @@
 
         <para role="multicite">[OEBPROC-48]</para>
       </sect1>
-      <sect1 id="overspeed" revisionflag="added">
+      <sect1 id="overspeed">
         <title>Overspeed Recovery</title>
 
         <para>In general the response to an overspeed should be to deploy the speedbrake and monitor
@@ -683,7 +683,7 @@
 
         <para role="multicite">[QRH ABN.80]</para>
       </sect1>
-      <sect1 id="volcanic" revisionflag="added">
+      <sect1 id="volcanic">
         <title>Volcanic Ash Encounter</title>
 
         <para>Volcanic ash clouds are usually extensive, so the quickest exit will be acheived by a
@@ -903,14 +903,14 @@
 	can be verified. It may also react too slowly to prevent a temporary
 	depressurisation.</para>
 
-	<para revisionflag="changed">Manual pressurisation control is activated by pressing the MODE
+	<para>Manual pressurisation control is activated by pressing the MODE
 	SEL button. This allows the MAN V/S CTL toggle switch to directly control the outflow
 	valve. Moving the toggle to DN closes the outflow valve causing the cabin altitude to
 	descend, whilst moving the toggle to UP opens the outflow valve causing the cabin altitude
 	to climb. The target climb and descent rates are 500fpm and 300fpm, these being displayed on
 	the status page for easy reference.</para>
 
-        <para revisionflag="changed">A table of FL versus ‘CAB ALT TGT’ is also provided on the
+        <para>A table of FL versus ‘CAB ALT TGT’ is also provided on the
         status page; no guidance is given for the interpretation of this table. The final action of
         the procedure is to fully open the outflow valve when 2500ft QFE in preparation for an
         unpressurised landing, so to avoid large pressurisation changes during this action, the
@@ -1161,7 +1161,7 @@
       <sect1 id="dc-ess">
         <title>DC Essential Bus fault</title>
 
-        <para revisionflag="changed"> The major headache associated with DC Essential Bus
+        <para> The major headache associated with DC Essential Bus
         failure is significant loss of communications systems. This is exacerbated by a design flaw
         which, at time of writing, affects MSNs 2037–2402 and MSNs 2471–3122. By design, ACP1 and
         ACP2 are lost, along with VHF1. This allows two-way communication to be recovered by one
@@ -1187,7 +1187,7 @@
         <para>Landing capability is Cat 2 due to the loss of the auto-thrust. The ECAM status page incorrectly
         reports Cat 3 single.</para>
 
-        <para revisionflag="added">The FCOM lists additional systems beyond those listed on the
+        <para>The FCOM lists additional systems beyond those listed on the
         STATUS page that are lost with DC Essential Bus failure. Of note among these is loss of HP
         fuel shutoff valves. This requires that the engines are shut down with the Engine Fire
         pushbutton switches.</para>
@@ -1411,7 +1411,7 @@
         speed may be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this configuration
         are very close to tyre limit speeds.</para>
 
-        <para revisionflag="changed">During configuration, V<subscript>LS</subscript> is computed from actual configuration
+        <para>During configuration, V<subscript>LS</subscript> is computed from actual configuration
         and V<subscript>FE next</subscript> is computed from flap lever position. F and S speeds are
         essentially meaningless. The deployment method is to reduce speed to slightly (5kt) below
         the limiting speed for a configuration before selecting it. If
@@ -1712,7 +1712,7 @@
 
         <para role="multicite">[<emphasis role="underline">ENG 1(2) FIRE</emphasis>, FCOM PRO.ABN.26]</para>
       </sect1>
-      <sect1 revisionflag="added" id="lithium-battery-fire">
+      <sect1 id="lithium-battery-fire">
         <title>Lithium Battery Fire</title>
 
         <para>If there are flames, they should be attacked with a halon extinguisher. This will
@@ -1774,7 +1774,7 @@
 
         <para>In an emergency, a landing may be carried out with maximum fuel imbalance.</para>
 
-        <para revisionflag="added">Do not use thrust reversers.</para>
+        <para>Do not use thrust reversers.</para>
 
         <para role="multicite">[<emphasis role="underline">FUEL</emphasis> F USED/FOB DISAGREE,
         QRH ABN.28, FCOM PRO.ABN.28]</para>
@@ -2005,13 +2005,13 @@
       <sect1 id="flight-with-gear-extended">
         <title>Flight with landing gear extended</title>
 
-        <para revisionflag="changed">Flight into expected icing conditions is not approved. Gear down ditching has not been
+        <para>Flight into expected icing conditions is not approved. Gear down ditching has not been
         demonstrated. FMGC predictions will be erroneous – selected speed should be used for all
         phases except approach. CLB and DES modes should not be used. Altitude alerting will not be
         available. Any failure that normally causes a degradation to alternate law will instead
         cause a degradation to direct law.</para>
 
-        <para revisionflag="changed">The dual engine failure scenario is modified to reflect the gear limiting speed. Assisted start should be
+        <para>The dual engine failure scenario is modified to reflect the gear limiting speed. Assisted start should be
         preferred. If the APU is not available, gear limit speeds should be disregarded to achieve a
         windmill start. Flight controls will be in direct law; manual pitch trim should be
         available, even when not annunciated on the PFD.</para>
@@ -2302,7 +2302,7 @@
         gear extension should be delayed until CONF 3 and V<subscript>app</subscript> are reached. If ditching, do not
         extend the gear.</para>
 
-        <para revisionflag="changed">If an airfield can be reached, arrange to be inbound on the runway centreline at 4nm
+        <para>If an airfield can be reached, arrange to be inbound on the runway centreline at 4nm
         and 2400ft aal with CONF 1, S speed and gear up. To help achieve this, for a clean aircraft,
         the following rules of thumb apply:
         <itemizedlist>
@@ -2524,7 +2524,7 @@
 
       <sect1 id="high-oil-temp">
 	<title>High oil temperature</title>
-        <para revisionflag="added">It may be possible to reduce oil temperature by increasing engine
+        <para>It may be possible to reduce oil temperature by increasing engine
         fuel flow.</para>
 
 	<para>If oil temperature exceeds 155°C or exceeds 140°C for 15 minutes, the engine must be
@@ -2611,7 +2611,7 @@
 	reverser, idle control (defaults to approach idle) and start for the affected engine. If
 	engine anti ice is used, the ignitors must be manually selected.</para>
 
-    <para revisionflag="added">If an engine fails whilst its associated EIU is inoperative, the
+    <para>If an engine fails whilst its associated EIU is inoperative, the
     usual ECAM messages will not be generated. The failure can still be diagnosed from the system
     pages and an appropriate drill can be actioned from the FCOM.</para>
 
@@ -2771,20 +2771,20 @@
       <sect1 id="egpws">
         <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
 
-        <para revisionflag="changed">EPGWS alerts can be categorised into warnings and cautions. A warning is any alert
+        <para>EPGWS alerts can be categorised into warnings and cautions. A warning is any alert
         with the instruction “Pull up” or “Avoid” attached. All other alerts are cautions. A warning
         may be downgraded to a caution if flying in daylight VMC and positive visual verification is
         made that no hazard exists, or if an applicable nuisance warning notice is promulgated in
         Company documentation [EOMA 8.3.5].</para>
 
-        <para revisionflag="changed">The response to a “Pull up” type warning is to call “Pull up, TOGA”,
+        <para>The response to a “Pull up” type warning is to call “Pull up, TOGA”,
         disconnect the autopilot and simultaneously roll the wings level, apply full backstick and
         set TOGA power. The speedbrake should then be checked retracted. Once the flight path is
         safe and the warning stops, accelerate and clean up as required. Note that it is highly
         likely that the autothrust ALPHA FLOOR protection will have engaged and thus the autothrust
         will need to be disengaged to cancel TOGA LK mode.</para>
 
-        <para revisionflag="added">An “Avoid” warning indicates that a vertical manoeuvre alone is insufficient to
+        <para>An “Avoid” warning indicates that a vertical manoeuvre alone is insufficient to
         prevent collision, and lateral avoiding action must also be taken. The response is
         essentially the same except that instead of rolling wings level, a turn must be
         initiated. The direction of the turn is at the discretion of the pilot, with the terrain or
@@ -2802,7 +2802,7 @@
         <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution advisories (anything
         else).</para>
 
-        <para revisionflag="added">From 28th January 2017, new easyJet deliveries are fitted with
+        <para>From 28th January 2017, new easyJet deliveries are fitted with
         the new AP/FD TCAS mode. When this mode is fitted, the autopilot is capable of autonomously
         flying the TCAS escape manoeuvre, with the pilots simply calling the FMAs and monitoring. If
         flying manually with flight directors and autothrust on, the flight directors will give
@@ -2810,7 +2810,7 @@
         pop up and the autothrust will engage, although it may be necessary to set the thrust levers
         to the climb gate.</para>
 
-        <para revisionflag="changed">If AP/FD TCAS mode is not installed or not available,
+        <para>If AP/FD TCAS mode is not installed or not available,
         the first response to either advisory
         is to call “TCAS, I have control” to unequivocally establish who
         will be carrying out any manoeuvres. If it is a resolution advisory, the autopilot should be disconnected and
@@ -2829,7 +2829,7 @@
       <sect1 id="rnav-downgrade">
         <title>RNAV downgrades</title>
 
-        <para revisionflag="changed">RNAV operations fall into three main categories:
+        <para>RNAV operations fall into three main categories:
 
         <orderedlist>
           <listitem><para>RNAV approach (usually RNP 0.3)</para></listitem>
@@ -2980,12 +2980,12 @@
         <para>This can be disregarded if on an ILS or LOC approach. On an overlay approach, revert to raw data. On an
         RNAV approach, go around unless visual.</para>
 
-        <para revisionflag="changed">In other flight phases, manually tune a VOR and check against either the needle and
+        <para>In other flight phases, manually tune a VOR and check against either the needle and
         DME on the ND or the BRG/DIST TO field on the PROG page. If the error is greater than 3nm in the
         cruise or greater than 1nm for approach, raw data navigation and AP/FD selected lateral and
         vertical modes should be used.</para>
 
-        <para role="multicite" revisionflag="changed">[<emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE, QRH ABN.34,
+        <para role="multicite">[<emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE, QRH ABN.34,
         FCOM PRO.ABN.34, FCTM SI-030]</para>
       </sect1>
     </chapter>
@@ -3388,7 +3388,7 @@
     </chapter>
     <chapter>
       <title>Indicating/ Recording</title>
-      <sect1 id="du-failure" revisionflag="added">
+      <sect1 id="du-failure">
         <title>Display unit failure</title>
 
         <para>Intermittent flashing of DUs may be indicative of a generator issue. If P1 DUs are
@@ -3425,7 +3425,7 @@
 
         <para role="multicite">[QRH ABN.31, FCOM PRO.ABN.31]</para>
       </sect1>
-      <sect1 id="multiple-undue" revisionflag="added">
+      <sect1 id="multiple-undue">
         <title>Multiple spurious ECAM alerts</title>
 
         <para>A faulty DMC can cause multiple spurious ECAM alerts (spurious as confirmed by SD
@@ -3435,7 +3435,7 @@
         <para role="multicite">[QRH ABN.31, PRO.ABN.31]</para>
       </sect1>
 
-      <sect1 revisionflag="added" id="fwc">
+      <sect1 id="fwc">
         <title>Flight Warning Computer failure</title>
 
         <para> The two identical FWCs generate alert messages, memos, aural alerts, and synthetic
@@ -3555,7 +3555,7 @@
     <chapter id="misc-tips">
       <title>Miscellaneous Tips</title>
         <itemizedlist>
-          <listitem><para revisionflag="changed">When configuring, V<subscript>LS</subscript> is more critical than
+          <listitem><para>When configuring, V<subscript>LS</subscript> is more critical than
           V<subscript>FE</subscript>, which in turn is more critical than manoeuvring speeds (S and F
           speeds). Both V<subscript>LS</subscript> and V<subscript>FE</subscript> are trustworthy
           with jammed flaps/slats.</para></listitem>
@@ -3576,7 +3576,7 @@
 	    flaps/slats jammed procedure (including go-around modifications) is therefore incorporated into both these
 	    procedures.</para></listitem>
 
-	    <listitem><para revisionflag="changed">If you only have blue, the THS is frozen (think BLUE=COLD=FROZEN THS),
+	    <listitem><para>If you only have blue, the THS is frozen (think BLUE=COLD=FROZEN THS),
 	    so you need to go Direct Law late (at Conf 3, V<subscript>APP</subscript>) to get
 	    neutral trimming of the elevators. If you only have yellow, you only have one elevator
 	    (think YELLOW=COWARDLY=Timid control response); combined with lack of slats this
