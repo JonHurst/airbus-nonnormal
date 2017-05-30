@@ -19,6 +19,12 @@
       by the Apache Formatting Objects Processor.</para>
     </sect1>
     <sect1>
+      <title>Changes since version 2.2.1</title>
+      <itemizedlist>
+        <listitem><para></para></listitem>
+      </itemizedlist>
+    </sect1>
+    <sect1>
       <title>Changes since version 2.2</title>
       <itemizedlist>
         <listitem><para>Added information to <xref linkend="eiu-fault"/>.</para></listitem>
