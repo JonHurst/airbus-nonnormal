@@ -350,7 +350,7 @@
 
 	<para revisionflag="added">It is important to understand that at this stage, while the pilot
 	has identified that airspeed is unreliable, the aircraft systems have not. Thus flight
-	envelope protections based on airspeed date from unreliable ADRs may activate. This may lead
+	envelope protections based on airspeed data from unreliable ADRs may activate. This may lead
 	to pitch inputs from the flight computers that cannot be overridden with the sidesticks. In
 	this case, immediately switch off any two ADRs; this causes the flight computers to revert
 	to Alternate Law with no protections, and thus allows control of the aircraft to be
