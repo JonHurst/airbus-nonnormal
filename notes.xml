@@ -25,6 +25,7 @@
         <listitem><para>Added description of FMGS “engine out mode” interactions to <xref
 	linkend="eosid"/>.</para></listitem>
 	<listitem><para>Updated <xref linkend="emerg-descent"/> with new Airbus procedure.</para></listitem>
+	<listitem><para>Added guidance on how to get out of TOGA LK to <xref linkend="reactive-windshear"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -236,7 +237,7 @@
       </sect1>
       <sect1>
         <title>Windshear <emphasis>(memory item)</emphasis></title>
-        <sect2>
+        <sect2 id="reactive-windshear">
           <title>Reactive</title>
 
           <para>The windshear detection system is a function of the Flight Augmentation Computer (FAC). It only operates
@@ -245,15 +246,18 @@
           between 1300ft RA and 50ft RA. A warning is indicated by a red “WINDSHEAR” flag on the PFD and a “WINDSHEAR,
           WINDSHEAR, WINDSHEAR” aural warning.</para>
 
-          <para>When on the ground, windshear is <emphasis>only</emphasis> indicated by significant airspeed
-          variations. It is possible that these fluctuations may cause V<subscript>1</subscript> to occur significantly
-          later in the takeoff run then it should. It therefore falls to the Captain to make an assessment of whether
-          sufficient runway remains to reject the takeoff, or whether getting airborne below V<subscript>r</subscript>
-          would be the better option. If the takeoff is to be continued in windshear conditions, call “Windshear, TOGA”
-          and apply TOGA power.  Rotate at V<subscript>r</subscript> or with sufficient runway remaining and follow SRS
-          orders. {TODO: This is Boeing advice – Airbus offers no advice if there is insufficient runway available to
-          rotate at normal speeds}. SRS will maintain a minimum rate of climb, even if airspeed must be
-          sacrificed.</para>
+          <para>When on the ground, windshear is <emphasis>only</emphasis> indicated by significant
+          airspeed variations. It is possible that these fluctuations may cause
+          V<subscript>1</subscript> to occur significantly later in the takeoff run then it
+          should. It therefore falls to the Captain to make an assessment of whether sufficient
+          runway remains to reject the takeoff, or whether getting airborne below
+          V<subscript>r</subscript> would be the better option. If the takeoff is to be continued in
+          windshear conditions, call “Windshear, TOGA” and apply TOGA power.  Rotate at
+          V<subscript>r</subscript> or with sufficient runway remaining and follow SRS
+          orders.<footnote><para>“Sufficient runway remaining” is actually Boeing advice – Airbus
+          offers no guidance for the case where there is insufficient runway available to stop nor
+          to rotate at normal speeds.</para></footnote> SRS will maintain a minimum rate of climb,
+          even if airspeed must be sacrificed.</para>
 
           <para>If a warning occurs when airborne, call “Windshear, TOGA”, apply TOGA power and maintain current
           configuration. The autopilot can fly the escape manoeuvre as long as
@@ -261,9 +265,12 @@
           engaged, follow the SRS orders on the FD. If the FD is not available, initially pitch up to 17.5°, then
           increase as required.</para>
 
-          <para>In severe windshear, it is possible that ALPHA FLOOR protection will activate. As TOGA will
-          already be selected, this will have no immediate effect. Once clear of the windshear, however, TOGA
-          LK will be active, requiring the autothrust to be disconnected to avoid an overspeed.</para>
+          <para revisionflag="changed">In severe windshear, it is possible that ALPHA FLOOR protection will activate. As
+          TOGA will already be selected, this will have no immediate effect. Once clear of the
+          windshear, however, TOGA LK will be active, requiring the autothrust to be disconnected to
+          avoid an overspeed. This is most naturally achieved by pressing the “instinctive
+          disconnect pb” on the thrust levers then flying manual thrust until the situation has
+	  sufficiently stabilised to re-engage the autothrust.</para>
 
           <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
         </sect2>
