@@ -22,6 +22,7 @@
       <title>Changes since version 2.2.1</title>
       <itemizedlist>
         <listitem><para>Added requirement to be above single engine acceleration altitude before accelerating to <xref linkend="eosid"/>.</para></listitem>
+        <listitem><para>Added description of FMGS “engine out mode” interactions to <xref linkend="eosid"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -159,16 +160,22 @@
             FLEX takeoff was carried out, a FLEX climb is permissible. This climb is continued until all high
             priority tasks are complete (see <xref linkend="efato"/>) and the aircraft is above single engine
             acceleration altitude (usually 1000ft QFE, but may be higher if so specified by the take-off
-            performance calculation).</para></listitem>
+            performance calculation). If the FMGS has detected the engine out condition, the
+	    automatic mode change from SRS to CLB will be inhibited; if not, intervention with
+	    selected modes will be required to prevent untimely acceleration.</para></listitem>
 
-            <listitem><para>The next segment is a TOGA level acceleration and clean up, either to Conf 1 and S speed
+            <listitem><para revisionflag="changed">The next segment is a TOGA level acceleration and clean up, either to Conf 1 and S speed
             if an immediate VMC return is desired or to Conf 0 and green dot. Again FLEX may be used if a FLEX
-            takeoff was carried out. Level acceleration is usually achieved by pushing V/S.  The phrases “Stop
+            takeoff was carried out. Level acceleration is usually achieved by pushing V/S; if the
+	    FMGS has detected the engine out condition, all preselected speeds entered in the MCDU
+	    will have been deleted, so the managed target speed should automatically move to 250kt. The phrases “Stop
             ECAM” and “Continue ECAM” can be used to interrupt ECAM procedures in order to initiate this
             segment.</para></listitem>
 
-            <listitem><para>The final segment is a MCT climb segment to MSA, either at S speed if in Conf 1 or at
-            green dot speed if in Conf 0. This is usually achieved in open climb.</para></listitem>
+            <listitem><para revisionflag="changed">The final segment is a MCT climb segment to MSA, either at S speed if in Conf 1 or at
+            green dot speed if in Conf 0. This is usually achieved in open climb; if the FMGS has
+	    detected the engine out condition, the managed target speed becomes dependent on flight
+	    phase, and in this case should automatically select green dot.</para></listitem>
           </itemizedlist>
 
           TOGA may be used for a maximum of 10 minutes.</para>
