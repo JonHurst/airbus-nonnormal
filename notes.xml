@@ -26,6 +26,8 @@
 	linkend="eosid"/>.</para></listitem>
 	<listitem><para>Updated <xref linkend="emerg-descent"/> with new Airbus procedure.</para></listitem>
 	<listitem><para>Added guidance on how to get out of TOGA LK to <xref linkend="reactive-windshear"/>.</para></listitem>
+	<listitem><para>Added note to <xref linkend="unreliable-airspeed"/> to warn of flight
+	envelope protections leading to uncontrollable aircraft and provide method for regaining control.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -345,6 +347,14 @@
         maintained. The gear and speedbrake should be retracted. If there is any doubt over the
         validity of altitude information, the FPV must be disregarded. If altitude information is
         definitely good, the FPV may be used.</para>
+
+	<para revisionflag="added">It is important to understand that at this stage, while the pilot
+	has identified that airspeed is unreliable, the aircraft systems have not. Thus flight
+	envelope protections based on airspeed date from unreliable ADRs may activate. This may lead
+	to pitch inputs from the flight computers that cannot be overridden with the sidesticks. In
+	this case, immediately switch off any two ADRs; this causes the flight computers to revert
+	to Alternate Law with no protections, and thus allows control of the aircraft to be
+	regained.</para>
 
         <para>Once the flight path is under control and a safe altitude is attained, the aircraft
         should be transitioned into level flight. Refer to QRH ABN.34.07 to extract a ballpark thrust
