@@ -22,7 +22,9 @@
       <title>Changes since version 2.2.1</title>
       <itemizedlist>
         <listitem><para>Added requirement to be above single engine acceleration altitude before accelerating to <xref linkend="eosid"/>.</para></listitem>
-        <listitem><para>Added description of FMGS “engine out mode” interactions to <xref linkend="eosid"/>.</para></listitem>
+        <listitem><para>Added description of FMGS “engine out mode” interactions to <xref
+	linkend="eosid"/>.</para></listitem>
+	<listitem><para>Updated <xref linkend="emerg-descent"/> with new Airbus procedure.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -192,35 +194,43 @@
     <title>Miscellaneous</title>
     <sect1 id="emerg-descent">
       <title>Emergency descent <emphasis>(memory item)</emphasis></title>
-      <para>If an emergency descent is required, the Captain should consider taking control if not already PF.</para>
+      <para revisionflag="changed">If an emergency descent is required, the Captain should consider taking control if not
+      already PF. PF initiates the memory items by announcing “Emergency Descent.”</para>
 
-      <para>Don oxygen masks, set them to the N position and establish communication.</para>
+      <para revisionflag="changed">Don oxygen masks, set them to the N position<footnote><para>There may be insufficient
+      oxygen to cover the entire emergency descent profile if the oxygen masks are left set to
+      100%.</para></footnote> and establish communication.</para>
 
-      <para>Descent with autopilot and autothrottle engaged is preferred. The configuration is
-      thrust idle, full speed brake and maximum appropriate speed, taking into account possible structural
-      damage. Target altitude is FL100 or MORA if this is higher. If speed is low, allow speed to increase before
-      deploying full speedbrake to prevent activation of the angle of attack protection. Landing gear may be used below
-      25,000ft, but speed must be below V<subscript>LO</subscript> when it is extended and remain below
+      <para revisionflag="changed">PF then flies the emergency descent.  Descent with autopilot and autothrust engaged is
+      preferred. The configuration is thrust idle, full speed brake and maximum appropriate speed,
+      taking into account possible structural damage.<footnote><para>According to Airbus, structural
+      damage may be suspected if there has been a “loud bang” or there is a high cabin vertical
+      speed. When limiting descent speed due to suspected structural damage, it is IAS rather than Mach
+      that is relevant.</para></footnote> Target altitude is FL100 or MORA if this is higher. If
+      speed is low, allow speed to increase before deploying full speedbrake to prevent activation
+      of the angle of attack protection. Landing gear may be used below 25,000ft, but speed must be
+      below V<subscript>LO</subscript> when it is extended and remain below
       V<subscript>LE</subscript>. If on an airway, consider turning 90° to the left.</para>
 
-      <para>PNF should, from memory, turn seatbelt signs on, set continuous ignition on the engines, set 7700 on the
-      transponder and inform ATC of the descent. If cabin altitude will exceed 14,000ft, he should also deploy the cabin
-      oxygen masks.</para>
+      <para revisionflag="changed">PM’s only memory action is to turn the seatbelt signs on.<footnote><para>Prior to a 2017
+      update from Airbus, PM would complete a fairly lengthy list of memory items at the start of
+      the Emergency Descent procedure. It was found that PM was more usefully employed monitoring
+      PF’s actions, and hence most of these memory items were removed to a read and do checklist to
+      be completed once descent had been initiated.</para></footnote> Initially, PM’s main task is
+      to ensure that PF has promptly and correctly initiated the descent.</para>
 
-      <para>Once the memory actions are complete and the aircraft is descending, PF should finesse the target altitude,
-      speed and heading. He should then take over communications and call for the emergency descent checklist.</para> <!-- Once this is -->
-      <!-- complete, the Captain should make the following PA: -->
-        <!-- <blockquote><para>"Ladies and Gentlemen, this is the Captain. We have lost cabin pressure and are descending to a lower -->
-        <!-- altitude. Put your oxygen masks on and obey the instructions of the cabin crew"</para></blockquote></para> -->
+      <para revisionflag="changed">Once the memory actions are complete and the aircraft is descending, PF should call for
+      the Emergency Descent Checklist (“My radios, Emergency Descent Checklist”). This will lead PF
+      to finesse the speed and altitude targets and inform ATC of the descent; PM to set continuous
+      ignition on the engines, set 7700 on the transponder and, if cabin altitude will exceed
+      14,000ft, deploy the cabin oxygen masks. On easyJet aircraft, the CIDS/PRAM will automatically
+      play a suitable PA, so it is not necessary for the flight crew to carry out the EMER DESCENT (PA)
+      action.</para>
 
-        <para>The QRH checklist calls for an announcement of the Emergency Descent on the
-        PA. Training standards have decreed that the automated PA that occurs in the event of loss
-        of cabin pressure fulfils this requirement, and thus no PA is required from the flight crew
-        during the descent. {TODO: this is just information from a TRE; I can find no reference in
-        any controlled documentation.}</para>
-
-        <para>Once level, restore the aircraft to a normal configuration. When safe to do so, advise cabin crew and
-        passengers that it is safe to remove their masks.</para>
+      <para revisionflag="changed">Once level, restore the aircraft to a normal configuration. When safe to do so, advise
+      cabin crew and passengers that it is safe to remove their masks. To deactivate the mask
+      microphone and switch off the oxygen flow, close the oxygen mask stowage compartment and press
+      the “PRESS TO RESET” oxygen control slide.</para>
 
       <para role="multicite">[EOMB 3.80.2, QRH ABN.80, FCOM PRO.ABN.80, FCTM A0.90]</para>
       </sect1>
