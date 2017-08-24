@@ -31,6 +31,8 @@
 
 	<listitem><para>Updated <xref linkend="ditching"/> with new “quick” procedure for low
 	altitude events.</para></listitem>
+	<listitem><para>Updated <xref linkend="forced-landing"/> with new “quick” procedure for low
+	altitude events.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -408,13 +410,13 @@
       <sect1 id="ditching">
         <title>Ditching</title>
 
-	<para revisionflag="added">If time is short due to loss of thrust at low altitude, a “quick“
+	<para revisionflag="added">If time is short due to loss of thrust at low altitude, a “quick“ ditching
 	procedure is available on the back of the normal checklist. This procedure gives you a
 	suitable configuration for ditching (CONF 2, Gear up) and a table for determining a suitable
 	approach speed given your gross weight. It also instructs that the APU be started, the
 	ditching button be pushed, provides guidance for the flare (minimise VS, attitude 11°) and
-	instructions for shutting down the engines and APU on touchdown (all masters off).</para>
-	
+	provides instructions for shutting down the engines and APU on touchdown (all masters off).</para>
+
         <para revisionflag="changed">If time is available, apply the procedures in the QRH. The
         QRH ABN.80 DITCHING procedure applies if the engines are running. If the engines are not
         running, refer to the appropriate QRH ABN.70 <emphasis role="underline">ENG</emphasis> DUAL
@@ -423,7 +425,7 @@
         <para revisionflag="changed">Preparation for ditching involves notifying ATC in order to
         expedite rescue, preparing survival equipment and securing the aircraft for impact. The GPWS
         should be inhibited to prevent nuisance warnings. The crew oxygen should be turned off below
-        FL100 to prevent potentially dangerous leaks.<footnote><para>The reasoning behind turning
+        FL100 to prevent potentially dangerous leaks.<footnote id="fnoxyoff"><para>The reasoning behind turning
 	off the crew oxygen is an assumption on my part.</para></footnote></para>
 
         <para>The engines operative ditching configuration is gear up, config full, 11° pitch and minimal V/S. If both
@@ -435,7 +437,7 @@
 
         <para revisionflag="changed">At touchdown, turn the engine and APU masters off. After coming
         to a stop, notify ATC, push all fire buttons, discharge all agents (engine agent 2 may not
-        be available) and evacuate the aircraft.<footnote><para>The “no fuel remaining” procedure
+        be available) and evacuate the aircraft.<footnote id="fnnfr"><para>The “no fuel remaining” procedure
         does not directly call for the fire buttons to be pushed or the agents to be discharged, but
         the evacuation action includes these items.</para></footnote></para>
 
@@ -444,13 +446,22 @@
       <sect1 id="forced-landing">
         <title>Forced landing</title>
 
-        <para>The QRH ABN.80 FORCED LANDING procedure applies if the engines are running. If the engines are not
-        running, refer to the appropriate QRH ABN.70 <emphasis role="underline">ENG</emphasis> DUAL FAILURE
-        procedure, both of which include forced landing.</para>
+	    <para revisionflag="added">If time is short due to loss of thrust at low altitude, a “quick“
+	    forced landing procedure is available on the back of the normal checklist. This procedure
+	    gives you a suitable configuration for forced landing (CONF 2, Gear down by gravity,
+	    spoilers armed) and a table for determining a suitable approach speed given your gross
+	    weight. It also instructs that the APU be started, provides guidance for the flare (minimise
+	    VS) and provides instructions for shutting down the engines and APU on touchdown (all
+	    masters off).</para>
+
+        <para revisionflag="added">If time is available, apply the procedures in the QRH.  The
+        QRH ABN.80 FORCED LANDING procedure applies if the engines are running. If the engines are
+        not running, refer to the appropriate QRH ABN.70 <emphasis role="underline">ENG</emphasis>
+        DUAL FAILURE procedure, both of which include forced landing.</para>
 
         <para>Preparation for forced landing involves notifying ATC in order to expedite rescue, preparing survival equipment
         and securing the aircraft for impact. The GPWS should be inhibited to prevent nuisance warnings. The crew oxygen
-        should be turned off below FL100 to prevent potentially dangerous leaks {TODO: this is an assumption}.</para>
+        should be turned off below FL100 to prevent potentially dangerous leaks.<footnoteref linkend="fnoxyoff"/></para>
 
         <para>The engines operative forced landing configuration is gear down, config full, spoilers armed. If the
         engines are inoperative, use config 3 (only slats available) and maintain at least 150kt. The ram air button is
@@ -459,8 +470,7 @@
 
         <para>At touchdown, turn the engine and APU masters off. This will leave accumulator braking only. After coming
         to a stop, set the parking brake, notify ATC, push all fire buttons, discharge all agents (engine agent 2 may
-        not be available) and evacuate the aircraft.{TODO: There is a discrepancy between engines operative/ inoperative
-        regarding use of the fire buttons after stopping}</para>
+        not be available) and evacuate the aircraft.<footnoteref linkend="fnnfr"/></para>
 
         <para role="multicite">[QRH ABN.80, QRH ABN.70, FCOM PRO.ABN.80]</para>
       </sect1>
