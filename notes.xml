@@ -62,6 +62,9 @@
 
     <listitem><para>Improved <xref linkend="smoke-fumes"/>.</para></listitem>
 
+    <listitem><para>Added reference to new “quick” ditching and forced landing procedures to <xref
+    linkend="dual-engine-failure"/>.</para></listitem>
+
       </itemizedlist>
 
 
@@ -2397,7 +2400,15 @@
       <sect1 id="dual-engine-failure">
         <title>Dual engine failure</title>
 
-        <para>It is recommended that the relevant QRH ABN.70 paper procedure is used rather than the ECAM.</para>
+        <para revisionflag="added">If time is short due to the failure occuring at low altitude,
+        “quick” ditching and forced landing procedures are available on the back of the normal
+        checklist. These are discussed in <xref linkend="ditching"/> and <xref
+        linkend="forced-landing"/>.</para>
+
+        <para revisionflag="changed">It is recommended that the relevant QRH procedure is used
+        rather than the ECAM. If engines are running refer to QRH ABN.80. If engines are not
+        running, refer to QRH ABN.70.
+        </para>
 
         <para>First priority, assuming fuel remains, is to attempt a relight by turning the ignitors on and setting the
         thrust levers to idle. The speed should initially be increased to 300kt to increase windmilling and improve the
