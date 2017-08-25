@@ -72,6 +72,9 @@
     from <xref linkend="engine-vibrations"/> – thrust should be reduced whenever vibrations are
     above advisory level, provided flight conditions permit.</para></listitem>
 
+    <listitem><para>Updated <xref linkend="start-faults"/> with new procedure for fuel leak from the
+    drain mast during engine start.</para></listitem>
+
       </itemizedlist>
 
 
@@ -2828,10 +2831,9 @@
 	<para>If the electrical power supply is interrupted during a start (indicated by loss of
 	ECAM DUs) turn the master switch off, then perform a 30 second dry crank.</para>
 
-	<para>If a fuel leak from the engine drain mast is reported, run the
-	engine at idle for 5 minutes. If, after this time, the leakage rate is less than 90
-	drops/min<footnote><para>A leak rate of 60-90 drops/min requires maintenance action within
-	25 cycles.</para></footnote>, the aircraft may dispatch.</para>
+	<para revisionflag="changed">If a fuel leak from the engine drain mast is reported, run the
+	engine at idle for 5 minutes. If the leak disappears within this time the aircraft may dispatch
+	without maintenance action.</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START FAULT,
 	FCOM PRO.ABN.70], EOMB 2.3.8.1</para>
