@@ -81,6 +81,9 @@
     <listitem><para>Expanded <xref linkend="fcu-fault"/> with advice not to set MDA in the MCDU in
     the event of dual FCU failure.</para></listitem>
 
+    <listitem><para>Updated ice accreted min speeds in <xref
+    linkend="waa-valve-closed"/>.</para></listitem>
+
       </itemizedlist>
 
 
@@ -3511,16 +3514,16 @@
         <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) VALVE OPEN,
 	FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
       </sect1>
-      <sect1>
+      <sect1 id="waa-valve-closed">
         <title>Wing anti-ice valve closed when commanded open</title>
 
-        <para>The wing anti-ice must be turned off to avoid asymmetrically de-icing the wings. Avoid icing
-        conditions. If ice accretion does occur, landing distances and V<subscript>app</subscript> adjustments are in
-        QRH FPE.IFL.30. Speed must be maintained above V<subscript>&alpha;&#x2011;prot</subscript> (top of amber and black striped
-        band) if ice has accreted as stall margins may be reduced.</para>
+        <para revisionflag="changed">The wing anti-ice must be turned off to avoid asymmetrically
+        de-icing the wings. Avoid icing conditions. If ice accretion does occur, landing distances
+        and V<subscript>app</subscript> adjustments are in QRH PER.30 and speed must be maintained
+        above the higher of V<subscript>LS</subscript>+10kt or Green Dot.</para>
 
         <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> SYS FAULT,
-        FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
+        FCOM DSC.30.20.30, FCOM PRO.ABN.30, FCOM PRO.SUP.30]</para>
       </sect1>
       <sect1>
         <title>Wing anti-ice valves fail to close after ground self-test</title>
