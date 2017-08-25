@@ -46,6 +46,11 @@
     <listitem><para>Expanded <xref linkend="dc-emerg-conf"/> and referenced the expanded version in
     <xref linkend="dc-1and2"/>.</para></listitem>
 
+    <listitem><para>Updated <xref linkend="flight-controls.slats-flaps-fault"/> to clarify that the
+    next configuration should be selected as speed passes through V<subscript>FE next</subscript>
+    except in case of turbulence, when configuring at any speed above V<subscript>LS</subscript> is
+    acceptable.</para></listitem>
+
       </itemizedlist>
     </sect1>
     <sect1>
@@ -1486,8 +1491,13 @@
 
         <para>During configuration, V<subscript>LS</subscript> is computed from actual configuration
         and V<subscript>FE next</subscript> is computed from flap lever position. F and S speeds are
-        essentially meaningless. The deployment method is to reduce speed to slightly (5kt) below
-        the limiting speed for a configuration before selecting it. If
+        essentially meaningless.</para>
+
+        <para revisionflag="changed">The recommended deployment method is
+        to select speed to 5kt below V<subscript>FE next</subscript> then select the next
+        configuration as the speed reduces through V<subscript>FE next</subscript>. To prevent
+        overspeeds in case of turbulence, it is acceptable to configure at lower speeds as long as
+        speed remains above V<subscript>LS</subscript>. If
         V<subscript>LS</subscript>&gt;V<subscript>FE next</subscript>, prioritise
         V<subscript>LS</subscript>: fly V<subscript>LS</subscript>, select the next configuration,
         then track V<subscript>LS</subscript> as it reduces with the extension of the lift
@@ -1499,7 +1509,7 @@
         characteristic speed display on both PFDs. This is not mentioned in the FCOM but occurs in the sim. The upshot of
         this is that neither V<subscript>LS</subscript> nor V<subscript>SW</subscript> are available at all, since they
         are not displayed and there is no way to calculate them. This is of particular concern when trying to configure
-        to flaps 2 since the aircraft must be slowed to V<subscript>FE(conf 2)</subscript>-5 when still clean (remember
+        to flaps 2 since the aircraft must be slowed to V<subscript>FE(conf 2)</subscript> when still clean (remember
         conf 1 is slats only when configuring from conf 0). It is highly likely that the stall warner will activate
         during the transition, and if not anticipated, the subsequent recovery will overspeed the flaps. The solution is
         to brief that speed will be reduced very slowly and if the stall warning occurs the speed will be maintained
