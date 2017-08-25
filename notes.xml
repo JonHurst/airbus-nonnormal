@@ -43,6 +43,9 @@
 
     <listitem><para>Added case of TR1 and TR2 both failing to <xref linkend="loss-of-trs"/>.</para></listitem>
 
+    <listitem><para>Expanded <xref linkend="dc-emerg-conf"/> and referenced the expanded version in
+    <xref linkend="dc-1and2"/>.</para></listitem>
+
       </itemizedlist>
     </sect1>
     <sect1>
@@ -1232,17 +1235,9 @@
 
         <para>Some or all of the systems supplied by DC Bus 1 and DC Bus 2 are lost.</para>
 
-        <para>Both channels of the BSCU are lost (leads to loss of anti-skid) along with 3 spoilers from each
-        side and both reversers. This significantly increases landing distances, particularly in the
-        wet.</para>
-
-        <para>Also of note is that both center tank pumps are lost. As the center tank cannot gravity feed,
-        the fuel in it becomes unusable.</para>
-
-        <para>Finally, loss of SFCC2 means that flaps and slats are slow, and engine idle control reverts to
-        approach idle.</para>
-
-        <para>All other lost systems are relatively insignificant or have redundant backups.</para>
+        <para revisionflag="changed">The implications are the same as for <xref
+        linkend="dc-emerg-conf"/> except that the RAT will not need to be deployed and the APU will
+        remain available.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT, FCOM DSC.24.30, FCOM 3.2.24]</para>
       </sect1>
@@ -1285,13 +1280,57 @@
       <sect1 id="dc-emerg-conf">
         <title>DC Emergency configuration</title>
 
-        <para>Defined as the loss of DC BUSSES 1 + 2, DC ESS BUS and DC BAT BUS. The check list assumes that
-        DC ESS BUS can be recovered by deploying the RAT with the EMER ELEC PWR button.</para>
+        <para>Defined as the loss of DC BUSSES 1 + 2, DC ESS BUS and DC BAT BUS. Recovery assumes
+        that the DC ESS BUS can be fully restored by deploying the RAT with the EMER ELEC PWR
+        button.</para>
 
-        <para>The lost equipment is the sum of loss of DC BUS 1, DC BUS 2 (see <xref linkend="dc-1and2"/>) and
-        the battery bus (see <xref linkend="dc-bat"/>), so all comments regarding these failures apply. In
-        addition, a minimum of 140kt must be maintained to avoid RAT stall. This combination leads to an
-        extreme increase in landing distance requirement.</para>
+        <para revisionflag="changed">Equipment powered or controlled through DC BUS 1, DC BUS 2 and
+        the BAT BUS is lost. Loss of the equipment assosciated with the BAT BUS is fairly benign:
+        mainly APU Battery Start is unavailable due to loss of the APU ECB and APU fire detection is
+        inop. A lot of equipment is lost with the loss of DC BUS 1+2, but it is worth remembering
+        that all three busses are also lost in Emergency Electrical Config, so you will have, at
+        minimum, all the equipment detailed in QRH 24.1. The main items of note are:
+
+        <itemizedlist>
+
+          <listitem><para>A long runway is required. Minimum V<subscript>APP</subscript> is 140kt to
+          prevent RAT stall. Antiskid, reversers and 60% of the spoilers are lost. Loss of nosewheel
+          steering adds to the difficulty. Braking is from the ABCU, so only manual braking is
+          available.<footnote><para>easyJet aircraft automatically modulate to 1000psi, but the sim
+          may not.</para></footnote></para></listitem>
+
+          <listitem><para>Flight computer redundancy is significantly reduced, with only ELAC 1, SEC
+          1 and FAC 1 available. This is, however, sufficient to keep Normal Law, so a CONF FULL
+          landing and, indeed, CAT 3 SINGLE autoland (using AP1 and FMGS1) are available. The latter
+          may be useful since wipers and window heat are lost. Only FCU 1 is
+          available.</para></listitem>
+
+          <listitem><para>Deployment of lift devices is slow due do loss of SFCC 2, but they are all
+          available. Normal gear operation is available through LGCIU 1.</para></listitem>
+
+          <listitem><para>Pressurised fuel is available from the #1 wing tank pumps, but center tank
+          fuel is unusable.</para></listitem>
+
+          <listitem><para>Redundancy in the pressurisation system is seriously compromised. Manual
+          pressure control and CPC 2 are lost, so you are reliant on CPC 1 for control. Pack 2, BMC
+          2 and cross bleed control are all lost, so you are reliant on ENG 1 Bleed and Pack 1 for
+          supply. Ram Air remains available, so if required a slow depressurisation through turning
+          off Pack 1 followed by a depressurised landing with Ram Air is
+          achievable.</para></listitem>
+
+          <listitem><para>Communications are limited to VHF 1, controlled by RMP
+          1.</para></listitem>
+
+          <listitem><para>Redundancy in the fire detection and supression systems is
+          compromised. The engines each retain one detection loop and one fire bottle, APU fire
+          detection and cargo fire extinguishing is lost.</para></listitem>
+
+          <listitem><para>Heating for all static ports is lost, so be alert for unreliable airspeed
+          and altitude.</para></listitem>
+
+        </itemizedlist>
+
+        </para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC EMER CONFIG, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
