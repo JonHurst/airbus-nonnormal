@@ -1236,8 +1236,8 @@
         <para>Some or all of the systems supplied by DC Bus 1 and DC Bus 2 are lost.</para>
 
         <para revisionflag="changed">The implications are the same as for <xref
-        linkend="dc-emerg-conf"/> except that the RAT will not need to be deployed and the APU will
-        remain available.</para>
+        linkend="dc-emerg-conf"/> except that the RAT will not need to be deployed since ESS TR will
+        be supplied from AC 1 instead of the emergency generator.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT, FCOM DSC.24.30, FCOM 3.2.24]</para>
       </sect1>
@@ -1253,16 +1253,17 @@
       <sect1 id="loss-of-trs">
         <title>Loss of TRs</title>
 
-        <para>No systems are lost as a result of failure of a single TR. If the fault is with TR1 or TR2, only
-        Cat 3 single will be available.</para>
+        <para revisionflag="changed">No systems are lost as a result of failure of a single TR. If
+        the fault is with TR1 or TR2, DC ESS will be supplied by the ESS TR via AC ESS; in this case
+        only Cat 3 single will be available.</para>
 
-        <para revisionflag="added">If TR1 and TR2 are both lost then DC ESS will be powered through
-        the Essential TR via the Essential AC bus. DC Bus 1, DC Bus 2 and the DC Battery Bus will be
-        lost. The FCOM is not very forthcoming regarding this failure; there is only a description
-        in the DSC section and nothing specific in the PRO section. The situation is, however, very
-        similar to the “ECAM complete” phase of <xref linkend="dc-emerg-conf"/>; the only difference
-        is that AC 1 rather than the RAT is providing the power to the emergency electrical
-        system, and hence you don't need to worry about RAT stall.</para>
+        <para revisionflag="added">If TR1 and TR2 are both lost then DC Bus 1, DC Bus 2 and the DC
+        Battery Bus will also be lost. DC ESS will remain powered by the ESS TR. The FCOM is not
+        very forthcoming regarding this failure; there is only a description in the DSC section and
+        nothing specific in the PRO section. The situation is, however, very similar to the “ECAM
+        complete” phase of <xref linkend="dc-emerg-conf"/>; the only difference is that AC 1 rather
+        than the emergency generator is providing the power to the ESS TR, and hence you don't need
+        to worry about RAT deployment or RAT stall.</para>
 
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> TR 1(2), <emphasis
         role="underline">ELEC</emphasis> ESS TR FAULT, FCOM DSC.24.10.30, FCOM PRO.ABN.24 ]</para>
@@ -1285,7 +1286,7 @@
         button.</para>
 
         <para revisionflag="changed">Equipment powered or controlled through DC BUS 1, DC BUS 2 and
-        the BAT BUS is lost. Loss of the equipment assosciated with the BAT BUS is fairly benign:
+        the BAT BUS is lost. Loss of the equipment associated with the BAT BUS is fairly benign:
         mainly APU Battery Start is unavailable due to loss of the APU ECB and APU fire detection is
         inop. A lot of equipment is lost with the loss of DC BUS 1+2, but it is worth remembering
         that all three busses are also lost in Emergency Electrical Config, so you will have, at
@@ -1321,9 +1322,9 @@
           <listitem><para>Communications are limited to VHF 1, controlled by RMP
           1.</para></listitem>
 
-          <listitem><para>Redundancy in the fire detection and supression systems is
-          compromised. The engines each retain one detection loop and one fire bottle, APU fire
-          detection and cargo fire extinguishing is lost.</para></listitem>
+          <listitem><para>Redundancy in the fire detection and suppression systems is
+          compromised. The engines each retain one detection loop and one fire bottle. APU fire
+          detection and cargo fire extinguishing are lost.</para></listitem>
 
           <listitem><para>Heating for all static ports is lost, so be alert for unreliable airspeed
           and altitude.</para></listitem>
