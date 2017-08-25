@@ -38,6 +38,9 @@
     master switches and fire buttons is not required following alignment of Airbus Training Study
     Guide with FCTM.</para></listitem>
 
+    <listitem><para>Updated <xref linkend="overweight_landing"/> to clarify that autoland up to
+    69,000kg is only available for A319.</para></listitem>
+
       </itemizedlist>
     </sect1>
     <sect1>
@@ -507,14 +510,15 @@
       <sect1 id="overweight_landing">
         <title>Overweight landing</title>
 
-        <para>A landing can be made at any weight, providing sufficient
-        landing distance is available. Automatic landings are certified up to MLW, but flight tests
-        have demonstrated autoland capability to 69000kg in case of emergency. The preferred landing
-        configuration is CONF&nbsp;FULL, but lower settings may be used if required by QRH/ECAM
-        procedures. QRH ABN.80.06 also specifies CONF 3 if the aircraft weight exceeds the
-        CONF&nbsp;3 go around limit; this will only ever be a factor for airfields with elevations
-        above 1000ft. Packs should be turned off to provide additional go around thrust. If planned
-        landing configuration is less than FULL, use 1+F for go-around.</para>
+        <para revisionflag="changed">A landing can be made at any weight, providing sufficient
+        landing distance is available. In general, automatic landings are only certified up to MLW,
+        but the FCOM specifies that, for the A319 only, autoland is available up to 69000kg in case
+        of emergency. The preferred landing configuration is CONF&nbsp;FULL, but lower settings may
+        be used if required by QRH/ECAM procedures. QRH ABN.80.06 also specifies CONF 3 if the
+        aircraft weight exceeds the CONF&nbsp;3 go around limit; this will only ever be a factor for
+        airfields with elevations above 1000ft. Packs should be turned off to provide additional go
+        around thrust. If planned landing configuration is less than FULL, use 1+F for
+        go-around.</para>
 
         <para>It is possible that S speed will be higher than V<subscript>FE&nbsp;next</subscript> for CONF 2. In this case,
         a speed below V<subscript>FE&nbsp;next</subscript> should be selected until CONF 2 is achieved, then managed speed
