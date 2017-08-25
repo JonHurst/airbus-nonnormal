@@ -1378,14 +1378,14 @@
 
         <para>If a single elevator fails, the SECs use the remaining elevator to provide pitch control in alternate law
         (see <xref linkend="alternate-law"/>). In addition, speed brake should not be used and the autopilots are
-        unserviceable {TODO: Find out why}.</para>
+        unserviceable.</para>
 
         <para>If both elevators fail, the only mechanism for pitch control available is manual pitch trim, so pitch
         reverts to mechanical back up and roll reverts to direct law. For the approach fly a long final, initiating the
         descent from at least 5000ft AAL. Do not try to flare using trim and do not remove power until after
         touchdown. From 1000ft AAL, try to keep power changes to within 2% N1. In the event of a go-around, power
-        <emphasis>must</emphasis> be applied very slowly if control is not to be lost.{TODO: This is Boeing advice –
-        check if it is relevant to Airbus}</para>
+        <emphasis>must</emphasis> be applied very slowly if control is not to be lost.<footnote><para>This is Boeing advice –
+        Airbus does not provide guidance for the flare or go-around technique when elevavators are frozen.</para></footnote></para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R)(L+R) ELEV FAULT,
         FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
