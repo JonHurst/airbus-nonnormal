@@ -65,6 +65,9 @@
     <listitem><para>Added reference to new “quick” ditching and forced landing procedures to <xref
     linkend="dual-engine-failure"/>.</para></listitem>
 
+    <listitem><para>Added that cross bleed must be closed when using APU for pressurisation to <xref
+    linkend="engine-shut-down"/>.</para></listitem>
+
       </itemizedlist>
 
 
@@ -2529,14 +2532,14 @@
         windshear) it is possible that directional control may be lost before the flight computer protections apply. Be
         cautious about reducing speed below V<subscript>LS</subscript> on one engine.</para>
 
-        <para>The main systems lost are the generator, bleed and hydraulic
+        <para revisionflag="changed">The main systems lost are the generator, bleed and hydraulic
         pump associated with the engine. Other systems may be lost depending on the reason for the
         shutdown. The APU can be used to replace the lost generator and, providing the left side of
-        the pneumatic system is available, provide pressurisation through pack 1, thus giving
-        additional margin for the go-around. The BMCs automatically close the engine bleeds when the
-        APU bleed valve is opened, so it is not necessary to manually turn them off to achieve this
-        additional go-around margin. Note, however, that the APU cannot support wing
-        anti-ice.</para>
+        the pneumatic system is available and isolated (i.e. cross bleed valve closed), provide
+        pressurisation through pack 1, thus giving additional margin for the go-around. The BMCs
+        automatically close the engine bleeds when the APU bleed valve is opened, so it is not
+        necessary to manually turn them off to achieve this additional go-around margin. Note,
+        however, that the APU cannot support wing anti-ice.</para>
 
 	<para>Approach and landing will be fairly normal. The main provisos are
 
