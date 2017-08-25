@@ -60,6 +60,8 @@
     <listitem><para>Added guidance of how to handle “smells” to <xref
     linkend="smoke-fumes"/>.</para></listitem>
 
+    <listitem><para>Improved <xref linkend="smoke-fumes"/>.</para></listitem>
+
       </itemizedlist>
 
 
@@ -1764,9 +1766,10 @@
         selecting both blower and extract fans to OVRD, turn off the cabin fans and turn off the
         galleys.</para>
 
-        <para>Where the smoke source is not immediately obvious and the initial actions have not caused it to cease, the
-        QRH provides drills for suspected air conditioning smoke, suspected cabin equipment smoke or suspected
-        avionics/ electrical smoke. In addition the avionics/ electrical smoke drill includes undetermined and
+        <para revisionflag="changed">Where the source is immediately obvious, accessible and
+        extinguishable, isolate the faulty equipment. Otherwise the QRH provides seperate drills for
+        suspected air conditioning smoke, suspected cabin equipment smoke or suspected avionics/
+        electrical smoke. In addition the avionics/ electrical smoke drill includes undetermined and
         continuing smoke sources.</para>
 
         <para>Suspect air conditioning smoke if it initially comes out of the ventilation outlets. Several ECAM warnings
@@ -1779,20 +1782,25 @@
         <para>The cabin equipment smoke drill involves selecting the commercial button off and searching for faulty
         cabin equipment.</para>
 
-        <para>Suspect avionics smoke if the only triggered ECAM is AVIONICS SMOKE. If an item of electrical equipment
-        fails immediately prior to the appearance of the smoke, that equipment should be suspected as the source. The
-        avionics/ electrical drill (which includes the undetermined source drill) no longer involves systematic shedding
-        of the AC busses due to the negative interaction that this procedure had with the battery chargers. Instead,
-        emergency electrical configuration (see <xref linkend="emerg-elec-config"/>) is adopted immediately. The
-        electrical system should be restored just before deploying the gear {TODO: There is an odd discrepancy
-        concerning when the generators should be restored – some airframes it is “just before L/G extension”, others “at
-        3min or 2000ft aal before landing”. Why?}. Note that since you will not be able to restore the two IRs that were
-        depowered, the landing will be in Direct Law and hence CONF 3 {TODO: QRH PRO.ABN.24 ELEC
-	EMER CONFIG SYS REMAINING indicates that by selecting ATT HDG selector to CAPT 3 it may be
-	possible to retain IR3 and hence have sufficient equipment for a Cat 3A landing once power
-	is restored - investigate further}. Refer to QRH FPE.IPL.27 for
-        V<subscript>App</subscript> and LDR factor. This is not mentioned in QRH ABN.26, and is only mentioned on the
-        ECAM once gear is extended.</para>
+        <para revisionflag="changed">Suspect avionics smoke if the only triggered ECAM is AVIONICS
+        SMOKE. If an item of electrical equipment fails immediately prior to the appearance of the
+        smoke, that equipment should be suspected as the source. The avionics/ electrical drill
+        (which includes the undetermined source drill) reduces the amount of electrically powered
+        equipment to a minimum by adopting a slightly modified emergency electrical
+        configuration.<footnote><para>The EMER ELEC GEN 1 LINE button rather than the GEN 1 button
+        is used to disconnect generator 1 which disconnects generator 1 from the electrical system
+        but allows it to directly supply one fuel pump in each wing tank.</para></footnote> The
+        resulting ECAM <emphasis>may </emphasis><footnote><para>Which ECAM procedure is displayed is
+        dependent on whether an AVIONICS SMOKE ECAM has been triggered prior to the adoption of
+        emergency electrical configuration.</para></footnote> contain instructions to reset the
+        generators; these instructions should be disregarded, although the rest of the ECAM
+        procedure must be actioned. The intention is to restore power 3 minutes before landing or at
+        2000ft aal. Since you will not be able to restore the two IRs that were depowered, the
+        landing will be in Direct Law and hence CONF 3.<footnote><para>QRH PRO.ABN.24 ELEC EMER
+        CONFIG SYS REMAINING indicates that by selecting the ATT HDG selector to CAPT 3 it may be
+        possible to retain IR3 and hence have sufficient equipment for a Cat 3A landing once power
+        is restored. This has not yet been confirmed by Airbus.</para></footnote> This is not
+        mentioned in QRH ABN.26, and is only mentioned on the ECAM once gear is extended.</para>
 
         <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH ABN.26,
         FCOM PRO.ABN.26]</para>
