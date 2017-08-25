@@ -56,7 +56,13 @@
 
     <listitem><para>Added that autopilot may be available to <xref
     linkend="alternate-law"/>.</para></listitem>
+
+    <listitem><para>Added guidance of how to handle “smells” to <xref
+    linkend="smoke-fumes"/>.</para></listitem>
+
       </itemizedlist>
+
+
     </sect1>
     <sect1>
       <title>Changes since version 2.2</title>
@@ -1722,6 +1728,18 @@
 
         <para>In the case of other smoke related ECAMs, the relevant ECAM procedure should be applied first and then the
         use of the paper checklist considered.</para>
+
+        <para revisionflag="added">While the smoke aspect of these procedures is fairly unambiguous,
+        the fumes aspect has led to both under- and over-reaction in the simulator. Training
+        department guidance is that if a “smell” is detected in the cabin and it is having no
+        physiological effects, no immediate action is required. If there are physiological effects,
+        the SMOKE/FUMES/AVNCS SMOKE QRH procedure should be actioned. However, only the first line, LAND
+        ASAP, is actioned since there is no perceptible smoke and the rest of the checklist is below
+        the line “if perceptible smoke apply immediately”. Thus after cross-confirming LAND
+        ASAP, immediately move on to the REMOVAL OF SMOKE/FUMES QRH checklist. It should be noted
+        that confirmation of the correctness of this advice is currently being sought from Airbus,
+        and that in a number of in-service events the source of the smell has been positively
+        identified as one of the packs.</para>
 
         <para>Rain repellent fluid leaks are not covered. Orange peel smells are toxic, pine needle smells
         non-toxic.</para>
