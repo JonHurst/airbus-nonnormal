@@ -1758,9 +1758,11 @@
 	provide a few seconds of overpressure, which can be used to clear any smoke trapped in the
 	mask as it was donned.</para>
 
-        <para>The most likely sources are the avionics, the cabin fans and the galleys. Therefore immediate initial
-        actions are to turn off the cabin fans and galleys and put the avionics ventilation in smoke removal mode by
-        selecting both fans to OVRD.</para>
+        <para revisionflag="changed">Likely sources of smoke are the avionics, the cabin fans and
+        the galleys. Smoke from these sources can be contained with simple and reversible actions
+        which can be initiated immediately: put the avionics ventilation into smoke removal mode by
+        selecting both blower and extract fans to OVRD, turn off the cabin fans and turn off the
+        galleys.</para>
 
         <para>Where the smoke source is not immediately obvious and the initial actions have not caused it to cease, the
         QRH provides drills for suspected air conditioning smoke, suspected cabin equipment smoke or suspected
