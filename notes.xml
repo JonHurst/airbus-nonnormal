@@ -84,6 +84,9 @@
     <listitem><para>Updated ice accreted min speeds in <xref
     linkend="waa-valve-closed"/>.</para></listitem>
 
+    <listitem><para>Updated <xref linkend="dual-bleed"/> with new QRH and ECAM
+    procedures.</para></listitem>
+
       </itemizedlist>
 
 
@@ -3614,29 +3617,56 @@
     </chapter>
     <chapter>
       <title>Pneumatic</title>
-      <sect1>
+      <sect1 revisionflag="changed" id="dual-bleed">
         <title>Dual bleed failure</title>
 
-        <para>A known problem with the A319 is that the load on a single bleed supplying two packs at high altitude may
-        be sufficient to cause it to trip off. In this case, turning off one pack may allow a bleed reset.</para>
+        <para>The historical failure case where supplying two packs from one bleed would overload it
+        and cause it to fail appears to have been resolved. Furthermore, recent airframes have four
+        new ECAM procedures associated with dual bleed failure, the variants based on whether neither,
+        either or both bleeds have failed due to a wing or pylon leak on its respective side. The
+        ECAMs all hand off to a new QRH paper procedure if no successful reset is achieved. Older
+        airframes make do with just the QRH procedure.</para>
 
-        <para>There is no ECAM associated with a dual bleed failure. The QRH ABN.36 procedure applies both to the case
-        where the aircraft has dispatched with an inoperative bleed IAW MEL, and in the case where an in-flight failure
-        has left a single bleed remaining.</para>
+        <para>Whilst the procedures look complex, the underlying philosophy is fairly simple:
 
-        <para>In the case of an isolated bleed duct (due bleed air leak, engine fire or failed open start valve), the
-        bleed associated with the duct is clearly unrecoverable. Since the remaining bleed would only have been
-        supplying a single pack, the overload case does not apply. Hence, this bleed is also considered unrecoverable,
-        and a bleed reset should not be attempted. If, on the other hand, both ducts are available and a single bleed
-        has been supplying two packs, an overload may be suspected and an attempt can be made to reset the overloaded
-        bleed once one of the packs is turned off.</para>
+        <itemizedlist>
+          <listitem><para>A depressurisation will be underway. It should be relatively slow, but
+          unless a successful reset is achieved immediately, a prompt descent to FL100/MFA needs to
+          be initiated.</para></listitem>
 
-        <para>If an engine bleed cannot be recovered, providing #1 bleed duct is available, the APU bleed may be used to
-        supply a single pack when below FL225. If the #2 bleed duct is isolated, only pack 1 can be used since the cross
-        bleed will be closed. Otherwise, either pack may be used. Note that the APU bleed is not capable of supplying
-        bleed air for wing anti-ice.</para>
+          <listitem><para>A bleed lost to a wing or pylon leak is lost for good, whereas a simple
+          bleed fault or bleed low pressure may be recoverable. The cross bleed should be shut and
+          the wing anti-ice should be off before an attempt is made to recover a
+          bleed.</para></listitem>
 
-        <para role="multicite">[QRH ABN.36, FCOM PRO.ABN.36]</para>
+          <listitem><para>A leak on the left side precludes the use of the APU bleed for
+          pressurisation, but otherwise the APU bleed can be used to supply pack 1 when below
+          22500ft. If pack 1 is unavailable, the APU bleed can supply pack 2 via the cross bleed
+          provided the whole pneumatic system is available.</para></listitem>
+        </itemizedlist>
+        </para>
+
+        <para>In line with this philosophy, both the ECAM and QRH procedures start by shutting the
+        cross bleed and turning off the wing anti-ice. The ECAM procedures each then attempt an
+        immediate recovery of any recoverable bleed by cycling the bleed off then on. The QRH
+        attempts an immediate recovery only in the case that both bleeds are potentially
+        recoverable.</para>
+
+        <para>If no bleeds are recovered, the bleeds are all turned off and a descent to FL100/MFA
+        is initiated. At this point, the ECAM procedures join the QRH procedure.</para>
+
+        <para>During the descent the APU is started. If the left hand side of the pneumatic system
+        is available, at attempt to use the APU bleed for pressurisation is made at FL200. If this is
+        successful, the descent is stopped at FL200 and a further attempt is made to reset the
+        engine bleeds; if unsuccessful, the flight can be continued at FL200 using the APU bleed
+        for pressurisation.</para>
+
+        <para>If APU cannot be used for pressurisation descent must be continued. When level at
+        FL100/MFA, a final attempt is made to restore any available engine bleeds. If unsuccessful,
+        the flight is completed with ram air.</para>
+
+        <para role="multicite">[<emphasis role="underline">AIR</emphasis> 1+2 BLEED FAULT
+        (LEFT(RIGHT) LEAK (AND RIGHT LEAK)) QRH ABN.36, FCOM PRO.ABN.36]</para>
       </sect1>
     </chapter>
     <chapter>
