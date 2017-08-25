@@ -3317,9 +3317,10 @@
       <sect1 id="green-low-pr">
         <title>Green system low pressure</title>
 
-        <para>The major lost systems are normal landing gear operation (gravity extension is available) and the normal
-        brake system, including the autobrake (alternate braking is available). Landing distance will be increased due
-        to loss of two spoilers per wing and reverser 1. Flap and slat deployment will be slow.</para>
+        <para>The major lost systems are normal landing gear operation (gravity extension is
+        available but gear retraction is not) and the normal brake system, including the autobrake
+        (alternate braking is available). Landing distance will be increased due to loss of two
+        spoilers per wing and reverser 1. Flap and slat deployment will be slow.</para>
 
         <para role="multicite">[<emphasis role="underline">HYD</emphasis> G SYS LO PR,
         FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
