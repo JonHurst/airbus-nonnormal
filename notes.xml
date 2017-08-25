@@ -51,6 +51,9 @@
     except in case of turbulence, when configuring at any speed above V<subscript>LS</subscript> is
     acceptable.</para></listitem>
 
+    <listitem><para>Added advice for dutch roll encounter to <xref
+    linkend="direct-law"/>.</para></listitem>
+
       </itemizedlist>
     </sect1>
     <sect1>
@@ -1603,6 +1606,10 @@
         up pitch changes so it should be used with care. Protections are unavailable, so speed is limited to 320kt/0.77M
         and care must be taken in GPWS or windshear manoeuvres. Approach speed is increased by 10kt and landing distances
         increase by a factor of 1.2.</para>
+
+        <para revisionflag="added">Direct Law works with or without yaw dampers. The aircraft is
+        <emphasis>always</emphasis> convergent in dutch roll, so use lateral control, not rudder, if
+        dutch roll is experienced.</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> DIRECT LAW,
         FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
