@@ -78,6 +78,9 @@
     <listitem><para>Update <xref linkend="TCAS"/> with the new “TCAS blue, I have control”
     call.</para></listitem>
 
+    <listitem><para>Expanded <xref linkend="fcu-fault"/> with advice not to set MDA in the MCDU in
+    the event of dual FCU failure.</para></listitem>
+
       </itemizedlist>
 
 
@@ -3195,15 +3198,20 @@
         <para role="multicite">[<emphasis
 	role="underline">AUTO FLT</emphasis> RUD TRV LIM_1(2)(SYS), FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
       </sect1>
-      <sect1>
+      <sect1 id="fcu-fault">
         <title>FCU faults</title>
 
         <para>Loss of a single channel will result in the spare channel automatically taking over. All that is required
         is a cross check of the baro refs.</para>
 
-        <para>Loss of both channels leads to loss of all FCU and EFIS panels. The autopilots and autothrust are
-        lost and parameters that are normally controlled by the panels revert to sensible default values. If the weather
-        radar image remains displayed, disregard it since the scale will be incorrect.</para>
+        <para revisionflag="changed">Loss of both channels leads to loss of all FCU and EFIS
+        panels. The autopilots, flight directors<footnote><para>Flight Directors will pop up to
+        provide guidance in the event of a go-around.</para></footnote> and autothrust are lost and
+        parameters that are normally controlled by the panels revert to sensible default values. If
+        the weather radar image remains displayed, disregard it since the scale will be
+        incorrect. Since it will only be possible to set the QNH on the standby altimeters, the MDA
+        should not be set in the MCDU; instead the PM should make standard callouts from the standby
+        altimeter.</para>
 
         <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FCU 1(2)(1+2) FAULT,
 	FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
