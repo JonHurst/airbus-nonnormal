@@ -54,6 +54,8 @@
     <listitem><para>Added advice for dutch roll encounter to <xref
     linkend="direct-law"/>.</para></listitem>
 
+    <listitem><para>Added that autopilot may be available to <xref
+    linkend="alternate-law"/>.</para></listitem>
       </itemizedlist>
     </sect1>
     <sect1>
@@ -1624,11 +1626,13 @@
         <para>The main effects are that speed is limited to 320kt and stall warnings must be respected when carrying out
         EGPWS manoeuvres.</para>
 
+        <para revisionflag="added">The autopilot may be available.</para>
+
         <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and hence increased
         approach speeds and landing distances due to a CONF 3 landing (see QRH FPE.IFL.27).</para>
 
         <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ALTN LAW,
-        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+        FCOM DSC.27.20.40, FCOM PRO.ABN.27, FCOM PRO.SUP.27.30]</para>
       </sect1>
       <sect1>
         <title>Wingtip brake fault</title>
