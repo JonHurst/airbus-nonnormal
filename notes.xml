@@ -41,6 +41,8 @@
     <listitem><para>Updated <xref linkend="overweight_landing"/> to clarify that autoland up to
     69,000kg is only available for A319.</para></listitem>
 
+    <listitem><para>Added case of TR1 and TR2 both failing to <xref linkend="loss-of-trs"/>.</para></listitem>
+
       </itemizedlist>
     </sect1>
     <sect1>
@@ -1253,14 +1255,22 @@
         role="underline">ELEC</emphasis> APU GEN OVERLOAD, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
 
       </sect1>
-      <sect1>
-        <title>Loss of TR</title>
+      <sect1 id="loss-of-trs">
+        <title>Loss of TRs</title>
 
         <para>No systems are lost as a result of failure of a single TR. If the fault is with TR1 or TR2, only
         Cat 3 single will be available.</para>
 
+        <para revisionflag="added">If TR1 and TR2 are both lost then DC ESS will be powered through
+        the Essential TR via the Essential AC bus. DC Bus 1, DC Bus 2 and the DC Battery Bus will be
+        lost. The FCOM is not very forthcoming regarding this failure; there is only a description
+        in the DSC section and nothing specific in the PRO section. The situation is, however, very
+        similar to the “ECAM complete” phase of <xref linkend="dc-emerg-conf"/>; the only difference
+        is that AC 1 rather than the RAT is providing the power to the emergency electrical
+        system, and hence you don't need to worry about RAT stall.</para>
+
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> TR 1(2), <emphasis
-        role="underline">ELEC</emphasis> ESS TR FAULT, FCOM DSC.24.30, FCOM PRO.ABN.24 ]</para>
+        role="underline">ELEC</emphasis> ESS TR FAULT, FCOM DSC.24.10.30, FCOM PRO.ABN.24 ]</para>
 
       </sect1>
       <sect1 id="dc-bat">
@@ -1272,7 +1282,7 @@
         <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BAT BUS FAULT,
         FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
       </sect1>
-      <sect1>
+      <sect1 id="dc-emerg-conf">
         <title>DC Emergency configuration</title>
 
         <para>Defined as the loss of DC BUSSES 1 + 2, DC ESS BUS and DC BAT BUS. The check list assumes that
