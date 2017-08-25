@@ -510,7 +510,7 @@
 	    VS) and provides instructions for shutting down the engines and APU on touchdown (all
 	    masters off).</para>
 
-        <para revisionflag="added">If time is available, apply the procedures in the QRH.  The
+        <para revisionflag="changed">If time is available, apply the procedures in the QRH.  The
         QRH ABN.80 FORCED LANDING procedure applies if the engines are running. If the engines are
         not running, refer to the appropriate QRH ABN.70 <emphasis role="underline">ENG</emphasis>
         DUAL FAILURE procedure, both of which include forced landing.</para>
