@@ -3543,85 +3543,94 @@
 
 
 <chapter>
-      <title>Auto-flight</title>
-      <sect1 id="fac-faults">
-        <title>FAC faults</title>
+  <title>Auto-flight</title>
 
-        <para>Failure of a single FAC results in loss of redundancy and hence loss of Cat 3 Dual. In particular, a
-        single FAC provides all the characteristic speeds (V<subscript>SW</subscript>, V<subscript>LS</subscript>,
-        V<subscript>FE</subscript>, V<subscript>FE-next</subscript>, V<subscript>LE</subscript>,
-        V<subscript>MO</subscript>/M<subscript>MO</subscript>, Green dot, S speed and F speed). It may be worth
-        cross-checking against QRH FPE.SPD.</para>
+  <sect1 id="fac-faults">
+    <title>FAC faults</title>
 
-        <para>If both FACs are lost the rudder travel limit system, rudder trim control, yaw
-        damper and PFD characteristic speeds are lost and Alternate Law with mechanical yaw control becomes
-        active. Recovery of full rudder authority at flap extension should be anticipated, but use rudder with care
-        above 160kt.</para>
+    <para>Failure of a single FAC results in loss of redundancy and hence loss of Cat 3 Dual. In
+    particular, a single FAC provides all the characteristic speeds (V<subscript>SW</subscript>,
+    V<subscript>LS</subscript>, V<subscript>FE</subscript>, V<subscript>FE-next</subscript>,
+    V<subscript>LE</subscript>, V<subscript>MO</subscript>/M<subscript>MO</subscript>, Green dot, S
+    speed and F speed). It may be worth cross-checking against QRH FPE.SPD.</para>
 
-        <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FAC 1(2)(1+2) FAULT,
-        FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
-      </sect1>
+    <para>If both FACs are lost the rudder travel limit system, rudder trim control, yaw damper and
+    PFD characteristic speeds are lost and Alternate Law with mechanical yaw control becomes
+    active. Recovery of full rudder authority at flap extension should be anticipated, but use
+    rudder with care above 160kt.</para>
 
-      <sect1 id="yaw-damper">
-        <title>Yaw damper faults</title>
-
-        <para>A single failure leads to loss of redundancy, and hence loss of Cat 3 Dual. On some airframes a reset of
-        the affected FAC can be attempted.</para>
-
-        <para>With a dual failure a reset of the FACs should be attempted. If the yaw damper is not recovered, the
-        flight controls revert to alternate law (see <xref linkend="alternate-law"/>). Unless the failure occurred below
-        alert height, only Cat I will be available.</para>
-
-        <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> YAW DAMPER 1(2)(SYS),
-	FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
-      </sect1>
-      <sect1 id="rudder-trim">
-        <title>Rudder trim faults</title>
-
-        <para>Loss of a rudder trim from a single FAC leads to loss of redundancy and hence loss of Cat 3 Dual.</para>
-
-        <para>If complete loss of rudder trim occurs, an attempt should be made to reset the FACs. If this is not
-        successful, only Cat I is available.</para>
-
-        <para role="multicite">[<emphasis
-        role="underline">AUTO FLT</emphasis> RUDDER TRIM SYS(1(2) FAULT), FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
-      </sect1>
-      <sect1 id="rudder-limit">
-        <title>Rudder travel limiter faults</title>
-
-        <para>Loss of rudder limit functionality from a single FAC leads to loss of redundancy only.</para>
-
-        <para>The effect of complete loss of rudder limiter functionality depends on when the
-        failure occurred. In general, the rudder should be used with caution when above 160kt. An attempt should be made
-        to recover the limiter by resetting the FACs. If unsuccessful, full rudder travel authority may or may not be
-        recovered at slat extension. If a landing must be made with the rudder travel limiter frozen in the high speed
-        regime, max crosswind is reduced to 15kt and differential braking may be required on the landing roll (do not
-        arm autobrake).</para>
-
-        <para role="multicite">[<emphasis
-	role="underline">AUTO FLT</emphasis> RUD TRV LIM_1(2)(SYS), FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
-      </sect1>
-      <sect1 id="fcu-fault">
-        <title>FCU faults</title>
-
-        <para>Loss of a single channel will result in the spare channel automatically taking over. All that is required
-        is a cross check of the baro refs.</para>
-
-        <para revisionflag="changed">Loss of both channels leads to loss of all FCU and EFIS
-        panels. The autopilots, flight directors<footnote><para>Flight Directors will pop up to
-        provide guidance in the event of a go-around.</para></footnote> and autothrust are lost and
-        parameters that are normally controlled by the panels revert to sensible default values. If
-        the weather radar image remains displayed, disregard it since the scale will be
-        incorrect. Since it will only be possible to set the QNH on the standby altimeters, the MDA
-        should not be set in the MCDU; instead the PM should make standard callouts from the standby
-        altimeter.</para>
-
-        <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FCU 1(2)(1+2) FAULT,
-	FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
-      </sect1>
+    <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FAC 1(2)(1+2) FAULT,
+    FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
+  </sect1>
 
 
-    </chapter>
+  <sect1 id="yaw-damper">
+    <title>Yaw damper faults</title>
+
+    <para>A single failure leads to loss of redundancy, and hence loss of Cat 3 Dual. On some
+    airframes a reset of the affected FAC can be attempted.</para>
+
+    <para>With a dual failure a reset of the FACs should be attempted. If the yaw damper is not
+    recovered, the flight controls revert to alternate law (see <xref
+    linkend="alternate-law"/>). Unless the failure occurred below alert height, only Cat I will be
+    available.</para>
+
+    <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> YAW DAMPER 1(2)(SYS),
+    FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
+  </sect1>
+
+
+  <sect1 id="rudder-trim">
+    <title>Rudder trim faults</title>
+
+    <para>Loss of a rudder trim from a single FAC leads to loss of redundancy and hence loss of Cat
+    3 Dual.</para>
+
+    <para>If complete loss of rudder trim occurs, an attempt should be made to reset the FACs. If
+    this is not successful, only Cat I is available.</para>
+
+    <para role="multicite">[<emphasis
+    role="underline">AUTO FLT</emphasis> RUDDER TRIM SYS(1(2) FAULT), FCOM DSC.22_10.50,
+    FCOM PRO.ABN.22]</para>
+  </sect1>
+
+
+  <sect1 id="rudder-limit">
+    <title>Rudder travel limiter faults</title>
+
+    <para>Loss of rudder limit functionality from a single FAC leads to loss of redundancy
+    only.</para>
+
+    <para>The effect of complete loss of rudder limiter functionality depends on when the failure
+    occurred. In general, the rudder should be used with caution when above 160kt. An attempt should
+    be made to recover the limiter by resetting the FACs. If unsuccessful, full rudder travel
+    authority may or may not be recovered at slat extension. If a landing must be made with the
+    rudder travel limiter frozen in the high speed regime, max crosswind is reduced to 15kt and
+    differential braking may be required on the landing roll (do not arm autobrake).</para>
+
+    <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> RUD TRV LIM_1(2)(SYS),
+    FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
+  </sect1>
+
+
+  <sect1 id="fcu-fault">
+    <title>FCU faults</title>
+
+    <para>Loss of a single channel will result in the spare channel automatically taking over. All
+    that is required is a cross check of the baro refs.</para>
+
+    <para revisionflag="changed">Loss of both channels leads to loss of all FCU and EFIS panels. The
+    autopilots, flight directors<footnote><para>Flight Directors will pop up to provide guidance in
+    the event of a go-around.</para></footnote> and autothrust are lost and parameters that are
+    normally controlled by the panels revert to sensible default values. If the weather radar image
+    remains displayed, disregard it since the scale will be incorrect. Since it will only be
+    possible to set the QNH on the standby altimeters, the MDA should not be set in the MCDU;
+    instead the PM should make standard callouts from the standby altimeter.</para>
+
+    <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FCU 1(2)(1+2) FAULT,
+    FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
+  </sect1>
+</chapter>
     <chapter>
       <title>Hydraulics</title>
 
