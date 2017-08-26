@@ -38,15 +38,15 @@
       <listitem><para>Updated <xref linkend="emerg-descent"/> with new Airbus
       procedure.</para></listitem>
 
-	  <listitem><para>Added guidance on how to get out of TOGA LK to <xref
-	  linkend="reactive-windshear"/>.</para></listitem>
+      <listitem><para>Added guidance on how to get out of TOGA LK to <xref
+      linkend="reactive-windshear"/>.</para></listitem>
 
-	  <listitem><para>Added note to <xref linkend="unreliable-airspeed"/> to warn of flight envelope
-	  protections leading to uncontrollable aircraft and provide method for regaining
-	  control.</para></listitem>
+      <listitem><para>Added note to <xref linkend="unreliable-airspeed"/> to warn of flight envelope
+      protections leading to uncontrollable aircraft and provide method for regaining
+      control.</para></listitem>
 
-	  <listitem><para>Updated <xref linkend="ditching"/> with new “quick” procedure for low altitude
-	  events.</para></listitem>
+      <listitem><para>Updated <xref linkend="ditching"/> with new “quick” procedure for low altitude
+      events.</para></listitem>
 
       <listitem><para>Updated <xref linkend="forced-landing"/> with new “quick” procedure for low
       altitude events.</para></listitem>
@@ -282,7 +282,7 @@
     <para>If an EOSID is annotated as “STD”, then acceleration should be completed prior to
     commencing the first turn. If “NON-STD”, the turn takes priority.</para>
 
-	<para role="multicite">[EOMB 4.4.4, FCOM DSC.22_20.60.40]</para>
+    <para role="multicite">[EOMB 4.4.4, FCOM DSC.22_20.60.40]</para>
   </sect1>
 </chapter>
 
@@ -460,12 +460,12 @@
     of altitude information, the FPV must be disregarded. If altitude information is definitely
     good, the FPV may be used.</para>
 
-	<para revisionflag="added">It is important to understand that at this stage, while the pilot has
-	identified that airspeed is unreliable, the aircraft systems have not. Thus flight envelope
-	protections based on airspeed data from unreliable ADRs may activate. This may lead to pitch
-	inputs from the flight computers that cannot be overridden with the sidesticks. In this case,
-	immediately switch off any two ADRs; this causes the flight computers to revert to Alternate Law
-	with no protections, and thus allows control of the aircraft to be regained.</para>
+    <para revisionflag="added">It is important to understand that at this stage, while the pilot has
+    identified that airspeed is unreliable, the aircraft systems have not. Thus flight envelope
+    protections based on airspeed data from unreliable ADRs may activate. This may lead to pitch
+    inputs from the flight computers that cannot be overridden with the sidesticks. In this case,
+    immediately switch off any two ADRs; this causes the flight computers to revert to Alternate Law
+    with no protections, and thus allows control of the aircraft to be regained.</para>
 
     <para>Once the flight path is under control and a safe altitude is attained, the aircraft should
     be transitioned into level flight. Refer to QRH ABN.34.07 to extract a ballpark thrust setting,
@@ -477,13 +477,13 @@
     be as much as 5% greater than the ballpark figure. Once stable, the speed will be equal to the
     reference speed.</para>
 
-	<para>If there is insufficient data available to fly level (e.g. GPS data unavailable and
-	barometric data unreliable), fly the reference attitude with the ballpark thrust setting. This
-	will give approximately level flight at approximately reference speed.</para>
+    <para>If there is insufficient data available to fly level (e.g. GPS data unavailable and
+    barometric data unreliable), fly the reference attitude with the ballpark thrust setting. This
+    will give approximately level flight at approximately reference speed.</para>
 
-	<para>With the speed now known, the ADRs can be checked to see if any are giving accurate
-	data. If at least one ADR is reliable, turn off the faulty ADRs. GPS and IRS ground speeds may
-	also be used for an approximate cross check.</para>
+    <para>With the speed now known, the ADRs can be checked to see if any are giving accurate
+    data. If at least one ADR is reliable, turn off the faulty ADRs. GPS and IRS ground speeds may
+    also be used for an approximate cross check.</para>
 
     <para>If all ADRs are considered unreliable, turn off any two of them; one is kept on to provide
     stall warning from the alpha probes. More recent aircraft have backup speed/altitude scales
@@ -518,12 +518,12 @@
   <sect1 id="ditching">
     <title>Ditching</title>
 
-	<para revisionflag="added">If time is short due to loss of thrust at low altitude, a “quick“
-	ditching procedure is available on the back of the normal checklist. This procedure gives you a
-	suitable configuration for ditching (CONF 2, Gear up) and a table for determining a suitable
-	approach speed given your gross weight. It also instructs that the APU be started, the ditching
-	button be pushed, provides guidance for the flare (minimise VS, attitude 11°) and provides
-	instructions for shutting down the engines and APU on touchdown (all masters off).</para>
+    <para revisionflag="added">If time is short due to loss of thrust at low altitude, a “quick“
+    ditching procedure is available on the back of the normal checklist. This procedure gives you a
+    suitable configuration for ditching (CONF 2, Gear up) and a table for determining a suitable
+    approach speed given your gross weight. It also instructs that the APU be started, the ditching
+    button be pushed, provides guidance for the flare (minimise VS, attitude 11°) and provides
+    instructions for shutting down the engines and APU on touchdown (all masters off).</para>
 
     <para revisionflag="changed">If time is available, apply the procedures in the QRH. The
     QRH ABN.80 DITCHING procedure applies if the engines are running. If the engines are not
@@ -556,12 +556,12 @@
   <sect1 id="forced-landing">
     <title>Forced landing</title>
 
-	<para revisionflag="added">If time is short due to loss of thrust at low altitude, a “quick“
-	forced landing procedure is available on the back of the normal checklist. This procedure gives
-	you a suitable configuration for forced landing (CONF 2, Gear down by gravity, spoilers armed)
-	and a table for determining a suitable approach speed given your gross weight. It also instructs
-	that the APU be started, provides guidance for the flare (minimise VS) and provides instructions
-	for shutting down the engines and APU on touchdown (all masters off).</para>
+    <para revisionflag="added">If time is short due to loss of thrust at low altitude, a “quick“
+    forced landing procedure is available on the back of the normal checklist. This procedure gives
+    you a suitable configuration for forced landing (CONF 2, Gear down by gravity, spoilers armed)
+    and a table for determining a suitable approach speed given your gross weight. It also instructs
+    that the APU be started, provides guidance for the flare (minimise VS) and provides instructions
+    for shutting down the engines and APU on touchdown (all masters off).</para>
 
     <para revisionflag="changed">If time is available, apply the procedures in the QRH.  The
     QRH ABN.80 FORCED LANDING procedure applies if the engines are running. If the engines are not
@@ -650,7 +650,7 @@
     approach if performance is an issue. Select CONF 3 once gear is down and CONF full, if required,
     when on final approach.</para>
 
-	<para role="multicite">[FCOM PRO.ABN.10]</para>
+    <para role="multicite">[FCOM PRO.ABN.10]</para>
   </sect1>
 
 
@@ -883,15 +883,15 @@
 
 
   <sect1>
-	<title>Excess cabin altitude</title>
+    <title>Excess cabin altitude</title>
 
-	<para>An ECAM warning of excess (>9550ft) cabin altitude should be relied upon, even if not
-	backed up by other indications.</para>
+    <para>An ECAM warning of excess (>9550ft) cabin altitude should be relied upon, even if not
+    backed up by other indications.</para>
 
-	<para>The initial response should be to protect yourself by getting an oxygen mask on. Initiate
-	a descent; if above FL160, this should be according to <xref linkend="emerg-descent"/>. Once the
-	descent is established and all relevant checklists are complete, check the position of the
-	outflow valve and, if it is not fully closed, use manual control to close it.</para>
+    <para>The initial response should be to protect yourself by getting an oxygen mask on. Initiate
+    a descent; if above FL160, this should be according to <xref linkend="emerg-descent"/>. Once the
+    descent is established and all relevant checklists are complete, check the position of the
+    outflow valve and, if it is not fully closed, use manual control to close it.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> EXCESS CAB ALT,
     FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
@@ -899,173 +899,173 @@
 
 
   <sect1 id="pack-fault">
-	<title>Pack fault</title>
+    <title>Pack fault</title>
 
-	<para>The PACK FAULT ECAM indicates that the pack valve position disagrees with the selected
-	position or that the pack valve is closed. The affected pack should be turned off. A possible
-	reason for this failure is loss of both channels of an Air Conditioning System Controller
-	(ACSC). If this occurs, the associated hot air trimming will also be lost (cockpit for ACSC 1,
-	cabin for ACSC 2).</para>
+    <para>The PACK FAULT ECAM indicates that the pack valve position disagrees with the selected
+    position or that the pack valve is closed. The affected pack should be turned off. A possible
+    reason for this failure is loss of both channels of an Air Conditioning System Controller
+    (ACSC). If this occurs, the associated hot air trimming will also be lost (cockpit for ACSC 1,
+    cabin for ACSC 2).</para>
 
-	<para>If there are simultaneous faults with both packs, ram air must be used. This will
-	necessitate depressurisation of the aircraft, so a descent to FL100 (or MEA if higher) is
-	required. If a PACK button FAULT light subsequently extinguishes, an attempt should be made to
-	reinstate that pack.</para>
+    <para>If there are simultaneous faults with both packs, ram air must be used. This will
+    necessitate depressurisation of the aircraft, so a descent to FL100 (or MEA if higher) is
+    required. If a PACK button FAULT light subsequently extinguishes, an attempt should be made to
+    reinstate that pack.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2)(1+2) FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    <para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2)(1+2) FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
   </sect1>
 
 
   <sect1>
-	<title>Pack overheat</title>
+    <title>Pack overheat</title>
 
-	<para>The associated pack flow control valve closes automatically in the event of a pack
-	overheating (outlet temp > 260°C or outlet temp > 230°C four times in one flight). The remaining
-	pack will automatically go to high flow, and is capable of supplying all of the air conditioning
-	requirement. This system’s automatic response is backed up by turning off the pack. The FAULT
-	light in the PACK button remains illuminated whilst the overheat condition exists. The pack can
-	be turned back on once it has cooled.</para>
+    <para>The associated pack flow control valve closes automatically in the event of a pack
+    overheating (outlet temp > 260°C or outlet temp > 230°C four times in one flight). The remaining
+    pack will automatically go to high flow, and is capable of supplying all of the air conditioning
+    requirement. This system’s automatic response is backed up by turning off the pack. The FAULT
+    light in the PACK button remains illuminated whilst the overheat condition exists. The pack can
+    be turned back on once it has cooled.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT,
-	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    <para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT,
+    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
   </sect1>
 
 
   <sect1>
-	<title>Pack off</title>
+    <title>Pack off</title>
 
-	<para>A warning is generated if a functional pack is selected off in a phase of flight when it
-	would be expected to be on. This is usually the result of neglecting to re-instate the packs
-	after a packs off takeoff. Unless there is a reason not to, turn the affected pack(s) on.</para>
+    <para>A warning is generated if a functional pack is selected off in a phase of flight when it
+    would be expected to be on. This is usually the result of neglecting to re-instate the packs
+    after a packs off takeoff. Unless there is a reason not to, turn the affected pack(s) on.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OFF,
-	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    <para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OFF,
+    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
   </sect1>
 
 
   <sect1>
-	<title>Pack regulator faults</title>
+    <title>Pack regulator faults</title>
 
-	<para>A regulator fault is defined as a failure of one of four devices: the bypass valve, the
-	ram air inlet, the compressor outlet temperature sensor or the flow control valve. The ECAM
-	bleed page can be used to determine which device is at fault.</para>
+    <para>A regulator fault is defined as a failure of one of four devices: the bypass valve, the
+    ram air inlet, the compressor outlet temperature sensor or the flow control valve. The ECAM
+    bleed page can be used to determine which device is at fault.</para>
 
-	<para>Regardless of the device at fault, the ramification is the same; the pack will continue to
-	operate but there may be a degradation in temperature regulation. If temperatures become
-	uncomfortable, consideration should be given to turning off the affected pack.</para>
+    <para>Regardless of the device at fault, the ramification is the same; the pack will continue to
+    operate but there may be a degradation in temperature regulation. If temperatures become
+    uncomfortable, consideration should be given to turning off the affected pack.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) REGUL FAULT,
-	FCOM PRO.ABN.21, FCOM 21.10.60]</para>
+    <para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) REGUL FAULT,
+    FCOM PRO.ABN.21, FCOM 21.10.60]</para>
   </sect1>
 
   <sect1>
-	<title>ACSC single lane failure</title>
+    <title>ACSC single lane failure</title>
 
-	<para>Each ACSC has two fully redundant “lanes”, so loss of a single “lane” results in loss of
-	redundancy only.</para>
+    <para>Each ACSC has two fully redundant “lanes”, so loss of a single “lane” results in loss of
+    redundancy only.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> COND CTL 1(2) A(B) FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
-  </sect1>
-
-
-  <sect1>
-	<title>Duct overheat</title>
-
-	<para>A duct overheat is defined as a duct reaching 88°C or a duct reaching 80°C four times in
-	one flight. If this occurs, the hot air pressure regulating valve and trim air valves close
-	automatically and the FAULT light illuminates in the HOT AIR button. This light will extinguish
-	when the temperature drops to 70°C.</para>
-
-	<para>Once the duct has cooled, an attempt can be made to recover the hot air system by cycling
-	the HOT AIR button. If recovery is not possible, basic temperature regulation will continue to
-	be provided by the packs.</para>
-
-	<para role="multicite">[<emphasis role="underline">
-	COND</emphasis> FWD CAB/AFT CAB/CKPT DUCT OVHT, FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    <para role="multicite">[<emphasis role="underline">AIR</emphasis> COND CTL 1(2) A(B) FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
   </sect1>
 
 
   <sect1>
-	<title>Hot air fault</title>
+    <title>Duct overheat</title>
 
-	<para>If the hot air pressure regulating valve is not in its commanded position, the effects
-	will depend on its actual position. If it is closed when commanded open, the packs will provide
-	basic temperature regulation. More serious is if it has been commanded closed in response to a
-	duct overheat and it fails to close. Manual control may be effective, but if it is not the only
-	option is to turn off both packs and proceed as per <xref linkend="pack-fault"/>.</para>
+    <para>A duct overheat is defined as a duct reaching 88°C or a duct reaching 80°C four times in
+    one flight. If this occurs, the hot air pressure regulating valve and trim air valves close
+    automatically and the FAULT light illuminates in the HOT AIR button. This light will extinguish
+    when the temperature drops to 70°C.</para>
 
-	<para role="multicite">[<emphasis role="underline">COND</emphasis> HOT AIR FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    <para>Once the duct has cooled, an attempt can be made to recover the hot air system by cycling
+    the HOT AIR button. If recovery is not possible, basic temperature regulation will continue to
+    be provided by the packs.</para>
+
+    <para role="multicite">[<emphasis role="underline">
+    COND</emphasis> FWD CAB/AFT CAB/CKPT DUCT OVHT, FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
   </sect1>
 
 
   <sect1>
-	<title>Trim air faults</title>
+    <title>Hot air fault</title>
 
-	<para>Either a fault with one of the trim air valves or an overpressure downstream of the hot
-	air valve. An associated message indicates which condition exists.</para>
+    <para>If the hot air pressure regulating valve is not in its commanded position, the effects
+    will depend on its actual position. If it is closed when commanded open, the packs will provide
+    basic temperature regulation. More serious is if it has been commanded closed in response to a
+    duct overheat and it fails to close. Manual control may be effective, but if it is not the only
+    option is to turn off both packs and proceed as per <xref linkend="pack-fault"/>.</para>
 
-	<para>Failure of a trim valve leads to loss of optimised temperature regulation for the
-	corresponding zone; basic temperature regulation is still available.</para>
-
-	<para>The TRIM AIR HIGH PR message may be disregarded if triggered when all the trim air valves
-	are closed. This occurs during the first 30 seconds after the packs are selected on and in
-	flight if all zone heating demands are fulfilled.<footnote><para>The FCOM is not very
-	informative regarding response to overpressure when this does not apply. However the MEL
-	operating procedures for dispatch with this condition indicate that turning the HOT AIR pb-sw
-	off is probably a good idea.</para></footnote></para>
-
-	<para role="multicite">[<emphasis role="underline">COND</emphasis> TRIM AIR SYS FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    <para role="multicite">[<emphasis role="underline">COND</emphasis> HOT AIR FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
   </sect1>
 
 
   <sect1>
-	<title>Cabin fan faults</title>
+    <title>Trim air faults</title>
 
-	<para>If both cabin fans fail, their flow should be replaced by increasing the pack flow to
-	HI.</para>
+    <para>Either a fault with one of the trim air valves or an overpressure downstream of the hot
+    air valve. An associated message indicates which condition exists.</para>
 
-	<para role="multicite">[<emphasis role="underline">COND</emphasis> L + R CAB FAN FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    <para>Failure of a trim valve leads to loss of optimised temperature regulation for the
+    corresponding zone; basic temperature regulation is still available.</para>
+
+    <para>The TRIM AIR HIGH PR message may be disregarded if triggered when all the trim air valves
+    are closed. This occurs during the first 30 seconds after the packs are selected on and in
+    flight if all zone heating demands are fulfilled.<footnote><para>The FCOM is not very
+    informative regarding response to overpressure when this does not apply. However the MEL
+    operating procedures for dispatch with this condition indicate that turning the HOT AIR pb-sw
+    off is probably a good idea.</para></footnote></para>
+
+    <para role="multicite">[<emphasis role="underline">COND</emphasis> TRIM AIR SYS FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
   </sect1>
 
 
   <sect1>
-	<title>Lavatory and galley fan faults</title>
+    <title>Cabin fan faults</title>
 
-	<para>The cabin zone temperature sensors are normally ventilated by air extracted by these
-	fans. Loss of the fans therefore leads to loss of accurate zone temperature indication.</para>
+    <para>If both cabin fans fail, their flow should be replaced by increasing the pack flow to
+    HI.</para>
 
-	<para>On older aircraft, temperature control reverts to maintenance of a fixed cabin zone inlet
-	duct temperature of 15°C.</para>
+    <para role="multicite">[<emphasis role="underline">COND</emphasis> L + R CAB FAN FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-	<para>On newer aircraft the temperature controls for the cabin revert to controlling temperature
-	in the ducts. If ACSC 2 has also failed, the duct temperatures are maintained at the same level
-	as the cockpit duct temperature, and may therefore be controlled with the cockpit temperature
-	selector.</para>
 
-	<para role="multicite">[<emphasis role="underline">COND</emphasis> LAV + GALLEY FAN FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  <sect1>
+    <title>Lavatory and galley fan faults</title>
+
+    <para>The cabin zone temperature sensors are normally ventilated by air extracted by these
+    fans. Loss of the fans therefore leads to loss of accurate zone temperature indication.</para>
+
+    <para>On older aircraft, temperature control reverts to maintenance of a fixed cabin zone inlet
+    duct temperature of 15°C.</para>
+
+    <para>On newer aircraft the temperature controls for the cabin revert to controlling temperature
+    in the ducts. If ACSC 2 has also failed, the duct temperatures are maintained at the same level
+    as the cockpit duct temperature, and may therefore be controlled with the cockpit temperature
+    selector.</para>
+
+    <para role="multicite">[<emphasis role="underline">COND</emphasis> LAV + GALLEY FAN FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
   </sect1>
 
 
   <sect1 id="pressure-controller">
-	<title>Pressure controller faults</title>
+    <title>Pressure controller faults</title>
 
-	<para>Loss of a single cabin pressure controller leads to loss of redundancy only.</para>
+    <para>Loss of a single cabin pressure controller leads to loss of redundancy only.</para>
 
-	<para>If both pressure controllers are lost, use manual control. The outflow valve reacts slowly
-	in manual mode, and it may be 10 seconds before positive control of the outflow valve can be
-	verified. It may also react too slowly to prevent a temporary depressurisation.</para>
+    <para>If both pressure controllers are lost, use manual control. The outflow valve reacts slowly
+    in manual mode, and it may be 10 seconds before positive control of the outflow valve can be
+    verified. It may also react too slowly to prevent a temporary depressurisation.</para>
 
-	<para>Manual pressurisation control is activated by pressing the MODE SEL button. This allows
-	the MAN V/S CTL toggle switch to directly control the outflow valve. Moving the toggle to DN
-	closes the outflow valve causing the cabin altitude to descend, whilst moving the toggle to UP
-	opens the outflow valve causing the cabin altitude to climb. The target climb and descent rates
-	are 500fpm and 300fpm, these being displayed on the status page for easy reference.</para>
+    <para>Manual pressurisation control is activated by pressing the MODE SEL button. This allows
+    the MAN V/S CTL toggle switch to directly control the outflow valve. Moving the toggle to DN
+    closes the outflow valve causing the cabin altitude to descend, whilst moving the toggle to UP
+    opens the outflow valve causing the cabin altitude to climb. The target climb and descent rates
+    are 500fpm and 300fpm, these being displayed on the status page for easy reference.</para>
 
     <para>A table of FL versus ‘CAB ALT TGT’ is also provided on the status page; no guidance is
     given for the interpretation of this table. The final action of the procedure is to fully open
@@ -1087,14 +1087,14 @@
   </sect1>
 
   <sect1>
-	<title>Low diff pressure</title>
+    <title>Low diff pressure</title>
 
-	<para>High rates of descent may lead to the aircraft descending through the cabin altitude when
-	more than 3000ft above the landing altitude. An ECAM warning indicates that this situation is
-	projected to occur within the next 1½ minutes. If the rate of descent of the aircraft is not
-	reduced, the pressure controllers will have to resort to high rates of change of cabin altitude,
-	which may cause passenger discomfort. The aircraft’s vertical speed should be reduced unless
-	there is a pressing reason not to.</para>
+    <para>High rates of descent may lead to the aircraft descending through the cabin altitude when
+    more than 3000ft above the landing altitude. An ECAM warning indicates that this situation is
+    projected to occur within the next 1½ minutes. If the rate of descent of the aircraft is not
+    reduced, the pressure controllers will have to resort to high rates of change of cabin altitude,
+    which may cause passenger discomfort. The aircraft’s vertical speed should be reduced unless
+    there is a pressing reason not to.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> LO DIFF PR,
     FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
@@ -1102,10 +1102,10 @@
 
 
   <sect1>
-	<title>Outflow valve closed on ground</title>
+    <title>Outflow valve closed on ground</title>
 
-	<para>If the outflow valve fails to automatically open on the ground, manual control should be
-	attempted. If that doesn’t work, depressurise the aircraft by turning off both packs.</para>
+    <para>If the outflow valve fails to automatically open on the ground, manual control should be
+    attempted. If that doesn’t work, depressurise the aircraft by turning off both packs.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN,
     FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
@@ -1113,16 +1113,16 @@
 
 
   <sect1>
-	<title>Open safety valve</title>
+    <title>Open safety valve</title>
 
-	<para>There are safety valves for both cabin overpressure and negative differential pressure;
-	the associated ECAM message does not distinguish between the two.</para>
+    <para>There are safety valves for both cabin overpressure and negative differential pressure;
+    the associated ECAM message does not distinguish between the two.</para>
 
-	<para>If diff pressure is above 8psi, it is the overpressure valve that has opened. Attempt
-	manual pressurisation control and if that fails, reduce aircraft altitude.</para>
+    <para>If diff pressure is above 8psi, it is the overpressure valve that has opened. Attempt
+    manual pressurisation control and if that fails, reduce aircraft altitude.</para>
 
-	<para>If diff pressure is below zero, it is the negative differential valve. Reduce aircraft
-	vertical speed or expect high cabin rates.</para>
+    <para>If diff pressure is below zero, it is the negative differential valve. Reduce aircraft
+    vertical speed or expect high cabin rates.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SAFETY VALVE OPEN,
     FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
@@ -1130,59 +1130,59 @@
 
 
   <sect1>
-	<title>Blower fault</title>
+    <title>Blower fault</title>
 
-	<para>Defined as low blowing pressure or duct overheat. Unless there is a DC ESS Bus fault, the
-	blower fan should be set to OVRD. This puts the avionics ventilation into closed configuration
-	and adds cooling air from the air conditioning system.<!-- {TODO:investigate --> <!--
-	involvement of DC ESS BUS fault} --></para>
+    <para>Defined as low blowing pressure or duct overheat. Unless there is a DC ESS Bus fault, the
+    blower fan should be set to OVRD. This puts the avionics ventilation into closed configuration
+    and adds cooling air from the air conditioning system.<!-- {TODO:investigate --> <!--
+    involvement of DC ESS BUS fault} --></para>
 
-	<para role="multicite">[<emphasis role="underline">VENT</emphasis> BLOWER FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
+    <para role="multicite">[<emphasis role="underline">VENT</emphasis> BLOWER FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>Extract fault</title>
+    <title>Extract fault</title>
 
-	<para>Defined as low extract pressure. The extract fan should be put in OVRD. This puts the
-	avionics ventilation into closed configuration and adds cooling air from the air conditioning
-	system.</para>
+    <para>Defined as low extract pressure. The extract fan should be put in OVRD. This puts the
+    avionics ventilation into closed configuration and adds cooling air from the air conditioning
+    system.</para>
 
-	<para role="multicite">[<emphasis role="underline">VENT</emphasis> EXTRACT FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
+    <para role="multicite">[<emphasis role="underline">VENT</emphasis> EXTRACT FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>Skin valve fault</title>
+    <title>Skin valve fault</title>
 
-	<para>Defined as one of three faults: the inlet valve is not fully closed in flight, the extract
-	valve is fully open in flight or the extract valve did not automatically close on application of
-	take-off power. The ECAM Cab Press page will differentiate.</para>
+    <para>Defined as one of three faults: the inlet valve is not fully closed in flight, the extract
+    valve is fully open in flight or the extract valve did not automatically close on application of
+    take-off power. The ECAM Cab Press page will differentiate.</para>
 
-	<para>If the fault is with the inlet valve, no action is required since it incorporates a
-	non-return valve.</para>
+    <para>If the fault is with the inlet valve, no action is required since it incorporates a
+    non-return valve.</para>
 
-	<para>If the extract valve is affected, the system should be put into smoke configuration; this
-	sends additional close signals to the extract valve. If this fails, the aircraft must be
-	depressurised<!-- {TODO: find out why} -->.</para>
+    <para>If the extract valve is affected, the system should be put into smoke configuration; this
+    sends additional close signals to the extract valve. If this fails, the aircraft must be
+    depressurised<!-- {TODO: find out why} -->.</para>
 
-	<para role="multicite">[<emphasis role="underline">VENT</emphasis> SKIN VALVE FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
+    <para role="multicite">[<emphasis role="underline">VENT</emphasis> SKIN VALVE FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>Avionics ventilation system vault</title>
+    <title>Avionics ventilation system vault</title>
 
-	<para>Defined as either a valve not in its commanded position or the Avionics Equipment
-	Ventilation Controller (AEVC) being either unpowered or failing its power-up test. The system
-	will automatically default to a safe configuration similar to smoke configuration. No crew
-	action is required.</para>
+    <para>Defined as either a valve not in its commanded position or the Avionics Equipment
+    Ventilation Controller (AEVC) being either unpowered or failing its power-up test. The system
+    will automatically default to a safe configuration similar to smoke configuration. No crew
+    action is required.</para>
 
-	<para role="multicite">[<emphasis role="underline">VENT</emphasis> AVNCS SYS FAULT,
-	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
+    <para role="multicite">[<emphasis role="underline">VENT</emphasis> AVNCS SYS FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
   </sect1>
 </chapter>
 
@@ -1612,22 +1612,22 @@
   <sect1 id="spoiler-faults" >
     <title>Spoiler faults</title>
 
-	<para>The effect of a spoiler fault depends on whether the spoiler fails retracted or
-	extended.</para>
+    <para>The effect of a spoiler fault depends on whether the spoiler fails retracted or
+    extended.</para>
 
     <para>If the spoiler fails in the retracted position, handling should not be adversely
     affected. A CONF 3 landing may reduce any buffeting that is encountered. Speed brake should not
     be used if spoilers 3 + 4 are affected. The loss of ground spoilers will significantly increase
     landing distances.</para>
 
-	<para>Airbus have identified a failure scenario that leads to high pressure hydraulic fluid
-	reaching the extend chamber of a spoiler actuator via a failed o-ring. This has the effect of a
-	spoiler failing in the fully extended position. In this case, the autopilot does not necessarily
-	have sufficient authority to control the aircraft, and it should be disconnected. Fuel burn will
-	increase significantly; FMGC fuel predictions do not account for the failure and should be
-	disregarded. Green dot speed will minimize this increased fuel burn, but may not be viable if
-	there is excessive buffet – attempt to find a compromise speed. Landing will be flap 3;
-	V<subscript>APP</subscript> and LDG DIST factors are available in QRH FPE-IFL.</para>
+    <para>Airbus have identified a failure scenario that leads to high pressure hydraulic fluid
+    reaching the extend chamber of a spoiler actuator via a failed o-ring. This has the effect of a
+    spoiler failing in the fully extended position. In this case, the autopilot does not necessarily
+    have sufficient authority to control the aircraft, and it should be disconnected. Fuel burn will
+    increase significantly; FMGC fuel predictions do not account for the failure and should be
+    disregarded. Green dot speed will minimize this increased fuel burn, but may not be viable if
+    there is excessive buffet – attempt to find a compromise speed. Landing will be flap 3;
+    V<subscript>APP</subscript> and LDG DIST factors are available in QRH FPE-IFL.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT,
     OEB 43, FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
@@ -1921,16 +1921,16 @@
 
 
   <sect1 id="sidestick-transducer">
-	<title>Sidestick unannunciated transducer faults</title>
+    <title>Sidestick unannunciated transducer faults</title>
 
-	<para>It is possible for a failed sidestick transducer to cause uncommanded control inputs. If
-	no fault is detected, the result is that the aircraft behaves as if that input had actually been
-	made. Generally, the autopilot will disconnect and any attempt to control the aircraft with the
-	failed sidestick will fail. The aircraft should be recovered with the other sidestick using the
-	takeover button. Keeping this button pressed for 40 seconds will lock out the failed sidestick,
-	and the autopilot can then be re-engaged. The autopilot should not be disconnected in the normal
-	manner as pressing the takeover button will re-introduce the failed sidestick and the
-	uncommanded input; use the FCU instead.</para>
+    <para>It is possible for a failed sidestick transducer to cause uncommanded control inputs. If
+    no fault is detected, the result is that the aircraft behaves as if that input had actually been
+    made. Generally, the autopilot will disconnect and any attempt to control the aircraft with the
+    failed sidestick will fail. The aircraft should be recovered with the other sidestick using the
+    takeover button. Keeping this button pressed for 40 seconds will lock out the failed sidestick,
+    and the autopilot can then be re-engaged. The autopilot should not be disconnected in the normal
+    manner as pressing the takeover button will re-introduce the failed sidestick and the
+    uncommanded input; use the FCU instead.</para>
   </sect1>
 </chapter>
 
@@ -2237,10 +2237,10 @@
 
     <para>If both tanks are low level, about 30 minutes of flying time remain.</para>
 
-	<para>If any change to the current clearance will lead to landing with less than minimum reserve
-	fuel, declare "minimum fuel" to ATC. This is just a heads up to ATC, not a declaration of an
-	emergency situation. If it is calculated that less than minimum fuel will remain after landing,
-	declare a MAYDAY.</para>
+    <para>If any change to the current clearance will lead to landing with less than minimum reserve
+    fuel, declare "minimum fuel" to ATC. This is just a heads up to ATC, not a declaration of an
+    emergency situation. If it is calculated that less than minimum fuel will remain after landing,
+    declare a MAYDAY.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis>(R)(L+R) WING TK LO LVL,
     FCOM PRO.ABN.28, FCOM DSC.28.30, EOMA 8.3.7.2]</para>
@@ -2826,32 +2826,32 @@
 
 
   <sect1>
-	<title>Single Engine failure</title>
+    <title>Single Engine failure</title>
 
-	<para>Defined as a rapid decrease in EGT, N2 and FF, followed by a decrease in N1. The crew must
-	determine whether the engine has been damaged or whether a simple flame-out has
-	occurred. Indications of damage are loud noises, significantly increased vibration or buffeting,
-	repeated or uncontrollable engine stalls or abnormal post-failure indications (e.g. hydraulic
-	fluid loss, zero N1 or N2 etc.).</para>
+    <para>Defined as a rapid decrease in EGT, N2 and FF, followed by a decrease in N1. The crew must
+    determine whether the engine has been damaged or whether a simple flame-out has
+    occurred. Indications of damage are loud noises, significantly increased vibration or buffeting,
+    repeated or uncontrollable engine stalls or abnormal post-failure indications (e.g. hydraulic
+    fluid loss, zero N1 or N2 etc.).</para>
 
-	<para>Firstly, the ignitors are turned on to protect the remaining engine and to confirm an
-	immediate relight attempt. The thrust lever of the failed engine is then moved to idle (PF moves
-	the lever after confirmation from PNF). If the FADEC hasn’t relit the failed engine within 30
-	seconds of the failure, it is shut down with the master switch. If damage is believed to have
-	occurred, the associated fire button is pushed and, after 10 seconds, agent 1 discharged.</para>
+    <para>Firstly, the ignitors are turned on to protect the remaining engine and to confirm an
+    immediate relight attempt. The thrust lever of the failed engine is then moved to idle (PF moves
+    the lever after confirmation from PNF). If the FADEC hasn’t relit the failed engine within 30
+    seconds of the failure, it is shut down with the master switch. If damage is believed to have
+    occurred, the associated fire button is pushed and, after 10 seconds, agent 1 discharged.</para>
 
-	<para>If it is believed that the engine is undamaged, a relight can be considered. The relight
-	procedure is fairly long and highly unlikely to be successful; do not delay diversion and
-	landing by attempting a relight. Also note that a relight attempt will erase FADEC
-	troubleshooting data.</para>
+    <para>If it is believed that the engine is undamaged, a relight can be considered. The relight
+    procedure is fairly long and highly unlikely to be successful; do not delay diversion and
+    landing by attempting a relight. Also note that a relight attempt will erase FADEC
+    troubleshooting data.</para>
 
-	<para>If there is vibration and/or buffeting, attempt to find an airspeed and altitude
-	combination that minimizes the symptoms.</para>
+    <para>If there is vibration and/or buffeting, attempt to find an airspeed and altitude
+    combination that minimizes the symptoms.</para>
 
-	<para>Refer to <xref linkend="engine-shut-down"/> if unable to relight the engine.</para>
+    <para>Refer to <xref linkend="engine-shut-down"/> if unable to relight the engine.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FAIL, FCOM PRO.ABN.70,
-	FCOM DSC.70.90]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FAIL, FCOM PRO.ABN.70,
+    FCOM DSC.70.90]</para>
   </sect1>
 
 
@@ -2902,24 +2902,24 @@
     to manually turn them off to achieve this additional go-around margin. Note, however, that the
     APU cannot support wing anti-ice.</para>
 
-	<para>Approach and landing will be fairly normal. The main provisos are
+    <para>Approach and landing will be fairly normal. The main provisos are
 
-	<itemizedlist>
-	  <listitem><para>Full flap should only be selected once descending on the glidepath; if a level
-	  off is required, the landing should be CONF3 [QRH ABN.80 Straight in approach with one engine
-	  inoperative].</para></listitem>
+    <itemizedlist>
+      <listitem><para>Full flap should only be selected once descending on the glidepath; if a level
+      off is required, the landing should be CONF3 [QRH ABN.80 Straight in approach with one engine
+      inoperative].</para></listitem>
 
-	  <listitem><para>Only Cat 3 Single is available due to the loss of the ability to split the
-	  electrical system.[QRH OPS]</para></listitem>
+      <listitem><para>Only Cat 3 Single is available due to the loss of the ability to split the
+      electrical system.[QRH OPS]</para></listitem>
 
-	  <listitem><para>On A319s, the autopilot cannot fly FINAL APP, NAV/VS or NAV/FPA
-	  approaches. All modes are available for manual flight with flight
-	  directors. [FCOM LIM.22.10]</para></listitem>
+      <listitem><para>On A319s, the autopilot cannot fly FINAL APP, NAV/VS or NAV/FPA
+      approaches. All modes are available for manual flight with flight
+      directors. [FCOM LIM.22.10]</para></listitem>
 
-	  <listitem><para>If flying manually, consider using manual thrust to better anticipate the
-	  rudder inputs required by thrust changes. Also consider setting rudder trim to zero at a late
-	  stage of the approach.[FCTM AO.020]</para></listitem>
-	</itemizedlist></para>
+      <listitem><para>If flying manually, consider using manual thrust to better anticipate the
+      rudder inputs required by thrust changes. Also consider setting rudder trim to zero at a late
+      stage of the approach.[FCTM AO.020]</para></listitem>
+    </itemizedlist></para>
 
     <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) SHUT DOWN,
     FCOM DSC.70.90, FCOM PRO.ABN.70]</para>
@@ -3040,256 +3040,256 @@
 
 
   <sect1 id="high-oil-temp">
-	<title>High oil temperature</title>
+    <title>High oil temperature</title>
 
     <para>It may be possible to reduce oil temperature by increasing engine fuel flow.</para>
 
-	<para>If oil temperature exceeds 155°C or exceeds 140°C for 15 minutes, the engine must be shut
-	down.</para>
+    <para>If oil temperature exceeds 155°C or exceeds 140°C for 15 minutes, the engine must be shut
+    down.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL HI TEMP,
-	FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL HI TEMP,
+    FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>Oil filter clog</title>
+    <title>Oil filter clog</title>
 
-	<para>If a warning occurs during a cold engine start with oil temperature &lt;40°C, the warning
-	may be considered spurious. The oil filter features a bypass mechanism, so there is no immediate
-	problem.</para>
+    <para>If a warning occurs during a cold engine start with oil temperature &lt;40°C, the warning
+    may be considered spurious. The oil filter features a bypass mechanism, so there is no immediate
+    problem.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL FILTER CLOG,
-	FCOM PRO.ABN.70, FCOM DSC.70.90]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL FILTER CLOG,
+    FCOM PRO.ABN.70, FCOM DSC.70.90]</para>
   </sect1>
 
 
   <sect1>
-	<title>Fuel filter clog</title>
+    <title>Fuel filter clog</title>
 
-	<para>No immediate crew action required. I assume there is some sort of bypass mechanism, but
-	this isn’t apparent from the FCOM.</para>
+    <para>No immediate crew action required. I assume there is some sort of bypass mechanism, but
+    this isn’t apparent from the FCOM.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FUEL FILTER CLOG,
-	FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FUEL FILTER CLOG,
+    FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>Uncommanded reverser pressurisation</title>
+    <title>Uncommanded reverser pressurisation</title>
 
-	<para>There are two valves that prevent pressure reaching the thrust reverser actuators at an
-	inopportune moment, plus a third that commands direction of movement. The most upstream of
-	these, controlled by the SECs, prevents any hydraulic pressure reaching the Hydraulic Control
-	Unit (HCU) when the thrust levers are not in the reverse quadrant. If this protection is lost,
-	the correct operation of the HCU should keep the doors properly stowed. An HCU malfunction,
-	however, could result in an in-flight reverser deployment. If flight conditions permit, idle
-	thrust should be selected on the affected engine.</para>
+    <para>There are two valves that prevent pressure reaching the thrust reverser actuators at an
+    inopportune moment, plus a third that commands direction of movement. The most upstream of
+    these, controlled by the SECs, prevents any hydraulic pressure reaching the Hydraulic Control
+    Unit (HCU) when the thrust levers are not in the reverse quadrant. If this protection is lost,
+    the correct operation of the HCU should keep the doors properly stowed. An HCU malfunction,
+    however, could result in an in-flight reverser deployment. If flight conditions permit, idle
+    thrust should be selected on the affected engine.</para>
 
-	<para>It is unclear from the FCOM whether the ECAM indicates pressure has reached the
-	directional solenoid valve and hence that the reverser door jacks are pressurised, albeit in the
-	closed direction, although the existence of the REV ISOL FAULT ECAM indicates that this is
-	probably the case.</para>
+    <para>It is unclear from the FCOM whether the ECAM indicates pressure has reached the
+    directional solenoid valve and hence that the reverser door jacks are pressurised, albeit in the
+    closed direction, although the existence of the REV ISOL FAULT ECAM indicates that this is
+    probably the case.</para>
 
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REV PRESSURIZED,
-	FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REV PRESSURIZED,
+    FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1 id="reverser-unlocked">
-	<title>Reverser unlocked in flight</title>
+    <title>Reverser unlocked in flight</title>
 
-	<para>If one or more reverser doors are detected as not stowed in flight, the associated FADEC
-	will automatically command idle on the affected engine. This should be backed up by setting the
-	thrust lever to idle.</para>
+    <para>If one or more reverser doors are detected as not stowed in flight, the associated FADEC
+    will automatically command idle on the affected engine. This should be backed up by setting the
+    thrust lever to idle.</para>
 
-	<para>A warning without associated buffet is likely to be spurious. In this case limit speed to
-	300kt/M.78, keep the engine running at idle and expect to make a normal single engine approach
-	and landing.</para>
+    <para>A warning without associated buffet is likely to be spurious. In this case limit speed to
+    300kt/M.78, keep the engine running at idle and expect to make a normal single engine approach
+    and landing.</para>
 
-	<para>If there is buffet, shut the engine down and limit speed to 240kt. Full rudder trim may be
-	required. The ECAM will provide one of two approach procedures depending on how many doors are
-	detected as not stowed:</para>
+    <para>If there is buffet, shut the engine down and limit speed to 240kt. Full rudder trim may be
+    required. The ECAM will provide one of two approach procedures depending on how many doors are
+    detected as not stowed:</para>
 
-	<itemizedlist>
-	  <listitem><para>If all 4 doors are not stowed, it will be a flap 1 landing, with approach
-	  speed V<subscript>REF</subscript>+55kt slowing to V<subscript>REF</subscript>+40kt below
-	  800ft. Gear should only be deployed once landing is assured.</para></listitem>
+    <itemizedlist>
+      <listitem><para>If all 4 doors are not stowed, it will be a flap 1 landing, with approach
+      speed V<subscript>REF</subscript>+55kt slowing to V<subscript>REF</subscript>+40kt below
+      800ft. Gear should only be deployed once landing is assured.</para></listitem>
 
-	  <listitem><para>Otherwise, it will be a flap 3 landing at
-	  V<subscript>REF</subscript>+10kt.</para></listitem>
-	</itemizedlist>
+      <listitem><para>Otherwise, it will be a flap 3 landing at
+      V<subscript>REF</subscript>+10kt.</para></listitem>
+    </itemizedlist>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REVERSE UNLOCKED,
-	FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REVERSE UNLOCKED,
+    FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1 id="eiu-fault">
-	<title>EIU fault</title>
+    <title>EIU fault</title>
 
-	<para>The Engine Interface Unit (EIU) receives data from the engine start system, the
-	auto-thrust system, the LGCIUs, the air conditioning controller and the engine anti ice system
-	and feeds it to its related FADEC. Thus loss of the EIU leads to loss of auto-thrust, reverser,
-	idle control (defaults to approach idle) and start for the affected engine. If engine anti ice
-	is used, the ignitors must be manually selected.</para>
+    <para>The Engine Interface Unit (EIU) receives data from the engine start system, the
+    auto-thrust system, the LGCIUs, the air conditioning controller and the engine anti ice system
+    and feeds it to its related FADEC. Thus loss of the EIU leads to loss of auto-thrust, reverser,
+    idle control (defaults to approach idle) and start for the affected engine. If engine anti ice
+    is used, the ignitors must be manually selected.</para>
 
     <para>If an engine fails whilst its associated EIU is inoperative, the usual ECAM messages will
     not be generated. The failure can still be diagnosed from the system pages and an appropriate
     drill can be actioned from the FCOM.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> EIU FAULT,
-	FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> EIU FAULT,
+    FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>N1/N2/EGT overlimit</title>
+    <title>N1/N2/EGT overlimit</title>
 
-	<para>If the overlimit is moderate, the associated thrust lever can be retarded until the
-	overlimit ceases, and the flight may be continued normally.</para>
+    <para>If the overlimit is moderate, the associated thrust lever can be retarded until the
+    overlimit ceases, and the flight may be continued normally.</para>
 
-	<para>If the overlimit is excessive, the engine should generally be shut down. If there are
-	over-riding factors precluding a shut down, the engine may be run at minimum required
-	thrust.</para>
+    <para>If the overlimit is excessive, the engine should generally be shut down. If there are
+    over-riding factors precluding a shut down, the engine may be run at minimum required
+    thrust.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> N1/N2/EGT OVERLIMIT,
-	FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> N1/N2/EGT OVERLIMIT,
+    FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>N1/N2/EGT/FF discrepancy</title>
+    <title>N1/N2/EGT/FF discrepancy</title>
 
-	<para>The system can detect a discrepancy between actual and displayed values of N1, N2, EGT and
-	fuel flow. This is indicated by an amber CHECK beneath the affected parameter. Attempt to
-	recover normal indications by switching from DMC1 to DMC3. If this fails, values can be inferred
-	from the opposite engine.</para>
+    <para>The system can detect a discrepancy between actual and displayed values of N1, N2, EGT and
+    fuel flow. This is indicated by an amber CHECK beneath the affected parameter. Attempt to
+    recover normal indications by switching from DMC1 to DMC3. If this fails, values can be inferred
+    from the opposite engine.</para>
 
-	<para role="multicite">[<emphasis
-	role="underline">ENG 1(2)</emphasis> N1(N2)(EGT)(FF) DISCREPANCY, FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis
+    role="underline">ENG 1(2)</emphasis> N1(N2)(EGT)(FF) DISCREPANCY, FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>Start valve fault</title>
+    <title>Start valve fault</title>
 
-	<para>If a start valve fails open, remove bleed sources supplying the faulty valve. If on the
-	ground, turn off the MAN START button if used, and shut the engine down with its master
-	switch.</para>
+    <para>If a start valve fails open, remove bleed sources supplying the faulty valve. If on the
+    ground, turn off the MAN START button if used, and shut the engine down with its master
+    switch.</para>
 
-	<para>If the start valve fails closed, it may be that insufficient pressure is reaching it. Try
-	opening the cross bleed and turning on the APU bleed.</para>
+    <para>If the start valve fails closed, it may be that insufficient pressure is reaching it. Try
+    opening the cross bleed and turning on the APU bleed.</para>
 
-	<para>On the ground, a start may still be possible with manual operation of the start
-	valve.</para>
+    <para>On the ground, a start may still be possible with manual operation of the start
+    valve.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START VALVE FAULT,
-	FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START VALVE FAULT,
+    FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1 id="start-faults">
-	<title>Start faults</title>
+    <title>Start faults</title>
 
-	<para>Start faults include ignition faults (no light off within 18 seconds of ignition start),
-	engine stalls, EGT overlimit (>725°C) and starter time exceedance (2 mins max).</para>
+    <para>Start faults include ignition faults (no light off within 18 seconds of ignition start),
+    engine stalls, EGT overlimit (>725°C) and starter time exceedance (2 mins max).</para>
 
-	<para>On the ground, nearly all starts are auto starts. In this case the FADEC will
-	automatically abort as needed. It will then automatically carry out the required dry crank phase
-	and make further attempts. Once the FADEC gives up, an ECAM message will instruct the crew to
-	turn off the relevant engine master. If the fault was a stall due to low pressure, consider
-	another automatic start using cross bleed air.</para>
+    <para>On the ground, nearly all starts are auto starts. In this case the FADEC will
+    automatically abort as needed. It will then automatically carry out the required dry crank phase
+    and make further attempts. Once the FADEC gives up, an ECAM message will instruct the crew to
+    turn off the relevant engine master. If the fault was a stall due to low pressure, consider
+    another automatic start using cross bleed air.</para>
 
-	<para>If a manual start is attempted, the crew must monitor the relevant parameters (the FADECs
-	will provide some passive monitoring) and, if necessary, abort the start by turning the engine
-	master and man start button off. The crew must then carry out a 30 second dry crank phase
-	manually. Note that this is not mentioned in the relevant supplementary procedure, nor are the
-	relevant lines displayed on the ECAM. It is probably worth having FCOM PRO.ABN.70 handy when
-	carrying out manual starts.</para>
+    <para>If a manual start is attempted, the crew must monitor the relevant parameters (the FADECs
+    will provide some passive monitoring) and, if necessary, abort the start by turning the engine
+    master and man start button off. The crew must then carry out a 30 second dry crank phase
+    manually. Note that this is not mentioned in the relevant supplementary procedure, nor are the
+    relevant lines displayed on the ECAM. It is probably worth having FCOM PRO.ABN.70 handy when
+    carrying out manual starts.</para>
 
-	<para>Following an aborted start in flight, the engine master should be turned off for 30
-	seconds to drain the engine. A further start attempt can then be made.</para>
+    <para>Following an aborted start in flight, the engine master should be turned off for 30
+    seconds to drain the engine. A further start attempt can then be made.</para>
 
-	<para>If the electrical power supply is interrupted during a start (indicated by loss of ECAM
-	DUs) turn the master switch off, then perform a 30 second dry crank.</para>
+    <para>If the electrical power supply is interrupted during a start (indicated by loss of ECAM
+    DUs) turn the master switch off, then perform a 30 second dry crank.</para>
 
-	<para revisionflag="changed">If a fuel leak from the engine drain mast is reported, run the
-	engine at idle for 5 minutes. If the leak disappears within this time the aircraft may dispatch
-	without maintenance action.</para>
+    <para revisionflag="changed">If a fuel leak from the engine drain mast is reported, run the
+    engine at idle for 5 minutes. If the leak disappears within this time the aircraft may dispatch
+    without maintenance action.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START FAULT,
-	FCOM PRO.ABN.70], EOMB 2.3.8.1</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START FAULT,
+    FCOM PRO.ABN.70], EOMB 2.3.8.1</para>
   </sect1>
 
 
   <sect1>
-	<title>Ignition faults</title>
+    <title>Ignition faults</title>
 
-	<para>Each engine has two ignitors. If both fail on a single engine, avoid heavy rain,
-	turbulence and, as far as possible, icing conditions.</para>
+    <para>Each engine has two ignitors. If both fail on a single engine, avoid heavy rain,
+    turbulence and, as far as possible, icing conditions.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> IGN FAULT,
-	FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> IGN FAULT,
+    FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>Thrust lever angle sensor faults</title>
+    <title>Thrust lever angle sensor faults</title>
 
-	<para>Each thrust lever has two thrust lever angle (TLA) sensors.</para>
+    <para>Each thrust lever has two thrust lever angle (TLA) sensors.</para>
 
-	<para>Failure of one sensor only leads to a loss of redundancy; the proviso is that it must have
-	failed in a way that the system can positively detect.</para>
+    <para>Failure of one sensor only leads to a loss of redundancy; the proviso is that it must have
+    failed in a way that the system can positively detect.</para>
 
-	<para>More difficult is when the sensors are in disagreement. In this case, the FADEC makes the
-	assumption that one of the sensors is accurate and provides a default thrust setting based on
-	this assumption:
+    <para>More difficult is when the sensors are in disagreement. In this case, the FADEC makes the
+    assumption that one of the sensors is accurate and provides a default thrust setting based on
+    this assumption:
 
-	<itemizedlist>
-	  <listitem><para>On the ground, if neither sensor is in a take-off position, idle power is
-	  commanded. If one sensor is in take-off position and the other is above idle, take-off thrust
-	  is commanded. This leaves the completely conflicted case of one sensor at take-off and the
-	  other at idle or below; the FADEC selects idle power as the best compromise.</para></listitem>
+    <itemizedlist>
+      <listitem><para>On the ground, if neither sensor is in a take-off position, idle power is
+      commanded. If one sensor is in take-off position and the other is above idle, take-off thrust
+      is commanded. This leaves the completely conflicted case of one sensor at take-off and the
+      other at idle or below; the FADEC selects idle power as the best compromise.</para></listitem>
 
-	  <listitem><para>In flight, once above thrust reduction altitude the FADEC will assume that the
-	  largest TLA, limited to CLB, is correct. The autothrust can then manage the thrust between
-	  idle and this position. For approach (slats extended), as long as both TLAs indicate less than
-	  MCT, thrust is commanded to idle.</para></listitem>
-	</itemizedlist></para>
+      <listitem><para>In flight, once above thrust reduction altitude the FADEC will assume that the
+      largest TLA, limited to CLB, is correct. The autothrust can then manage the thrust between
+      idle and this position. For approach (slats extended), as long as both TLAs indicate less than
+      MCT, thrust is commanded to idle.</para></listitem>
+    </itemizedlist></para>
 
-	<para>If both TLA sensors fail, the FADEC again goes for sensible defaults. On the ground, idle
-	thrust is set. In flight, if the thrust was TO or FLEX at the time of failure, this setting will
-	be maintained until slat retraction, whereupon CLB will be selected. If the thrust was between
-	IDLE and MCT, CLB will be selected immediately. As soon as slats are deployed, IDLE is
-	commanded; this remains the case even for go-around. Autothrust will manage thrust between IDLE
-	and CLB whenever CLB is assumed.</para>
+    <para>If both TLA sensors fail, the FADEC again goes for sensible defaults. On the ground, idle
+    thrust is set. In flight, if the thrust was TO or FLEX at the time of failure, this setting will
+    be maintained until slat retraction, whereupon CLB will be selected. If the thrust was between
+    IDLE and MCT, CLB will be selected immediately. As soon as slats are deployed, IDLE is
+    commanded; this remains the case even for go-around. Autothrust will manage thrust between IDLE
+    and CLB whenever CLB is assumed.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> THR LEVER DISAGREE,
-	<emphasis role="underline">ENG 1(2)</emphasis> THR LEVER FAULT, <emphasis
-	role="underline">ENG 1(2)</emphasis> ONE TLA FAULT, FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> THR LEVER DISAGREE,
+    <emphasis role="underline">ENG 1(2)</emphasis> THR LEVER FAULT, <emphasis
+    role="underline">ENG 1(2)</emphasis> ONE TLA FAULT, FCOM PRO.ABN.70]</para>
   </sect1>
 
 
   <sect1>
-	<title>FADEC faults</title>
+    <title>FADEC faults</title>
 
-	<para>The FADECs have two redundant channels; loss of a single channel does not generally
-	require crew action. Single channel FADEC faults during start may be considered spurious on
-	successful application of the reset procedure detailed in FCOM PRO.ABN.70</para>
+    <para>The FADECs have two redundant channels; loss of a single channel does not generally
+    require crew action. Single channel FADEC faults during start may be considered spurious on
+    successful application of the reset procedure detailed in FCOM PRO.ABN.70</para>
 
-	<para>If both channels of a FADEC are lost, the thrust lever should be set to idle. Engine
-	indications will be lost. If all other parameters are normal (check all ECAM system pages), the
-	engine can be left running. Otherwise, shut it down.</para>
+    <para>If both channels of a FADEC are lost, the thrust lever should be set to idle. Engine
+    indications will be lost. If all other parameters are normal (check all ECAM system pages), the
+    engine can be left running. Otherwise, shut it down.</para>
 
-	<para>If a FADEC overheats, reducing engine power may reduce temperature in the ECU area
-	sufficiently to prevent shutdown. If on the ground the engine must be shut down and the FADEC
-	depowered.</para>
+    <para>If a FADEC overheats, reducing engine power may reduce temperature in the ECU area
+    sufficiently to prevent shutdown. If on the ground the engine must be shut down and the FADEC
+    depowered.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FADEC A(B) FAULT,
-	<emphasis role="underline">ENG 1(2)</emphasis> FADEC FAULT, <emphasis
-	role="underline">ENG 1(2)</emphasis> FADEC HI TEMP, FCOM PRO.ABN.70]</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FADEC A(B) FAULT,
+    <emphasis role="underline">ENG 1(2)</emphasis> FADEC FAULT, <emphasis
+    role="underline">ENG 1(2)</emphasis> FADEC HI TEMP, FCOM PRO.ABN.70]</para>
   </sect1>
 </chapter>
 
@@ -3395,10 +3395,10 @@
     and EOMB as to whether GPS PRIMARY is required at all for RNAV(VOR/DME) or RNAV(DME/DME) etc. –
     I've gone with the most restrictive here.</para></footnote>.</para>
 
-	<para>In an RNP-1 (PRNAV) environment, an RNAV downgrade may leave the aircraft unsure of
-	position and below MSA. The initial response is to notify ATC with the phrase “Unable RNAV due
-	equipment” and request reclearance. An immediate climb above MSA should be considered if a
-	suitable alternative navigation method (e.g. radar vectors) is not available.</para>
+    <para>In an RNP-1 (PRNAV) environment, an RNAV downgrade may leave the aircraft unsure of
+    position and below MSA. The initial response is to notify ATC with the phrase “Unable RNAV due
+    equipment” and request reclearance. An immediate climb above MSA should be considered if a
+    suitable alternative navigation method (e.g. radar vectors) is not available.</para>
 
     <para>Some RNP-1 procedures specify additional downgrade criteria such as a requirement for dual
     RNAV systems or GPS. If GPS is not specifically mandated as an additional restriction, an RNP-1
@@ -3431,21 +3431,21 @@
     subsequently be retracted. This is not mentioned by the ECAM – the gear will simply fail to
     extend normally.</para>
 
-	<para>If all three ADRs are lost, the result is airframe dependent. Some of the fleet now have a
-	<emphasis role="underline">NAV</emphasis> ADR 1+2+3 FAULT ECAM and an appropriate procedure
-	utilising the Backup Speed Scale, completing with the QRH ABN.34 ALL ADR OFF paper
-	procedure. For older airframes the ECAM displayed will be for Dual ADR failure and must be
-	ignored since it will request meaningless air data and ATC switching. Instead revert to standby
-	instruments (the standby ASI and Altimeter have direct pressure feeds from the the standby pitot
-	and static ports) and refer to QRH ABN.34 ADR 1+2+3 FAULT. Interestingly, when Backup Speed
-	Scale is available, the ECAM advises that the standby instrument indications may be
-	unreliable…</para>
+    <para>If all three ADRs are lost, the result is airframe dependent. Some of the fleet now have a
+    <emphasis role="underline">NAV</emphasis> ADR 1+2+3 FAULT ECAM and an appropriate procedure
+    utilising the Backup Speed Scale, completing with the QRH ABN.34 ALL ADR OFF paper
+    procedure. For older airframes the ECAM displayed will be for Dual ADR failure and must be
+    ignored since it will request meaningless air data and ATC switching. Instead revert to standby
+    instruments (the standby ASI and Altimeter have direct pressure feeds from the the standby pitot
+    and static ports) and refer to QRH ABN.34 ADR 1+2+3 FAULT. Interestingly, when Backup Speed
+    Scale is available, the ECAM advises that the standby instrument indications may be
+    unreliable…</para>
 
-	<para>Triple ADR failure has a few additional ramifications. Of note is loss of automatic cabin
-	pressure control (see <xref linkend="pressure-controller"/> for manual pressure control
-	methodology), Alternate Law and gravity gear extension. Of lesser concern are loss of stall
-	warning, rudder travel limiter frozen until slat extension and loss of auto flap
-	retraction.</para>
+    <para>Triple ADR failure has a few additional ramifications. Of note is loss of automatic cabin
+    pressure control (see <xref linkend="pressure-controller"/> for manual pressure control
+    methodology), Alternate Law and gravity gear extension. Of lesser concern are loss of stall
+    warning, rudder travel limiter frozen until slat extension and loss of auto flap
+    retraction.</para>
 
     <para role="multicite">[<emphasis
     role="underline">NAV</emphasis> ADR 1(2)(3)(1+2)(1+3)(2+3) FAULT, QRH ABN.34, FCOM PRO.ABN.34,
@@ -3644,27 +3644,27 @@
     altitudes. Systems lost due to reservoir overheats may be usable for the approach once they have
     cooled down.</para>
 
-	<para>Roll control is available from ailerons and spoiler 3. Pitch control is available from the
-	elevators, but the THS is frozen. Yaw damping is lost. Slats are available, but slow. Flaps are
-	frozen. Control law reverts to alternate law without stability protections. The autopilots are
-	lost.</para>
+    <para>Roll control is available from ailerons and spoiler 3. Pitch control is available from the
+    elevators, but the THS is frozen. Yaw damping is lost. Slats are available, but slow. Flaps are
+    frozen. Control law reverts to alternate law without stability protections. The autopilots are
+    lost.</para>
 
-	<para>The gear must be gravity extended, but due to the frozen THS this must be delayed until
-	V<subscript>APP</subscript> is achieved in CONF 3. Furthermore, transition to CONF 3 must be
-	achieved in accordance with <xref linkend="flight-controls.slats-flaps-fault"/> due to the flaps
-	being frozen. Transition to direct law on gear deployment adds to the fun, especially as pitch
-	trim is unavailable.</para>
+    <para>The gear must be gravity extended, but due to the frozen THS this must be delayed until
+    V<subscript>APP</subscript> is achieved in CONF 3. Furthermore, transition to CONF 3 must be
+    achieved in accordance with <xref linkend="flight-controls.slats-flaps-fault"/> due to the flaps
+    being frozen. Transition to direct law on gear deployment adds to the fun, especially as pitch
+    trim is unavailable.</para>
 
-	<para>Cat 2 and 3 capability is lost. The landing will be CONF 3, most probably with only the
-	slats deployed; the flare attitude will be abnormal. There will only be one spoiler (#3), no
-	reversers, accumulator only braking and no nose wheel steering. Hence required landing distances
-	almost triple.</para>
+    <para>Cat 2 and 3 capability is lost. The landing will be CONF 3, most probably with only the
+    slats deployed; the flare attitude will be abnormal. There will only be one spoiler (#3), no
+    reversers, accumulator only braking and no nose wheel steering. Hence required landing distances
+    almost triple.</para>
 
-	<para>The go around, in some ways, is exceptionally straightforward. The gear cannot be raised
-	and the configuration should be maintained. Therefore all that needs to be done is selecting a
-	speed of V<subscript>FE</subscript>&#x2011;10. As long as the flaps are frozen at zero, the
-	slats can be retracted for a subsequent diversion; fuel flow will be approximately 2.3 times
-	normal due to the extended gear.</para>
+    <para>The go around, in some ways, is exceptionally straightforward. The gear cannot be raised
+    and the configuration should be maintained. Therefore all that needs to be done is selecting a
+    speed of V<subscript>FE</subscript>&#x2011;10. As long as the flaps are frozen at zero, the
+    slats can be retracted for a subsequent diversion; fuel flow will be approximately 2.3 times
+    normal due to the extended gear.</para>
 
     <para>A paper summary is available in section ABN.29 of the QRH, and this should be applied once
     all ECAM actions are completed.</para>
@@ -3686,13 +3686,13 @@
     elevator. Slats and flaps are available at reduced rate. The autopilots are lost but Normal law
     is retained. Speedbrake is unavailable.</para>
 
-	<para>Cat 2 and 3 capability is lost. Landing distances are increased due to loss of spoilers 2,
-	3 and 4 and loss of #2 reverser. Approach configuration is normal apart from slow flaps and
-	slats and gravity gear extension (protects green system). Nose wheel steering is lost.</para>
+    <para>Cat 2 and 3 capability is lost. Landing distances are increased due to loss of spoilers 2,
+    3 and 4 and loss of #2 reverser. Approach configuration is normal apart from slow flaps and
+    slats and gravity gear extension (protects green system). Nose wheel steering is lost.</para>
 
-	<para>Gear cannot be retracted on go-around. Fuel burn for a subsequent diversion will be
-	significantly greater (approx factor 2.3); see <xref linkend="flight-with-gear-extended"/> for
-	further details.</para>
+    <para>Gear cannot be retracted on go-around. Fuel burn for a subsequent diversion will be
+    significantly greater (approx factor 2.3); see <xref linkend="flight-with-gear-extended"/> for
+    further details.</para>
 
     <para>A paper summary is available in section ABN.29 of the QRH, and this should be applied once
     all ECAM actions are completed.</para>
@@ -3710,26 +3710,26 @@
     be recoverable at lower altitudes. Systems lost due to reservoir overheats may be usable for the
     approach once they have cooled down.</para>
 
-	<para>Roll control is provided by spoilers 2 and 4 only. Use of speedbrake would therefore lead
-	to loss of roll control. Pitch control is available from the starboard elevator; the THS remains
-	available. Due to the limited control surfaces available, the aircraft will be slightly
-	sluggish. The slats are frozen, but flaps are available. Control law reverts to alternate law
-	without stability protections. The autopilots are lost. The approach will be flown with the
-	autothrust off.</para>
+    <para>Roll control is provided by spoilers 2 and 4 only. Use of speedbrake would therefore lead
+    to loss of roll control. Pitch control is available from the starboard elevator; the THS remains
+    available. Due to the limited control surfaces available, the aircraft will be slightly
+    sluggish. The slats are frozen, but flaps are available. Control law reverts to alternate law
+    without stability protections. The autopilots are lost. The approach will be flown with the
+    autothrust off.</para>
 
-	<para>Due to the frozen slats, configuration changes must be carried out in accordance with
-	<xref linkend="flight-controls.slats-flaps-fault"/>. The gear must be gravity extended; to
-	benefit from the improved elevator response available in direct law, this is done at
-	200kt. Manual trim will be available.</para>
+    <para>Due to the frozen slats, configuration changes must be carried out in accordance with
+    <xref linkend="flight-controls.slats-flaps-fault"/>. The gear must be gravity extended; to
+    benefit from the improved elevator response available in direct law, this is done at
+    200kt. Manual trim will be available.</para>
 
-	<para>Cat 2 and 3 capability is lost. The landing will be CONF 3. Two spoilers per wing are
-	available, reverser 2 is available, alternate braking is available and nose wheel steering is
-	available. Landing distances approximately double.</para>
+    <para>Cat 2 and 3 capability is lost. The landing will be CONF 3. Two spoilers per wing are
+    available, reverser 2 is available, alternate braking is available and nose wheel steering is
+    available. Landing distances approximately double.</para>
 
-	<para>Go around is straightforward – the gear cannot be retracted and the flap configuration
-	should be maintained. Simply select V<subscript>FE</subscript>&#x2011;10. For diversion, the
-	flaps can be retracted. With the gear remaining down, fuel burn will increase by a factor of
-	approximately 2.3.</para>
+    <para>Go around is straightforward – the gear cannot be retracted and the flap configuration
+    should be maintained. Simply select V<subscript>FE</subscript>&#x2011;10. For diversion, the
+    flaps can be retracted. With the gear remaining down, fuel burn will increase by a factor of
+    approximately 2.3.</para>
 
     <para>A paper summary is available in section ABN.29 of the QRH, and this should be applied once
     all ECAM actions are completed.</para>
@@ -4137,47 +4137,47 @@
   <title>Communications</title>
 
   <sect1 id="com-failure-icao">
-	<title>Communication failure (ICAO)</title>
+    <title>Communication failure (ICAO)</title>
 
     <para>If all attempts to establish contact fail, transmit message twice on designated channel,
     proceeded by the phrase “Transmitting Blind.”</para>
 
-	<para>Set Mode A Transponder Code to 7600.</para>
+    <para>Set Mode A Transponder Code to 7600.</para>
 
-	<para>If in VMC, continue in VMC to the nearest suitable airfield and land, reporting arrival to
-	appropriate ATS by the most expeditious means.</para>
+    <para>If in VMC, continue in VMC to the nearest suitable airfield and land, reporting arrival to
+    appropriate ATS by the most expeditious means.</para>
 
-	<para>If in IMC or unlikely to be able to maintain VMC:
+    <para>If in IMC or unlikely to be able to maintain VMC:
 
-	<itemizedlist>
-	  <listitem><para>If in airspace where a <emphasis>procedural</emphasis> separation service is
-	  being applied, maintain speed and level, or minimum flight altitude if higher, for a period of
-	  <emphasis>20 minutes</emphasis> following failure to report over a compulsory reporting point,
-	  then adjust level and speed in accordance with flight plan.</para></listitem>
+    <itemizedlist>
+      <listitem><para>If in airspace where a <emphasis>procedural</emphasis> separation service is
+      being applied, maintain speed and level, or minimum flight altitude if higher, for a period of
+      <emphasis>20 minutes</emphasis> following failure to report over a compulsory reporting point,
+      then adjust level and speed in accordance with flight plan.</para></listitem>
 
-	  <listitem><para>If in airspace where an ATS surveillance system is in use, maintain speed and
-	  level, or minimum flight altitude if higher, for <emphasis>7 minutes</emphasis> after Code
-	  7600 is set, then adjust level and speed in accordance with flight plan.</para></listitem>
+      <listitem><para>If in airspace where an ATS surveillance system is in use, maintain speed and
+      level, or minimum flight altitude if higher, for <emphasis>7 minutes</emphasis> after Code
+      7600 is set, then adjust level and speed in accordance with flight plan.</para></listitem>
 
-	  <listitem><para>If being radar vectored or having been directed to proceed offset using RNAV
-	  without specified limit, rejoin the flight plan route no later than the next significant
-	  point.</para></listitem>
+      <listitem><para>If being radar vectored or having been directed to proceed offset using RNAV
+      without specified limit, rejoin the flight plan route no later than the next significant
+      point.</para></listitem>
 
-	  <listitem><para>On reaching the appropriate NAVAID or fix serving the destination aerodrome,
-	  hold if necessary, then at EAT, or if no EAT has been received and acknowledged, computed
-	  flight plan ETA, commence an appropriate instrument approach procedure. If possible land
-	  within 30 minutes of this time.</para></listitem>
+      <listitem><para>On reaching the appropriate NAVAID or fix serving the destination aerodrome,
+      hold if necessary, then at EAT, or if no EAT has been received and acknowledged, computed
+      flight plan ETA, commence an appropriate instrument approach procedure. If possible land
+      within 30 minutes of this time.</para></listitem>
 
-	  <listitem><para>Watch for visual signals from the tower:
-	  <itemizedlist>
-	    <listitem><para>Red Pyro: Permission to land cancelled</para></listitem>
-	    <listitem><para>Flashing Red Light: Land elsewhere</para></listitem>
-	    <listitem><para>Continuous Red: Give way to other aircraft, continue
-	    circling</para></listitem>
-	    <listitem><para>Flashing Green: Return to circuit, await landing clearance</para></listitem>
-	    <listitem><para>Continuous Green: Permission to land</para></listitem>
-	  </itemizedlist></para></listitem>
-	</itemizedlist></para>
+      <listitem><para>Watch for visual signals from the tower:
+      <itemizedlist>
+        <listitem><para>Red Pyro: Permission to land cancelled</para></listitem>
+        <listitem><para>Flashing Red Light: Land elsewhere</para></listitem>
+        <listitem><para>Continuous Red: Give way to other aircraft, continue
+        circling</para></listitem>
+        <listitem><para>Flashing Green: Return to circuit, await landing clearance</para></listitem>
+        <listitem><para>Continuous Green: Permission to land</para></listitem>
+      </itemizedlist></para></listitem>
+    </itemizedlist></para>
   </sect1>
 
 
@@ -4185,32 +4185,32 @@
     <title>Communication failure (UK airspace)</title>
 
     <para>The UK procedures expand on the ICAO procedures:
-	<itemizedlist>
-	  <listitem><para>If following a SID fly the published lateral and vertical profiles, including
-	  any step climb, until the last waypoint of the procedure is reached. Maintain current speed
-	  and last assigned level (or minimum flight altitude if this is higher) until <emphasis>7
-	  minutes</emphasis> have elapsed since setting 7600. Then adjust speed and level in accordance
-	  with current flight plan. This procedure also applies to RNP-1 (PRNAV)
-	  departures.</para></listitem>
+    <itemizedlist>
+      <listitem><para>If following a SID fly the published lateral and vertical profiles, including
+      any step climb, until the last waypoint of the procedure is reached. Maintain current speed
+      and last assigned level (or minimum flight altitude if this is higher) until <emphasis>7
+      minutes</emphasis> have elapsed since setting 7600. Then adjust speed and level in accordance
+      with current flight plan. This procedure also applies to RNP-1 (PRNAV)
+      departures.</para></listitem>
 
-	  <listitem><para>If following a STAR, follow the lateral profile but maintain current speed and
-	  last assigned level (or minimum flight altitude if this is higher) until <emphasis>7
-	  minutes</emphasis> have elapsed since setting 7600. Subsequently, arrange descent to be as
-	  close as possible to published planning profile. If no profile is published, arrange to be at
-	  the IAF at minimum published level. This procedure also applies to RNP-1 (PRNAV)
-	  arrivals.</para></listitem>
+      <listitem><para>If following a STAR, follow the lateral profile but maintain current speed and
+      last assigned level (or minimum flight altitude if this is higher) until <emphasis>7
+      minutes</emphasis> have elapsed since setting 7600. Subsequently, arrange descent to be as
+      close as possible to published planning profile. If no profile is published, arrange to be at
+      the IAF at minimum published level. This procedure also applies to RNP-1 (PRNAV)
+      arrivals.</para></listitem>
 
-	  <listitem><para>If under radar vectors from Approach Control Radar, comply with instructions
-	  on radar vectoring chart. If under radar vectors without specified limit from other ATS unit,
-	  continue in accordance with last instructions until <emphasis>3 minutes</emphasis> have
-	  elapsed since setting 7600, then proceed in most direct manner to rejoin current flight plan
-	  route. If necessary, climb to minimum flight altitude.</para></listitem>
+      <listitem><para>If under radar vectors from Approach Control Radar, comply with instructions
+      on radar vectoring chart. If under radar vectors without specified limit from other ATS unit,
+      continue in accordance with last instructions until <emphasis>3 minutes</emphasis> have
+      elapsed since setting 7600, then proceed in most direct manner to rejoin current flight plan
+      route. If necessary, climb to minimum flight altitude.</para></listitem>
 
-	  <listitem><para>If performing an SRA, continue visually or by using an alternate approach
-	  aid. If this is not possible, carry out a missed approach and continue to the holding position
-	  of a suitable aerodrome with a notified instrument approach and carry out that
-	  procedure.</para></listitem>
-	</itemizedlist></para>
+      <listitem><para>If performing an SRA, continue visually or by using an alternate approach
+      aid. If this is not possible, carry out a missed approach and continue to the holding position
+      of a suitable aerodrome with a notified instrument approach and carry out that
+      procedure.</para></listitem>
+    </itemizedlist></para>
 
     <para role="multicite">[ICAO Annex 10, ICAO DOC 4444, UKAIP ENR 1.1.3.4]</para>
   </sect1>
@@ -4231,33 +4231,33 @@
 
     <listitem><para>Slat position does not change between CONF 2 and CONF 3.</para></listitem>
 
-	<listitem><para>The AVIONICS SMOKE ECAM is non-standard. Do not run the procedure from the ECAM,
-	use the QRH procedure instead.</para></listitem>
+    <listitem><para>The AVIONICS SMOKE ECAM is non-standard. Do not run the procedure from the ECAM,
+    use the QRH procedure instead.</para></listitem>
 
-	<listitem><para>The Engine Fire on the Ground procedure is non-standard. The FO must remember to
-	mitigate the effects of loss of electrical power (which includes loss of ECAM and non-emergency
-	lighting) before shutting down the second engine.</para></listitem>
+    <listitem><para>The Engine Fire on the Ground procedure is non-standard. The FO must remember to
+    mitigate the effects of loss of electrical power (which includes loss of ECAM and non-emergency
+    lighting) before shutting down the second engine.</para></listitem>
 
     <listitem><para>Dual hydraulic failure fundamentals:
-	<itemizedlist>
-	  <listitem><para>You will always need to gravity extend the gear, so you will never be able to
-	  retract it on the go-around.</para></listitem>
+    <itemizedlist>
+      <listitem><para>You will always need to gravity extend the gear, so you will never be able to
+      retract it on the go-around.</para></listitem>
 
-	  <listitem><para>If you only have blue, you lose the flaps; if you only have yellow, you lose
-	  the slats. The flaps/slats jammed procedure (including go-around modifications) is therefore
-	  incorporated into both these procedures.</para></listitem>
+      <listitem><para>If you only have blue, you lose the flaps; if you only have yellow, you lose
+      the slats. The flaps/slats jammed procedure (including go-around modifications) is therefore
+      incorporated into both these procedures.</para></listitem>
 
-	  <listitem><para>If you only have blue, the THS is frozen (think BLUE=COLD=FROZEN THS), so you
-	  need to go Direct Law late (at Conf 3, V<subscript>APP</subscript>) to get neutral trimming of
-	  the elevators. If you only have yellow, you only have one elevator (think
-	  YELLOW=COWARDLY=Timid control response); combined with lack of slats this requires going
-	  Direct Law early (at 200kt) to improve pitch response.</para></listitem>
+      <listitem><para>If you only have blue, the THS is frozen (think BLUE=COLD=FROZEN THS), so you
+      need to go Direct Law late (at Conf 3, V<subscript>APP</subscript>) to get neutral trimming of
+      the elevators. If you only have yellow, you only have one elevator (think
+      YELLOW=COWARDLY=Timid control response); combined with lack of slats this requires going
+      Direct Law early (at 200kt) to improve pitch response.</para></listitem>
 
-	  <listitem><para>You're going to need a longish runway. Worst case is if you only have blue,
-	  since you have, at best, accumulator braking and you're coming in fast due to lack of
-	  flaps. Yellow is better since you have alternate braking, and its mainly about the lack of
-	  slats. If you have green, its not really all that bad.</para></listitem>
-	</itemizedlist></para>
+      <listitem><para>You're going to need a longish runway. Worst case is if you only have blue,
+      since you have, at best, accumulator braking and you're coming in fast due to lack of
+      flaps. Yellow is better since you have alternate braking, and its mainly about the lack of
+      slats. If you have green, its not really all that bad.</para></listitem>
+    </itemizedlist></para>
   </listitem></itemizedlist>
 </chapter>
 
