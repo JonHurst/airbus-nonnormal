@@ -1122,8 +1122,9 @@
       <sect1>
         <title>Battery only</title>
 
-        <para>Power is available for approximately 30 minutes {TODO: Can’t find a reference for this – must have been
-        part of CBT}. QRH ABN.24 provides details of remaining equipment. This is very similar to the emergency electrical
+        <para>Power is available for approximately 30 minutes.<footnote><para>This information was
+        part of Airbus CBT training. There is no figure available in the FCOM.</para></footnote>
+        QRH ABN.24 provides details of remaining equipment. This is very similar to the emergency electrical
         configuration (see <xref linkend="emerg-elec-config"/>) with the additional loss of FAC1 and FMGC1. An attempt
         should be made to bring the emergency generator on line by ensuring speed is &gt;140kt and deploying the RAT
         with the EMER ELEC PWR MAN ON button.</para>
