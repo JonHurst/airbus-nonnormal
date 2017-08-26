@@ -865,144 +865,146 @@
 
 
 <chapter id="aircon-press-vent">
-      <title>Air conditioning, pressurisation and ventilation</title>
-      <sect1>
-        <title>Cabin overpressure</title>
+  <title>Air conditioning, pressurisation and ventilation</title>
 
-        <para>There is no ECAM in the case of total loss of pressure control leading to an overpressure, so apply the
-        QRH procedure. The basic procedure is to reduce air inflow by turning off one of the packs and put the avionics
-        ventilation system in its smoke removal configuration so that it dumps cabin air overboard. The ΔP is monitored,
-        and the remaining pack is turned off if it exceeds 9 psi. 10 minutes before landing, both packs are turned off
-        and remain off, and the avionics ventilation is returned to its normal configuration.</para>
+  <sect1>
+    <title>Cabin overpressure</title>
 
-        <para role="multicite">[QRH ABN.21, FCOM PRO.ABN.21]</para>
-      </sect1>
+    <para>There is no ECAM in the case of total loss of pressure control leading to an overpressure,
+    so apply the QRH procedure. The basic procedure is to reduce air inflow by turning off one of
+    the packs and put the avionics ventilation system in its smoke removal configuration so that it
+    dumps cabin air overboard. The ΔP is monitored, and the remaining pack is turned off if it
+    exceeds 9 psi. 10 minutes before landing, both packs are turned off and remain off, and the
+    avionics ventilation is returned to its normal configuration.</para>
 
-      <sect1>
+    <para role="multicite">[QRH ABN.21, FCOM PRO.ABN.21]</para>
+  </sect1>
+
+
+  <sect1>
 	<title>Excess cabin altitude</title>
 
 	<para>An ECAM warning of excess (>9550ft) cabin altitude should be relied upon, even if not
 	backed up by other indications.</para>
 
-	<para>The initial response should be to protect yourself by getting an oxygen mask
-	on. Initiate a descent; if above FL160, this should be according to <xref
-	linkend="emerg-descent"/>. Once the descent is established and all relevant checklists are
-	complete, check the position of the outflow valve and, if it is not fully closed, use manual
-	control to close it.</para>
+	<para>The initial response should be to protect yourself by getting an oxygen mask on. Initiate
+	a descent; if above FL160, this should be according to <xref linkend="emerg-descent"/>. Once the
+	descent is established and all relevant checklists are complete, check the position of the
+	outflow valve and, if it is not fully closed, use manual control to close it.</para>
 
-        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> EXCESS CAB ALT,
-	FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
-      </sect1>
+    <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> EXCESS CAB ALT,
+    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+  </sect1>
 
-      <sect1 id="pack-fault">
+
+  <sect1 id="pack-fault">
 	<title>Pack fault</title>
 
 	<para>The PACK FAULT ECAM indicates that the pack valve position disagrees with the selected
-	position or that the pack valve is closed. The affected pack should be turned off. A
-	possible reason for this failure is loss of both channels of an Air Conditioning System
-	Controller (ACSC). If this occurs, the associated hot air trimming will also be lost
-	(cockpit for ACSC 1, cabin for ACSC 2).</para>
+	position or that the pack valve is closed. The affected pack should be turned off. A possible
+	reason for this failure is loss of both channels of an Air Conditioning System Controller
+	(ACSC). If this occurs, the associated hot air trimming will also be lost (cockpit for ACSC 1,
+	cabin for ACSC 2).</para>
 
 	<para>If there are simultaneous faults with both packs, ram air must be used. This will
 	necessitate depressurisation of the aircraft, so a descent to FL100 (or MEA if higher) is
-	required. If a PACK button FAULT light subsequently extinguishes, an attempt should be made
-	to reinstate that pack.</para>
+	required. If a PACK button FAULT light subsequently extinguishes, an attempt should be made to
+	reinstate that pack.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2)(1+2) FAULT, FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2)(1+2) FAULT,
+	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-      </sect1>
 
-      <sect1>
+  <sect1>
 	<title>Pack overheat</title>
 
-	<para>The associated pack flow control valve closes automatically in the event of a pack overheating (outlet
-	temp > 260°C or outlet temp > 230°C four times in one flight). The remaining pack will automatically go to high
-	flow, and is capable of supplying all of the air conditioning requirement. This system’s automatic response is
-	backed up by turning off the pack. The FAULT light in the PACK button remains illuminated whilst the overheat
-	condition exists. The pack can be turned back on once it has cooled.</para>
+	<para>The associated pack flow control valve closes automatically in the event of a pack
+	overheating (outlet temp > 260°C or outlet temp > 230°C four times in one flight). The remaining
+	pack will automatically go to high flow, and is capable of supplying all of the air conditioning
+	requirement. This system’s automatic response is backed up by turning off the pack. The FAULT
+	light in the PACK button remains illuminated whilst the overheat condition exists. The pack can
+	be turned back on once it has cooled.</para>
 
-	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT, FCOM PRO.ABN.21,
-	FCOM DSC.21.10.60]</para>
-      </sect1>
+	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT,
+	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Pack off</title>
 
-	<para>A warning is generated if a functional pack is selected off in a phase of flight when
-	it would be expected to be on. This is usually the result of neglecting to re-instate the
-	packs after a packs off takeoff. Unless there is a reason not to, turn the affected pack(s)
-	on.</para>
+	<para>A warning is generated if a functional pack is selected off in a phase of flight when it
+	would be expected to be on. This is usually the result of neglecting to re-instate the packs
+	after a packs off takeoff. Unless there is a reason not to, turn the affected pack(s) on.</para>
 
 	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OFF,
 	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-      </sect1>
 
-      <sect1>
+  <sect1>
 	<title>Pack regulator faults</title>
 
-	<para>A regulator fault is defined as a failure of one of four devices: the bypass valve,
-	the ram air inlet, the compressor outlet temperature sensor or the flow control valve. The
-	ECAM bleed page can be used to determine which device is at fault.</para>
+	<para>A regulator fault is defined as a failure of one of four devices: the bypass valve, the
+	ram air inlet, the compressor outlet temperature sensor or the flow control valve. The ECAM
+	bleed page can be used to determine which device is at fault.</para>
 
-	<para>Regardless of the device at fault, the ramification is the same; the pack will
-	continue to operate but there may be a degradation in temperature regulation. If
-	temperatures become uncomfortable, consideration should be given to turning off the affected
-	pack.</para>
+	<para>Regardless of the device at fault, the ramification is the same; the pack will continue to
+	operate but there may be a degradation in temperature regulation. If temperatures become
+	uncomfortable, consideration should be given to turning off the affected pack.</para>
 
 	<para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) REGUL FAULT,
 	FCOM PRO.ABN.21, FCOM 21.10.60]</para>
-      </sect1>
+  </sect1>
 
-      <sect1 >
+  <sect1>
 	<title>ACSC single lane failure</title>
 
-	<para>Each ACSC has two fully redundant “lanes”, so loss of a single “lane” results in
-	loss of redundancy only.</para>
+	<para>Each ACSC has two fully redundant “lanes”, so loss of a single “lane” results in loss of
+	redundancy only.</para>
 
 	<para role="multicite">[<emphasis role="underline">AIR</emphasis> COND CTL 1(2) A(B) FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-      </sect1>
 
-      <sect1>
+  <sect1>
 	<title>Duct overheat</title>
 
-	<para>A duct overheat is defined as a duct reaching 88°C or a duct reaching 80°C four times
-	in one flight. If this occurs, the hot air pressure regulating valve and trim air valves
-	close automatically and the FAULT light illuminates in the HOT AIR button. This light will
-	extinguish when the temperature drops to 70°C.</para>
+	<para>A duct overheat is defined as a duct reaching 88°C or a duct reaching 80°C four times in
+	one flight. If this occurs, the hot air pressure regulating valve and trim air valves close
+	automatically and the FAULT light illuminates in the HOT AIR button. This light will extinguish
+	when the temperature drops to 70°C.</para>
 
-	<para>Once the duct has cooled, an attempt can be made to recover the hot air system by
-	cycling the HOT AIR button. If recovery is not possible, basic temperature regulation will
-	continue to be provided by the packs.</para>
+	<para>Once the duct has cooled, an attempt can be made to recover the hot air system by cycling
+	the HOT AIR button. If recovery is not possible, basic temperature regulation will continue to
+	be provided by the packs.</para>
 
 	<para role="multicite">[<emphasis role="underline">
-   COND</emphasis> FWD CAB/AFT CAB/CKPT DUCT OVHT,
-   FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+	COND</emphasis> FWD CAB/AFT CAB/CKPT DUCT OVHT, FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-      </sect1>
 
-      <sect1>
+  <sect1>
 	<title>Hot air fault</title>
 
-	<para>If the hot air pressure regulating valve is not in its commanded position, the
-	effects will depend on its actual position. If it is closed when commanded open, the packs
-	will provide basic temperature regulation. More serious is if it has been commanded closed
-	in response to a duct overheat and it fails to close. Manual control may be effective, but
-	if it is not the only option is to turn off both packs and proceed as per <xref
-	linkend="pack-fault"/>.</para>
+	<para>If the hot air pressure regulating valve is not in its commanded position, the effects
+	will depend on its actual position. If it is closed when commanded open, the packs will provide
+	basic temperature regulation. More serious is if it has been commanded closed in response to a
+	duct overheat and it fails to close. Manual control may be effective, but if it is not the only
+	option is to turn off both packs and proceed as per <xref linkend="pack-fault"/>.</para>
 
 	<para role="multicite">[<emphasis role="underline">COND</emphasis> HOT AIR FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-      </sect1>
 
-      <sect1>
+  <sect1>
 	<title>Trim air faults</title>
 
-	<para>Either a fault with one of the trim air valves or an overpressure downstream of the
-	hot air valve. An associated message indicates which condition exists.</para>
+	<para>Either a fault with one of the trim air valves or an overpressure downstream of the hot
+	air valve. An associated message indicates which condition exists.</para>
 
 	<para>Failure of a trim valve leads to loss of optimised temperature regulation for the
 	corresponding zone; basic temperature regulation is still available.</para>
@@ -1016,9 +1018,10 @@
 
 	<para role="multicite">[<emphasis role="underline">COND</emphasis> TRIM AIR SYS FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-      </sect1>
-      <sect1>
+
+  <sect1>
 	<title>Cabin fan faults</title>
 
 	<para>If both cabin fans fail, their flow should be replaced by increasing the pack flow to
@@ -1026,94 +1029,93 @@
 
 	<para role="multicite">[<emphasis role="underline">COND</emphasis> L + R CAB FAN FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-      </sect1>
 
-      <sect1 >
+  <sect1>
 	<title>Lavatory and galley fan faults</title>
 
 	<para>The cabin zone temperature sensors are normally ventilated by air extracted by these
-	fans. Loss of the fans therefore leads to loss of accurate zone temperature
-	indication.</para>
+	fans. Loss of the fans therefore leads to loss of accurate zone temperature indication.</para>
 
-	<para>On older aircraft, temperature control reverts to maintenance of a fixed cabin zone
-	inlet duct temperature of 15°C.</para>
+	<para>On older aircraft, temperature control reverts to maintenance of a fixed cabin zone inlet
+	duct temperature of 15°C.</para>
 
-	<para>On newer aircraft the temperature controls for the cabin revert to controlling
-	temperature in the ducts. If ACSC 2 has also failed, the duct temperatures are maintained at
-	the same level as the cockpit duct temperature, and may therefore be controlled with the
-	cockpit temperature selector.</para>
+	<para>On newer aircraft the temperature controls for the cabin revert to controlling temperature
+	in the ducts. If ACSC 2 has also failed, the duct temperatures are maintained at the same level
+	as the cockpit duct temperature, and may therefore be controlled with the cockpit temperature
+	selector.</para>
 
 	<para role="multicite">[<emphasis role="underline">COND</emphasis> LAV + GALLEY FAN FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+  </sect1>
 
-      </sect1>
 
-      <sect1 id="pressure-controller">
+  <sect1 id="pressure-controller">
 	<title>Pressure controller faults</title>
 
 	<para>Loss of a single cabin pressure controller leads to loss of redundancy only.</para>
 
-	<para>If both pressure controllers are lost, use manual control. The outflow valve reacts
-	slowly in manual mode, and it may be 10 seconds before positive control of the outflow valve
-	can be verified. It may also react too slowly to prevent a temporary
-	depressurisation.</para>
+	<para>If both pressure controllers are lost, use manual control. The outflow valve reacts slowly
+	in manual mode, and it may be 10 seconds before positive control of the outflow valve can be
+	verified. It may also react too slowly to prevent a temporary depressurisation.</para>
 
-	<para>Manual pressurisation control is activated by pressing the MODE
-	SEL button. This allows the MAN V/S CTL toggle switch to directly control the outflow
-	valve. Moving the toggle to DN closes the outflow valve causing the cabin altitude to
-	descend, whilst moving the toggle to UP opens the outflow valve causing the cabin altitude
-	to climb. The target climb and descent rates are 500fpm and 300fpm, these being displayed on
-	the status page for easy reference.</para>
+	<para>Manual pressurisation control is activated by pressing the MODE SEL button. This allows
+	the MAN V/S CTL toggle switch to directly control the outflow valve. Moving the toggle to DN
+	closes the outflow valve causing the cabin altitude to descend, whilst moving the toggle to UP
+	opens the outflow valve causing the cabin altitude to climb. The target climb and descent rates
+	are 500fpm and 300fpm, these being displayed on the status page for easy reference.</para>
 
-        <para>A table of FL versus ‘CAB ALT TGT’ is also provided on the
-        status page; no guidance is given for the interpretation of this table. The final action of
-        the procedure is to fully open the outflow valve when 2500ft QFE in preparation for an
-        unpressurised landing, so to avoid large pressurisation changes during this action, the
-        final cabin altitude target needs to be aerodrome elevation plus 2500ft . This gives an
-        indication of how ‘CAB ALT TGT’ should be interpreted: it is the lowest cabin altitude that
-        results in a safe &#x394;P at a given FL. A cabin altitude greater then ‘CAB ALT TGT’ is
-        always acceptable<footnote><para>A reasonable maximum cabin altitude is 8800ft, which is
-        when the CAB ALTITUDE advisory triggers.</para></footnote> and, moreover, for the final
-        stages of the approach, it is necessary. The method is therefore to avoid cabin altitudes
-        below ‘CAB ALT TGT’ for your actual FL while ensuring that a cabin altitude of aerodrome
-        elevation plus 2500ft will be achieved by the time you need to fully open the outflow
-        valve.</para>
+    <para>A table of FL versus ‘CAB ALT TGT’ is also provided on the status page; no guidance is
+    given for the interpretation of this table. The final action of the procedure is to fully open
+    the outflow valve when 2500ft QFE in preparation for an unpressurised landing, so to avoid large
+    pressurisation changes during this action, the final cabin altitude target needs to be aerodrome
+    elevation plus 2500ft . This gives an indication of how ‘CAB ALT TGT’ should be interpreted: it
+    is the lowest cabin altitude that results in a safe &#x394;P at a given FL. A cabin altitude
+    greater then ‘CAB ALT TGT’ is always acceptable<footnote><para>A reasonable maximum cabin
+    altitude is 8800ft, which is when the CAB ALTITUDE advisory triggers.</para></footnote> and,
+    moreover, for the final stages of the approach, it is necessary. The method is therefore to
+    avoid cabin altitudes below ‘CAB ALT TGT’ for your actual FL while ensuring that a cabin
+    altitude of aerodrome elevation plus 2500ft will be achieved by the time you need to fully open
+    the outflow valve.</para>
 
-        <para>Ensure cabin diff pressure is zero before attempting to open the doors.</para>
+    <para>Ensure cabin diff pressure is zero before attempting to open the doors.</para>
 
-        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SYS 1(2)(1+2) FAULT,
-        FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
-      </sect1>
+    <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SYS 1(2)(1+2) FAULT,
+    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+  </sect1>
 
-      <sect1>
+  <sect1>
 	<title>Low diff pressure</title>
 
-	<para>High rates of descent may lead to the aircraft descending through the cabin altitude
-	when more than 3000ft above the landing altitude. An ECAM warning indicates that this
-	situation is projected to occur within the next 1½ minutes. If the rate of descent of the
-	aircraft is not reduced, the pressure controllers will have to resort to high rates of
-	change of cabin altitude, which may cause passenger discomfort. The aircraft’s vertical
-	speed should be reduced unless there is a pressing reason not to.</para>
+	<para>High rates of descent may lead to the aircraft descending through the cabin altitude when
+	more than 3000ft above the landing altitude. An ECAM warning indicates that this situation is
+	projected to occur within the next 1½ minutes. If the rate of descent of the aircraft is not
+	reduced, the pressure controllers will have to resort to high rates of change of cabin altitude,
+	which may cause passenger discomfort. The aircraft’s vertical speed should be reduced unless
+	there is a pressing reason not to.</para>
 
-        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> LO DIFF PR,
-	FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
-      </sect1>
-      <sect1>
+    <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> LO DIFF PR,
+    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+  </sect1>
+
+
+  <sect1>
 	<title>Outflow valve closed on ground</title>
 
-	<para>If the outflow valve fails to automatically open on the ground, manual control should
-	be attempted. If that doesn’t work, depressurise the aircraft by turning off both packs.</para>
+	<para>If the outflow valve fails to automatically open on the ground, manual control should be
+	attempted. If that doesn’t work, depressurise the aircraft by turning off both packs.</para>
 
-   <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN,
-   FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
-      </sect1>
+    <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN,
+    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Open safety valve</title>
 
-	<para>There are safety valves for both cabin overpressure and negative differential
-	pressure; the associated ECAM message does not distinguish between the two.</para>
+	<para>There are safety valves for both cabin overpressure and negative differential pressure;
+	the associated ECAM message does not distinguish between the two.</para>
 
 	<para>If diff pressure is above 8psi, it is the overpressure valve that has opened. Attempt
 	manual pressurisation control and if that fails, reduce aircraft altitude.</para>
@@ -1121,65 +1123,70 @@
 	<para>If diff pressure is below zero, it is the negative differential valve. Reduce aircraft
 	vertical speed or expect high cabin rates.</para>
 
-        <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SAFETY VALVE OPEN,
-        FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
-      </sect1>
+    <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SAFETY VALVE OPEN,
+    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Blower fault</title>
 
-	<para>Defined as low blowing pressure or duct overheat. Unless there is a DC ESS Bus fault,
-	the blower fan should be set to OVRD. This puts the avionics ventilation into closed
-	configuration and adds cooling air from the air conditioning system.<!-- {TODO:investigate -->
-	<!-- involvement of DC ESS BUS fault} --></para>
+	<para>Defined as low blowing pressure or duct overheat. Unless there is a DC ESS Bus fault, the
+	blower fan should be set to OVRD. This puts the avionics ventilation into closed configuration
+	and adds cooling air from the air conditioning system.<!-- {TODO:investigate --> <!--
+	involvement of DC ESS BUS fault} --></para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> BLOWER FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
-      </sect1>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Extract fault</title>
 
 	<para>Defined as low extract pressure. The extract fan should be put in OVRD. This puts the
-	avionics ventilation into closed configuration and adds cooling air from the air
-	conditioning system.</para>
+	avionics ventilation into closed configuration and adds cooling air from the air conditioning
+	system.</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> EXTRACT FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
-      </sect1>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Skin valve fault</title>
 
-	<para>Defined as one of three faults: the inlet valve is not fully closed in flight, the
-	extract valve is fully open in flight or the extract valve did not automatically close on
-	application of take-off power. The ECAM Cab Press page will differentiate.</para>
+	<para>Defined as one of three faults: the inlet valve is not fully closed in flight, the extract
+	valve is fully open in flight or the extract valve did not automatically close on application of
+	take-off power. The ECAM Cab Press page will differentiate.</para>
 
 	<para>If the fault is with the inlet valve, no action is required since it incorporates a
 	non-return valve.</para>
 
-	<para>If the extract valve is affected, the system should be put into smoke configuration;
-	this sends additional close signals to the extract valve. If this fails, the aircraft must
-	be depressurised<!-- {TODO: find out why} -->.</para>
+	<para>If the extract valve is affected, the system should be put into smoke configuration; this
+	sends additional close signals to the extract valve. If this fails, the aircraft must be
+	depressurised<!-- {TODO: find out why} -->.</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> SKIN VALVE FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
-      </sect1>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Avionics ventilation system vault</title>
 
 	<para>Defined as either a valve not in its commanded position or the Avionics Equipment
-	Ventilation Controller (AEVC) being either unpowered or failing its power-up test. The
-	system will automatically default to a safe configuration similar to smoke configuration. No
-	crew action is required.</para>
+	Ventilation Controller (AEVC) being either unpowered or failing its power-up test. The system
+	will automatically default to a safe configuration similar to smoke configuration. No crew
+	action is required.</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> AVNCS SYS FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
-      </sect1>
+  </sect1>
+</chapter>
 
-    </chapter>
-    <chapter>
+
+<chapter>
       <title>Electrical</title>
       <sect1 id="emerg-elec-config">
         <title>Emergency configuration</title>
