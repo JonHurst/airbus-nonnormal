@@ -4080,132 +4080,144 @@
 
 
 <chapter>
-      <title>Pneumatic</title>
-      <sect1 revisionflag="changed" id="dual-bleed">
-        <title>Dual bleed failure</title>
+  <title>Pneumatic</title>
 
-        <para>The historical failure case where supplying two packs from one bleed would overload it
-        and cause it to fail appears to have been resolved. Furthermore, recent airframes have four
-        new ECAM procedures associated with dual bleed failure, the variants based on whether neither,
-        either or both bleeds have failed due to a wing or pylon leak on its respective side. The
-        ECAMs all hand off to a new QRH paper procedure if no successful reset is achieved. Older
-        airframes make do with just the QRH procedure.</para>
+  <sect1 revisionflag="changed" id="dual-bleed">
+    <title>Dual bleed failure</title>
 
-        <para>Whilst the procedures look complex, the underlying philosophy is fairly simple:
+    <para>The historical failure case where supplying two packs from one bleed would overload it and
+    cause it to fail appears to have been resolved. Furthermore, recent airframes have four new ECAM
+    procedures associated with dual bleed failure, the variants based on whether neither, either or
+    both bleeds have failed due to a wing or pylon leak on its respective side. The ECAMs all hand
+    off to a new QRH paper procedure if no successful reset is achieved. Older airframes make do
+    with just the QRH procedure.</para>
 
-        <itemizedlist>
-          <listitem><para>A depressurisation will be underway. It should be relatively slow, but
-          unless a successful reset is achieved immediately, a prompt descent to FL100/MFA needs to
-          be initiated.</para></listitem>
+    <para>Whilst the procedures look complex, the underlying philosophy is fairly simple:
 
-          <listitem><para>A bleed lost to a wing or pylon leak is lost for good, whereas a simple
-          bleed fault or bleed low pressure may be recoverable. The cross bleed should be shut and
-          the wing anti-ice should be off before an attempt is made to recover a
-          bleed.</para></listitem>
+    <itemizedlist>
+      <listitem><para>A depressurisation will be underway. It should be relatively slow, but unless
+      a successful reset is achieved immediately, a prompt descent to FL100/MFA needs to be
+      initiated.</para></listitem>
 
-          <listitem><para>A leak on the left side precludes the use of the APU bleed for
-          pressurisation, but otherwise the APU bleed can be used to supply pack 1 when below
-          22500ft. If pack 1 is unavailable, the APU bleed can supply pack 2 via the cross bleed
-          provided the whole pneumatic system is available.</para></listitem>
-        </itemizedlist>
-        </para>
+      <listitem><para>A bleed lost to a wing or pylon leak is lost for good, whereas a simple bleed
+      fault or bleed low pressure may be recoverable. The cross bleed should be shut and the wing
+      anti-ice should be off before an attempt is made to recover a bleed.</para></listitem>
 
-        <para>In line with this philosophy, both the ECAM and QRH procedures start by shutting the
-        cross bleed and turning off the wing anti-ice. The ECAM procedures each then attempt an
-        immediate recovery of any recoverable bleed by cycling the bleed off then on. The QRH
-        attempts an immediate recovery only in the case that both bleeds are potentially
-        recoverable.</para>
+      <listitem><para>A leak on the left side precludes the use of the APU bleed for pressurisation,
+      but otherwise the APU bleed can be used to supply pack 1 when below 22500ft. If pack 1 is
+      unavailable, the APU bleed can supply pack 2 via the cross bleed provided the whole pneumatic
+      system is available.</para></listitem>
+    </itemizedlist></para>
 
-        <para>If no bleeds are recovered, the bleeds are all turned off and a descent to FL100/MFA
-        is initiated. At this point, the ECAM procedures join the QRH procedure.</para>
+    <para>In line with this philosophy, both the ECAM and QRH procedures start by shutting the cross
+    bleed and turning off the wing anti-ice. The ECAM procedures each then attempt an immediate
+    recovery of any recoverable bleed by cycling the bleed off then on. The QRH attempts an
+    immediate recovery only in the case that both bleeds are potentially recoverable.</para>
 
-        <para>During the descent the APU is started. If the left hand side of the pneumatic system
-        is available, at attempt to use the APU bleed for pressurisation is made at FL200. If this is
-        successful, the descent is stopped at FL200 and a further attempt is made to reset the
-        engine bleeds; if unsuccessful, the flight can be continued at FL200 using the APU bleed
-        for pressurisation.</para>
+    <para>If no bleeds are recovered, the bleeds are all turned off and a descent to FL100/MFA is
+    initiated. At this point, the ECAM procedures join the QRH procedure.</para>
 
-        <para>If APU cannot be used for pressurisation descent must be continued. When level at
-        FL100/MFA, a final attempt is made to restore any available engine bleeds. If unsuccessful,
-        the flight is completed with ram air.</para>
+    <para>During the descent the APU is started. If the left hand side of the pneumatic system is
+    available, at attempt to use the APU bleed for pressurisation is made at FL200. If this is
+    successful, the descent is stopped at FL200 and a further attempt is made to reset the engine
+    bleeds; if unsuccessful, the flight can be continued at FL200 using the APU bleed for
+    pressurisation.</para>
 
-        <para role="multicite">[<emphasis role="underline">AIR</emphasis> 1+2 BLEED FAULT
-        (LEFT(RIGHT) LEAK (AND RIGHT LEAK)) QRH ABN.36, FCOM PRO.ABN.36]</para>
-      </sect1>
-    </chapter>
-    <chapter>
-      <title>Communications</title>
-      <sect1 id="com-failure-icao">
+    <para>If APU cannot be used for pressurisation descent must be continued. When level at
+    FL100/MFA, a final attempt is made to restore any available engine bleeds. If unsuccessful, the
+    flight is completed with ram air.</para>
+
+    <para role="multicite">[<emphasis role="underline">AIR</emphasis> 1+2 BLEED FAULT (LEFT(RIGHT)
+    LEAK (AND RIGHT LEAK)) QRH ABN.36, FCOM PRO.ABN.36]</para>
+  </sect1>
+</chapter>
+
+
+<chapter>
+  <title>Communications</title>
+
+  <sect1 id="com-failure-icao">
 	<title>Communication failure (ICAO)</title>
-	<para>If all attempts to establish contact fail, transmit message twice on designated channel, proceeded by the
-	phrase “Transmitting Blind.”</para>
+
+    <para>If all attempts to establish contact fail, transmit message twice on designated channel,
+    proceeded by the phrase “Transmitting Blind.”</para>
 
 	<para>Set Mode A Transponder Code to 7600.</para>
 
-	<para>If in VMC, continue in VMC to the nearest suitable airfield and land, reporting arrival to appropriate ATS
-	by the most expeditious means.</para>
+	<para>If in VMC, continue in VMC to the nearest suitable airfield and land, reporting arrival to
+	appropriate ATS by the most expeditious means.</para>
 
 	<para>If in IMC or unlikely to be able to maintain VMC:
 
 	<itemizedlist>
-	  <listitem><para>If in airspace where a <emphasis>procedural</emphasis> separation service is being applied,
-	  maintain speed and level, or minimum flight altitude if higher, for a period of <emphasis>20
-	  minutes</emphasis> following failure to report over a compulsory reporting point, then adjust level and speed
-	  in accordance with flight plan.</para></listitem>
+	  <listitem><para>If in airspace where a <emphasis>procedural</emphasis> separation service is
+	  being applied, maintain speed and level, or minimum flight altitude if higher, for a period of
+	  <emphasis>20 minutes</emphasis> following failure to report over a compulsory reporting point,
+	  then adjust level and speed in accordance with flight plan.</para></listitem>
 
-	  <listitem><para>If in airspace where an ATS surveillance system is in use, maintain speed and level, or
-	  minimum flight altitude if higher, for <emphasis>7 minutes</emphasis> after Code 7600 is set, then adjust
-	  level and speed in accordance with flight plan.</para></listitem>
+	  <listitem><para>If in airspace where an ATS surveillance system is in use, maintain speed and
+	  level, or minimum flight altitude if higher, for <emphasis>7 minutes</emphasis> after Code
+	  7600 is set, then adjust level and speed in accordance with flight plan.</para></listitem>
 
-	  <listitem><para>If being radar vectored or having been directed to proceed offset using RNAV without specified
-	  limit, rejoin the flight plan route no later than the next significant point.</para></listitem>
+	  <listitem><para>If being radar vectored or having been directed to proceed offset using RNAV
+	  without specified limit, rejoin the flight plan route no later than the next significant
+	  point.</para></listitem>
 
-	  <listitem><para>On reaching the appropriate NAVAID or fix serving the destination aerodrome, hold if
-	  necessary, then at EAT, or if no EAT has been received and acknowledged, computed flight plan ETA, commence an
-	  appropriate instrument approach procedure. If possible land within 30 minutes of this time.</para></listitem>
+	  <listitem><para>On reaching the appropriate NAVAID or fix serving the destination aerodrome,
+	  hold if necessary, then at EAT, or if no EAT has been received and acknowledged, computed
+	  flight plan ETA, commence an appropriate instrument approach procedure. If possible land
+	  within 30 minutes of this time.</para></listitem>
 
 	  <listitem><para>Watch for visual signals from the tower:
 	  <itemizedlist>
 	    <listitem><para>Red Pyro: Permission to land cancelled</para></listitem>
 	    <listitem><para>Flashing Red Light: Land elsewhere</para></listitem>
-	    <listitem><para>Continuous Red: Give way to other aircraft, continue circling</para></listitem>
+	    <listitem><para>Continuous Red: Give way to other aircraft, continue
+	    circling</para></listitem>
 	    <listitem><para>Flashing Green: Return to circuit, await landing clearance</para></listitem>
 	    <listitem><para>Continuous Green: Permission to land</para></listitem>
 	  </itemizedlist></para></listitem>
-	</itemizedlist>
-	</para>
-      </sect1>
-      <sect1 id="com-failure-uk">
-        <title>Communication failure (UK airspace)</title>
-	<para>The UK procedures expand on the ICAO procedures:
+	</itemizedlist></para>
+  </sect1>
+
+
+  <sect1 id="com-failure-uk">
+    <title>Communication failure (UK airspace)</title>
+
+    <para>The UK procedures expand on the ICAO procedures:
 	<itemizedlist>
-	  <listitem><para>If following a SID fly the published lateral and vertical profiles, including any step climb,
-	  until the last waypoint of the procedure is reached. Maintain current speed and last assigned level (or
-	  minimum flight altitude if this is higher) until <emphasis>7 minutes</emphasis> have elapsed since setting
-	  7600. Then adjust speed and level in accordance with current flight plan. This procedure also applies to RNP-1
-	  (PRNAV) departures.</para></listitem>
+	  <listitem><para>If following a SID fly the published lateral and vertical profiles, including
+	  any step climb, until the last waypoint of the procedure is reached. Maintain current speed
+	  and last assigned level (or minimum flight altitude if this is higher) until <emphasis>7
+	  minutes</emphasis> have elapsed since setting 7600. Then adjust speed and level in accordance
+	  with current flight plan. This procedure also applies to RNP-1 (PRNAV)
+	  departures.</para></listitem>
 
-	  <listitem><para>If following a STAR, follow the lateral profile but maintain current speed and last assigned
-	  level (or minimum flight altitude if this is higher) until <emphasis>7 minutes</emphasis> have elapsed since
-	  setting 7600. Subsequently, arrange descent to be as close as possible to published planning profile. If no
-	  profile is published, arrange to be at the IAF at minimum published level. This procedure also applies to
-	  RNP-1 (PRNAV) arrivals.</para></listitem>
+	  <listitem><para>If following a STAR, follow the lateral profile but maintain current speed and
+	  last assigned level (or minimum flight altitude if this is higher) until <emphasis>7
+	  minutes</emphasis> have elapsed since setting 7600. Subsequently, arrange descent to be as
+	  close as possible to published planning profile. If no profile is published, arrange to be at
+	  the IAF at minimum published level. This procedure also applies to RNP-1 (PRNAV)
+	  arrivals.</para></listitem>
 
-	  <listitem><para>If under radar vectors from Approach Control Radar, comply with instructions on radar
-	  vectoring chart. If under radar vectors without specified limit from other ATS unit, continue in accordance
-	  with last instructions until <emphasis>3 minutes</emphasis> have elapsed since setting 7600, then proceed in
-	  most direct manner to rejoin current flight plan route. If necessary, climb to minimum flight
-	  altitude.</para></listitem>
+	  <listitem><para>If under radar vectors from Approach Control Radar, comply with instructions
+	  on radar vectoring chart. If under radar vectors without specified limit from other ATS unit,
+	  continue in accordance with last instructions until <emphasis>3 minutes</emphasis> have
+	  elapsed since setting 7600, then proceed in most direct manner to rejoin current flight plan
+	  route. If necessary, climb to minimum flight altitude.</para></listitem>
 
-	  <listitem><para>If performing an SRA, continue visually or by using an alternate approach aid. If this is not
-	  possible, carry out a missed approach and continue to the holding position of a suitable aerodrome with a
-	  notified instrument approach and carry out that procedure.</para></listitem>
+	  <listitem><para>If performing an SRA, continue visually or by using an alternate approach
+	  aid. If this is not possible, carry out a missed approach and continue to the holding position
+	  of a suitable aerodrome with a notified instrument approach and carry out that
+	  procedure.</para></listitem>
 	</itemizedlist></para>
 
-        <para role="multicite">[ICAO Annex 10, ICAO DOC 4444, UKAIP ENR 1.1.3.4]</para>
-      </sect1>
-    </chapter>
-    <chapter id="misc-tips">
+    <para role="multicite">[ICAO Annex 10, ICAO DOC 4444, UKAIP ENR 1.1.3.4]</para>
+  </sect1>
+</chapter>
+
+
+<chapter id="misc-tips">
       <title>Miscellaneous Tips</title>
         <itemizedlist>
           <listitem><para>When configuring, V<subscript>LS</subscript> is more critical than
