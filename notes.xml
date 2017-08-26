@@ -1047,8 +1047,8 @@
 
 	<para>Defined as low blowing pressure or duct overheat. Unless there is a DC ESS Bus fault,
 	the blower fan should be set to OVRD. This puts the avionics ventilation into closed
-	configuration and adds cooling air from the air conditioning system.{TODO:investigate
-	involvement of DC ESS BUS fault}</para>
+	configuration and adds cooling air from the air conditioning system.<!-- {TODO:investigate -->
+	<!-- involvement of DC ESS BUS fault} --></para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> BLOWER FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
@@ -1077,7 +1077,7 @@
 
 	<para>If the extract valve is affected, the system should be put into smoke configuration;
 	this sends additional close signals to the extract valve. If this fails, the aircraft must
-	be depressurised {TODO: find out why}.</para>
+	be depressurised<!-- {TODO: find out why} -->.</para>
 
 	<para role="multicite">[<emphasis role="underline">VENT</emphasis> SKIN VALVE FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
@@ -2120,7 +2120,7 @@
       <sect1 id="asymmetric-braking">
         <title>Asymmetric braking</title>
         <para>If brakes are only available on one side (indicated by amber brake release indicators on both wheels of
-        one main gear {TODO: check this} ), apply the remaining brake progressively whilst countering swing
+        one main gear <!-- {TODO: check this}  -->), apply the remaining brake progressively whilst countering swing
         with rudder. Do not use the reverse on the same side as the working brake. Landing distances will increase
         significantly.</para>
 
@@ -2238,8 +2238,8 @@
         be inhibited to prevent spurious warnings.</para>
 
         <para>If both LGCIUs are lost, normal landing gear control and indicating systems are lost. The gear must be
-        gravity extended (see <xref linkend="gear-gravity-extension"/>). {TODO: Autopilot and autothrust are also lost –
-        find out why this is}</para>
+        gravity extended (see <xref linkend="gear-gravity-extension"/>).<!--  {TODO: Autopilot and autothrust are also lost – -->
+        <!-- find out why this is} --></para>
 
         <para role="multicite">[<emphasis role="underline">L/G</emphasis> LGCIU 1(2) FAULT,
         FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
@@ -2311,7 +2311,7 @@
         <para>Temperature must be &lt;300°C for takeoff to prevent ignition of any hydraulic fluid that leaks onto the
         brake. Use brake fans as necessary to bring the temperature down in time for the next takeoff. The brake fans
         also cool the temperature sensor, so assume the real brake temperature is twice that indicated if they have
-        recently been used. {TODO: Check whether we use chocks and release the parking brake}.</para>
+        recently been used. <!-- {TODO: Check whether we use chocks and release the parking brake}. --></para>
 
         <para>If the warning appears in flight, providing that performance permits, the landing gear should be extended
         to allow the brakes to cool.</para>
@@ -2617,7 +2617,7 @@
 
         <para>In flight, if no ECAM is triggered, the affected thrust lever should be retarded to idle. If the engine
         parameters remain abnormal, shut the engine down with the master switch. If the parameters are normal, turn on
-        all the anti-icing to increase bleed demand {TODO: This is inferred – check it} and slowly advance the thrust
+        all the anti-icing to increase bleed demand and slowly advance the thrust
         lever. If the stall recurs, the engine can be operated at low thrust settings, otherwise it can be operated
         normally.</para>
 
@@ -2638,8 +2638,8 @@
         cranking. Firstly, a source of bleed air must be available to power the starter. Possibilities, in order of
         preference, are the APU, the opposite engine or a ground air cart. If using the opposite engine, the source
         engine bleed must be on, the target engine bleed should be off, the cross bleed should be opened and thrust
-        increased to provide 30 psi of pressure. {TODO: This is just the crossbleed start procedure from QRH SI.150 –
-        check that there are no differences}. If using ground air, both engine bleeds should be off and the cross bleed
+        increased to provide 30 psi of pressure.<!--  {TODO: This is just the crossbleed start procedure from QRH SI.150 – -->
+        <!-- check that there are no differences} -->. If using ground air, both engine bleeds should be off and the cross bleed
         opened. Once high pressure air is available, select the engine mode selector to crank and select the man start
         button to on. Once the fire is extinguished, select the man start button off and the engine mode selector to
         normal.</para>
@@ -3042,7 +3042,7 @@
 
         <para>A single ADR fault simply requires switching to the hot spare and turning the affected unit off. Loss of
         ADR1 will lead to the loss of the extended functions of the EGPWS. Loss of ADR2 will lead to both baro reference
-        channels being driven by the same FCU channel {TODO: Find out details of this}, so the baro refs should be
+        channels being driven by the same FCU channel <!-- {TODO: Find out details of this} -->, so the baro refs should be
         checked.</para>
 
         <para>Loss of two ADRs will lead to Alternate Law with associated speed restrictions and landing configuration
@@ -3503,7 +3503,7 @@
         <title>Engine anti-ice valve fault</title>
 
         <para>If a valve fails to open when commanded, avoid icing conditions. If it fails to close when commanded, a
-        thrust limit penalty applies {TODO: Check this is automatically applied by the relevant FADEC}.</para>
+        thrust limit penalty applies<!-- {TODO: Check this is automatically applied by the relevant FADEC} -->.</para>
 
         <para role="multicite">[<emphasis
 	role="underline">ANTI ICE</emphasis> ENG 1(2) VALVE OPEN(CLSD), FCOM DSC.30.30.30,
@@ -3542,7 +3542,7 @@
       <sect1>
         <title>High pressure detected when wing anti-ice turned on</title>
 
-        <para>A thrust limit penalty is applied automatically. {TODO: Check that this is automatic}</para>
+        <para>A thrust limit penalty is applied automatically. <!-- {TODO: Check that this is automatic} --></para>
 
         <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) HI PR,
         FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
