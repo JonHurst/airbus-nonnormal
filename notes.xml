@@ -2321,339 +2321,442 @@
 
 
 <chapter>
-      <title>Landing gear</title>
-      <sect1 id="loss-of-braking">
-        <title>Loss of braking <emphasis>(memory item)</emphasis></title>
-        <para>If it is simply an autobrake failure, just brake manually. Otherwise, apply max reverse and attempt to use
-        the alternate brake system. To do this, release the brake pedals and turn off the ASKID &amp; NW STRG switch. If
-        the alternate system also appears to have failed, short successive applications of the parking brake may be
-        used. Use of the parking brake in this way risks tire burst and lateral control difficulties (due brake onset
-        asymmetry) so delay until low speed if at all possible.</para>
+  <title>Landing gear</title>
 
-        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
-      </sect1>
-      <sect1>
-        <title>Residual braking procedure</title>
-        <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM warning. A brief
-        brake pressure indication is expected as the alternate system self tests after the gear is down locked, but
-        pressure should quickly return to zero. If the triple indicator shows residual pressure after this test, try to
-        zero it by pressing the brake pedals several times. If a landing must be made with residual pressure in the
-        alternate braking system, use autobrake MED or immediate manual braking to prioritise the normal
-        system. Anticipate brake asymmetry at touchdown.</para>
+  <sect1 id="loss-of-braking">
+    <title>Loss of braking <emphasis>(memory item)</emphasis></title>
 
-        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
-      </sect1>
-      <sect1 id="gear-gravity-extension">
-        <title>Gravity extension</title>
-        <para>Gravity extension is achieved by turning the GRAVITY GEAR EXTN handcrank clockwise three times until a
-        mechanical stop is reached. Once the gear is down, the LG lever should be set to down to extinguish the UNLK
-        lights and remove the LG CTL message from the WHEEL page.</para>
+    <para>If it is simply an autobrake failure, just brake manually. Otherwise, apply max reverse
+    and attempt to use the alternate brake system. To do this, release the brake pedals and turn off
+    the ASKID &amp; NW STRG switch. If the alternate system also appears to have failed, short
+    successive applications of the parking brake may be used. Use of the parking brake in this way
+    risks tire burst and lateral control difficulties (due brake onset asymmetry) so delay until low
+    speed if at all possible.</para>
 
-        <para>Availability of landing gear indications depends on the nature of the failure that resulted in the
-        requirement for gravity extension. LDG GEAR control panel indications may still be available if LGCIU 1 is
-        otherwise unserviceable, providing that it is electrically supplied.</para>
+    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+  </sect1>
 
-        <para>Gear doors may show amber on the WHEEL page after gravity extension. There may also be spurious LGCIU 2
-        FAULT or BRAKES SYS 1(2) FAULT ECAM warnings.</para>
 
-        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
-      </sect1>
-      <sect1 id="asymmetric-braking">
-        <title>Asymmetric braking</title>
-        <para>If brakes are only available on one side (indicated by amber brake release indicators on both wheels of
-        one main gear <!-- {TODO: check this}  -->), apply the remaining brake progressively whilst countering swing
-        with rudder. Do not use the reverse on the same side as the working brake. Landing distances will increase
-        significantly.</para>
+  <sect1>
+    <title>Residual braking procedure</title>
 
-        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
-      </sect1>
-      <sect1>
-        <title>Landing with abnormal landing gear</title>
-        <para>A landing should be carried out on a hard surface runway using any available landing gear. Foaming of the
-        runway is recommended. Manual braking should be used. Reverse thrust should not be used as it will cause ground
-        spoiler extension. The GRVTY GEAR EXTN handcrank should be turned back to normal to allow the landing gear down
-        actuators to be pressurised and thus reduce the chance of gear collapse.</para>
+    <para>Residual brake pressure must be checked after landing gear extension as there is no ECAM
+    warning. A brief brake pressure indication is expected as the alternate system self tests after
+    the gear is down locked, but pressure should quickly return to zero. If the triple indicator
+    shows residual pressure after this test, try to zero it by pressing the brake pedals several
+    times. If a landing must be made with residual pressure in the alternate braking system, use
+    autobrake MED or immediate manual braking to prioritise the normal system. Anticipate brake
+    asymmetry at touchdown.</para>
 
-        <para>If the nose gear is not available, move the CG aft by moving passengers to the rear of the aircraft. Use
-        elevator to keep the nose off the runway, but lower the nose onto the runway before elevator control is
-        lost. Braking must be progressive and balanced against available elevator authority. The engines should be shut
-        down with the ENG MASTER switches prior to nose impact.</para>
+    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+  </sect1>
 
-        <para>If one main gear is not available, consider crossfeeding to remove the fuel from the wing with the
-        unserviceable gear. The anti-skid system cannot operate with a single main gear extended and must be switched
-        off to avoid permanent brake release. The ground spoilers should not be armed in order to maintain the maximum
-        possible roll authority. The engines should be shut down at touchdown. After touchdown, use roll control to keep
-        the unsupported wing from touching down for as long as possible.</para>
 
-        <para>If both main gear are unavailable, the engines should be shut down in the flare. Pitch attitude at
-        touchdown must be >6°.</para>
+  <sect1 id="gear-gravity-extension">
+    <title>Gravity extension</title>
 
-        <para>All doors and slides are available for evacuation in any of the normal gear up attitudes.</para>
+    <para>Gravity extension is achieved by turning the GRAVITY GEAR EXTN handcrank clockwise three
+    times until a mechanical stop is reached. Once the gear is down, the LG lever should be set to
+    down to extinguish the UNLK lights and remove the LG CTL message from the WHEEL page.</para>
 
-        <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
-      </sect1>
-      <sect1 id="flight-with-gear-extended">
-        <title>Flight with landing gear extended</title>
+    <para>Availability of landing gear indications depends on the nature of the failure that
+    resulted in the requirement for gravity extension. LDG GEAR control panel indications may still
+    be available if LGCIU 1 is otherwise unserviceable, providing that it is electrically
+    supplied.</para>
 
-        <para>Flight into expected icing conditions is not approved. Gear down ditching has not been
-        demonstrated. FMGC predictions will be erroneous – selected speed should be used for all
-        phases except approach. CLB and DES modes should not be used. Altitude alerting will not be
-        available. Any failure that normally causes a degradation to alternate law will instead
-        cause a degradation to direct law.</para>
+    <para>Gear doors may show amber on the WHEEL page after gravity extension. There may also be
+    spurious LGCIU 2 FAULT or BRAKES SYS 1(2) FAULT ECAM warnings.</para>
 
-        <para>The dual engine failure scenario is modified to reflect the gear limiting speed. Assisted start should be
-        preferred. If the APU is not available, gear limit speeds should be disregarded to achieve a
-        windmill start. Flight controls will be in direct law; manual pitch trim should be
-        available, even when not annunciated on the PFD.</para>
+    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+  </sect1>
 
-        <para>Performance in all phases will be affected. In particular, approach climb limiting weights for go-around
-        (see FCOM PRO.SPO.25) must be reduced by 14%. Fuel burn will increase (approximate factor is 2.3). Engine out
-        ceiling and take-off performance are also impacted.</para>
 
-        <para role="multicite">[FCOM PRO.SPO.25]</para>
-      </sect1>
-      <sect1>
-        <title>Gear shock absorber fault</title>
+  <sect1 id="asymmetric-braking">
+    <title>Asymmetric braking</title>
 
-        <para>A shock absorber did not extend when airborne or did not compress on landing. If airborne the gear cannot
-        be retracted. Respect the gear extended limit speed of 280kt and see <xref
-        linkend="flight-with-gear-extended"/>.</para>
+    <para>If brakes are only available on one side (indicated by amber brake release indicators on
+    both wheels of one main gear <!-- {TODO: check this} -->), apply the remaining brake
+    progressively whilst countering swing with rudder. Do not use the reverse on the same side as
+    the working brake. Landing distances will increase significantly.</para>
 
-        <para role="multicite">[<emphasis role="underline">L/G</emphasis> SHOCK ABSORBER FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
-      </sect1>
-      <sect1>
-        <title>Gear not uplocked</title>
-        <para>Landing gear retraction sequence has not completed within 30 seconds. If the gear doors have closed, the
-        gear will rest on the doors so avoid excess g loads. If the doors have not closed, recycle the gear. If this
-        does not work, select the gear down and see <xref linkend="flight-with-gear-extended"/>.</para>
+    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+  </sect1>
 
-        <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT UPLOCKED,
-        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
-      </sect1>
-      <sect1 id="gear-not-downlocked">
-        <title>Gear not downlocked</title>
 
-        <para>If the landing gear extension sequence has not completed within 30 seconds, retract the gear, wait until
-        it has fully stowed, and then redeploy it. Recent studies show that if the gear does not immediately deploy
-        successfully following reselection, it may deploy normally within the next two minutes as hydraulic pressure
-        continues to act on the gear and doors throughout this time. If still unsuccessful after two minutes, attempt to
-        deploy the gear by gravity (see <xref linkend="gear-gravity-extension"/>).</para>
+  <sect1>
+    <title>Landing with abnormal landing gear</title>
 
-        <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWNLOCKED,
-        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
-      </sect1>
-      <sect1>
-        <title>Gear doors not closed</title>
+    <para>A landing should be carried out on a hard surface runway using any available landing
+    gear. Foaming of the runway is recommended. Manual braking should be used. Reverse thrust should
+    not be used as it will cause ground spoiler extension. The GRVTY GEAR EXTN handcrank should be
+    turned back to normal to allow the landing gear down actuators to be pressurised and thus reduce
+    the chance of gear collapse.</para>
 
-        <para>A gear door is not uplocked. Recycle the gear. If the doors cannot be closed, speed is limited to
-        250kt/M0.6.</para>
+    <para>If the nose gear is not available, move the CG aft by moving passengers to the rear of the
+    aircraft. Use elevator to keep the nose off the runway, but lower the nose onto the runway
+    before elevator control is lost. Braking must be progressive and balanced against available
+    elevator authority. The engines should be shut down with the ENG MASTER switches prior to nose
+    impact.</para>
 
-        <para role="multicite">[<emphasis role="underline">L/G</emphasis> DOORS NOT CLOSED,
-        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
-      </sect1>
-      <sect1>
-        <title>Uplock fault</title>
-        <para>An uplock is engaged when the corresponding gear is downlocked. As the uplock will not move to accept the
-        gear the gear must be left down. See <xref linkend="flight-with-gear-extended"/>.</para>
+    <para>If one main gear is not available, consider crossfeeding to remove the fuel from the wing
+    with the unserviceable gear. The anti-skid system cannot operate with a single main gear
+    extended and must be switched off to avoid permanent brake release. The ground spoilers should
+    not be armed in order to maintain the maximum possible roll authority. The engines should be
+    shut down at touchdown. After touchdown, use roll control to keep the unsupported wing from
+    touching down for as long as possible.</para>
 
-        <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR UPLOCK FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
-      </sect1>
-      <sect1>
-        <title>LGCIU disagreement</title>
-        <para>The LGCIUs disagree on the position of the gear. In the absence of other ECAM warnings, the gear position
-        can be assumed to agree with the gear lever position.</para>
+    <para>If both main gear are unavailable, the engines should be shut down in the flare. Pitch
+    attitude at touchdown must be >6°.</para>
 
-        <para role="multicite">[<emphasis role="underline">L/G</emphasis> SYS DISAGREE,
-        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
-      </sect1>
-      <sect1>
-        <title>LGCIU fault</title>
+    <para>All doors and slides are available for evacuation in any of the normal gear up
+    attitudes.</para>
 
-        <para>The FADECs use LGCIU input to determine idle mode. If a LGCIU is determined to be faulty, the system
-        failsafes to approach idle mode, and modulated idle and reverse idle (and hence reversers) will not be
-        available.</para>
+    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+  </sect1>
 
-        <para>The GPWS uses LGCIU 1 to determine landing gear position. If this LGCIU is faulty, the GPWS will need to
-        be inhibited to prevent spurious warnings.</para>
 
-        <para>If both LGCIUs are lost, normal landing gear control and indicating systems are lost. The gear must be
-        gravity extended (see <xref linkend="gear-gravity-extension"/>).<!--  {TODO: Autopilot and autothrust are also lost – -->
-        <!-- find out why this is} --></para>
+  <sect1 id="flight-with-gear-extended">
+    <title>Flight with landing gear extended</title>
 
-        <para role="multicite">[<emphasis role="underline">L/G</emphasis> LGCIU 1(2) FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
-      </sect1>
-      <sect1>
-        <title>Gear not down</title>
+    <para>Flight into expected icing conditions is not approved. Gear down ditching has not been
+    demonstrated. FMGC predictions will be erroneous – selected speed should be used for all phases
+    except approach. CLB and DES modes should not be used. Altitude alerting will not be
+    available. Any failure that normally causes a degradation to alternate law will instead cause a
+    degradation to direct law.</para>
 
-        <para>Indicates that the landing gear is not downlocked when radio altitude is below 750ft rad alt and N1 and
-        flap setting indicate that the aircraft is on approach. If rad alt data is not available, it indicates gear is
-        not down when flap 3 or flap full is selected. In some cases the warning may be cancelled with the emergency
-        cancel pushbutton.</para>
+    <para>The dual engine failure scenario is modified to reflect the gear limiting speed. Assisted
+    start should be preferred. If the APU is not available, gear limit speeds should be disregarded
+    to achieve a windmill start. Flight controls will be in direct law; manual pitch trim should be
+    available, even when not annunciated on the PFD.</para>
 
-        <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWN,
-        FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
-      </sect1>
-      <sect1>
-        <title>Park brake on</title>
-        <para>The parking brake is set when the thrust levers are set to FLX or TOGA. Check the position of the brake
-        handle position and for pressure indications on the brake triple gauge.</para>
+    <para>Performance in all phases will be affected. In particular, approach climb limiting weights
+    for go-around (see FCOM PRO.SPO.25) must be reduced by 14%. Fuel burn will increase (approximate
+    factor is 2.3). Engine out ceiling and take-off performance are also impacted.</para>
 
-        <para role="multicite">[<emphasis role="underline">CONFIG</emphasis> PARK BRK ON,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Nosewheel steering fault</title>
-        <para>Nosewheel steering is unavailable so differential braking must be used to steer the aircraft. The
-        nosewheel may not be aligned if the L/G shock absorber ECAM is also displayed, in which case delay nosewheel
-        touch down as long as possible. Cat III dual will not be available.</para>
+    <para role="multicite">[FCOM PRO.SPO.25]</para>
+  </sect1>
 
-        <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> N/W STRG FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.20.30]</para>
-      </sect1>
-      <sect1 id="antiskid-nosewheel-steering-off">
-        <title>Antiskid nosewheel steering off</title>
-        <para>The A/SKID &amp; NW STRG switch is off. The ABCU controls
-        braking through the alternate braking system. Antiskid is not available so landing distance will increase
-        significantly. Autobrake and nosewheel steering will also not be available.</para>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ANTI SKID/NWS OFF,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Antiskid nosewheel steering fault</title>
-        <para>Either:
+  <sect1>
+    <title>Gear shock absorber fault</title>
+
+    <para>A shock absorber did not extend when airborne or did not compress on landing. If airborne
+    the gear cannot be retracted. Respect the gear extended limit speed of 280kt and see <xref
+    linkend="flight-with-gear-extended"/>.</para>
+
+    <para role="multicite">[<emphasis role="underline">L/G</emphasis> SHOCK ABSORBER FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Gear not uplocked</title>
+
+    <para>Landing gear retraction sequence has not completed within 30 seconds. If the gear doors
+    have closed, the gear will rest on the doors so avoid excess g loads. If the doors have not
+    closed, recycle the gear. If this does not work, select the gear down and see <xref
+    linkend="flight-with-gear-extended"/>.</para>
+
+    <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT UPLOCKED,
+    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+  </sect1>
+
+
+  <sect1 id="gear-not-downlocked">
+    <title>Gear not downlocked</title>
+
+    <para>If the landing gear extension sequence has not completed within 30 seconds, retract the
+    gear, wait until it has fully stowed, and then redeploy it. Recent studies show that if the gear
+    does not immediately deploy successfully following reselection, it may deploy normally within
+    the next two minutes as hydraulic pressure continues to act on the gear and doors throughout
+    this time. If still unsuccessful after two minutes, attempt to deploy the gear by gravity (see
+    <xref linkend="gear-gravity-extension"/>).</para>
+
+    <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWNLOCKED,
+    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Gear doors not closed</title>
+
+    <para>A gear door is not uplocked. Recycle the gear. If the doors cannot be closed, speed is
+    limited to 250kt/M0.6.</para>
+
+    <para role="multicite">[<emphasis role="underline">L/G</emphasis> DOORS NOT CLOSED,
+    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Uplock fault</title>
+
+    <para>An uplock is engaged when the corresponding gear is downlocked. As the uplock will not
+    move to accept the gear the gear must be left down. See <xref
+    linkend="flight-with-gear-extended"/>.</para>
+
+    <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR UPLOCK FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>LGCIU disagreement</title>
+
+    <para>The LGCIUs disagree on the position of the gear. In the absence of other ECAM warnings,
+    the gear position can be assumed to agree with the gear lever position.</para>
+
+    <para role="multicite">[<emphasis role="underline">L/G</emphasis> SYS DISAGREE, FCOM PRO.ABN.32,
+    FCOM DSC.32.10.50]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>LGCIU fault</title>
+
+    <para>The FADECs use LGCIU input to determine idle mode. If a LGCIU is determined to be faulty,
+    the system failsafes to approach idle mode, and modulated idle and reverse idle (and hence
+    reversers) will not be available.</para>
+
+    <para>The GPWS uses LGCIU 1 to determine landing gear position. If this LGCIU is faulty, the
+    GPWS will need to be inhibited to prevent spurious warnings.</para>
+
+    <para>If both LGCIUs are lost, normal landing gear control and indicating systems are lost. The
+    gear must be gravity extended (see <xref linkend="gear-gravity-extension"/>).<!-- {TODO:
+    Autopilot and autothrust are also lost – --> <!-- find out why this is} --></para>
+
+    <para role="multicite">[<emphasis role="underline">L/G</emphasis> LGCIU 1(2) FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Gear not down</title>
+
+    <para>Indicates that the landing gear is not downlocked when radio altitude is below 750ft rad
+    alt and N1 and flap setting indicate that the aircraft is on approach. If rad alt data is not
+    available, it indicates gear is not down when flap 3 or flap full is selected. In some cases the
+    warning may be cancelled with the emergency cancel pushbutton.</para>
+
+    <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWN,
+    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Park brake on</title>
+
+    <para>The parking brake is set when the thrust levers are set to FLX or TOGA. Check the position
+    of the brake handle position and for pressure indications on the brake triple gauge.</para>
+
+    <para role="multicite">[<emphasis role="underline">CONFIG</emphasis> PARK BRK ON,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Nosewheel steering fault</title>
+
+    <para>Nosewheel steering is unavailable so differential braking must be used to steer the
+    aircraft. The nosewheel may not be aligned if the L/G shock absorber ECAM is also displayed, in
+    which case delay nosewheel touch down as long as possible. Cat III dual will not be
+    available.</para>
+
+    <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> N/W STRG FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.20.30]</para>
+  </sect1>
+
+
+  <sect1 id="antiskid-nosewheel-steering-off">
+    <title>Antiskid nosewheel steering off</title>
+
+    <para>The A/SKID &amp; NW STRG switch is off. The ABCU controls braking through the alternate
+    braking system. Antiskid is not available so landing distance will increase
+    significantly. Autobrake and nosewheel steering will also not be available.</para>
+
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ANTI SKID/NWS OFF,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Antiskid nosewheel steering fault</title>
+
+    <para>Either:
         <itemizedlist>
           <listitem><para>both BSCU channels have failed or</para></listitem>
           <listitem><para>the normal brake system has been lost and the yellow hydraulic pressure is
           low.</para></listitem>
-        </itemizedlist></para>
-        <para>Effects are as for <xref linkend="antiskid-nosewheel-steering-off"/>, although if yellow hydraulic
-          pressure is low braking will be accumulator only.</para>
+    </itemizedlist></para>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> A/SKID NWS FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Brake system fault</title>
-        <para>A fault has been detected in one channel of the BSCU. Loss of redundancy only.</para>
+    <para>Effects are as for <xref linkend="antiskid-nosewheel-steering-off"/>, although if yellow
+    hydraulic pressure is low braking will be accumulator only.</para>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> SYS 1(2) FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Brakes hot</title>
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> A/SKID NWS FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
 
-        <para>At least one brake temperature is &gt;300°C. Check <xref linkend="brake-temperature-limitations"/> if the
-        temperature is excessive or the brake temperatures are not reasonably even.</para>
 
-        <para>Temperature must be &lt;300°C for takeoff to prevent ignition of any hydraulic fluid that leaks onto the
-        brake. Use brake fans as necessary to bring the temperature down in time for the next takeoff. The brake fans
-        also cool the temperature sensor, so assume the real brake temperature is twice that indicated if they have
-        recently been used. <!-- {TODO: Check whether we use chocks and release the parking brake}. --></para>
+  <sect1>
+    <title>Brake system fault</title>
+    <para>A fault has been detected in one channel of the BSCU. Loss of redundancy only.</para>
 
-        <para>If the warning appears in flight, providing that performance permits, the landing gear should be extended
-        to allow the brakes to cool.</para>
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> SYS 1(2) FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> HOT, FCOM PRO.ABN.32,
-        FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Auto brake fault</title>
-        <para>A failure was detected when the autobrake was armed. Brake manually.</para>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> AUTO BRK FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Hydraulic selector valve fault</title>
-        <para>This ECAM message may indicate two completely different conditions:
+  <sect1>
+    <title>Brakes hot</title>
+
+    <para>At least one brake temperature is &gt;300°C. Check <xref
+    linkend="brake-temperature-limitations"/> if the temperature is excessive or the brake
+    temperatures are not reasonably even.</para>
+
+    <para>Temperature must be &lt;300°C for takeoff to prevent ignition of any hydraulic fluid that
+    leaks onto the brake. Use brake fans as necessary to bring the temperature down in time for the
+    next takeoff. The brake fans also cool the temperature sensor, so assume the real brake
+    temperature is twice that indicated if they have recently been used. <!-- {TODO: Check whether
+    we use chocks and release the parking brake}. --></para>
+
+    <para>If the warning appears in flight, providing that performance permits, the landing gear
+    should be extended to allow the brakes to cool.</para>
+
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> HOT, FCOM PRO.ABN.32,
+    FCOM DSC.32.30.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Auto brake fault</title>
+
+    <para>A failure was detected when the autobrake was armed. Brake manually.</para>
+
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> AUTO BRK FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Hydraulic selector valve fault</title>
+
+    <para>This ECAM message may indicate two completely different conditions:
         <orderedlist>
-          <listitem><para>The normal brake selector valve has failed in the open position. The normal servo valves
-          (downstream of the selector valve) will have continuous full pressure at their inlets, but, as long as
-          anti-skid is operative, will control brake pressure and anti-skid normally.</para></listitem>
-          <listitem><para>The steering selector valve has failed in the open position. This means that the steering will
-          remain pressurised as long as there is pressure in the yellow hydraulic system. This has obvious implications
-          if towing is attempted, but will also mean that the nosewheel will go to maximum deflection if the A/SKID
-          &amp; N/W STRG switch is selected off or the BSCU is reset.</para></listitem>
+          <listitem><para>The normal brake selector valve has failed in the open position. The
+          normal servo valves (downstream of the selector valve) will have continuous full pressure
+          at their inlets, but, as long as anti-skid is operative, will control brake pressure and
+          anti-skid normally.</para></listitem>
+
+          <listitem><para>The steering selector valve has failed in the open position. This means
+          that the steering will remain pressurised as long as there is pressure in the yellow
+          hydraulic system. This has obvious implications if towing is attempted, but will also mean
+          that the nosewheel will go to maximum deflection if the A/SKID &amp; N/W STRG switch is
+          selected off or the BSCU is reset.</para></listitem>
         </orderedlist>
-        </para>
+    </para>
 
-        <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> HYD SEL FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Failure of normal braking system</title>
-        <para>Normal braking is lost, but alternate braking and anti-skid are available. Landing distance increases
-        slightly.</para>
+    <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> HYD SEL FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM BRK FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Failure of alternate braking system</title>
-        <para>Loss of redundancy only.</para>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN BRK FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Failure of normal and alternate braking systems</title>
-        <para>The only braking remaining is the parking brake. See <xref linkend="loss-of-braking"/> for method.</para>
+  <sect1>
+    <title>Failure of normal braking system</title>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM + ALTN FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Brake accumulator low pressure</title>
-        <para>Braking is not available unless either the green or yellow hydraulic systems are pressurised. If the
-        engines are shut down, attempt to recharge the accumulator using the yellow system electrical pump. When parking
-        the aircraft, use chocks.</para>
+    <para>Normal braking is lost, but alternate braking and anti-skid are available. Landing
+    distance increases slightly.</para>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> BRK Y ACCU LO PR,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1 id="released-normal-brakes">
-        <title>Released brakes, normal system</title>
-        <para>If normal braking is active and at least one engine is running, the BSCU self tests when it receives a
-        “gear downlocked” signal from either of the LGCIUs. The BRAKES RELEASED ECAM is provided if at least one set of
-        brakes on a main wheel is incorrectly released during this test. The failed brake is shown by an amber release
-        symbol on the WHEEL page. Loss of a brake leads to increased landing distances. If both brakes on the same gear
-        are released, see <xref linkend="asymmetric-braking"/>.</para>
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM BRK FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> RELEASED,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
-      <sect1>
-        <title>Released brakes, alternate system</title>
-        <para>The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
-        linkend="released-normal-brakes"/>). If this test is failed, normal braking can be expected as long as the
-        normal braking system is active. If the alternate braking system is active, braking will be asymmetric (see
-        <xref linkend="asymmetric-braking"/>).</para>
 
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN L(R) RELEASED,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
+  <sect1>
+    <title>Failure of alternate braking system</title>
 
-      <sect1 id="brake-temperature-limitations">
-        <title>Brake temperature limitations requiring maintenance action</title>
-        <para>Maintenance is required if:
-        <itemizedlist>
-          <listitem><para>One brake temp is &gt;600°C and the other brake on the same gear is 150°C less</para></listitem>
-          <listitem><para>One brake temp is &lt;60°C and the other brake on the same gear is 150°C
-          more</para></listitem>
-          <listitem><para>The average temp of one gear is 200°C more than the average temp of the
-          other</para></listitem>
-          <listitem><para>Any brake temp exceeds 900°C</para></listitem>
-          <listitem><para>A fuse plug has melted</para></listitem>
-        </itemizedlist></para>
+    <para>Loss of redundancy only.</para>
 
-        <para role="multicite">[FCOM PRO.SUP.32]</para>
-      </sect1>
-    </chapter>
-    <chapter id="power-plant">
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN BRK FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Failure of normal and alternate braking systems</title>
+
+    <para>The only braking remaining is the parking brake. See <xref linkend="loss-of-braking"/> for
+    method.</para>
+
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM + ALTN FAULT,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Brake accumulator low pressure</title>
+
+    <para>Braking is not available unless either the green or yellow hydraulic systems are
+    pressurised. If the engines are shut down, attempt to recharge the accumulator using the yellow
+    system electrical pump. When parking the aircraft, use chocks.</para>
+
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> BRK Y ACCU LO PR,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
+
+
+  <sect1 id="released-normal-brakes">
+    <title>Released brakes, normal system</title>
+
+    <para>If normal braking is active and at least one engine is running, the BSCU self tests when
+    it receives a “gear downlocked” signal from either of the LGCIUs. The BRAKES RELEASED ECAM is
+    provided if at least one set of brakes on a main wheel is incorrectly released during this
+    test. The failed brake is shown by an amber release symbol on the WHEEL page. Loss of a brake
+    leads to increased landing distances. If both brakes on the same gear are released, see <xref
+    linkend="asymmetric-braking"/>.</para>
+
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> RELEASED, FCOM PRO.ABN.32,
+    FCOM DSC.32.30.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Released brakes, alternate system</title>
+
+    <para>The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
+    linkend="released-normal-brakes"/>). If this test is failed, normal braking can be expected as
+    long as the normal braking system is active. If the alternate braking system is active, braking
+    will be asymmetric (see <xref linkend="asymmetric-braking"/>).</para>
+
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN L(R) RELEASED,
+    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+  </sect1>
+
+
+  <sect1 id="brake-temperature-limitations">
+    <title>Brake temperature limitations requiring maintenance action</title>
+
+    <para>Maintenance is required if:
+    <itemizedlist>
+      <listitem><para>One brake temp is &gt;600°C and the other brake on the same gear is 150°C
+      less</para></listitem>
+
+      <listitem><para>One brake temp is &lt;60°C and the other brake on the same gear is 150°C
+      more</para></listitem>
+
+      <listitem><para>The average temp of one gear is 200°C more than the average temp of the
+      other</para></listitem>
+
+      <listitem><para>Any brake temp exceeds 900°C</para></listitem>
+
+      <listitem><para>A fuse plug has melted</para></listitem>
+    </itemizedlist></para>
+
+    <para role="multicite">[FCOM PRO.SUP.32]</para>
+  </sect1>
+</chapter>
+
+
+<chapter id="power-plant">
       <title>Power plant</title>
       <sect1 id="dual-engine-failure">
         <title>Dual engine failure</title>
