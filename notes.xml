@@ -2724,10 +2724,10 @@
 	stowed. An HCU malfunction, however, could result in an in-flight reverser deployment. If
 	flight conditions permit, idle thrust should be selected on the affected engine.</para>
 
-	<para>{TODO: It is unclear from the FCOM whether the ECAM indicates pressure has reached the
+	<para>It is unclear from the FCOM whether the ECAM indicates pressure has reached the
 	directional solenoid valve and hence that the reverser door jacks are pressurised, albeit in
-	the closed direction. The existence of the REV ISOL FAULT ECAM indicates that this is
-	probably the case. Investigate further.}</para>
+	the closed direction, although the existence of the REV ISOL FAULT ECAM indicates that this is
+	probably the case.</para>
 
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REV PRESSURIZED,
