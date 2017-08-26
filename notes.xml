@@ -2757,92 +2757,92 @@
 
 
 <chapter id="power-plant">
-      <title>Power plant</title>
-      <sect1 id="dual-engine-failure">
-        <title>Dual engine failure</title>
+  <title>Power plant</title>
 
-        <para revisionflag="added">If time is short due to the failure occuring at low altitude,
-        “quick” ditching and forced landing procedures are available on the back of the normal
-        checklist. These are discussed in <xref linkend="ditching"/> and <xref
-        linkend="forced-landing"/>.</para>
+  <sect1 id="dual-engine-failure">
+    <title>Dual engine failure</title>
 
-        <para revisionflag="changed">It is recommended that the relevant QRH procedure is used
-        rather than the ECAM. If engines are running refer to QRH ABN.80. If engines are not
-        running, refer to QRH ABN.70.
-        </para>
+    <para revisionflag="added">If time is short due to the failure occuring at low altitude, “quick”
+    ditching and forced landing procedures are available on the back of the normal checklist. These
+    are discussed in <xref linkend="ditching"/> and <xref linkend="forced-landing"/>.</para>
 
-        <para>First priority, assuming fuel remains, is to attempt a relight by turning the ignitors on and setting the
-        thrust levers to idle. The speed should initially be increased to 300kt to increase windmilling and improve the
-        chance of a relight. At this speed, the aircraft will cover approximately 2nm for every 1000ft lost. With this
-        in mind, a suitable plan should be constructed to cover the possibility that relight is not possible.</para>
+    <para revisionflag="changed">It is recommended that the relevant QRH procedure is used rather
+    than the ECAM. If engines are running refer to QRH ABN.80. If engines are not running, refer to
+    QRH ABN.70.</para>
 
-        <para>Whilst awaiting a relight, ensure that the emergency electrical generator is on line and recycle FAC1 to
-        recover characteristic speed display and rudder trim. For communications, VHF1 and ATC1 are available in the
-        emergency electrical config. Due to lack of engine bleeds, a slow depressurisation will be occurring, so be ready
-        to don oxygen masks.</para>
+    <para>First priority, assuming fuel remains, is to attempt a relight by turning the ignitors on
+    and setting the thrust levers to idle. The speed should initially be increased to 300kt to
+    increase windmilling and improve the chance of a relight. At this speed, the aircraft will cover
+    approximately 2nm for every 1000ft lost. With this in mind, a suitable plan should be
+    constructed to cover the possibility that relight is not possible.</para>
 
-        <para>If there has been no relight after 30 seconds, the combustion chambers should be ventilated by turning
-        both engine masters off for 30 seconds. Another attempt can then be made by turning them back on. This sequence
-        should be repeated until successful or until APU bleed air becomes available at FL200.</para>
+    <para>Whilst awaiting a relight, ensure that the emergency electrical generator is on line and
+    recycle FAC1 to recover characteristic speed display and rudder trim. For communications, VHF1
+    and ATC1 are available in the emergency electrical config. Due to lack of engine bleeds, a slow
+    depressurisation will be occurring, so be ready to don oxygen masks.</para>
 
-        <para>Once below FL250, the APU can be started. Once below FL200, speed should be reduced to green dot and
-        assisted starts should be attempted. At green dot speed, 2½nm will be covered for every 1000ft lost. Attempt to
-        start one engine at a time in the normal manner.</para>
+    <para>If there has been no relight after 30 seconds, the combustion chambers should be
+    ventilated by turning both engine masters off for 30 seconds. Another attempt can then be made
+    by turning them back on. This sequence should be repeated until successful or until APU bleed
+    air becomes available at FL200.</para>
 
-        <para>If a landing must be made without power, CONF 3 slats are recommended (flaps are
-        unavailable). V<subscript>app</subscript> should be V<subscript>ref</subscript>+25kt or 150kt, whichever is
-        higher. The gear is available with gravity extension. The stabilizer will be frozen once engine driven
-        hydraulics are lost and elevator trimming will cease with transition to direct law at gear extension. Therefore,
-        gear extension should be delayed until CONF 3 and V<subscript>app</subscript> are reached. If ditching, do not
-        extend the gear.</para>
+    <para>Once below FL250, the APU can be started. Once below FL200, speed should be reduced to
+    green dot and assisted starts should be attempted. At green dot speed, 2½nm will be covered for
+    every 1000ft lost. Attempt to start one engine at a time in the normal manner.</para>
 
-        <para>If an airfield can be reached, arrange to be inbound on the runway centreline at 4nm
-        and 2400ft aal with CONF 1, S speed and gear up. To help achieve this, for a clean aircraft,
-        the following rules of thumb apply:
-        <itemizedlist>
-          <listitem>
-            <para>A standard one minute leg holding pattern loses 8000ft and an orbit loses
-            4000ft. Thus for every 15 seconds outbound in a holding pattern, approximately 1000ft is
-            lost.</para>
-          </listitem>
-          <listitem>
-            <para>Wings level, 400ft is lost per nm.</para>
-          </listitem>
-        </itemizedlist>
-        For the segment inbound from 4nm, macro adjustment of glide path is available through the
-        timing of gear and slat deployment, then micro adjustment is available from temporarily
-        increasing speed above V<subscript>app</subscript>. If necessary, disregard slat limiting
-        speeds. It is better to land fast then long. CONF 3, gear down will give a glide ratio of
-        approximately 850ft per nm.
-        </para>
+    <para>If a landing must be made without power, CONF 3 slats are recommended (flaps are
+    unavailable). V<subscript>app</subscript> should be V<subscript>ref</subscript>+25kt or 150kt,
+    whichever is higher. The gear is available with gravity extension. The stabilizer will be frozen
+    once engine driven hydraulics are lost and elevator trimming will cease with transition to
+    direct law at gear extension. Therefore, gear extension should be delayed until CONF 3 and
+    V<subscript>app</subscript> are reached. If ditching, do not extend the gear.</para>
 
-        <para>If an airfield cannot be reached, refer to <xref linkend="ditching"/> or <xref linkend="forced-landing"/>
-        as appropriate.</para>
+    <para>If an airfield can be reached, arrange to be inbound on the runway centreline at 4nm and
+    2400ft aal with CONF 1, S speed and gear up. To help achieve this, for a clean aircraft, the
+    following rules of thumb apply:
+    <itemizedlist>
+      <listitem>
+        <para>A standard one minute leg holding pattern loses 8000ft and an orbit loses 4000ft. Thus
+        for every 15 seconds outbound in a holding pattern, approximately 1000ft is lost.</para>
+      </listitem>
+      <listitem>
+        <para>Wings level, 400ft is lost per nm.</para>
+      </listitem>
+    </itemizedlist>
 
-        <para role="multicite">[<emphasis role="underline">ENG</emphasis> DUAL FAILURE, QRH ABN.70,
-        FCOM PRO.ABN.70, FCOM DSC.70.90]</para>
-      </sect1>
+    For the segment inbound from 4nm, macro adjustment of glide path is available through the timing
+    of gear and slat deployment, then micro adjustment is available from temporarily increasing
+    speed above V<subscript>app</subscript>. If necessary, disregard slat limiting speeds. It is
+    better to land fast then long. CONF 3, gear down will give a glide ratio of approximately 850ft
+    per nm.</para>
 
-      <sect1>
+    <para>If an airfield cannot be reached, refer to <xref linkend="ditching"/> or <xref
+    linkend="forced-landing"/> as appropriate.</para>
+
+    <para role="multicite">[<emphasis role="underline">ENG</emphasis> DUAL FAILURE, QRH ABN.70,
+    FCOM PRO.ABN.70, FCOM DSC.70.90]</para>
+  </sect1>
+
+
+  <sect1>
 	<title>Single Engine failure</title>
 
-	<para>Defined as a rapid decrease in EGT, N2 and FF, followed by a decrease in N1. The crew
-	must determine whether the engine has been damaged or whether a simple flame-out has
-	occurred. Indications of damage are loud noises, significantly increased vibration or
-	buffeting, repeated or uncontrollable engine stalls or abnormal post-failure indications
-	(e.g. hydraulic fluid loss, zero N1 or N2 etc.).</para>
+	<para>Defined as a rapid decrease in EGT, N2 and FF, followed by a decrease in N1. The crew must
+	determine whether the engine has been damaged or whether a simple flame-out has
+	occurred. Indications of damage are loud noises, significantly increased vibration or buffeting,
+	repeated or uncontrollable engine stalls or abnormal post-failure indications (e.g. hydraulic
+	fluid loss, zero N1 or N2 etc.).</para>
 
 	<para>Firstly, the ignitors are turned on to protect the remaining engine and to confirm an
-	immediate relight attempt. The thrust lever of the failed engine is then moved to idle (PF
-	moves the lever after confirmation from PNF). If the FADEC hasn’t relit the failed engine
-	within 30 seconds of the failure, it is shut down with the master switch. If damage is
-	believed to have occurred, the associated fire button is pushed and, after 10 seconds, agent
-	1 discharged.</para>
+	immediate relight attempt. The thrust lever of the failed engine is then moved to idle (PF moves
+	the lever after confirmation from PNF). If the FADEC hasn’t relit the failed engine within 30
+	seconds of the failure, it is shut down with the master switch. If damage is believed to have
+	occurred, the associated fire button is pushed and, after 10 seconds, agent 1 discharged.</para>
 
-	<para>If it is believed that the engine is undamaged, a relight can be considered. The
-	relight procedure is fairly long and highly unlikely to be successful; do not delay
-	diversion and landing by attempting a relight. Also note that a relight attempt will erase
-	FADEC troubleshooting data.</para>
+	<para>If it is believed that the engine is undamaged, a relight can be considered. The relight
+	procedure is fairly long and highly unlikely to be successful; do not delay diversion and
+	landing by attempting a relight. Also note that a relight attempt will erase FADEC
+	troubleshooting data.</para>
 
 	<para>If there is vibration and/or buffeting, attempt to find an airspeed and altitude
 	combination that minimizes the symptoms.</para>
@@ -2850,239 +2850,266 @@
 	<para>Refer to <xref linkend="engine-shut-down"/> if unable to relight the engine.</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FAIL, FCOM PRO.ABN.70,
-   FCOM DSC.70.90]</para>
-      </sect1>
+	FCOM DSC.70.90]</para>
+  </sect1>
 
-      <sect1 id="engine-shut-down">
-        <title>Single engine operation</title>
 
-        <para>The most pressing issue is that a single engine bleed cannot support wing anti-ice and
-        two packs. With the crossbleed valve selector in the normal AUTO position, the crossbleed
-        valve is effectively synchronised to the APU bleed valve<footnote><para>The exception is
-        that the crossbleed won't open if a bleed air duct leak is detected except during engine
-        start.</para></footnote> and thus will most probably be closed; wing anti-ice, if it is in
-        use, will be operating asymmetrically. If a fire button has been pushed, its associated side
-        of the pneumatic system will be locked out and thus the only option is to turn the wing
-        anti-ice off. PRO.SUP.30 OPERATIONS IN ICING CONDITIONS provides mitigation of icing in the
-        event of inoperative wing anti-ice. If both sides of the cross bleed system are available,
-        the cross bleed valve can be manually opened at a cost of 1200ft to the single engine gross
-        ceiling. With the cross bleed valve open, wing anti-ice is available, but one of the packs
-        must be turned off<footnote><para>It will need to be pack 1 in Emergency Electrical config;
-        otherwise it will generally be the pack on the dead engine side.</para></footnote> whenever
-        it is used.</para>
+  <sect1 id="engine-shut-down">
+    <title>Single engine operation</title>
 
-        <para>The remaining engine must be safeguarded. To this end, continuous ignition should be selected.</para>
+    <para>The most pressing issue is that a single engine bleed cannot support wing anti-ice and two
+    packs. With the crossbleed valve selector in the normal AUTO position, the crossbleed valve is
+    effectively synchronised to the APU bleed valve<footnote><para>The exception is that the
+    crossbleed won't open if a bleed air duct leak is detected except during engine
+    start.</para></footnote> and thus will most probably be closed; wing anti-ice, if it is in use,
+    will be operating asymmetrically. If a fire button has been pushed, its associated side of the
+    pneumatic system will be locked out and thus the only option is to turn the wing anti-ice
+    off. PRO.SUP.30 OPERATIONS IN ICING CONDITIONS provides mitigation of icing in the event of
+    inoperative wing anti-ice. If both sides of the cross bleed system are available, the cross
+    bleed valve can be manually opened at a cost of 1200ft to the single engine gross ceiling. With
+    the cross bleed valve open, wing anti-ice is available, but one of the packs must be turned
+    off<footnote><para>It will need to be pack 1 in Emergency Electrical config; otherwise it will
+    generally be the pack on the dead engine side.</para></footnote> whenever it is used.</para>
 
-        <para>A fuel imbalance may develop. Fuel imbalance limitations are detailed in FCOM LIM.28.
-        If the outer tanks are balanced, once the fuller inner tank contains less than 2250kg, fuel
-        balance will never be limiting. Since this first occurs with approximately 5900kg of fuel
-        remaining, fuel balancing due to balance limitations will generally not be required. Fuel
-        may, however, still need to be crossfed to prevent fuel starvation of the remaining
-        engine. Balance this concern against feeding your live engine the same fuel that was feeding
-        your failed engine when it stopped working.</para>
+    <para>The remaining engine must be safeguarded. To this end, continuous ignition should be
+    selected.</para>
 
-        <para>TCAS should be selected to TA to avoid unflyable climb RAs.</para>
+    <para>A fuel imbalance may develop. Fuel imbalance limitations are detailed in FCOM LIM.28.  If
+    the outer tanks are balanced, once the fuller inner tank contains less than 2250kg, fuel balance
+    will never be limiting. Since this first occurs with approximately 5900kg of fuel remaining,
+    fuel balancing due to balance limitations will generally not be required. Fuel may, however,
+    still need to be crossfed to prevent fuel starvation of the remaining engine. Balance this
+    concern against feeding your live engine the same fuel that was feeding your failed engine when
+    it stopped working.</para>
 
-        <para>If a reverser is unlocked with associated buffet, speed should be limited to
-        240kt. See <xref linkend="reverser-unlocked"/> for more details of this scenario.</para>
+    <para>TCAS should be selected to TA to avoid unflyable climb RAs.</para>
 
-        <para>If the remaining engine is operated at maximum power with the aircraft at low speed (e.g. responding to
-        windshear) it is possible that directional control may be lost before the flight computer protections apply. Be
-        cautious about reducing speed below V<subscript>LS</subscript> on one engine.</para>
+    <para>If a reverser is unlocked with associated buffet, speed should be limited to 240kt. See
+    <xref linkend="reverser-unlocked"/> for more details of this scenario.</para>
 
-        <para revisionflag="changed">The main systems lost are the generator, bleed and hydraulic
-        pump associated with the engine. Other systems may be lost depending on the reason for the
-        shutdown. The APU can be used to replace the lost generator and, providing the left side of
-        the pneumatic system is available and isolated (i.e. cross bleed valve closed), provide
-        pressurisation through pack 1, thus giving additional margin for the go-around. The BMCs
-        automatically close the engine bleeds when the APU bleed valve is opened, so it is not
-        necessary to manually turn them off to achieve this additional go-around margin. Note,
-        however, that the APU cannot support wing anti-ice.</para>
+    <para>If the remaining engine is operated at maximum power with the aircraft at low speed
+    (e.g. responding to windshear) it is possible that directional control may be lost before the
+    flight computer protections apply. Be cautious about reducing speed below
+    V<subscript>LS</subscript> on one engine.</para>
+
+    <para revisionflag="changed">The main systems lost are the generator, bleed and hydraulic pump
+    associated with the engine. Other systems may be lost depending on the reason for the
+    shutdown. The APU can be used to replace the lost generator and, providing the left side of the
+    pneumatic system is available and isolated (i.e. cross bleed valve closed), provide
+    pressurisation through pack 1, thus giving additional margin for the go-around. The BMCs
+    automatically close the engine bleeds when the APU bleed valve is opened, so it is not necessary
+    to manually turn them off to achieve this additional go-around margin. Note, however, that the
+    APU cannot support wing anti-ice.</para>
 
 	<para>Approach and landing will be fairly normal. The main provisos are
 
 	<itemizedlist>
-	  <listitem><para>Full flap should only be selected once descending on the glidepath; if a level off is required, the
-	  landing should be CONF3 [QRH ABN.80 Straight in approach with one engine inoperative].</para></listitem>
+	  <listitem><para>Full flap should only be selected once descending on the glidepath; if a level
+	  off is required, the landing should be CONF3 [QRH ABN.80 Straight in approach with one engine
+	  inoperative].</para></listitem>
 
 	  <listitem><para>Only Cat 3 Single is available due to the loss of the ability to split the
 	  electrical system.[QRH OPS]</para></listitem>
 
-	  <listitem><para>On A319s, the autopilot cannot fly FINAL APP, NAV/VS or NAV/FPA approaches. All
-	  modes are available for manual flight with flight directors. [FCOM LIM.22.10]</para></listitem>
+	  <listitem><para>On A319s, the autopilot cannot fly FINAL APP, NAV/VS or NAV/FPA
+	  approaches. All modes are available for manual flight with flight
+	  directors. [FCOM LIM.22.10]</para></listitem>
 
-	  <listitem><para>If flying manually, consider using manual thrust to better anticipate
-	  the rudder inputs required by thrust changes. Also consider setting rudder trim to zero at
-	  a late stage of the approach.[FCTM AO.020]</para></listitem>
+	  <listitem><para>If flying manually, consider using manual thrust to better anticipate the
+	  rudder inputs required by thrust changes. Also consider setting rudder trim to zero at a late
+	  stage of the approach.[FCTM AO.020]</para></listitem>
 	</itemizedlist></para>
 
-        <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) SHUT DOWN,
-        FCOM DSC.70.90, FCOM PRO.ABN.70]</para>
-      </sect1>
+    <para role="multicite">[<emphasis role="underline">ENG</emphasis> 1(2) SHUT DOWN,
+    FCOM DSC.70.90, FCOM PRO.ABN.70]</para>
+  </sect1>
 
 
-      <sect1>
-        <title>Engine relight in flight</title>
+  <sect1>
+    <title>Engine relight in flight</title>
 
-        <para>A graph showing the in flight relight envelope is provided in section ABN.70 of the QRH. The ceiling is
-        27000 ft. Automatic start is recommended, but crew action is required in case of abnormal start.</para>
+    <para>A graph showing the in flight relight envelope is provided in section ABN.70 of the
+    QRH. The ceiling is 27000 ft. Automatic start is recommended, but crew action is required in
+    case of abnormal start.</para>
 
-        <para>To prepare for the start, ensure the affected engine master switch is turned off and the affected thrust
-        lever is at idle. Select ignition on the engine mode selector and open the cross bleed. If it is anticipated
-        starter assist may be required, ensure wing anti ice is selected off.</para>
+    <para>To prepare for the start, ensure the affected engine master switch is turned off and the
+    affected thrust lever is at idle. Select ignition on the engine mode selector and open the cross
+    bleed. If it is anticipated starter assist may be required, ensure wing anti ice is selected
+    off.</para>
 
-        <para>To begin the start sequence, select the affected master switch on. The FADEC will determine whether
-        starter assist is required and will open the start valve as needed. Both ignitors are energised as soon as the
-        master switch is turned on, and the HP fuel valve opens at 15% N2. Closure of the start valve and
-        de-energisation of the ignitors occurs at 50% N2 as normal. Light off must occur within 30 seconds of fuel flow
-        initiation. If uncertain about successful relight, move the thrust lever to check for engine response. The START
-        FAULT ENG STALL ECAM may be disregarded if all other parameters are normal. </para>
+    <para>To begin the start sequence, select the affected master switch on. The FADEC will
+    determine whether starter assist is required and will open the start valve as needed. Both
+    ignitors are energised as soon as the master switch is turned on, and the HP fuel valve opens at
+    15% N2. Closure of the start valve and de-energisation of the ignitors occurs at 50% N2 as
+    normal. Light off must occur within 30 seconds of fuel flow initiation. If uncertain about
+    successful relight, move the thrust lever to check for engine response. The START FAULT ENG
+    STALL ECAM may be disregarded if all other parameters are normal. </para>
 
-        <para role="multicite">[QRH ABN.70, FCOM PRO.ABN.70]</para>
-      </sect1>
-      <sect1 id="engine-stall">
-        <title>Engine stall</title>
+    <para role="multicite">[QRH ABN.70, FCOM PRO.ABN.70]</para>
+  </sect1>
 
-        <para>A stall is indicated by abnormal engine noise, flame from the engine exhaust (and possibly inlet in
-        extreme cases), fluctuating performance parameters, sluggish thrust lever response, high EGT and/ or rapid EGT
-        rise when the thrust lever is advanced. The ECAM warning will be triggered when N2 is
-	between 50% and idle (approx 60%). If N2 is above idle, the QRH should be used.</para>
 
-        <para>The ECAM simply instructs the master switch to be turned off, and then secures the engine using the after
-        engine shut down procedure (see <xref linkend="engine-shut-down"/>). This procedure should also be followed if a
-        stall occurs on the ground.</para>
+  <sect1 id="engine-stall">
+    <title>Engine stall</title>
 
-        <para>In flight, if no ECAM is triggered, the affected thrust lever should be retarded to idle. If the engine
-        parameters remain abnormal, shut the engine down with the master switch. If the parameters are normal, turn on
-        all the anti-icing to increase bleed demand and slowly advance the thrust
-        lever. If the stall recurs, the engine can be operated at low thrust settings, otherwise it can be operated
-        normally.</para>
+    <para>A stall is indicated by abnormal engine noise, flame from the engine exhaust (and possibly
+    inlet in extreme cases), fluctuating performance parameters, sluggish thrust lever response,
+    high EGT and/ or rapid EGT rise when the thrust lever is advanced. The ECAM warning will be
+    triggered when N2 is between 50% and idle (approx 60%). If N2 is above idle, the QRH should be
+    used.</para>
 
-        <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> STALL, QRH ABN.70,
-        FCOM DSC.70.90, FCOM PRO.ABN.70]</para>
-      </sect1>
-      <sect1>
-        <title>Engine tailpipe fire</title>
+    <para>The ECAM simply instructs the master switch to be turned off, and then secures the engine
+    using the after engine shut down procedure (see <xref linkend="engine-shut-down"/>). This
+    procedure should also be followed if a stall occurs on the ground.</para>
 
-        <para>An internal engine fire may be encountered during engine start or shutdown. It will either be seen by
-        ground crew or may be indicated by EGT failing to decrease after the master switch is selected off.</para>
+    <para>In flight, if no ECAM is triggered, the affected thrust lever should be retarded to
+    idle. If the engine parameters remain abnormal, shut the engine down with the master switch. If
+    the parameters are normal, turn on all the anti-icing to increase bleed demand and slowly
+    advance the thrust lever. If the stall recurs, the engine can be operated at low thrust
+    settings, otherwise it can be operated normally.</para>
 
-        <para>Start by getting the engine to a known state by ensuring the man start button is selected off and the
-        affected engine master is selected off.</para>
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> STALL, QRH ABN.70,
+    FCOM DSC.70.90, FCOM PRO.ABN.70]</para>
+  </sect1>
 
-        <para>The concept is to blow the fire out by dry cranking the engine. It is therefore essential that the fire
-        button is <emphasis>not</emphasis> pressed, as this will remove external power from the FADEC and prevent dry
-        cranking. Firstly, a source of bleed air must be available to power the starter. Possibilities, in order of
-        preference, are the APU, the opposite engine or a ground air cart. If using the opposite engine, the source
-        engine bleed must be on, the target engine bleed should be off, the cross bleed should be opened and thrust
-        increased to provide 30 psi of pressure.<!--  {TODO: This is just the crossbleed start procedure from QRH SI.150 – -->
-        <!-- check that there are no differences} --> If using ground air, both engine bleeds should be off and the cross bleed
-        opened. Once high pressure air is available, select the engine mode selector to crank and select the man start
-        button to on. Once the fire is extinguished, select the man start button off and the engine mode selector to
-        normal.</para>
 
-        <para>As a last resort, external fire suppression agents may be used. They are, however, highly corrosive and
-        the engine will be a write off.</para>
+  <sect1>
+    <title>Engine tailpipe fire</title>
 
-        <para role="multicite">[QRH ABN.70, FCOM PRO.ABN.70]</para>
-      </sect1>
-      <sect1 id="engine-vibrations">
-        <title>High engine vibration</title>
+    <para>An internal engine fire may be encountered during engine start or shutdown. It will either
+    be seen by ground crew or may be indicated by EGT failing to decrease after the master switch is
+    selected off.</para>
 
-        <para>The ECAM VIB advisory (N1≥6 units, N2≥4.3 units) is simply an indication that engine parameters should be
-        monitored more closely. High VIB indications alone do not require the engine to be shut down.</para>
+    <para>Start by getting the engine to a known state by ensuring the man start button is selected
+    off and the affected engine master is selected off.</para>
 
-        <para>High engine vibration combined with burning smells may be due to contact of compressor blade tips with
-        associated abradable seals.</para>
+    <para>The concept is to blow the fire out by dry cranking the engine. It is therefore essential
+    that the fire button is <emphasis>not</emphasis> pressed, as this will remove external power
+    from the FADEC and prevent dry cranking. Firstly, a source of bleed air must be available to
+    power the starter. Possibilities, in order of preference, are the APU, the opposite engine or a
+    ground air cart. If using the opposite engine, the source engine bleed must be on, the target
+    engine bleed should be off, the cross bleed should be opened and thrust increased to provide 30
+    psi of pressure.<!-- {TODO: This is just the crossbleed start procedure from QRH SI.150 – -->
+    <!-- check that there are no differences} --> If using ground air, both engine bleeds should be
+    off and the cross bleed opened. Once high pressure air is available, select the engine mode
+    selector to crank and select the man start button to on. Once the fire is extinguished, select
+    the man start button off and the engine mode selector to normal.</para>
 
-        <para>If in icing conditions, high engine vibration may be due to fan blade or spinner icing. The QRH provides a
-        drill to shed this ice, after which normal operations can be resumed.</para>
+    <para>As a last resort, external fire suppression agents may be used. They are, however, highly
+    corrosive and the engine will be a write off.</para>
 
-        <para revisionflag="changed">If icing is not suspected and if flight conditions permit, reduce
-        thrust so that vibrations are below the advisory level. Shut down the engine after landing
-        for taxiing if vibrations above the advisory level have been experienced.</para>
+    <para role="multicite">[QRH ABN.70, FCOM PRO.ABN.70]</para>
+  </sect1>
 
-        <para role="multicite">[QRH ABN.70, FCOM PRO.ABN.70]</para>
-      </sect1>
-<sect1>
-        <title>Low oil pressure</title>
 
-        <para>The sources for the gauge on the ECAM ENG page and the ECAM warning are different. If there is a
-        discrepancy between the two, a faulty transducer is the most likely cause and the engine can continue to be
-        operated normally. If both sources agree, the engine should be shut down by retarding its thrust lever and
-        selecting its master switch off and the after shutdown procedure applied (see <xref
-        linkend="engine-shut-down"/>).</para>
+  <sect1 id="engine-vibrations">
+    <title>High engine vibration</title>
 
-        <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL LO PR,
-        FCOM PRO.ABN.70, FCOM DSC.70.90]</para>
-      </sect1>
+    <para>The ECAM VIB advisory (N1≥6 units, N2≥4.3 units) is simply an indication that engine
+    parameters should be monitored more closely. High VIB indications alone do not require the
+    engine to be shut down.</para>
 
-      <sect1 id="high-oil-temp">
+    <para>High engine vibration combined with burning smells may be due to contact of compressor
+    blade tips with associated abradable seals.</para>
+
+    <para>If in icing conditions, high engine vibration may be due to fan blade or spinner
+    icing. The QRH provides a drill to shed this ice, after which normal operations can be
+    resumed.</para>
+
+    <para revisionflag="changed">If icing is not suspected and if flight conditions permit, reduce
+    thrust so that vibrations are below the advisory level. Shut down the engine after landing for
+    taxiing if vibrations above the advisory level have been experienced.</para>
+
+    <para role="multicite">[QRH ABN.70, FCOM PRO.ABN.70]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Low oil pressure</title>
+
+    <para>The sources for the gauge on the ECAM ENG page and the ECAM warning are different. If
+    there is a discrepancy between the two, a faulty transducer is the most likely cause and the
+    engine can continue to be operated normally. If both sources agree, the engine should be shut
+    down by retarding its thrust lever and selecting its master switch off and the after shutdown
+    procedure applied (see <xref linkend="engine-shut-down"/>).</para>
+
+    <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL LO PR,
+    FCOM PRO.ABN.70, FCOM DSC.70.90]</para>
+  </sect1>
+
+
+  <sect1 id="high-oil-temp">
 	<title>High oil temperature</title>
-        <para>It may be possible to reduce oil temperature by increasing engine
-        fuel flow.</para>
 
-	<para>If oil temperature exceeds 155°C or exceeds 140°C for 15 minutes, the engine must be
-	shut down.</para>
+    <para>It may be possible to reduce oil temperature by increasing engine fuel flow.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL HI TEMP, FCOM PRO.ABN.70]</para>
-      </sect1>
+	<para>If oil temperature exceeds 155°C or exceeds 140°C for 15 minutes, the engine must be shut
+	down.</para>
 
-      <sect1>
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL HI TEMP,
+	FCOM PRO.ABN.70]</para>
+  </sect1>
+
+
+  <sect1>
 	<title>Oil filter clog</title>
 
-	<para>If a warning occurs during a cold engine start with oil temperature &lt;40°C, the
-	warning may be considered spurious. The oil filter features a bypass mechanism, so there is
-	no immediate problem.</para>
+	<para>If a warning occurs during a cold engine start with oil temperature &lt;40°C, the warning
+	may be considered spurious. The oil filter features a bypass mechanism, so there is no immediate
+	problem.</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> OIL FILTER CLOG,
 	FCOM PRO.ABN.70, FCOM DSC.70.90]</para>
-      </sect1>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Fuel filter clog</title>
 
-	<para>No immediate crew action required. I assume there is some sort of bypass
-	mechanism, but this isn’t apparent from the FCOM.</para>
+	<para>No immediate crew action required. I assume there is some sort of bypass mechanism, but
+	this isn’t apparent from the FCOM.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FUEL FILTER CLOG, FCOM PRO.ABN.70]</para>
-      </sect1>
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FUEL FILTER CLOG,
+	FCOM PRO.ABN.70]</para>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Uncommanded reverser pressurisation</title>
 
-	<para>There are two valves that prevent pressure reaching the thrust reverser actuators at
-	an inopportune moment, plus a third that commands direction of movement. The most upstream
-	of these, controlled by the SECs, prevents any hydraulic pressure reaching the Hydraulic
-	Control Unit (HCU) when the thrust levers are not in the reverse quadrant. If this
-	protection is lost, the correct operation of the HCU should keep the doors properly
-	stowed. An HCU malfunction, however, could result in an in-flight reverser deployment. If
-	flight conditions permit, idle thrust should be selected on the affected engine.</para>
+	<para>There are two valves that prevent pressure reaching the thrust reverser actuators at an
+	inopportune moment, plus a third that commands direction of movement. The most upstream of
+	these, controlled by the SECs, prevents any hydraulic pressure reaching the Hydraulic Control
+	Unit (HCU) when the thrust levers are not in the reverse quadrant. If this protection is lost,
+	the correct operation of the HCU should keep the doors properly stowed. An HCU malfunction,
+	however, could result in an in-flight reverser deployment. If flight conditions permit, idle
+	thrust should be selected on the affected engine.</para>
 
 	<para>It is unclear from the FCOM whether the ECAM indicates pressure has reached the
-	directional solenoid valve and hence that the reverser door jacks are pressurised, albeit in
-	the closed direction, although the existence of the REV ISOL FAULT ECAM indicates that this is
+	directional solenoid valve and hence that the reverser door jacks are pressurised, albeit in the
+	closed direction, although the existence of the REV ISOL FAULT ECAM indicates that this is
 	probably the case.</para>
 
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REV PRESSURIZED,
 	FCOM PRO.ABN.70]</para>
-      </sect1>
+  </sect1>
 
-       <sect1 id="reverser-unlocked">
+
+  <sect1 id="reverser-unlocked">
 	<title>Reverser unlocked in flight</title>
 
-	<para>If one or more reverser doors are detected as not stowed in flight, the associated
-	FADEC will automatically command idle on the affected engine. This should be backed up by
-	setting the thrust lever to idle.</para>
+	<para>If one or more reverser doors are detected as not stowed in flight, the associated FADEC
+	will automatically command idle on the affected engine. This should be backed up by setting the
+	thrust lever to idle.</para>
 
-	<para>A warning without associated buffet is likely to be spurious. In this case limit speed
-	to 300kt/M.78, keep the engine running at idle and expect to make a normal single engine
-	approach and landing.</para>
+	<para>A warning without associated buffet is likely to be spurious. In this case limit speed to
+	300kt/M.78, keep the engine running at idle and expect to make a normal single engine approach
+	and landing.</para>
 
-	<para>If there is buffet, shut the engine down and limit speed to 240kt. Full rudder trim
-	may be required. The ECAM will provide one of two approach procedures depending on how many
-	doors are detected as not stowed:</para>
+	<para>If there is buffet, shut the engine down and limit speed to 240kt. Full rudder trim may be
+	required. The ECAM will provide one of two approach procedures depending on how many doors are
+	detected as not stowed:</para>
 
 	<itemizedlist>
 	  <listitem><para>If all 4 doors are not stowed, it will be a flap 1 landing, with approach
@@ -3095,25 +3122,28 @@
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REVERSE UNLOCKED,
 	FCOM PRO.ABN.70]</para>
-      </sect1>
+  </sect1>
 
-      <sect1 id="eiu-fault">
+
+  <sect1 id="eiu-fault">
 	<title>EIU fault</title>
 
 	<para>The Engine Interface Unit (EIU) receives data from the engine start system, the
-	auto-thrust system, the LGCIUs, the air conditioning controller and the engine anti ice
-	system and feeds it to its related FADEC. Thus loss of the EIU leads to loss of auto-thrust,
-	reverser, idle control (defaults to approach idle) and start for the affected engine. If
-	engine anti ice is used, the ignitors must be manually selected.</para>
+	auto-thrust system, the LGCIUs, the air conditioning controller and the engine anti ice system
+	and feeds it to its related FADEC. Thus loss of the EIU leads to loss of auto-thrust, reverser,
+	idle control (defaults to approach idle) and start for the affected engine. If engine anti ice
+	is used, the ignitors must be manually selected.</para>
 
-    <para>If an engine fails whilst its associated EIU is inoperative, the
-    usual ECAM messages will not be generated. The failure can still be diagnosed from the system
-    pages and an appropriate drill can be actioned from the FCOM.</para>
+    <para>If an engine fails whilst its associated EIU is inoperative, the usual ECAM messages will
+    not be generated. The failure can still be diagnosed from the system pages and an appropriate
+    drill can be actioned from the FCOM.</para>
 
-	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> EIU FAULT, FCOM PRO.ABN.70]</para>
-      </sect1>
+	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> EIU FAULT,
+	FCOM PRO.ABN.70]</para>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>N1/N2/EGT overlimit</title>
 
 	<para>If the overlimit is moderate, the associated thrust lever can be retarded until the
@@ -3125,62 +3155,64 @@
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> N1/N2/EGT OVERLIMIT,
 	FCOM PRO.ABN.70]</para>
-      </sect1>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>N1/N2/EGT/FF discrepancy</title>
 
-	<para>The system can detect a discrepancy between actual and displayed values of N1, N2, EGT
-	and fuel flow. This is indicated by an amber CHECK beneath the affected parameter. Attempt
-	to recover normal indications by switching from DMC1 to DMC3. If this fails, values can be
-	inferred from the opposite engine.</para>
+	<para>The system can detect a discrepancy between actual and displayed values of N1, N2, EGT and
+	fuel flow. This is indicated by an amber CHECK beneath the affected parameter. Attempt to
+	recover normal indications by switching from DMC1 to DMC3. If this fails, values can be inferred
+	from the opposite engine.</para>
 
 	<para role="multicite">[<emphasis
 	role="underline">ENG 1(2)</emphasis> N1(N2)(EGT)(FF) DISCREPANCY, FCOM PRO.ABN.70]</para>
-      </sect1>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Start valve fault</title>
 
-	<para>If a start valve fails open, remove bleed sources supplying the faulty valve. If on
-	the ground, turn off the MAN START button if used, and shut the engine down with its master
+	<para>If a start valve fails open, remove bleed sources supplying the faulty valve. If on the
+	ground, turn off the MAN START button if used, and shut the engine down with its master
 	switch.</para>
 
-	<para>If the start valve fails closed, it may be that insufficient pressure is reaching
-	it. Try opening the cross bleed and turning on the APU bleed.</para>
+	<para>If the start valve fails closed, it may be that insufficient pressure is reaching it. Try
+	opening the cross bleed and turning on the APU bleed.</para>
 
 	<para>On the ground, a start may still be possible with manual operation of the start
 	valve.</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START VALVE FAULT,
 	FCOM PRO.ABN.70]</para>
-      </sect1>
+  </sect1>
 
-      <sect1 id="start-faults">
+
+  <sect1 id="start-faults">
 	<title>Start faults</title>
 
-	<para>Start faults include ignition faults (no light off within 18 seconds of ignition
-	start), engine stalls, EGT overlimit (>725°C) and starter time exceedance (2 mins
-	max).</para>
+	<para>Start faults include ignition faults (no light off within 18 seconds of ignition start),
+	engine stalls, EGT overlimit (>725°C) and starter time exceedance (2 mins max).</para>
 
 	<para>On the ground, nearly all starts are auto starts. In this case the FADEC will
-	automatically abort as needed. It will then automatically carry out the required dry crank
-	phase and make further attempts. Once the FADEC gives up, an ECAM message will instruct the
-	crew to turn off the relevant engine master. If the fault was a stall due to low pressure,
-	consider another automatic start using cross bleed air.</para>
+	automatically abort as needed. It will then automatically carry out the required dry crank phase
+	and make further attempts. Once the FADEC gives up, an ECAM message will instruct the crew to
+	turn off the relevant engine master. If the fault was a stall due to low pressure, consider
+	another automatic start using cross bleed air.</para>
 
-	<para>If a manual start is attempted, the crew must monitor the relevant parameters (the
-	FADECs will provide some passive monitoring) and, if necessary, abort the start by turning
-	the engine master and man start button off. The crew must then carry out a 30 second dry
-	crank phase manually. Note that this is not mentioned in the relevant supplementary
-	procedure, nor are the relevant lines displayed on the ECAM. It is probably worth having
-	FCOM PRO.ABN.70 handy when carrying out manual starts.</para>
+	<para>If a manual start is attempted, the crew must monitor the relevant parameters (the FADECs
+	will provide some passive monitoring) and, if necessary, abort the start by turning the engine
+	master and man start button off. The crew must then carry out a 30 second dry crank phase
+	manually. Note that this is not mentioned in the relevant supplementary procedure, nor are the
+	relevant lines displayed on the ECAM. It is probably worth having FCOM PRO.ABN.70 handy when
+	carrying out manual starts.</para>
 
 	<para>Following an aborted start in flight, the engine master should be turned off for 30
 	seconds to drain the engine. A further start attempt can then be made.</para>
 
-	<para>If the electrical power supply is interrupted during a start (indicated by loss of
-	ECAM DUs) turn the master switch off, then perform a 30 second dry crank.</para>
+	<para>If the electrical power supply is interrupted during a start (indicated by loss of ECAM
+	DUs) turn the master switch off, then perform a 30 second dry crank.</para>
 
 	<para revisionflag="changed">If a fuel leak from the engine drain mast is reported, run the
 	engine at idle for 5 minutes. If the leak disappears within this time the aircraft may dispatch
@@ -3188,9 +3220,10 @@
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> START FAULT,
 	FCOM PRO.ABN.70], EOMB 2.3.8.1</para>
-      </sect1>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Ignition faults</title>
 
 	<para>Each engine has two ignitors. If both fail on a single engine, avoid heavy rain,
@@ -3198,46 +3231,47 @@
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> IGN FAULT,
 	FCOM PRO.ABN.70]</para>
-      </sect1>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>Thrust lever angle sensor faults</title>
 
 	<para>Each thrust lever has two thrust lever angle (TLA) sensors.</para>
 
-	<para>Failure of one sensor only leads to a loss of redundancy; the proviso is that it must
-	have failed in a way that the system can positively detect.</para>
+	<para>Failure of one sensor only leads to a loss of redundancy; the proviso is that it must have
+	failed in a way that the system can positively detect.</para>
 
-	<para>More difficult is when the sensors are in disagreement. In this case, the FADEC makes
-	the assumption that one of the sensors is accurate and provides a default thrust setting based on
+	<para>More difficult is when the sensors are in disagreement. In this case, the FADEC makes the
+	assumption that one of the sensors is accurate and provides a default thrust setting based on
 	this assumption:
 
 	<itemizedlist>
 	  <listitem><para>On the ground, if neither sensor is in a take-off position, idle power is
-	  commanded. If one sensor is in take-off position and the other is above idle, take-off
-	  thrust is commanded. This leaves the completely conflicted case of one sensor at take-off
-	  and the other at idle or below; the FADEC selects idle power as the best
-	  compromise.</para></listitem>
+	  commanded. If one sensor is in take-off position and the other is above idle, take-off thrust
+	  is commanded. This leaves the completely conflicted case of one sensor at take-off and the
+	  other at idle or below; the FADEC selects idle power as the best compromise.</para></listitem>
 
-	  <listitem><para>In flight, once above thrust reduction altitude the FADEC will assume that
-	  the largest TLA, limited to CLB, is correct. The autothrust can then manage the thrust
-	  between idle and this position. For approach (slats extended), as long as both TLAs
-	  indicate less than MCT, thrust is commanded to idle.</para></listitem>
+	  <listitem><para>In flight, once above thrust reduction altitude the FADEC will assume that the
+	  largest TLA, limited to CLB, is correct. The autothrust can then manage the thrust between
+	  idle and this position. For approach (slats extended), as long as both TLAs indicate less than
+	  MCT, thrust is commanded to idle.</para></listitem>
 	</itemizedlist></para>
 
-	<para>If both TLA sensors fail, the FADEC again goes for sensible defaults. On the ground,
-	idle thrust is set. In flight, if the thrust was TO or FLEX at the time of failure, this
-	setting will be maintained until slat retraction, whereupon CLB will be selected. If the
-	thrust was between IDLE and MCT, CLB will be selected immediately. As soon as slats are
-	deployed, IDLE is commanded; this remains the case even for go-around. Autothrust will
-	manage thrust between IDLE and CLB whenever CLB is assumed.</para>
+	<para>If both TLA sensors fail, the FADEC again goes for sensible defaults. On the ground, idle
+	thrust is set. In flight, if the thrust was TO or FLEX at the time of failure, this setting will
+	be maintained until slat retraction, whereupon CLB will be selected. If the thrust was between
+	IDLE and MCT, CLB will be selected immediately. As soon as slats are deployed, IDLE is
+	commanded; this remains the case even for go-around. Autothrust will manage thrust between IDLE
+	and CLB whenever CLB is assumed.</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> THR LEVER DISAGREE,
 	<emphasis role="underline">ENG 1(2)</emphasis> THR LEVER FAULT, <emphasis
 	role="underline">ENG 1(2)</emphasis> ONE TLA FAULT, FCOM PRO.ABN.70]</para>
-      </sect1>
+  </sect1>
 
-      <sect1>
+
+  <sect1>
 	<title>FADEC faults</title>
 
 	<para>The FADECs have two redundant channels; loss of a single channel does not generally
@@ -3245,22 +3279,21 @@
 	successful application of the reset procedure detailed in FCOM PRO.ABN.70</para>
 
 	<para>If both channels of a FADEC are lost, the thrust lever should be set to idle. Engine
-	indications will be lost. If all other parameters are normal (check all ECAM system pages),
-	the engine can be left running. Otherwise, shut it down.</para>
+	indications will be lost. If all other parameters are normal (check all ECAM system pages), the
+	engine can be left running. Otherwise, shut it down.</para>
 
 	<para>If a FADEC overheats, reducing engine power may reduce temperature in the ECU area
-	sufficiently to prevent shutdown. If on the ground the engine must be shut down and the
-	FADEC depowered.</para>
+	sufficiently to prevent shutdown. If on the ground the engine must be shut down and the FADEC
+	depowered.</para>
 
 	<para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> FADEC A(B) FAULT,
-	<emphasis role="underline">ENG 1(2)</emphasis> FADEC FAULT,
-	<emphasis role="underline">ENG 1(2)</emphasis> FADEC HI TEMP, FCOM PRO.ABN.70]</para>
-      </sect1>
+	<emphasis role="underline">ENG 1(2)</emphasis> FADEC FAULT, <emphasis
+	role="underline">ENG 1(2)</emphasis> FADEC HI TEMP, FCOM PRO.ABN.70]</para>
+  </sect1>
+</chapter>
 
 
-
-    </chapter>
-    <chapter>
+<chapter>
       <title>Navigation</title>
       <sect1 id="egpws">
         <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
