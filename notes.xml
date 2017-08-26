@@ -1554,331 +1554,387 @@
 
 
 <chapter>
-      <title>Flight controls</title>
-      <sect1>
-        <title>Elevator faults</title>
+  <title>Flight controls</title>
 
-        <para>If a single elevator fails, the SECs use the remaining elevator to provide pitch control in alternate law
-        (see <xref linkend="alternate-law"/>). In addition, speed brake should not be used and the autopilots are
-        unserviceable.</para>
+  <sect1>
+    <title>Elevator faults</title>
 
-        <para>If both elevators fail, the only mechanism for pitch control available is manual pitch trim, so pitch
-        reverts to mechanical back up and roll reverts to direct law. For the approach fly a long final, initiating the
-        descent from at least 5000ft AAL. Do not try to flare using trim and do not remove power until after
-        touchdown. From 1000ft AAL, try to keep power changes to within 2% N1. In the event of a go-around, power
-        <emphasis>must</emphasis> be applied very slowly if control is not to be lost.<footnote><para>This is Boeing advice –
-        Airbus does not provide guidance for the flare or go-around technique when elevavators are frozen.</para></footnote></para>
+    <para>If a single elevator fails, the SECs use the remaining elevator to provide pitch control
+    in alternate law (see <xref linkend="alternate-law"/>). In addition, speed brake should not be
+    used and the autopilots are unserviceable.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R)(L+R) ELEV FAULT,
-        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    <para>If both elevators fail, the only mechanism for pitch control available is manual pitch
+    trim, so pitch reverts to mechanical back up and roll reverts to direct law. For the approach
+    fly a long final, initiating the descent from at least 5000ft AAL. Do not try to flare using
+    trim and do not remove power until after touchdown. From 1000ft AAL, try to keep power changes
+    to within 2% N1. In the event of a go-around, power <emphasis>must</emphasis> be applied very
+    slowly if control is not to be lost.<footnote><para>This is Boeing advice – Airbus does not
+    provide guidance for the flare or go-around technique when elevavators are
+    frozen.</para></footnote></para>
 
-      </sect1>
-      <sect1>
-        <title>Stabilizer jam</title>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R)(L+R) ELEV FAULT,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-        <para>Manual pitch trim is a mechanical connection to the stabilizer actuator. It may be possible to use manual
-        pitch trim when the ELACs have detected a stabilizer jam, although it may be heavier than normal. If it is
-        usable, trim for neutral elevators.</para>
 
-        <para>The flight controls will revert to Alternate Law. If the stabilizer could not be moved, gear extension
-        should be delayed until CONF 3 and V<subscript>APP</subscript> are achieved so that the elevators are properly
-        trimmed.</para>
+  <sect1>
+    <title>Stabilizer jam</title>
 
-        <para>If the jam is caused by the mechanical connection, it is possible that the ELACs will not detect the
-        problem. The procedure in this case is similar, but Normal Law will remain.</para>
+    <para>Manual pitch trim is a mechanical connection to the stabilizer actuator. It may be
+    possible to use manual pitch trim when the ELACs have detected a stabilizer jam, although it may
+    be heavier than normal. If it is usable, trim for neutral elevators.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM,
-        QRH ABN.27, FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>Aileron faults</title>
+    <para>The flight controls will revert to Alternate Law. If the stabilizer could not be moved,
+    gear extension should be delayed until CONF 3 and V<subscript>APP</subscript> are achieved so
+    that the elevators are properly trimmed.</para>
 
-        <para>The lateral aircraft handling is not adversely affected even if both ailerons fail, as the systems
-        compensate by using the spoilers. Fuel consumption will, however, increase by approximately 6%.</para>
+    <para>If the jam is caused by the mechanical connection, it is possible that the ELACs will not
+    detect the problem. The procedure in this case is similar, but Normal Law will remain.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R) AIL FAULT, FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1 id="spoiler-faults" >
-        <title>Spoiler faults</title>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM, QRH ABN.27,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-	<para>The effect of a spoiler fault depends on whether the spoiler fails retracted or extended.</para>
 
-        <para>If the spoiler fails in the retracted position, handling should not be adversely affected. A CONF 3
-        landing may reduce any buffeting that is encountered. Speed brake should not be used if spoilers 3 + 4 are
-        affected. The loss of ground spoilers will significantly increase landing distances.</para>
+  <sect1>
+    <title>Aileron faults</title>
 
-	<para>Airbus have identified a failure scenario that leads to high pressure hydraulic fluid reaching the extend
-	chamber of a spoiler actuator via a failed o-ring. This has the effect of a spoiler failing in the fully
-	extended position. In this case, the autopilot does not necessarily have sufficient authority to control the
-	aircraft, and it should be disconnected. Fuel burn will increase significantly; FMGC fuel predictions do not
-	account for the failure and should be disregarded. Green dot speed will minimize this increased fuel burn, but
-	may not be viable if there is excessive buffet – attempt to find a compromise speed. Landing will be flap 3;
+    <para>The lateral aircraft handling is not adversely affected even if both ailerons fail, as the
+    systems compensate by using the spoilers. Fuel consumption will, however, increase by
+    approximately 6%.</para>
+
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R) AIL FAULT,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
+
+
+  <sect1 id="spoiler-faults" >
+    <title>Spoiler faults</title>
+
+	<para>The effect of a spoiler fault depends on whether the spoiler fails retracted or
+	extended.</para>
+
+    <para>If the spoiler fails in the retracted position, handling should not be adversely
+    affected. A CONF 3 landing may reduce any buffeting that is encountered. Speed brake should not
+    be used if spoilers 3 + 4 are affected. The loss of ground spoilers will significantly increase
+    landing distances.</para>
+
+	<para>Airbus have identified a failure scenario that leads to high pressure hydraulic fluid
+	reaching the extend chamber of a spoiler actuator via a failed o-ring. This has the effect of a
+	spoiler failing in the fully extended position. In this case, the autopilot does not necessarily
+	have sufficient authority to control the aircraft, and it should be disconnected. Fuel burn will
+	increase significantly; FMGC fuel predictions do not account for the failure and should be
+	disregarded. Green dot speed will minimize this increased fuel burn, but may not be viable if
+	there is excessive buffet – attempt to find a compromise speed. Landing will be flap 3;
 	V<subscript>APP</subscript> and LDG DIST factors are available in QRH FPE-IFL.</para>
 
-        <para role="multicite">[<emphasis
-        role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT, OEB 43, FCOM DSC.27.20.40,
-        FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>Rudder Jam</title>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT,
+    OEB 43, FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-        <para>The main indication of jammed rudder is undue and adverse pedal movement during rolling manoeuvres caused
-        by the yaw damper orders being fed back to the pedals when they are no longer sent to the rudder.</para>
 
-        <para>Crosswinds from the side that the rudder is deflected should be avoided, and a cross wind limit of 15kt
-        applies. Control on the ground will require differential braking until the steering handle can be used (below
-        70kt), so landing distances are increased. Do not use autobrake.</para>
+  <sect1>
+    <title>Rudder Jam</title>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> RUDDER JAM, QRH ABN.27,
-        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1 id="flight-controls.slats-flaps-fault">
-        <title>Flaps and/or slats fault/locked</title>
+    <para>The main indication of jammed rudder is undue and adverse pedal movement during rolling
+    manoeuvres caused by the yaw damper orders being fed back to the pedals when they are no longer
+    sent to the rudder.</para>
 
-        <para>The most pressing concern following a flap or slat problem is to establish a max operating speed that will
-        avoid overspeeding the device in its locked position. A table is provided on page ABN.27.2 of the QRH for this
-        purpose, but a quick estimation can be made by establishing what flap lever position would be required to get
-        the device into its current position and using V<subscript>FE</subscript> for the configuration associated with
-        that flap lever position as V<subscript>MO</subscript>. In doing this, it must be remembered that slat
-        deployment in CONF 2 and CONF 3 is the same (tip: think of available slat positions as being 0, 1, Intermediate
-        or Full). This also affects use of the QRH table; the second dot on the slat indicator on the E/WD should be
-        considered slat 3 for the purpose of this table, not slat 2 as might be expected. The barber’s pole displayed
-        for V<subscript>FE</subscript> on the PFD is a function of the flap lever position, so it may be worth initially
-        selecting the flap lever to the matching CONF to have this reference available. For minimum speeds, the
-        V<subscript>LS</subscript> displayed on the PFD is calculated from actual flap and slat position and can be
-        trusted.</para>
+    <para>Crosswinds from the side that the rudder is deflected should be avoided, and a cross wind
+    limit of 15kt applies. Control on the ground will require differential braking until the
+    steering handle can be used (below 70kt), so landing distances are increased. Do not use
+    autobrake.</para>
 
-        <para>Unless there is an obvious reason not to (e.g. wing tip brake on, alignment fault or fault due to dual
-        hydraulic failure), the flap lever can be recycled.</para>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> RUDDER JAM, QRH ABN.27,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-        <para>If normal operation cannot be restored, there are two major issues that must be quickly
-        addressed. Firstly, fuel burn will be dramatically higher when flying with a locked device. With slats extended,
-        fuel burn will increase by 60%. With flaps extended it will increase by 80%. With slats and flaps extended, fuel
-        burn will double. These figures are available in QRH FPE.FPF. The second issue is that landing distances are
-        significantly increased, in the worst case by a factor of 2.2. It may be that the combination of these factors
-        requires a fairly prompt diversion decision.</para>
 
-        <para>The flap and slat systems are largely independent, so the flap lever will continue to move the slats if
-        the flaps are locked and vice versa. In general, flap 3 should be selected for landing. There are two
-        exceptions. If flaps are locked at &gt;3, flap full should be used. If both slats and flaps are locked at 0,
-        flap 1 should be used so that the AP/FD go-around is armed. Configurations and V<subscript>REF</subscript>
-        increments are available on page FPE.IFL.27A of the QRH. If a flapless and slatless landing is required, the threshold
-        speed may be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this configuration
-        are very close to tyre limit speeds.</para>
+  <sect1 id="flight-controls.slats-flaps-fault">
+    <title>Flaps and/or slats fault/locked</title>
 
-        <para>During configuration, V<subscript>LS</subscript> is computed from actual configuration
-        and V<subscript>FE next</subscript> is computed from flap lever position. F and S speeds are
-        essentially meaningless.</para>
+    <para>The most pressing concern following a flap or slat problem is to establish a max operating
+    speed that will avoid overspeeding the device in its locked position. A table is provided on
+    page ABN.27.2 of the QRH for this purpose, but a quick estimation can be made by establishing
+    what flap lever position would be required to get the device into its current position and using
+    V<subscript>FE</subscript> for the configuration associated with that flap lever position as
+    V<subscript>MO</subscript>. In doing this, it must be remembered that slat deployment in CONF 2
+    and CONF 3 is the same (tip: think of available slat positions as being 0, 1, Intermediate or
+    Full). This also affects use of the QRH table; the second dot on the slat indicator on the E/WD
+    should be considered slat 3 for the purpose of this table, not slat 2 as might be expected. The
+    barber’s pole displayed for V<subscript>FE</subscript> on the PFD is a function of the flap
+    lever position, so it may be worth initially selecting the flap lever to the matching CONF to
+    have this reference available. For minimum speeds, the V<subscript>LS</subscript> displayed on
+    the PFD is calculated from actual flap and slat position and can be trusted.</para>
 
-        <para revisionflag="changed">The recommended deployment method is
-        to select speed to 5kt below V<subscript>FE next</subscript> then select the next
-        configuration as the speed reduces through V<subscript>FE next</subscript>. To prevent
-        overspeeds in case of turbulence, it is acceptable to configure at lower speeds as long as
-        speed remains above V<subscript>LS</subscript>. If
-        V<subscript>LS</subscript>&gt;V<subscript>FE next</subscript>, prioritise
-        V<subscript>LS</subscript>: fly V<subscript>LS</subscript>, select the next configuration,
-        then track V<subscript>LS</subscript> as it reduces with the extension of the lift
-        device. Use of autothrust with selected speed is generally recommended for all phases of the
-        approach, but in this case it will need to be temporarily disconnected until landing
-        configuration is established.</para>
+    <para>Unless there is an obvious reason not to (e.g. wing tip brake on, alignment fault or fault
+    due to dual hydraulic failure), the flap lever can be recycled.</para>
 
-        <para>It is worth noting that failure of the slat channels of both SFCCs appears to result in the loss of
-        characteristic speed display on both PFDs. This is not mentioned in the FCOM but occurs in the sim. The upshot of
-        this is that neither V<subscript>LS</subscript> nor V<subscript>SW</subscript> are available at all, since they
-        are not displayed and there is no way to calculate them. This is of particular concern when trying to configure
-        to flaps 2 since the aircraft must be slowed to V<subscript>FE(conf 2)</subscript> when still clean (remember
-        conf 1 is slats only when configuring from conf 0). It is highly likely that the stall warner will activate
-        during the transition, and if not anticipated, the subsequent recovery will overspeed the flaps. The solution is
-        to brief that speed will be reduced very slowly and if the stall warning occurs the speed will be maintained
-        whilst allowing the deployment of the flaps to recover the stall margin.</para>
+    <para>If normal operation cannot be restored, there are two major issues that must be quickly
+    addressed. Firstly, fuel burn will be dramatically higher when flying with a locked device. With
+    slats extended, fuel burn will increase by 60%. With flaps extended it will increase by
+    80%. With slats and flaps extended, fuel burn will double. These figures are available in
+    QRH FPE.FPF. The second issue is that landing distances are significantly increased, in the
+    worst case by a factor of 2.2. It may be that the combination of these factors requires a fairly
+    prompt diversion decision.</para>
 
-        <para>The autopilot may be used down to 500ft AAL, but since it is not tuned for the abnormal configuration it
-        must be closely monitored.</para>
+    <para>The flap and slat systems are largely independent, so the flap lever will continue to move
+    the slats if the flaps are locked and vice versa. In general, flap 3 should be selected for
+    landing. There are two exceptions. If flaps are locked at &gt;3, flap full should be used. If
+    both slats and flaps are locked at 0, flap 1 should be used so that the AP/FD go-around is
+    armed. Configurations and V<subscript>REF</subscript> increments are available on page
+    FPE.IFL.27A of the QRH. If a flapless and slatless landing is required, the threshold speed may
+    be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this
+    configuration are very close to tyre limit speeds.</para>
 
-        <para>For the go-around, initially maintain flap/ slat configuration. A speed 10kt lower than max operating
-        speed should be flown. If it is the slats that are jammed or if the flaps are jammed at 0, clean configuration
-        can be used to transit to a diversion airfield.</para>
+    <para>During configuration, V<subscript>LS</subscript> is computed from actual configuration and
+    V<subscript>FE next</subscript> is computed from flap lever position. F and S speeds are
+    essentially meaningless.</para>
 
-        <para>Other issues include the possible loss of the automatic operation of the centre tank pumps (which
-        is sequenced to the slats) and possible reversion to Alternate Law.</para>
+    <para revisionflag="changed">The recommended deployment method is to select speed to 5kt below
+    V<subscript>FE next</subscript> then select the next configuration as the speed reduces through
+    V<subscript>FE next</subscript>. To prevent overspeeds in case of turbulence, it is acceptable
+    to configure at lower speeds as long as speed remains above V<subscript>LS</subscript>. If
+    V<subscript>LS</subscript>&gt;V<subscript>FE next</subscript>, prioritise
+    V<subscript>LS</subscript>: fly V<subscript>LS</subscript>, select the next configuration, then
+    track V<subscript>LS</subscript> as it reduces with the extension of the lift device. Use of
+    autothrust with selected speed is generally recommended for all phases of the approach, but in
+    this case it will need to be temporarily disconnected until landing configuration is
+    established.</para>
 
-        <para role="multicite">[<emphasis
-        role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED), QRH ABN.27, FCOM DSC.27.30.30,
-        FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>SFCC faults</title>
+    <para>It is worth noting that failure of the slat channels of both SFCCs appears to result in
+    the loss of characteristic speed display on both PFDs. This is not mentioned in the FCOM but
+    occurs in the sim. The upshot of this is that neither V<subscript>LS</subscript> nor
+    V<subscript>SW</subscript> are available at all, since they are not displayed and there is no
+    way to calculate them. This is of particular concern when trying to configure to flaps 2 since
+    the aircraft must be slowed to V<subscript>FE(conf 2)</subscript> when still clean (remember
+    conf 1 is slats only when configuring from conf 0). It is highly likely that the stall warner
+    will activate during the transition, and if not anticipated, the subsequent recovery will
+    overspeed the flaps. The solution is to brief that speed will be reduced very slowly and if the
+    stall warning occurs the speed will be maintained whilst allowing the deployment of the flaps to
+    recover the stall margin.</para>
 
-        <para>Each SFCC has fully independent slat and flap channels. A failure of a channel in a single controller will
-        lead to slow operation of the associated surfaces. In addition, the flap channel of SFCC1 provides input to the
-        idle control part of the FADECs and to the EGPWC.</para>
+    <para>The autopilot may be used down to 500ft AAL, but since it is not tuned for the abnormal
+    configuration it must be closely monitored.</para>
 
-        <para>Failure of both flap channels or failure of both slat channels is covered in <xref
-        linkend="flight-controls.slats-flaps-fault"/>. </para>
+    <para>For the go-around, initially maintain flap/ slat configuration. A speed 10kt lower than
+    max operating speed should be flown. If it is the slats that are jammed or if the flaps are
+    jammed at 0, clean configuration can be used to transit to a diversion airfield.</para>
 
-        <para role="multicite">[<emphasis
-	role="underline">F/CTL</emphasis> FLAP(SLAT) SYS 1(2) FAULT, FCOM DSC.27.30.30,
-	FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1 id="flight-controls.elac">
-        <title>ELAC fault</title>
+    <para>Other issues include the possible loss of the automatic operation of the centre tank pumps
+    (which is sequenced to the slats) and possible reversion to Alternate Law.</para>
 
-        <para>In normal operations, ELAC 1 controls the ailerons and ELAC 2 controls the elevators and
-        stabiliser. Failure of a single ELAC will result in failover to the remaining computer. Provided no uncommanded
-        manoeuvres occurred, an attempt can be made to reset the failed ELAC.</para>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED),
+    QRH ABN.27, FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-        <para>Failure of both ELACs leads to loss of ailerons and hence Alternate Law. One of the SECs will take over
-        control of the elevators and stabiliser. Again, an attempt can be made to reset the computers.</para>
 
-        <para>If the fault is designated a pitch fault, only the pitch function of the associated ELAC is lost.</para>
+  <sect1>
+    <title>SFCC faults</title>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ELAC 1(2) FAULT,
-	FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>SEC fault</title>
+    <para>Each SFCC has fully independent slat and flap channels. A failure of a channel in a single
+    controller will lead to slow operation of the associated surfaces. In addition, the flap channel
+    of SFCC1 provides input to the idle control part of the FADECs and to the EGPWC.</para>
 
-        <para>Each SEC controls either 1 or 2 spoilers per wing. SEC 1 and 2 also provide back up for the ELACs (see
-        <xref linkend="flight-controls.elac"/>). Loss of a SEC leads to loss of its associated spoilers. SEC 1 provides
-        spoiler position to the FACs. If speedbrakes are deployed with SEC 1 u/s and SEC 3 operative, spoiler 2 will
-        deploy without a corresponding increase in V<subscript>LS</subscript>. Therefore, do not use speedbrake if SEC 1
-        is affected (it won’t do much anyway!).</para>
+    <para>Failure of both flap channels or failure of both slat channels is covered in <xref
+    linkend="flight-controls.slats-flaps-fault"/>. </para>
 
-        <para>Pairs of SECs also provide the signal for reverse thrust lever angle to the reversers and spoiler
-        deployment to the autobrake. A dual SEC failure will therefore lead to a loss of a reverser and loss of
-        autobraking.</para>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT) SYS 1(2) FAULT,
+    FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-        <para>If all SECs are lost, all the above holds true. Furthermore the flight controls revert to Alternate Law
-        due to the complete loss of spoilers. Also, due to routing of LGCIU data to the ELACs via the SECs, Direct Law
-        will occur at slat extension rather than gear extension.</para>
 
-        <para>An attempt should be made to reset the affected SEC(s).</para>
+  <sect1 id="flight-controls.elac">
+    <title>ELAC fault</title>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SEC 1(2)(3) FAULT,
-        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>FCDC faults</title>
+    <para>In normal operations, ELAC 1 controls the ailerons and ELAC 2 controls the elevators and
+    stabiliser. Failure of a single ELAC will result in failover to the remaining computer. Provided
+    no uncommanded manoeuvres occurred, an attempt can be made to reset the failed ELAC.</para>
 
-        <para>The two FCDCs are redundant, so a single failure has no immediate effect.</para>
+    <para>Failure of both ELACs leads to loss of ailerons and hence Alternate Law. One of the SECs
+    will take over control of the elevators and stabiliser. Again, an attempt can be made to reset
+    the computers.</para>
 
-        <para>If both FCDCs fail, the ELACs and SECs can no longer supply data to the EIS. The major effect of this is
-        that F/CTL ECAM warnings are no longer generated. The warning lights on the overhead panel continue to give
-        valid information and should be monitored. The aircraft remains in normal law with all protections, but
-        protection indications (bank and pitch limits, V<subscript>&alpha;&#x2011;prot</subscript> and
-        V<subscript>&alpha;&#x2011;max</subscript>) are not shown and the stall warning system becomes active.</para>
+    <para>If the fault is designated a pitch fault, only the pitch function of the associated ELAC
+    is lost.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FCDC 1(2)(1+2) FAULT,
-        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1 id="direct-law">
-        <title>Direct Law</title>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ELAC 1(2) FAULT,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-        <para>In Direct Law, deflection of the control surfaces is a linear function of deflection of the side-stick and
-        trimming must be done manually. The controls are very sensitive at high speeds. Use of manual thrust is
-        recommended as power changes will result in pitch changes. Similarly, use of the speed brake will result in nose
-        up pitch changes so it should be used with care. Protections are unavailable, so speed is limited to 320kt/0.77M
-        and care must be taken in GPWS or windshear manoeuvres. Approach speed is increased by 10kt and landing distances
-        increase by a factor of 1.2.</para>
 
-        <para revisionflag="added">Direct Law works with or without yaw dampers. The aircraft is
-        <emphasis>always</emphasis> convergent in dutch roll, so use lateral control, not rudder, if
-        dutch roll is experienced.</para>
+  <sect1>
+    <title>SEC fault</title>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> DIRECT LAW,
-        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1 id="alternate-law">
-        <title>Alternate Law</title>
+    <para>Each SEC controls either 1 or 2 spoilers per wing. SEC 1 and 2 also provide back up for
+    the ELACs (see <xref linkend="flight-controls.elac"/>). Loss of a SEC leads to loss of its
+    associated spoilers. SEC 1 provides spoiler position to the FACs. If speedbrakes are deployed
+    with SEC 1 u/s and SEC 3 operative, spoiler 2 will deploy without a corresponding increase in
+    V<subscript>LS</subscript>. Therefore, do not use speedbrake if SEC 1 is affected (it won’t do
+    much anyway!).</para>
 
-        <para>In alternate law, pitch is as in normal law, but roll is as in direct law. Load factor protection is
-        retained, but other protections are either replaced with static stability or are lost, depending on the nature
-        of the failure. Stall warnings and overspeed warnings become active.</para>
+    <para>Pairs of SECs also provide the signal for reverse thrust lever angle to the reversers and
+    spoiler deployment to the autobrake. A dual SEC failure will therefore lead to a loss of a
+    reverser and loss of autobraking.</para>
 
-        <para>The main effects are that speed is limited to 320kt and stall warnings must be respected when carrying out
-        EGPWS manoeuvres.</para>
+    <para>If all SECs are lost, all the above holds true. Furthermore the flight controls revert to
+    Alternate Law due to the complete loss of spoilers. Also, due to routing of LGCIU data to the
+    ELACs via the SECs, Direct Law will occur at slat extension rather than gear extension.</para>
 
-        <para revisionflag="added">The autopilot may be available.</para>
+    <para>An attempt should be made to reset the affected SEC(s).</para>
 
-        <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and hence increased
-        approach speeds and landing distances due to a CONF 3 landing (see QRH FPE.IFL.27).</para>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SEC 1(2)(3) FAULT,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ALTN LAW,
-        FCOM DSC.27.20.40, FCOM PRO.ABN.27, FCOM PRO.SUP.27.30]</para>
-      </sect1>
-      <sect1>
-        <title>Wingtip brake fault</title>
 
-        <para>The wingtip brakes activate in case of asymmetry, mechanism overspeed, symmetrical runaway or uncommanded
-        movements. This protection is lost.</para>
+  <sect1>
+    <title>FCDC faults</title>
 
-        <para role="multicite">[<emphasis
-        role="underline">F/CTL</emphasis> FLAP(SLAT) TIP BRK FAULT, FCOM DSC.27.30.30,
-        FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>Flap attach sensor failure</title>
+    <para>The two FCDCs are redundant, so a single failure has no immediate effect.</para>
 
-        <para>The flap attach sensor detects excessive differential movement between the inner and outer flaps which
-        would indicate failure of a flap attachment. This protection is lost.</para>
+    <para>If both FCDCs fail, the ELACs and SECs can no longer supply data to the EIS. The major
+    effect of this is that F/CTL ECAM warnings are no longer generated. The warning lights on the
+    overhead panel continue to give valid information and should be monitored. The aircraft remains
+    in normal law with all protections, but protection indications (bank and pitch limits,
+    V<subscript>&alpha;&#x2011;prot</subscript> and V<subscript>&alpha;&#x2011;max</subscript>) are
+    not shown and the stall warning system becomes active.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAP ATTACH SENSOR,
-        FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>Flight control servo faults</title>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FCDC 1(2)(1+2) FAULT,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-        <para>All flight controls have redundant servos. In the case of an elevator servo fault, a restriction to not
-        use speedbrake above V<subscript>MO</subscript>/M<subscript>MO</subscript> applies.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> AIL(ELEV) SERVO FAULT,
-	FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>Speed brake disagree</title>
+  <sect1 id="direct-law">
+    <title>Direct Law</title>
 
-        <para>This indicates that the spoiler positions do not correspond with the speedbrake lever position. This may
-        be as a result of automatic retraction (alpha floor activation or speed brakes deployed when full flap selected)
-        or as a result of spoiler malfunction. In both cases retract the speedbrake lever and in the case of spoiler
-        malfunction consider the speedbrakes unserviceable.</para>
+    <para>In Direct Law, deflection of the control surfaces is a linear function of deflection of
+    the side-stick and trimming must be done manually. The controls are very sensitive at high
+    speeds. Use of manual thrust is recommended as power changes will result in pitch
+    changes. Similarly, use of the speed brake will result in nose up pitch changes so it should be
+    used with care. Protections are unavailable, so speed is limited to 320kt/0.77M and care must be
+    taken in GPWS or windshear manoeuvres. Approach speed is increased by 10kt and landing distances
+    increase by a factor of 1.2.</para>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK DISAGREE,
-        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>Speed brake fault</title>
+    <para revisionflag="added">Direct Law works with or without yaw dampers. The aircraft is
+    <emphasis>always</emphasis> convergent in dutch roll, so use lateral control, not rudder, if
+    dutch roll is experienced.</para>
 
-        <para>This indicates a failure of the speedbrake lever transducers rather than a problem with the
-        spoilers. Ground spoiler activation may be expected on selection of reverse, so providing reversers are used,
-        landing distances should not be affected.</para>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> DIRECT LAW,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
 
-        <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK (2)(3+4) FAULT,
-        FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
-      </sect1>
-      <sect1>
-        <title>Stiff sidestick/ rudder pedals</title>
 
-        <para>This may affect both sidesticks at the same time, but not the rudder pedals or it may affect the rudder
-        pedals and one sidestick. Control forces will remain moderate and the aircraft remains responsive. Confirm
-        autopilot disengagement and consider transferring control if one of the sidesticks is unaffected.</para>
+  <sect1 id="alternate-law">
+    <title>Alternate Law</title>
 
-        <para role="multicite">[QRH ABN.27, FCOM PRO.ABN.27]</para>
-      </sect1>
+    <para>In alternate law, pitch is as in normal law, but roll is as in direct law. Load factor
+    protection is retained, but other protections are either replaced with static stability or are
+    lost, depending on the nature of the failure. Stall warnings and overspeed warnings become
+    active.</para>
 
-      <sect1 id="sidestick-transducer">
+    <para>The main effects are that speed is limited to 320kt and stall warnings must be respected
+    when carrying out EGPWS manoeuvres.</para>
+
+    <para revisionflag="added">The autopilot may be available.</para>
+
+    <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and
+    hence increased approach speeds and landing distances due to a CONF 3 landing (see
+    QRH FPE.IFL.27).</para>
+
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ALTN LAW, FCOM DSC.27.20.40,
+    FCOM PRO.ABN.27, FCOM PRO.SUP.27.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Wingtip brake fault</title>
+
+    <para>The wingtip brakes activate in case of asymmetry, mechanism overspeed, symmetrical runaway
+    or uncommanded movements. This protection is lost.</para>
+
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT) TIP BRK FAULT,
+    FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Flap attach sensor failure</title>
+
+    <para>The flap attach sensor detects excessive differential movement between the inner and outer
+    flaps which would indicate failure of a flap attachment. This protection is lost.</para>
+
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAP ATTACH SENSOR,
+    FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Flight control servo faults</title>
+
+    <para>All flight controls have redundant servos. In the case of an elevator servo fault, a
+    restriction to not use speedbrake above V<subscript>MO</subscript>/M<subscript>MO</subscript>
+    applies.</para>
+
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> AIL(ELEV) SERVO FAULT,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Speed brake disagree</title>
+
+    <para>This indicates that the spoiler positions do not correspond with the speedbrake lever
+    position. This may be as a result of automatic retraction (alpha floor activation or speed
+    brakes deployed when full flap selected) or as a result of spoiler malfunction. In both cases
+    retract the speedbrake lever and in the case of spoiler malfunction consider the speedbrakes
+    unserviceable.</para>
+
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK DISAGREE,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Speed brake fault</title>
+
+    <para>This indicates a failure of the speedbrake lever transducers rather than a problem with
+    the spoilers. Ground spoiler activation may be expected on selection of reverse, so providing
+    reversers are used, landing distances should not be affected.</para>
+
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK (2)(3+4) FAULT,
+    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Stiff sidestick/ rudder pedals</title>
+
+    <para>This may affect both sidesticks at the same time, but not the rudder pedals or it may
+    affect the rudder pedals and one sidestick. Control forces will remain moderate and the aircraft
+    remains responsive. Confirm autopilot disengagement and consider transferring control if one of
+    the sidesticks is unaffected.</para>
+
+    <para role="multicite">[QRH ABN.27, FCOM PRO.ABN.27]</para>
+  </sect1>
+
+
+  <sect1 id="sidestick-transducer">
 	<title>Sidestick unannunciated transducer faults</title>
 
-	<para>It is possible for a failed sidestick transducer to cause uncommanded control inputs. If no fault is
-	detected, the result is that the aircraft behaves as if that input had actually been made. Generally, the
-	autopilot will disconnect and any attempt to control the aircraft with the failed sidestick will fail. The
-	aircraft should be recovered with the other sidestick using the takeover button. Keeping this button
-	pressed for 40 seconds will lock out the failed sidestick, and the autopilot can then be re-engaged. The
-	autopilot should not be disconnected in the normal manner as pressing the takeover button will re-introduce the
-	failed sidestick and the uncommanded input; use the FCU instead.</para>
+	<para>It is possible for a failed sidestick transducer to cause uncommanded control inputs. If
+	no fault is detected, the result is that the aircraft behaves as if that input had actually been
+	made. Generally, the autopilot will disconnect and any attempt to control the aircraft with the
+	failed sidestick will fail. The aircraft should be recovered with the other sidestick using the
+	takeover button. Keeping this button pressed for 40 seconds will lock out the failed sidestick,
+	and the autopilot can then be re-engaged. The autopilot should not be disconnected in the normal
+	manner as pressing the takeover button will re-introduce the failed sidestick and the
+	uncommanded input; use the FCU instead.</para>
+  </sect1>
+</chapter>
 
-      </sect1>
-    </chapter>
-    <chapter>
+
+<chapter>
       <title>Fire</title>
       <sect1 id="smoke-fumes">
         <title>Smoke and fumes</title>
