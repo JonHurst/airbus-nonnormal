@@ -1935,152 +1935,164 @@
 
 
 <chapter>
-      <title>Fire</title>
-      <sect1 id="smoke-fumes">
-        <title>Smoke and fumes</title>
+  <title>Fire</title>
 
-        <para>The QRH procedure should be applied when smoke is detected and the crew suspect the avionics, air
-        conditioning or cabin equipment as the source. The paper procedure includes all the steps of the avionics smoke
-        ECAM procedure, so if this caution is triggered, the paper procedure should be applied instead of the
-        ECAM<footnote><para>There is an odd airframe dependency with this; on some airframes the
-        instruction is to run the paper checklist at latest after completing the immediate actions of the Avionics Smoke
-        ECAM, whilst on others it is when requested by the Avionics Smoke ECAM. Unfortunately the Avionics Smoke ECAM
-        itself is not described in the FCOM. A general policy of running the paper procedure instead of the Avionics
-        Smoke ECAM procedure seems to cover all eventualities.</para></footnote>.</para>
+  <sect1 id="smoke-fumes">
+    <title>Smoke and fumes</title>
 
-        <para>In the case of other smoke related ECAMs, the relevant ECAM procedure should be applied first and then the
-        use of the paper checklist considered.</para>
+    <para>The QRH procedure should be applied when smoke is detected and the crew suspect the
+    avionics, air conditioning or cabin equipment as the source. The paper procedure includes all
+    the steps of the avionics smoke ECAM procedure, so if this caution is triggered, the paper
+    procedure should be applied instead of the ECAM<footnote><para>There is an odd airframe
+    dependency with this; on some airframes the instruction is to run the paper checklist at latest
+    after completing the immediate actions of the Avionics Smoke ECAM, whilst on others it is when
+    requested by the Avionics Smoke ECAM. Unfortunately the Avionics Smoke ECAM itself is not
+    described in the FCOM. A general policy of running the paper procedure instead of the Avionics
+    Smoke ECAM procedure seems to cover all eventualities.</para></footnote>.</para>
 
-        <para revisionflag="added">While the smoke aspect of these procedures is fairly unambiguous,
-        the fumes aspect has led to both under- and over-reaction in the simulator. Training
-        department guidance is that if a “smell” is detected in the cabin and it is having no
-        physiological effects, no immediate action is required. If there are physiological effects,
-        the SMOKE/FUMES/AVNCS SMOKE QRH procedure should be actioned. However, only the first line, LAND
-        ASAP, is actioned since there is no perceptible smoke and the rest of the checklist is below
-        the line “if perceptible smoke apply immediately”. Thus after cross-confirming LAND
-        ASAP, immediately move on to the REMOVAL OF SMOKE/FUMES QRH checklist. It should be noted
-        that confirmation of the correctness of this advice is currently being sought from Airbus,
-        and that in a number of in-service events the source of the smell has been positively
-        identified as one of the packs.</para>
+    <para>In the case of other smoke related ECAMs, the relevant ECAM procedure should be applied
+    first and then the use of the paper checklist considered.</para>
 
-        <para>Rain repellent fluid leaks are not covered. Orange peel smells are toxic, pine needle smells
-        non-toxic.</para>
+    <para revisionflag="added">While the smoke aspect of these procedures is fairly unambiguous, the
+    fumes aspect has led to both under- and over-reaction in the simulator. Training department
+    guidance is that if a “smell” is detected in the cabin and it is having no physiological
+    effects, no immediate action is required. If there are physiological effects, the
+    SMOKE/FUMES/AVNCS SMOKE QRH procedure should be actioned. However, only the first line, LAND
+    ASAP, is actioned since there is no perceptible smoke and the rest of the checklist is below the
+    line “if perceptible smoke apply immediately”. Thus after cross-confirming LAND ASAP,
+    immediately move on to the REMOVAL OF SMOKE/FUMES QRH checklist. It should be noted that
+    confirmation of the correctness of this advice is currently being sought from Airbus, and that
+    in a number of in-service events the source of the smell has been positively identified as one
+    of the packs.</para>
 
-        <para>The SMOKE/ FUMES/ AVNCS SMOKE checklist attempts to isolate the source of the smoke. It is possible that
-        it may become impossible to carry out this checklist due to smoke density. In this case, interrupt the checklist
-        and carry out the smoke removal drill (see <xref linkend="smoke-fumes-removal"/>). It is also possible that the
-        situation may deteriorate to a level that an immediate forced landing becomes the preferable option. In general,
-        unless the source of the smoke is obvious and extinguishable, a diversion should be initiated immediately. The
-        smoke removal drill is most effective and adaptable at lower levels, so a descent to 10,000ft or MSA is also a
-        priority.</para>
+    <para>Rain repellent fluid leaks are not covered. Orange peel smells are toxic, pine needle
+    smells non-toxic.</para>
 
-        <para>The first priority is to protect yourself, so get an oxygen mask on. The mask must be
-	set to 100% oxygen to exclude fumes; at minimum dispatch oxygen levels this will provide as
-	little as 15 minutes of protection. Pushing the “Emergency pressure selector” knob will
-	provide a few seconds of overpressure, which can be used to clear any smoke trapped in the
-	mask as it was donned.</para>
+    <para>The SMOKE/ FUMES/ AVNCS SMOKE checklist attempts to isolate the source of the smoke. It is
+    possible that it may become impossible to carry out this checklist due to smoke density. In this
+    case, interrupt the checklist and carry out the smoke removal drill (see <xref
+    linkend="smoke-fumes-removal"/>). It is also possible that the situation may deteriorate to a
+    level that an immediate forced landing becomes the preferable option. In general, unless the
+    source of the smoke is obvious and extinguishable, a diversion should be initiated
+    immediately. The smoke removal drill is most effective and adaptable at lower levels, so a
+    descent to 10,000ft or MSA is also a priority.</para>
 
-        <para revisionflag="changed">Likely sources of smoke are the avionics, the cabin fans and
-        the galleys. Smoke from these sources can be contained with simple and reversible actions
-        which can be initiated immediately: put the avionics ventilation into smoke removal mode by
-        selecting both blower and extract fans to OVRD, turn off the cabin fans and turn off the
-        galleys.</para>
+    <para>The first priority is to protect yourself, so get an oxygen mask on. The mask must be set
+    to 100% oxygen to exclude fumes; at minimum dispatch oxygen levels this will provide as little
+    as 15 minutes of protection. Pushing the “Emergency pressure selector” knob will provide a few
+    seconds of overpressure, which can be used to clear any smoke trapped in the mask as it was
+    donned.</para>
 
-        <para revisionflag="changed">Where the source is immediately obvious, accessible and
-        extinguishable, isolate the faulty equipment. Otherwise the QRH provides seperate drills for
-        suspected air conditioning smoke, suspected cabin equipment smoke or suspected avionics/
-        electrical smoke. In addition the avionics/ electrical smoke drill includes undetermined and
-        continuing smoke sources.</para>
+    <para revisionflag="changed">Likely sources of smoke are the avionics, the cabin fans and the
+    galleys. Smoke from these sources can be contained with simple and reversible actions which can
+    be initiated immediately: put the avionics ventilation into smoke removal mode by selecting both
+    blower and extract fans to OVRD, turn off the cabin fans and turn off the galleys.</para>
 
-        <para>Suspect air conditioning smoke if it initially comes out of the ventilation outlets. Several ECAM warnings
-        are also likely to occur as sensors detect the smoke in other areas. The displayed ECAM procedures must be
-        applied. Following an engine or APU failure, smoke may initially enter the air conditioning system but should
-        dissipate quickly once the failure is contained. The air conditioning drill starts by turning the APU bleed off
-        in case this is the source. The packs are then turned off one at a time to determine if the source of the smoke
-        is a pack.</para>
+    <para revisionflag="changed">Where the source is immediately obvious, accessible and
+    extinguishable, isolate the faulty equipment. Otherwise the QRH provides seperate drills for
+    suspected air conditioning smoke, suspected cabin equipment smoke or suspected avionics/
+    electrical smoke. In addition the avionics/ electrical smoke drill includes undetermined and
+    continuing smoke sources.</para>
 
-        <para>The cabin equipment smoke drill involves selecting the commercial button off and searching for faulty
-        cabin equipment.</para>
+    <para>Suspect air conditioning smoke if it initially comes out of the ventilation
+    outlets. Several ECAM warnings are also likely to occur as sensors detect the smoke in other
+    areas. The displayed ECAM procedures must be applied. Following an engine or APU failure, smoke
+    may initially enter the air conditioning system but should dissipate quickly once the failure is
+    contained. The air conditioning drill starts by turning the APU bleed off in case this is the
+    source. The packs are then turned off one at a time to determine if the source of the smoke is a
+    pack.</para>
 
-        <para revisionflag="changed">Suspect avionics smoke if the only triggered ECAM is AVIONICS
-        SMOKE. If an item of electrical equipment fails immediately prior to the appearance of the
-        smoke, that equipment should be suspected as the source. The avionics/ electrical drill
-        (which includes the undetermined source drill) reduces the amount of electrically powered
-        equipment to a minimum by adopting a slightly modified emergency electrical
-        configuration.<footnote><para>The EMER ELEC GEN 1 LINE button rather than the GEN 1 button
-        is used to disconnect generator 1 which disconnects generator 1 from the electrical system
-        but allows it to directly supply one fuel pump in each wing tank.</para></footnote> The
-        resulting ECAM <emphasis>may </emphasis><footnote><para>Which ECAM procedure is displayed is
-        dependent on whether an AVIONICS SMOKE ECAM has been triggered prior to the adoption of
-        emergency electrical configuration.</para></footnote> contain instructions to reset the
-        generators; these instructions should be disregarded, although the rest of the ECAM
-        procedure must be actioned. The intention is to restore power 3 minutes before landing or at
-        2000ft aal. Since you will not be able to restore the two IRs that were depowered, the
-        landing will be in Direct Law and hence CONF 3.<footnote><para>QRH PRO.ABN.24 ELEC EMER
-        CONFIG SYS REMAINING indicates that by selecting the ATT HDG selector to CAPT 3 it may be
-        possible to retain IR3 and hence have sufficient equipment for a Cat 3A landing once power
-        is restored. This has not yet been confirmed by Airbus.</para></footnote> This is not
-        mentioned in QRH ABN.26, and is only mentioned on the ECAM once gear is extended.</para>
+    <para>The cabin equipment smoke drill involves selecting the commercial button off and searching
+    for faulty cabin equipment.</para>
 
-        <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH ABN.26,
-        FCOM PRO.ABN.26]</para>
-      </sect1>
-      <sect1 id="smoke-fumes-removal">
-        <title>Smoke/ fumes removal</title>
+    <para revisionflag="changed">Suspect avionics smoke if the only triggered ECAM is AVIONICS
+    SMOKE. If an item of electrical equipment fails immediately prior to the appearance of the
+    smoke, that equipment should be suspected as the source. The avionics/ electrical drill (which
+    includes the undetermined source drill) reduces the amount of electrically powered equipment to
+    a minimum by adopting a slightly modified emergency electrical configuration.<footnote><para>The
+    EMER ELEC GEN 1 LINE button rather than the GEN 1 button is used to disconnect generator 1 which
+    disconnects generator 1 from the electrical system but allows it to directly supply one fuel
+    pump in each wing tank.</para></footnote> The resulting ECAM <emphasis>may
+    </emphasis><footnote><para>Which ECAM procedure is displayed is dependent on whether an AVIONICS
+    SMOKE ECAM has been triggered prior to the adoption of emergency electrical
+    configuration.</para></footnote> contain instructions to reset the generators; these
+    instructions should be disregarded, although the rest of the ECAM procedure must be
+    actioned. The intention is to restore power 3 minutes before landing or at 2000ft aal. Since you
+    will not be able to restore the two IRs that were depowered, the landing will be in Direct Law
+    and hence CONF 3.<footnote><para>QRH PRO.ABN.24 ELEC EMER CONFIG SYS REMAINING indicates that by
+    selecting the ATT HDG selector to CAPT 3 it may be possible to retain IR3 and hence have
+    sufficient equipment for a Cat 3A landing once power is restored. This has not yet been
+    confirmed by Airbus.</para></footnote> This is not mentioned in QRH ABN.26, and is only
+    mentioned on the ECAM once gear is extended.</para>
 
-        <para>Smoke removal procedures initially use the pressurisation system to draw smoke and fumes overboard by
-        increasing the cabin altitude. If there are no fuel vapours present, the packs are used to drive the smoke
-        overboard. Otherwise it is driven overboard by residual pressure.</para>
+    <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH ABN.26,
+    FCOM PRO.ABN.26]</para>
+  </sect1>
 
-        <para>The final target configuration is packs off, outflow valve fully open and ram air on. As this
-        depressurises the aircraft, it can only be achieved at lower levels (preferably FL100). If in emergency
-        configuration, turning the APU master switch on connects the batteries for a maximum of 3 minutes and allows
-        manual control of the DC powered outflow valve motor. Once at a suitable level and below 200kt, as a last resort
-        PNF’s cockpit window can be opened.</para>
 
-        <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26]</para>
-      </sect1>
-      <sect1 id="eng_fire">
-        <title>Engine fire</title>
-        <para>The basic sequence is to bring the thrust lever of the affected engine to idle, turn off its engine
-        master, push its fire button, wait 10 seconds then deploy its first fire bottle. If the fire is not extinguished
-        after 30 seconds, indicated by the fire button remaining lit, deploy the second
-        bottle.</para>
+  <sect1 id="smoke-fumes-removal">
+    <title>Smoke/ fumes removal</title>
 
-        <para>This sequence is modified on the ground in that both fire bottles are fired
-        immediately, and the remaining engine is then also shut down. Note that shutting down both
-        engines without the APU running will leave only batteries, resulting in loss of all COMS
-        except VHF1 and loss of ECAM reference for the final actions.</para>
+    <para>Smoke removal procedures initially use the pressurisation system to draw smoke and fumes
+    overboard by increasing the cabin altitude. If there are no fuel vapours present, the packs are
+    used to drive the smoke overboard. Otherwise it is driven overboard by residual pressure.</para>
 
-        <para role="multicite">[<emphasis role="underline">ENG 1(2) FIRE</emphasis>, FCOM PRO.ABN.26]</para>
-      </sect1>
-      <sect1 id="lithium-battery-fire">
-        <title>Lithium Battery Fire</title>
+    <para>The final target configuration is packs off, outflow valve fully open and ram air on. As
+    this depressurises the aircraft, it can only be achieved at lower levels (preferably FL100). If
+    in emergency configuration, turning the APU master switch on connects the batteries for a
+    maximum of 3 minutes and allows manual control of the DC powered outflow valve motor. Once at a
+    suitable level and below 200kt, as a last resort PNF’s cockpit window can be opened.</para>
 
-        <para>If there are flames, they should be attacked with a halon extinguisher. This will
-        necessitate PF donning a crew oxygen mask and PNF donning the smoke hood.</para>
+    <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26]</para>
+  </sect1>
 
-        <para>If there are no flames, or once the flames have been extinguished, the cabin crew
-        should remove the device from the cockpit and store it in a lined container filled with
-        water. If the device cannot be removed, water or non-alcoholic liquid should be poured on
-        the device, and it should be continuously monitored for re-ignition.</para>
 
-        <para>Note that these procedures assume that you are dealing with lithium ion batteries
-        (i.e. rechargeable batteries found in laptops, tablets, phones etc.) where the amount of
-        water reactive lithium metal is actually fairly low. Once the flames have been knocked down,
-        the focus is on cooling to prevent thermal runaway in adjacent cells. Counter-intuitively,
-        it is vital that ice is <emphasis>not</emphasis> used as this acts as a thermal insulator
-        and will likely cause adjacent cells to explode. For the same reason, smothering with
-        anything that might thermally insulate the battery pack (e.g. a fire bag) is probably a bad
-        idea.</para>
+  <sect1 id="eng_fire">
+    <title>Engine fire</title>
 
-        <para>If smoke becomes the biggest threat, see <xref linkend="smoke-fumes-removal"/>. If the
-        situation becomes unmanageable, consider an immediate landing.</para>
+    <para>The basic sequence is to bring the thrust lever of the affected engine to idle, turn off
+    its engine master, push its fire button, wait 10 seconds then deploy its first fire bottle. If
+    the fire is not extinguished after 30 seconds, indicated by the fire button remaining lit,
+    deploy the second bottle.</para>
 
-        <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26, FAA videos (available on youtube)]</para>
-      </sect1>
-    </chapter>
-    <chapter>
+    <para>This sequence is modified on the ground in that both fire bottles are fired immediately,
+    and the remaining engine is then also shut down. Note that shutting down both engines without
+    the APU running will leave only batteries, resulting in loss of all COMS except VHF1 and loss of
+    ECAM reference for the final actions.</para>
+
+    <para role="multicite">[<emphasis role="underline">ENG 1(2) FIRE</emphasis>,
+    FCOM PRO.ABN.26]</para>
+  </sect1>
+
+
+  <sect1 id="lithium-battery-fire">
+    <title>Lithium Battery Fire</title>
+
+    <para>If there are flames, they should be attacked with a halon extinguisher. This will
+    necessitate PF donning a crew oxygen mask and PNF donning the smoke hood.</para>
+
+    <para>If there are no flames, or once the flames have been extinguished, the cabin crew should
+    remove the device from the cockpit and store it in a lined container filled with water. If the
+    device cannot be removed, water or non-alcoholic liquid should be poured on the device, and it
+    should be continuously monitored for re-ignition.</para>
+
+    <para>Note that these procedures assume that you are dealing with lithium ion batteries
+    (i.e. rechargeable batteries found in laptops, tablets, phones etc.) where the amount of water
+    reactive lithium metal is actually fairly low. Once the flames have been knocked down, the focus
+    is on cooling to prevent thermal runaway in adjacent cells. Counter-intuitively, it is vital
+    that ice is <emphasis>not</emphasis> used as this acts as a thermal insulator and will likely
+    cause adjacent cells to explode. For the same reason, smothering with anything that might
+    thermally insulate the battery pack (e.g. a fire bag) is probably a bad idea.</para>
+
+    <para>If smoke becomes the biggest threat, see <xref linkend="smoke-fumes-removal"/>. If the
+    situation becomes unmanageable, consider an immediate landing.</para>
+
+    <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26, FAA videos (available on youtube)]</para>
+  </sect1>
+</chapter>
+
+
+<chapter>
       <title>Fuel</title>
       <sect1 id="fuel-leak">
         <title>Fuel leak</title>
