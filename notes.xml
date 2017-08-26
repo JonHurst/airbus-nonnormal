@@ -3865,127 +3865,149 @@
 
 
 <chapter>
-      <title>Ice and rain protection</title>
-      <sect1>
-        <title>Double AOA heat fail</title>
+  <title>Ice and rain protection</title>
 
-        <para>If two AOA probes are affected by icing, the computers may erroneously deselect the remaining good
-        ADR. Switching off one of the affected ADRs leaves the system in the state described in <xref
-        linkend="adr-disagree"/>.</para>
+  <sect1>
+    <title>Double AOA heat fail</title>
 
-        <para role="multicite">[QRH ABN.30, FCOM PRO.ABN.30]</para>
-      </sect1>
-      <sect1>
-        <title>Single pitot probe heat or static port heat fault</title>
+    <para>If two AOA probes are affected by icing, the computers may erroneously deselect the
+    remaining good ADR. Switching off one of the affected ADRs leaves the system in the state
+    described in <xref linkend="adr-disagree"/>.</para>
 
-        <para>The ADR associated with the failed probe or port should be considered unreliable. ADR1 or ADR2 can be
-        replaced with ADR3 using air data switching. If using standby instruments with ADR3 unreliable, air data
-        information must be monitored closely.</para>
-
-        <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PITOT(L(R) STAT), FCOM DSC.30.50.30,
-	FCOM PRO.ABN.30]</para>
-      </sect1>
-      <sect1>
-        <title>Multiple pitot heat failures</title>
-
-        <para>The issue with loss of anti-ice on more than one pitot probe is that it is possible that the two
-        unprotected pitot probes will ice up at the same time and provide erroneous but coherent data. This leads to a
-        situation where the ADR associated with the remaining protected probe is locked out despite being the single
-        correct source.</para>
-
-        <para>Obviously, the first thing to do is to avoid icing conditions. If there is a working ADR connected to a
-        protected probe, turn one of the ADRs associated with an unprotected probe off. This ensures that an “ADR
-        DISAGREE” ECAM caution is triggered by significant speed discrepancies and ensures that the protected ADR will
-        not be automatically deselected.</para>
-
-        <para>If pitot heat is lost on all probes, one of the ADRs should, again, be turned off to ensure the “ADR
-        DISAGREE” ECAM caution is provided. If icing is expected, turn off a second ADR and be ready to apply unreliable
-        airspeed procedures (see <xref linkend="unreliable-airspeed"/>).</para>
-
-        <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> ALL(CAPT(F/O)+F/O(STBY)) PITOT, FCOM DSC.30.50.30,
-	FCOM PRO.ABN.30]</para>
-      </sect1>
-      <sect1>
-        <title>Single AOA or TAT heat fault</title>
-
-        <para>No immediate operational effect.</para>
-
-        <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) AOA(TAT), FCOM DSC.30.50.30,
-	FCOM PRO.ABN.30]</para>
-      </sect1>
-      <sect1>
-        <title>Probe heat computer failure</title>
-
-        <para>If applicable, deselect the affected ADR.</para>
-
-        <para role="multicite">[<emphasis
-        role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PROBES, FCOM DSC.30.50.30,
-        FCOM PRO.ABN.30]</para>
-      </sect1>
-      <sect1>
-        <title>Window heat fault</title>
-
-        <para>No immediate operational effect.</para>
-
-        <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> L(R)(L+R) WINDSHIELD(WINDOW), FCOM DSC.30.50.30,
-	FCOM PRO.ABN.30]</para>
-      </sect1>
-      <sect1>
-        <title>Engine anti-ice valve fault</title>
-
-        <para>If a valve fails to open when commanded, avoid icing conditions. If it fails to close when commanded, a
-        thrust limit penalty applies<!-- {TODO: Check this is automatically applied by the relevant FADEC} -->.</para>
-
-        <para role="multicite">[<emphasis
-	role="underline">ANTI ICE</emphasis> ENG 1(2) VALVE OPEN(CLSD), FCOM DSC.30.30.30,
-	FCOM PRO.ABN.30]</para>
-      </sect1>
-      <sect1 id="wai-valve-open">
-        <title>Wing anti-ice valve open when commanded closed</title>
-
-        <para>In the air, just allow the failed side to be continually anti-iced and use wing anti-ice on the working
-        side when required. A thrust limit penalty will apply. On the ground, isolate and depressurize the pneumatic
-        system on the failed side.</para>
-
-        <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) VALVE OPEN,
-	FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
-      </sect1>
-      <sect1 id="waa-valve-closed">
-        <title>Wing anti-ice valve closed when commanded open</title>
-
-        <para revisionflag="changed">The wing anti-ice must be turned off to avoid asymmetrically
-        de-icing the wings. Avoid icing conditions. If ice accretion does occur, landing distances
-        and V<subscript>app</subscript> adjustments are in QRH PER.30 and speed must be maintained
-        above the higher of V<subscript>LS</subscript>+10kt or Green Dot.</para>
-
-        <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> SYS FAULT,
-        FCOM DSC.30.20.30, FCOM PRO.ABN.30, FCOM PRO.SUP.30]</para>
-      </sect1>
-      <sect1>
-        <title>Wing anti-ice valves fail to close after ground self-test</title>
-
-        <para>Simply switch off the wing anti-ice with the push button. If the valves still do not close, see <xref
-        linkend="wai-valve-open"/>.</para>
-
-        <para role="multicite">[<emphasis role="underline">ANTI ICE</emphasis> OPEN ON GND,
-        FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
-      </sect1>
-      <sect1>
-        <title>High pressure detected when wing anti-ice turned on</title>
-
-        <para>A thrust limit penalty is applied automatically. <!-- {TODO: Check that this is automatic} --></para>
-
-        <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) HI PR,
-        FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
-      </sect1>
+    <para role="multicite">[QRH ABN.30, FCOM PRO.ABN.30]</para>
+  </sect1>
 
 
-    </chapter>
-    <chapter>
+  <sect1>
+    <title>Single pitot probe heat or static port heat fault</title>
+
+    <para>The ADR associated with the failed probe or port should be considered unreliable. ADR1 or
+    ADR2 can be replaced with ADR3 using air data switching. If using standby instruments with ADR3
+    unreliable, air data information must be monitored closely.</para>
+
+    <para role="multicite">[<emphasis
+    role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PITOT(L(R) STAT), FCOM DSC.30.50.30,
+    FCOM PRO.ABN.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Multiple pitot heat failures</title>
+
+    <para>The issue with loss of anti-ice on more than one pitot probe is that it is possible that
+    the two unprotected pitot probes will ice up at the same time and provide erroneous but coherent
+    data. This leads to a situation where the ADR associated with the remaining protected probe is
+    locked out despite being the single correct source.</para>
+
+    <para>Obviously, the first thing to do is to avoid icing conditions. If there is a working ADR
+    connected to a protected probe, turn one of the ADRs associated with an unprotected probe
+    off. This ensures that an “ADR DISAGREE” ECAM caution is triggered by significant speed
+    discrepancies and ensures that the protected ADR will not be automatically deselected.</para>
+
+    <para>If pitot heat is lost on all probes, one of the ADRs should, again, be turned off to
+    ensure the “ADR DISAGREE” ECAM caution is provided. If icing is expected, turn off a second ADR
+    and be ready to apply unreliable airspeed procedures (see <xref
+    linkend="unreliable-airspeed"/>).</para>
+
+    <para role="multicite">[<emphasis
+    role="underline">ANTI ICE</emphasis> ALL(CAPT(F/O)+F/O(STBY)) PITOT, FCOM DSC.30.50.30,
+    FCOM PRO.ABN.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Single AOA or TAT heat fault</title>
+
+    <para>No immediate operational effect.</para>
+
+    <para role="multicite">[<emphasis role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) AOA(TAT),
+    FCOM DSC.30.50.30, FCOM PRO.ABN.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Probe heat computer failure</title>
+
+    <para>If applicable, deselect the affected ADR.</para>
+
+    <para role="multicite">[<emphasis role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PROBES,
+    FCOM DSC.30.50.30, FCOM PRO.ABN.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Window heat fault</title>
+
+    <para>No immediate operational effect.</para>
+
+    <para role="multicite">[<emphasis
+    role="underline">ANTI ICE</emphasis> L(R)(L+R) WINDSHIELD(WINDOW), FCOM DSC.30.50.30,
+    FCOM PRO.ABN.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Engine anti-ice valve fault</title>
+
+    <para>If a valve fails to open when commanded, avoid icing conditions. If it fails to close when
+    commanded, a thrust limit penalty applies<!-- {TODO: Check this is automatically applied by the
+    relevant FADEC} -->.</para>
+
+    <para role="multicite">[<emphasis
+    role="underline">ANTI ICE</emphasis> ENG 1(2) VALVE OPEN(CLSD), FCOM DSC.30.30.30,
+    FCOM PRO.ABN.30]</para>
+  </sect1>
+
+
+  <sect1 id="wai-valve-open">
+    <title>Wing anti-ice valve open when commanded closed</title>
+
+    <para>In the air, just allow the failed side to be continually anti-iced and use wing anti-ice
+    on the working side when required. A thrust limit penalty will apply. On the ground, isolate and
+    depressurize the pneumatic system on the failed side.</para>
+
+    <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) VALVE OPEN,
+    FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
+  </sect1>
+
+
+  <sect1 id="waa-valve-closed">
+    <title>Wing anti-ice valve closed when commanded open</title>
+
+    <para revisionflag="changed">The wing anti-ice must be turned off to avoid asymmetrically
+    de-icing the wings. Avoid icing conditions. If ice accretion does occur, landing distances and
+    V<subscript>app</subscript> adjustments are in QRH PER.30 and speed must be maintained above the
+    higher of V<subscript>LS</subscript>+10kt or Green Dot.</para>
+
+    <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> SYS FAULT,
+    FCOM DSC.30.20.30, FCOM PRO.ABN.30, FCOM PRO.SUP.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Wing anti-ice valves fail to close after ground self-test</title>
+
+    <para>Simply switch off the wing anti-ice with the push button. If the valves still do not
+    close, see <xref linkend="wai-valve-open"/>.</para>
+
+    <para role="multicite">[<emphasis role="underline">ANTI ICE</emphasis> OPEN ON GND,
+    FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>High pressure detected when wing anti-ice turned on</title>
+
+    <para>A thrust limit penalty is applied automatically. <!-- {TODO: Check that this is automatic}
+    --></para>
+
+    <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) HI PR,
+    FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
+  </sect1>
+</chapter>
+
+
+<chapter>
       <title>Indicating/ Recording</title>
       <sect1 id="du-failure">
         <title>Display unit failure</title>
