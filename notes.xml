@@ -3294,230 +3294,254 @@
 
 
 <chapter>
-      <title>Navigation</title>
-      <sect1 id="egpws">
-        <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
+  <title>Navigation</title>
 
-        <para>EPGWS alerts can be categorised into warnings and cautions. A warning is any alert
-        with the instruction “Pull up” or “Avoid” attached. All other alerts are cautions. A warning
-        may be downgraded to a caution if flying in daylight VMC and positive visual verification is
-        made that no hazard exists, or if an applicable nuisance warning notice is promulgated in
-        Company documentation [EOMA 8.3.5].</para>
+  <sect1 id="egpws">
+    <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
 
-        <para>The response to a “Pull up” type warning is to call “Pull up, TOGA”,
-        disconnect the autopilot and simultaneously roll the wings level, apply full backstick and
-        set TOGA power. The speedbrake should then be checked retracted. Once the flight path is
-        safe and the warning stops, accelerate and clean up as required. Note that it is highly
-        likely that the autothrust ALPHA FLOOR protection will have engaged and thus the autothrust
-        will need to be disengaged to cancel TOGA LK mode.</para>
+    <para>EPGWS alerts can be categorised into warnings and cautions. A warning is any alert with
+    the instruction “Pull up” or “Avoid” attached. All other alerts are cautions. A warning may be
+    downgraded to a caution if flying in daylight VMC and positive visual verification is made that
+    no hazard exists, or if an applicable nuisance warning notice is promulgated in Company
+    documentation [EOMA 8.3.5].</para>
 
-        <para>An “Avoid” warning indicates that a vertical manoeuvre alone is insufficient to
-        prevent collision, and lateral avoiding action must also be taken. The response is
-        essentially the same except that instead of rolling wings level, a turn must be
-        initiated. The direction of the turn is at the discretion of the pilot, with the terrain or
-        obstacle that is the source of the warning being displayed in red and black crosshatch on
-        the ND.</para>
+    <para>The response to a “Pull up” type warning is to call “Pull up, TOGA”, disconnect the
+    autopilot and simultaneously roll the wings level, apply full backstick and set TOGA power. The
+    speedbrake should then be checked retracted. Once the flight path is safe and the warning stops,
+    accelerate and clean up as required. Note that it is highly likely that the autothrust ALPHA
+    FLOOR protection will have engaged and thus the autothrust will need to be disengaged to cancel
+    TOGA LK mode.</para>
 
-        <para>The response to a caution is to correct the flight path or aircraft configuration as necessary. A
-        configuration warning will almost always require a go around.</para>
+    <para>An “Avoid” warning indicates that a vertical manoeuvre alone is insufficient to prevent
+    collision, and lateral avoiding action must also be taken. The response is essentially the same
+    except that instead of rolling wings level, a turn must be initiated. The direction of the turn
+    is at the discretion of the pilot, with the terrain or obstacle that is the source of the
+    warning being displayed in red and black crosshatch on the ND.</para>
 
-        <para role="multicite">[QRH ABN.34, FCOM PRO.ABN.34]</para>
-      </sect1>
-      <sect1 id="TCAS">
-        <title>TCAS warnings <emphasis>(memory item)</emphasis></title>
+    <para>The response to a caution is to correct the flight path or aircraft configuration as
+    necessary. A configuration warning will almost always require a go around.</para>
 
-        <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution advisories (anything
-        else).</para>
-
-        <para revisionflag="changed">From 28th January 2017, new easyJet deliveries are fitted with
-        the new AP/FD TCAS mode. When this mode is fitted, the autopilot is capable of autonomously
-        flying the TCAS escape manoeuvre. PF simply calls “TCAS blue, I have control" to establish
-        who will take over if the autopilot does not respond appropriately, then calls the
-        FMAs and monitors the autopilot as it flies the manoeuvre. If flying manually with flight
-        directors and autothrust on, the flight directors will give standard guidance to fly the
-        manoeuvre. If flying fully manually, the flight directors will pop up and the autothrust
-        will engage, although it may be necessary to set the thrust levers to the climb gate.</para>
-
-        <para>If AP/FD TCAS mode is not installed or not available, the first response to either
-        advisory is to call “TCAS, I have control” to unequivocally establish who will be carrying
-        out any manoeuvres. If it is a resolution advisory, the autopilot should be disconnected and
-        <emphasis>both</emphasis> flight directors turned off<footnote><para>If one FD is left
-        engaged, the autothrust will not revert to speed mode, possibly resulting in speed decay and
-        engagement of normal law protections.</para></footnote>. The autothrust remains engaged and
-        reverts to speed mode. A vertical manoeuvre should then be flown to keep the
-        <acronym>V/S</acronym> needle out of the red areas shown on the <acronym>V/S</acronym>
-        scale. ATC should then be notified (e.g “Radar, Easy 123 – TCAS RA”). When clear of
-        conflict, return to assigned level and re-engage the automatics (ATC phraseology: “Radar,
-        Easy 123 – clear of conflict, returning to FL XXX”).</para>
-
-        <para>If a climb resolution advisory occurs on final approach, a go around must be flown.</para>
-
-        <para role="multicite">[QRH ABN.34, FCOM PRO.ABN.34, CAP413 1.7]</para>
-      </sect1>
-      <sect1 id="rnav-downgrade">
-        <title>RNAV downgrades</title>
-
-        <para>RNAV operations fall into three main categories:
-
-        <orderedlist>
-          <listitem><para>RNAV approach (usually RNP 0.3)</para></listitem>
-          <listitem><para>RNP-1 (aka PRNAV)</para></listitem>
-          <listitem><para>RNP-5 (aka BRNAV)</para></listitem>
-        </orderedlist>
-
-        The equipment that must be serviceable is listed in EOMB 2.3.18.3.2 for RNAV approach
-        and FCOM PRO.SPO.51 for RNP SID/STAR.</para>
-
-        <para>The following messages indicate loss of RNAV capability:
-
-        <itemizedlist>
-          <listitem><para>NAV ACCUR DOWNGRAD (MCDU and ND)<footnote><para>For RNP-1 and RNP-5 procedures, if NAV ACCUR
-          DOWNGRAD occurs on one side only, the procedure may be continued using the unaffected
-          FMGC.</para></footnote></para></listitem>
-          <listitem><para>FMS1/FMS2 POS DIFF (MCDU)</para></listitem>
-          <listitem><para><emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE (ECAM)</para></listitem>
-          <listitem><para>CHECK IRS 1(2)(3)/FM POSITION (MCDU)<footnote><para>This is missing from
-          the RNP-1 list in EOMB but is listed in the FCOM. It is not listed as a go around criteria
-          for RNAV approach, but continuing would seem somewhat
-          brave…</para></footnote></para></listitem>
-        </itemizedlist>
-        </para>
-
-        <para>For RNAV approaches, a go-around is mandated for any of these messages or if GPS PRIMARY LOST is
-        annunciated on both NDs<footnote><para>If GPS PRIMARY LOST is annunciated on only one ND, the approach may be
-        continued using the unaffected FMGC. There is also conflict between EOMA and EOMB as to
-	whether GPS PRIMARY is required at all for RNAV(VOR/DME) or RNAV(DME/DME) etc. – I've gone
-	with the most restrictive here.</para></footnote>.</para>
-
-	<para>In an RNP-1 (PRNAV) environment, an RNAV downgrade may leave the aircraft unsure of position and below
-	MSA. The initial response is to notify ATC with the phrase “Unable RNAV due equipment” and request
-	reclearance. An immediate climb above MSA should be considered if a suitable alternative navigation method
-	(e.g. radar vectors) is not available.</para>
-
-        <para>Some RNP-1 procedures specify additional downgrade criteria such as a requirement for dual RNAV systems or
-        GPS. If GPS is not specifically mandated as an additional restriction, an RNP-1 procedure may still be flown
-        without GPS PRIMARY: set RNP to 1, check NAV ACCURACY is HIGH and carry out a raw data check prior to
-        commencement.</para>
-
-        <para>Downgrades in an RNP-5 (BRNAV) environment are less critical as the aircraft will be above MSA. The IRSs
-        provides RNP-5 required accuracy for two hours from last full alignment regardless of MCDU ENP, and it is
-        acceptable to carry out a raw data check (see EOMB 2.3.15) to confirm that RNP-5 capability is maintained. If
-        loss of RNP-5 capability is confirmed, inform ATC and continue with conventional navigation.</para>
+    <para role="multicite">[QRH ABN.34, FCOM PRO.ABN.34]</para>
+  </sect1>
 
 
-        <para role="multicite">[FCOM PRO.SPO.51, EOM A.8.3.2.5, EOM B.2.4.51]</para>
-      </sect1>
-      <sect1 id="adr-faults">
-        <title>ADR faults</title>
+  <sect1 id="TCAS">
+    <title>TCAS warnings <emphasis>(memory item)</emphasis></title>
 
-        <para>A single ADR fault simply requires switching to the hot spare and turning the affected unit off. Loss of
-        ADR1 will lead to the loss of the extended functions of the EGPWS. Loss of ADR2 will lead to both baro reference
-        channels being driven by the same FCU channel <!-- {TODO: Find out details of this} -->, so the baro refs should be
-        checked.</para>
+    <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution
+    advisories (anything else).</para>
 
-        <para>Loss of two ADRs will lead to Alternate Law with associated speed restrictions and landing configuration
-        considerations. Air data switching is used as necessary, and the affected ADRs are turned off. ATC switching may
-        be required to restore transponder. If ADR 1 and 3 are lost, the landing gear safety valve is controlled closed,
-        so the gear must be gravity extended and cannot subsequently be retracted. This is not mentioned by the ECAM –
-        the gear will simply fail to extend normally.</para>
+    <para revisionflag="changed">From 28th January 2017, new easyJet deliveries are fitted with the
+    new AP/FD TCAS mode. When this mode is fitted, the autopilot is capable of autonomously flying
+    the TCAS escape manoeuvre. PF simply calls “TCAS blue, I have control" to establish who will
+    take over if the autopilot does not respond appropriately, then calls the FMAs and monitors the
+    autopilot as it flies the manoeuvre. If flying manually with flight directors and autothrust on,
+    the flight directors will give standard guidance to fly the manoeuvre. If flying fully manually,
+    the flight directors will pop up and the autothrust will engage, although it may be necessary to
+    set the thrust levers to the climb gate.</para>
 
-	<para>If all three ADRs are lost, the result is airframe dependent. Some of the fleet now
-	have a <emphasis role="underline">NAV</emphasis> ADR 1+2+3 FAULT ECAM and an appropriate procedure utilising the
-	Backup Speed Scale, completing with the QRH ABN.34 ALL ADR OFF paper procedure. For older airframes the ECAM
-	displayed will be for Dual ADR failure and must be ignored since it will request meaningless air data and ATC
-	switching. Instead revert to standby instruments (the standby ASI and Altimeter have direct pressure feeds from
-	the the standby pitot and static ports) and refer to QRH ABN.34 ADR 1+2+3 FAULT. Interestingly, when Backup
-	Speed Scale is available, the ECAM advises that the standby instrument indications may be unreliable…</para>
+    <para>If AP/FD TCAS mode is not installed or not available, the first response to either
+    advisory is to call “TCAS, I have control” to unequivocally establish who will be carrying out
+    any manoeuvres. If it is a resolution advisory, the autopilot should be disconnected and
+    <emphasis>both</emphasis> flight directors turned off<footnote><para>If one FD is left engaged,
+    the autothrust will not revert to speed mode, possibly resulting in speed decay and engagement
+    of normal law protections.</para></footnote>. The autothrust remains engaged and reverts to
+    speed mode. A vertical manoeuvre should then be flown to keep the <acronym>V/S</acronym> needle
+    out of the red areas shown on the <acronym>V/S</acronym> scale. ATC should then be notified (e.g
+    “Radar, Easy 123 – TCAS RA”). When clear of conflict, return to assigned level and re-engage the
+    automatics (ATC phraseology: “Radar, Easy 123 – clear of conflict, returning to FL XXX”).</para>
 
-	<para>Triple ADR failure has a few additional ramifications. Of note is loss of automatic
-	cabin pressure control (see <xref linkend="pressure-controller"/> for manual pressure control methodology),
-	Alternate Law and gravity gear extension. Of lesser concern are loss of stall warning, rudder travel limiter
-	frozen until slat extension and loss of auto flap retraction.</para>
+    <para>If a climb resolution advisory occurs on final approach, a go around must be flown.</para>
 
-        <para role="multicite">[<emphasis
-        role="underline">NAV</emphasis> ADR 1(2)(3)(1+2)(1+3)(2+3) FAULT, QRH ABN.34,
-        FCOM PRO.ABN.34, FCOM DSC.34.10]</para>
-      </sect1>
+    <para role="multicite">[QRH ABN.34, FCOM PRO.ABN.34, CAP413 1.7]</para>
+  </sect1>
 
-      <sect1 id="adr-disagree">
-        <title>ADR disagree</title>
 
-        <para>The ECAM message indicates that, following an ADR fault or rejection, there is a speed or angle of attack
-        disagreement between the two remaining ADRs. This will cause a degradation to alternate law. If there is a speed
-        disagreement, see <xref linkend="unreliable-airspeed"/>. If the speed does not disagree, an AOA sensor is
-        providing incorrect data and there is a risk of spurious stall warnings.</para>
+  <sect1 id="rnav-downgrade">
+    <title>RNAV downgrades</title>
 
-        <para role="multicite">[<emphasis role="underline">NAV</emphasis> ADR DISAGREE, FCOM PRO.ABN.34,
-        FCOM DSC.34.10.30]</para>
-      </sect1>
+    <para>RNAV operations fall into three main categories:
 
-      <sect1>
-        <title>RA faults</title>
+    <orderedlist>
+      <listitem><para>RNAV approach (usually RNP 0.3)</para></listitem>
+      <listitem><para>RNP-1 (aka PRNAV)</para></listitem>
+      <listitem><para>RNP-5 (aka BRNAV)</para></listitem>
+    </orderedlist>
 
-        <para>A single RA fault results in degradation of approach capability to Cat II. Loss of both RAs will lead to
-        direct law at landing gear extension and a loss of ILS APPR mode capability. Therefore, landing will be CONF 3
-        with associated corrections, the approach should be flown in LOC and FPA and autopilot disconnect should be
-        anticipated at gear extension.</para>
+    The equipment that must be serviceable is listed in EOMB 2.3.18.3.2 for RNAV approach and
+    FCOM PRO.SPO.51 for RNP SID/STAR.</para>
 
-        <para role="multicite">[<emphasis role="underline">NAV</emphasis> RA 1(2) FAULT,
-        FCOM PRO.ABN.34, FCOM DSC.34.40.20]</para>
-      </sect1>
+    <para>The following messages indicate loss of RNAV capability:
 
-      <sect1>
-        <title>IR faults</title>
+    <itemizedlist>
+      <listitem><para>NAV ACCUR DOWNGRAD (MCDU and ND)<footnote><para>For RNP-1 and RNP-5
+      procedures, if NAV ACCUR DOWNGRAD occurs on one side only, the procedure may be continued
+      using the unaffected FMGC.</para></footnote></para></listitem>
 
-        <para>In case of simultaneous loss of the ADR and IR associated with an ADIRU, apply the ADR FAULT procedure
-        first.</para>
+      <listitem><para>FMS1/FMS2 POS DIFF (MCDU)</para></listitem>
 
-        <para>A single IR fault will simply require ATT/HDG switching. This may lead to loss of the extended functions
-        of the EPGWS and/or loss of TCAS. It may be possible to recover the IR in ATT mode (see <xref linkend="att-mode"/>).</para>
+      <listitem><para><emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE
+      (ECAM)</para></listitem>
 
-        <para>A dual IR fault will lead to loss of PFD indications on at least one side so use ATT/HDG switching to
-        recover. It will also lead to Alternate Law and associated speed restrictions and landing configuration
-        considerations.</para>
+      <listitem><para>CHECK IRS 1(2)(3)/FM POSITION (MCDU)<footnote><para>This is missing from the
+      RNP-1 list in EOMB but is listed in the FCOM. It is not listed as a go around criteria for
+      RNAV approach, but continuing would seem somewhat brave…</para></footnote></para></listitem>
+    </itemizedlist></para>
 
-        <para role="multicite">[<emphasis
-        role="underline">NAV</emphasis> IR 1(2)(3)(1+2)(1+3)(2+3) FAULT, FCOM PRO.ABN.34,
-        FCOM DSC.34.10.30]</para>
-      </sect1>
+    <para>For RNAV approaches, a go-around is mandated for any of these messages or if GPS PRIMARY
+    LOST is annunciated on both NDs<footnote><para>If GPS PRIMARY LOST is annunciated on only one
+    ND, the approach may be continued using the unaffected FMGC. There is also conflict between EOMA
+    and EOMB as to whether GPS PRIMARY is required at all for RNAV(VOR/DME) or RNAV(DME/DME) etc. –
+    I've gone with the most restrictive here.</para></footnote>.</para>
 
-      <sect1>
-        <title>IR disagree</title>
+	<para>In an RNP-1 (PRNAV) environment, an RNAV downgrade may leave the aircraft unsure of
+	position and below MSA. The initial response is to notify ATC with the phrase “Unable RNAV due
+	equipment” and request reclearance. An immediate climb above MSA should be considered if a
+	suitable alternative navigation method (e.g. radar vectors) is not available.</para>
 
-        <para>Following rejection or failure of an IR, there is disagreement between the two remaining IRs. Normal and
-        alternate laws are lost, but alternate law with reduced protections can be recovered by isolating the faulty IR
-        (use standby horizon to cross-check) and resetting the ELACs.</para>
+    <para>Some RNP-1 procedures specify additional downgrade criteria such as a requirement for dual
+    RNAV systems or GPS. If GPS is not specifically mandated as an additional restriction, an RNP-1
+    procedure may still be flown without GPS PRIMARY: set RNP to 1, check NAV ACCURACY is HIGH and
+    carry out a raw data check prior to commencement.</para>
 
-        <para role="multicite">[<emphasis role="underline">NAV</emphasis> IR DISAGREE,
-        FCOM PRO.ABN.34, FCOM DSC.34.10.30]</para>
-      </sect1>
+    <para>Downgrades in an RNP-5 (BRNAV) environment are less critical as the aircraft will be above
+    MSA. The IRSs provides RNP-5 required accuracy for two hours from last full alignment regardless
+    of MCDU ENP, and it is acceptable to carry out a raw data check (see EOMB 2.3.15) to confirm
+    that RNP-5 capability is maintained. If loss of RNP-5 capability is confirmed, inform ATC and
+    continue with conventional navigation.</para>
 
-      <sect1 id="att-mode">
-        <title>IR alignment in ATT mode</title>
 
-        <para>If IR alignment is lost, it may be possible to recover attitude and heading information by switching the
-        ADIRU selector to ATT and maintaining level constant speed flight for 30 seconds. The magnetic heading will need
-        to be entered, the exact method being dependent on the ADIRS CDU fitted.</para>
+    <para role="multicite">[FCOM PRO.SPO.51, EOM A.8.3.2.5, EOM B.2.4.51]</para>
+  </sect1>
 
-        <para role="multicite">[IR ALIGNMENT IN ATT MODE, QRH ABN.34, FCOM PRO.ABN.34]</para>
-      </sect1>
 
-      <sect1 id="pos-disagree">
-        <title>FM/GPS position disagree</title>
+  <sect1 id="adr-faults">
+    <title>ADR faults</title>
 
-        <para>This can be disregarded if on an ILS or LOC approach. On an overlay approach, revert to raw data. On an
-        RNAV approach, go around unless visual.</para>
+    <para>A single ADR fault simply requires switching to the hot spare and turning the affected
+    unit off. Loss of ADR1 will lead to the loss of the extended functions of the EGPWS. Loss of
+    ADR2 will lead to both baro reference channels being driven by the same FCU channel <!-- {TODO:
+    Find out details of this} -->, so the baro refs should be checked.</para>
 
-        <para>In other flight phases, manually tune a VOR and check against either the needle and
-        DME on the ND or the BRG/DIST TO field on the PROG page. If the error is greater than 3nm in the
-        cruise or greater than 1nm for approach, raw data navigation and AP/FD selected lateral and
-        vertical modes should be used.</para>
+    <para>Loss of two ADRs will lead to Alternate Law with associated speed restrictions and landing
+    configuration considerations. Air data switching is used as necessary, and the affected ADRs are
+    turned off. ATC switching may be required to restore transponder. If ADR 1 and 3 are lost, the
+    landing gear safety valve is controlled closed, so the gear must be gravity extended and cannot
+    subsequently be retracted. This is not mentioned by the ECAM – the gear will simply fail to
+    extend normally.</para>
 
-        <para role="multicite">[<emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE, QRH ABN.34,
-        FCOM PRO.ABN.34, FCTM SI-030]</para>
-      </sect1>
-    </chapter>
-    <chapter>
+	<para>If all three ADRs are lost, the result is airframe dependent. Some of the fleet now have a
+	<emphasis role="underline">NAV</emphasis> ADR 1+2+3 FAULT ECAM and an appropriate procedure
+	utilising the Backup Speed Scale, completing with the QRH ABN.34 ALL ADR OFF paper
+	procedure. For older airframes the ECAM displayed will be for Dual ADR failure and must be
+	ignored since it will request meaningless air data and ATC switching. Instead revert to standby
+	instruments (the standby ASI and Altimeter have direct pressure feeds from the the standby pitot
+	and static ports) and refer to QRH ABN.34 ADR 1+2+3 FAULT. Interestingly, when Backup Speed
+	Scale is available, the ECAM advises that the standby instrument indications may be
+	unreliable…</para>
+
+	<para>Triple ADR failure has a few additional ramifications. Of note is loss of automatic cabin
+	pressure control (see <xref linkend="pressure-controller"/> for manual pressure control
+	methodology), Alternate Law and gravity gear extension. Of lesser concern are loss of stall
+	warning, rudder travel limiter frozen until slat extension and loss of auto flap
+	retraction.</para>
+
+    <para role="multicite">[<emphasis
+    role="underline">NAV</emphasis> ADR 1(2)(3)(1+2)(1+3)(2+3) FAULT, QRH ABN.34, FCOM PRO.ABN.34,
+    FCOM DSC.34.10]</para>
+  </sect1>
+
+
+  <sect1 id="adr-disagree">
+    <title>ADR disagree</title>
+
+    <para>The ECAM message indicates that, following an ADR fault or rejection, there is a speed or
+    angle of attack disagreement between the two remaining ADRs. This will cause a degradation to
+    alternate law. If there is a speed disagreement, see <xref linkend="unreliable-airspeed"/>. If
+    the speed does not disagree, an AOA sensor is providing incorrect data and there is a risk of
+    spurious stall warnings.</para>
+
+    <para role="multicite">[<emphasis role="underline">NAV</emphasis> ADR DISAGREE, FCOM PRO.ABN.34,
+    FCOM DSC.34.10.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>RA faults</title>
+
+    <para>A single RA fault results in degradation of approach capability to Cat II. Loss of both
+    RAs will lead to direct law at landing gear extension and a loss of ILS APPR mode
+    capability. Therefore, landing will be CONF 3 with associated corrections, the approach should
+    be flown in LOC and FPA and autopilot disconnect should be anticipated at gear extension.</para>
+
+    <para role="multicite">[<emphasis role="underline">NAV</emphasis> RA 1(2) FAULT,
+    FCOM PRO.ABN.34, FCOM DSC.34.40.20]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>IR faults</title>
+
+    <para>In case of simultaneous loss of the ADR and IR associated with an ADIRU, apply the ADR
+    FAULT procedure first.</para>
+
+    <para>A single IR fault will simply require ATT/HDG switching. This may lead to loss of the
+    extended functions of the EPGWS and/or loss of TCAS. It may be possible to recover the IR in ATT
+    mode (see <xref linkend="att-mode"/>).</para>
+
+    <para>A dual IR fault will lead to loss of PFD indications on at least one side so use ATT/HDG
+    switching to recover. It will also lead to Alternate Law and associated speed restrictions and
+    landing configuration considerations.</para>
+
+    <para role="multicite">[<emphasis
+    role="underline">NAV</emphasis> IR 1(2)(3)(1+2)(1+3)(2+3) FAULT, FCOM PRO.ABN.34,
+    FCOM DSC.34.10.30]</para>
+  </sect1>
+
+
+  <sect1>
+    <title>IR disagree</title>
+
+    <para>Following rejection or failure of an IR, there is disagreement between the two remaining
+    IRs. Normal and alternate laws are lost, but alternate law with reduced protections can be
+    recovered by isolating the faulty IR (use standby horizon to cross-check) and resetting the
+    ELACs.</para>
+
+    <para role="multicite">[<emphasis role="underline">NAV</emphasis> IR DISAGREE, FCOM PRO.ABN.34,
+    FCOM DSC.34.10.30]</para>
+  </sect1>
+
+
+  <sect1 id="att-mode">
+    <title>IR alignment in ATT mode</title>
+
+    <para>If IR alignment is lost, it may be possible to recover attitude and heading information by
+    switching the ADIRU selector to ATT and maintaining level constant speed flight for 30
+    seconds. The magnetic heading will need to be entered, the exact method being dependent on the
+    ADIRS CDU fitted.</para>
+
+    <para role="multicite">[IR ALIGNMENT IN ATT MODE, QRH ABN.34, FCOM PRO.ABN.34]</para>
+  </sect1>
+
+
+  <sect1 id="pos-disagree">
+    <title>FM/GPS position disagree</title>
+
+    <para>This can be disregarded if on an ILS or LOC approach. On an overlay approach, revert to
+    raw data. On an RNAV approach, go around unless visual.</para>
+
+    <para>In other flight phases, manually tune a VOR and check against either the needle and DME on
+    the ND or the BRG/DIST TO field on the PROG page. If the error is greater than 3nm in the cruise
+    or greater than 1nm for approach, raw data navigation and AP/FD selected lateral and vertical
+    modes should be used.</para>
+
+    <para role="multicite">[<emphasis role="underline">NAV</emphasis> FM/GPS POS DISAGREE,
+    QRH ABN.34, FCOM PRO.ABN.34, FCTM SI-030]</para>
+  </sect1>
+</chapter>
+
+
+<chapter>
       <title>Auto-flight</title>
       <sect1 id="fac-faults">
         <title>FAC faults</title>
