@@ -120,162 +120,173 @@
     </itemizedlist>
   </sect1>
 </preface>
-  <chapter>
-    <title>Operating techniques</title>
-    <sect1 id="rejected_takeoff">
-      <title>Rejected Takeoff</title>
 
-      <para>The decision to reject rests solely with CM1. This decision is communicated with the words “Stop” or
-      “Go”. “Stop” implies that CM1 is taking control of the aircraft. Below 100kt the RTO is relatively risk free
-      and a decision to stop should be made for any ECAM and most other problems. Above 100kt the RTO may be hazardous
-      and stopping should only be considered for loss of engine thrust, any fire warning, any uninhibited ECAM or
-      anything which indicates the aircraft will be unsafe or unable to fly.</para>
 
-      <para>If a stop is required, CM1 calls “Stop” while simultaneously bringing the thrust levers to idle, then to max
-      reverse. If the stop was commenced below 72kt the ground spoilers will not automatically deploy and the autobrake
-      will therefore not engage. Monitor automatic braking, and if there is any doubt, apply manual braking as
-      required. If normal braking fails, announce “Loss of braking” and proceed with the loss of braking memory items
-      (see <xref linkend="loss-of-braking"/>). If the reason for the stop was an engine fire on the upwind side,
-      consider turning the aircraft to keep the fire away from the fuselage. If there is any chance of requiring
-      evacuation, bring the aircraft to a complete halt, stow the reversers, apply the parking brake, and order
-      “Attention, crew at stations” on the PA. If evacuation will definitely not be required, once the aircraft’s safety
-      is assured the RTO can be discontinued and the runway cleared. In this case make a PA of “Cabin crew, normal
-      operations”.</para>
+<chapter>
+  <title>Operating techniques</title>
 
-      <para>During this initial phase, CM2 confirms reverse (“Reverse green”), confirms deceleration (“Decel”), cancels
-      any audio warnings, informs ATC and announces “70 knots” when appropriate. CM2 then locates the emergency
-      evacuation checklist.</para>
+  <sect1 id="rejected_takeoff">
+    <title>Rejected Takeoff</title>
 
-      <para>Once the aircraft has stopped, CM1 takes the radios and asks CM2 to carry out any required ECAM
-      actions. Whilst the ECAM actions are being completed, CM1 will build up a decision as to whether to evacuate. If
-      an evacuation is required see <xref linkend="evacuation"/>. Otherwise order “Cabin crew, normal
-      operations”.</para>
+    <para>The decision to reject rests solely with CM1. This decision is communicated with the words
+    “Stop” or “Go”. “Stop” implies that CM1 is taking control of the aircraft. Below 100kt the RTO
+    is relatively risk free and a decision to stop should be made for any ECAM and most other
+    problems. Above 100kt the RTO may be hazardous and stopping should only be considered for loss
+    of engine thrust, any fire warning, any uninhibited ECAM or anything which indicates the
+    aircraft will be unsafe or unable to fly.</para>
 
-      <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be released by disarming the
-      spoilers.</para>
+    <para>If a stop is required, CM1 calls “Stop” while simultaneously bringing the thrust levers to
+    idle, then to max reverse. If the stop was commenced below 72kt the ground spoilers will not
+    automatically deploy and the autobrake will therefore not engage. Monitor automatic braking, and
+    if there is any doubt, apply manual braking as required. If normal braking fails, announce “Loss
+    of braking” and proceed with the loss of braking memory items (see <xref
+    linkend="loss-of-braking"/>). If the reason for the stop was an engine fire on the upwind side,
+    consider turning the aircraft to keep the fire away from the fuselage. If there is any chance of
+    requiring evacuation, bring the aircraft to a complete halt, stow the reversers, apply the
+    parking brake, and order “Attention, crew at stations” on the PA. If evacuation will definitely
+    not be required, once the aircraft’s safety is assured the RTO can be discontinued and the
+    runway cleared. In this case make a PA of “Cabin crew, normal operations”.</para>
 
-      <para role="multicite">[EOMB 3.10, FCOM PRO.ABN.10, FCTM A0-020]</para>
+    <para>During this initial phase, CM2 confirms reverse (“Reverse green”), confirms deceleration
+    (“Decel”), cancels any audio warnings, informs ATC and announces “70 knots” when
+    appropriate. CM2 then locates the emergency evacuation checklist.</para>
 
-      </sect1>
-      <sect1 id="efato">
-        <title>Failures during takeoff when above V1</title>
+    <para>Once the aircraft has stopped, CM1 takes the radios and asks CM2 to carry out any required
+    ECAM actions. Whilst the ECAM actions are being completed, CM1 will build up a decision as to
+    whether to evacuate. If an evacuation is required see <xref linkend="evacuation"/>. Otherwise
+    order “Cabin crew, normal operations”.</para>
 
-        <para>If an engine has lost thrust, apply rudder conventionally. At
-        V<subscript>r</subscript> rotate towards an initial pitch target of 12½° at a slightly
-        reduced rate, then target speed V<subscript>2</subscript> to
-        V<subscript>2</subscript>+15kt. Bank angle should be limited to 15° when more than 3kt below
-        manoeuvring speed for the current configuration<footnote><para>This is a conservative rule
-        of thumb. If the FMGC has correctly identified an engine out condition, the FD/AP will
-        automatically limit bank angle according to a less conservative
-        algorithm. [FCOM 22.20.60.40]</para></footnote>.</para>
+    <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be
+    released by disarming the spoilers.</para>
 
-        <para>When the ground to flight mode transition is complete<footnote><para>Introducing TOGA
-        during the ground to flight mode transition (commences as the pitch increases through 8°,
-        complete after 5 seconds) results in a pitch up moment at a time where the effect of stick
-        pitch control is not wholly predictable: the stick will need to be moved forward of neutral
-        to counteract the introduced pitch moment and then returned to neutral as flight mode blends
-        in. A slight pause before selecting TOGA results in much more normal and predictable
-        handling.</para></footnote>, select TOGA (FLX may be used but this tends to allow speed to
-        decay unless pitch is reduced), adjust and trim rudder to maintain &beta; target and request
-        “pull heading”. If the EOSID follows the track of the cleared SID, NAV may be used, but this
-        is very rare with easyJet EOSIDs.  Engage the autopilot once gear is up and rudder is
-        trimmed.</para>
+    <para role="multicite">[EOMB 3.10, FCOM PRO.ABN.10, FCTM A0-020]</para>
+  </sect1>
 
-        <para>Whilst below 400ft, the only failure related actions should be:
-        <itemizedlist>
-          <listitem><para>If applicable, PNF should announce “Engine failure” or “Engine fire” without specifying an
-          engine.</para></listitem>
-          <listitem><para>Cancellation of master warning or master caution when both pilots confirm they are aware of
-          it.</para></listitem>
-          <listitem><para>Heightened awareness of the possibility of missing essential normal actions, such as calling
-          rotate or raising the gear due to the distraction of the failure.</para></listitem>
-        </itemizedlist>
-        </para>
 
-        <para>Once above 400ft with safe flight path assured, decide on an initial strategy. In
-        general, where a loss of thrust has occurred or is anticipated, the strategy will be to fly
-        the EOSID with a level acceleration segment (see <xref linkend="eosid"/>). Otherwise, it
-        will be to remain on the normal SID and fly a normal climb profile. Any deviation from the
-        cleared SID will require ATC to be informed as a priority, usually as part of a PAN or
-        MAYDAY message. In rare cases where the cleared SID requires a very early turn it may be
-        necessary to determine and action a strategy when below 400ft. If this is the case, it must
-        be thoroughly briefed.</para>
+  <sect1 id="efato">
+    <title>Failures during takeoff when above V1</title>
 
-        <para>Once the flight path strategy has been agreed and actioned, the
-        failure can be triaged, diagnosed and contained. If the failure has resulted in an ECAM
-        warning, PF initiates this phase by asking PNF to “Read ECAM”. Once the diagnosis is agreed,
-        PF will take the radios and request PNF to carry out the containment actions. The standard
-        phraseology is “My Radios, ECAM actions”. PF taking the radios is also a good trigger to
-        consider a Mayday and an “Attention crew at stations”.</para>
+    <para>If an engine has lost thrust, apply rudder conventionally. At V<subscript>r</subscript>
+    rotate towards an initial pitch target of 12½° at a slightly reduced rate, then target speed
+    V<subscript>2</subscript> to V<subscript>2</subscript>+15kt. Bank angle should be limited to 15°
+    when more than 3kt below manoeuvring speed for the current configuration<footnote><para>This is
+    a conservative rule of thumb. If the FMGC has correctly identified an engine out condition, the
+    FD/AP will automatically limit bank angle according to a less conservative
+    algorithm. [FCOM 22.20.60.40]</para></footnote>.</para>
 
-        <para>When applying ECAM procedures, PF is responsible for moving the thrust levers once
-        confirmed by PNF. PNF is responsible for everything else, but movement of engine master
-        switches, IR selectors and any guarded switch must be confirmed with PF.</para>
+    <para>When the ground to flight mode transition is complete<footnote><para>Introducing TOGA
+    during the ground to flight mode transition (commences as the pitch increases through 8°,
+    complete after 5 seconds) results in a pitch up moment at a time where the effect of stick pitch
+    control is not wholly predictable: the stick will need to be moved forward of neutral to
+    counteract the introduced pitch moment and then returned to neutral as flight mode blends in. A
+    slight pause before selecting TOGA results in much more normal and predictable
+    handling.</para></footnote>, select TOGA (FLX may be used but this tends to allow speed to decay
+    unless pitch is reduced), adjust and trim rudder to maintain &beta; target and request “pull
+    heading”. If the EOSID follows the track of the cleared SID, NAV may be used, but this is very
+    rare with easyJet EOSIDs.  Engage the autopilot once gear is up and rudder is trimmed.</para>
 
-        <para>PNF indicates high priorty tasks are completed with the phrase “Engine is secure.”
-        This call is not official SOP (i.e. it is not mentioned in any manual), but has evolved to
-        be standard in the sim since it is PF’s trigger to interrupt ECAM and accelerate.  High
-        priority tasks are defined as:
+    <para>Whilst below 400ft, the only failure related actions should be:
+    <itemizedlist>
+      <listitem><para>If applicable, PNF should announce “Engine failure” or “Engine fire” without
+      specifying an engine.</para></listitem>
 
-        <itemizedlist>
-          <listitem><para>For engine failure, the master switch of the affected engine has been
-          turned off.</para></listitem>
-          <listitem><para>For engine fire, one squib has been fired and the fire warning has
-          extinguished or both squibs have been fired.</para></listitem>
-        </itemizedlist></para>
+      <listitem><para>Cancellation of master warning or master caution when both pilots confirm they
+      are aware of it.</para></listitem>
 
-        <para role="multicite">[FCOM PRO.ABN.10, FCTM A0-020]</para>
-      </sect1>
-        <sect1 id="eosid">
-          <title>EOSID</title>
+      <listitem><para>Heightened awareness of the possibility of missing essential normal actions,
+      such as calling rotate or raising the gear due to the distraction of the
+      failure.</para></listitem>
+    </itemizedlist>
+    </para>
 
-          <para>Before the divergence point (the last common point between the SID and the EOSID), if the
-          aircraft detects a loss of thrust the EOSID will be displayed as a temporary flight plan. In this
-          case the temporary flight plan can be inserted and NAV mode used. Otherwise it will be necessary to
-          pull heading and manually follow either the yellow line or bring up a pre-prepared secondary flight
-          plan and follow the white line.</para>
+    <para>Once above 400ft with safe flight path assured, decide on an initial strategy. In general,
+    where a loss of thrust has occurred or is anticipated, the strategy will be to fly the EOSID
+    with a level acceleration segment (see <xref linkend="eosid"/>). Otherwise, it will be to remain
+    on the normal SID and fly a normal climb profile. Any deviation from the cleared SID will
+    require ATC to be informed as a priority, usually as part of a PAN or MAYDAY message. In rare
+    cases where the cleared SID requires a very early turn it may be necessary to determine and
+    action a strategy when below 400ft. If this is the case, it must be thoroughly briefed.</para>
 
-          <para>If beyond the divergence point, pull heading and make an <emphasis>immediate</emphasis> turn
-          the shortest way onto the EOSID. Airbus specifically recommends against this in DSC.22_20.60.40, but
-          easyJet states it as policy in EOMB 4.4.4.</para>
+    <para>Once the flight path strategy has been agreed and actioned, the failure can be triaged,
+    diagnosed and contained. If the failure has resulted in an ECAM warning, PF initiates this phase
+    by asking PNF to “Read ECAM”. Once the diagnosis is agreed, PF will take the radios and request
+    PNF to carry out the containment actions. The standard phraseology is “My Radios, ECAM
+    actions”. PF taking the radios is also a good trigger to consider a Mayday and an “Attention
+    crew at stations”.</para>
 
-          <para>Electing to fly the EOSID implies a level acceleration segment:
+    <para>When applying ECAM procedures, PF is responsible for moving the thrust levers once
+    confirmed by PNF. PNF is responsible for everything else, but movement of engine master
+    switches, IR selectors and any guarded switch must be confirmed with PF.</para>
 
-          <itemizedlist>
-            <listitem><para revisionflag="changed">Initially fly a TOGA climb at the higher of
-            V<subscript>2</subscript> or current speed, up to a limit of V<subscript>2</subscript>+15kt. If a
-            FLEX takeoff was carried out, a FLEX climb is permissible. This climb is continued until all high
-            priority tasks are complete (see <xref linkend="efato"/>) and the aircraft is above single engine
-            acceleration altitude (usually 1000ft QFE, but may be higher if so specified by the take-off
-            performance calculation). If the FMGS has detected the engine out condition, the
-	    automatic mode change from SRS to CLB will be inhibited; if not, intervention with
-	    selected modes will be required to prevent untimely acceleration.</para></listitem>
+    <para>PNF indicates high priorty tasks are completed with the phrase “Engine is secure.”  This
+    call is not official SOP (i.e. it is not mentioned in any manual), but has evolved to be
+    standard in the sim since it is PF’s trigger to interrupt ECAM and accelerate.  High priority
+    tasks are defined as:
 
-            <listitem><para revisionflag="changed">The next segment is a TOGA level acceleration and clean up, either to Conf 1 and S speed
-            if an immediate VMC return is desired or to Conf 0 and green dot. Again FLEX may be used if a FLEX
-            takeoff was carried out. Level acceleration is usually achieved by pushing V/S; if the
-	    FMGS has detected the engine out condition, all preselected speeds entered in the MCDU
-	    will have been deleted, so the managed target speed should automatically move to 250kt. The phrases “Stop
-            ECAM” and “Continue ECAM” can be used to interrupt ECAM procedures in order to initiate this
-            segment.</para></listitem>
+    <itemizedlist>
+      <listitem><para>For engine failure, the master switch of the affected engine has been turned
+      off.</para></listitem>
 
-            <listitem><para revisionflag="changed">The final segment is a MCT climb segment to MSA, either at S speed if in Conf 1 or at
-            green dot speed if in Conf 0. This is usually achieved in open climb; if the FMGS has
-	    detected the engine out condition, the managed target speed becomes dependent on flight
-	    phase, and in this case should automatically select green dot.</para></listitem>
-          </itemizedlist>
+      <listitem><para>For engine fire, one squib has been fired and the fire warning has
+      extinguished or both squibs have been fired.</para></listitem>
+    </itemizedlist></para>
 
-          TOGA may be used for a maximum of 10 minutes.</para>
+    <para role="multicite">[FCOM PRO.ABN.10, FCTM A0-020]</para>
+  </sect1>
 
-          <para>If an EOSID is annotated as “STD”, then acceleration should be
-          completed prior to commencing the first turn. If “NON-STD”, the turn takes priority.</para>
 
-	  <para role="multicite">[EOMB 4.4.4, FCOM DSC.22_20.60.40]</para>
+  <sect1 id="eosid">
+    <title>EOSID</title>
 
-        </sect1>
+    <para>Before the divergence point (the last common point between the SID and the EOSID), if the
+    aircraft detects a loss of thrust the EOSID will be displayed as a temporary flight plan. In
+    this case the temporary flight plan can be inserted and NAV mode used. Otherwise it will be
+    necessary to pull heading and manually follow either the yellow line or bring up a pre-prepared
+    secondary flight plan and follow the white line.</para>
 
-  </chapter>
-  <chapter>
+    <para>If beyond the divergence point, pull heading and make an <emphasis>immediate</emphasis>
+    turn the shortest way onto the EOSID. Airbus specifically recommends against this in
+    DSC.22_20.60.40, but easyJet states it as policy in EOMB 4.4.4.</para>
+
+    <para>Electing to fly the EOSID implies a level acceleration segment:
+
+    <itemizedlist>
+      <listitem><para revisionflag="changed">Initially fly a TOGA climb at the higher of
+      V<subscript>2</subscript> or current speed, up to a limit of
+      V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX climb is
+      permissible. This climb is continued until all high priority tasks are complete (see <xref
+      linkend="efato"/>) and the aircraft is above single engine acceleration altitude (usually
+      1000ft QFE, but may be higher if so specified by the take-off performance calculation). If the
+      FMGS has detected the engine out condition, the automatic mode change from SRS to CLB will be
+      inhibited; if not, intervention with selected modes will be required to prevent untimely
+      acceleration.</para></listitem>
+
+      <listitem><para revisionflag="changed">The next segment is a TOGA level acceleration and clean
+      up, either to Conf 1 and S speed if an immediate VMC return is desired or to Conf 0 and green
+      dot. Again FLEX may be used if a FLEX takeoff was carried out. Level acceleration is usually
+      achieved by pushing V/S; if the FMGS has detected the engine out condition, all preselected
+      speeds entered in the MCDU will have been deleted, so the managed target speed should
+      automatically move to 250kt. The phrases “Stop ECAM” and “Continue ECAM” can be used to
+      interrupt ECAM procedures in order to initiate this segment.</para></listitem>
+
+      <listitem><para revisionflag="changed">The final segment is a MCT climb segment to MSA, either
+      at S speed if in Conf 1 or at green dot speed if in Conf 0. This is usually achieved in open
+      climb; if the FMGS has detected the engine out condition, the managed target speed becomes
+      dependent on flight phase, and in this case should automatically select green
+      dot.</para></listitem>
+    </itemizedlist>
+
+    TOGA may be used for a maximum of 10 minutes.</para>
+
+    <para>If an EOSID is annotated as “STD”, then acceleration should be completed prior to
+    commencing the first turn. If “NON-STD”, the turn takes priority.</para>
+
+	<para role="multicite">[EOMB 4.4.4, FCOM DSC.22_20.60.40]</para>
+  </sect1>
+</chapter>
+
+
+<chapter>
     <title>Miscellaneous</title>
     <sect1 id="emerg-descent">
       <title>Emergency descent <emphasis>(memory item)</emphasis></title>
