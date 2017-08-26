@@ -2404,13 +2404,6 @@
         <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN L(R) RELEASED,
         FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
       </sect1>
-      <sect1>
-        <title>Minor nosewheel steering fault</title>
-        <para>{TODO: Its not very clear from the FCOM what this refers to}</para>
-
-        <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> N/WS MINOR FAULT,
-        FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
-      </sect1>
 
       <sect1 id="brake-temperature-limitations">
         <title>Brake temperature limitations requiring maintenance action</title>
