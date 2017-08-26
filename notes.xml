@@ -2641,7 +2641,7 @@
         preference, are the APU, the opposite engine or a ground air cart. If using the opposite engine, the source
         engine bleed must be on, the target engine bleed should be off, the cross bleed should be opened and thrust
         increased to provide 30 psi of pressure.<!--  {TODO: This is just the crossbleed start procedure from QRH SI.150 – -->
-        <!-- check that there are no differences} -->. If using ground air, both engine bleeds should be off and the cross bleed
+        <!-- check that there are no differences} --> If using ground air, both engine bleeds should be off and the cross bleed
         opened. Once high pressure air is available, select the engine mode selector to crank and select the man start
         button to on. Once the fire is extinguished, select the man start button off and the engine mode selector to
         normal.</para>
