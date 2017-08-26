@@ -1,107 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+ "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <book id="airbus-nonnormal">
   <title>Airbus A320 Family Non-Normal Notes</title>
   <subtitle>Version 2.3</subtitle>
-  <preface>
-    <title>Change log</title>
-    <sect1>
-      <title>Change highlighting</title>
-      <para>Changes since version 2.0 are highlighted. Change highlighting is only available in the
-      online version. This may be found at:
 
-      <blockquote><para><ulink url="https://hursts.org.uk"/></para></blockquote></para>
+<preface>
+  <title>Change log</title>
 
-      <para>Changed sections have a green background, added sections have a yellow
-      background. Removed sections are notified in the change log.</para>
+  <sect1>
+    <title>Change highlighting</title>
 
-      <para>Change bars will be incorporated into the printed version as soon as they are supported
-      by the Apache Formatting Objects Processor.</para>
-    </sect1>
-    <sect1>
-      <title>Changes since version 2.2.1</title>
-      <itemizedlist>
-        <listitem><para>Added requirement to be above single engine acceleration altitude before accelerating to <xref linkend="eosid"/>.</para></listitem>
-        <listitem><para>Added description of FMGS “engine out mode” interactions to <xref
-	linkend="eosid"/>.</para></listitem>
-	<listitem><para>Updated <xref linkend="emerg-descent"/> with new Airbus procedure.</para></listitem>
-	<listitem><para>Added guidance on how to get out of TOGA LK to <xref linkend="reactive-windshear"/>.</para></listitem>
-	<listitem><para>Added note to <xref linkend="unreliable-airspeed"/> to warn of flight
-	envelope protections leading to uncontrollable aircraft and provide method for regaining control.</para></listitem>
+    <para>Changes since version 2.0 are highlighted. Change highlighting is only available in the
+    online version. This may be found at:
 
-	<listitem><para>Updated <xref linkend="ditching"/> with new “quick” procedure for low
-	altitude events.</para></listitem>
-	<listitem><para>Updated <xref linkend="forced-landing"/> with new “quick” procedure for low
-	altitude events.</para></listitem>
+    <blockquote><para><ulink url="https://hursts.org.uk"/></para></blockquote></para>
 
-    <listitem><para>Updated <xref linkend="evacuation"/> to indicate that cross confirmation of
-    master switches and fire buttons is not required following alignment of Airbus Training Study
-    Guide with FCTM.</para></listitem>
+    <para>Changed sections have a green background, added sections have a yellow background. Removed
+    sections are notified in the change log.</para>
 
-    <listitem><para>Updated <xref linkend="overweight_landing"/> to clarify that autoland up to
-    69,000kg is only available for A319.</para></listitem>
-
-    <listitem><para>Added case of TR1 and TR2 both failing to <xref linkend="loss-of-trs"/>.</para></listitem>
-
-    <listitem><para>Expanded <xref linkend="dc-emerg-conf"/> and referenced the expanded version in
-    <xref linkend="dc-1and2"/>.</para></listitem>
-
-    <listitem><para>Updated <xref linkend="flight-controls.slats-flaps-fault"/> to clarify that the
-    next configuration should be selected as speed passes through V<subscript>FE next</subscript>
-    except in case of turbulence, when configuring at any speed above V<subscript>LS</subscript> is
-    acceptable.</para></listitem>
-
-    <listitem><para>Added advice for dutch roll encounter to <xref
-    linkend="direct-law"/>.</para></listitem>
-
-    <listitem><para>Added that autopilot may be available to <xref
-    linkend="alternate-law"/>.</para></listitem>
-
-    <listitem><para>Added guidance of how to handle “smells” to <xref
-    linkend="smoke-fumes"/>.</para></listitem>
-
-    <listitem><para>Improved <xref linkend="smoke-fumes"/>.</para></listitem>
-
-    <listitem><para>Added footnote to <xref linkend="fuel-leak"/> to address the strange logic
-    around suspected center tank and APU fuel line leaks.</para></listitem>
-
-    <listitem><para>Added reference to new “quick” ditching and forced landing procedures to <xref
-    linkend="dual-engine-failure"/>.</para></listitem>
-
-    <listitem><para>Added that cross bleed must be closed when using APU for pressurisation to <xref
-    linkend="engine-shut-down"/>.</para></listitem>
-
-    <listitem><para>Removed reference to vibrations “rapidly increasing” to above advisory level
-    from <xref linkend="engine-vibrations"/> – thrust should be reduced whenever vibrations are
-    above advisory level, provided flight conditions permit.</para></listitem>
-
-    <listitem><para>Updated <xref linkend="start-faults"/> with new procedure for fuel leak from the
-    drain mast during engine start.</para></listitem>
-
-    <listitem><para>Update <xref linkend="TCAS"/> with the new “TCAS blue, I have control”
-    call.</para></listitem>
-
-    <listitem><para>Expanded <xref linkend="fcu-fault"/> with advice not to set MDA in the MCDU in
-    the event of dual FCU failure.</para></listitem>
-
-    <listitem><para>Updated ice accreted min speeds in <xref
-    linkend="waa-valve-closed"/>.</para></listitem>
-
-    <listitem><para>Updated <xref linkend="dual-bleed"/> with new QRH and ECAM
-    procedures.</para></listitem>
-
-      </itemizedlist>
+     <para>Change bars will be incorporated into the printed version as soon as they are supported
+     by the Apache Formatting Objects Processor.</para>
+  </sect1>
 
 
-    </sect1>
-    <sect1>
-      <title>Changes since version 2.2</title>
-      <itemizedlist>
-        <listitem><para>Added information to <xref linkend="eiu-fault"/>.</para></listitem>
-        <listitem><para>Added new AP/FD TCAS mode to <xref linkend="TCAS"/>.</para></listitem>
-      </itemizedlist>
-    </sect1>
-  </preface>
+  <sect1>
+    <title>Changes since version 2.2.1</title>
+
+    <itemizedlist>
+      <listitem><para>Added requirement to be above single engine acceleration altitude before
+      accelerating to <xref linkend="eosid"/>.</para></listitem>
+
+      <listitem><para>Added description of FMGS “engine out mode” interactions to <xref
+      linkend="eosid"/>.</para></listitem>
+
+      <listitem><para>Updated <xref linkend="emerg-descent"/> with new Airbus
+      procedure.</para></listitem>
+
+	  <listitem><para>Added guidance on how to get out of TOGA LK to <xref
+	  linkend="reactive-windshear"/>.</para></listitem>
+
+	  <listitem><para>Added note to <xref linkend="unreliable-airspeed"/> to warn of flight envelope
+	  protections leading to uncontrollable aircraft and provide method for regaining
+	  control.</para></listitem>
+
+	  <listitem><para>Updated <xref linkend="ditching"/> with new “quick” procedure for low altitude
+	  events.</para></listitem>
+
+      <listitem><para>Updated <xref linkend="forced-landing"/> with new “quick” procedure for low
+      altitude events.</para></listitem>
+
+      <listitem><para>Updated <xref linkend="evacuation"/> to indicate that cross confirmation of
+      master switches and fire buttons is not required following alignment of Airbus Training Study
+      Guide with FCTM.</para></listitem>
+
+      <listitem><para>Updated <xref linkend="overweight_landing"/> to clarify that autoland up to
+      69,000kg is only available for A319.</para></listitem>
+
+      <listitem><para>Added case of TR1 and TR2 both failing to <xref
+      linkend="loss-of-trs"/>.</para></listitem>
+
+      <listitem><para>Expanded <xref linkend="dc-emerg-conf"/> and referenced the expanded version
+      in <xref linkend="dc-1and2"/>.</para></listitem>
+
+      <listitem><para>Updated <xref linkend="flight-controls.slats-flaps-fault"/> to clarify that
+      the next configuration should be selected as speed passes through
+      V<subscript>FE next</subscript> except in case of turbulence, when configuring at any speed
+      above V<subscript>LS</subscript> is acceptable.</para></listitem>
+
+      <listitem><para>Added advice for dutch roll encounter to <xref
+      linkend="direct-law"/>.</para></listitem>
+
+      <listitem><para>Added that autopilot may be available to <xref
+      linkend="alternate-law"/>.</para></listitem>
+
+      <listitem><para>Added guidance of how to handle “smells” to <xref
+      linkend="smoke-fumes"/>.</para></listitem>
+
+      <listitem><para>Improved <xref linkend="smoke-fumes"/>.</para></listitem>
+
+      <listitem><para>Added footnote to <xref linkend="fuel-leak"/> to address the strange logic
+      around suspected center tank and APU fuel line leaks.</para></listitem>
+
+      <listitem><para>Added reference to new “quick” ditching and forced landing procedures to <xref
+      linkend="dual-engine-failure"/>.</para></listitem>
+
+      <listitem><para>Added that cross bleed must be closed when using APU for pressurisation to
+      <xref linkend="engine-shut-down"/>.</para></listitem>
+
+      <listitem><para>Removed reference to vibrations “rapidly increasing” to above advisory level
+      from <xref linkend="engine-vibrations"/> – thrust should be reduced whenever vibrations are
+      above advisory level, provided flight conditions permit.</para></listitem>
+
+      <listitem><para>Updated <xref linkend="start-faults"/> with new procedure for fuel leak from
+      the drain mast during engine start.</para></listitem>
+
+      <listitem><para>Update <xref linkend="TCAS"/> with the new “TCAS blue, I have control”
+      call.</para></listitem>
+
+      <listitem><para>Expanded <xref linkend="fcu-fault"/> with advice not to set MDA in the MCDU in
+      the event of dual FCU failure.</para></listitem>
+
+      <listitem><para>Updated ice accreted min speeds in <xref
+      linkend="waa-valve-closed"/>.</para></listitem>
+
+      <listitem><para>Updated <xref linkend="dual-bleed"/> with new QRH and ECAM
+      procedures.</para></listitem>
+    </itemizedlist>
+  </sect1>
+
+
+  <sect1>
+    <title>Changes since version 2.2</title>
+
+    <itemizedlist>
+      <listitem><para>Added information to <xref linkend="eiu-fault"/>.</para></listitem>
+
+      <listitem><para>Added new AP/FD TCAS mode to <xref linkend="TCAS"/>.</para></listitem>
+    </itemizedlist>
+  </sect1>
+</preface>
   <chapter>
     <title>Operating techniques</title>
     <sect1 id="rejected_takeoff">
