@@ -924,10 +924,12 @@
 	<para>Failure of a trim valve leads to loss of optimised temperature regulation for the
 	corresponding zone; basic temperature regulation is still available.</para>
 
-	<para>The TRIM AIR HIGH PR message may be disregarded if triggered when all the trim air
-	valves are closed. This occurs during the first 30 seconds after the packs are selected on
-	and in flight if all zone heating demands are fulfilled. {TODO: FCOM is not very informative
-	regarding response to overpressure when this does not apply. Investigate further.}</para>
+	<para>The TRIM AIR HIGH PR message may be disregarded if triggered when all the trim air valves
+	are closed. This occurs during the first 30 seconds after the packs are selected on and in
+	flight if all zone heating demands are fulfilled.<footnote><para>The FCOM is not very
+	informative regarding response to overpressure when this does not apply. However the MEL
+	operating procedures for dispatch with this condition indicate that turning the HOT AIR pb-sw
+	off is probably a good idea.</para></footnote></para>
 
 	<para role="multicite">[<emphasis role="underline">COND</emphasis> TRIM AIR SYS FAULT,
 	FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
