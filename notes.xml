@@ -62,6 +62,9 @@
 
     <listitem><para>Improved <xref linkend="smoke-fumes"/>.</para></listitem>
 
+    <listitem><para>Added footnote to <xref linkend="fuel-leak"/> to address the strange logic
+    around suspected center tank and APU fuel line leaks.</para></listitem>
+
     <listitem><para>Added reference to new “quick” ditching and forced landing procedures to <xref
     linkend="dual-engine-failure"/>.</para></listitem>
 
@@ -1910,12 +1913,17 @@
         identify the source of the leak by monitoring the inner tank depletion rates with the crossfeed valve closed and
         the center tank pumps off.</para>
 
-        <para>If depletion rates are similar, a leak from the center tank or from the APU feeding line should be
-        suspected. If there is a smell of fuel in the cabin, it is likely that the APU feeding line is at fault and the
-        APU should be turned off. Fuel from the center tank should be used once one of the inner tanks has
-        &lt;3000kg. {TODO: I don’t understand the logic here – surely an APU feeding line leak would cause the left tank
-        to decrease faster than the right, and why not put the center tank pumps in AUTO and use the fuel as soon as
-        possible if you suspect a leak from the center tank?}</para>
+        <para>If depletion rates are similar, a leak from the center tank or from the APU feeding
+        line should be suspected. If there is a smell of fuel in the cabin, it is likely that the
+        APU feeding line is at fault and the APU should be turned off. Fuel from the center tank
+        should be used once one of the inner tanks has &lt;3000kg.<footnote><para>The logic here is
+        strange. An unofficial explanation of the requirement for &lt;3000kg in the inner tank was
+        given to me: some of the fuel lines from the center tank run through the wing tanks, so fuel
+        from a center tank leak may end up transferring to the wing tanks and with full wing tanks
+        might be lost overboard by venting the wing tank overflow. As for the APU feeding line leak,
+        I would expect the left tank to decrease faster than the right in this case; my guess is
+        that the expectation is that an APU feeding line leak will be detected as a smell in the
+        cabin and the leak will be too small to become apparent as an imbalance.</para></footnote></para>
 
         <para>If, after 30 minutes, one tank has been depleted by 300kg more than the other, the location of leak is
         narrowed down to the engine or the wing on the more depleted side. To confirm which it is, shut down the engine.
