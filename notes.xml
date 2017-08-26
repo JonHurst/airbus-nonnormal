@@ -4218,41 +4218,47 @@
 
 
 <chapter id="misc-tips">
-      <title>Miscellaneous Tips</title>
-        <itemizedlist>
-          <listitem><para>When configuring, V<subscript>LS</subscript> is more critical than
-          V<subscript>FE</subscript>, which in turn is more critical than manoeuvring speeds (S and F
-          speeds). Both V<subscript>LS</subscript> and V<subscript>FE</subscript> are trustworthy
-          with jammed flaps/slats.</para></listitem>
-          <listitem><para>When configuring on approach, flaps do not begin to extend until CONF 2 is
-          selected.</para></listitem>
-          <listitem><para>Slat position does not change between CONF 2 and CONF 3.</para></listitem>
-	  <listitem><para>The AVIONICS SMOKE ECAM is non-standard. Do not run the procedure from the ECAM, use the QRH
-	  procedure instead.</para></listitem>
-	  <listitem><para>The Engine Fire on the Ground procedure is non-standard. The FO must remember to mitigate the
-	  effects of loss of electrical power (which includes loss of ECAM and non-emergency lighting) before shutting
-	  down the second engine.</para></listitem>
-	  <listitem><para>Dual hydraulic failure fundamentals:
-	  <itemizedlist>
-	    <listitem><para>You will always need to gravity extend the gear, so you will never be able to retract
-	    it on the go-around.</para></listitem>
+  <title>Miscellaneous Tips</title>
 
-	    <listitem><para>If you only have blue, you lose the flaps; if you only have yellow, you lose the slats. The
-	    flaps/slats jammed procedure (including go-around modifications) is therefore incorporated into both these
-	    procedures.</para></listitem>
+  <itemizedlist>
+    <listitem><para>When configuring, V<subscript>LS</subscript> is more critical than
+    V<subscript>FE</subscript>, which in turn is more critical than manoeuvring speeds (S and F
+    speeds). Both V<subscript>LS</subscript> and V<subscript>FE</subscript> are trustworthy with
+    jammed flaps/slats.</para></listitem>
 
-	    <listitem><para>If you only have blue, the THS is frozen (think BLUE=COLD=FROZEN THS),
-	    so you need to go Direct Law late (at Conf 3, V<subscript>APP</subscript>) to get
-	    neutral trimming of the elevators. If you only have yellow, you only have one elevator
-	    (think YELLOW=COWARDLY=Timid control response); combined with lack of slats this
-	    requires going Direct Law early (at 200kt) to improve pitch response.</para></listitem>
+    <listitem><para>When configuring on approach, flaps do not begin to extend until CONF 2 is
+    selected.</para></listitem>
 
-	    <listitem><para>You're going to need a longish runway. Worst case is if you only have blue, since you have,
-	    at best, accumulator braking and you're coming in fast due to lack of flaps. Yellow is better since you have
-	    alternate braking, and its mainly about the lack of slats. If you have green, its not really all that
-	    bad.</para></listitem>
+    <listitem><para>Slat position does not change between CONF 2 and CONF 3.</para></listitem>
 
-	  </itemizedlist></para>
-	</listitem></itemizedlist>
-    </chapter>
+	<listitem><para>The AVIONICS SMOKE ECAM is non-standard. Do not run the procedure from the ECAM,
+	use the QRH procedure instead.</para></listitem>
+
+	<listitem><para>The Engine Fire on the Ground procedure is non-standard. The FO must remember to
+	mitigate the effects of loss of electrical power (which includes loss of ECAM and non-emergency
+	lighting) before shutting down the second engine.</para></listitem>
+
+    <listitem><para>Dual hydraulic failure fundamentals:
+	<itemizedlist>
+	  <listitem><para>You will always need to gravity extend the gear, so you will never be able to
+	  retract it on the go-around.</para></listitem>
+
+	  <listitem><para>If you only have blue, you lose the flaps; if you only have yellow, you lose
+	  the slats. The flaps/slats jammed procedure (including go-around modifications) is therefore
+	  incorporated into both these procedures.</para></listitem>
+
+	  <listitem><para>If you only have blue, the THS is frozen (think BLUE=COLD=FROZEN THS), so you
+	  need to go Direct Law late (at Conf 3, V<subscript>APP</subscript>) to get neutral trimming of
+	  the elevators. If you only have yellow, you only have one elevator (think
+	  YELLOW=COWARDLY=Timid control response); combined with lack of slats this requires going
+	  Direct Law early (at 200kt) to improve pitch response.</para></listitem>
+
+	  <listitem><para>You're going to need a longish runway. Worst case is if you only have blue,
+	  since you have, at best, accumulator braking and you're coming in fast due to lack of
+	  flaps. Yellow is better since you have alternate braking, and its mainly about the lack of
+	  slats. If you have green, its not really all that bad.</para></listitem>
+	</itemizedlist></para>
+  </listitem></itemizedlist>
+</chapter>
+
 </book>
