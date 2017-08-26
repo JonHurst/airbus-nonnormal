@@ -4008,73 +4008,78 @@
 
 
 <chapter>
-      <title>Indicating/ Recording</title>
-      <sect1 id="du-failure">
-        <title>Display unit failure</title>
+  <title>Indicating/ Recording</title>
 
-        <para>Intermittent flashing of DUs may be indicative of a generator issue. If P1 DUs are
-        flashing, try turning off generator 1. If P2 DUs are flashing, try turning off generator
-        2. The APU generator can be used if successful.</para>
+  <sect1 id="du-failure">
+    <title>Display unit failure</title>
 
-        <para>In the case of a blank DU, a large amber “F”, a distorted display or minimum
-        brightness, on some airframes a reset may be attempted by selecting the DU brightness to OFF
-        then back to ON. If the reset is not applicable or the DU does not recover after 10 seconds,
-        the affected DU can be turned off. In the case of an INVALID DISPLAY UNIT message, an
-        automatic recovery attempt is initiated; this can take 40 seconds or more. If automatic
-        recovery does not succeed, the DU can be turned off.</para>
+    <para>Intermittent flashing of DUs may be indicative of a generator issue. If P1 DUs are
+    flashing, try turning off generator 1. If P2 DUs are flashing, try turning off generator 2. The
+    APU generator can be used if successful.</para>
 
-        <para>An INVALID DATA message is indicative of a DMC problem; EIS DMC switching may recover
-        the DU, as may turning the DU OFF then ON. It is possible that this message will appear
-        simultaneously on <emphasis>all</emphasis> DUs; this initiates an automatic recovery
-        attempt, which, again, can take 40 seconds or more. DUs that are not automatically recovered
-        may be recovered manually by sequentially turning them off for 40 seconds then back on. If
-        resetting a DU triggers a recurrence of the original problem, leave that DU off for the next
-        recovery cycle.</para>
+    <para>In the case of a blank DU, a large amber “F”, a distorted display or minimum brightness,
+    on some airframes a reset may be attempted by selecting the DU brightness to OFF then back to
+    ON. If the reset is not applicable or the DU does not recover after 10 seconds, the affected DU
+    can be turned off. In the case of an INVALID DISPLAY UNIT message, an automatic recovery attempt
+    is initiated; this can take 40 seconds or more. If automatic recovery does not succeed, the DU
+    can be turned off.</para>
 
-        <para>In the event of an unrecoverable failure of a display unit, some automatic display
-        switching will occur: PFD will auto-transfer to NDUs and E/WD will auto-transfer to
-        SDU. Each pilot has a PFD/ND XFR button that allows their PFD to be toggled onto their NDU
-        and their ND to be toggled onto their PFDU. An ECAM/ND XFR switch on the switching panel
-        allows either the SD (when SDU <emphasis role="bold">xor</emphasis> E/WDU failed) or E/WD
-        (SDU <emphasis role="bold">and</emphasis> E/WDU failed) to be displayed on an NDU.</para>
+    <para>An INVALID DATA message is indicative of a DMC problem; EIS DMC switching may recover the
+    DU, as may turning the DU OFF then ON. It is possible that this message will appear
+    simultaneously on <emphasis>all</emphasis> DUs; this initiates an automatic recovery attempt,
+    which, again, can take 40 seconds or more. DUs that are not automatically recovered may be
+    recovered manually by sequentially turning them off for 40 seconds then back on. If resetting a
+    DU triggers a recurrence of the original problem, leave that DU off for the next recovery
+    cycle.</para>
 
-        <para>The most likely end result of a DU failure is that one ND must be shared and/or that
-        the SD is not displayed. The ECAM can be operated with just the E/WD. When a SYS page is
-        needed, press and hold the required SYS page button. When STATUS is required, press and
-        maintain the STS key. The E/WD will be displayed 2s after the STS key is released. To access
-        STATUS overflow, release then repress the STS key within 2s.</para>
+    <para>In the event of an unrecoverable failure of a display unit, some automatic display
+    switching will occur: PFD will auto-transfer to NDUs and E/WD will auto-transfer to SDU. Each
+    pilot has a PFD/ND XFR button that allows their PFD to be toggled onto their NDU and their ND to
+    be toggled onto their PFDU. An ECAM/ND XFR switch on the switching panel allows either the SD
+    (when SDU <emphasis role="bold">xor</emphasis> E/WDU failed) or E/WD (SDU <emphasis
+    role="bold">and</emphasis> E/WDU failed) to be displayed on an NDU.</para>
 
-        <para role="multicite">[QRH ABN.31, FCOM PRO.ABN.31]</para>
-      </sect1>
-      <sect1 id="multiple-undue">
-        <title>Multiple spurious ECAM alerts</title>
+    <para>The most likely end result of a DU failure is that one ND must be shared and/or that the
+    SD is not displayed. The ECAM can be operated with just the E/WD. When a SYS page is needed,
+    press and hold the required SYS page button. When STATUS is required, press and maintain the STS
+    key. The E/WD will be displayed 2s after the STS key is released. To access STATUS overflow,
+    release then repress the STS key within 2s.</para>
 
-        <para>A faulty DMC can cause multiple spurious ECAM alerts (spurious as confirmed by SD
-        pages). The EIS DMC switch should be used to identify the faulty DMC and replace it with
-        DMC3.</para>
+    <para role="multicite">[QRH ABN.31, FCOM PRO.ABN.31]</para>
+  </sect1>
 
-        <para role="multicite">[QRH ABN.31, PRO.ABN.31]</para>
-      </sect1>
 
-      <sect1 id="fwc">
-        <title>Flight Warning Computer failure</title>
+  <sect1 id="multiple-undue">
+    <title>Multiple spurious ECAM alerts</title>
 
-        <para> The two identical FWCs generate alert messages, memos, aural alerts, and synthetic
-        voice messages. Loss of a single FWC leads to downgrade to CAT 3 Single due to loss of
-        redundancy. The major effects of loss of both FWCs are loss of ECAM (including attention
-        getters, status page and takeoff/landing memos), loss of auto callouts<footnote><para>There
-        is some question as to whether windshear and GPWS aural alerts are included under ‘auto
-        callouts’. The FCOM is unclear on the matter.</para></footnote> (radio height and decision
-        height) and loss of altitude alerting. In the sim, there is also loss of rudder trim reset,
-        loss of APU fuel valve status and loss of cabin crew call alert as side-effects.</para>
+    <para>A faulty DMC can cause multiple spurious ECAM alerts (spurious as confirmed by SD
+    pages). The EIS DMC switch should be used to identify the faulty DMC and replace it with
+    DMC3.</para>
 
-        <para>The procedure is simply to use the SYS pages and overhead panel warning lights to
-        monitor the systems, and for PM to make the relevant callouts. Alternative method for cabin
-        crew to get flight deck attention may be required.</para>
+    <para role="multicite">[QRH ABN.31, PRO.ABN.31]</para>
+  </sect1>
 
-      </sect1>
-    </chapter>
-    <chapter>
+
+  <sect1 id="fwc">
+    <title>Flight Warning Computer failure</title>
+
+    <para> The two identical FWCs generate alert messages, memos, aural alerts, and synthetic voice
+    messages. Loss of a single FWC leads to downgrade to CAT 3 Single due to loss of redundancy. The
+    major effects of loss of both FWCs are loss of ECAM (including attention getters, status page
+    and takeoff/landing memos), loss of auto callouts<footnote><para>There is some question as to
+    whether windshear and GPWS aural alerts are included under ‘auto callouts’. The FCOM is unclear
+    on the matter.</para></footnote> (radio height and decision height) and loss of altitude
+    alerting. In the sim, there is also loss of rudder trim reset, loss of APU fuel valve status and
+    loss of cabin crew call alert as side-effects.</para>
+
+    <para>The procedure is simply to use the SYS pages and overhead panel warning lights to monitor
+    the systems, and for PM to make the relevant callouts. Alternative method for cabin crew to get
+    flight deck attention may be required.</para>
+  </sect1>
+</chapter>
+
+
+<chapter>
       <title>Pneumatic</title>
       <sect1 revisionflag="changed" id="dual-bleed">
         <title>Dual bleed failure</title>
