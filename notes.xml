@@ -371,7 +371,7 @@
     deactivate the mask microphone and switch off the oxygen flow, close the oxygen mask stowage
     compartment and press the “PRESS TO RESET” oxygen control slide.</para>
 
-    <para role="multicite">[EOMB 3.80.2, QRH ABN.80, FCOM PRO.ABN.80, FCTM A0.90]</para>
+    <para role="multicite">[EOMB 3.80.2, QRH AEP.MISC, FCOM AEP.MISC, FCTM AEP.MISC]</para>
   </sect1>
 
 
@@ -413,7 +413,7 @@
       “instinctive disconnect pb” on the thrust levers then flying manual thrust until the situation
       has sufficiently stabilised to re-engage the autothrust.</para>
 
-      <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
+      <para role="multicite">[FCOM PRO.AEP.SURV]</para>
     </sect2>
 
 
@@ -444,7 +444,7 @@
       approach, consider use of CONF 3 and increasing V<subscript>APP</subscript> to a maximum of
       V<subscript>LS</subscript>+15.</para>
 
-      <para role="multicite">[FCOM PRO.ABN.80, QRH ABN.80]</para>
+      <para role="multicite">[FCOM PRO.AES.SURV]</para>
     </sect2>
   </sect1>
 
@@ -506,14 +506,14 @@
     with no protections, and thus allows control of the aircraft to be regained.</para>
 
     <para>Once the flight path is under control and a safe altitude is attained, the aircraft should
-    be transitioned into level flight. Refer to QRH ABN.34.07 to extract a ballpark thrust setting,
-    a reference attitude and a reference speed for the current configuration, bearing in mind that
-    an auto-retraction of the flap may have occurred. Set the ballpark thrust setting and adjust
-    pitch attitude to fly level; if barometric altitude data is considered accurate use the VSI,
-    otherwise fly a constant GPS altitude. The thrust should then be adjusted until level flight is
-    achieved with the reference attitude. Note that in the radome damage case, the required N1 may
-    be as much as 5% greater than the ballpark figure. Once stable, the speed will be equal to the
-    reference speed.</para>
+    be transitioned into level flight. Refer to QRH AEP.NAV.USI to extract a ballpark thrust
+    setting, a reference attitude and a reference speed for the current configuration, bearing in
+    mind that an auto-retraction of the flap may have occurred. Set the ballpark thrust setting and
+    adjust pitch attitude to fly level; if barometric altitude data is considered accurate use the
+    VSI, otherwise fly a constant GPS altitude. The thrust should then be adjusted until level
+    flight is achieved with the reference attitude. Note that in the radome damage case, the
+    required N1 may be as much as 5% greater than the ballpark figure. Once stable, the speed will
+    be equal to the reference speed.</para>
 
     <para>If there is insufficient data available to fly level (e.g. GPS data unavailable and
     barometric data unreliable), fly the reference attitude with the ballpark thrust setting. This
@@ -526,30 +526,30 @@
     <para>If all ADRs are considered unreliable, turn off any two of them; one is kept on to provide
     stall warning from the alpha probes. More recent aircraft have backup speed/altitude scales
     based on AOA probes and GPS altitudes which are activated when below FL250 by turning off the
-    third ADR. The ALL ADR OFF procedure in QRH ABN.34 describes the use of these scales, but it
+    third ADR. The ALL ADR OFF procedure in QRH AEP.NAV describes the use of these scales, but it
     boils down to fly the green on the speed scale and anticipate slightly reduced accuracy from the
     altitude scale.  For aircraft without this functionality, tables are provided in section
-    ABN.34.07 of the QRH to enable all phases of flight to be flown using just pitch and thrust
+    AEP.NAV.USI of the QRH to enable all phases of flight to be flown using just pitch and thrust
     settings. Acceleration and clean up are carried out in level flight. Flap 1 can be selected as
     soon as climb thrust is selected, flap 0 once the appropriate S speed pitch attitude from the
-    table on the first page of the QRH ABN.34 UNRELIABLE SPEED procedure is reached. Configuration
+    table on the first page of the QRH AEP.NAV.USI procedure is reached. Configuration
     for approach is also carried out in level flight, stabilising in each configuration using the
     technique described above. The approach is flown in CONF 3 at an attitude that should result in
     VLS+10 when flying a 3° glide. Landing distance will be increased.</para>
 
-    <para role="multicite">[QRH ABN.34, FCOM PRO.ABN.34, FCTM A0.034]</para>
+    <para role="multicite">[QRH AEP.NAV, FCOM PRO.AEP.NAV, FCTM PRO.AEP.NAV]</para>
   </sect1>
 
 
   <sect1>
-    <title>Incapacitation <emphasis>(memory item)</emphasis></title>
+    <title>Incapacitation</title>
 
     <para>Take control, using the stick priority button if necessary. Contact cabin crew ASAP. They
     should strap the incapacitated pilot to his seat, move the seat back, then recline it. If there
     are two cabin crew available, the body can be moved. Medical help should be sought from
     passengers, and the presence of any type rated company pilots on board ascertained.</para>
 
-    <para role="multicite">[FCOM PRO.ABN.80, FCTM A0.090]</para>
+    <para role="multicite">[FCTM PRO.AEP.MISC]</para>
   </sect1>
 
 
@@ -564,8 +564,8 @@
     instructions for shutting down the engines and APU on touchdown (all masters off).</para>
 
     <para revisionflag="changed">If time is available, apply the procedures in the QRH. The
-    QRH ABN.80 DITCHING procedure applies if the engines are running. If the engines are not
-    running, refer to the appropriate QRH ABN.70 <emphasis role="underline">ENG</emphasis> DUAL
+    QRH AEP.MISC Ditching procedure applies if the engines are running. If the engines are not
+    running, refer to the appropriate QRH AEP.ENG <emphasis role="underline">ENG</emphasis> DUAL
     FAILURE procedure, both of which include ditching.</para>
 
     <para revisionflag="changed">Preparation for ditching involves notifying ATC in order to
@@ -587,7 +587,7 @@
     procedure does not directly call for the fire buttons to be pushed or the agents to be
     discharged, but the evacuation action includes these items.</para></footnote></para>
 
-    <para role="multicite">[QRH ABN.80, QRH ABN.70, FCOM PRO.ABN.80]</para>
+    <para role="multicite">[QRH AEP.MISC, QRH AEP.ENG, FCOM PRO.AEP.ENG]</para>
   </sect1>
 
 
@@ -602,8 +602,8 @@
     for shutting down the engines and APU on touchdown (all masters off).</para>
 
     <para revisionflag="changed">If time is available, apply the procedures in the QRH.  The
-    QRH ABN.80 FORCED LANDING procedure applies if the engines are running. If the engines are not
-    running, refer to the appropriate QRH ABN.70 <emphasis role="underline">ENG</emphasis> DUAL
+    QRH AEP.MISC Forced Landing procedure applies if the engines are running. If the engines are not
+    running, refer to the appropriate QRH AEP.ENG <emphasis role="underline">ENG</emphasis> DUAL
     FAILURE procedure, both of which include forced landing.</para>
 
     <para>Preparation for forced landing involves notifying ATC in order to expedite rescue,
@@ -622,7 +622,7 @@
     discharge all agents (engine agent 2 may not be available) and evacuate the
     aircraft.<footnoteref linkend="fnnfr"/></para>
 
-    <para role="multicite">[QRH ABN.80, QRH ABN.70, FCOM PRO.ABN.80]</para>
+    <para role="multicite">[QRH AEP.MISC, QRH AEP.ENG, FCOM PRO.AEP.ENG]</para>
   </sect1>
 
 
