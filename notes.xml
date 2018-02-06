@@ -34,6 +34,9 @@
 
       <listitem><para>Added footnote to <xref linkend="rejected_takeoff"/> to explain that the Feb
       2018 changes to RTO procedures do not really change anything.</para></listitem>
+
+      <listitem><para>Added advice for a fresh takeoff attempt following an RTO to <xref
+      linkend="rejected_takeoff"/>.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -180,7 +183,12 @@
     <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be
     released by disarming the spoilers.</para>
 
-    <para role="multicite">[EOMB 3.10, FCOM PRO.ABN.10, FCTM A0-020]</para>
+    <para revisionflag="added">If, following an RTO, a new takeoff is to be attempted, reset both
+    FDs, set the FCU, then restart SOPs from the After Start checklist. Carefully consider brake
+    temperatures; temperature indications continue to climb for some time after a significant
+    braking event.</para>
+
+    <para role="multicite">[EOMB 3.10, FCTM PRO.AEP.MISC]</para>
   </sect1>
 
 
