@@ -32,6 +32,8 @@
       <listitem><para>Cross references are updated throughout to account for February 2018
       re-jigging of FCOM, FCTM, QRH and EOM-B.</para></listitem>
 
+      <listitem><para>Added footnote to <xref linkend="rejected_takeoff"/> to explain that the Feb
+      2018 changes to RTO procedures do not really change anything.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -143,8 +145,16 @@
     “Stop” or “Go”. “Stop” implies that CM1 is taking control of the aircraft. Below 100kt the RTO
     is relatively risk free and a decision to stop should be made for any ECAM and most other
     problems. Above 100kt the RTO may be hazardous and stopping should only be considered for loss
-    of engine thrust, any fire warning, any uninhibited ECAM or anything which indicates the
-    aircraft will be unsafe or unable to fly.</para>
+    of engine thrust, any fire warning, any uninhibited ECAM<footnote><para revisionflag="added">A
+    change was introduced in Feb 2018 whereby five amber ECAM cautions requiring a high speed stop
+    are specifically listed. An exhaustive search of amber ECAM cautions that are not inhibited
+    between 80kt and lift off revealed only two cautions in addition to this list: ENG 1(2) THR
+    LEVER DISAGREE if the FADEC automatically selects idle thrust and FWS FWC 1+2 FAULT. The first
+    of these should theoretically never happen due to FADEC logic. The second generates a message on
+    the EWD but no master caution, since it is the computers that generate master cautions that have
+    failed. You could therefore modify this rule to: stop for any ECAM warning or caution except the
+    caution-like FWS FWC 1+2 FAULT.</para></footnote> or anything which indicates the aircraft will
+    be unsafe or unable to fly.</para>
 
     <para>If a stop is required, CM1 calls “Stop” while simultaneously bringing the thrust levers to
     idle, then to max reverse. If the stop was commenced below 72kt the ground spoilers will not
