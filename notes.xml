@@ -37,6 +37,11 @@
 
       <listitem><para>Added advice for a fresh takeoff attempt following an RTO to <xref
       linkend="rejected_takeoff"/>.</para></listitem>
+
+      <listitem><para>Removed “engine failure” and “engine fire” calls from <xref linkend="efato"/>.
+      These calls have been dropped from EOM-B. Due to EOM-B ambiguity, added advice to state the
+      first ECAM procedure title with a footnote explaining that this is an interpretation of the
+      ambiguous procedures.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -216,8 +221,13 @@
 
     <para>Whilst below 400ft, the only failure related actions should be:
     <itemizedlist>
-      <listitem><para>If applicable, PNF should announce “Engine failure” or “Engine fire” without
-      specifying an engine.</para></listitem>
+      <listitem><para revisionflag="changed">If applicable, PM should state the title of the first
+      displayed ECAM procedure, but should delay confirmation.<footnote><para
+      revisionflag="added">The Feb 2018 update to EOM-B removed the “engine failure” and “engine
+      fire” calls, but leaves the timing of the reading of the ECAM title ambiguous. The advice
+      given here is one interpretation. Since these calls were good for situational awareness,
+      replacing them with a bald statement of the first ECAM procedure title seems
+      sensible.</para></footnote></para></listitem>
 
       <listitem><para>Cancellation of master warning or master caution when both pilots confirm they
       are aware of it.</para></listitem>
