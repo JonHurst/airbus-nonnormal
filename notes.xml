@@ -4,7 +4,7 @@
 <!-- use fill column 100 -->
 <book id="airbus-nonnormal">
   <title>Airbus A320 Family Non-Normal Notes</title>
-  <subtitle>Version 2.3</subtitle>
+  <subtitle>Version 2.4</subtitle>
 
 <preface>
   <title>Change log</title>
@@ -20,8 +20,20 @@
     <para>Changed sections have a green background, added sections have a yellow background. Removed
     sections are notified in the change log.</para>
 
+    <para>Changes to cross references induced by Airbus re-jigging their manuals are not
+    highlighted.</para>
+
   </sect1>
 
+  <sect1>
+    <title>Changes since version 2.3</title>
+
+    <itemizedlist>
+      <listitem><para>Cross references are updated throughout to account for February 2018
+      re-jigging of FCOM, FCTM, QRH and EOM-B.</para></listitem>
+
+    </itemizedlist>
+  </sect1>
 
   <sect1>
     <title>Changes since version 2.2.1</title>
