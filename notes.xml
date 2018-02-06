@@ -206,7 +206,7 @@
     when more than 3kt below manoeuvring speed for the current configuration<footnote><para>This is
     a conservative rule of thumb. If the FMGC has correctly identified an engine out condition, the
     FD/AP will automatically limit bank angle according to a less conservative
-    algorithm. [FCOM 22.20.60.40]</para></footnote>.</para>
+    algorithm. [FCOM SYS.22.20.60.40]</para></footnote>.</para>
 
     <para>When the ground to flight mode transition is complete<footnote><para>Introducing TOGA
     during the ground to flight mode transition (commences as the pitch increases through 8°,
@@ -270,7 +270,7 @@
       extinguished or both squibs have been fired.</para></listitem>
     </itemizedlist></para>
 
-    <para role="multicite">[FCOM PRO.ABN.10, FCTM A0-020]</para>
+    <para role="multicite">[FCTM PRO.AEP.ENG]</para>
   </sect1>
 
 
