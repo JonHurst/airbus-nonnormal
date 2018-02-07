@@ -42,6 +42,9 @@
       These calls have been dropped from EOM-B. Due to EOM-B ambiguity, added advice to state the
       first ECAM procedure title with a footnote explaining that this is an interpretation of the
       ambiguous procedures.</para></listitem>
+
+      <listitem><para>Deleted “Immediate VMC recovery” section; it has been removed from FCOM and
+      hasn't surfaced anywhere else.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -676,19 +679,6 @@
     deflation may occur.</para>
 
     <para role="multicite">[QRH 80.12, FCOM PRO.ABN.80]</para>
-  </sect1>
-
-
-  <sect1 id="se_vmc">
-    <title>Immediate VMC recovery with single engine</title>
-
-    <para>Fly circuit in CONF 1. If landing overweight check the appropriate landing flap
-    configuration using the table from QRH ABN.80 Overweight Landing. Select CONF 2 at start of base
-    turn. Gear will usually be extended once flaps have run to 2, but may be delayed until final
-    approach if performance is an issue. Select CONF 3 once gear is down and CONF full, if required,
-    when on final approach.</para>
-
-    <para role="multicite">[FCOM PRO.ABN.10]</para>
   </sect1>
 
 
