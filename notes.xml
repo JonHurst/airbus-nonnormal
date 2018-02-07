@@ -45,6 +45,9 @@
 
       <listitem><para>Deleted “Immediate VMC recovery” section; it has been removed from FCOM and
       hasn't surfaced anywhere else.</para></listitem>
+
+      <listitem><para>Improved <xref linkend="efic"/> to explain reasons for required
+      actions.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -682,19 +685,39 @@
   </sect1>
 
 
-  <sect1>
+  <sect1 id="efic" revisionflag="changed">
     <title>Engine failure in cruise</title>
 
-    <para>Set MCT on live engine then disconnect the autothrust. Start ECAM actions and notify
-    ATC. Decide on strategy – standard strategy increases the chance of an engine relight, whilst
-    obstacle strategy maintains the greatest possible obstacle clearance. If using standard strategy
-    select speed .78/300kt. If using obstacle strategy select green dot speed. Select altitude to
-    LRC ceiling or green dot ceiling as appropriate to allow drift down once speed is reached. If
-    obstacles remain a problem, MCT and green dot speed can be maintained to give a shallow climbing
-    profile. Once obstacles are no longer a problem, descend to LRC ceiling (use V/S if &lt;500 fpm
-    descent rate), engage the autothrust and continue at LRC speed.</para>
+    <para>Engine out ceiling is highly dependent on weight; ISA deviation also has a modest
+    effect. It will generally lie between FL180 and FL350.</para>
 
-    <para role="multicite">[FCOM PER.OEI.GEN.10]</para>
+    <para>The first action will be to select both thrust levers to MCT so as to allow the autothrust
+    its full engine out range. If the N1 gauges indicate a thrust margin exists, then the aircraft
+    is below engine out ceiling; descent may be appropriate to increase the available thrust margin,
+    but there is no immediate threat. If, however, the N1 gauges indicate that the autothrust is
+    commanding MCT, and the speed is still decaying, then the aircraft is above engine out ceiling
+    and prompt execution of a drift down procedure is required.</para>
+
+    <para>Drift down with autopilot engaged in OP DES is preferred. Engagement of this vertical mode
+    normally results in the autothrust commanding idle thrust, which is not what is desired. Thus,
+    having set the thrust lever to MCT, the autothrust is disconnected. The PROG page provides a REC
+    MAX EO flight level to use as an altitude target. If the speed decay is modest, it may be
+    possible to alert ATC before initiating the descent, but in-service events have shown that speed
+    decay is often very rapid, requiring descent initiation to be prioritised.</para>
+
+    <para>Once drift down has been initiated, a decision needs to be made about speed. If obstacles
+    are a concern, the lowest drift down rate and highest ceiling are acheived at green dot. Airbus
+    refers to drifting down at green dot as “Obstacle strategy”. Flying at green dot reduces the
+    chance of the FADECs automatically relighting the failed engine as the engine will be
+    windmilling more slowly. Therefore, if obstacles are not a concern, M.78/300kt is flown, a speed
+    that will always fall within the stabilized windmill engine relight envelope; Airbus refers to
+    this as “Standard Strategy”.</para>
+
+    <para>If obstacles remain a problem, MCT and green dot speed can be maintained to give a shallow
+    climbing profile. Once obstacles are no longer a problem, descend to LRC ceiling (use V/S if
+    &lt;500 fpm descent rate), engage the autothrust and continue at LRC speed.</para>
+
+    <para role="multicite">[FCTM PRO.AEP.ENG.EFDC]</para>
   </sect1>
 
 
