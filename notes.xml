@@ -1256,16 +1256,16 @@
     will recover rudder trim. Once 45 seconds have elapsed and when below FL250, the APU can be
     started.</para>
 
-    <para>So much equipment is lost in the emergency configuration that QRH ABN.24 provides a table
-    of surviving equipment. Notable losses are all the fuel pumps (so ignition on, avoid negative G,
-    center tank fuel is unusable), the anti-skid and three fifths of the spoilers. Landing speeds
-    and distances are increased significantly.</para>
+    <para>So much equipment is lost in the emergency configuration that QRH AEP.ELEC provides a
+    table of surviving equipment. Notable losses are all the fuel pumps (so ignition on, avoid
+    negative G, center tank fuel is unusable), the anti-skid and three fifths of the
+    spoilers. Landing speeds and distances are increased significantly.</para>
 
-    <para>QRH ABN.24 also provides a paper summary which should be applied once ECAM actions are
+    <para>QRH AEP.ELEC also provides a paper summary which should be applied once ECAM actions are
     complete.</para>
 
-    <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER CONFIG, QRH ABN.24.1
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER CONFIG, QRH AEP.ELEC,
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1273,14 +1273,14 @@
     <title>Battery only</title>
 
     <para>Power is available for approximately 30 minutes.<footnote><para>This information was part
-    of Airbus CBT training. There is no figure available in the FCOM.</para></footnote> QRH ABN.24
+    of Airbus CBT training. There is no figure available in the FCOM.</para></footnote> QRH AEP.ELEC
     provides details of remaining equipment. This is very similar to the emergency electrical
     configuration (see <xref linkend="emerg-elec-config"/>) with the additional loss of FAC1 and
     FMGC1. An attempt should be made to bring the emergency generator on line by ensuring speed is
     &gt;140kt and deploying the RAT with the EMER ELEC PWR MAN ON button.</para>
 
-    <para role="multicite">[<emphasis role="underline">ELEC</emphasis> ESS BUSES ON BAT, QRH ABN.24,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    <para role="multicite">[<emphasis role="underline">ELEC</emphasis> ESS BUSES ON BAT,
+    QRH AEP.ELEC, FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1294,7 +1294,7 @@
     <para>The APU generator should be used if available.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> IDG 1(2) OIL LO PR/OVHT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1311,7 +1311,7 @@
     generator leads to loss of CAT III DUAL capability.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis>(APU) GEN (1)(2) FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1322,7 +1322,7 @@
     a single battery.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> BAT 1(2) FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1339,7 +1339,7 @@
     the nose wheel steering, the avionics blower fan and p1 windshield heat.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC BUS 1 FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1352,7 +1352,7 @@
     distances are unchanged.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC BUS 2 FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1366,7 +1366,7 @@
     unchanged.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1377,7 +1377,7 @@
     of the passenger oxygen masks. Landing distances are unchanged.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS SHED,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1388,7 +1388,7 @@
     of redundancy only. Landing distances are unchanged.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1 FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1407,7 +1407,7 @@
     noted that the only flight computers remaining are ELAC 1, SEC 1 and FAC 1.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 2 FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1446,7 +1446,7 @@
     requires that the engines are shut down with the Engine Fire pushbutton switches.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC ESS BUS FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1457,7 +1457,7 @@
     apply landing distance procedure if ice accretes.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC ESS BUS SHED,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1471,7 +1471,7 @@
     supplied from AC 1 instead of the emergency generator.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BUS 1+2 FAULT,
-    FCOM DSC.24.30, FCOM 3.2.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1481,7 +1481,7 @@
     <para>Shed some load by switching off the galleys.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> GEN 1(2) OVERLOAD, <emphasis
-    role="underline">ELEC</emphasis> APU GEN OVERLOAD, FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    role="underline">ELEC</emphasis> APU GEN OVERLOAD, FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1501,7 +1501,7 @@
     about RAT deployment or RAT stall.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> TR 1(2), <emphasis
-    role="underline">ELEC</emphasis> ESS TR FAULT, FCOM DSC.24.10.30, FCOM PRO.ABN.24 ]</para>
+    role="underline">ELEC</emphasis> ESS TR FAULT, FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1512,7 +1512,7 @@
     fire detection and APU battery start.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC BAT BUS FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1564,7 +1564,7 @@
     </itemizedlist></para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> DC EMER CONFIG,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1574,7 +1574,7 @@
     <para>Normal operations are not affected.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> STAT INV FAULT,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1587,7 +1587,7 @@
     not meant to be off, turn it on.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER GEN 1 LINE OFF,
-    FCOM DSC.24.30, FCOM PRO.ABN.24]</para>
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 
 
@@ -1603,8 +1603,8 @@
 
     <para>The ECAM warning will be triggered if a green circuit breaker trips.</para>
 
-    <para role="multicite">[<emphasis role="underline">C/B</emphasis> TRIPPED, FCOM DSC.24.30,
-    FCOM PRO.ABN.24 ]</para>
+    <para role="multicite">[<emphasis role="underline">C/B</emphasis> TRIPPED,
+    FCOM PRO.AEP.ELEC]</para>
   </sect1>
 </chapter>
 
