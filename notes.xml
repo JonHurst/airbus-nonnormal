@@ -2390,7 +2390,7 @@
     risks tire burst and lateral control difficulties (due brake onset asymmetry) so delay until low
     speed if at all possible.</para>
 
-    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+    <para role="multicite">[FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2405,7 +2405,7 @@
     autobrake MED or immediate manual braking to prioritise the normal system. Anticipate brake
     asymmetry at touchdown.</para>
 
-    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+    <para role="multicite">[QRH AEP.BRAKES, FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2424,7 +2424,7 @@
     <para>Gear doors may show amber on the WHEEL page after gravity extension. There may also be
     spurious LGCIU 2 FAULT or BRAKES SYS 1(2) FAULT ECAM warnings.</para>
 
-    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+    <para role="multicite">[QRH AEP.L/G, FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
@@ -2436,7 +2436,7 @@
     progressively whilst countering swing with rudder. Do not use the reverse on the same side as
     the working brake. Landing distances will increase significantly.</para>
 
-    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+    <para role="multicite">[QRH AEP.BRAKES, FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
