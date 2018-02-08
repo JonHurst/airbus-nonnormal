@@ -51,6 +51,8 @@
 
       <listitem><para>Added requirement for FLAP 3 landing to <xref
       linkend="se_circling"/>.</para></listitem>
+
+      <listitem><para>Improved <xref linkend="asymmetric-braking"/>.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -2431,10 +2433,17 @@
   <sect1 id="asymmetric-braking">
     <title>Asymmetric braking</title>
 
-    <para>If brakes are only available on one side (indicated by amber brake release indicators on
-    both wheels of one main gear <!-- {TODO: check this} -->), apply the remaining brake
-    progressively whilst countering swing with rudder. Do not use the reverse on the same side as
-    the working brake. Landing distances will increase significantly.</para>
+    <para>Defined as all brakes on one gear released (indicated by amber brake release indicators on
+    both wheels of one main gear on the WHEEL SD page<!-- {TODO: check this} -->). When the
+    remaining brakes are applied, the aircraft will tend to swing towards them. This tendency must
+    be countered with rudder, hence the braking must be progressive and co-ordinated with available
+    rudder authority.  Crosswinds from the side of the available brakes will re-inforce the swing,
+    so anything greater than 10kt from that side should be avoided.</para>
+
+    <para>If a reverser is inoperative on the same side as the inoperative brakes, do not use the
+    remaining reverser since it would also re-inforce the swing.</para>
+
+    <para>Landing distances will increase significantly.</para>
 
     <para role="multicite">[QRH AEP.BRAKES, FCOM PRO.AEP.BRAKES]</para>
   </sect1>
