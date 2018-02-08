@@ -2076,14 +2076,14 @@
     instructions should be disregarded, although the rest of the ECAM procedure must be
     actioned. The intention is to restore power 3 minutes before landing or at 2000ft aal. Since you
     will not be able to restore the two IRs that were depowered, the landing will be in Direct Law
-    and hence CONF 3.<footnote><para>QRH PRO.ABN.24 ELEC EMER CONFIG SYS REMAINING indicates that by
+    and hence CONF 3.<footnote><para>QRH AEP.ELEC ELEC EMER CONFIG Sys Remaining indicates that by
     selecting the ATT HDG selector to CAPT 3 it may be possible to retain IR3 and hence have
     sufficient equipment for a Cat 3A landing once power is restored. This has not yet been
-    confirmed by Airbus.</para></footnote> This is not mentioned in QRH ABN.26, and is only
+    confirmed by Airbus.</para></footnote> This is not mentioned in QRH AEP.SMOKE SFAS, and is only
     mentioned on the ECAM once gear is extended.</para>
 
-    <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH ABN.26,
-    FCOM PRO.ABN.26]</para>
+    <para role="multicite">[<emphasis role="underline">AVIONICS</emphasis> SMOKE, QRH AEP.SMOKE,
+    FCOM PRO.AEP.SMOKE]</para>
   </sect1>
 
 
@@ -2100,7 +2100,7 @@
     maximum of 3 minutes and allows manual control of the DC powered outflow valve motor. Once at a
     suitable level and below 200kt, as a last resort PNF’s cockpit window can be opened.</para>
 
-    <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26]</para>
+    <para role="multicite">[QRH AEP.SMOKE, FCOM PRO.AEP.SMOKE]</para>
   </sect1>
 
 
@@ -2118,7 +2118,7 @@
     ECAM reference for the final actions.</para>
 
     <para role="multicite">[<emphasis role="underline">ENG 1(2) FIRE</emphasis>,
-    FCOM PRO.ABN.26]</para>
+    FCOM PRO.AEP.ENG]</para>
   </sect1>
 
 
@@ -2144,7 +2144,7 @@
     <para>If smoke becomes the biggest threat, see <xref linkend="smoke-fumes-removal"/>. If the
     situation becomes unmanageable, consider an immediate landing.</para>
 
-    <para role="multicite">[QRH ABN.26, FCOM PRO.ABN.26, FAA videos (available on youtube)]</para>
+    <para role="multicite">[QRH AEP.SMOKE, FCOM PRO.AEP.SMOKE, FAA videos (available on youtube)]</para>
   </sect1>
 </chapter>
 
