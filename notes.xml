@@ -933,7 +933,7 @@
     exceeds 9 psi. 10 minutes before landing, both packs are turned off and remain off, and the
     avionics ventilation is returned to its normal configuration.</para>
 
-    <para role="multicite">[QRH ABN.21, FCOM PRO.ABN.21]</para>
+    <para role="multicite">[QRH AEP.CAB PR, FCOM PRO.AEP.CAB PR]</para>
   </sect1>
 
 
@@ -949,7 +949,7 @@
     outflow valve and, if it is not fully closed, use manual control to close it.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> EXCESS CAB ALT,
-    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+    FCOM PRO.AEP.CAB PR]</para>
   </sect1>
 
 
@@ -968,7 +968,7 @@
     reinstate that pack.</para>
 
     <para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2)(1+2) FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    FCOM PRO.AEP.AIR]</para>
   </sect1>
 
 
@@ -983,7 +983,7 @@
     be turned back on once it has cooled.</para>
 
     <para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OVHT,
-    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    FCOM PRO.AEP.AIR]</para>
   </sect1>
 
 
@@ -995,7 +995,7 @@
     after a packs off takeoff. Unless there is a reason not to, turn the affected pack(s) on.</para>
 
     <para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) OFF,
-    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    FCOM PRO.AEP.AIR]</para>
   </sect1>
 
 
@@ -1011,7 +1011,7 @@
     uncomfortable, consideration should be given to turning off the affected pack.</para>
 
     <para role="multicite">[<emphasis role="underline">AIR</emphasis> PACK 1(2) REGUL FAULT,
-    FCOM PRO.ABN.21, FCOM 21.10.60]</para>
+    FCOM PRO.AEP.AIR]</para>
   </sect1>
 
   <sect1>
@@ -1021,7 +1021,7 @@
     redundancy only.</para>
 
     <para role="multicite">[<emphasis role="underline">AIR</emphasis> COND CTL 1(2) A(B) FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    FCOM PRO.AEP.AIR]</para>
   </sect1>
 
 
@@ -1038,7 +1038,7 @@
     be provided by the packs.</para>
 
     <para role="multicite">[<emphasis role="underline">
-    COND</emphasis> FWD CAB/AFT CAB/CKPT DUCT OVHT, FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    COND</emphasis> FWD CAB/AFT CAB/CKPT DUCT OVHT, FCOM PRO.AEP.COND]</para>
   </sect1>
 
 
@@ -1052,7 +1052,7 @@
     option is to turn off both packs and proceed as per <xref linkend="pack-fault"/>.</para>
 
     <para role="multicite">[<emphasis role="underline">COND</emphasis> HOT AIR FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    FCOM PRO.AEP.COND]</para>
   </sect1>
 
 
@@ -1073,7 +1073,7 @@
     off is probably a good idea.</para></footnote></para>
 
     <para role="multicite">[<emphasis role="underline">COND</emphasis> TRIM AIR SYS FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    FCOM PRO.AEP.COND]</para>
   </sect1>
 
 
@@ -1084,7 +1084,7 @@
     HI.</para>
 
     <para role="multicite">[<emphasis role="underline">COND</emphasis> L + R CAB FAN FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    FCOM PRO.AEP.COND]</para>
   </sect1>
 
 
@@ -1103,7 +1103,7 @@
     selector.</para>
 
     <para role="multicite">[<emphasis role="underline">COND</emphasis> LAV + GALLEY FAN FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.10.60]</para>
+    FCOM PRO.AEP.COND]</para>
   </sect1>
 
 
@@ -1138,7 +1138,7 @@
     <para>Ensure cabin diff pressure is zero before attempting to open the doors.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SYS 1(2)(1+2) FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+    FCOM PRO.AEP.CAB PR]</para>
   </sect1>
 
   <sect1>
@@ -1152,7 +1152,7 @@
     there is a pressing reason not to.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> LO DIFF PR,
-    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+    FCOM PRO.AEP.CAB PR]</para>
   </sect1>
 
 
@@ -1163,7 +1163,7 @@
     attempted. If that doesn’t work, depressurise the aircraft by turning off both packs.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> OFV NOT OPEN,
-    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+    FCOM PRO.AEP.CAB PR]</para>
   </sect1>
 
 
@@ -1180,7 +1180,7 @@
     vertical speed or expect high cabin rates.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> SAFETY VALVE OPEN,
-    FCOM PRO.ABN.21, FCOM DSC.21.20.50]</para>
+    FCOM PRO.AEP.CAB PR]</para>
   </sect1>
 
 
@@ -1193,7 +1193,7 @@
     involvement of DC ESS BUS fault} --></para>
 
     <para role="multicite">[<emphasis role="underline">VENT</emphasis> BLOWER FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
+    FCOM PRO.AEP.VENT]</para>
   </sect1>
 
 
@@ -1205,7 +1205,7 @@
     system.</para>
 
     <para role="multicite">[<emphasis role="underline">VENT</emphasis> EXTRACT FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
+    FCOM PRO.AEP.VENT]</para>
   </sect1>
 
 
@@ -1224,7 +1224,7 @@
     depressurised<!-- {TODO: find out why} -->.</para>
 
     <para role="multicite">[<emphasis role="underline">VENT</emphasis> SKIN VALVE FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
+    FCOM PRO.AEP.VENT]</para>
   </sect1>
 
 
@@ -1237,7 +1237,7 @@
     action is required.</para>
 
     <para role="multicite">[<emphasis role="underline">VENT</emphasis> AVNCS SYS FAULT,
-    FCOM PRO.ABN.21, FCOM DSC.21.30.70]</para>
+    FCOM PRO.AEP.VENT]</para>
   </sect1>
 </chapter>
 
