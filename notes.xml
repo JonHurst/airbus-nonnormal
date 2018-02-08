@@ -1629,7 +1629,7 @@
     frozen.</para></footnote></para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R)(L+R) ELEV FAULT,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1647,8 +1647,8 @@
     <para>If the jam is caused by the mechanical connection, it is possible that the ELACs will not
     detect the problem. The procedure in this case is similar, but Normal Law will remain.</para>
 
-    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM, QRH ABN.27,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> STABILIZER JAM,
+    QRH AEP.F/CTL, FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1660,7 +1660,7 @@
     approximately 6%.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> L(R) AIL FAULT,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1682,10 +1682,10 @@
     increase significantly; FMGC fuel predictions do not account for the failure and should be
     disregarded. Green dot speed will minimize this increased fuel burn, but may not be viable if
     there is excessive buffet – attempt to find a compromise speed. Landing will be flap 3;
-    V<subscript>APP</subscript> and LDG DIST factors are available in QRH FPE-IFL.</para>
+    V<subscript>APP</subscript> and LDG DIST factors are available in QRH IFP.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> (GND) SPLR (1+2)(3+4) FAULT,
-    OEB 43, FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1701,8 +1701,8 @@
     steering handle can be used (below 70kt), so landing distances are increased. Do not use
     autobrake.</para>
 
-    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> RUDDER JAM, QRH ABN.27,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> RUDDER JAM, QRH_AEP.F/CTL,
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1711,7 +1711,8 @@
 
     <para>The most pressing concern following a flap or slat problem is to establish a max operating
     speed that will avoid overspeeding the device in its locked position. A table is provided on
-    page ABN.27.2 of the QRH for this purpose, but a quick estimation can be made by establishing
+    page AEP.F/CTL “Landing with Slats or Flaps Jammed” of the QRH for this purpose,
+    but a quick estimation can be made by establishing
     what flap lever position would be required to get the device into its current position and using
     V<subscript>FE</subscript> for the configuration associated with that flap lever position as
     V<subscript>MO</subscript>. In doing this, it must be remembered that slat deployment in CONF 2
@@ -1730,7 +1731,7 @@
     addressed. Firstly, fuel burn will be dramatically higher when flying with a locked device. With
     slats extended, fuel burn will increase by 60%. With flaps extended it will increase by
     80%. With slats and flaps extended, fuel burn will double. These figures are available in
-    QRH FPE.FPF. The second issue is that landing distances are significantly increased, in the
+    QRH OPS. The second issue is that landing distances are significantly increased, in the
     worst case by a factor of 2.2. It may be that the combination of these factors requires a fairly
     prompt diversion decision.</para>
 
@@ -1739,7 +1740,7 @@
     landing. There are two exceptions. If flaps are locked at &gt;3, flap full should be used. If
     both slats and flaps are locked at 0, flap 1 should be used so that the AP/FD go-around is
     armed. Configurations and V<subscript>REF</subscript> increments are available on page
-    FPE.IFL.27A of the QRH. If a flapless and slatless landing is required, the threshold speed may
+    IFP.LDwSFSF of the QRH. If a flapless and slatless landing is required, the threshold speed may
     be below V<subscript>LS</subscript>. This is necessary as the landing speeds in this
     configuration are very close to tyre limit speeds.</para>
 
@@ -1781,7 +1782,7 @@
     (which is sequenced to the slats) and possible reversion to Alternate Law.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED),
-    QRH ABN.27, FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
+    QRH_AEP.F/CTL, FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1796,7 +1797,7 @@
     linkend="flight-controls.slats-flaps-fault"/>. </para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT) SYS 1(2) FAULT,
-    FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1815,7 +1816,7 @@
     is lost.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ELAC 1(2) FAULT,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1840,7 +1841,7 @@
     <para>An attempt should be made to reset the affected SEC(s).</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SEC 1(2)(3) FAULT,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1857,7 +1858,7 @@
     not shown and the stall warning system becomes active.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FCDC 1(2)(1+2) FAULT,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1877,7 +1878,7 @@
     dutch roll is experienced.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> DIRECT LAW,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1896,10 +1897,10 @@
 
     <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and
     hence increased approach speeds and landing distances due to a CONF 3 landing (see
-    QRH FPE.IFL.27).</para>
+    QRH IFP.LDwFCSF).</para>
 
-    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ALTN LAW, FCOM DSC.27.20.40,
-    FCOM PRO.ABN.27, FCOM PRO.SUP.27.30]</para>
+    <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> ALTN LAW, ,
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1910,7 +1911,7 @@
     or uncommanded movements. This protection is lost.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAP(SLAT) TIP BRK FAULT,
-    FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1921,7 +1922,7 @@
     flaps which would indicate failure of a flap attachment. This protection is lost.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAP ATTACH SENSOR,
-    FCOM DSC.27.30.30, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1933,7 +1934,7 @@
     applies.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> AIL(ELEV) SERVO FAULT,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1947,7 +1948,7 @@
     unserviceable.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK DISAGREE,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1959,7 +1960,7 @@
     reversers are used, landing distances should not be affected.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> SPD BRK (2)(3+4) FAULT,
-    FCOM DSC.27.20.40, FCOM PRO.ABN.27]</para>
+    FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
@@ -1971,7 +1972,7 @@
     remains responsive. Confirm autopilot disengagement and consider transferring control if one of
     the sidesticks is unaffected.</para>
 
-    <para role="multicite">[QRH ABN.27, FCOM PRO.ABN.27]</para>
+    <para role="multicite">[QRH_AEP.F/CTL, FCOM PRO.AEP.F/CTL]</para>
   </sect1>
 
 
