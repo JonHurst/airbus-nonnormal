@@ -2197,28 +2197,28 @@
     <para>Do not use thrust reversers.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> F USED/FOB DISAGREE,
-    QRH ABN.28, FCOM PRO.ABN.28]</para>
+    QRH AEP.FUEL, FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
   <sect1>
     <title>Fuel imbalance</title>
 
-    <para>All fuel balancing must be carried out in accordance with QRH ABN.28, paying particular
-    attention to the possibility of a fuel leak. Any action should be delayed until sufficient time
-    has passed for a fuel leak to become apparent. FCOM PRO.ABN.28 adds a note not found in the QRH
-    that “there is no requirement to correct an imbalance until the ECAM fuel advisory limit is
-    displayed”, an event that occurs when one inner tank holds &gt;1500kg more than the other. The
-    limitations for fuel imbalance in FCOM LIM.28, however, show that the fuel advisory does not
-    necessarily indicate that a limitation is likely to be breached. In particular, when the outer
-    tanks are balanced and the heavier inner tank contains &le;2250kg, there are no imbalance
-    limitations. Furthermore, the aircraft handling is not significantly impaired even at maximum
-    imbalance. </para>
+    <para>All fuel balancing must be carried out in accordance with QRH AEP.FUEL “Fuel Imbalance”,
+    paying particular attention to the possibility of a fuel leak. Any action should be delayed
+    until sufficient time has passed for a fuel leak to become apparent. FCOM PRO.AEP.FUEL adds a
+    note not found in the QRH that “there is no requirement to correct an imbalance until the ECAM
+    fuel advisory limit is displayed”, an event that occurs when one inner tank holds &gt;1500kg
+    more than the other. The limitations for fuel imbalance in FCOM LIM.FUEL, however, show that the
+    fuel advisory does not necessarily indicate that a limitation is likely to be breached. In
+    particular, when the outer tanks are balanced and the heavier inner tank contains &le;2250kg,
+    there are no imbalance limitations. Furthermore, the aircraft handling is not significantly
+    impaired even at maximum imbalance. </para>
 
     <para>To balance the fuel, open the cross-feed valve and turn the lighter side pumps and the
     center tank pumps off.</para>
 
-    <para role="multicite">[QRH ABN.28, FCOM 3.28.26000, FCOM LIM.28]</para>
+    <para role="multicite">[QRH AEP.FUEL, FCOM PRO.AEP.FUEL, FCOM LIM.FUEL]</para>
   </sect1>
 
 
@@ -2235,7 +2235,7 @@
     <para>It is also possible to gravity cross feed by side slipping the aircraft with a bank angle
     of 2° to 3° should this become necessary.</para>
 
-    <para role="multicite">[QRH ABN.28, FCOM PRO.ABN.28]</para>
+    <para role="multicite">[QRH AEP.FUEL, FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
@@ -2252,7 +2252,7 @@
     linkend="gravity-feeding"/>).</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) TK PUMP 1(2)(1+2) LO PR,
-    FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+    FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
@@ -2268,7 +2268,7 @@
     <para>Failure of both center tank pumps makes the fuel in the center tank unusable.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> CTR TK PUMP(S)(1(2)) LO PR,
-    FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+    FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
@@ -2279,7 +2279,7 @@
     are extended, wing tank fuel &gt;5000kg or center tank fuel is exhausted.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> AUTO FEED FAULT,
-    FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+    FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
@@ -2299,7 +2299,7 @@
     declare a MAYDAY.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis>(R)(L+R) WING TK LO LVL,
-    FCOM PRO.ABN.28, FCOM DSC.28.30, EOMA 8.3.7.2]</para>
+    FCOM PRO.AEP.FUEL, EOMA 8.3.8.2]</para>
   </sect1>
 
 
@@ -2308,10 +2308,10 @@
 
     <para>If both transfer valves fail to open when a wing tank reaches low level, the fuel in that
     outer tank becomes unusable. The fuel balance will remain within limits since maximum outer tank
-    imbalances are acceptable if the total fuel in either wing is the same [FCOM LIM.28].</para>
+    imbalances are acceptable if the total fuel in either wing is the same [FCOM LIM.FUEL].</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) XFR VALVE CLOSED,
-    FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+    FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
@@ -2319,10 +2319,10 @@
     <title>Outer tank transfer valve open out of sequence</title>
 
     <para>Maximum outer tank imbalances are acceptable if the total fuel in either wing is the same
-    [FCOM LIM.28], so no action is required.</para>
+    [FCOM LIM.FUEL], so no action is required.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) XFR VALVE OPEN,
-    FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+    FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
@@ -2333,7 +2333,7 @@
     pumps. If it has failed closed, crossfeeding is unavailable.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> FEED VALVE FAULT,
-    FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+    FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
@@ -2344,7 +2344,7 @@
     within limits. If in flight, descending or increasing speed should be considered.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK LO TEMP,
-    FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+    FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
@@ -2368,10 +2368,10 @@
     <para>In the air, if only one side is affected, fuel flow can be increased so that less hot fuel
     is returned to the tanks. If the temperature gets too high (&gt;65°C outer or &gt;57° inner),
     IDG disconnection will be required. The engine must be running when the IDG button is pressed,
-    and it must not be held for more than 3 seconds.[FCOM DSC.24.20]</para>
+    and it must not be held for more than 3 seconds.[FCOM SYS.24.20]</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK HI TEMP,
-    FCOM PRO.ABN.28, FCOM DSC.28.30]</para>
+    FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 </chapter>
