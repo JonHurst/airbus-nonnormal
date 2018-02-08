@@ -48,6 +48,9 @@
 
       <listitem><para>Improved <xref linkend="efic"/> to explain reasons for required
       actions.</para></listitem>
+
+      <listitem><para>Added requirement for FLAP 3 landing to <xref
+      linkend="se_circling"/>.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -724,13 +727,14 @@
   <sect1 id="se_circling">
     <title>Single engine circling</title>
 
-    <para>It may not be possible to fly level in the standard circling configuration of CONF 3 gear
-    down. This can be ascertained by checking the table in QRH ABN.80 CIRCLING APPROACH WITH ONE
-    ENGINE OPERATIVE. Gear extension may be delayed until final approach if required; the L/G NOT
-    DOWN warning which will occur if circling below 750ft can be silenced with the EMER CANC pb, and
-    a TOO LOW GEAR should be anticipated if below 500ft RA.</para>
+    <para revisionflag="changed">It may not be possible to fly level in the standard circling
+    configuration of CONF 3 gear down. This can be ascertained by checking the table in QRH AEP.MISC
+    One Engine Inoperative – Circling Approach. If affected, plan a FLAP 3 landing and delay gear
+    extension until level flight is no longer required; a L/G NOT DOWN warning which will occur if
+    circling below 750ft (can be silenced with the EMER CANC pb) and a TOO LOW GEAR should be
+    anticipated if below 500ft RA.</para>
 
-    <para role="multicite">[QRH ABN.80]</para>
+    <para role="multicite">[QRH AEP.MISC]</para>
   </sect1>
 
 
