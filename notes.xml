@@ -848,7 +848,7 @@
 
     <para>The safety factor may be disregarded in exceptional circumstances.</para>
 
-    <para role="multicite">[FCOM PER.LDG, EOMB 4.14.2]</para>
+    <para role="multicite">[QRH IFP, FCOM PER.LDG, EOMB 4.14.2]</para>
   </sect1>
 
 
@@ -887,7 +887,7 @@
     will activate, resulting in an automatic pitch up. In this case, smoothly adjust pitch attitude
     as required.</para>
 
-    <para role="multicite">[QRH ABN.80]</para>
+    <para role="multicite">[FCTM PRO.AER.MISC]</para>
   </sect1>
 
 
@@ -915,7 +915,7 @@
     <para>Damage to the windshield may necessitate an autoland or landing with a sliding window
     open.</para>
 
-    <para role="multicite">[QRH ABN.80, FCOM PRO.ABN.80]</para>
+    <para role="multicite">[QRH AEP.MISC, FCOM PRO.AEP.MISC, FCTM PRO.AEP.MISC]</para>
   </sect1>
 </chapter>
 
