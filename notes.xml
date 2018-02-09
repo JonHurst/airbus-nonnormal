@@ -337,8 +337,8 @@
 
     TOGA may be used for a maximum of 10 minutes.</para>
 
-    <para>If an EOSID is annotated as “STD”, then acceleration should be completed prior to
-    commencing the first turn. If “NON-STD”, the turn takes priority.</para>
+    <para>If an EOSID is annotated as “STD”, then acceleration to green dot should be completed
+    prior to commencing the first turn. If “NON-STD”, the turn takes priority.</para>
 
     <para role="multicite">[EOMB 4.4.4, FCOM DSC.22_20.60.40]</para>
   </sect1>
