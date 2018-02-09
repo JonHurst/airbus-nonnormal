@@ -29,8 +29,7 @@ div.deleted  { text-decoration: line-through;
 div.changed  { background-color: #E0ffE0; }
 div.off      {  }
 
-span.added   { background-color: #ffff99;
-               text-decoration: underline; }
+span.added   { background-color: #ffff99;}
 span.deleted { text-decoration: line-through;
                background-color: #FF7F7F; }
 span.changed { background-color: #E0ffE0; }
