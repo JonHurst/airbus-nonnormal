@@ -2948,7 +2948,7 @@
     <para>The remaining engine must be safeguarded. To this end, continuous ignition should be
     selected.</para>
 
-    <para>A fuel imbalance may develop. Fuel imbalance limitations are detailed in FCOM LIM.28.  If
+    <para>A fuel imbalance may develop. Fuel imbalance limitations are detailed in FCOM LIM.FUEL.  If
     the outer tanks are balanced, once the fuller inner tank contains less than 2250kg, fuel balance
     will never be limiting. Since this first occurs with approximately 5900kg of fuel remaining,
     fuel balancing due to balance limitations will generally not be required. Fuel may, however,
