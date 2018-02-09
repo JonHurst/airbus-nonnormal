@@ -3736,11 +3736,11 @@
     slats can be retracted for a subsequent diversion; fuel flow will be approximately 2.3 times
     normal due to the extended gear.</para>
 
-    <para>A paper summary is available in section ABN.29 of the QRH, and this should be applied once
-    all ECAM actions are completed.</para>
+    <para>A paper summary is available in section AEP.HYD of the QRH, and this should be applied
+    once all ECAM actions are completed.</para>
 
-    <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + Y SYS LO PR, QRH ABN.29,
-    FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
+    <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + Y SYS LO PR, QRH AEP.HYD,
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3764,11 +3764,11 @@
     significantly greater (approx factor 2.3); see <xref linkend="flight-with-gear-extended"/> for
     further details.</para>
 
-    <para>A paper summary is available in section ABN.29 of the QRH, and this should be applied once
-    all ECAM actions are completed.</para>
+    <para>A paper summary is available in section AEP.HYD of the QRH, and this should be applied
+    once all ECAM actions are completed.</para>
 
-    <para role="multicite">[<emphasis role="underline">HYD</emphasis> B + Y SYS LO PR, QRH ABN.29,
-    FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
+    <para role="multicite">[<emphasis role="underline">HYD</emphasis> B + Y SYS LO PR, QRH AEP.HYD,
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3801,11 +3801,11 @@
     flaps can be retracted. With the gear remaining down, fuel burn will increase by a factor of
     approximately 2.3.</para>
 
-    <para>A paper summary is available in section ABN.29 of the QRH, and this should be applied once
-    all ECAM actions are completed.</para>
+    <para>A paper summary is available in section AEP.HYD of the QRH, and this should be applied
+    once all ECAM actions are completed.</para>
 
-    <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + B SYS LO PR, QRH ABN.29,
-    FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
+    <para role="multicite">[<emphasis role="underline">HYD</emphasis> G + B SYS LO PR, QRH AEP.HYD,
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3817,8 +3817,8 @@
     braking is available). Landing distance will be increased due to loss of two spoilers per wing
     and reverser 1. Flap and slat deployment will be slow.</para>
 
-    <para role="multicite">[<emphasis role="underline">HYD</emphasis> G SYS LO PR, FCOM DSC.29.30,
-    FCOM PRO.ABN.29]</para>
+    <para role="multicite">[<emphasis role="underline">HYD</emphasis> G SYS LO PR,
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3832,8 +3832,8 @@
     system is only available through the brake accumulator, ensure there is sufficient pressure when
     the parking brake is set.</para>
 
-    <para role="multicite">[<emphasis role="underline">HYD</emphasis> Y SYS LO PR, FCOM DSC.29.30,
-    FCOM PRO.ABN.29]</para>
+    <para role="multicite">[<emphasis role="underline">HYD</emphasis> Y SYS LO PR,
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3845,8 +3845,8 @@
     system is lost. If the system is lost due to low reservoir level, emergency generation
     capability is lost.</para>
 
-    <para role="multicite">[<emphasis role="underline">HYD</emphasis> B SYS LO PR, FCOM DSC.29.30,
-    FCOM PRO.ABN.29]</para>
+    <para role="multicite">[<emphasis role="underline">HYD</emphasis> B SYS LO PR,
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3856,7 +3856,7 @@
     <para>Turn off the affected pump. The PTU will pressurise the affected system.</para>
 
     <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y) ENG 1(2) PUMP LO PR,
-    FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3867,7 +3867,7 @@
     approach providing the relevant FAULT light on the overhead panel has extinguished.</para>
 
     <para role="multicite">[<emphasis role="underline">HYD</emphasis> Y(B) ELEC PUMP LO PR(OVHT),
-    FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3880,7 +3880,7 @@
     the descent.</para>
 
     <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR LO AIR PR,
-    FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3892,7 +3892,7 @@
     going out on the overhead panel.</para>
 
     <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR OVHT,
-    FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3906,7 +3906,7 @@
     the aircraft before shutting down engine 1.</para>
 
     <para role="multicite">[<emphasis role="underline">HYD</emphasis> G(Y)(B) RSVR LO LVL,
-    FCOM DSC.29.30, FCOM PRO.ABN.29]</para>
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3917,8 +3917,8 @@
     low system pressure. The PTU must be turned off to prevent overheating the supplying
     system.</para>
 
-    <para role="multicite">[<emphasis role="underline">HYD</emphasis> PTU FAULT, FCOM DSC.29.30,
-    FCOM PRO.ABN.29]</para>
+    <para role="multicite">[<emphasis role="underline">HYD</emphasis> PTU FAULT,
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 
 
@@ -3928,8 +3928,8 @@
     <para>Indicates that either the RAT is not fully stowed, pressure is present in the RAT stowing
     actuator or that the RAT pump is not available. No action is required.</para>
 
-    <para role="multicite">[<emphasis role="underline">HYD</emphasis> RAT FAULT, FCOM DSC.29.30,
-    FCOM PRO.ABN.29]</para>
+    <para role="multicite">[<emphasis role="underline">HYD</emphasis> RAT FAULT,
+    FCOM PRO.AEP.HYD]</para>
   </sect1>
 </chapter>
 
@@ -3944,7 +3944,7 @@
     remaining good ADR. Switching off one of the affected ADRs leaves the system in the state
     described in <xref linkend="adr-disagree"/>.</para>
 
-    <para role="multicite">[QRH ABN.30, FCOM PRO.ABN.30]</para>
+    <para role="multicite">[QRH AEP.A-ICE, FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 
 
@@ -3956,13 +3956,14 @@
     unreliable, air data information must be monitored closely.</para>
 
     <para role="multicite">[<emphasis
-    role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PITOT(L(R) STAT), FCOM DSC.30.50.30,
-    FCOM PRO.ABN.30]</para>
+    role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PITOT(L(R) STAT),
+    FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 
 
   <sect1>
-    <title>Multiple pitot heat failures</title>
+
+  <title>Multiple pitot heat failures</title>
 
     <para>The issue with loss of anti-ice on more than one pitot probe is that it is possible that
     the two unprotected pitot probes will ice up at the same time and provide erroneous but coherent
@@ -3980,8 +3981,8 @@
     linkend="unreliable-airspeed"/>).</para>
 
     <para role="multicite">[<emphasis
-    role="underline">ANTI ICE</emphasis> ALL(CAPT(F/O)+F/O(STBY)) PITOT, FCOM DSC.30.50.30,
-    FCOM PRO.ABN.30]</para>
+    role="underline">ANTI ICE</emphasis> ALL(CAPT(F/O)+F/O(STBY)) PITOT,
+    FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 
 
@@ -3991,7 +3992,7 @@
     <para>No immediate operational effect.</para>
 
     <para role="multicite">[<emphasis role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) AOA(TAT),
-    FCOM DSC.30.50.30, FCOM PRO.ABN.30]</para>
+    FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 
 
@@ -4001,7 +4002,7 @@
     <para>If applicable, deselect the affected ADR.</para>
 
     <para role="multicite">[<emphasis role="underline">ANTI ICE</emphasis> CAPT(F/O)(STBY) PROBES,
-    FCOM DSC.30.50.30, FCOM PRO.ABN.30]</para>
+    FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 
 
@@ -4011,8 +4012,8 @@
     <para>No immediate operational effect.</para>
 
     <para role="multicite">[<emphasis
-    role="underline">ANTI ICE</emphasis> L(R)(L+R) WINDSHIELD(WINDOW), FCOM DSC.30.50.30,
-    FCOM PRO.ABN.30]</para>
+    role="underline">ANTI ICE</emphasis> L(R)(L+R) WINDSHIELD(WINDOW),
+    FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 
 
@@ -4024,8 +4025,8 @@
     relevant FADEC} -->.</para>
 
     <para role="multicite">[<emphasis
-    role="underline">ANTI ICE</emphasis> ENG 1(2) VALVE OPEN(CLSD), FCOM DSC.30.30.30,
-    FCOM PRO.ABN.30]</para>
+    role="underline">ANTI ICE</emphasis> ENG 1(2) VALVE OPEN(CLSD),
+    FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 
 
@@ -4037,7 +4038,7 @@
     depressurize the pneumatic system on the failed side.</para>
 
     <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) VALVE OPEN,
-    FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
+    FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 
 
@@ -4046,11 +4047,11 @@
 
     <para revisionflag="changed">The wing anti-ice must be turned off to avoid asymmetrically
     de-icing the wings. Avoid icing conditions. If ice accretion does occur, landing distances and
-    V<subscript>app</subscript> adjustments are in QRH PER.30 and speed must be maintained above the
+    V<subscript>app</subscript> adjustments are in QRH IFP  and speed must be maintained above the
     higher of V<subscript>LS</subscript>+10kt or Green Dot.</para>
 
     <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> SYS FAULT,
-    FCOM DSC.30.20.30, FCOM PRO.ABN.30, FCOM PRO.SUP.30]</para>
+    FCOM PRO.AEP.A-ICE, FCOM PRO.NOR.SUP.AW]</para>
   </sect1>
 
 
@@ -4061,7 +4062,7 @@
     close, see <xref linkend="wai-valve-open"/>.</para>
 
     <para role="multicite">[<emphasis role="underline">ANTI ICE</emphasis> OPEN ON GND,
-    FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
+    FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 
 
@@ -4072,7 +4073,7 @@
     --></para>
 
     <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) HI PR,
-    FCOM DSC.30.20.30, FCOM PRO.ABN.30]</para>
+    FCOM PRO.AEP.A-ICE]</para>
   </sect1>
 </chapter>
 
