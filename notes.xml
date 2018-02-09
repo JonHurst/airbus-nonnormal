@@ -2477,7 +2477,7 @@
     <para>All doors and slides are available for evacuation in any of the normal gear up
     attitudes.</para>
 
-    <para role="multicite">[QRH ABN.32, FCOM PRO.ABN.32]</para>
+    <para role="multicite">[QRH AEP.L/G, FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
@@ -2496,10 +2496,11 @@
     available, even when not annunciated on the PFD.</para>
 
     <para>Performance in all phases will be affected. In particular, approach climb limiting weights
-    for go-around (see FCOM PRO.SPO.25) must be reduced by 14%. Fuel burn will increase (approximate
-    factor is 2.3). Engine out ceiling and take-off performance are also impacted.</para>
+    for go-around (see FCOM PRO.NOR.SUP.L/G) must be reduced by 14%. Fuel burn will increase
+    (approximate factor is 2.3). Engine out ceiling and take-off performance are also
+    impacted.</para>
 
-    <para role="multicite">[FCOM PRO.SPO.25]</para>
+    <para role="multicite">[FCOM PRO.NOR.SUP.L/G]</para>
   </sect1>
 
 
@@ -2511,7 +2512,7 @@
     linkend="flight-with-gear-extended"/>.</para>
 
     <para role="multicite">[<emphasis role="underline">L/G</emphasis> SHOCK ABSORBER FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+    FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
@@ -2524,7 +2525,7 @@
     linkend="flight-with-gear-extended"/>.</para>
 
     <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT UPLOCKED,
-    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+    FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
@@ -2539,7 +2540,7 @@
     <xref linkend="gear-gravity-extension"/>).</para>
 
     <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWNLOCKED,
-    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+    FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
@@ -2550,11 +2551,12 @@
     limited to 250kt/M0.6.</para>
 
     <para role="multicite">[<emphasis role="underline">L/G</emphasis> DOORS NOT CLOSED,
-    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+    FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
   <sect1>
+
     <title>Uplock fault</title>
 
     <para>An uplock is engaged when the corresponding gear is downlocked. As the uplock will not
@@ -2562,7 +2564,7 @@
     linkend="flight-with-gear-extended"/>.</para>
 
     <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR UPLOCK FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+    FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
@@ -2572,8 +2574,8 @@
     <para>The LGCIUs disagree on the position of the gear. In the absence of other ECAM warnings,
     the gear position can be assumed to agree with the gear lever position.</para>
 
-    <para role="multicite">[<emphasis role="underline">L/G</emphasis> SYS DISAGREE, FCOM PRO.ABN.32,
-    FCOM DSC.32.10.50]</para>
+    <para role="multicite">[<emphasis role="underline">L/G</emphasis> SYS DISAGREE,
+    FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
@@ -2592,7 +2594,7 @@
     Autopilot and autothrust are also lost – --> <!-- find out why this is} --></para>
 
     <para role="multicite">[<emphasis role="underline">L/G</emphasis> LGCIU 1(2) FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+    FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
@@ -2605,7 +2607,7 @@
     warning may be cancelled with the emergency cancel pushbutton.</para>
 
     <para role="multicite">[<emphasis role="underline">L/G</emphasis> GEAR NOT DOWN,
-    FCOM PRO.ABN.32, FCOM DSC.32.10.50]</para>
+    FCOM PRO.AEP.L/G]</para>
   </sect1>
 
 
@@ -2616,7 +2618,7 @@
     of the brake handle position and for pressure indications on the brake triple gauge.</para>
 
     <para role="multicite">[<emphasis role="underline">CONFIG</emphasis> PARK BRK ON,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.CONFIG]</para>
   </sect1>
 
 
@@ -2629,7 +2631,7 @@
     available.</para>
 
     <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> N/W STRG FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.20.30]</para>
+    FCOM PRO.AEP.WHEEL]</para>
   </sect1>
 
 
@@ -2641,7 +2643,7 @@
     significantly. Autobrake and nosewheel steering will also not be available.</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ANTI SKID/NWS OFF,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2659,7 +2661,7 @@
     hydraulic pressure is low braking will be accumulator only.</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> A/SKID NWS FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2668,7 +2670,7 @@
     <para>A fault has been detected in one channel of the BSCU. Loss of redundancy only.</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> SYS 1(2) FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2688,8 +2690,8 @@
     <para>If the warning appears in flight, providing that performance permits, the landing gear
     should be extended to allow the brakes to cool.</para>
 
-    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> HOT, FCOM PRO.ABN.32,
-    FCOM DSC.32.30.30]</para>
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> HOT,
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2699,7 +2701,7 @@
     <para>A failure was detected when the autobrake was armed. Brake manually.</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> AUTO BRK FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2722,7 +2724,7 @@
     </para>
 
     <para role="multicite">[<emphasis role="underline">WHEEL</emphasis> HYD SEL FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.ABN.32]</para>
   </sect1>
 
 
@@ -2733,7 +2735,7 @@
     distance increases slightly.</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM BRK FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2743,7 +2745,7 @@
     <para>Loss of redundancy only.</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN BRK FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2754,7 +2756,7 @@
     method.</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> NORM + ALTN FAULT,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2766,7 +2768,7 @@
     system electrical pump. When parking the aircraft, use chocks.</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> BRK Y ACCU LO PR,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2780,8 +2782,8 @@
     leads to increased landing distances. If both brakes on the same gear are released, see <xref
     linkend="asymmetric-braking"/>.</para>
 
-    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> RELEASED, FCOM PRO.ABN.32,
-    FCOM DSC.32.30.30]</para>
+    <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> RELEASED,
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2794,7 +2796,7 @@
     will be asymmetric (see <xref linkend="asymmetric-braking"/>).</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN L(R) RELEASED,
-    FCOM PRO.ABN.32, FCOM DSC.32.30.30]</para>
+    FCOM PRO.AEP.BRAKES]</para>
   </sect1>
 
 
@@ -2817,7 +2819,7 @@
       <listitem><para>A fuse plug has melted</para></listitem>
     </itemizedlist></para>
 
-    <para role="multicite">[FCOM PRO.SUP.32]</para>
+    <para role="multicite">[EOMB 2.3.21]</para>
   </sect1>
 </chapter>
 
