@@ -53,6 +53,12 @@
       linkend="se_circling"/>.</para></listitem>
 
       <listitem><para>Improved <xref linkend="asymmetric-braking"/>.</para></listitem>
+
+      <listitem><para>Removed section with reference to “if engines are running” from <xref
+      linkend="dual-engine-failure"/> since this is clearly nonsense. Sorry.</para></listitem>
+
+      <listitem><para>Added explanation of interaction between ECAM and QRH to <xref
+      linkend="dual-engine-failure"/>.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -2834,9 +2840,9 @@
     ditching and forced landing procedures are available on the back of the normal checklist. These
     are discussed in <xref linkend="ditching"/> and <xref linkend="forced-landing"/>.</para>
 
-    <para revisionflag="changed">It is recommended that the relevant QRH procedure is used rather
-    than the ECAM. If engines are running refer to QRH ABN.80. If engines are not running, refer to
-    QRH ABN.70.</para>
+    <para revisionflag="added">The ENG DUAL FAILURE ECAM may not be triggered under some
+    circumstances. The QRH procedure, therefore, includes all items provided by the ECAM; indeed,
+    after a few initial items the ECAM simply refers to the QRH procedure.</para>
 
     <para>First priority, assuming fuel remains, is to attempt a relight by turning the ignitors on
     and setting the thrust levers to idle. The speed should initially be increased to 300kt to
@@ -2887,8 +2893,8 @@
     <para>If an airfield cannot be reached, refer to <xref linkend="ditching"/> or <xref
     linkend="forced-landing"/> as appropriate.</para>
 
-    <para role="multicite">[<emphasis role="underline">ENG</emphasis> DUAL FAILURE, QRH ABN.70,
-    FCOM PRO.ABN.70, FCOM DSC.70.90]</para>
+    <para role="multicite">[<emphasis role="underline">ENG</emphasis> DUAL FAILURE, QRH AEP.ENG,
+    FCOM PRO.AEP.ENG, FCTM PRO.AEP.ENG]</para>
   </sect1>
 
 
