@@ -54,6 +54,9 @@
 
       <listitem><para>Added <xref linkend="ldg-elev-fault"/>.</para></listitem>
 
+      <listitem><para>Added advice about direct law go-arounds to <xref
+      linkend="direct-law"/>.</para></listitem>
+
       <listitem><para>Added FCTM info regarding spurious AVIONICS SMOKE ECAMs to <xref
       linkend="smoke-fumes"/>.</para></listitem>
 
@@ -1899,6 +1902,12 @@
     used with care. Protections are unavailable, so speed is limited to 320kt/0.77M and care must be
     taken in GPWS or windshear manoeuvres. Approach speed is increased by 10kt and landing distances
     increase by a factor of 1.2.</para>
+
+    <para revisionflag="added">The major handling difficulty in direct law is the go-around. There
+    is no compensation for the large pitch moment introduced by selecting TOGA power on the
+    under-slung engines, the thrust levers are non-linear and the use of the manual pitch trim wheel
+    will be unfamiliar. Apply power smoothly and progressively and anticipate a requirement for
+    unusual side-stick inputs.</para>
 
     <para revisionflag="added">Direct Law works with or without yaw dampers. The aircraft is
     <emphasis>always</emphasis> convergent in dutch roll, so use lateral control, not rudder, if
