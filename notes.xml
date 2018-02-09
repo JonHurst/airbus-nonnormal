@@ -3506,7 +3506,7 @@
     <para>Some RNP-1 procedures specify additional downgrade criteria such as a requirement for dual
     RNAV systems or GPS. If GPS is not specifically mandated as an additional restriction, an RNP-1
     procedure may still be flown without GPS PRIMARY: set RNP to 1, check NAV ACCURACY is HIGH and
-    carry out a raw data check prior to commencement.</para>
+    carry out a raw data check prior to commencement (see <xref linkend="pos-disagree"/>).</para>
 
     <para>Downgrades in an RNP-5 (BRNAV) environment are less critical as the aircraft will be above
     MSA. The IRSs provides RNP-5 required accuracy for two hours from last full alignment regardless
