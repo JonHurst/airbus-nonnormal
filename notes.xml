@@ -4116,7 +4116,7 @@
     key. The E/WD will be displayed 2s after the STS key is released. To access STATUS overflow,
     release then repress the STS key within 2s.</para>
 
-    <para role="multicite">[QRH ABN.31, FCOM PRO.ABN.31]</para>
+    <para role="multicite">[QRH AEP.EIS, FCOM PRO.AEP.EIS]</para>
   </sect1>
 
 
@@ -4127,7 +4127,7 @@
     pages). The EIS DMC switch should be used to identify the faulty DMC and replace it with
     DMC3.</para>
 
-    <para role="multicite">[QRH ABN.31, PRO.ABN.31]</para>
+    <para role="multicite">[QRH AEP.FWS, FCOM PRO.AEP.FWS]</para>
   </sect1>
 
 
@@ -4146,6 +4146,10 @@
     <para>The procedure is simply to use the SYS pages and overhead panel warning lights to monitor
     the systems, and for PM to make the relevant callouts. Alternative method for cabin crew to get
     flight deck attention may be required.</para>
+
+    <para role="multicite">[<emphasis role="underline">FWS</emphasis> FWC 1(2)(1+2) FAULT,
+    FCOM PRO.AEP.FWS]</para>
+
   </sect1>
 </chapter>
 
