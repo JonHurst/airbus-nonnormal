@@ -52,6 +52,8 @@
       <listitem><para>Added requirement for FLAP 3 landing to <xref
       linkend="se_circling"/>.</para></listitem>
 
+      <listitem><para>Added <xref linkend="ldg-elev-fault"/>.</para></listitem>
+
       <listitem><para>Added FCTM info regarding spurious AVIONICS SMOKE ECAMs to <xref
       linkend="smoke-fumes"/>.</para></listitem>
 
@@ -961,6 +963,19 @@
     outflow valve and, if it is not fully closed, use manual control to close it.</para>
 
     <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> EXCESS CAB ALT,
+    FCOM PRO.AEP.CAB PR]</para>
+  </sect1>
+
+
+  <sect1 id="ldg-elev-fault">
+    <title>Landing Elevation Fault</title>
+
+    <para>If the landing field elevation is not available from the FMGS, the landing elevation must
+    be manually selected. This is done by pulling out and turning the LDG ELEV knob. The scale on
+    the knob is only a rough indication; use the LDG ELEV displayed on either the CRUISE page or the
+    CAB PRESS SD page instead.</para>
+
+    <para role="multicite">[<emphasis role="underline">CAB PR</emphasis> LDG ELEV FAULT,
     FCOM PRO.AEP.CAB PR]</para>
   </sect1>
 
