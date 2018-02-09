@@ -3623,7 +3623,7 @@
     particular, a single FAC provides all the characteristic speeds (V<subscript>SW</subscript>,
     V<subscript>LS</subscript>, V<subscript>FE</subscript>, V<subscript>FE-next</subscript>,
     V<subscript>LE</subscript>, V<subscript>MO</subscript>/M<subscript>MO</subscript>, Green dot, S
-    speed and F speed). It may be worth cross-checking against QRH FPE.SPD.</para>
+    speed and F speed). It may be worth cross-checking against QRH OPS.OD “Operating Speeds“.</para>
 
     <para>If both FACs are lost the rudder travel limit system, rudder trim control, yaw damper and
     PFD characteristic speeds are lost and Alternate Law with mechanical yaw control becomes
@@ -3631,7 +3631,7 @@
     rudder with care above 160kt.</para>
 
     <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FAC 1(2)(1+2) FAULT,
-    FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
+    FCOM PRO.AEP.AUTO FLT]</para>
   </sect1>
 
 
@@ -3647,7 +3647,7 @@
     available.</para>
 
     <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> YAW DAMPER 1(2)(SYS),
-    FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
+    FCOM PRO.AEP.AUTO FLT]</para>
   </sect1>
 
 
@@ -3661,8 +3661,7 @@
     this is not successful, only Cat I is available.</para>
 
     <para role="multicite">[<emphasis
-    role="underline">AUTO FLT</emphasis> RUDDER TRIM SYS(1(2) FAULT), FCOM DSC.22_10.50,
-    FCOM PRO.ABN.22]</para>
+    role="underline">AUTO FLT</emphasis> RUDDER TRIM SYS(1(2) FAULT), FCOM PRO.AEP.AUTO FLT]</para>
   </sect1>
 
 
@@ -3680,7 +3679,7 @@
     differential braking may be required on the landing roll (do not arm autobrake).</para>
 
     <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> RUD TRV LIM_1(2)(SYS),
-    FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
+    FCOM PRO.AEP.AUTO FLT]</para>
   </sect1>
 
 
@@ -3699,7 +3698,7 @@
     instead the PM should make standard callouts from the standby altimeter.</para>
 
     <para role="multicite">[<emphasis role="underline">AUTO FLT</emphasis> FCU 1(2)(1+2) FAULT,
-    FCOM DSC.22_10.50, FCOM PRO.ABN.22]</para>
+    FCOM PRO.AEP.AUTO FLT]</para>
   </sect1>
 </chapter>
 
