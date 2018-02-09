@@ -52,6 +52,9 @@
       <listitem><para>Added requirement for FLAP 3 landing to <xref
       linkend="se_circling"/>.</para></listitem>
 
+      <listitem><para>Added FCTM info regarding spurious AVIONICS SMOKE ECAMs to <xref
+      linkend="smoke-fumes"/>.</para></listitem>
+
       <listitem><para>Improved <xref linkend="asymmetric-braking"/>.</para></listitem>
 
       <listitem><para>Removed section with reference to “if engines are running” from <xref
@@ -2013,7 +2016,10 @@
     after completing the immediate actions of the Avionics Smoke ECAM, whilst on others it is when
     requested by the Avionics Smoke ECAM. Unfortunately the Avionics Smoke ECAM itself is not
     described in the FCOM. A general policy of running the paper procedure instead of the Avionics
-    Smoke ECAM procedure seems to cover all eventualities.</para></footnote>.</para>
+    Smoke ECAM procedure seems to cover all eventualities.</para></footnote>. <phrase
+    revisionflag="added">The FCTM also adds that the AVIONICS SMOKE ECAM procedure should be applied
+    only if the flight crew can confirm it visually or by smell, otherwise it should be considered
+    spurious.</phrase></para>
 
     <para>In the case of other smoke related ECAMs, the relevant ECAM procedure should be applied
     first and then the use of the paper checklist considered.</para>
