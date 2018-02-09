@@ -1256,7 +1256,7 @@
 
 
   <sect1>
-    <title>Avionics ventilation system vault</title>
+    <title>Avionics ventilation system fault</title>
 
     <para>Defined as either a valve not in its commanded position or the Avionics Equipment
     Ventilation Controller (AEVC) being either unpowered or failing its power-up test. The system
