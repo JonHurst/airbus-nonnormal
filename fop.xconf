@@ -95,7 +95,6 @@ the location of this file.
         </font>
         -->
         <!-- register all the fonts found in a directory -->
-        <directory>/usr/share/fonts/truetype/msttcorefonts</directory>
         <directory>/usr/share/fonts/truetype/freefont</directory>
         <!-- <directory recursive="true">/usr/share/fonts/truetype</directory> -->
 
