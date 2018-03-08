@@ -1,0 +1,279 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{txfonts}
+
+
+\title{Zen and the Art of Airbus Failure Handling}
+\author{Jon Hurst}
+
+\begin{document}
+\maketitle
+
+%% * Introduction
+\section{Introduction}
+
+First of all, there is nothing official about this essay. I describe
+herein a mental model of failure handling that I find useful and that
+may be of use to you, in part or in whole. Your mileage may very
+definitely vary.
+
+%% * Model Description
+\section{Model Description}
+
+Picture, if you will, a mountain spring filling a small stream. This
+spring represents your cognitive capacity.
+
+A bamboo channel leads off the stream, with a sluice gate to control the
+amount of water it drains. This channel represents the amount of
+capacity that is being used for the primary tasks of flying of the
+aircraft for PF and the monitoring of same by PM. It should \emph{never}
+run dry!
+
+Five large bowls sit by the stream. Mine are made of white marble. They
+are labeled as:
+
+\begin{enumerate}
+\item Diagnosis
+\item Containment
+\item Strategy
+\item Tactics
+\item Review
+\end{enumerate}
+
+Finally, you have a ladle, which allows you to transfer water from the
+stream to the bowls. Mine is made of heavy duty stainless steel. This
+ladle represents the triage process.
+
+When faced with a failure, your aim is to finish up with all the bowls
+sufficiently full for a successful outcome. During the process of
+filling the bowls the bamboo channel must always have sufficient
+flow and the bowls must be, moment to moment, in a state such that the
+immediate challenges are met.
+
+%% * EFATO example
+
+\section{An example}
+
+It is probably best to start off with an example, and since the EFATO is
+the significant failure that we are most familiar with, we will start
+with that.
+
+So you are charging down the runway, you pass V$_1$, and you suddenly
+find yourself needing a lot of rudder to keep straight. The sluice gate
+is wide open, as you are suddenly dealing with unfamiliar handling
+occuring in a high workload flight phase. There is just enough in the
+stream for a splash into the Diagnosis bowl. This is mainly just a
+recognition of symptoms. You diagnose asymmetry and probable loss of
+thrust.
+
+Triage leads to the next splash going in the Tactics bowl. You need to
+carry out an asymmetric takeoff procedure: slower rotation,
+$12\frac{1}{2}^{\circ}$ pitch target then V$_2$ to V$_2$+15 airspeed
+target, $15^{\circ}$ bank angle limit until you've thought about it,
+TOGA once transitioned to flight mode. Luckily, you were prescient
+enough to have mentally rehearsed this exact procedure just before
+applying thrust for takeoff, so the splash you can afford is
+sufficient. You get safely airborne.
+
+The Strategy bowl mustn't remain dry for long. The first item into the
+strategy bowl is always ``protect consciousness'' and the second is
+always ``safe flight path''. In this case, the first is not an issue,
+but the second very much is. Your requirement is for a flight path free
+of granite and CBs, your preference is for lower workload. Your options
+are stay on the SID, fly the EOSID or fly an immediate VMC recovery. You
+note that you are about to go IMC, so the EOSID it is. Luckily, this is
+a STD EOSID, so you have a bit of breathing space; you just need to
+climb straight ahead until you have accelerated to green dot. You tell
+PM that this is the plan, and ask him to ``Pull Heading and set a
+heading to maintain runway track''.
+
+Next triage item is to do something about the hideous amount of
+cognitive flow being diverted down the flying/monitoring channel. A
+trimmed aircraft always requires less flow than an untrimmed one, so
+trim out the rudder. An autopilot, if available, can bring the required
+flow down to a steady trickle, so attempt to engage one. Praise be to
+Airbus, it engages and appears to handle the asymmetry. Suddenly there
+is plentiful water in the stream.
+
+The strategy could do with a little attention at this point, in that the
+knowledge of the plan is confined to the flight deck, and it would be
+worth bringing ATC and cabin crew at least a little bit into the loop. A
+proactive PM may already have gotten out a Mayday with details of
+initial tracking plans. A really proactive PM may have got out an
+``Attention Crew at Stations''. If not, it is only a couple of seconds
+effort to attend to these details, and it will avoid potentially
+dangerous interruptions during the critical steps ahead.
+
+So far, we've just been treating symptoms; we need to add a good ladle
+full to the Diagnosis bowl to make any further progress. Airbus advises
+leaving this until 400ft aal, but since you applied TOGA nice and early,
+you are well above that. You ask the PM to ``Confirm the failure''. If
+you are lucky, you will get back an enumeration of the all the symptoms
+taking data from all readily available sources, followed by a suggested
+diagnosis. If you are less lucky, you may just get the ECAM title, in
+which case you will have to do the enumeration yourself. Either way, by
+the end of this process you have agreed a preliminary diagnosis across
+the flight deck.
+
+Triage now suggests that it is the Containment bowl that needs
+attention. You would like that failed engine secured. There are no OEBs
+that affect, and the first ECAM procedure covers your aim, so you take
+the radios and ask for the ECAM actions. This is a very high risk
+time. If you should shut down the wrong engine at this point in time it
+may well be your last ever mistake. You successfully secure the engine
+and ``Clear Eng''. The Containment bowl is now sufficiently full for a
+bit.
+
+What now? A splash to the Tactical bowl gives a requirement to reduce
+from TOGA to MCT within 10 minutes, and that is likely beginning to be
+an issue. You need to be clean before you can reduce the thrust, so you
+need to accelerate to green dot and clean up. You would also like to add
+something a bit more substantive to the Strategy bowl. You decide the
+priority is a good ladle-full to the Tactical bowl; you request ``Stop
+ECAM'' and push the VS knob. The FMGC has detected the engine out
+condition as designed, which is nice, and thus the de-activation of SRS
+mode automatically advances the speed bug, deleting any restrictions you
+may have entered. You clean up and commence an MCT green dot climb.
+
+Time to add a good dollop to the Strategy bowl then. Your requirement of
+``safe flightpath'' is still ongoing, but you now introduce a preference
+to be within gliding distance of a suitable runway. Options are to route
+to the EOSID waypoint, or to a suitable alternative position. You note
+that you are above MSA. Being extremely cynical, you discussed during
+the pre-takeoff brief that the EOSID waypoint was 25 miles away from the
+airport in the wrong direction, and you declared a preferred holding
+location at a downwind position. The weather wasn't too bad when you
+left, so you advise ATC that you are routing to this position to hold.
+
+Back to the Containment bowl. ``Continue ECAM'', considering OEBS and
+requesting ``ECAM Actions'' for each sane ECAM presented and making
+disparaging remarks about the start valve fault. All the other bowls are
+now sufficiently full for immediate requirements, so we fill the
+Containment bowl to the brim, AKA ``ECAM actions complete''.
+
+Now it is time to finish filling the Strategy bowl. Requirements are
+``safe flightpath'' and ``LAND ASAP amber''. Preferences are for a
+proximate, familiar airport with simple procedures, conservatively long
+runways and reasonable weather without icing conditions. With PM you
+gather data and generate options, and designate the airport 4 miles away
+as plan A and a nearby alternative with better weather as plan B. Now
+you have a firm plan, you need to get it out of the flight deck so that
+everyone else can get on with sorting out what they need to sort
+out. You inform ATC of your intentions in the form of a NITS brief, get
+``SCCM to the flight deck'' and give them a NITS brief and then do the
+passenger PA, which will basically be… a NITS brief. While the SCCM is
+in the flight deck, you take the opportunity to add a splash more to the
+diagnosis, by discussing anything they have seen in the cabin.
+
+We are almost done. Diagnosis is as good as it can be. Containment is
+sorted. Strategy is in place. We just need to attend to Tactics and we
+can get ourselves safely on the ground. Before we do that, however, the
+Review bowl needs attention. Review is the difficult process of visiting
+each of the other bowls critically in attempt to trap mistakes and
+omissions. It needs to be done as methodically and dispassionately as
+possible, because you're human and the possibility you shut down the
+wrong engine is not a comfortable place to visit.
+
+That done you fill the Tactics bowl by developing a tactical queue. This
+is the pre-planning of the rest of the flight determining what abnormal
+procedures and techniques you are going to insert into the normal flow,
+and when you are going to do it. In this case, you have modified
+anti-ice procedures, fuel balancing procedures, modifications to
+windshear/EGPWS procedures, some minor limitations on autopilot modes,
+asymmetric approach and landing and asymetric go-around to
+consider. You set up appropriately, brief, fly a text-book approach and
+landing and head to the bar.
+
+%% * Discussion of model components
+\section{Discussion of model components}
+%% ** Flying/monitoring channel
+\subsection{Flying and monitoring}
+
+History has shown that it is perfectly possible to get so involved in
+the handling of a failure that the flight path is fatally
+disregarded. Sufficient congnitive capacity must always be devoted to
+the flying task by PF and to the monitoring task by PM. Active awareness
+of how difficult it is to do this in the face of a complex failure is
+the only real defense.
+
+Since the flying/monitoring task is taking resource from a finite pool,
+any steps that reduce the amount of capacity required for sufficiency
+are helpful.
+
+The main step that can be taken is to grab any safe opportunity to train
+manual handling skills. It is an unfortunate fact that the more severe a
+failure is, the more chance there is that you will be flying the
+aircraft manually, possibly with degraded handling characterstics. If
+you have been regularly honing your skills on fine sunny days, the gap
+that must be filled when those skills are required on a dark stormy
+night will be much smaller, and the amount of spare capacity available
+for handling the underlying failure will be much greater. This applies
+to monitoring as much as to handling. The automatics are generally so
+reliable that atrophied monitoring skills can go unpunished for a very
+long time; regularly acting as PM when PF is handling manually provides
+a good antidote.
+
+If it is available, use of the autopilot makes an enormous
+difference. In particular, monitoring the autopilot flying a hold in VMC
+requires a mere trickle of cognitive capacity; IMC when above MSA
+requires a little more, but is still a good place to be. If this hold
+happens to be at the end of the downwind leg to a suitable runway, then
+a lot of your problems are already solved.
+
+If the autopilot is not available, there is often a significant
+asymmetry between the capacity drain for handling and the capacity drain
+for monitoring, particularly if the handling is being done well. This
+can easily lead to PF not having the capacity to properly monitor PM's
+actions or properly absorb the intricacies of the failure. Temporarily
+swapping control is useful in these circumstances, giving PF the
+capacity to review what has been done and expand their situational
+awareness bubble.
+
+%% ** Triage
+\subsection{Triage}
+The triage process is visualised as a ladle. This is related to the
+concept of chunking of cognitive capacity in the face of a requirement
+to simultaneously carry out multiple novel tasks.
+
+Human beings are not particularly good at real multi-tasking; we
+actually rely on motor programs and rapid task switching. If a task is
+novel, we will not have a suitable motor program unless we can re-task
+something that is not novel\
+\footnote{Re-tasking motor programs is often a good technique. For
+  example, for a go-around everything after reading the FMAs is the same
+  as a flap 3 takeoff; it is worth practicing a flap 3 takeoff from time
+  to time so you can have the motor program available for the
+  go-around.}. Interrupting a task before it is complete often leads to
+errors, so switching tasks too rapidly should be avoided. Equally, not
+switching tasks rapidly enough leads to ``no-one flying the plane''
+scenarios. The trick, then, is to methodically break workflow down into
+short, focused, completable chunks, each to be applied at the most
+opportune moment. The moment to moment selection of the optimum chunk to
+apply is the process of triage.
+
+The efficient application of triage relies heavily on having a suitably
+stocked ``bag of tricks''. There is, unfortunately, no shortcut to
+developing this. It comes from systematic study of the abnormal
+procedures and techniques set down by Airbus in the QRH, FCTM and FCOM,
+carried out with an eye for commonalities and adaptions of normal
+handling techniques. It is not necessary (and likely not possible) to
+memorise every checklist and procedure, but it should be possible to
+give a quick summary of what you would likely do for any given symptom
+and use the checklists and ECAM to fill in the gaps.
+
+%% ** Diagnosis
+\subsection{Diagnosis}
+
+Airbus gives the impression that the ECAM will reliably do diagnosis for
+you; the regular appearance of a new OEBs following in-service events
+belies this impression. Furthermore, our training in diagnosis comes
+from the simulator, where failure scenarios are modelled by a computer
+program and are thus lacking the grey which tends to occur in real life.
+\end{document}
+%% ** Containment
+
+%% ** Strategy
+%% ** Tactics
+
+%% ** Review
