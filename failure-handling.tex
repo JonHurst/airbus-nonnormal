@@ -227,6 +227,34 @@ and use the checklists and ECAM to fill in the gaps.
 
 \subsection{Diagnosis}
 
+It is vital to remember that, at best, the ECAM provides a data point
+for a diagnosis, not the diagnosis itself. There are scenarios such as
+low engine oil pressure where different sensors provide data to the ECAM
+and system pages, and a faulty sensor should be assumed in the event of
+disagreement. There are scenarios such as avionics smoke where the
+diagnosis requires that you see or smell supporting evidence. There are
+scenarios such as triple ADR failure where the ECAM will simply refuse to
+believe that such a thing could happen. There are scenarios such as
+unreliable airspeed that the ECAM will remain silent. There are
+scenarios where the ECAM will flood you with so many procedures that the
+root cause is completely obscured.
+
+Diagnosis will generally be easier in the simulator than in real
+life. In the simulator a programmer has carefully arranged for all the
+symptoms to appear as they should. Real life is a lot messier. I have
+had four unconnected systems fail simultaneously, and it took twelve
+days in the hanger to find the offending burnt through wiring loom. It
+will not always be possible to settle on a root cause, and you will have
+to work with an incomplete diagnosis and settle for treating the
+symptoms; this is an extremely uncomfortable position to find yourself
+in.
+
+Experience and good technical knowledge are the two pillars of accurate
+diagnosis. It is always preferable to gain the benefit of someone else's
+bad day out, so reading incident reports is definitely a good
+idea. Beyond that there is unfortunately no real substitute for time
+spent reading the FCOM and FCTM.
+
 \subsection{Containment}
 \subsection{Strategy}
 
