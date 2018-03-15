@@ -216,14 +216,11 @@ It is vital to remember that, at best, the ECAM provides a data point
 for a diagnosis, not the diagnosis itself. There are scenarios such as
 low engine oil pressure where different sensors provide data to the ECAM
 and system pages, and a faulty sensor should be assumed in the event of
-disagreement. There are scenarios such as avionics smoke where the
-diagnosis requires that you see or smell supporting evidence. There are
-scenarios such as triple ADR failure where the ECAM will simply refuse
-to believe that such a thing could happen. There are scenarios such as
-unreliable airspeed that the ECAM will tell you that you are
-overspeeding when you are not. There are scenarios where the ECAM will
-flood you with so many procedures that the root cause is completely
-obscured.
+disagreement. There are scenarios such as triple ADR failure where the
+ECAM will simply refuse to believe that such a thing could happen and
+will send you round in circles. There are scenarios such as unreliable
+airspeed that the ECAM will simply lie to you (noisily) about what is
+happening.
 
 Diagnosis will generally be easier in the simulator than in real
 life. In the simulator a programmer has carefully arranged for all the
@@ -237,9 +234,9 @@ yourself in.
 
 Experience and good technical knowledge are the two pillars of accurate
 diagnosis. It is always preferable to gain the benefit of someone else's
-bad day out, so reading incident reports is definitely a good
-idea. Beyond that there is unfortunately no real substitute for time
-spent reading the FCOM and FCTM.
+bad day out rather than your own, so reading incident reports is
+definitely a good idea. Beyond that there is unfortunately no real
+substitute for time spent reading the FCOM and FCTM.
 
 \subsection{Containment}
 
