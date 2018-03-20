@@ -54,7 +54,7 @@ flow and the bowls must be, moment to moment, in a state such that the
 immediate challenges are met.
 
 \section{An example}
-
+\label{sec:example}
 So you are charging down the runway, you pass $V_1$, and you suddenly
 find yourself needing a lot of rudder to keep straight. PM remarks
 ``engine one fail''. The sluice gate is wide open, as you are suddenly
@@ -392,5 +392,41 @@ work-load time on the approach I will use the bulletted list of tactical
 units I created to ensure that everything that was planned to have been
 done up to that point has been completed and any remaining items are at
 the front of my mind.
+
+\section{Compatibility}
+\subsection{DODAR}
+
+DODAR is easyJet's recommended failure management process. It is an
+acronym standing for \textbf{D}iagnosis; \textbf{O}ptions;
+\textbf{D}ecide; \textbf{A}ssign tasks and Action; \textbf{R}eview
+Decision.
+
+Each of the individual items of DODAR is useful and appropriate, but I
+find it inflexible and incomplete when applied as a ``process''. All the
+elements of DODAR are thus included in the model, but each element is
+evolved through multiple levels with the timing driven by triage. This
+is arguably just a case of being more explicit about how DODAR can be
+applied in practice, and on that basis could be considered fully
+compatible.
+
+\subsection{Simulator scripts}
+
+There are a few sections of recurrent simulator tests, such as the
+EFATO, that are often examined in the form of scripts such that details
+down to the level of the order that buttons are pressed become
+significant.
+
+It may be noted that the EFATO example in section~\ref{sec:example} is
+indistinguishable from the EFATO simulator script provided that the
+relevant triage decisions are pre-determined and that the procedures you
+pull out of your ``bag of tricks'' are the same at button order
+level. The same is true of all of the scripted sections.
+
+Thus, this model can easily be made compatible with the scripted
+sections of simulator testing by making sure your procedure chunks are
+compatible and learning the scripts as a short series of triage
+decisions. The procedure chunks will then be available for re-use and
+adaption in less well defined events, even if it won't do much for
+improving your triage process itself.
 
 \end{document}
