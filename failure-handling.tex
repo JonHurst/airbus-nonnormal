@@ -8,6 +8,7 @@
 \title{Zen and the Art of Airbus Failure Handling}
 \author{Jon Hurst}
 
+\usepackage{microtype}
 \begin{document}
 \maketitle
 
@@ -52,89 +53,6 @@ sufficiently full for a successful outcome. During the process of
 filling the bowls the bamboo channel must always have sufficient
 flow and the bowls must be, moment to moment, in a state such that the
 immediate challenges are met.
-
-\section{An example}
-\label{sec:example}
-So you are charging down the runway, you pass $V_1$, and you suddenly
-find yourself needing a lot of rudder to keep straight. PM remarks
-``engine one fail''. The sluice gate is wide open, as you are suddenly
-dealing with non-standard handling occuring in a high workload flight
-phase. There is just enough in the stream for a splash into the
-Diagnosis bowl. This is just a recognition of symptoms. You diagnose
-asymmetry and probable loss of thrust.
-
-Triage says the next splash goes in the Tactics bowl. You deploy your
-``asymmetric takeoff'' tactical unit. You mentally rehearsed this unit
-just before applying thrust for takeoff, so the splash you can afford is
-sufficient. You get safely airborne.
-
-The Strategy bowl mustn't remain dry for long: your requirement is
-``safe flight path'', your preference to minimise workload. Your options
-are stay on the SID, fly the EOSID or fly an immediate VMC recovery. You
-note that you are about to go IMC, so the EOSID it is. Luckily, this is
-a STD EOSID, so you have a bit of breathing space; you just need to
-climb straight ahead until you have accelerated to green dot. You tell
-PM that this is the plan, and ask him to ``Pull Heading''. PM does so,
-puts out a quick Mayday to tell ATC about the track deviation, asks them
-to standby then makes an ``Attention Crew at Stations'' PA.
-
-Next, another splash in the Tactics bowl to do something about the
-amount of cognitive flow being diverted down the flying and monitoring
-channels. You trim out the rudder and engage an autopilot. Suddenly
-there is plentiful water in the cognitive stream.
-
-So far, you've just been treating the worst symptoms; now that more
-capacity is available, you add a good ladleful to the Diagnosis bowl.
-You ask the PM to ``Confirm the failure''. PM runs through the
-indications from the system pages and panels and offers up a diagnosis of
-``engine 1 failure with damage''; you concur and tell them so.
-
-Triage now says that getting the engine secured is the highest priority
-item. You add a good ladleful to the Containment bowl. There are no OEBs
-that affect, and the first ECAM procedure will secure the engine, so you
-take the radios and ask for ``ECAM actions''. You successfully secure
-the engine and ``Clear Eng''.
-
-What now? The highest priority item is now the 10 minute TOGA limit. You
-need to be clean before you can reduce the thrust, so you add another
-ladleful to the Tactical bowl and apply the ``level acceleration and clean
-up'' unit.
-
-The strategic plan in force calls for a turn towards the EOSID holding
-point at green dot at this point. However, you are now above MSA and the
-holding point is 25 miles out to sea. You bring the Strategy bowl up to
-the next level. Your apply ``head towards somewhere sensible'', options
-are departure aerodrome or takeoff alternate. The weather was OK when
-you left, so you choose to head to a late downwind position at the
-departure aerodrome. You request an initial vector from ATC.
-
-All immediate challenges are met, so back to the Containment. You
-request ``Continue ECAM'' and continue with standard ECAM procedures
-until ``ECAM actions complete''.
-
-Time to top off the Strategy bowl. Requirements are a ``suitable
-destination and a fallback option''. Preferences are for a proximate,
-familiar airport with simple procedures, conservatively long runways and
-reasonable weather without icing conditions. With PM you gather data,
-carry out required calculations and generate options. From these options
-you designate the departure airport as your primary and the takeoff
-alternate as your fallback. You use the NITS format to inform ATC of
-your plan, then request the ``SCCM to the flight deck''. You add a final
-splash to the Diagnosis bowl by getting a report of symptoms detected
-from the cabin, then inform the SCCM of the plan, again in the form of a
-NITS brief. Finally, you make a quick, reassuring PA to the passengers.
-
-Now it is time for the Review bowl. You critically visit each of the
-other bowls in turn, methodically checking for correctness of actions
-and absence of omissions.
-
-That done, you top off the Tactics bowl. You plan modified anti-ice
-procedures, fuel balancing procedures, modifications to windshear/EGPWS
-procedures, asymmetric approach and landing and asymmetric
-go-around. You set up appropriately, brief and fly a text-book
-single-engine approach and landing.
-
-You head to the bar.
 
 \section{Discussion of model components}
 
@@ -226,7 +144,7 @@ Diagnosis will generally be easier in the simulator than in real
 life. In the simulator a programmer has carefully arranged for all the
 symptoms to appear as they should. Real life is a lot messier. I have
 had four unconnected systems fail simultaneously, and it took twelve
-days in the hanger to find the offending burnt through wiring loom. It
+days in the hangar to find the offending burnt through wiring loom. It
 will not always be possible to settle on a root cause, in which case you
 will have to work with an incomplete diagnosis and settle for treating
 the symptoms; this is an extremely uncomfortable position to find
@@ -393,6 +311,89 @@ work-load time on the approach I will use the bulletted list of tactical
 units I created to ensure that everything that was planned to have been
 done up to that point has been completed and any remaining items are at
 the front of my mind.
+
+\section{An example}
+\label{sec:example}
+So you are charging down the runway, you pass $V_1$, and you suddenly
+find yourself needing a lot of rudder to keep straight. PM remarks
+``engine one fail''. The sluice gate is wide open, as you are suddenly
+dealing with non-standard handling occuring in a high workload flight
+phase. There is just enough in the stream for a splash into the
+Diagnosis bowl. This is just a recognition of symptoms. You diagnose
+asymmetry and probable loss of thrust.
+
+Triage says the next splash goes in the Tactics bowl. You deploy your
+``asymmetric takeoff'' tactical unit. You mentally rehearsed this unit
+just before applying thrust for takeoff, so the splash you can afford is
+sufficient. You get safely airborne.
+
+The Strategy bowl mustn't remain dry for long: your requirement is
+``safe flight path'', your preference to minimise workload. Your options
+are stay on the SID, fly the EOSID or fly an immediate VMC recovery. You
+note that you are about to go IMC, so the EOSID it is. Luckily, this is
+a STD EOSID, so you have a bit of breathing space; you just need to
+climb straight ahead until you have accelerated to green dot. You tell
+PM that this is the plan, and ask him to ``Pull Heading''. PM does so,
+puts out a quick Mayday to tell ATC about the track deviation, asks them
+to standby then makes an ``Attention Crew at Stations'' PA.
+
+Next, another splash in the Tactics bowl to do something about the
+amount of cognitive flow being diverted down the flying and monitoring
+channels. You trim out the rudder and engage an autopilot. Suddenly
+there is plentiful water in the cognitive stream.
+
+So far, you've just been treating the worst symptoms; now that more
+capacity is available, you add a good ladleful to the Diagnosis bowl.
+You ask the PM to ``Confirm the failure''. PM runs through the
+indications from the system pages and panels and offers up a diagnosis of
+``engine 1 failure with damage''; you concur and tell them so.
+
+Triage now says that getting the engine secured is the highest priority
+item. You add a good ladleful to the Containment bowl. There are no OEBs
+that affect, and the first ECAM procedure will secure the engine, so you
+take the radios and ask for ``ECAM actions''. You successfully secure
+the engine and ``Clear Eng''.
+
+What now? The highest priority item is now the 10 minute TOGA limit. You
+need to be clean before you can reduce the thrust, so you add another
+ladleful to the Tactical bowl and apply the ``level acceleration and clean
+up'' unit.
+
+The strategic plan in force calls for a turn towards the EOSID holding
+point at green dot at this point. However, you are now above MSA and the
+holding point is 25 miles out to sea. You bring the Strategy bowl up to
+the next level. Your apply ``head towards somewhere sensible'', options
+are departure aerodrome or takeoff alternate. The weather was OK when
+you left, so you choose to head to a late downwind position at the
+departure aerodrome. You request an initial vector from ATC.
+
+All immediate challenges are met, so back to the Containment. You
+request ``Continue ECAM'' and continue with standard ECAM procedures
+until ``ECAM actions complete''.
+
+Time to top off the Strategy bowl. Requirements are a ``suitable
+destination and a fallback option''. Preferences are for a proximate,
+familiar airport with simple procedures, conservatively long runways and
+reasonable weather without icing conditions. With PM you gather data,
+carry out required calculations and generate options. From these options
+you designate the departure airport as your primary and the takeoff
+alternate as your fallback. You use the NITS format to inform ATC of
+your plan, then request the ``SCCM to the flight deck''. You add a final
+splash to the Diagnosis bowl by getting a report of symptoms detected
+from the cabin, then inform the SCCM of the plan, again in the form of a
+NITS brief. Finally, you make a quick, reassuring PA to the passengers.
+
+Now it is time for the Review bowl. You critically visit each of the
+other bowls in turn, methodically checking for correctness of actions
+and absence of omissions.
+
+That done, you top off the Tactics bowl. You plan modified anti-ice
+procedures, fuel balancing procedures, modifications to windshear and
+EGPWS procedures, asymmetric approach and landing and asymmetric
+go-around. You set up appropriately, brief and fly a text-book
+single-engine approach and landing.
+
+You head to the bar.
 
 \section{Compatibility}
 \subsection{DODAR}
