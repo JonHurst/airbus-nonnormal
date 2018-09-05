@@ -14,4 +14,14 @@
 <xsl:template name="user.head.content">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </xsl:template>
+
+<xsl:template name="user.header.navigation">
+  <div class="user_header">
+    <a href="https://hursts.org.uk">All Documents</a> |
+    <a href="../notes.pdf">PDF version</a>
+    <hr/>
+  </div>
+</xsl:template>
+
+
 </xsl:stylesheet>
