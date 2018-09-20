@@ -356,8 +356,9 @@
       current configuration. The autopilot can fly the escape manoeuvre as long as
       &alpha;<subscript>req</subscript>&nbsp;&lt;&nbsp;&alpha;<subscript>prot</subscript>. If the
       autopilot is not engaged, follow the SRS orders on the FD. If the FD is not available,
-      initially pitch up to 17.5°, then increase as required. Do not change configuration until out
-      of the windshear.</para>
+      initially pitch up to 17.5°, then increase as required.</para>
+
+      <para>Do not change configuration until out of the windshear.</para>
 
       <para>In severe windshear, it is possible that ALPHA FLOOR protection
       will activate. As TOGA will already be selected, this will have no immediate effect. Once
