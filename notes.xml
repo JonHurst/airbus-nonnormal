@@ -4,7 +4,7 @@
 <!-- use fill column 100 -->
 <book id="airbus-nonnormal">
   <title>Airbus A320 Family Non-Normal Notes</title>
-  <subtitle>Version 2.4</subtitle>
+  <subtitle>Version 2.5</subtitle>
 
 <preface>
   <title>Change log</title>
@@ -12,10 +12,11 @@
   <sect1>
     <title>Change highlighting</title>
 
-    <para>Changes since version 2.2 are highlighted. Change highlighting is only available in the
-    online version. This may be found at:
+    <para>Change highlighting is only available in the online version. This may be found at:
 
     <blockquote><para><ulink url="https://hursts.org.uk"/></para></blockquote></para>
+
+    <para>Changes since version 2.4 are highlighted.</para>
 
     <para>Changed sections have a green background, added sections have a yellow background. Removed
     sections are notified in the change log.</para>
@@ -26,6 +27,16 @@
   </sect1>
 
   <sect1>
+    <title>Changes since version 2.4</title>
+
+    <itemizedlist>
+      <listitem><para></para></listitem>
+
+    </itemizedlist>
+
+  </sect1>
+
+      <sect1>
     <title>Changes since version 2.3</title>
 
     <itemizedlist>
@@ -70,101 +81,6 @@
     </itemizedlist>
   </sect1>
 
-  <sect1>
-    <title>Changes since version 2.2.1</title>
-
-    <itemizedlist>
-      <listitem><para>Added requirement to be above single engine acceleration altitude before
-      accelerating to <xref linkend="eosid"/>.</para></listitem>
-
-      <listitem><para>Added description of FMGS “engine out mode” interactions to <xref
-      linkend="eosid"/>.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="emerg-descent"/> with new Airbus
-      procedure.</para></listitem>
-
-      <listitem><para>Added guidance on how to get out of TOGA LK to <xref
-      linkend="reactive-windshear"/>.</para></listitem>
-
-      <listitem><para>Added note to <xref linkend="unreliable-airspeed"/> to warn of flight envelope
-      protections leading to uncontrollable aircraft and provide method for regaining
-      control.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="ditching"/> with new “quick” procedure for low altitude
-      events.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="forced-landing"/> with new “quick” procedure for low
-      altitude events.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="evacuation"/> to indicate that cross confirmation of
-      master switches and fire buttons is not required following alignment of Airbus Training Study
-      Guide with FCTM.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="overweight_landing"/> to clarify that autoland up to
-      69,000kg is only available for A319.</para></listitem>
-
-      <listitem><para>Added case of TR1 and TR2 both failing to <xref
-      linkend="loss-of-trs"/>.</para></listitem>
-
-      <listitem><para>Expanded <xref linkend="dc-emerg-conf"/> and referenced the expanded version
-      in <xref linkend="dc-1and2"/>.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="flight-controls.slats-flaps-fault"/> to clarify that
-      the next configuration should be selected as speed passes through
-      V<subscript>FE next</subscript> except in case of turbulence, when configuring at any speed
-      above V<subscript>LS</subscript> is acceptable.</para></listitem>
-
-      <listitem><para>Added advice for dutch roll encounter to <xref
-      linkend="direct-law"/>.</para></listitem>
-
-      <listitem><para>Added that autopilot may be available to <xref
-      linkend="alternate-law"/>.</para></listitem>
-
-      <listitem><para>Added guidance of how to handle “smells” to <xref
-      linkend="smoke-fumes"/>.</para></listitem>
-
-      <listitem><para>Improved <xref linkend="smoke-fumes"/>.</para></listitem>
-
-      <listitem><para>Added footnote to <xref linkend="fuel-leak"/> to address the strange logic
-      around suspected center tank and APU fuel line leaks.</para></listitem>
-
-      <listitem><para>Added reference to new “quick” ditching and forced landing procedures to <xref
-      linkend="dual-engine-failure"/>.</para></listitem>
-
-      <listitem><para>Added that cross bleed must be closed when using APU for pressurisation to
-      <xref linkend="engine-shut-down"/>.</para></listitem>
-
-      <listitem><para>Removed reference to vibrations “rapidly increasing” to above advisory level
-      from <xref linkend="engine-vibrations"/> – thrust should be reduced whenever vibrations are
-      above advisory level, provided flight conditions permit.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="start-faults"/> with new procedure for fuel leak from
-      the drain mast during engine start.</para></listitem>
-
-      <listitem><para>Update <xref linkend="TCAS"/> with the new “TCAS blue, I have control”
-      call.</para></listitem>
-
-      <listitem><para>Expanded <xref linkend="fcu-fault"/> with advice not to set MDA in the MCDU in
-      the event of dual FCU failure.</para></listitem>
-
-      <listitem><para>Updated ice accreted min speeds in <xref
-      linkend="waa-valve-closed"/>.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="dual-bleed"/> with new QRH and ECAM
-      procedures.</para></listitem>
-    </itemizedlist>
-  </sect1>
-
-
-  <sect1>
-    <title>Changes since version 2.2</title>
-
-    <itemizedlist>
-      <listitem><para>Added information to <xref linkend="eiu-fault"/>.</para></listitem>
-
-      <listitem><para>Added new AP/FD TCAS mode to <xref linkend="TCAS"/>.</para></listitem>
-    </itemizedlist>
-  </sect1>
 </preface>
 
 
@@ -178,7 +94,7 @@
     “Stop” or “Go”. “Stop” implies that CM1 is taking control of the aircraft. Below 100kt the RTO
     is relatively risk free and a decision to stop should be made for any ECAM and most other
     problems. Above 100kt the RTO may be hazardous and stopping should only be considered for loss
-    of engine thrust, any fire warning, any uninhibited ECAM<footnote><para revisionflag="added">A
+    of engine thrust, any fire warning, any uninhibited ECAM<footnote><para>A
     change was introduced in Feb 2018 whereby five amber ECAM cautions requiring a high speed stop
     are specifically listed. An exhaustive search of amber ECAM cautions that are not inhibited
     between 80kt and lift off revealed only two cautions in addition to this list: ENG 1(2) THR
@@ -213,7 +129,7 @@
     <para>If the aircraft has come to a complete halt using autobrake MAX, the brakes can be
     released by disarming the spoilers.</para>
 
-    <para revisionflag="added">If, following an RTO, a new takeoff is to be attempted, reset both
+    <para>If, following an RTO, a new takeoff is to be attempted, reset both
     FDs, set the FCU, then restart SOPs from the After Start checklist. Carefully consider brake
     temperatures; temperature indications continue to climb for some time after a significant
     braking event.</para>
@@ -246,9 +162,9 @@
 
     <para>Whilst below 400ft, the only failure related actions should be:
     <itemizedlist>
-      <listitem><para revisionflag="changed">If applicable, PM should state the title of the first
+      <listitem><para>If applicable, PM should state the title of the first
       displayed ECAM procedure, but should delay confirmation.<footnote><para
-      revisionflag="added">The Feb 2018 update to EOM-B removed the “engine failure” and “engine
+     >The Feb 2018 update to EOM-B removed the “engine failure” and “engine
       fire” calls, but leaves the timing of the reading of the ECAM title ambiguous. The advice
       given here is one interpretation. Since these calls were good for situational awareness,
       replacing them with a bald statement of the first ECAM procedure title seems
@@ -315,7 +231,7 @@
     <para>Electing to fly the EOSID implies a level acceleration segment:
 
     <itemizedlist>
-      <listitem><para revisionflag="changed">Initially fly a TOGA climb at the higher of
+      <listitem><para>Initially fly a TOGA climb at the higher of
       V<subscript>2</subscript> or current speed, up to a limit of
       V<subscript>2</subscript>+15kt. If a FLEX takeoff was carried out, a FLEX climb is
       permissible. This climb is continued until all high priority tasks are complete (see <xref
@@ -325,7 +241,7 @@
       inhibited; if not, intervention with selected modes will be required to prevent untimely
       acceleration.</para></listitem>
 
-      <listitem><para revisionflag="changed">The next segment is a TOGA level acceleration and clean
+      <listitem><para>The next segment is a TOGA level acceleration and clean
       up, either to Conf 1 and S speed if an immediate VMC return is desired or to Conf 0 and green
       dot. Again FLEX may be used if a FLEX takeoff was carried out. Level acceleration is usually
       achieved by pushing V/S; if the FMGS has detected the engine out condition, all preselected
@@ -333,7 +249,7 @@
       automatically move to 250kt. The phrases “Stop ECAM” and “Continue ECAM” can be used to
       interrupt ECAM procedures in order to initiate this segment.</para></listitem>
 
-      <listitem><para revisionflag="changed">The final segment is a MCT climb segment to MSA, either
+      <listitem><para>The final segment is a MCT climb segment to MSA, either
       at S speed if in Conf 1 or at green dot speed if in Conf 0. This is usually achieved in open
       climb; if the FMGS has detected the engine out condition, the managed target speed becomes
       dependent on flight phase, and in this case should automatically select green
@@ -356,15 +272,15 @@
   <sect1 id="emerg-descent">
     <title>Emergency descent <emphasis>(memory item)</emphasis></title>
 
-    <para revisionflag="changed">If an emergency descent is required, the Captain should consider
+    <para>If an emergency descent is required, the Captain should consider
     taking control if not already PF. PF initiates the memory items by announcing “Emergency
     Descent.”</para>
 
-    <para revisionflag="changed">Don oxygen masks, set them to the N position<footnote><para>There
+    <para>Don oxygen masks, set them to the N position<footnote><para>There
     may be insufficient oxygen to cover the entire emergency descent profile if the oxygen masks are
     left set to 100%.</para></footnote> and establish communication.</para>
 
-    <para revisionflag="changed">PF then flies the emergency descent.  Descent with autopilot and
+    <para>PF then flies the emergency descent.  Descent with autopilot and
     autothrust engaged is preferred. The configuration is thrust idle, full speed brake and maximum
     appropriate speed, taking into account possible structural damage.<footnote><para>According to
     Airbus, structural damage may be suspected if there has been a “loud bang” or there is a high
@@ -375,7 +291,7 @@
     must be below V<subscript>LO</subscript> when it is extended and remain below
     V<subscript>LE</subscript>. If on an airway, consider turning 90° to the left.</para>
 
-    <para revisionflag="changed">PM’s only memory action is to turn the seatbelt signs
+    <para>PM’s only memory action is to turn the seatbelt signs
     on.<footnote><para>Prior to a 2017 update from Airbus, PM would complete a fairly lengthy list
     of memory items at the start of the Emergency Descent procedure. It was found that PM was more
     usefully employed monitoring PF’s actions, and hence most of these memory items were removed to
@@ -383,7 +299,7 @@
     Initially, PM’s main task is to ensure that PF has promptly and correctly initiated the
     descent.</para>
 
-    <para revisionflag="changed">Once the memory actions are complete and the aircraft is
+    <para>Once the memory actions are complete and the aircraft is
     descending, PF should call for the Emergency Descent Checklist (“My radios, Emergency Descent
     Checklist”). This will lead PF to finesse the speed and altitude targets and inform ATC of the
     descent; PM to set continuous ignition on the engines, set 7700 on the transponder and, if cabin
@@ -391,7 +307,7 @@
     will automatically play a suitable PA, so it is not necessary for the flight crew to carry out
     the EMER DESCENT (PA) action.</para>
 
-    <para revisionflag="changed">Once level, restore the aircraft to a normal configuration. When
+    <para>Once level, restore the aircraft to a normal configuration. When
     safe to do so, advise cabin crew and passengers that it is safe to remove their masks. To
     deactivate the mask microphone and switch off the oxygen flow, close the oxygen mask stowage
     compartment and press the “PRESS TO RESET” oxygen control slide.</para>
@@ -432,7 +348,7 @@
       initially pitch up to 17.5°, then increase as required. Do not change configuration until out
       of the windshear.</para>
 
-      <para revisionflag="changed">In severe windshear, it is possible that ALPHA FLOOR protection
+      <para>In severe windshear, it is possible that ALPHA FLOOR protection
       will activate. As TOGA will already be selected, this will have no immediate effect. Once
       clear of the windshear, however, TOGA LK will be active, requiring the autothrust to be
       disconnected to avoid an overspeed. This is most naturally achieved by pressing the
@@ -524,7 +440,7 @@
     of altitude information, the FPV must be disregarded. If altitude information is definitely
     good, the FPV may be used.</para>
 
-    <para revisionflag="added">It is important to understand that at this stage, while the pilot has
+    <para>It is important to understand that at this stage, while the pilot has
     identified that airspeed is unreliable, the aircraft systems have not. Thus flight envelope
     protections based on airspeed data from unreliable ADRs may activate. This may lead to pitch
     inputs from the flight computers that cannot be overridden with the sidesticks. In this case,
@@ -582,19 +498,19 @@
   <sect1 id="ditching">
     <title>Ditching</title>
 
-    <para revisionflag="added">If time is short due to loss of thrust at low altitude, a “quick“
+    <para>If time is short due to loss of thrust at low altitude, a “quick“
     ditching procedure is available on the back of the normal checklist. This procedure gives you a
     suitable configuration for ditching (CONF 2, Gear up) and a table for determining a suitable
     approach speed given your gross weight. It also instructs that the APU be started, the ditching
     button be pushed, provides guidance for the flare (minimise VS, attitude 11°) and provides
     instructions for shutting down the engines and APU on touchdown (all masters off).</para>
 
-    <para revisionflag="changed">If time is available, apply the procedures in the QRH. The
+    <para>If time is available, apply the procedures in the QRH. The
     QRH AEP.MISC Ditching procedure applies if the engines are running. If the engines are not
     running, refer to the appropriate QRH AEP.ENG <emphasis role="underline">ENG</emphasis> DUAL
     FAILURE procedure, both of which include ditching.</para>
 
-    <para revisionflag="changed">Preparation for ditching involves notifying ATC in order to
+    <para>Preparation for ditching involves notifying ATC in order to
     expedite rescue, preparing survival equipment and securing the aircraft for impact. The GPWS
     should be inhibited to prevent nuisance warnings. The crew oxygen should be turned off below
     FL100 to prevent potentially dangerous leaks.<footnote id="fnoxyoff"><para>The reasoning behind
@@ -607,7 +523,7 @@
     to work) in order to close all openings below the waterline and reduce water ingress. At 2000ft,
     make a PA “Cabin crew, landing positions”. At 500ft, make a PA “Brace, brace”</para>
 
-    <para revisionflag="changed">At touchdown, turn the engine and APU masters off. After coming to
+    <para>At touchdown, turn the engine and APU masters off. After coming to
     a stop, notify ATC, push all fire buttons, discharge all agents (engine agent 2 may not be
     available) and evacuate the aircraft.<footnote id="fnnfr"><para>The “no fuel remaining”
     procedure does not directly call for the fire buttons to be pushed or the agents to be
@@ -620,14 +536,14 @@
   <sect1 id="forced-landing">
     <title>Forced landing</title>
 
-    <para revisionflag="added">If time is short due to loss of thrust at low altitude, a “quick“
+    <para>If time is short due to loss of thrust at low altitude, a “quick“
     forced landing procedure is available on the back of the normal checklist. This procedure gives
     you a suitable configuration for forced landing (CONF 2, Gear down by gravity, spoilers armed)
     and a table for determining a suitable approach speed given your gross weight. It also instructs
     that the APU be started, provides guidance for the flare (minimise VS) and provides instructions
     for shutting down the engines and APU on touchdown (all masters off).</para>
 
-    <para revisionflag="changed">If time is available, apply the procedures in the QRH.  The
+    <para>If time is available, apply the procedures in the QRH.  The
     QRH AEP.MISC Forced Landing procedure applies if the engines are running. If the engines are not
     running, refer to the appropriate QRH AEP.ENG <emphasis role="underline">ENG</emphasis> DUAL
     FAILURE procedure, both of which include forced landing.</para>
@@ -662,7 +578,7 @@
     <para>The first two items confirm the RTO actions of stopping the aircraft, setting the parking
     brake and alerting the cabin crew. The next item confirms ATC has been alerted.</para>
 
-    <para revisionflag="changed">The next four items prepare the aircraft for evacuation. If manual
+    <para>The next four items prepare the aircraft for evacuation. If manual
     cabin pressure has been used, CM2 checks cabin diff is zero, and if necessary manually opens the
     outflow valve. CM2 then shuts the engines down with their master switches, and pushes all the
     fire buttons (including the APU). Confirmation is not required before carrying out these
@@ -682,7 +598,7 @@
   <sect1 id="overweight_landing">
     <title>Overweight landing</title>
 
-    <para revisionflag="changed">A landing can be made at any weight, providing sufficient landing
+    <para>A landing can be made at any weight, providing sufficient landing
     distance is available. In general, automatic landings are only certified up to MLW, but the FCOM
     specifies that, for the A319 only, autoland is available up to 69000kg in case of emergency. The
     preferred landing configuration is CONF&nbsp;FULL, but lower settings may be used if required by
@@ -705,7 +621,7 @@
   </sect1>
 
 
-  <sect1 id="efic" revisionflag="changed">
+  <sect1 id="efic">
     <title>Engine failure in cruise</title>
 
     <para>Engine out ceiling is highly dependent on weight; ISA deviation also has a modest
@@ -744,7 +660,7 @@
   <sect1 id="se_circling">
     <title>Single engine circling</title>
 
-    <para revisionflag="changed">It may not be possible to fly level in the standard circling
+    <para>It may not be possible to fly level in the standard circling
     configuration of CONF 3 gear down. This can be ascertained by checking the table in QRH AEP.MISC
     One Engine Inoperative – Circling Approach. If affected, plan a FLAP 3 landing and delay gear
     extension until level flight is no longer required; a L/G NOT DOWN warning which will occur if
@@ -1496,7 +1412,7 @@
 
     <para>Some or all of the systems supplied by DC Bus 1 and DC Bus 2 are lost.</para>
 
-    <para revisionflag="changed">The implications are the same as for <xref
+    <para>The implications are the same as for <xref
     linkend="dc-emerg-conf"/> except that the RAT will not need to be deployed since ESS TR will be
     supplied from AC 1 instead of the emergency generator.</para>
 
@@ -1518,11 +1434,11 @@
   <sect1 id="loss-of-trs">
     <title>Loss of TRs</title>
 
-    <para revisionflag="changed">No systems are lost as a result of failure of a single TR. If the
+    <para>No systems are lost as a result of failure of a single TR. If the
     fault is with TR1 or TR2, DC ESS will be supplied by the ESS TR via AC ESS; in this case only
     Cat 3 single will be available.</para>
 
-    <para revisionflag="added">If TR1 and TR2 are both lost then DC Bus 1, DC Bus 2 and the DC
+    <para>If TR1 and TR2 are both lost then DC Bus 1, DC Bus 2 and the DC
     Battery Bus will also be lost. DC ESS will remain powered by the ESS TR. The FCOM is not very
     forthcoming regarding this failure; there is only a description in the DSC section and nothing
     specific in the PRO section. The situation is, however, very similar to the “ECAM complete”
@@ -1552,7 +1468,7 @@
     <para>Defined as the loss of DC BUSSES 1 + 2, DC ESS BUS and DC BAT BUS. Recovery assumes that
     the DC ESS BUS can be fully restored by deploying the RAT with the EMER ELEC PWR button.</para>
 
-    <para revisionflag="changed">Equipment powered or controlled through DC BUS 1, DC BUS 2 and the
+    <para>Equipment powered or controlled through DC BUS 1, DC BUS 2 and the
     BAT BUS is lost. Loss of the equipment associated with the BAT BUS is fairly benign: mainly APU
     Battery Start is unavailable due to loss of the APU ECB and APU fire detection is inop. A lot of
     equipment is lost with the loss of DC BUS 1+2, but it is worth remembering that all three busses
@@ -1778,7 +1694,7 @@
     V<subscript>FE next</subscript> is computed from flap lever position. F and S speeds are
     essentially meaningless.</para>
 
-    <para revisionflag="changed">The recommended deployment method is to select speed to 5kt below
+    <para>The recommended deployment method is to select speed to 5kt below
     V<subscript>FE next</subscript> then select the next configuration as the speed reduces through
     V<subscript>FE next</subscript>. To prevent overspeeds in case of turbulence, it is acceptable
     to configure at lower speeds as long as speed remains above V<subscript>LS</subscript>. If
@@ -1903,13 +1819,13 @@
     taken in GPWS or windshear manoeuvres. Approach speed is increased by 10kt and landing distances
     increase by a factor of 1.2.</para>
 
-    <para revisionflag="added">The major handling difficulty in direct law is the go-around. There
+    <para>The major handling difficulty in direct law is the go-around. There
     is no compensation for the large pitch moment introduced by selecting TOGA power on the
     under-slung engines, the thrust levers are non-linear and the use of the manual pitch trim wheel
     will be unfamiliar. Apply power smoothly and progressively and anticipate a requirement for
     unusual side-stick inputs.</para>
 
-    <para revisionflag="added">Direct Law works with or without yaw dampers. The aircraft is
+    <para>Direct Law works with or without yaw dampers. The aircraft is
     <emphasis>always</emphasis> convergent in dutch roll, so use lateral control, not rudder, if
     dutch roll is experienced.</para>
 
@@ -1929,7 +1845,7 @@
     <para>The main effects are that speed is limited to 320kt and stall warnings must be respected
     when carrying out EGPWS manoeuvres.</para>
 
-    <para revisionflag="added">The autopilot may be available.</para>
+    <para>The autopilot may be available.</para>
 
     <para>Expect Direct Law after landing gear extension (see <xref linkend="direct-law"/>), and
     hence increased approach speeds and landing distances due to a CONF 3 landing (see
@@ -2042,14 +1958,14 @@
     requested by the Avionics Smoke ECAM. Unfortunately the Avionics Smoke ECAM itself is not
     described in the FCOM. A general policy of running the paper procedure instead of the Avionics
     Smoke ECAM procedure seems to cover all eventualities.</para></footnote>. <phrase
-    revisionflag="added">The FCTM also adds that the AVIONICS SMOKE ECAM procedure should be applied
+   >The FCTM also adds that the AVIONICS SMOKE ECAM procedure should be applied
     only if the flight crew can confirm it visually or by smell, otherwise it should be considered
     spurious.</phrase></para>
 
     <para>In the case of other smoke related ECAMs, the relevant ECAM procedure should be applied
     first and then the use of the paper checklist considered.</para>
 
-    <para revisionflag="added">While the smoke aspect of these procedures is fairly unambiguous, the
+    <para>While the smoke aspect of these procedures is fairly unambiguous, the
     fumes aspect has led to both under- and over-reaction in the simulator. Training department
     guidance is that if a “smell” is detected in the cabin and it is having no physiological
     effects, no immediate action is required. If there are physiological effects, the
@@ -2079,12 +1995,12 @@
     seconds of overpressure, which can be used to clear any smoke trapped in the mask as it was
     donned.</para>
 
-    <para revisionflag="changed">Likely sources of smoke are the avionics, the cabin fans and the
+    <para>Likely sources of smoke are the avionics, the cabin fans and the
     galleys. Smoke from these sources can be contained with simple and reversible actions which can
     be initiated immediately: put the avionics ventilation into smoke removal mode by selecting both
     blower and extract fans to OVRD, turn off the cabin fans and turn off the galleys.</para>
 
-    <para revisionflag="changed">Where the source is immediately obvious, accessible and
+    <para>Where the source is immediately obvious, accessible and
     extinguishable, isolate the faulty equipment. Otherwise the QRH provides seperate drills for
     suspected air conditioning smoke, suspected cabin equipment smoke or suspected avionics/
     electrical smoke. In addition the avionics/ electrical smoke drill includes undetermined and
@@ -2101,7 +2017,7 @@
     <para>The cabin equipment smoke drill involves selecting the commercial button off and searching
     for faulty cabin equipment.</para>
 
-    <para revisionflag="changed">Suspect avionics smoke if the only triggered ECAM is AVIONICS
+    <para>Suspect avionics smoke if the only triggered ECAM is AVIONICS
     SMOKE. If an item of electrical equipment fails immediately prior to the appearance of the
     smoke, that equipment should be suspected as the source. The avionics/ electrical drill (which
     includes the undetermined source drill) reduces the amount of electrically powered equipment to
@@ -2867,11 +2783,11 @@
   <sect1 id="dual-engine-failure">
     <title>Dual engine failure</title>
 
-    <para revisionflag="added">If time is short due to the failure occuring at low altitude, “quick”
+    <para>If time is short due to the failure occuring at low altitude, “quick”
     ditching and forced landing procedures are available on the back of the normal checklist. These
     are discussed in <xref linkend="ditching"/> and <xref linkend="forced-landing"/>.</para>
 
-    <para revisionflag="added">The ENG DUAL FAILURE ECAM may not be triggered under some
+    <para>The ENG DUAL FAILURE ECAM may not be triggered under some
     circumstances. The QRH procedure, therefore, includes all items provided by the ECAM; indeed,
     after a few initial items the ECAM simply refers to the QRH procedure.</para>
 
@@ -2997,7 +2913,7 @@
     flight computer protections apply. Be cautious about reducing speed below
     V<subscript>LS</subscript> on one engine.</para>
 
-    <para revisionflag="changed">The main systems lost are the generator, bleed and hydraulic pump
+    <para>The main systems lost are the generator, bleed and hydraulic pump
     associated with the engine. Other systems may be lost depending on the reason for the
     shutdown. The APU can be used to replace the lost generator and, providing the left side of the
     pneumatic system is available and isolated (i.e. cross bleed valve closed), provide
@@ -3121,7 +3037,7 @@
     icing. The QRH provides a drill to shed this ice, after which normal operations can be
     resumed.</para>
 
-    <para revisionflag="changed">If icing is not suspected and if flight conditions permit, reduce
+    <para>If icing is not suspected and if flight conditions permit, reduce
     thrust so that vibrations are below the advisory level. Shut down the engine after landing for
     taxiing if vibrations above the advisory level have been experienced.</para>
 
@@ -3318,7 +3234,7 @@
     <para>If the electrical power supply is interrupted during a start (indicated by loss of ECAM
     DUs) turn the master switch off, then perform a 30 second dry crank.</para>
 
-    <para revisionflag="changed">If a fuel leak from the engine drain mast is reported, run the
+    <para>If a fuel leak from the engine drain mast is reported, run the
     engine at idle for 5 minutes. If the leak disappears within this time the aircraft may dispatch
     without maintenance action.</para>
 
@@ -3435,7 +3351,7 @@
     <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution
     advisories (anything else).</para>
 
-    <para revisionflag="changed">From 28th January 2017, new easyJet deliveries are fitted with the
+    <para>From 28th January 2017, new easyJet deliveries are fitted with the
     new AP/FD TCAS mode. When this mode is fitted, the autopilot is capable of autonomously flying
     the TCAS escape manoeuvre. PF simply calls “TCAS blue, I have control" to establish who will
     take over if the autopilot does not respond appropriately, then calls the FMAs and monitors the
@@ -3720,7 +3636,7 @@
     <para>Loss of a single channel will result in the spare channel automatically taking over. All
     that is required is a cross check of the baro refs.</para>
 
-    <para revisionflag="changed">Loss of both channels leads to loss of all FCU and EFIS panels. The
+    <para>Loss of both channels leads to loss of all FCU and EFIS panels. The
     autopilots, flight directors<footnote><para>Flight Directors will pop up to provide guidance in
     the event of a go-around.</para></footnote> and autothrust are lost and parameters that are
     normally controlled by the panels revert to sensible default values. If the weather radar image
@@ -4076,7 +3992,7 @@
   <sect1 id="waa-valve-closed">
     <title>Wing anti-ice valve closed when commanded open</title>
 
-    <para revisionflag="changed">The wing anti-ice must be turned off to avoid asymmetrically
+    <para>The wing anti-ice must be turned off to avoid asymmetrically
     de-icing the wings. Avoid icing conditions. If ice accretion does occur, landing distances and
     V<subscript>app</subscript> adjustments are in QRH IFP  and speed must be maintained above the
     higher of V<subscript>LS</subscript>+10kt or Green Dot.</para>
@@ -4188,7 +4104,7 @@
 <chapter>
   <title>Pneumatic</title>
 
-  <sect1 revisionflag="changed" id="dual-bleed">
+  <sect1 id="dual-bleed">
     <title>Dual bleed failure</title>
 
     <para>The historical failure case where supplying two packs from one bleed would overload it and
