@@ -28,15 +28,16 @@
 
   <sect1>
     <title>Changes since version 2.4</title>
-
     <itemizedlist>
-      <listitem><para></para></listitem>
+      <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
+      new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
     </itemizedlist>
 
   </sect1>
 
-      <sect1>
+
+  <sect1>
     <title>Changes since version 2.3</title>
 
     <itemizedlist>
@@ -3677,11 +3678,14 @@
     reversers, accumulator only braking and no nose wheel steering. Hence required landing distances
     almost triple.</para>
 
-    <para>The go around, in some ways, is exceptionally straightforward. The gear cannot be raised
-    and the configuration should be maintained. Therefore all that needs to be done is selecting a
-    speed of V<subscript>FE</subscript>&#x2011;10. As long as the flaps are frozen at zero, the
-    slats can be retracted for a subsequent diversion; fuel flow will be approximately 2.3 times
-    normal due to the extended gear.</para>
+    <para revisionflag="changed">The go around, in some ways, is exceptionally straightforward. The
+    gear cannot be raised and the configuration should be maintained. Due to the frozen stabiliser,
+    a speed close to V<subscript>APP</subscript> should be flown<footnote><para>Airbus originally
+    suggested flying V<subscript>FE</subscript>-10kt; I assume this was found to cause handling
+    difficulties due to pitch trim not being available.</para></footnote>. As long as the flaps are
+    frozen at zero, the slats can be retracted for a subsequent diversion; fuel flow will be
+    approximately 3 times normal due to the extended gear. If flaps are not at zero, fuel flow
+    will be up to 4 times normal.</para>
 
     <para>A paper summary is available in section AEP.HYD of the QRH, and this should be applied
     once all ECAM actions are completed.</para>
