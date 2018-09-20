@@ -29,6 +29,9 @@
   <sect1>
     <title>Changes since version 2.4</title>
     <itemizedlist>
+      <listitem><para>Removed reference to “read ECAM” from <xref linkend="efato"/> as easyJet has
+      now standardised of Airbus SOPs for ECAM handling.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -192,12 +195,11 @@
     cases where the cleared SID requires a very early turn it may be necessary to determine and
     action a strategy when below 400ft. If this is the case, it must be thoroughly briefed.</para>
 
-    <para>Once the flight path strategy has been agreed and actioned, the failure can be triaged,
-    diagnosed and contained. If the failure has resulted in an ECAM warning, PF initiates this phase
-    by asking PNF to “Read ECAM”. Once the diagnosis is agreed, PF will take the radios and request
-    PNF to carry out the containment actions. The standard phraseology is “My Radios, ECAM
-    actions”. PF taking the radios is also a good trigger to consider a Mayday and an “Attention
-    crew at stations”.</para>
+    <para revisionflag="changed">Once the flight path strategy has been agreed and actioned, the
+    failure can be triaged, diagnosed and contained. Once the diagnosis is agreed, PF will take the
+    radios and request PNF to carry out the containment actions. The standard phraseology is “My
+    Radios, ECAM actions”. PF taking the radios is also a good trigger to consider a Mayday and an
+    “Attention crew at stations”.</para>
 
     <para>When applying ECAM procedures, PF is responsible for moving the thrust levers once
     confirmed by PNF. PNF is responsible for everything else, but movement of engine master
