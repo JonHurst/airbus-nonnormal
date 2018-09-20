@@ -32,6 +32,10 @@
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
+      <listitem><para>Updated approximate diversionary fuel flows for <xref linkend="dualhyd.gy"/>,
+      <xref linkend="dualhyd.by"/> and <xref linkend="dualhyd.gb"/> to take account of data
+      introduced by the new Fuel Penalty Factor tables in the QRH.</para></listitem>
+
     </itemizedlist>
 
   </sect1>
@@ -3711,9 +3715,9 @@
     3 and 4 and loss of #2 reverser. Approach configuration is normal apart from slow flaps and
     slats and gravity gear extension (protects green system). Nose wheel steering is lost.</para>
 
-    <para>Gear cannot be retracted on go-around. Fuel burn for a subsequent diversion will be
-    significantly greater (approx factor 2.3); see <xref linkend="flight-with-gear-extended"/> for
-    further details.</para>
+    <para revisionflag="changed">Gear cannot be retracted on go-around. Fuel burn for a subsequent
+    diversion will be significantly greater (approx factor 3 times normal); see <xref
+    linkend="flight-with-gear-extended"/> for further details.</para>
 
     <para>A paper summary is available in section AEP.HYD of the QRH, and this should be applied
     once all ECAM actions are completed.</para>
@@ -3747,10 +3751,11 @@
     available, reverser 2 is available, alternate braking is available and nose wheel steering is
     available. Landing distances approximately double.</para>
 
-    <para>Go around is straightforward – the gear cannot be retracted and the flap configuration
-    should be maintained. Simply select V<subscript>FE</subscript>&#x2011;10. For diversion, the
-    flaps can be retracted. With the gear remaining down, fuel burn will increase by a factor of
-    approximately 2.3.</para>
+    <para revisionflag="changed">Go around is straightforward – the gear cannot be retracted and the
+    flap configuration should be maintained. Simply select V<subscript>FE</subscript>&#x2011;10. For
+    diversion, the flaps can be retracted. With the gear remaining down, fuel burn will increase by
+    a factor of approximately 3 if the slats are at zero or up to approximately 3½ if they are
+    extended.</para>
 
     <para>A paper summary is available in section AEP.HYD of the QRH, and this should be applied
     once all ECAM actions are completed.</para>
