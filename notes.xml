@@ -32,6 +32,10 @@
       <listitem><para>Removed reference to “read ECAM” from <xref linkend="efato"/> as easyJet has
       now standardised of Airbus SOPs for ECAM handling.</para></listitem>
 
+      <listitem><para>Updated <xref linkend="emerg-descent"/> to move selecting oxygen flow to N
+      position to after the checklist has been called for as mandated by the revised Airbus
+      procedure.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -283,9 +287,7 @@
     taking control if not already PF. PF initiates the memory items by announcing “Emergency
     Descent.”</para>
 
-    <para>Don oxygen masks, set them to the N position<footnote><para>There
-    may be insufficient oxygen to cover the entire emergency descent profile if the oxygen masks are
-    left set to 100%.</para></footnote> and establish communication.</para>
+    <para revisionflag="changed">Don oxygen masks and establish communication.</para>
 
     <para>PF then flies the emergency descent.  Descent with autopilot and
     autothrust engaged is preferred. The configuration is thrust idle, full speed brake and maximum
@@ -306,13 +308,15 @@
     Initially, PM’s main task is to ensure that PF has promptly and correctly initiated the
     descent.</para>
 
-    <para>Once the memory actions are complete and the aircraft is
+    <para revisionflag="changed">Once the memory actions are complete and the aircraft is
     descending, PF should call for the Emergency Descent Checklist (“My radios, Emergency Descent
     Checklist”). This will lead PF to finesse the speed and altitude targets and inform ATC of the
-    descent; PM to set continuous ignition on the engines, set 7700 on the transponder and, if cabin
-    altitude will exceed 14,000ft, deploy the cabin oxygen masks. On easyJet aircraft, the CIDS/PRAM
-    will automatically play a suitable PA, so it is not necessary for the flight crew to carry out
-    the EMER DESCENT (PA) action.</para>
+    descent; PM to set continuous ignition on the engines and set 7700 on the transponder. Both
+    pilots then set their oxygen flows to the N position<footnote><para>There may be insufficient
+    oxygen to cover the entire emergency descent profile if the oxygen masks are left set to
+    100%.</para></footnote> and, if cabin altitude will exceed 14,000ft, PM deploys the cabin oxygen
+    masks. On easyJet aircraft, the CIDS/PRAM will automatically play a suitable PA, so it is not
+    necessary for the flight crew to carry out the EMER DESCENT (PA) action.</para>
 
     <para>Once level, restore the aircraft to a normal configuration. When
     safe to do so, advise cabin crew and passengers that it is safe to remove their masks. To
