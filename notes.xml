@@ -568,26 +568,30 @@
   <sect1 id="forced-landing">
     <title>Forced landing</title>
 
-    <para>If time is short due to loss of thrust at low altitude, a “quick“
+    <para>If time is short due to loss of thrust at low altitude, a “quick”
     forced landing procedure is available on the back of the normal checklist. This procedure gives
     you a suitable configuration for forced landing (CONF 2, Gear down by gravity, spoilers armed)
     and a table for determining a suitable approach speed given your gross weight. It also instructs
     that the APU be started, provides guidance for the flare (minimise VS) and provides instructions
     for shutting down the engines and APU on touchdown (all masters off).</para>
 
-    <para>If time is available, apply the procedures in the QRH.  The
+    <para revisionflag="changed">If time is available, apply the procedures in the QRH. The
     QRH AEP.MISC Forced Landing procedure applies if the engines are running. If the engines are not
-    running, refer to the appropriate QRH AEP.ENG <emphasis role="underline">ENG</emphasis> DUAL
-    FAILURE procedure, both of which include forced landing.</para>
+    running, depending on airframe, refer to either the appropriate QRH AEP.ENG <emphasis
+    role="underline">ENG</emphasis> DUAL FAILURE (DEF) procedure or to the QRH AEP.ENG ALL ENG FAIL
+    (AEF) procedure<footnoteref linkend="DEFvsAEF"/>; all of these incorporate Forced Landing
+    procedures.</para>
 
     <para>Preparation for forced landing involves notifying ATC in order to expedite rescue,
     preparing survival equipment and securing the aircraft for impact. The GPWS should be inhibited
     to prevent nuisance warnings. The crew oxygen should be turned off below FL100 to prevent
     potentially dangerous leaks.<footnoteref linkend="fnoxyoff"/></para>
 
-    <para>The engines operative forced landing configuration is gear down, config full, spoilers
-    armed. If the engines are inoperative, use config 3 (only slats available) and maintain at least
-    150kt. The ram air button is used to ensure that the aircraft will be completely depressurised
+    <para revisionflag="changed">The engines operative forced landing configuration is gear down,
+    config full, spoilers armed. If both engines are <emphasis>inoperative</emphasis>: for DEF
+    airframes use config 3 and for AEF airframes use config 2<footnoteref
+    linkend="DEFvsAEF-differences"/>; maintain at least 150kt to give a margin against RAT
+    stall. The ram air button is used to ensure that the aircraft will be completely depressurised
     at touchdown. At 2000ft, make a PA “Cabin crew, landing positions”. At 500ft, make a PA “Brace,
     brace”</para>
 
