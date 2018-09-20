@@ -524,10 +524,10 @@
     <para revisionflag="changed">If time is available, apply the procedures in the QRH. The
     QRH AEP.MISC Ditching procedure applies if the engines are running. If the engines are not
     running, refer to the appropriate QRH AEP.ENG <emphasis role="underline">ENG</emphasis> DUAL
-    FAILURE (DEF) procedure or the QRH AEP.ENG ALL ENG FAIL (AEF)<footnote id="DEFvsAEF"><para>The
-    ALL ENG FAIL checklist replaces the DUAL FAILURE checklist for certain airframes; this appears
-    to be related to the modification level of the FWCs.</para></footnote>, all of which include
-    ditching.</para>
+    FAILURE (DEF) procedure or the QRH AEP.ENG ALL ENG FAIL (AEF) procedure<footnote
+    id="DEFvsAEF"><para>The ALL ENG FAIL checklist replaces the DUAL FAILURE checklist for certain
+    airframes; this appears to be related to the modification level of the FWCs.</para></footnote>,
+    all of which include ditching.</para>
 
     <para>Preparation for ditching involves notifying ATC in order to
     expedite rescue, preparing survival equipment and securing the aircraft for impact. The GPWS
