@@ -539,7 +539,7 @@
     full, 11° pitch and minimal V/S. If both engines are <emphasis>inoperative</emphasis>: for DEF
     airframes use config 3 and for AEF airframes use config 2<footnote
     id="DEFvsAEF-differences"><para revisionflag="added">The AEF vs DEF configuration difference is
-    odd since it would seem that the airframes involved are fundamentally the same, differening only
+    odd since it would seem that the airframes involved are fundamentally the same, differing only
     in modification level of the FWCs. A reasonable explanation is that there is not, in reality,
     much difference between config 2 and config 3 in the ditching or forced landing case. If
     hydraulics are only available from the RAT, flaps are frozen and hence config 2 and config 3 are
