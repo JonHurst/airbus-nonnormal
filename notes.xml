@@ -36,9 +36,9 @@
       position to after the checklist has been called for as mandated by the revised Airbus
       procedure.</para></listitem>
 
-      <listitem><para>Updated <xref linkend="ditching"/> to account for the new All Engine Failure
-      checklist that was introduced in the recent QRH update to replace the Dual Engine Failure
-      checklist for certain airframes.</para></listitem>
+      <listitem><para>Updated <xref linkend="ditching"/> and <xref linkend="forced-landing"/> to
+      account for the new All Engine Failure checklist that was introduced in the recent QRH update
+      to replace the Dual Engine Failure checklist for certain airframes.</para></listitem>
 
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
