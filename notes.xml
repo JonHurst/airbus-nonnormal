@@ -523,11 +523,11 @@
 
     <para revisionflag="changed">If time is available, apply the procedures in the QRH. The
     QRH AEP.MISC Ditching procedure applies if the engines are running. If the engines are not
-    running, refer to the appropriate QRH AEP.ENG <emphasis role="underline">ENG</emphasis> DUAL
-    FAILURE (DEF) procedure or the QRH AEP.ENG ALL ENG FAIL (AEF) procedure<footnote
-    id="DEFvsAEF"><para>The ALL ENG FAIL checklist replaces the DUAL FAILURE checklist for certain
-    airframes; this appears to be related to the modification level of the FWCs.</para></footnote>,
-    all of which include ditching.</para>
+    running, depending on airframe, refer to either the appropriate QRH AEP.ENG <emphasis
+    role="underline">ENG</emphasis> DUAL FAILURE (DEF) procedure or to the QRH AEP.ENG ALL ENG FAIL
+    (AEF) procedure<footnote id="DEFvsAEF"><para>The ALL ENG FAIL checklist replaces the DUAL
+    FAILURE checklist for certain airframes; this appears to be related to the modification level of
+    the FWCs.</para></footnote>; all of these incorporate ditching procedures.</para>
 
     <para>Preparation for ditching involves notifying ATC in order to
     expedite rescue, preparing survival equipment and securing the aircraft for impact. The GPWS
@@ -537,22 +537,21 @@
 
     <para revisionflag="changed">The engines operative ditching configuration is gear up, config
     full, 11° pitch and minimal V/S. If both engines are <emphasis>inoperative</emphasis>: for DEF
-    airframes use config 3 and maintain at least 150kt; for AEF airframes use config 2 and maintain
-    at least 140kt<footnote id="DEFvsAEF-differences"><para revisionflag="added">The AEF vs DEF
-    configuration and approach speed differences are odd since it would seem that there is no
-    fundamental difference between the airframes involved, just a different modification level of
-    the FWCs. A reasonable explanation for the configuration difference is that it is not, in
-    reality, much of a difference. If hydraulics are only available from the RAT, flaps are frozen
-    and hence config 2 and config 3 are identical. If the APU generator is available and thus the
-    yellow electric pump is available, the flaps <emphasis>are</emphasis> available; however the
-    ΔV<subscript>REF</subscript> mandated for a config 2 landing and a config 3 landing (from the
-    QRH Inflight Performance Slats and Flaps System tables) is 10kt in both cases. For the speeds it
-    is possible that AEF aircraft, being more modern, may have more modern RATs with a lower stall
-    speed. Clarification has been sought from Airbus through the easyJet Technical Manager – this
-    manual will be updated as soon as I have the information.</para></footnote>. In strong winds,
-    land into wind. In lighter winds, land parallel to swell. At 2000ft AGL, the bleeds are all
-    turned off, the ditching button is pushed<footnote><para>This closes all openings below the
-    waterline and reduce water ingress; the pressurisation must be in AUTO for this to
+    airframes use config 3 and for AEF airframes use config 2<footnote
+    id="DEFvsAEF-differences"><para revisionflag="added">The AEF vs DEF configuration difference is
+    odd since it would seem that the airframes involved are fundamentally the same, differening only
+    in modification level of the FWCs. A reasonable explanation is that there is not, in reality,
+    much difference between config 2 and config 3 in the ditching or forced landing case. If
+    hydraulics are only available from the RAT, flaps are frozen and hence config 2 and config 3 are
+    identical. If the APU generator is available and thus the yellow electric pump is available, the
+    flaps <emphasis>are</emphasis> available; however the ΔV<subscript>REF</subscript> mandated for
+    a config 2 landing and a config 3 landing (from the QRH Inflight Performance Slats and Flaps
+    System tables) is 10kt in both cases. Clarification has been sought from Airbus through the
+    easyJet Technical Manager – this manual will be updated as soon as I have the
+    information.</para></footnote>; maintain at least 150kt to give a margin against RAT stall. In
+    strong winds, land into wind. In lighter winds, land parallel to swell. At 2000ft AGL, the
+    bleeds are all turned off, the ditching button is pushed<footnote><para>This closes all openings
+    below the waterline and reduce water ingress; the pressurisation must be in AUTO for this to
     work.</para></footnote> and the “Cabin crew, landing positions” PA is made. At 500ft, make a PA
     “Brace, brace”</para>
 
