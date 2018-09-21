@@ -2860,7 +2860,7 @@
     </itemizedlist>
     </para>
 
-    <para>The first of these new checklists is pretty straightworward and is discussed in <xref
+    <para>The first of these new checklists is pretty straightforward and is discussed in <xref
     linkend="ditching"/> and <xref linkend="forced-landing"/>.</para>
 
     <para>The second is more complex. At first glance it appears to be a sensible attempt to move
@@ -2925,7 +2925,7 @@
     attempting starter assisted relights. The APU bleed can only provide for one engine starter at a
     time, and wing anti-ice must be off during the attempt. Ensure the APU bleed is on, the thrust
     levers are at idle and the the ENG MODE SEL in set to IGN, then turn one engine master off for
-    30s and then back on. If unsuccessfull turn that master back to off and repeat the process with
+    30s and then back on. If unsuccessful turn that master back to off and repeat the process with
     the other engine. The master switch for an engine should be off for at least 30s between
     attempted relights of that engine.</para>
 
