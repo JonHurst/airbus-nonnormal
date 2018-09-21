@@ -36,9 +36,9 @@
       position to after the checklist has been called for as mandated by the revised Airbus
       procedure.</para></listitem>
 
-      <listitem><para>Updated <xref linkend="ditching"/> and <xref linkend="forced-landing"/> to
-      account for the new All Engine Failure checklist that was introduced in the recent QRH update
-      to replace the Dual Engine Failure checklist for certain airframes.</para></listitem>
+      <listitem><para>Updated <xref linkend="ditching"/> and <xref linkend="forced-landing"/> and
+      rewrote <xref linkend="dual-engine-failure"/> to account for the newly introduced QRH.AEP.MISC
+      EMER LANDING ALL ENG FAILURE and QRH.AEP.ENG ALL ENG FAIL checklists.</para></listitem>
 
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
@@ -2816,47 +2816,112 @@
 <chapter id="power-plant">
   <title>Power plant</title>
 
-  <sect1 id="dual-engine-failure">
+  <sect1 id="dual-engine-failure" revisionflag="changed">
     <title>Dual engine failure</title>
 
-    <para>If time is short due to the failure occuring at low altitude, “quick”
-    ditching and forced landing procedures are available on the back of the normal checklist. These
-    are discussed in <xref linkend="ditching"/> and <xref linkend="forced-landing"/>.</para>
+    <para>Airbus have recently (2018) introduced two new checklists for handling the Dual Engine
+    Failure scenario:
 
-    <para>The ENG DUAL FAILURE ECAM may not be triggered under some
-    circumstances. The QRH procedure, therefore, includes all items provided by the ECAM; indeed,
-    after a few initial items the ECAM simply refers to the QRH procedure.</para>
+    <itemizedlist>
+      <listitem><para>The QRH.AEP.MISC EMER LANDING ALL ENG FAILURE, was introduced in response to
+      the Hudson incident. It is designed to be a critical set of actions to be taken to configure
+      the aircraft for a forced landing or ditching when unable to maintain altitude after loss of
+      thrust near to the ground. EasyJet reproduces this checklist on the back of the normal
+      checklist for easy access. </para></listitem>
 
-    <para>First priority, assuming fuel remains, is to attempt a relight by turning the ignitors on
-    and setting the thrust levers to idle. The speed should initially be increased to 300kt to
-    increase windmilling and improve the chance of a relight. At this speed, the aircraft will cover
-    approximately 2nm for every 1000ft lost. With this in mind, a suitable plan should be
-    constructed to cover the possibility that relight is not possible.</para>
+      <listitem><para>The QRH.AEP.ENG ALL ENG FAIL checklist. This replaces the QRH.AEP.ENG
+      <emphasis role="underline">ENG</emphasis> DUAL FAILURE – FUEL REMAINING and QRH.AEP.ENG
+      <emphasis role="underline">ENG</emphasis> DUAL FAILURE – NO FUEL REMAINING checklists for some
+      airframes. Associated with this new checklist is the new <emphasis
+      role="underline">ENG</emphasis> ALL ENGINES FAILURE ECAM procedure which replaces the
+      <emphasis role="underline">ENG</emphasis> DUAL FAILURE ECAM on airframes with newer FWC
+      modification levels.</para></listitem>
 
-    <para>Whilst awaiting a relight, ensure that the emergency electrical generator is on line and
-    recycle FAC1 to recover characteristic speed display and rudder trim. For communications, VHF1
-    and ATC1 are available in the emergency electrical config. Due to lack of engine bleeds, a slow
-    depressurisation will be occurring, so be ready to don oxygen masks.</para>
+    </itemizedlist>
+    </para>
 
-    <para>If there has been no relight after 30 seconds, the combustion chambers should be
-    ventilated by turning both engine masters off for 30 seconds. Another attempt can then be made
-    by turning them back on. This sequence should be repeated until successful or until APU bleed
-    air becomes available at FL200.</para>
+    <para>The first of these new checklists is pretty straightworward and is discussed in <xref
+    linkend="ditching"/> and <xref linkend="forced-landing"/>.</para>
 
-    <para>Once below FL250, the APU can be started. Once below FL200, speed should be reduced to
-    green dot and assisted starts should be attempted. At green dot speed, 2½nm will be covered for
-    every 1000ft lost. Attempt to start one engine at a time in the normal manner.</para>
+    <para>The second is more complex. At first glance it appears to be a sensible attempt to move
+    the branch point of “is a relight possible” from checklist title into a checklist decision
+    tree. It does also, however, introduce a fairly fundamental philosophical change: where the ENG
+    DUAL FAILURE (EDF) checklist almost immediately proceeds to windmill relight attempts, the ALL
+    ENGINES FAILURE (AEF) checklist waits until inside the windmill relight envelope before doing
+    so. Since this is below FL250 for CEO and below FL270 for NEO and starter assisted relight
+    attempts will commence at FL200 (for both engine types), a much shorter duration of windmill
+    start attempts occurs under the new regime. An explanation for this change in philosophy has
+    been requested via the easyJet Technical Manager, and these notes will be updated once a
+    response is received.</para>
 
-    <para>If a landing must be made without power, CONF 3 slats are recommended (flaps are
-    unavailable). V<subscript>app</subscript> should be V<subscript>ref</subscript>+25kt or 150kt,
-    whichever is higher. The gear is available with gravity extension. The stabilizer will be frozen
-    once engine driven hydraulics are lost and elevator trimming will cease with transition to
-    direct law at gear extension. Therefore, gear extension should be delayed until CONF 3 and
-    V<subscript>app</subscript> are reached. If ditching, do not extend the gear.</para>
+    <para>The EDF/AEF ECAMs may not be triggered under some circumstances. All the associated QRH
+    checklists, therefore, include all steps provided by these ECAMs; indeed, after a few initial
+    items the ECAMs simply refer to their associated QRH procedure.</para>
+
+    <para>Dual Engine Failure can be broken down into three main issues: Emergency Electrical
+    configuration, a Green and Yellow Dual hydraulics failure and a requirement for a suitable
+    airport within a relatively limited range. Slow depressurisation may also become an
+    issue.</para>
+
+    <para>The Emergency Electrical configuration is dealt with first. The RAT is deployed and the
+    emergency generator is brought online with the EMER ELEC PWR MAN ON pb (this should happen
+    automatically, but is backed up with the manual action) and FAC 1 is recycled to regain rudder
+    trim and display of characteristic speeds. Communications will be restricted to VHF1, HF1 and
+    ATC1. If the APU is available, the electrical issues will be almost completely mitigated once it
+    can be started from the emergency generator at FL250.</para>
+
+    <para>The “suitable airport” issue is then addressed by initiating a diversion. Rough rules of
+    thumb: from normal cruise levels a range of around 80nm is available, and you really want at
+    least a 3000m runway. Take account of descent winds, airport elevation and available runway
+    directions when selecting an airport.</para>
+
+    <para>The Green and Yellow hydraulic failure aspect is interesting in that the checklists make
+    no attempt to bring the Yellow Electric pump online once electrical power is available from the
+    APU. This certainly works in the simulator, giving a full complement of hydraulics for the
+    approach and landing (although gravity gear extension is still probably the way to go). Again an
+    explanation has been requested via the easyJet Technical Manager, and these notes will be
+    updated once a response is received.</para>
+
+    <para>The ideal outcome would be to get at least one engine relit. In some scenarios such as
+    complete fuel exhaustion, this is not going to be an option. The EDF checklists account for this
+    by providing FUEL REMAINING and NO FUEL REMAINING flavours. The AEF checklist takes the more
+    generalised approach of a single checklist with an “engine relight can/cannot be attempted”
+    fork. Relights come in “windmill” or “starter assisted” varieties. Windmill relights require
+    relatively high speeds (300kt/M.77 for CEO, 270kt/M.77 for NEO) and will thus reduce gliding
+    range: gliding range is 2½nm per 1000ft at green dot speed, reducing to 2nm per 1000ft at
+    windmill relight speeds. Since starter assist is only available below 20,000ft, attempting
+    windmill starts will cost up to 10nm of gliding range. On the flip side, there are a lot of
+    advantages to windmill starts: start attempts can be made simultaneously for both engines and
+    the APU is not required so start attempts can be commenced much earlier.</para>
+
+    <para>Windmill relights require flying at optimum relight speed, with the thrust levers at idle,
+    the engine masters on and the ENG MODE selector set to IGN. If relight has not occurred after 30
+    seconds, the combustion chambers are ventilated by selecting both the engine masters off for 30
+    seconds before turning them both on again to initiate a fresh attempt.</para>
+
+    <para>Starter assisted relights require bleed air from the APU. Starting of the APU from the
+    emergency generator is restricted to below FL250, and starter assisted starts are restricted to
+    below FL200. Since windmilling is not required, airspeed should be reduced to green dot while
+    attempting starter assisted relights. The APU bleed can only provide for one engine starter at a
+    time, and wing anti-ice must be off during the attempt. Ensure the APU bleed is on, the thrust
+    levers are at idle and the the ENG MODE SEL in set to IGN, then turn one engine master off for
+    30s and then back on. If unsuccessfull turn that master back to off and repeat the process with
+    the other engine. The master switch for an engine should be off for at least 30s between
+    attempted relights of that engine.</para>
+
+    <para>If a landing must be made without power, the EDF recommends CONF 3 and the AEF recommends
+    CONF 2 (flaps will be unavailable if yellow hydraulics have not been reinstated, so this amounts
+    to the same configuration). V<subscript>app</subscript> is available in each of the checklists;
+    it will always be at least 150kt to prevent RAT stall. The gear is available with gravity
+    extension. If only blue system hydraulics are available, the stabilizer will be frozen once
+    engine driven hydraulics are lost and elevator trimming will cease with transition to direct law
+    at gear extension. Therefore, for easier handling the gear extension should ideally be delayed
+    until CONF 3 and V<subscript>app</subscript> are reached. If ditching, do not extend the
+    gear.</para>
 
     <para>If an airfield can be reached, arrange to be inbound on the runway centreline at 4nm and
-    2400ft aal with CONF 1, S speed and gear up. To help achieve this, for a clean aircraft, the
-    following rules of thumb apply:
+    2400ft aal (giving a 6° glide to the threshold) with CONF 1, S speed and gear up. To help
+    achieve this, for a clean aircraft, the following rules of thumb apply:
     <itemizedlist>
       <listitem>
         <para>A standard one minute leg holding pattern loses 8000ft and an orbit loses 4000ft. Thus
@@ -2868,10 +2933,10 @@
     </itemizedlist>
 
     For the segment inbound from 4nm, macro adjustment of glide path is available through the timing
-    of gear and slat deployment, then micro adjustment is available from temporarily increasing
+    of gear and slat deployment (CONF 1, S speed, gear up gives about a 4½° glide; CONF 3, 150kt,
+    gear down gives about a 7½° glide), then micro adjustment is available from temporarily increasing
     speed above V<subscript>app</subscript>. If necessary, disregard slat limiting speeds. It is
-    better to land fast then long. CONF 3, gear down will give a glide ratio of approximately 850ft
-    per nm.</para>
+    better to land fast then long.</para>
 
     <para>If an airfield cannot be reached, refer to <xref linkend="ditching"/> or <xref
     linkend="forced-landing"/> as appropriate.</para>
