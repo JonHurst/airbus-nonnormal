@@ -836,7 +836,7 @@
     on and speed brakes retracted, blocked angle of attack vanes should be suspected.</para>
 
     <para>The solution is to force the flight computers into Alternate Law where the protection does
-    not apply. This is most conventiently done by turning off any two ADRs. Once in Alternate Law,
+    not apply. This is most conveniently done by turning off any two ADRs. Once in Alternate Law,
     the stall warning strip (red and black) becomes available. Since this may be receiving data from
     a blocked angle of attack vane, erroneous presentation is possible.</para>
 
