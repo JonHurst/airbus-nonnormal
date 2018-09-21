@@ -2843,10 +2843,10 @@
     Failure scenario:
 
     <itemizedlist>
-      <listitem><para>The QRH.AEP.MISC EMER LANDING ALL ENG FAILURE, was introduced in response to
-      the Hudson incident. It is designed to be a critical set of actions to be taken to configure
-      the aircraft for a forced landing or ditching when unable to maintain altitude after loss of
-      thrust near to the ground. EasyJet reproduces this checklist on the back of the normal
+      <listitem><para>The QRH.AEP.MISC EMER LANDING ALL ENG FAILURE checklist was introduced in
+      response to the Hudson incident. It is designed to be a critical set of actions to be taken to
+      configure the aircraft for a forced landing or ditching when unable to maintain altitude after
+      loss of thrust near to the ground. EasyJet reproduces this checklist on the back of the normal
       checklist for easy access. </para></listitem>
 
       <listitem><para>The QRH.AEP.ENG ALL ENG FAIL checklist. This replaces the QRH.AEP.ENG
