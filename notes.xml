@@ -40,6 +40,8 @@
       rewrote <xref linkend="dual-engine-failure"/> to account for the newly introduced QRH.AEP.MISC
       EMER LANDING ALL ENG FAILURE and QRH.AEP.ENG ALL ENG FAIL checklists.</para></listitem>
 
+      <listitem><para>Improved <xref linkend="emerg-elec-config"/>.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -1238,10 +1240,28 @@
     will recover rudder trim. Once 45 seconds have elapsed and when below FL250, the APU can be
     started.</para>
 
-    <para>So much equipment is lost in the emergency configuration that QRH AEP.ELEC provides a
-    table of surviving equipment. Notable losses are all the fuel pumps (so ignition on, avoid
-    negative G, center tank fuel is unusable), the anti-skid and three fifths of the
-    spoilers. Landing speeds and distances are increased significantly.</para>
+    <para revisionflag="changed">So much equipment is lost in the emergency configuration that
+    QRH AEP.ELEC provides a table of surviving equipment. Notable losses are:
+
+    <itemizedlist>
+      <listitem><para>All the fuel pumps, requiring Gravity Fuel Feeding procedures to be used (see
+      <xref linkend="gravity-feeding"/>) and making center tank fuel unusable.</para></listitem>
+
+      <listitem><para>The anti-skid, three fifths of the spoilers and the reversers. Combined with
+      the higher landing speeds required to prevent RAT stall this results in significantly
+      increased landing distances.</para></listitem>
+
+      <listitem><para>Normal Law. Anticipate Direct Law at gear extension and be prepared for a
+      Direct Law go around. Manual pitch trim is available.</para></listitem>
+
+      <listitem><para>Anti-icing for probes supplying the standby instruments: in case of
+      disagreement, go with the CM1 instruments.</para></listitem>
+
+      <listitem><para>Nose Wheel Steering. Use differential braking to clear the
+      runway.</para></listitem>
+
+    </itemizedlist>
+    </para>
 
     <para>QRH AEP.ELEC also provides a paper summary which should be applied once ECAM actions are
     complete.</para>
