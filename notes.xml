@@ -56,6 +56,9 @@
       last items. Airbus now mandate applying the emergency evacuation procedure, which results in
       the second engine being shut down in a much saner manner.</para></listitem>
 
+      <listitem><para>Added secton to <xref linkend="fuel-leak"/> to explain the different handling
+      of the new jet transfer pumps compared to electrical centre tank pumps.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -2221,6 +2224,16 @@
     confirm which it is, shut down the engine.  If the leak then stops, an engine leak is confirmed
     and the cross feed can be used. If not, a leak from the wing is most likely. In this case, an
     engine restart should be considered.</para>
+
+    <para revisionflag="added">The handling of the centre tank pumps in the presence of a fuel leak
+    is dependent on whether the aircraft is fitted with electrical centre tank pumps or with jet
+    transfer pumps. With the electrical centre tank pumps, centre tank fuel is fed to the engines
+    and a small amount is returned to the wing tank associated with the engine, resulting in a
+    modest rate of fuel transfer if the engine is running and none when it is not. The jet transfer
+    pumps, on the other hand, transfer fuel directly from centre tank to wing tank, regardless of
+    whether the associated engine is running. Therefore it is important not to run a jet transfer
+    pump if you suspect its associated wing tank has a leak.</para>
+
 
     <para>In an emergency, a landing may be carried out with maximum fuel imbalance.</para>
 
