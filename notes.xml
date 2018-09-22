@@ -50,6 +50,12 @@
       <listitem><para>Added statement to <xref linkend="direct-law"/> that landing will be Config
       3.</para></listitem>
 
+      <listitem><para>Updated <xref linkend="eng_fire"/>. Airbus previously required the shutting
+      down of the second engine as part of the engine fire on the ground procedure. This was always
+      pretty messy since when you lost the engine driven generator, you also lost the ECAM for the
+      last items. Airbus now mandate applying the emergency evacuation procedure, which results in
+      the second engine being shut down in a much saner manner.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -2136,10 +2142,10 @@
     the fire is not extinguished after 30 seconds, indicated by the fire button remaining lit,
     deploy the second bottle.</para>
 
-    <para>This sequence is modified on the ground in that both fire bottles are fired immediately,
-    and the remaining engine is then also shut down. Note that shutting down both engines without
-    the APU running will leave only batteries, resulting in loss of all COMS except VHF1 and loss of
-    ECAM reference for the final actions.</para>
+    <para revisionflag="changed">This sequence is modified on the ground in that both fire bottles
+    are fired immediately. Cross confirmation is not required for master switches or fire buttons
+    when operated on the ground. The emergency evacuation procedure is then applied (see <xref
+    linkend="evacuation"/>).</para>
 
     <para role="multicite">[<emphasis role="underline">ENG 1(2) FIRE</emphasis>,
     FCOM PRO.AEP.ENG]</para>
@@ -4393,10 +4399,6 @@
 
     <listitem><para>The AVIONICS SMOKE ECAM is non-standard. Do not run the procedure from the ECAM,
     use the QRH procedure instead.</para></listitem>
-
-    <listitem><para>The Engine Fire on the Ground procedure is non-standard. The FO must remember to
-    mitigate the effects of loss of electrical power (which includes loss of ECAM and non-emergency
-    lighting) before shutting down the second engine.</para></listitem>
 
     <listitem><para>Dual hydraulic failure fundamentals:
     <itemizedlist>
