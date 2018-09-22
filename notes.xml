@@ -42,6 +42,11 @@
 
       <listitem><para>Improved <xref linkend="emerg-elec-config"/>.</para></listitem>
 
+      <listitem><para>Added footnote to <xref linkend="flight-controls.slats-flaps-fault"/> to
+      explain that the recommendation for reducing speed below V<subscript>FE next</subscript> while
+      remaining above V<subscript>LS</subscript> when configuring in turbulence has been removed
+      from the QRH.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -1750,10 +1755,13 @@
     V<subscript>FE next</subscript> is computed from flap lever position. F and S speeds are
     essentially meaningless.</para>
 
-    <para>The recommended deployment method is to select speed to 5kt below
+    <para revisionflag="changed">The recommended deployment method is to select speed to 5kt below
     V<subscript>FE next</subscript> then select the next configuration as the speed reduces through
-    V<subscript>FE next</subscript>. To prevent overspeeds in case of turbulence, it is acceptable
-    to configure at lower speeds as long as speed remains above V<subscript>LS</subscript>. If
+    V<subscript>FE next</subscript>.<footnote><para revisionflag="added">Prior to the June 2017
+    update, the QRH stated that to prevent overspeeds in case of turbulence, it is acceptable to
+    configure at lower speeds as long as speed remains above V<subscript>LS</subscript>. This
+    statement has now been removed, most probably to improve the readability of what was a very
+    longwinded explanatory note.</para></footnote> If
     V<subscript>LS</subscript>&gt;V<subscript>FE next</subscript>, prioritise
     V<subscript>LS</subscript>: fly V<subscript>LS</subscript>, select the next configuration, then
     track V<subscript>LS</subscript> as it reduces with the extension of the lift device. Use of
