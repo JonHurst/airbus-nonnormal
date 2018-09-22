@@ -47,6 +47,9 @@
       remaining above V<subscript>LS</subscript> when configuring in turbulence has been removed
       from the QRH.</para></listitem>
 
+      <listitem><para>Added statement to <xref linkend="direct-law"/> that landing will be Config
+      3.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -1880,8 +1883,10 @@
     speeds. Use of manual thrust is recommended as power changes will result in pitch
     changes. Similarly, use of the speed brake will result in nose up pitch changes so it should be
     used with care. Protections are unavailable, so speed is limited to 320kt/0.77M and care must be
-    taken in GPWS or windshear manoeuvres. Approach speed is increased by 10kt and landing distances
-    increase by a factor of 1.2.</para>
+    taken in GPWS or windshear manoeuvres.</para>
+
+    <para revisionflag="added">Direct Law landings are Config 3; landing distances, in the absence
+    of other pertinent failures, are comparable to normal Config 3 landings.</para>
 
     <para>The major handling difficulty in direct law is the go-around. There
     is no compensation for the large pitch moment introduced by selecting TOGA power on the
