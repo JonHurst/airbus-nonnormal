@@ -2230,25 +2230,27 @@
     engine. It also possible that a fuel leak may be detected visually or by a smell of fuel in the
     cabin.</para>
 
-    <para>If a leak can be confirmed to be coming from an engine or pylon, the affected engine must
-    be shut down. In this case, cross-feeding is allowable. Otherwise, the cross-feed must be kept
+    <para revisionflag="changed">If a leak can be confirmed to be coming from an engine or pylon,
+    either visually or as indicated by excessive fuel flow, the affected engine must be shut
+    down. In this case, cross-feeding is allowable. Otherwise, the cross-feed must be kept
     closed.</para>
 
-    <para>If the leak cannot be confirmed to be originating from an engine or pylon, an attempt
-    should be made to identify the source of the leak by monitoring the inner tank depletion rates
-    with the crossfeed valve closed and the center tank pumps off.</para>
+    <para revisionflag="changed">If the leak cannot be confirmed to be originating from an engine or
+    pylon, an attempt should be made to identify the source of the leak by monitoring the inner tank
+    (or, for A321 NEO, wing tank) depletion rates with the crossfeed valve closed and the center
+    tank pumps off.</para>
 
-    <para>If depletion rates are similar, a leak from the center tank or from the APU feeding line
-    should be suspected. If there is a smell of fuel in the cabin, it is likely that the APU feeding
-    line is at fault and the APU should be turned off. Fuel from the center tank should be used once
-    one of the inner tanks has &lt;3000kg.<footnote><para>The logic here is strange. An unofficial
-    explanation of the requirement for &lt;3000kg in the inner tank was given to me: some of the
-    fuel lines from the center tank run through the wing tanks, so fuel from a center tank leak may
-    end up transferring to the wing tanks and with full wing tanks might be lost overboard by
-    venting the wing tank overflow. As for the APU feeding line leak, I would expect the left tank
-    to decrease faster than the right in this case; my guess is that the expectation is that an APU
-    feeding line leak will be detected as a smell in the cabin and the leak will be too small to
-    become apparent as an imbalance.</para></footnote></para>
+    <para revisionflag="changed">If depletion rates are similar, a leak from the center tank or from
+    the APU feeding line should be suspected. If there is a smell of fuel in the cabin, it is likely
+    that the APU feeding line is at fault and the APU should be turned off. Fuel from the center
+    tank should be used once one of the inner/wing tanks has &lt;3000kg.<footnote><para>The logic
+    here is strange. An unofficial explanation of the requirement for &lt;3000kg in the inner tank
+    was given to me: some of the fuel lines from the center tank run through the wing tanks, so fuel
+    from a center tank leak may end up transferring to the wing tanks and with full wing tanks might
+    be lost overboard by venting the wing tank overflow. As for the APU feeding line leak, I would
+    expect the left tank to decrease faster than the right in this case; my guess is that the
+    expectation is that an APU feeding line leak will be detected as a smell in the cabin and the
+    leak will be too small to become apparent as an imbalance.</para></footnote></para>
 
     <para>If, after 30 minutes, one tank has been depleted by 300kg more than the other, the
     location of leak is narrowed down to the engine or the wing on the more depleted side. To
@@ -2258,12 +2260,14 @@
 
     <para revisionflag="added">The handling of the centre tank pumps in the presence of a fuel leak
     is dependent on whether the aircraft is fitted with electrical centre tank pumps or with jet
-    transfer pumps. With the electrical centre tank pumps, centre tank fuel is fed to the engines
-    and a small amount is returned to the wing tank associated with the engine, resulting in a
-    modest rate of fuel transfer if the engine is running and none when it is not. The jet transfer
-    pumps, on the other hand, transfer fuel directly from centre tank to wing tank, regardless of
-    whether the associated engine is running. Therefore it is important not to run a jet transfer
-    pump if you suspect its associated wing tank has a leak.</para>
+    transfer pumps. When electrical centre tank pumps are on, no fuel is transferred between the
+    centre tank and the wing tank unless the engine associated with that wing tank is running. If an
+    engine <emphasis>is</emphasis> running with electrical centre tank pumps on, surplus fuel is
+    returned from the engine to the associated wing tank, and thus a fairly modest rate of transfer
+    occurs. The jet transfer pumps, on the other hand, transfer fuel directly from centre tank to
+    wing tank at a high rate regardless of whether the associated engine is running. It is therefore
+    important not to run a jet transfer pump if you suspect its associated wing tank has a leak
+    since significant extra fuel loss would likely occur.</para>
 
 
     <para>In an emergency, a landing may be carried out with maximum fuel imbalance.</para>
