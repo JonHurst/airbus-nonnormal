@@ -56,6 +56,9 @@
       last items. Airbus now mandate applying the emergency evacuation procedure, which results in
       the second engine being shut down in a much saner manner.</para></listitem>
 
+      <listitem><para>Addded section <xref linkend="fuel.differences"/> to provide a general
+      description of how fuel system differences affect fuel non-normals.</para></listitem>
+
       <listitem><para>Added secton to <xref linkend="fuel-leak"/> to explain the different handling
       of the new jet transfer pumps compared to electrical centre tank pumps.</para></listitem>
 
@@ -2190,6 +2193,29 @@
 <chapter>
   <title>Fuel</title>
 
+
+  <sect1 id="fuel.differences" revisionflag="added">
+    <title>Fuel system differences</title>
+
+    <para>The easyJet Airbus fleet has evolved to include a number of variations of the fuel
+    system. The two major variations, from the point of view of non-normals, are the replacement of
+    electrical centre tank pumps with jet transfer pumps on some airframes and the simplified tank
+    system of the A321 NEO where the normal outer and inner cells are replaced with a single wing
+    tank. In addition, some airframes are fitted with a centre tank fuel inerting system, but since
+    there are no cockpit controls for this, it doesn't affect the non-normal procedures.</para>
+
+    <para>The philosophy of centre tank jet transfer pumps is very different from that of the
+    electrical pumps. With the electric pumps, fuel is supplied directly from the centre tank to the
+    engines, and any transfer between centre tank and wing tank is a side effect of the fuel return
+    system. With the jet transfer pumps, fuel is only ever transferred from centre tanks to wing
+    tanks: it is always the wing tank pumps that supply pressurised fuel to the engines. The jet
+    transfer pumps themselves are also powered by the wing tank pumps: if there is a need to shut
+    down a jet transfer pump, that is achieved by turning off the associated wing pumps. This leads
+    to some subtle airframe dependent differences in non-normal fuel procedures.</para>
+
+    <para>The simplification of the wing tanks on the A321 NEO has less impact on non-normal
+    procedures: it is mainly a case of changing ECAM titles appropriately.</para>
+  </sect1>
   <sect1 id="fuel-leak">
     <title>Fuel leak</title>
 
