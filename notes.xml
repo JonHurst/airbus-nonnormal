@@ -67,6 +67,9 @@
       ambiguity that has been introduced into the gravity crossfeed section. My thanks to Pascal
       Zlatintsis for pointing this out.</para></listitem>
 
+      <listitem><para>Added <xref linkend="fuel.overread"/> to cover new A321NEO
+      procedure.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -2456,6 +2459,20 @@
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK HI TEMP,
     FCOM PRO.AEP.FUEL]</para>
   </sect1>
+
+
+  <sect1 id="fuel.overread">
+    <title>Fuel Overread</title>
+
+    <para>The A321NEO introduces a new QRH procedure to be followed when the <emphasis
+    role="underline">FUEL</emphasis> F.USED/FOB DISAGREE ECAM is triggered by FOB + FUEL USED being
+    <emphasis>greater</emphasis> than initial fuel on board, or when a manual fuel check indicates
+    the same condition. The important point is that the sensors for the low level alerts are
+    independent of the FQI system and may be relied upon; other fuel indications should be
+    disregarded. </para>
+
+    <para role="multicite">[QRH FUEL OVERREAD]</para>
+</sect1>
 
 </chapter>
 
