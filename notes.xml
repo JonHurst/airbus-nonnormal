@@ -42,6 +42,9 @@
 
       <listitem><para>Improved <xref linkend="emerg-elec-config"/>.</para></listitem>
 
+      <listitem><para>Added mitigation of loss of passenger oxygen masks to <xref
+      linkend="ac-ess"/>. My thanks to Jochen Radke for the suggestion.</para></listitem>
+
       <listitem><para>Added footnote to <xref linkend="flight-controls.slats-flaps-fault"/> to
       explain that the recommendation for reducing speed below V<subscript>FE next</subscript> while
       remaining above V<subscript>LS</subscript> when configuring in turbulence has been removed
@@ -1386,7 +1389,7 @@
   </sect1>
 
 
-  <sect1>
+  <sect1 id="ac-ess">
     <title>AC Ess Bus fault</title>
 
     <para>It may be possible to recover the bus by transferring its power source to AC BUS 2 with
@@ -1394,6 +1397,18 @@
     will be lost. The majority of this equipment has a redundant backup, with the loss of the
     Captain’s PFD and ND and a downgrade to Cat I being the major issues. Landing distances are
     unchanged.</para>
+
+    <para revisionflag="added">It is worth noting that loss of AC Ess Bus implies loss of Passenger
+    Oxygen masks. Where appropriate, this loss of redundancy can be mitigated by flying at a level
+    where descent to a safe altitude can be achieved without masks. The main form of guidance on
+    altitude hypoxia comes in the form of “Time of useful consciousness” tables. Working on the
+    principal that if you remain conscious you definitely remain alive, 25,000ft would seem to be a
+    good compromise. This gives you 2 to 3 minutes of useful consciousness to dive to 18,000ft,
+    where you would then have 30 minutes to clear any terrain.<footnote><para>These tables are
+    obviously not designed to be used in this way – the exposure to hypoxia in the descent will
+    likely impact the TOUC at 18,000ft, and we are really more concerned with survivability than
+    useful consciousness – but they can at least give a feeling for the parameters
+    involved.</para></footnote></para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> AC ESS BUS FAULT,
     FCOM PRO.AEP.ELEC]</para>
