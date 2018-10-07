@@ -75,6 +75,8 @@
       <listitem><para>Updated <xref linkend="auto-feed"/> to cover manual operation of both types of
       centre tank pump.</para></listitem>
 
+      <listitem><para>Added <xref linkend="fuel-overflow"/>.</para></listitem>
+
       <listitem><para>Updated <xref linkend="low-fuel"/> to include that the low fuel sensors are
       independent of the FQI system.</para></listitem>
 
@@ -2438,6 +2440,24 @@
     must also be switched off whenever the slats are extended.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> AUTO FEED(TRANSFER) FAULT,
+    FCOM PRO.AEP.FUEL]</para>
+  </sect1>
+
+
+  <sect1 id="fuel-overflow" revisionflag="added">
+    <title>Wing tank overflow</title>
+
+    <para>When center tank fuel transfers to a wing tank, either directly in the case of transfer
+    pumps of via the fuel return system in the case of electrical pumps, and that wing tank has no
+    space to accomodate it, that fuel will overflow.</para>
+
+    <para>To stop the overflow, the fuel transfer must cease. In the case of electrical centre tank
+    pumps, this is just a matter of switching the offending centre tank pump off. With jet transfer
+    pumps, switching the pump off may also be effective; if not, remove motive power of the
+    offending pump by switching off both of its associated wing pumps – pressurised fuel will be
+    available via crossfeed.</para>
+
+    <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) WING TK OVERFLOW,
     FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
