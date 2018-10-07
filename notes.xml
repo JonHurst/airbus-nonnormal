@@ -70,6 +70,8 @@
       ambiguity that has been introduced into the gravity crossfeed section. My thanks to Pascal
       Zlatintsis for pointing this out.</para></listitem>
 
+      <listitem><para>Added <xref linkend="ctr-xfr-fault"/>.</para></listitem>
+
       <listitem><para>Updated <xref linkend="auto-feed"/> to cover manual operation of both types of
       centre tank pump.</para></listitem>
 
@@ -2375,6 +2377,30 @@
     FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
+
+  <sect1 id="ctr-xfr-fault" revisionflag="added">
+    <title>Center tank transfer pump faults</title>
+
+    <para>Since the motive power for jet transfer pumps comes from their associated wing tank pumps,
+    their main failure mode is failure of their associated center transfer valve.</para>
+
+    <para>If a valve fails in a not fully closed position, fuel may continue to be transferred to
+    the wing tank even when it is full, and will thus overflow. Selecting the transfer pump off may
+    be effective; otherwise the jet transfer pump's motive power is removed by switching off its
+    associated wing tank pumps, with the wing tank pumps from the unaffected side supplying both
+    engines until the centre tank is empty. If both sides fail in this way, all that can be done is
+    to turn the center tank transfer pumps off; it may not be possible to prevent fuel
+    overflow.</para>
+
+    <para>If a valve fails in a not fully open position, fuel may not be transferred between center
+    tank and wing tank on the affected side. Manual control of the transfer pumps may be effective;
+    if not, feeding both engines with the wing tank pumps of the unaffected side until the centre
+    tank is empty is once again the solution. If both sides fail in this way and manual control is
+    not effective, 2T of centre tank fuel are unusable; the rest is available by gravity.</para>
+
+    <para role="multicite">[<emphasis role="underline">FUEL</emphasis> CTR L(R)(L+R) XFR FAULT,
+    FCOM PRO.AEP.FUEL]</para>
+  </sect1>
 
   <sect1 id="auto-feed" revisionflag="changed">
     <title>Auto feed/transfer fault</title>
