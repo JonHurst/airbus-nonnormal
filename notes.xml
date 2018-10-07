@@ -2230,11 +2230,16 @@
     <para>The philosophy of centre tank jet transfer pumps is very different from that of the
     electrical pumps. With the electric pumps, fuel is supplied directly from the centre tank to the
     engines, and any transfer between centre tank and wing tank is a side effect of the fuel return
-    system. With the jet transfer pumps, fuel is only ever transferred from centre tanks to wing
+    system. With the jet transfer pumps, fuel is only ever transferred from the centre tank to wing
     tanks: it is always the wing tank pumps that supply pressurised fuel to the engines. The jet
     transfer pumps themselves are also powered by the wing tank pumps: if there is a need to shut
-    down a jet transfer pump, that is achieved by turning off the associated wing pumps. This leads
-    to some subtle airframe dependent differences in non-normal fuel procedures.</para>
+    down a jet transfer pump, that is achieved by turning off the associated wing pumps. There also
+    appears to be some scope for gravity feeding from the centre tank when jet pumps are fitted
+    (although 2T of centre tank fuel will still be unusable),<footnote><para>This information only
+    appears in the FUEL CTR L+R XFR FAULT checklist. I have requested further information and will
+    update once I get a response.</para></footnote> something that is not possible with the
+    electrical pumps. This leads to some subtle airframe dependent differences in non-normal fuel
+    procedures.</para>
 
     <para>The simplification of the wing tanks on the A321 NEO has less impact on non-normal
     procedures: it is mainly a case of changing ECAM titles appropriately.</para>
