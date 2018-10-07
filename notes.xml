@@ -88,6 +88,9 @@
       <listitem><para>Added <xref linkend="fuel.overread"/> to cover new A321NEO
       procedure.</para></listitem>
 
+      <listitem><para>Added additional information to <xref
+      linkend="lgciu-fault"/>.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -2777,7 +2780,7 @@
   </sect1>
 
 
-  <sect1>
+  <sect1 id="lgciu-fault">
     <title>LGCIU fault</title>
 
     <para>The FADECs use LGCIU input to determine idle mode. If a LGCIU is determined to be faulty,
@@ -2787,9 +2790,11 @@
     <para>The GPWS uses LGCIU 1 to determine landing gear position. If this LGCIU is faulty, the
     GPWS will need to be inhibited to prevent spurious warnings.</para>
 
-    <para>If both LGCIUs are lost, normal landing gear control and indicating systems are lost. The
-    gear must be gravity extended (see <xref linkend="gear-gravity-extension"/>).<!-- {TODO:
-    Autopilot and autothrust are also lost – --> <!-- find out why this is} --></para>
+    <para revisionflag="changed">If both LGCIUs are lost, normal landing gear control and indicating
+    systems are lost. The gear must be gravity extended (see <xref
+    linkend="gear-gravity-extension"/>). Additionally, the autopilots and autothrust are lost
+    (normal law remains available) and wing anti-ice is limited to 30s of heating (i.e. the ground
+    test), the only indication of which is a "no Anti-Ice" message on the BLEED SD page.</para>
 
     <para role="multicite">[<emphasis role="underline">L/G</emphasis> LGCIU 1(2) FAULT,
     FCOM PRO.AEP.L/G]</para>
