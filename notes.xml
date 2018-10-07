@@ -91,6 +91,9 @@
       <listitem><para>Added additional information to <xref
       linkend="lgciu-fault"/>.</para></listitem>
 
+      <listitem><para>Added explanation of why released brakes always leads to asymmetric braking to
+      <xref linkend="released-brakes.alternate"/></para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -2990,13 +2993,14 @@
   </sect1>
 
 
-  <sect1>
+  <sect1 id="released-brakes.alternate">
     <title>Released brakes, alternate system</title>
 
-    <para>The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
+    <para revisionflag="changed">The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
     linkend="released-normal-brakes"/>). If this test is failed, normal braking can be expected as
     long as the normal braking system is active. If the alternate braking system is active, braking
-    will be asymmetric (see <xref linkend="asymmetric-braking"/>).</para>
+    will be asymmetric (see <xref linkend="asymmetric-braking"/>) because released brakes occur in
+    pairs with the alternate braking system.</para>
 
     <para role="multicite">[<emphasis role="underline">BRAKES</emphasis> ALTN L(R) RELEASED,
     FCOM PRO.AEP.BRAKES]</para>
