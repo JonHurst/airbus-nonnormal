@@ -80,6 +80,11 @@
       <listitem><para>Updated <xref linkend="low-fuel"/> to include that the low fuel sensors are
       independent of the FQI system.</para></listitem>
 
+      <listitem><para>Updated <xref linkend="low-fuel-temp"/> with A321 data.</para></listitem>
+
+      <listitem><para>Updated <xref linkend="high-fuel-temp"/> with A321 wing tank
+      data.</para></listitem>
+
       <listitem><para>Added <xref linkend="fuel.overread"/> to cover new A321NEO
       procedure.</para></listitem>
 
@@ -2493,8 +2498,6 @@
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) XFR VALVE CLOSED,
     FCOM PRO.AEP.FUEL]</para>
   </sect1>
-
-
   <sect1>
     <title>Outer tank transfer valve open out of sequence</title>
 
@@ -2517,40 +2520,43 @@
   </sect1>
 
 
-  <sect1>
+  <sect1 id="low-fuel-temp">
     <title>Low fuel temperature</title>
 
-    <para>ECAM is triggered at approx -43°C. If on the ground, delay takeoff until temperatures are
-    within limits. If in flight, descending or increasing speed should be considered.</para>
+    <para revisionflag="changed">ECAM is triggered at approx -43°C for A319/A320 and -44°C for
+    A321. If on the ground, delay takeoff until temperatures are within limits. If in flight,
+    descending or increasing speed should be considered.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK LO TEMP,
     FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
 
-  <sect1>
+  <sect1 id="high-fuel-temp">
     <title>High fuel temperature</title>
 
     <para>This ECAM is known to be triggered spuriously by interference from communication
     equipment. The procedure should only be applied if the message has not disappeared within 2
     minutes.</para>
 
-    <para>The ECAM temperature triggers on the ground are 55°C for the outer cell and 45°C for the
-    inner cell. In the air they are 60°C for the outer cell and 54°C for the inner cell.</para>
+    <para revisionflag="changed">The ECAM temperature triggers on the ground are 55°C for an outer
+    cell and 45°C for an inner cell or A321 wing tank. In the air they are 60°C for an outer cell
+    and 54°C for an inner cell or A321 wing tank.</para>
 
     <para>The temperature of fuel returning to the tanks is primarily a function of IDG cooling
     requirement. The immediate action, therefore is to turn the galley off to reduce the IDG
     load.</para>
 
-    <para>On the ground, the engine on the affected side must be shut down if the outer cell reaches
-    60°C or the inner cell reaches 54°C. An expeditious taxi may, therefore, be advantageous.</para>
+    <para revisionflag="changed">On the ground, the engine on the affected side must be shut down if
+    an outer cell reaches 60°C, an inner cell reaches 54°C or, for the A321, the wing tank reaches
+    55°C. An expeditious taxi may, therefore, be advantageous.</para>
 
-    <para>In the air, if only one side is affected, fuel flow can be increased so that less hot fuel
-    is returned to the tanks. If the temperature gets too high (&gt;65°C outer or &gt;57° inner),
+    <para revisionflag="changed">In the air, if only one side is affected, fuel flow can be increased so that less hot fuel
+    is returned to the tanks. If the temperature gets too high (&gt;65°C outer or &gt;57° inner/wing),
     IDG disconnection will be required. The engine must be running when the IDG button is pressed,
     and it must not be held for more than 3 seconds.[FCOM SYS.24.20]</para>
 
-    <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) OUTER(INNER) TK HI TEMP,
+    <para role="multicite">[<emphasis role="underline">FUEL</emphasis> L(R) OUTER(INNER)(WING) TK HI TEMP,
     FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
