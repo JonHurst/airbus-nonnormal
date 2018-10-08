@@ -62,7 +62,7 @@
       <listitem><para>Added section <xref linkend="fuel.differences"/> to provide a general
       description of how fuel system differences affect fuel non-normals.</para></listitem>
 
-      <listitem><para>Added secton to <xref linkend="fuel-leak"/> to explain the different handling
+      <listitem><para>Added section to <xref linkend="fuel-leak"/> to explain the different handling
       of the new jet transfer pumps compared to electrical center tank pumps.</para></listitem>
 
       <listitem><para>Updated <xref linkend="gravity-feeding"/> to remove specific details of the
@@ -279,7 +279,7 @@
     confirmed by PNF. PNF is responsible for everything else, but movement of engine master
     switches, IR selectors and any guarded switch must be confirmed with PF.</para>
 
-    <para>PNF indicates high priorty tasks are completed with the phrase “Engine is secure.”  This
+    <para>PNF indicates high priority tasks are completed with the phrase “Engine is secure.”  This
     call is not official SOP (i.e. it is not mentioned in any manual), but has evolved to be
     standard in the sim since it is PF’s trigger to interrupt ECAM and accelerate.  High priority
     tasks are defined as:
@@ -744,7 +744,7 @@
     decay is often very rapid, requiring descent initiation to be prioritised.</para>
 
     <para>Once drift down has been initiated, a decision needs to be made about speed. If obstacles
-    are a concern, the lowest drift down rate and highest ceiling are acheived at green dot. Airbus
+    are a concern, the lowest drift down rate and highest ceiling are achieved at green dot. Airbus
     refers to drifting down at green dot as “Obstacle strategy”. Flying at green dot reduces the
     chance of the FADECs automatically relighting the failed engine as the engine will be
     windmilling more slowly. Therefore, if obstacles are not a concern, M.78/300kt is flown, a speed
@@ -891,7 +891,7 @@
     <title>Abnormal V Alpha Prot</title>
     <para>If two or more angle of attack vanes become blocked at the same angle during climb, alpha
     floor protection will be activated once a Mach number is reached where the angle of attack at
-    which the vanes were blocked becomes indicitive of an incipient stall condition. Since the
+    which the vanes were blocked becomes indicative of an incipient stall condition. Since the
     flight computer's attempts to reduce angle of attack will not be registered by the blocked
     vanes, a continuous nose down pitch rate which cannot be stopped with sidestick inputs will
     result.</para>
@@ -929,7 +929,7 @@
   <sect1 id="volcanic">
     <title>Volcanic Ash Encounter</title>
 
-    <para>Volcanic ash clouds are usually extensive, so the quickest exit will be acheived by a 180°
+    <para>Volcanic ash clouds are usually extensive, so the quickest exit will be achieved by a 180°
     turn.</para>
 
     <para>Air quality may be affected, so crew oxygen masks should be donned with 100% oxygen to
@@ -1872,7 +1872,7 @@
 
     <para>Each SFCC has fully independent slat and flap channels. A failure of a channel in a single
     controller will lead to slow operation of the associated surfaces. In addition, the flap channel
-    of SFCC1 provides input to the idle control part of the FADECs and to the EGPWC.</para>
+    of SFCC1 provides input to the idle control part of the FADECs and to the EGPWS.</para>
 
     <para>Failure of both flap channels or failure of both slat channels is covered in <xref
     linkend="flight-controls.slats-flaps-fault"/>. </para>
@@ -2138,7 +2138,7 @@
     blower and extract fans to OVRD, turn off the cabin fans and turn off the galleys.</para>
 
     <para>Where the source is immediately obvious, accessible and
-    extinguishable, isolate the faulty equipment. Otherwise the QRH provides seperate drills for
+    extinguishable, isolate the faulty equipment. Otherwise the QRH provides separate drills for
     suspected air conditioning smoke, suspected cabin equipment smoke or suspected avionics/
     electrical smoke. In addition the avionics/ electrical smoke drill includes undetermined and
     continuing smoke sources.</para>
@@ -2370,7 +2370,7 @@
     recently (June 2017) been cleaned up by moving an explanatory note into a branch title, but this
     has had the effect of changing the apparent intention. Previously, gravity cross feeding was
     indicated when single engine and required “for aircraft handling” (i.e. it could generally be
-    disregarded), wheras with the update the procedure is indicated whenever gravity feeding on a
+    disregarded), whereas with the update the procedure is indicated whenever gravity feeding on a
     single engine. Clarification has been requested from Airbus via the easyJet Technical Manager,
     and these notes will be updated once a response is received.</para>
 
@@ -2472,7 +2472,7 @@
 
     <para>When center tank fuel transfers to a wing tank, either directly in the case of transfer
     pumps of via the fuel return system in the case of electrical pumps, and that wing tank has no
-    space to accomodate it, that fuel will overflow.</para>
+    space to accommodate it, that fuel will overflow.</para>
 
     <para>To stop the overflow, the fuel transfer must cease. In the case of electrical center tank
     pumps, this is just a matter of switching the offending center tank pump off. With jet transfer
@@ -3309,7 +3309,7 @@
     high EGT and/ or rapid EGT rise when the thrust lever is advanced.</para>
 
     <para revisionflag="added">A variety of FADECs are fitted within the easyJet fleet. The earlier
-    FADECs do not trigger an ECAM warning if N2 is above idle, wheras the later FADECs are more
+    FADECs do not trigger an ECAM warning if N2 is above idle, whereas the later FADECs are more
     capable. The FCTM warns that all FADECs may fail to detect engine stalls in some cases. Crew
     must therefore be ready to diagnose engine stalls on the basis of the above symptoms and apply
     the QRH procedures where necessary.</para>
@@ -3323,7 +3323,7 @@
     idle and the engine parameters checked. If the engine parameters remain abnormal, the engine is
     shut down. If, however, the parameters return to normal, stall margin is increased by turning on
     anti-icing<footnote><para>The new QRH procedure for the NEO requires wing anti-ice be turned on
-    wheras that for the CEO requires engine anti-ice be turned on, but both then go on to mention
+    whereas that for the CEO requires engine anti-ice be turned on, but both then go on to mention
     that stall margin is increased by turning on both, albeit at a cost of increased EGT. The old
     QRH procedure did turn on all relevant anti-icing. I have requested more information and will
     update this section when I get a response.</para></footnote> and the thrust levers are slowly
@@ -3661,7 +3661,7 @@
   <sect1 id="egpws">
     <title>EGPWS alerts <emphasis>(memory item)</emphasis></title>
 
-    <para>EPGWS alerts can be categorised into warnings and cautions. A warning is any alert with
+    <para>EGPWS alerts can be categorised into warnings and cautions. A warning is any alert with
     the instruction “Pull up” or “Avoid” attached. All other alerts are cautions. A warning may be
     downgraded to a caution if flying in daylight VMC and positive visual verification is made that
     no hazard exists, or if an applicable nuisance warning notice is promulgated in Company
@@ -3852,7 +3852,7 @@
     FAULT procedure first.</para>
 
     <para>A single IR fault will simply require ATT/HDG switching. This may lead to loss of the
-    extended functions of the EPGWS and/or loss of TCAS. It may be possible to recover the IR in ATT
+    extended functions of the EGPWS and/or loss of TCAS. It may be possible to recover the IR in ATT
     mode (see <xref linkend="att-mode"/>).</para>
 
     <para>A dual IR fault will lead to loss of PFD indications on at least one side so use ATT/HDG
@@ -4332,7 +4332,7 @@
 
     <para>In the air, just allow the failed side to be continually anti-iced and use wing anti-ice
     on the working side when required. A thrust limit penalty will apply. On the ground, isolate and
-    depressurize the pneumatic system on the failed side.</para>
+    depressurise the pneumatic system on the failed side.</para>
 
     <para role="multicite">[<emphasis role="underline">WING ANTI ICE</emphasis> L(R) VALVE OPEN,
     FCOM PRO.AEP.A-ICE]</para>
