@@ -94,6 +94,9 @@
       <listitem><para>Added explanation of why released brakes always leads to asymmetric braking to
       <xref linkend="released-brakes.alternate"/></para></listitem>
 
+      <listitem><para>Updated <xref linkend="engine-stall"/> to account for fleet variations in
+      FADEC modification level and the new QRH procedures.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -3294,19 +3297,29 @@
 
     <para>A stall is indicated by abnormal engine noise, flame from the engine exhaust (and possibly
     inlet in extreme cases), fluctuating performance parameters, sluggish thrust lever response,
-    high EGT and/ or rapid EGT rise when the thrust lever is advanced. The ECAM warning will be
-    triggered when N2 is between 50% and idle (approx 60%). If N2 is above idle, the QRH should be
-    used.</para>
+    high EGT and/ or rapid EGT rise when the thrust lever is advanced.</para>
 
-    <para>The ECAM simply instructs the master switch to be turned off, and then secures the engine
-    using the after engine shut down procedure (see <xref linkend="engine-shut-down"/>). This
-    procedure should also be followed if a stall occurs on the ground.</para>
+    <para revisionflag="added">A variety of FADECs are fitted within the easyJet fleet. The earlier
+    FADECs do not trigger an ECAM warning if N2 is above idle, wheras the later FADECs are more
+    capable. The FCTM warns that all FADECs may fail to detect engine stalls in some cases. Crew
+    must therefore be ready to diagnose engine stalls on the basis of the above symptoms and apply
+    the QRH procedures where necessary.</para>
 
-    <para>In flight, if no ECAM is triggered, the affected thrust lever should be retarded to
-    idle. If the engine parameters remain abnormal, shut the engine down with the master switch. If
-    the parameters are normal, turn on all the anti-icing to increase bleed demand and slowly
-    advance the thrust lever. If the stall recurs, the engine can be operated at low thrust
-    settings, otherwise it can be operated normally.</para>
+    <para revisionflag="added">If an engine stall occurs on the ground, shut the engine down.</para>
+
+    <para revisionflag="changed">When an engine stall occurs in flight, the response is airframe
+    specific. For the earlier FADECs, if an ECAM is triggered, the engine is simply shut down.  In
+    all other cases (no ECAM triggered on earlier FADECs; later FADECs) an attempt is made to
+    contain the stall without shutting down the engine. The affected thrust lever is retarded to
+    idle and the engine parameters checked. If the engine parameters remain abnormal, the engine is
+    shut down. If, however, the parameters return to normal, stall margin is increased by turning on
+    anti-icing<footnote><para>The new QRH procedure for the NEO requires wing anti-ice be turned on
+    wheras that for the CEO requires engine anti-ice be turned on, but both then go on to mention
+    that stall margin is increased by turning on both, albeit at a cost of increased EGT. The old
+    QRH procedure did turn on all relevant anti-icing. I have requested more information and will
+    update this section when I get a response.</para></footnote> and the thrust levers are slowly
+    advanced. If the stall recurs, the engine can be operated at low thrust settings, otherwise it
+    can be operated normally.</para>
 
     <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> STALL, QRH AEP.ENG,
     FCOM PRO.AEP.ENG]</para>
