@@ -63,7 +63,7 @@
       description of how fuel system differences affect fuel non-normals.</para></listitem>
 
       <listitem><para>Added secton to <xref linkend="fuel-leak"/> to explain the different handling
-      of the new jet transfer pumps compared to electrical centre tank pumps.</para></listitem>
+      of the new jet transfer pumps compared to electrical center tank pumps.</para></listitem>
 
       <listitem><para>Updated <xref linkend="gravity-feeding"/> to remove specific details of the
       gravity feed ceiling algorithm since this is now airframe specific. Also added details of the
@@ -73,7 +73,7 @@
       <listitem><para>Added <xref linkend="ctr-xfr-fault"/>.</para></listitem>
 
       <listitem><para>Updated <xref linkend="auto-feed"/> to cover manual operation of both types of
-      centre tank pump.</para></listitem>
+      center tank pump.</para></listitem>
 
       <listitem><para>Added <xref linkend="fuel-overflow"/>.</para></listitem>
 
@@ -813,13 +813,13 @@
     <para>To recover from a fully stalled condition, the angle of attack of the aerofoils must be
     reduced to below critical. The generic stall recovery is therefore simply to pitch the nose down
     sufficiently to break the stall and level the wings. In normal operations, the velocity vector
-    of the aircraft is around 3° below the centreline of the aircraft (i.e. an attitude of around 3°
+    of the aircraft is around 3° below the centerline of the aircraft (i.e. an attitude of around 3°
     is required to fly level). In a stalled condition, the velocity vector may be 40° or more below
-    the centreline of the aircraft. Thus the amount of pitch down required to recover a fully
+    the centerline of the aircraft. Thus the amount of pitch down required to recover a fully
     stalled aircraft can be 30° or more.</para>
 
     <para>The aircraft's thrust vector helps to accelerate the aircraft during the recovery, and
-    increasing speed along the aircraft's centreline acts to reduce the stalled angle of
+    increasing speed along the aircraft's centerline acts to reduce the stalled angle of
     attack. Thus, while thrust is not a primary means of recovery, it does help. Unfortunately,
     Airbus have determined that due to the pitch couple associated with underslung engines, there
     may be insufficient longitudinal control authority to pitch the aircraft sufficiently to recover
@@ -1859,7 +1859,7 @@
     max operating speed should be flown. If it is the slats that are jammed or if the flaps are
     jammed at 0, clean configuration can be used to transit to a diversion airfield.</para>
 
-    <para>Other issues include the possible loss of the automatic operation of the centre tank pumps
+    <para>Other issues include the possible loss of the automatic operation of the center tank pumps
     (which is sequenced to the slats) and possible reversion to Alternate Law.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FLAPS(SLATS) FAULT(LOCKED),
@@ -2250,20 +2250,20 @@
 
     <para>The easyJet Airbus fleet has evolved to include a number of variations of the fuel
     system. The two major variations, from the point of view of non-normals, are the replacement of
-    electrical centre tank pumps with jet transfer pumps on some airframes and the simplified tank
+    electrical center tank pumps with jet transfer pumps on some airframes and the simplified tank
     system of the A321 NEO where the normal outer and inner cells are replaced with a single wing
-    tank. In addition, some airframes are fitted with a centre tank fuel inerting system, but since
+    tank. In addition, some airframes are fitted with a center tank fuel inerting system, but since
     there are no cockpit controls for this, it doesn't affect the non-normal procedures.</para>
 
-    <para>The philosophy of centre tank jet transfer pumps is very different from that of the
-    electrical pumps. With the electric pumps, fuel is supplied directly from the centre tank to the
-    engines, and any transfer between centre tank and wing tank is a side effect of the fuel return
-    system. With the jet transfer pumps, fuel is only ever transferred from the centre tank to wing
+    <para>The philosophy of center tank jet transfer pumps is very different from that of the
+    electrical pumps. With the electric pumps, fuel is supplied directly from the center tank to the
+    engines, and any transfer between center tank and wing tank is a side effect of the fuel return
+    system. With the jet transfer pumps, fuel is only ever transferred from the center tank to wing
     tanks: it is always the wing tank pumps that supply pressurised fuel to the engines. The jet
     transfer pumps themselves are also powered by the wing tank pumps: if there is a need to shut
     down a jet transfer pump, that is achieved by turning off the associated wing pumps. There also
-    appears to be some scope for gravity feeding from the centre tank when jet pumps are fitted
-    (although 2T of centre tank fuel will still be unusable),<footnote><para>This information only
+    appears to be some scope for gravity feeding from the center tank when jet pumps are fitted
+    (although 2T of center tank fuel will still be unusable),<footnote><para>This information only
     appears in the FUEL CTR L+R XFR FAULT checklist. I have requested further information and will
     update once I get a response.</para></footnote> something that is not possible with the
     electrical pumps. This leads to some subtle airframe dependent differences in non-normal fuel
@@ -2314,13 +2314,13 @@
     and the cross feed can be used. If not, a leak from the wing is most likely. In this case, an
     engine restart should be considered.</para>
 
-    <para revisionflag="added">The handling of the centre tank pumps in the presence of a fuel leak
-    is dependent on whether the aircraft is fitted with electrical centre tank pumps or with jet
-    transfer pumps. When electrical centre tank pumps are on, no fuel is transferred between the
-    centre tank and the wing tank unless the engine associated with that wing tank is running. If an
-    engine <emphasis>is</emphasis> running with electrical centre tank pumps on, surplus fuel is
+    <para revisionflag="added">The handling of the center tank pumps in the presence of a fuel leak
+    is dependent on whether the aircraft is fitted with electrical center tank pumps or with jet
+    transfer pumps. When electrical center tank pumps are on, no fuel is transferred between the
+    center tank and the wing tank unless the engine associated with that wing tank is running. If an
+    engine <emphasis>is</emphasis> running with electrical center tank pumps on, surplus fuel is
     returned from the engine to the associated wing tank, and thus a fairly modest rate of transfer
-    occurs. The jet transfer pumps, on the other hand, transfer fuel directly from centre tank to
+    occurs. The jet transfer pumps, on the other hand, transfer fuel directly from center tank to
     wing tank at a high rate regardless of whether the associated engine is running. It is therefore
     important not to run a jet transfer pump if you suspect its associated wing tank has a leak
     since significant extra fuel loss would likely occur.</para>
@@ -2421,15 +2421,15 @@
     the wing tank even when it is full, and will thus overflow. Selecting the transfer pump off may
     be effective; otherwise the jet transfer pump's motive power is removed by switching off its
     associated wing tank pumps, with the wing tank pumps from the unaffected side supplying both
-    engines until the centre tank is empty. If both sides fail in this way, all that can be done is
+    engines until the center tank is empty. If both sides fail in this way, all that can be done is
     to turn the center tank transfer pumps off; it may not be possible to prevent fuel
     overflow.</para>
 
     <para>If a valve fails in a not fully open position, fuel may not be transferred between center
     tank and wing tank on the affected side. Manual control of the transfer pumps may be effective;
-    if not, feeding both engines with the wing tank pumps of the unaffected side until the centre
+    if not, feeding both engines with the wing tank pumps of the unaffected side until the center
     tank is empty is once again the solution. If both sides fail in this way and manual control is
-    not effective, 2T of centre tank fuel are unusable; the rest is available by gravity.</para>
+    not effective, 2T of center tank fuel are unusable; the rest is available by gravity.</para>
 
     <para role="multicite">[<emphasis role="underline">FUEL</emphasis> CTR L(R)(L+R) XFR FAULT,
     FCOM PRO.AEP.FUEL]</para>
@@ -2438,27 +2438,27 @@
   <sect1 id="auto-feed" revisionflag="changed">
     <title>Auto feed/transfer fault</title>
 
-    <para>Whenever centre tank fuel is being used, fuel is transferred from the centre tank to the
+    <para>Whenever center tank fuel is being used, fuel is transferred from the center tank to the
     wing tanks. In the case of jet transfer pumps this is a direct transfer; in the case of
-    electrical pumps it is via the fuel return system. Centre tank fuel can thus only be used when
+    electrical pumps it is via the fuel return system. Center tank fuel can thus only be used when
     there is space in the wing tanks to receive this transferred fuel. The pumps therefore
     automatically cycle on and off, starting when there is space for 500kg in the wing tanks and
-    stopping when the wing tanks are full, until such time as the centre tank fuel is exhausted. In
-    addition, electrical centre tank pumps are inhibited whenever the slats are
+    stopping when the wing tanks are full, until such time as the center tank fuel is exhausted. In
+    addition, electrical center tank pumps are inhibited whenever the slats are
     extended.<footnote><para>As always with Airbus, there is an exception. If there is fuel in the
-    centre tank, each electrical centre tank pump will operate for two minutes after its associated
-    engine is started, regardless of slat selection, to pre-pressurise the centre tank fuel
+    center tank, each electrical center tank pump will operate for two minutes after its associated
+    engine is started, regardless of slat selection, to pre-pressurise the center tank fuel
     lines.</para></footnote></para>
 
-    <para>Malfunction of the automatic cycling of the centre tank pumps (electrical or jet transfer)
-    is identified by the presence of more than 250kg of fuel in the centre tank when there is less
+    <para>Malfunction of the automatic cycling of the center tank pumps (electrical or jet transfer)
+    is identified by the presence of more than 250kg of fuel in the center tank when there is less
     than 5000kg in one of the wing tanks. Malfunction of automatic control of electrical pumps is
-    also indicated when they continue to run when slats are extended or the centre tank is
+    also indicated when they continue to run when slats are extended or the center tank is
     empty.</para>
 
     <para>If the automatic control has malfunctioned, the cycling of the center tank pumps must be
     managed manually. For both types of pump, they should be switched on whenever one of the wing
-    tanks has less than 5000kg fuel and centre tank fuel remains, and switched off when one of the
+    tanks has less than 5000kg fuel and center tank fuel remains, and switched off when one of the
     wing tanks is full or the center tank fuel is exhausted. In the case of electrical pumps, they
     must also be switched off whenever the slats are extended.</para>
 
@@ -2474,8 +2474,8 @@
     pumps of via the fuel return system in the case of electrical pumps, and that wing tank has no
     space to accomodate it, that fuel will overflow.</para>
 
-    <para>To stop the overflow, the fuel transfer must cease. In the case of electrical centre tank
-    pumps, this is just a matter of switching the offending centre tank pump off. With jet transfer
+    <para>To stop the overflow, the fuel transfer must cease. In the case of electrical center tank
+    pumps, this is just a matter of switching the offending center tank pump off. With jet transfer
     pumps, switching the pump off may also be effective; if not, remove motive power of the
     offending pump by switching off both of its associated wing pumps – pressurised fuel will be
     available via crossfeed.</para>
@@ -3149,7 +3149,7 @@
     until CONF 3 and V<subscript>app</subscript> are reached. If ditching, do not extend the
     gear.</para>
 
-    <para>If an airfield can be reached, arrange to be inbound on the runway centreline at 4nm and
+    <para>If an airfield can be reached, arrange to be inbound on the runway centerline at 4nm and
     2400ft aal (giving a 6° glide to the threshold) with CONF 1, S speed and gear up. To help
     achieve this, for a clean aircraft, the following rules of thumb apply:
     <itemizedlist>
