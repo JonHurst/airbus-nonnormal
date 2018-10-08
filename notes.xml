@@ -103,6 +103,9 @@
       <listitem><para>Updated <xref linkend="rnav-downgrade"/>. It is now OK to continue an RNAV
       approach with NAV ACCUR DOWNGRAD on one side.</para></listitem>
 
+      <listitem><para>Updated <xref linkend="ra-faults"/> with recommendation from FCTM to fly final
+      stages of the approach raw data due to lack of autopilot gain updating.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -3825,16 +3828,20 @@
   </sect1>
 
 
-  <sect1>
+  <sect1 id="ra-faults">
     <title>RA faults</title>
 
-    <para>A single RA fault results in degradation of approach capability to Cat II. Loss of both
-    RAs will lead to direct law at landing gear extension and a loss of ILS APPR mode
-    capability. Therefore, landing will be CONF 3 with associated corrections, the approach should
-    be flown in LOC and FPA and autopilot disconnect should be anticipated at gear extension.</para>
+    <para>A single RA fault results in degradation of approach capability to Cat II.</para>
+
+    <para revisionflag="changed">Loss of both RAs will lead to Direct Law at landing gear extension
+    and a loss of ILS APPR mode capability. Therefore, landing will be CONF 3 with associated
+    corrections and the approach should be flown in LOC and FPA. The FCTM recommends that the final
+    stages of the approach are flown raw data as the autopilot gains are not being updated and
+    autopilot performance is likely to be unsatisfactory. Height callouts are not
+    available.</para>
 
     <para role="multicite">[<emphasis role="underline">NAV</emphasis> RA 1(2) FAULT,
-    FCOM PRO.AEP.NAV]</para>
+    FCOM PRO.AEP.NAV, FCTM AEP.NAV]</para>
   </sect1>
 
 
