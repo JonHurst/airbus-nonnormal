@@ -100,6 +100,9 @@
       <listitem><para>Updated <xref linkend="reverser-unlocked"/> with NEO
       procedure.</para></listitem>
 
+      <listitem><para>Updated <xref linkend="rnav-downgrade"/>. It is now OK to continue an RNAV
+      approach with NAV ACCUR DOWNGRAD on one side.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -3730,9 +3733,9 @@
     <para>The following messages indicate loss of RNAV capability:
 
     <itemizedlist>
-      <listitem><para>NAV ACCUR DOWNGRAD (MCDU and ND)<footnote><para>For RNP-1 and RNP-5
-      procedures, if NAV ACCUR DOWNGRAD occurs on one side only, the procedure may be continued
-      using the unaffected FMGC.</para></footnote></para></listitem>
+      <listitem><para revisionflag="changed">NAV ACCUR DOWNGRAD (MCDU and ND) on both
+      sides<footnote><para>If NAV ACCUR DOWNGRAD occurs on one side only, the procedure may be
+      continued using the unaffected FMGC.</para></footnote></para></listitem>
 
       <listitem><para>FMS1/FMS2 POS DIFF (MCDU)</para></listitem>
 
