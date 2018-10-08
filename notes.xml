@@ -97,6 +97,9 @@
       <listitem><para>Updated <xref linkend="engine-stall"/> to account for fleet variations in
       FADEC modification level and the new QRH procedures.</para></listitem>
 
+      <listitem><para>Updated <xref linkend="reverser-unlocked"/> with NEO
+      procedure.</para></listitem>
+
       <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
       new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
 
@@ -3463,13 +3466,14 @@
     required. The ECAM will provide one of two approach procedures depending on how many doors are
     detected as not stowed:</para>
 
-    <itemizedlist>
-      <listitem><para>If all 4 doors are not stowed, it will be a flap 1 landing, with approach
-      speed V<subscript>REF</subscript>+55kt slowing to V<subscript>REF</subscript>+40kt below
-      800ft. Gear should only be deployed once landing is assured.</para></listitem>
+    <itemizedlist revisionflag="changed">
+      <listitem><para>If all 4 doors are not stowed on CEO or the reverser is deployed on NEO, it
+      will be a flap 1 landing, with approach speed V<subscript>REF</subscript>+55kt slowing to
+      V<subscript>REF</subscript>+40kt below 800ft. Gear should only be deployed once landing is
+      assured.</para></listitem>
 
-      <listitem><para>Otherwise, it will be a flap 3 landing at
-      V<subscript>REF</subscript>+10kt.</para></listitem>
+      <listitem><para>Otherwise, it will be a flap 3 landing at V<subscript>REF</subscript>+10kt for
+      CEO or V<subscript>REF</subscript>+15kt for NEO.</para></listitem>
     </itemizedlist>
 
     <para role="multicite">[<emphasis role="underline">ENG 1(2)</emphasis> REVERSE UNLOCKED,
