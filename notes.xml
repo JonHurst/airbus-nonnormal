@@ -137,7 +137,7 @@
       ambiguous procedures.</para></listitem>
 
       <listitem><para>Deleted “Immediate VMC recovery” section; it has been removed from FCOM and
-      hasn't surfaced anywhere else.</para></listitem>
+      hasn’t surfaced anywhere else.</para></listitem>
 
       <listitem><para>Improved <xref linkend="efic"/> to explain reasons for required
       actions.</para></listitem>
@@ -818,8 +818,8 @@
     the centerline of the aircraft. Thus the amount of pitch down required to recover a fully
     stalled aircraft can be 30° or more.</para>
 
-    <para>The aircraft's thrust vector helps to accelerate the aircraft during the recovery, and
-    increasing speed along the aircraft's centerline acts to reduce the stalled angle of
+    <para>The aircraft’s thrust vector helps to accelerate the aircraft during the recovery, and
+    increasing speed along the aircraft’s centerline acts to reduce the stalled angle of
     attack. Thus, while thrust is not a primary means of recovery, it does help. Unfortunately,
     Airbus have determined that due to the pitch couple associated with underslung engines, there
     may be insufficient longitudinal control authority to pitch the aircraft sufficiently to recover
@@ -892,7 +892,7 @@
     <para>If two or more angle of attack vanes become blocked at the same angle during climb, alpha
     floor protection will be activated once a Mach number is reached where the angle of attack at
     which the vanes were blocked becomes indicative of an incipient stall condition. Since the
-    flight computer's attempts to reduce angle of attack will not be registered by the blocked
+    flight computer’s attempts to reduce angle of attack will not be registered by the blocked
     vanes, a continuous nose down pitch rate which cannot be stopped with sidestick inputs will
     result.</para>
 
@@ -1575,7 +1575,7 @@
     forthcoming regarding this failure; there is only a description in the DSC section and nothing
     specific in the PRO section. The situation is, however, very similar to the “ECAM complete”
     phase of <xref linkend="dc-emerg-conf"/>; the only difference is that AC 1 rather than the
-    emergency generator is providing the power to the ESS TR, and hence you don't need to worry
+    emergency generator is providing the power to the ESS TR, and hence you don’t need to worry
     about RAT deployment or RAT stall.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> TR 1(2), <emphasis
@@ -1661,7 +1661,7 @@
 
     <para>Pressing the GEN 1 LINE button on the emergency electrical panel has much the same effect
     as pressing the GEN 1 button on the main electrical panel, with the difference that GEN 1
-    continues to supply its associated fuel pumps. It is primarily used for the smoke drill. If it's
+    continues to supply its associated fuel pumps. It is primarily used for the smoke drill. If it’s
     not meant to be off, turn it on.</para>
 
     <para role="multicite">[<emphasis role="underline">ELEC</emphasis> EMER GEN 1 LINE OFF,
@@ -2253,7 +2253,7 @@
     electrical center tank pumps with jet transfer pumps on some airframes and the simplified tank
     system of the A321 NEO where the normal outer and inner cells are replaced with a single wing
     tank. In addition, some airframes are fitted with a center tank fuel inerting system, but since
-    there are no cockpit controls for this, it doesn't affect the non-normal procedures.</para>
+    there are no cockpit controls for this, it doesn’t affect the non-normal procedures.</para>
 
     <para>The philosophy of center tank jet transfer pumps is very different from that of the
     electrical pumps. With the electric pumps, fuel is supplied directly from the center tank to the
@@ -2419,7 +2419,7 @@
 
     <para>If a valve fails in a not fully closed position, fuel may continue to be transferred to
     the wing tank even when it is full, and will thus overflow. Selecting the transfer pump off may
-    be effective; otherwise the jet transfer pump's motive power is removed by switching off its
+    be effective; otherwise the jet transfer pump’s motive power is removed by switching off its
     associated wing tank pumps, with the wing tank pumps from the unaffected side supplying both
     engines until the center tank is empty. If both sides fail in this way, all that can be done is
     to turn the center tank transfer pumps off; it may not be possible to prevent fuel
@@ -2497,7 +2497,7 @@
     <para>If both tanks are low level, about 30 minutes of flying time remain.</para>
 
     <para>If any change to the current clearance will lead to landing with less than minimum reserve
-    fuel, declare "minimum fuel" to ATC. This is just a heads up to ATC, not a declaration of an
+    fuel, declare “minimum fuel” to ATC. This is just a heads up to ATC, not a declaration of an
     emergency situation. If it is calculated that less than minimum fuel will remain after landing,
     declare a MAYDAY.</para>
 
@@ -2809,7 +2809,7 @@
     systems are lost. The gear must be gravity extended (see <xref
     linkend="gear-gravity-extension"/>). Additionally, the autopilots and autothrust are lost
     (normal law remains available) and wing anti-ice is limited to 30s of heating (i.e. the ground
-    test), the only indication of which is a "no Anti-Ice" message on the BLEED SD page.</para>
+    test), the only indication of which is a “no Anti-Ice” message on the BLEED SD page.</para>
 
     <para role="multicite">[<emphasis role="underline">L/G</emphasis> LGCIU 1(2) FAULT,
     FCOM PRO.AEP.L/G]</para>
@@ -3212,7 +3212,7 @@
     <para>The most pressing issue is that a single engine bleed cannot support wing anti-ice and two
     packs. With the crossbleed valve selector in the normal AUTO position, the crossbleed valve is
     effectively synchronised to the APU bleed valve<footnote><para>The exception is that the
-    crossbleed won't open if a bleed air duct leak is detected except during engine
+    crossbleed won’t open if a bleed air duct leak is detected except during engine
     start.</para></footnote> and thus will most probably be closed; wing anti-ice, if it is in use,
     will be operating asymmetrically. If a fire button has been pushed, its associated side of the
     pneumatic system will be locked out and thus the only option is to turn the wing anti-ice
@@ -3690,12 +3690,12 @@
   <sect1 id="TCAS">
     <title>TCAS warnings <emphasis>(memory item)</emphasis></title>
 
-    <para>TCAS warnings may be either traffic advisories ("Traffic, Traffic") or resolution
+    <para>TCAS warnings may be either traffic advisories (“Traffic, Traffic”) or resolution
     advisories (anything else).</para>
 
     <para>From 28th January 2017, new easyJet deliveries are fitted with the
     new AP/FD TCAS mode. When this mode is fitted, the autopilot is capable of autonomously flying
-    the TCAS escape manoeuvre. PF simply calls “TCAS blue, I have control" to establish who will
+    the TCAS escape manoeuvre. PF simply calls “TCAS blue, I have control” to establish who will
     take over if the autopilot does not respond appropriately, then calls the FMAs and monitors the
     autopilot as it flies the manoeuvre. If flying manually with flight directors and autothrust on,
     the flight directors will give standard guidance to fly the manoeuvre. If flying fully manually,
@@ -3754,7 +3754,7 @@
     LOST is annunciated on both NDs<footnote><para>If GPS PRIMARY LOST is annunciated on only one
     ND, the approach may be continued using the unaffected FMGC. There is also conflict between EOMA
     and EOMB as to whether GPS PRIMARY is required at all for RNAV(VOR/DME) or RNAV(DME/DME) etc. –
-    I've gone with the most restrictive here.</para></footnote>.</para>
+    I’ve gone with the most restrictive here.</para></footnote>.</para>
 
     <para>In an RNP-1 (PRNAV) environment, an RNAV downgrade may leave the aircraft unsure of
     position and below MSA. The initial response is to notify ATC with the phrase “Unable RNAV due
@@ -4621,8 +4621,8 @@
       YELLOW=COWARDLY=Timid control response); combined with lack of slats this requires going
       Direct Law early (at 200kt) to improve pitch response.</para></listitem>
 
-      <listitem><para>You're going to need a longish runway. Worst case is if you only have blue,
-      since you have, at best, accumulator braking and you're coming in fast due to lack of
+      <listitem><para>You’re going to need a longish runway. Worst case is if you only have blue,
+      since you have, at best, accumulator braking and you’re coming in fast due to lack of
       flaps. Yellow is better since you have alternate braking, and its mainly about the lack of
       slats. If you have green, its not really all that bad.</para></listitem>
     </itemizedlist></para>
