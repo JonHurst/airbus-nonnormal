@@ -30,7 +30,7 @@
     <title>Changes since version 2.4</title>
     <itemizedlist>
       <listitem><para>Removed reference to “read ECAM” from <xref linkend="efato"/> as easyJet has
-      now standardised of Airbus SOPs for ECAM handling.</para></listitem>
+      now standardised on Airbus SOPs for ECAM handling.</para></listitem>
 
       <listitem><para>Updated <xref linkend="emerg-descent"/> to move selecting oxygen flow to N
       position to after the checklist has been called for as mandated by the revised Airbus
@@ -2283,8 +2283,8 @@
     corresponds to expected fuel remaining and that fuel used plus fuel remaining corresponds to
     fuel at engine start. The latter parameter is monitored on some aircraft and may trigger an ECAM
     warning. Other indications of a leak include fuel imbalance or excessive fuel flow from an
-    engine. It also possible that a fuel leak may be detected visually or by a smell of fuel in the
-    cabin.</para>
+    engine. It is also possible that a fuel leak may be detected visually or by a smell of fuel in
+    the cabin.</para>
 
     <para revisionflag="changed">If a leak can be confirmed to be coming from an engine or pylon,
     either visually or as indicated by excessive fuel flow, the affected engine must be shut
