@@ -238,7 +238,7 @@
     counteract the introduced pitch moment and then returned to neutral as flight mode blends in. A
     slight pause before selecting TOGA results in much more normal and predictable
     handling.</para></footnote>, select TOGA (FLX may be used but this tends to allow speed to decay
-    unless pitch is reduced), adjust and trim rudder to maintain &beta; target and request “pull
+    unless pitch is reduced), adjust and trim rudder to maintain β target and request “pull
     heading”. If the EOSID follows the track of the cleared SID, NAV may be used, but this is very
     rare with easyJet EOSIDs.  Engage the autopilot once gear is up and rudder is trimmed.</para>
 
@@ -424,7 +424,7 @@
 
       <para>If a warning occurs when airborne, call “Windshear, TOGA”, apply TOGA power and maintain
       current configuration. The autopilot can fly the escape manoeuvre as long as
-      &alpha;<subscript>req</subscript>&nbsp;&lt;&nbsp;&alpha;<subscript>prot</subscript>. If the
+      α<subscript>req</subscript> &lt; α<subscript>prot</subscript>. If the
       autopilot is not engaged, follow the SRS orders on the FD. If the FD is not available,
       initially pitch up to 17.5°, then increase as required.</para>
 
@@ -703,14 +703,14 @@
     <para>A landing can be made at any weight, providing sufficient landing
     distance is available. In general, automatic landings are only certified up to MLW, but the FCOM
     specifies that, for the A319 only, autoland is available up to 69000kg in case of emergency. The
-    preferred landing configuration is CONF&nbsp;FULL, but lower settings may be used if required by
+    preferred landing configuration is CONF FULL, but lower settings may be used if required by
     QRH/ECAM procedures. QRH AER.MISC.OL also specifies CONF 3 if the aircraft weight exceeds the
-    CONF&nbsp;3 go around limit; this will only ever be a factor for airfields with elevations above
+    CONF 3 go around limit; this will only ever be a factor for airfields with elevations above
     1000ft. Packs should be turned off to provide additional go around thrust. If planned landing
     configuration is less than FULL, use 1+F for go-around.</para>
 
-    <para>It is possible that S speed will be higher than V<subscript>FE&nbsp;next</subscript> for
-    CONF 2. In this case, a speed below V<subscript>FE&nbsp;next</subscript> should be selected
+    <para>It is possible that S speed will be higher than V<subscript>FE next</subscript> for
+    CONF 2. In this case, a speed below V<subscript>FE next</subscript> should be selected
     until CONF 2 is achieved, then managed speed can be re-engaged.</para>
 
     <para>In the final stages of the approach, reduce speed to achieve V<subscript>LS</subscript> at
@@ -843,7 +843,7 @@
     spurious.</para>
 
     <para>A stall warning may occur at high altitude to indicate that the aircraft is reaching
-    &alpha;<subscript>buffet</subscript>. In this case simply reduce the back pressure on the
+    α<subscript>buffet</subscript>. In this case simply reduce the back pressure on the
     sidestick and/or reduce bank angle.</para>
 
     <para role="multicite">[FCOM PRO.AER.MISC]</para>
@@ -1935,7 +1935,7 @@
     effect of this is that F/CTL ECAM warnings are no longer generated. The warning lights on the
     overhead panel continue to give valid information and should be monitored. The aircraft remains
     in normal law with all protections, but protection indications (bank and pitch limits,
-    V<subscript>&alpha;&#x2011;prot</subscript> and V<subscript>&alpha;&#x2011;max</subscript>) are
+    V<subscript>α‑prot</subscript> and V<subscript>α‑max</subscript>) are
     not shown and the stall warning system becomes active.</para>
 
     <para role="multicite">[<emphasis role="underline">F/CTL</emphasis> FCDC 1(2)(1+2) FAULT,
@@ -2345,7 +2345,7 @@
     fuel advisory limit is displayed”, an event that occurs when one inner tank holds &gt;1500kg
     more than the other. The limitations for fuel imbalance in FCOM LIM.FUEL, however, show that the
     fuel advisory does not necessarily indicate that a limitation is likely to be breached. In
-    particular, when the outer tanks are balanced and the heavier inner tank contains &le;2250kg,
+    particular, when the outer tanks are balanced and the heavier inner tank contains ≤2250kg,
     there are no imbalance limitations. Furthermore, the aircraft handling is not significantly
     impaired even at maximum imbalance. </para>
 
@@ -4093,7 +4093,7 @@
     available. Landing distances approximately double.</para>
 
     <para revisionflag="changed">Go around is straightforward – the gear cannot be retracted and the
-    flap configuration should be maintained. Simply select V<subscript>FE</subscript>&#x2011;10. For
+    flap configuration should be maintained. Simply select V<subscript>FE</subscript>‑10. For
     diversion, the flaps can be retracted. With the gear remaining down, fuel burn will increase by
     a factor of approximately 3 if the slats are at zero or up to approximately 3½ if they are
     extended.</para>
