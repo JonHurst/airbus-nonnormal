@@ -24,6 +24,10 @@ h1,h2,h3,h4 {
     color:darkblue;
 }
 
+a.footnote, a.footnoteref {
+    text-decoration:none;
+}
+
 table {margin:auto; padding 0 2em; border-collapse: collapse;}
 td {padding: 1em;}
 dt {font-weight:bold;}
