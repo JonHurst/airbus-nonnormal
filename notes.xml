@@ -245,8 +245,8 @@
     <para>Whilst below 400ft, the only failure related actions should be:
     <itemizedlist>
       <listitem><para>If applicable, PM should state the title of the first
-      displayed ECAM procedure, but should delay confirmation.<footnote><para
-     >The Feb 2018 update to EOM-B removed the “engine failure” and “engine
+      displayed ECAM procedure, but should delay confirmation.<footnote><para>
+      The Feb 2018 update to EOM-B removed the “engine failure” and “engine
       fire” calls, but leaves the timing of the reading of the ECAM title ambiguous. The advice
       given here is one interpretation. Since these calls were good for situational awareness,
       replacing them with a bald statement of the first ECAM procedure title seems
