@@ -4,7 +4,7 @@
 <!-- use fill column 100 -->
 <book id="airbus-nonnormal">
   <title>Airbus A320 Family Non-Normal Notes</title>
-  <subtitle>Version 2.5</subtitle>
+  <subtitle>Version 2.5.1</subtitle>
 
 <preface>
   <title>Change log</title>
@@ -26,6 +26,12 @@
 
   </sect1>
 
+  <sect1>
+    <title>Changes since version 2.5</title>
+    <itemizedlist>
+      <listitem><para></para></listitem>
+    </itemizedlist>
+  </sect1>
   <sect1>
     <title>Changes since version 2.4</title>
     <itemizedlist>
