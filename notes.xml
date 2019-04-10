@@ -29,7 +29,9 @@
   <sect1>
     <title>Changes since version 2.5</title>
     <itemizedlist>
-      <listitem><para></para></listitem>
+      <listitem><para>Corrected <xref linkend="emerg-elec-config"/>. Control law is initally
+      Alternate law with mechanical yaw; Alternate Law yaw is recovered with FAC1
+      reset.</para></listitem>
     </itemizedlist>
   </sect1>
   <sect1>
@@ -1321,8 +1323,9 @@
       the higher landing speeds required to prevent RAT stall this results in significantly
       increased landing distances.</para></listitem>
 
-      <listitem><para>Normal Law. Anticipate Direct Law at gear extension and be prepared for a
-      Direct Law go around. Manual pitch trim is available.</para></listitem>
+      <listitem><para revisionflag="changed">Alternate Law with reduced protections. Mechanical yaw
+      becoming Alternate Law yaw with FAC1 reset. Anticipate Direct Law at gear extension and be
+      prepared for a Direct Law go around. Manual pitch trim is available.</para></listitem>
 
       <listitem><para>Anti-icing for probes supplying the standby instruments: in case of
       disagreement, go with the CM1 instruments.</para></listitem>
