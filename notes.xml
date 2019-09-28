@@ -32,6 +32,9 @@
       <listitem><para>Corrected <xref linkend="emerg-elec-config"/>. Control law is initally
       Alternate law with mechanical yaw; Alternate Law yaw is recovered with FAC1
       reset.</para></listitem>
+      <listitem><para>Corrected <xref linkend="ac-bus-1-fault"/>. DC Bus 1 is powered from DC Bus 2
+      rather than the other way round as previously stated. My thanks to Joachim Duquesne for
+      pointing out this error.</para></listitem>
     </itemizedlist>
   </sect1>
   <sect1>
@@ -1401,13 +1404,14 @@
   </sect1>
 
 
-  <sect1>
+  <sect1 id="ac-bus-1-fault">
     <title>AC Bus 1 fault</title>
 
-    <para>Some or all of the equipment on AC bus 1 becomes unavailable, including TR1. DC Bus 2 is
-    powered from DC Bus 1 via the battery bus. Power must be re-routed to the Essential AC bus via
-    AC bus 2. This is automatic on some aircraft. Manual re-routing is achieved with the AC ESS FEED
-    button. Once Essential AC is powered, the Essential TR powers the DC Essential bus.</para>
+    <para revisionflag="changed">Some or all of the equipment on AC bus 1 becomes unavailable,
+    including TR1. DC Bus 1 is powered from DC Bus 2 via the battery bus. Power must be re-routed to
+    the Essential AC bus via AC bus 2. This is automatic on some aircraft. Manual re-routing is
+    achieved with the AC ESS FEED button. Once Essential AC is powered, the Essential TR powers the
+    DC Essential bus.</para>
 
     <para>Notable lost equipment includes the blue hydraulic system and associated services
     (including spoiler 3), radio altimeter 1 (and hence Cat III capability), half the fuel pumps,
