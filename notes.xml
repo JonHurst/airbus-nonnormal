@@ -4,7 +4,7 @@
 <!-- use fill column 100 -->
 <book id="airbus-nonnormal">
   <title>Airbus A320 Family Non-Normal Notes</title>
-  <subtitle>Version 2.5.1</subtitle>
+  <subtitle>Version 2.5.2</subtitle>
 
 <preface>
   <title>Change log</title>
@@ -24,6 +24,13 @@
     <para>Changes to cross references induced by Airbus re-jigging their manuals are not
     highlighted.</para>
 
+  </sect1>
+
+  <sect1>
+    <title>Changes since version 2.5.1</title>
+    <itemizedlist>
+      <listitem><para></para></listitem>
+    </itemizedlist>
   </sect1>
 
   <sect1>
