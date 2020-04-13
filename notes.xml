@@ -29,7 +29,9 @@
   <sect1>
     <title>Changes since version 2.5.1</title>
     <itemizedlist>
-      <listitem><para></para></listitem>
+      <listitem><para>Removed reference to 25,000ft limit for use of gear from <xref
+      linkend="emerg-descent"/> since Airbus has removed this limitation. My thanks to Sjoerd de
+      Vries for pointing this out.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -377,14 +379,14 @@
 
     <para revisionflag="changed">Don oxygen masks and establish communication.</para>
 
-    <para>PF then flies the emergency descent.  Descent with autopilot and
+    <para revisionflag="changed">PF then flies the emergency descent.  Descent with autopilot and
     autothrust engaged is preferred. The configuration is thrust idle, full speed brake and maximum
     appropriate speed, taking into account possible structural damage.<footnote><para>According to
     Airbus, structural damage may be suspected if there has been a “loud bang” or there is a high
     cabin vertical speed. When limiting descent speed due to suspected structural damage, it is IAS
     rather than Mach that is relevant.</para></footnote> Target altitude is FL100 or MORA if this is
     higher. If speed is low, allow speed to increase before deploying full speedbrake to prevent
-    activation of the angle of attack protection. Landing gear may be used below 25,000ft, but speed
+    activation of the angle of attack protection. Landing gear may be used, but speed
     must be below V<subscript>LO</subscript> when it is extended and remain below
     V<subscript>LE</subscript>. If on an airway, consider turning 90° to the left.</para>
 
