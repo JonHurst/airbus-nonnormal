@@ -33,6 +33,14 @@
       linkend="emerg-descent"/> since Airbus has removed this limitation. My thanks to Sjoerd de
       Vries for pointing this out.</para></listitem>
     </itemizedlist>
+
+    <itemizedlist>
+      <listitem><para>Updated <xref linkend="dual-engine-failure"/> with information regarding the
+      use of the yellow electric hydraulic pump. Also updated <xref linkend="dualhyd.gy"/> to
+      mention that if the yellow electric pump is used without the green engine driven pump, the PTU
+      must be turned off due to capacity limitations. My thanks to Juliano Bergmann for providing
+      the information to make these changes.</para></listitem>
+    </itemizedlist>
   </sect1>
 
   <sect1>
@@ -3127,12 +3135,20 @@
     least a 3000m runway. Take account of descent winds, airport elevation and available runway
     directions when selecting an airport.</para>
 
-    <para>The Green and Yellow hydraulic failure aspect is interesting in that the checklists make
-    no attempt to bring the Yellow Electric pump online once electrical power is available from the
-    APU. This certainly works in the simulator, giving a full complement of hydraulics for the
-    approach and landing (although gravity gear extension is still probably the way to go). Again an
-    explanation has been requested via the easyJet Technical Manager, and these notes will be
-    updated once a response is received.</para>
+    <para revisionflag="changed">The Green and Yellow hydraulic failure aspect is interesting in
+    that the checklists make no attempt to bring the Yellow Electric pump online once electrical
+    power is available from the APU. The rationale for this has three parts: firstly, there are
+    branches of the failure where the yellow electric pump will not be available, such as if the APU
+    was inop, and accounting for these cases in the checklists would over-complicate them; secondly,
+    the engine driven pumps continue to provide hydraulic pressure for some time due to windmilling;
+    and lastly, the ECAM will eventually recognise the dual hydraulic failure and request the pump
+    be turned on. The problem with this is that you will likely have given up on the ECAM by the
+    time it makes this suggestion. In general, then, if you recognise that the yellow electric pump
+    is available, turn the PTU off (see <xref linkend="dualhyd.gy"/>) and turn the yellow pump
+    on. You will, of course, still need to gravity extend the gear, as the green system will not be
+    recovered, but with blue from the RAT and yellow from the electric pump, your stopping ability
+    is greatly enhanced.</para>
+
 
     <para>The ideal outcome would be to get at least one engine relit. In some scenarios such as
     complete fuel exhaustion, this is not going to be an option. The EDF checklists account for this
@@ -4024,10 +4040,11 @@
   <sect1 id="dualhyd.gy">
     <title>Green + yellow systems low pressure</title>
 
-    <para>It may be possible to recover the yellow system using the yellow electrical pump. Systems
-    lost because of low air pressure in the reservoir will be recoverable at lower
-    altitudes. Systems lost due to reservoir overheats may be usable for the approach once they have
-    cooled down.</para>
+    <para revisionflag="changed">It may be possible to recover the yellow system using the yellow
+    electrical pump. The PTU will need to be turned off in this case, as the yellow electric pump
+    lacks sufficient capacity to pressurise the green system throught the PTU. Systems lost because
+    of low air pressure in the reservoir will be recoverable at lower altitudes. Systems lost due to
+    reservoir overheats may be usable for the approach once they have cooled down.</para>
 
     <para>Roll control is available from ailerons and spoiler 3. Pitch control is available from the
     elevators, but the THS is frozen. Yaw damping is lost. Slats are available, but slow. Flaps are
