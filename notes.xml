@@ -29,7 +29,9 @@
   <sect1>
     <title>Changes since version 2.5.2</title>
     <itemizedlist>
-      <listitem><para></para></listitem>
+      <listitem><para>Updated <xref linkend="all-engine-failure"/>. Rewrite due to the Engine Dual
+      Failure checklists no longer being applicable to any airframes in the easyJet
+      fleet following software upgrades.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -42,7 +44,7 @@
     </itemizedlist>
 
     <itemizedlist>
-      <listitem><para>Updated <xref linkend="dual-engine-failure"/> with information regarding the
+      <listitem><para>Updated <xref linkend="all-engine-failure"/> with information regarding the
       use of the yellow electric hydraulic pump. Also updated <xref linkend="dualhyd.gy"/> to
       mention that if the yellow electric pump is used without the green engine driven pump, the PTU
       must be turned off due to capacity limitations. My thanks to Juliano Bergmann for providing
@@ -2947,116 +2949,86 @@
 <chapter id="power-plant">
   <title>Power plant</title>
 
-  <sect1 id="dual-engine-failure">
-    <title>Dual engine failure</title>
+  <sect1 id="all-engine-failure" revisionflag="changed">
+    <title>All engine failure</title>
 
-    <para>Airbus have recently (2018) introduced two new checklists for handling the Dual Engine
-    Failure scenario:
+    <para>The entire easyJet fleet has, thankfully, now been upgraded such that the various ENG DUAL
+    FAILURE checklists are no longer applicable. Where plenty of time is available, the response to
+    failure of both engines is now supported by the <emphasis role="underline">ENG</emphasis> ALL
+    ENGINES FAILURE ECAM and the ALL ENG FAIL QRH checklist. For Hudson-like events, the
+    QRH.AEP.MISC EMER LANDING ALL ENG FAILURE checklist (also available on the back of the normal
+    checklist) should be used. Note that the QRH.AEP.MISC Ditching and QRH.AEP.MISC Forced Landing
+    checklists are for engines operative landings and are therefore not applicable; engine
+    inoperative ditching and forced landing are incluced in the ALL ENG FAIL QRH Checklist.</para>
 
-    <itemizedlist>
-      <listitem><para>The QRH.AEP.MISC EMER LANDING ALL ENG FAILURE checklist was introduced in
-      response to the Hudson incident. It is designed to be a critical set of actions to be taken to
-      configure the aircraft for a forced landing or ditching when unable to maintain altitude after
-      loss of thrust near to the ground. EasyJet reproduces this checklist on the back of the normal
-      checklist for easy access. </para></listitem>
+    <para>The <emphasis role="underline">ENG</emphasis> ALL ENGINES FAILURE ECAM actions ensure that
+    emergency electrical power is online and that the aircraft is optimally set up for an immediate
+    windmill relight (300kt/M0.77 for CEO, 270kt/M0.77 for NEO, thrust levers idle). APU start is
+    suggested if below FL250, although this may be spurious if fuel is exhausted or the APU is
+    otherwise unavailable. For the CEOs, a FAC1 reset is also actioned in order to recover PFD
+    characteristic speeds and rudder trim; this does not appear to be necessary for the NEOs. The
+    ECAM then suggests a diversion and hands off to the QRH procedure. The QRH includes the ECAM
+    actions, so it can be used directly if the ECAM is unavailable.</para>
 
-      <listitem><para>The QRH.AEP.ENG ALL ENG FAIL checklist. This replaces the QRH.AEP.ENG
-      <emphasis role="underline">ENG</emphasis> DUAL FAILURE – FUEL REMAINING and QRH.AEP.ENG
-      <emphasis role="underline">ENG</emphasis> DUAL FAILURE – NO FUEL REMAINING checklists for some
-      airframes. Associated with this new checklist is the new <emphasis
-      role="underline">ENG</emphasis> ALL ENGINES FAILURE ECAM procedure which replaces the
-      <emphasis role="underline">ENG</emphasis> DUAL FAILURE ECAM on airframes with newer FWC
-      modification levels.</para></listitem>
+    <para>Due to lack of engine bleeds, a slow depressurisation will likely be occuring. Since it
+    would be easy to miss excess cabin altitude warnings, donning an oxygen mask may be a sensible
+    precaution. RAM AIR can be used once below FL100 with differential pressure &lt;1psi.</para>
 
-    </itemizedlist>
-    </para>
+    <para>For the diversion, as a rough rule of thumb, from normal cruise levels any airfield within
+    80nm should be reachable with sufficient height remaining to position for a glide approach. You
+    really want at least a 3000m runway, although if you can get the APU supporting normal electrics
+    and the yellow electrical hydraulic pump it may be possible to make do with less. Take account
+    of descent winds, airport elevation and available runway directions when selecting an
+    airport.</para>
 
-    <para>The first of these new checklists is pretty straightforward and is discussed in <xref
-    linkend="ditching"/> and <xref linkend="forced-landing"/>.</para>
+    <para>There are two main bifurcations in the procedures, dependent on whether there is any
+    chance of restarting an engine in the first case, and whether an emergency landing will be made
+    on water or land in the second.</para>
 
-    <para>The second is more complex. At first glance it appears to be a sensible attempt to move
-    the branch point of “is a relight possible” from checklist title into a checklist decision
-    tree. It does also, however, introduce a fairly fundamental philosophical change: where the ENG
-    DUAL FAILURE (EDF) checklist almost immediately proceeds to windmill relight attempts, the ALL
-    ENGINES FAILURE (AEF) checklist waits until inside the windmill relight envelope before doing
-    so. Since this is below FL250 for CEO and below FL270 for NEO and starter assisted relight
-    attempts will commence at FL200 (for both engine types), a much shorter duration of windmill
-    start attempts occurs under the new regime. An explanation for this change in philosophy has
-    been requested via the easyJet Technical Manager, and these notes will be updated once a
-    response is received.</para>
+    <para>Where relight is feasible, parallel windmill start attempts may be attempted once below
+    FL270<footnote><para>Note that this is different from the old ENG DUAL FAILURE checklist, where
+    windmill start attempts were tried immediately, even if outside the relight
+    envelope.</para></footnote> (or below FL250 on some airframes), and sequential starter assisted
+    start attempts may be made once below FL200, provided that the APU bleed is available. The
+    windmill start attempts consist of selecting IGN on the ENG MODE sel, turning both engine
+    masters off for 30 seconds to ventilate the combustion chambers, then turning them both back on,
+    repeating the cycle if unsuccessful. Starter assisted start is much like the normal engine start
+    procedure: turn both masters off for 30 seconds, ensure ENG MODE sel IGN, pneumatic pressure is
+    available to the starter and wing anti-ice is off, then turn one of the masters on. If the
+    engine fails to start, turn that master off, and try the other one, ensuring 30 seconds of
+    combustion chamber ventilation between each attempt. When making starter assisted start
+    attempts, speed should be reduced to green dot to achieve maximum glide range; if windmill
+    starts are required below FL200 (e.g. due lack of APU), suitable speeds can be found in the ENG
+    RELIGHT QRH checklist.</para>
 
-    <para>The EDF/AEF ECAMs may not be triggered under some circumstances. All the associated QRH
-    checklists, therefore, include all steps provided by these ECAMs; indeed, after a few initial
-    items the ECAMs simply refer to their associated QRH procedure.</para>
+    <para>Where relight is not a possibility, speed should be reduced to green dot to maximise glide
+    range and available time. At windmill relight speeds, available range is 2nm per 1000ft, wheras
+    at green dot it is 2½nm per 1000ft. If available, the APU should still be started at FL250 in
+    order to provide normal electrics and pressurisation.</para>
 
-    <para>Dual Engine Failure can be broken down into three main issues: Emergency Electrical
-    configuration, a Green and Yellow Dual hydraulics failure and a requirement for a suitable
-    airport within a relatively limited range. Slow depressurisation may also become an
-    issue.</para>
-
-    <para>The Emergency Electrical configuration is dealt with first. The RAT is deployed and the
-    emergency generator is brought online with the EMER ELEC PWR MAN ON pb (this should happen
-    automatically, but is backed up with the manual action) and FAC 1 is recycled to regain rudder
-    trim and display of characteristic speeds. Communications will be restricted to VHF1, HF1 and
-    ATC1. If the APU is available, the electrical issues will be almost completely mitigated once it
-    can be started from the emergency generator at FL250.</para>
-
-    <para>The “suitable airport” issue is then addressed by initiating a diversion. Rough rules of
-    thumb: from normal cruise levels a range of around 80nm is available, and you really want at
-    least a 3000m runway. Take account of descent winds, airport elevation and available runway
-    directions when selecting an airport.</para>
-
-    <para>The Green and Yellow hydraulic failure aspect is interesting in
+    <para>The Green and Yellow hydraulic failure aspect of the dual engine failure is interesting in
     that the checklists make no attempt to bring the Yellow Electric pump online once electrical
     power is available from the APU. The rationale for this has three parts: firstly, there are
     branches of the failure where the yellow electric pump will not be available, such as if the APU
     was inop, and accounting for these cases in the checklists would over-complicate them; secondly,
     the engine driven pumps continue to provide hydraulic pressure for some time due to windmilling;
     and lastly, the ECAM will eventually recognise the dual hydraulic failure and request the pump
-    be turned on. The problem with this is that you will likely have given up on the ECAM by the
-    time it makes this suggestion. In general, then, if you recognise that the yellow electric pump
-    is available, turn the PTU off (see <xref linkend="dualhyd.gy"/>) and turn the yellow pump
-    on. You will, of course, still need to gravity extend the gear, as the green system will not be
-    recovered, but with blue from the RAT and yellow from the electric pump, your stopping ability
-    is greatly enhanced.</para>
+    be turned on, and the checklist does encourage you to clear the ECAM alerts and STATUS if
+    sufficient time is available. The problem with this is that you will likely have given up on the
+    ECAM by the time it makes this suggestion. In general, then, if you recognise that the yellow
+    electric pump is available, turn the PTU off (see <xref linkend="dualhyd.gy"/>) and turn the
+    yellow pump on. You will, of course, still need to gravity extend the gear, as the green system
+    will not be recovered, but with blue from the RAT and yellow from the electric pump, your
+    stopping ability is greatly enhanced.</para>
 
-
-    <para>The ideal outcome would be to get at least one engine relit. In some scenarios such as
-    complete fuel exhaustion, this is not going to be an option. The EDF checklists account for this
-    by providing FUEL REMAINING and NO FUEL REMAINING flavours. The AEF checklist takes the more
-    generalised approach of a single checklist with an “engine relight can/cannot be attempted”
-    fork. Relights come in “windmill” or “starter assisted” varieties. Windmill relights require
-    relatively high speeds (300kt/M.77 for CEO, 270kt/M.77 for NEO) and will thus reduce gliding
-    range: gliding range is 2½nm per 1000ft at green dot speed, reducing to 2nm per 1000ft at
-    windmill relight speeds. Since starter assist is only available below 20,000ft, attempting
-    windmill starts will cost up to 10nm of gliding range. On the flip side, there are a lot of
-    advantages to windmill starts: start attempts can be made simultaneously for both engines and
-    the APU is not required so start attempts can be commenced much earlier.</para>
-
-    <para>Windmill relights require flying at optimum relight speed, with the thrust levers at idle,
-    the engine masters on and the ENG MODE selector set to IGN. If relight has not occurred after 30
-    seconds, the combustion chambers are ventilated by selecting both the engine masters off for 30
-    seconds before turning them both on again to initiate a fresh attempt.</para>
-
-    <para>Starter assisted relights require bleed air from the APU. Starting of the APU from the
-    emergency generator is restricted to below FL250, and starter assisted starts are restricted to
-    below FL200. Since windmilling is not required, airspeed should be reduced to green dot while
-    attempting starter assisted relights. The APU bleed can only provide for one engine starter at a
-    time, and wing anti-ice must be off during the attempt. Ensure the APU bleed is on, the thrust
-    levers are at idle and the the ENG MODE SEL in set to IGN, then turn one engine master off for
-    30s and then back on. If unsuccessful turn that master back to off and repeat the process with
-    the other engine. The master switch for an engine should be off for at least 30s between
-    attempted relights of that engine.</para>
-
-    <para>If a landing must be made without power, the EDF recommends CONF 3 and the AEF recommends
-    CONF 2 (flaps will be unavailable if yellow hydraulics have not been reinstated, so this amounts
-    to the same configuration). V<subscript>app</subscript> is available in each of the checklists;
-    it will always be at least 150kt to prevent RAT stall. The gear is available with gravity
-    extension. If only blue system hydraulics are available, the stabilizer will be frozen once
-    engine driven hydraulics are lost and elevator trimming will cease with transition to direct law
-    at gear extension. Therefore, for easier handling the gear extension should ideally be delayed
-    until CONF 3 and V<subscript>app</subscript> are reached. If ditching, do not extend the
-    gear.</para>
+    <para>The recommended configurations are CONF 2, gear up for ditching and CONF 2, gear down for
+    forced landing. V<subscript>app</subscript> is available in each of the checklists; it will
+    always be at least 150kt to give a 10kt margin against RAT stall. The gear is available with
+    gravity extension. If the yellow hydraulics have not been reinstated with the electric pump the
+    stabilizer will be frozen once engine driven hydraulics are lost and elevator trimming will
+    cease with transition to direct law at gear extension. Therefore, it may be advantageous to
+    delay gear extension until CONF 2 and V<subscript>app</subscript> are reached in this
+    case. A pitch attitude of 11° with minimal vertical speed is suggested for ditching.</para>
 
     <para>If an airfield can be reached, arrange to be inbound on the runway centerline at 4nm and
     2400ft aal (giving a 6° glide to the threshold) with CONF 1, S speed and gear up. To help
@@ -3076,9 +3048,6 @@
     gear down gives about a 7½° glide), then micro adjustment is available from temporarily increasing
     speed above V<subscript>app</subscript>. If necessary, disregard slat limiting speeds. It is
     better to land fast then long.</para>
-
-    <para>If an airfield cannot be reached, refer to <xref linkend="ditching"/> or <xref
-    linkend="forced-landing"/> as appropriate.</para>
 
     <para role="multicite">[<emphasis role="underline">ENG</emphasis> DUAL FAILURE, QRH AEP.ENG,
     FCOM PRO.AEP.ENG, FCTM PRO.AEP.ENG]</para>
