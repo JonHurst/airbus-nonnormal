@@ -297,7 +297,7 @@
     cases where the cleared SID requires a very early turn it may be necessary to determine and
     action a strategy when below 400ft. If this is the case, it must be thoroughly briefed.</para>
 
-    <para revisionflag="changed">Once the flight path strategy has been agreed and actioned, the
+    <para>Once the flight path strategy has been agreed and actioned, the
     failure can be triaged, diagnosed and contained. Once the diagnosis is agreed, PF will take the
     radios and request PNF to carry out the containment actions. The standard phraseology is “My
     Radios, ECAM actions”. PF taking the radios is also a good trigger to consider a Mayday and an
@@ -385,9 +385,9 @@
     taking control if not already PF. PF initiates the memory items by announcing “Emergency
     Descent.”</para>
 
-    <para revisionflag="changed">Don oxygen masks and establish communication.</para>
+    <para>Don oxygen masks and establish communication.</para>
 
-    <para revisionflag="changed">PF then flies the emergency descent.  Descent with autopilot and
+    <para>PF then flies the emergency descent.  Descent with autopilot and
     autothrust engaged is preferred. The configuration is thrust idle, full speed brake and maximum
     appropriate speed, taking into account possible structural damage.<footnote><para>According to
     Airbus, structural damage may be suspected if there has been a “loud bang” or there is a high
@@ -406,7 +406,7 @@
     Initially, PM’s main task is to ensure that PF has promptly and correctly initiated the
     descent.</para>
 
-    <para revisionflag="changed">Once the memory actions are complete and the aircraft is
+    <para>Once the memory actions are complete and the aircraft is
     descending, PF should call for the Emergency Descent Checklist (“My radios, Emergency Descent
     Checklist”). This will lead PF to finesse the speed and altitude targets and inform ATC of the
     descent; PM to set continuous ignition on the engines and set 7700 on the transponder. Both
@@ -615,7 +615,7 @@
     button be pushed, provides guidance for the flare (minimise VS, attitude 11°) and provides
     instructions for shutting down the engines and APU on touchdown (all masters off).</para>
 
-    <para revisionflag="changed">If time is available, apply the procedures in the QRH. The
+    <para>If time is available, apply the procedures in the QRH. The
     QRH AEP.MISC Ditching procedure applies if the engines are running. If the engines are not
     running, depending on airframe, refer to either the appropriate QRH AEP.ENG <emphasis
     role="underline">ENG</emphasis> DUAL FAILURE (DEF) procedure or to the QRH AEP.ENG ALL ENG FAIL
@@ -629,10 +629,10 @@
     FL100 to prevent potentially dangerous leaks.<footnote id="fnoxyoff"><para>The reasoning behind
     turning off the crew oxygen is an assumption on my part.</para></footnote></para>
 
-    <para revisionflag="changed">The engines operative ditching configuration is gear up, config
+    <para>The engines operative ditching configuration is gear up, config
     full, 11° pitch and minimal V/S. If both engines are <emphasis>inoperative</emphasis>: for DEF
     airframes use config 3 and for AEF airframes use config 2<footnote
-    id="DEFvsAEF-differences"><para revisionflag="added">The AEF vs DEF configuration difference is
+    id="DEFvsAEF-differences"><para>The AEF vs DEF configuration difference is
     odd since it would seem that the airframes involved are fundamentally the same, differing only
     in modification level of the FWCs. A reasonable explanation is that there is not, in reality,
     much difference between config 2 and config 3 in the ditching or forced landing case. If
@@ -669,7 +669,7 @@
     that the APU be started, provides guidance for the flare (minimise VS) and provides instructions
     for shutting down the engines and APU on touchdown (all masters off).</para>
 
-    <para revisionflag="changed">If time is available, apply the procedures in the QRH. The
+    <para>If time is available, apply the procedures in the QRH. The
     QRH AEP.MISC Forced Landing procedure applies if the engines are running. If the engines are not
     running, depending on airframe, refer to either the appropriate QRH AEP.ENG <emphasis
     role="underline">ENG</emphasis> DUAL FAILURE (DEF) procedure or to the QRH AEP.ENG ALL ENG FAIL
@@ -681,7 +681,7 @@
     to prevent nuisance warnings. The crew oxygen should be turned off below FL100 to prevent
     potentially dangerous leaks.<footnoteref linkend="fnoxyoff"/></para>
 
-    <para revisionflag="changed">The engines operative forced landing configuration is gear down,
+    <para>The engines operative forced landing configuration is gear down,
     config full, spoilers armed. If both engines are <emphasis>inoperative</emphasis>: for DEF
     airframes use config 3 and for AEF airframes use config 2<footnoteref
     linkend="DEFvsAEF-differences"/>; maintain at least 150kt to give a margin against RAT
@@ -1332,7 +1332,7 @@
     will recover rudder trim. Once 45 seconds have elapsed and when below FL250, the APU can be
     started.</para>
 
-    <para revisionflag="changed">So much equipment is lost in the emergency configuration that
+    <para>So much equipment is lost in the emergency configuration that
     QRH AEP.ELEC provides a table of surviving equipment. Notable losses are:
 
     <itemizedlist>
@@ -1343,7 +1343,7 @@
       the higher landing speeds required to prevent RAT stall this results in significantly
       increased landing distances.</para></listitem>
 
-      <listitem><para revisionflag="changed">Alternate Law with reduced protections. Mechanical yaw
+      <listitem><para>Alternate Law with reduced protections. Mechanical yaw
       becoming Alternate Law yaw with FAC1 reset. Anticipate Direct Law at gear extension and be
       prepared for a Direct Law go around. Manual pitch trim is available.</para></listitem>
 
@@ -1424,7 +1424,7 @@
   <sect1 id="ac-bus-1-fault">
     <title>AC Bus 1 fault</title>
 
-    <para revisionflag="changed">Some or all of the equipment on AC bus 1 becomes unavailable,
+    <para>Some or all of the equipment on AC bus 1 becomes unavailable,
     including TR1. DC Bus 1 is powered from DC Bus 2 via the battery bus. Power must be re-routed to
     the Essential AC bus via AC bus 2. This is automatic on some aircraft. Manual re-routing is
     achieved with the AC ESS FEED button. Once Essential AC is powered, the Essential TR powers the
@@ -1461,7 +1461,7 @@
     Captain’s PFD and ND and a downgrade to Cat I being the major issues. Landing distances are
     unchanged.</para>
 
-    <para revisionflag="added">It is worth noting that loss of AC Ess Bus implies loss of Passenger
+    <para>It is worth noting that loss of AC Ess Bus implies loss of Passenger
     Oxygen masks. Where appropriate, this loss of redundancy can be mitigated by flying at a level
     where descent to a safe altitude can be achieved without masks. The main form of guidance on
     altitude hypoxia comes in the form of “Time of useful consciousness” tables. Working on the
@@ -1856,9 +1856,9 @@
     V<subscript>FE next</subscript> is computed from flap lever position. F and S speeds are
     essentially meaningless.</para>
 
-    <para revisionflag="changed">The recommended deployment method is to select speed to 5kt below
+    <para>The recommended deployment method is to select speed to 5kt below
     V<subscript>FE next</subscript> then select the next configuration as the speed reduces through
-    V<subscript>FE next</subscript>.<footnote><para revisionflag="added">Prior to the June 2017
+    V<subscript>FE next</subscript>.<footnote><para>Prior to the June 2017
     update, the QRH stated that to prevent overspeeds in case of turbulence, it is acceptable to
     configure at lower speeds as long as speed remains above V<subscript>LS</subscript>. This
     statement has now been removed, most probably to improve the readability of what was a very
@@ -1983,7 +1983,7 @@
     used with care. Protections are unavailable, so speed is limited to 320kt/0.77M and care must be
     taken in GPWS or windshear manoeuvres.</para>
 
-    <para revisionflag="added">Direct Law landings are Config 3; landing distances, in the absence
+    <para>Direct Law landings are Config 3; landing distances, in the absence
     of other pertinent failures, are comparable to normal Config 3 landings.</para>
 
     <para>The major handling difficulty in direct law is the go-around. There
@@ -2234,7 +2234,7 @@
     the fire is not extinguished after 30 seconds, indicated by the fire button remaining lit,
     deploy the second bottle.</para>
 
-    <para revisionflag="changed">This sequence is modified on the ground in that both fire bottles
+    <para>This sequence is modified on the ground in that both fire bottles
     are fired immediately. Cross confirmation is not required for master switches or fire buttons
     when operated on the ground. The emergency evacuation procedure is then applied (see <xref
     linkend="evacuation"/>).</para>
@@ -2275,7 +2275,7 @@
   <title>Fuel</title>
 
 
-  <sect1 id="fuel.differences" revisionflag="added">
+  <sect1 id="fuel.differences">
     <title>Fuel system differences</title>
 
     <para>The easyJet Airbus fleet has evolved to include a number of variations of the fuel
@@ -2316,17 +2316,17 @@
     engine. It is also possible that a fuel leak may be detected visually or by a smell of fuel in
     the cabin.</para>
 
-    <para revisionflag="changed">If a leak can be confirmed to be coming from an engine or pylon,
+    <para>If a leak can be confirmed to be coming from an engine or pylon,
     either visually or as indicated by excessive fuel flow, the affected engine must be shut
     down. In this case, cross-feeding is allowable. Otherwise, the cross-feed must be kept
     closed.</para>
 
-    <para revisionflag="changed">If the leak cannot be confirmed to be originating from an engine or
+    <para>If the leak cannot be confirmed to be originating from an engine or
     pylon, an attempt should be made to identify the source of the leak by monitoring the inner tank
     (or, for A321 NEO, wing tank) depletion rates with the crossfeed valve closed and the center
     tank pumps off.</para>
 
-    <para revisionflag="changed">If depletion rates are similar, a leak from the center tank or from
+    <para>If depletion rates are similar, a leak from the center tank or from
     the APU feeding line should be suspected. If there is a smell of fuel in the cabin, it is likely
     that the APU feeding line is at fault and the APU should be turned off. Fuel from the center
     tank should be used once one of the inner/wing tanks has &lt;3000kg.<footnote><para>The logic
@@ -2344,7 +2344,7 @@
     and the cross feed can be used. If not, a leak from the wing is most likely. In this case, an
     engine restart should be considered.</para>
 
-    <para revisionflag="added">The handling of the center tank pumps in the presence of a fuel leak
+    <para>The handling of the center tank pumps in the presence of a fuel leak
     is dependent on whether the aircraft is fitted with electrical center tank pumps or with jet
     transfer pumps. When electrical center tank pumps are on, no fuel is transferred between the
     center tank and the wing tank unless the engine associated with that wing tank is running. If an
@@ -2389,13 +2389,13 @@
   <sect1 id="gravity-feeding">
     <title>Gravity fuel feeding</title>
 
-    <para revisionflag="changed">Turn on ignition and avoid negative G. The ceiling at which fuel
+    <para>Turn on ignition and avoid negative G. The ceiling at which fuel
     can be reliably gravity fed depends on whether the fuel has had time to deaerate, this being a
     function of achieved altitude and time at that altitude. The algorithm used to calculate gravity
     feed ceiling is airframe dependent and is provided in the QRH. Once calculated, descend to the
     gravity feed ceiling; it may be as low as FL150, so terrain must be considered.</para>
 
-    <para revisionflag="changed">It is also possible to gravity cross feed by side slipping the
+    <para>It is also possible to gravity cross feed by side slipping the
     aircraft with the cross feed valve open. The section of the QRH describing this procedure has
     recently (June 2017) been cleaned up by moving an explanatory note into a branch title, but this
     has had the effect of changing the apparent intention. Previously, gravity cross feeding was
@@ -2441,7 +2441,7 @@
   </sect1>
 
 
-  <sect1 id="ctr-xfr-fault" revisionflag="added">
+  <sect1 id="ctr-xfr-fault">
     <title>Center tank transfer pump faults</title>
 
     <para>Since the motive power for jet transfer pumps comes from their associated wing tank pumps,
@@ -2465,7 +2465,7 @@
     FCOM PRO.AEP.FUEL]</para>
   </sect1>
 
-  <sect1 id="auto-feed" revisionflag="changed">
+  <sect1 id="auto-feed">
     <title>Auto feed/transfer fault</title>
 
     <para>Whenever center tank fuel is being used, fuel is transferred from the center tank to the
@@ -2497,7 +2497,7 @@
   </sect1>
 
 
-  <sect1 id="fuel-overflow" revisionflag="added">
+  <sect1 id="fuel-overflow">
     <title>Wing tank overflow</title>
 
     <para>When center tank fuel transfers to a wing tank, either directly in the case of transfer
@@ -2518,7 +2518,7 @@
   <sect1 id="low-fuel">
     <title>Low fuel level</title>
 
-    <para revisionflag="changed">The ECAM is triggered at approximately 750kg. This warning is
+    <para>The ECAM is triggered at approximately 750kg. This warning is
     generated by sensors that are independent of the FQI system. The warning may be spurious if the
     ECAM is triggered just before the wing cell transfer valves open. If center tank fuel remains,
     it should be used by selecting the center tank pumps to manual mode. If there is a fuel
@@ -2571,7 +2571,7 @@
   <sect1 id="low-fuel-temp">
     <title>Low fuel temperature</title>
 
-    <para revisionflag="changed">ECAM is triggered at approx -43°C for A319/A320 and -44°C for
+    <para>ECAM is triggered at approx -43°C for A319/A320 and -44°C for
     A321. If on the ground, delay takeoff until temperatures are within limits. If in flight,
     descending or increasing speed should be considered.</para>
 
@@ -2587,7 +2587,7 @@
     equipment. The procedure should only be applied if the message has not disappeared within 2
     minutes.</para>
 
-    <para revisionflag="changed">The ECAM temperature triggers on the ground are 55°C for an outer
+    <para>The ECAM temperature triggers on the ground are 55°C for an outer
     cell and 45°C for an inner cell or A321 wing tank. In the air they are 60°C for an outer cell
     and 54°C for an inner cell or A321 wing tank.</para>
 
@@ -2595,11 +2595,11 @@
     requirement. The immediate action, therefore is to turn the galley off to reduce the IDG
     load.</para>
 
-    <para revisionflag="changed">On the ground, the engine on the affected side must be shut down if
+    <para>On the ground, the engine on the affected side must be shut down if
     an outer cell reaches 60°C, an inner cell reaches 54°C or, for the A321, the wing tank reaches
     55°C. An expeditious taxi may, therefore, be advantageous.</para>
 
-    <para revisionflag="changed">In the air, if only one side is affected, fuel flow can be increased so that less hot fuel
+    <para>In the air, if only one side is affected, fuel flow can be increased so that less hot fuel
     is returned to the tanks. If the temperature gets too high (&gt;65°C outer or &gt;57° inner/wing),
     IDG disconnection will be required. The engine must be running when the IDG button is pressed,
     and it must not be held for more than 3 seconds.[FCOM SYS.24.20]</para>
@@ -2609,7 +2609,7 @@
   </sect1>
 
 
-  <sect1 id="fuel.overread" revisionflag="added">
+  <sect1 id="fuel.overread">
     <title>Fuel Overread</title>
 
     <para>The A321NEO introduces a new QRH procedure to be followed when the <emphasis
@@ -2835,7 +2835,7 @@
     <para>The GPWS uses LGCIU 1 to determine landing gear position. If this LGCIU is faulty, the
     GPWS will need to be inhibited to prevent spurious warnings.</para>
 
-    <para revisionflag="changed">If both LGCIUs are lost, normal landing gear control and indicating
+    <para>If both LGCIUs are lost, normal landing gear control and indicating
     systems are lost. The gear must be gravity extended (see <xref
     linkend="gear-gravity-extension"/>). Additionally, the autopilots and autothrust are lost
     (normal law remains available) and wing anti-ice is limited to 30s of heating (i.e. the ground
@@ -3038,7 +3038,7 @@
   <sect1 id="released-brakes.alternate">
     <title>Released brakes, alternate system</title>
 
-    <para revisionflag="changed">The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
+    <para>The ABCU self tests the brakes in a similar manner to the BSCU (see <xref
     linkend="released-normal-brakes"/>). If this test is failed, normal braking can be expected as
     long as the normal braking system is active. If the alternate braking system is active, braking
     will be asymmetric (see <xref linkend="asymmetric-braking"/>) because released brakes occur in
@@ -3076,7 +3076,7 @@
 <chapter id="power-plant">
   <title>Power plant</title>
 
-  <sect1 id="dual-engine-failure" revisionflag="changed">
+  <sect1 id="dual-engine-failure">
     <title>Dual engine failure</title>
 
     <para>Airbus have recently (2018) introduced two new checklists for handling the Dual Engine
@@ -3135,7 +3135,7 @@
     least a 3000m runway. Take account of descent winds, airport elevation and available runway
     directions when selecting an airport.</para>
 
-    <para revisionflag="changed">The Green and Yellow hydraulic failure aspect is interesting in
+    <para>The Green and Yellow hydraulic failure aspect is interesting in
     that the checklists make no attempt to bring the Yellow Electric pump online once electrical
     power is available from the APU. The rationale for this has three parts: firstly, there are
     branches of the failure where the yellow electric pump will not be available, such as if the APU
@@ -3346,15 +3346,15 @@
     inlet in extreme cases), fluctuating performance parameters, sluggish thrust lever response,
     high EGT and/ or rapid EGT rise when the thrust lever is advanced.</para>
 
-    <para revisionflag="added">A variety of FADECs are fitted within the easyJet fleet. The earlier
+    <para>A variety of FADECs are fitted within the easyJet fleet. The earlier
     FADECs do not trigger an ECAM warning if N2 is above idle, whereas the later FADECs are more
     capable. The FCTM warns that all FADECs may fail to detect engine stalls in some cases. Crew
     must therefore be ready to diagnose engine stalls on the basis of the above symptoms and apply
     the QRH procedures where necessary.</para>
 
-    <para revisionflag="added">If an engine stall occurs on the ground, shut the engine down.</para>
+    <para>If an engine stall occurs on the ground, shut the engine down.</para>
 
-    <para revisionflag="changed">When an engine stall occurs in flight, the response is airframe
+    <para>When an engine stall occurs in flight, the response is airframe
     specific. For the earlier FADECs, if an ECAM is triggered, the engine is simply shut down.  In
     all other cases (no ECAM triggered on earlier FADECs; later FADECs) an attempt is made to
     contain the stall without shutting down the engine. The affected thrust lever is retarded to
@@ -3510,7 +3510,7 @@
     required. The ECAM will provide one of two approach procedures depending on how many doors are
     detected as not stowed:</para>
 
-    <itemizedlist revisionflag="changed">
+    <itemizedlist>
       <listitem><para>If all 4 doors are not stowed on CEO or the reverser is deployed on NEO, it
       will be a flap 1 landing, with approach speed V<subscript>REF</subscript>+55kt slowing to
       V<subscript>REF</subscript>+40kt below 800ft. Gear should only be deployed once landing is
@@ -3774,7 +3774,7 @@
     <para>The following messages indicate loss of RNAV capability:
 
     <itemizedlist>
-      <listitem><para revisionflag="changed">NAV ACCUR DOWNGRAD (MCDU and ND) on both
+      <listitem><para>NAV ACCUR DOWNGRAD (MCDU and ND) on both
       sides<footnote><para>If NAV ACCUR DOWNGRAD occurs on one side only, the procedure may be
       continued using the unaffected FMGC.</para></footnote></para></listitem>
 
@@ -3871,7 +3871,7 @@
 
     <para>A single RA fault results in degradation of approach capability to Cat II.</para>
 
-    <para revisionflag="changed">Loss of both RAs will lead to Direct Law at landing gear extension
+    <para>Loss of both RAs will lead to Direct Law at landing gear extension
     and a loss of ILS APPR mode capability. Therefore, landing will be CONF 3 with associated
     corrections and the approach should be flown in LOC and FPA. The FCTM recommends that the final
     stages of the approach are flown raw data as the autopilot gains are not being updated and
@@ -4040,7 +4040,7 @@
   <sect1 id="dualhyd.gy">
     <title>Green + yellow systems low pressure</title>
 
-    <para revisionflag="changed">It may be possible to recover the yellow system using the yellow
+    <para>It may be possible to recover the yellow system using the yellow
     electrical pump. The PTU will need to be turned off in this case, as the yellow electric pump
     lacks sufficient capacity to pressurise the green system throught the PTU. Systems lost because
     of low air pressure in the reservoir will be recoverable at lower altitudes. Systems lost due to
@@ -4062,7 +4062,7 @@
     reversers, accumulator only braking and no nose wheel steering. Hence required landing distances
     almost triple.</para>
 
-    <para revisionflag="changed">The go around, in some ways, is exceptionally straightforward. The
+    <para>The go around, in some ways, is exceptionally straightforward. The
     gear cannot be raised and the configuration should be maintained. Due to the frozen stabiliser,
     a speed close to V<subscript>APP</subscript> should be flown.<footnote><para>Airbus originally
     suggested flying V<subscript>FE</subscript>‑10kt; I assume this was found to cause handling
@@ -4095,7 +4095,7 @@
     3 and 4 and loss of #2 reverser. Approach configuration is normal apart from slow flaps and
     slats and gravity gear extension (protects green system). Nose wheel steering is lost.</para>
 
-    <para revisionflag="changed">Gear cannot be retracted on go-around. Fuel burn for a subsequent
+    <para>Gear cannot be retracted on go-around. Fuel burn for a subsequent
     diversion will be significantly greater (approx factor 3 times normal); see <xref
     linkend="flight-with-gear-extended"/> for further details.</para>
 
@@ -4131,7 +4131,7 @@
     available, reverser 2 is available, alternate braking is available and nose wheel steering is
     available. Landing distances approximately double.</para>
 
-    <para revisionflag="changed">Go around is straightforward – the gear cannot be retracted and the
+    <para>Go around is straightforward – the gear cannot be retracted and the
     flap configuration should be maintained. Simply select V<subscript>FE</subscript>‑10. For
     diversion, the flaps can be retracted. With the gear remaining down, fuel burn will increase by
     a factor of approximately 3 if the slats are at zero or up to approximately 3½ if they are
