@@ -4,7 +4,7 @@
 <!-- use fill column 100 -->
 <book id="airbus-nonnormal">
   <title>Airbus A320 Family Non-Normal Notes</title>
-  <subtitle>Version 2.5.2</subtitle>
+  <subtitle>Version 2.6</subtitle>
 
 <preface>
   <title>Change log</title>
@@ -16,7 +16,7 @@
 
     <blockquote><para><ulink url="https://hursts.org.uk"/></para></blockquote></para>
 
-    <para>Changes since version 2.4 are highlighted.</para>
+    <para>Changes since version 2.5.2 are highlighted.</para>
 
     <para>Changed sections have a green background, added sections have a yellow background. Removed
     sections are notified in the change log.</para>
@@ -24,6 +24,13 @@
     <para>Changes to cross references induced by Airbus re-jigging their manuals are not
     highlighted.</para>
 
+  </sect1>
+
+  <sect1>
+    <title>Changes since version 2.5.2</title>
+    <itemizedlist>
+      <listitem><para></para></listitem>
+    </itemizedlist>
   </sect1>
 
   <sect1>
@@ -52,142 +59,6 @@
       <listitem><para>Corrected <xref linkend="ac-bus-1-fault"/>. DC Bus 1 is powered from DC Bus 2
       rather than the other way round as previously stated. My thanks to Joachim Duquesne for
       pointing out this error.</para></listitem>
-    </itemizedlist>
-  </sect1>
-  <sect1>
-    <title>Changes since version 2.4</title>
-    <itemizedlist>
-      <listitem><para>Removed reference to “read ECAM” from <xref linkend="efato"/> as easyJet has
-      now standardised on Airbus SOPs for ECAM handling.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="emerg-descent"/> to move selecting oxygen flow to N
-      position to after the checklist has been called for as mandated by the revised Airbus
-      procedure.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="ditching"/> and <xref linkend="forced-landing"/> and
-      rewrote <xref linkend="dual-engine-failure"/> to account for the newly introduced QRH.AEP.MISC
-      EMER LANDING ALL ENG FAILURE and QRH.AEP.ENG ALL ENG FAIL checklists.</para></listitem>
-
-      <listitem><para>Improved <xref linkend="emerg-elec-config"/>.</para></listitem>
-
-      <listitem><para>Added mitigation of loss of passenger oxygen masks to <xref
-      linkend="ac-ess"/>. My thanks to Jochen Radke for the suggestion.</para></listitem>
-
-      <listitem><para>Added footnote to <xref linkend="flight-controls.slats-flaps-fault"/> to
-      explain that the recommendation for reducing speed below V<subscript>FE next</subscript> while
-      remaining above V<subscript>LS</subscript> when configuring in turbulence has been removed
-      from the QRH.</para></listitem>
-
-      <listitem><para>Added statement to <xref linkend="direct-law"/> that landing will be Config
-      3.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="eng_fire"/>. Airbus previously required the shutting
-      down of the second engine as part of the engine fire on the ground procedure. This was always
-      pretty messy since when you lost the engine driven generator, you also lost the ECAM for the
-      last items. Airbus now mandate applying the emergency evacuation procedure, which results in
-      the second engine being shut down in a much saner manner.</para></listitem>
-
-      <listitem><para>Added section <xref linkend="fuel.differences"/> to provide a general
-      description of how fuel system differences affect fuel non-normals.</para></listitem>
-
-      <listitem><para>Added section to <xref linkend="fuel-leak"/> to explain the different handling
-      of the new jet transfer pumps compared to electrical center tank pumps.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="gravity-feeding"/> to remove specific details of the
-      gravity feed ceiling algorithm since this is now airframe specific. Also added details of the
-      ambiguity that has been introduced into the gravity crossfeed section. My thanks to Pascal
-      Zlatintsis for pointing this out.</para></listitem>
-
-      <listitem><para>Added <xref linkend="ctr-xfr-fault"/>.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="auto-feed"/> to cover manual operation of both types of
-      center tank pump.</para></listitem>
-
-      <listitem><para>Added <xref linkend="fuel-overflow"/>.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="low-fuel"/> to include that the low fuel sensors are
-      independent of the FQI system.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="low-fuel-temp"/> with A321 data.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="high-fuel-temp"/> with A321 wing tank
-      data.</para></listitem>
-
-      <listitem><para>Added <xref linkend="fuel.overread"/> to cover new A321NEO
-      procedure.</para></listitem>
-
-      <listitem><para>Added additional information to <xref
-      linkend="lgciu-fault"/>.</para></listitem>
-
-      <listitem><para>Added explanation of why released brakes always leads to asymmetric braking to
-      <xref linkend="released-brakes.alternate"/></para></listitem>
-
-      <listitem><para>Updated <xref linkend="engine-stall"/> to account for fleet variations in
-      FADEC modification level and the new QRH procedures.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="reverser-unlocked"/> with NEO
-      procedure.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="rnav-downgrade"/>. It is now OK to continue an RNAV
-      approach with NAV ACCUR DOWNGRAD on one side.</para></listitem>
-
-      <listitem><para>Updated <xref linkend="ra-faults"/> with recommendation from FCTM to fly final
-      stages of the approach raw data due to lack of autopilot gain updating.</para></listitem>
-
-      <listitem><para>Updated target go around speed for <xref linkend="dualhyd.gy"/> to comply with
-      new Airbus guidance. My thanks to Sjoerd de Vries for pointing this out.</para></listitem>
-
-      <listitem><para>Updated approximate diversionary fuel flows for <xref linkend="dualhyd.gy"/>,
-      <xref linkend="dualhyd.by"/> and <xref linkend="dualhyd.gb"/> to take account of data
-      introduced by the new Fuel Penalty Factor tables in the QRH.</para></listitem>
-
-    </itemizedlist>
-
-  </sect1>
-
-
-  <sect1>
-    <title>Changes since version 2.3</title>
-
-    <itemizedlist>
-      <listitem><para>Cross references are updated throughout to account for February 2018
-      re-jigging of FCOM, FCTM, QRH and EOM-B.</para></listitem>
-
-      <listitem><para>Added footnote to <xref linkend="rejected_takeoff"/> to explain that the Feb
-      2018 changes to RTO procedures do not really change anything.</para></listitem>
-
-      <listitem><para>Added advice for a fresh takeoff attempt following an RTO to <xref
-      linkend="rejected_takeoff"/>.</para></listitem>
-
-      <listitem><para>Removed “engine failure” and “engine fire” calls from <xref linkend="efato"/>.
-      These calls have been dropped from EOM-B. Due to EOM-B ambiguity, added advice to state the
-      first ECAM procedure title with a footnote explaining that this is an interpretation of the
-      ambiguous procedures.</para></listitem>
-
-      <listitem><para>Deleted “Immediate VMC recovery” section; it has been removed from FCOM and
-      hasn’t surfaced anywhere else.</para></listitem>
-
-      <listitem><para>Improved <xref linkend="efic"/> to explain reasons for required
-      actions.</para></listitem>
-
-      <listitem><para>Added requirement for FLAP 3 landing to <xref
-      linkend="se_circling"/>.</para></listitem>
-
-      <listitem><para>Added <xref linkend="ldg-elev-fault"/>.</para></listitem>
-
-      <listitem><para>Added advice about direct law go-arounds to <xref
-      linkend="direct-law"/>.</para></listitem>
-
-      <listitem><para>Added FCTM info regarding spurious AVIONICS SMOKE ECAMs to <xref
-      linkend="smoke-fumes"/>.</para></listitem>
-
-      <listitem><para>Improved <xref linkend="asymmetric-braking"/>.</para></listitem>
-
-      <listitem><para>Removed section with reference to “if engines are running” from <xref
-      linkend="dual-engine-failure"/> since this is clearly nonsense. Sorry.</para></listitem>
-
-      <listitem><para>Added explanation of interaction between ECAM and QRH to <xref
-      linkend="dual-engine-failure"/>.</para></listitem>
     </itemizedlist>
   </sect1>
 
