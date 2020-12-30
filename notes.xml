@@ -33,6 +33,8 @@
       Dual Failure checklists no longer being applicable to any airframes in the easyJet fleet
       following software upgrades.</para></listitem>
 
+      <listitem><para>Clarified triggers for <xref linkend="pack-fault"/>.</para></listitem>
+
       <listitem><para>Added explanation of depressurisation requirement to <xref
       linkend="skin-valve-fault"/>.</para></listitem>
 
@@ -864,11 +866,12 @@
   <sect1 id="pack-fault">
     <title>Pack fault</title>
 
-    <para>The PACK FAULT ECAM indicates that the pack valve position disagrees with the selected
-    position or that the pack valve is closed. The affected pack should be turned off. A possible
-    reason for this failure is loss of both channels of an Air Conditioning System Controller
-    (ACSC). If this occurs, the associated hot air trimming will also be lost (cockpit for ACSC 1,
-    cabin for ACSC 2).</para>
+    <para revisionflag="changed">The PACK FAULT ECAM indicates that the pack flow control valve
+    position disagrees with the selected position or that the pack valve has closed due to
+    compressor outlet overheat or pack outlet overheat. The affected pack should be turned off. A
+    possible reason for this failure is loss of both channels of an Air Conditioning System
+    Controller (ACSC). If this occurs, the associated hot air trimming will also be lost (cockpit
+    for ACSC 1, cabin for ACSC 2).</para>
 
     <para>If there are simultaneous faults with both packs, ram air must be used. This will
     necessitate depressurisation of the aircraft, so a descent to FL100 (or MEA if higher) is
