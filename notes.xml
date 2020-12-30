@@ -1784,9 +1784,12 @@
     reverser and loss of autobraking.</para>
 
     <para revisionflag="changed">If all SECs are lost, all the above holds true. Furthermore the
-    flight controls revert to Alternate Law due to the complete loss of spoilers. Also, due to the
-    normal routing of LGCIU data to the ELACs being via the SECs, Direct Law will occur at selection
-    of CONF 2 rather than at gear extension.</para>
+    flight controls revert to Alternate Law due to the complete loss of spoilers; due to the normal
+    routing of LGCIU data to the ELACs being via the SECs, Direct Law will occur at selection of
+    CONF 2 rather than at gear extension.<footnote><para revisionflag="added">The autopilot is
+    available with loss of all SECs. If the autopilot is engaged when CONF 2 is selected, Alternate
+    Law will be retained; the reversion to Direct Law will occur at autopilot
+    disconnection.</para></footnote></para>
 
     <para>An attempt should be made to reset the affected SEC(s).</para>
 
