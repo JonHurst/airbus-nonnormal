@@ -1127,12 +1127,12 @@
     smoke configuration; this sends additional close signals to the extract valve. If the extract
     valve still remains open, the ECAM directs the crew to depressurise the aircraft. The rationale
     for this seemingly extreme reaction to a relatively minor issue is that the ECAM can only really
-    occur after the take-off inhibit ceases at 1500ft AAL. The extract valve is normally held closed
-    by the pressurisation and its motor is not sufficiently powerful to overcome this. Thus the
-    extract valve can only be open in flight if it never closed. With the extract valve open, it
-    will likely not be possible to complete the flight since the additional hole will make it
-    impossible to properly pressurise the aircraft at cruise altitude, and the pressurised air
-    rushing through the open outflow valve will cause it to be unpleasantly noisy in the
+    occur immediately after the take-off inhibit ceases at 1500ft AAL. The extract valve is normally
+    held closed by the pressurisation and its motor is not sufficiently powerful to overcome
+    this. Thus the extract valve can only be open in flight if it never closed. With the extract
+    valve open, it will likely not be possible to complete the flight since the additional hole will
+    make it impossible to properly pressurise the aircraft at cruise altitude, and the pressurised
+    air rushing through the open outflow valve will cause it to be unpleasantly noisy in the
     cockpit. This makes depressurising the aircraft and returning for engineering attention the
     obvious solution.<footnote><para>The ECAM procedure associated with this failure is due to be
     modified in an upcoming FWC update.</para></footnote></para>
