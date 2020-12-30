@@ -43,6 +43,10 @@
       <listitem><para>Updated <xref linkend="all-engine-failure"/>. Rewrite due to the Engine Dual
       Failure checklists no longer being applicable to any airframes in the easyJet
       fleet following software upgrades.</para></listitem>
+
+      <listitem><para>Added note to <xref linkend="adr-faults"/> that most of the easyJet fleet has
+      now been updated so that the stall warner is not lost in the event of triple ADR
+      failure. My thanks to Jannis Drew for pointing this out.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -3649,11 +3653,13 @@
     Scale is available, the ECAM advises that the standby instrument indications may be
     unreliable…</para>
 
-    <para>Triple ADR failure has a few additional ramifications. Of note is loss of automatic cabin
-    pressure control (see <xref linkend="pressure-controller"/> for manual pressure control
-    methodology), Alternate Law and gravity gear extension. Of lesser concern are loss of stall
-    warning, rudder travel limiter frozen until slat extension and loss of auto flap
-    retraction.</para>
+    <para revisionflag="changed">Triple ADR failure has a few additional ramifications. Of note is
+    loss of automatic cabin pressure control (see <xref linkend="pressure-controller"/> for manual
+    pressure control methodology), Alternate Law and gravity gear extension. Of lesser concern are
+    loss of stall warning<footnote><para revisionflag="added">Most of the easyJet fleet has now been
+    modified so that the stall warning is not lost in the event of triple ADR
+    failure.</para></footnote>, rudder travel limiter frozen until slat extension and loss of auto
+    flap retraction.</para>
 
     <para role="multicite">[<emphasis
     role="underline">NAV</emphasis> ADR 1(2)(3)(1+2)(1+3)(2+3) FAULT, QRH AEP.NAV,
