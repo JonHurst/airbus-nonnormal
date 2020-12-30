@@ -52,6 +52,8 @@
       <listitem><para>Added note to <xref linkend="adr-faults"/> that most of the easyJet fleet has
       now been updated so that the stall warner is not lost in the event of triple ADR
       failure. My thanks to Jannis Drew for pointing this out.</para></listitem>
+
+      <listitem><para>Improved <xref linkend="misc-tips"/>.</para></listitem>
     </itemizedlist>
   </sect1>
 
@@ -4467,18 +4469,20 @@
 
     <listitem><para>Dual hydraulic failure fundamentals:
     <itemizedlist>
-      <listitem><para>You will always need to gravity extend the gear, so you will never be able to
-      retract it on the go-around.</para></listitem>
+      <listitem><para>You will <emphasis>always</emphasis> need to gravity extend the gear, so you
+      will never be able to retract it on the go-around.</para></listitem>
 
       <listitem><para>If you only have blue, you lose the flaps; if you only have yellow, you lose
       the slats. The flaps/slats jammed procedure (including go-around modifications) is therefore
       incorporated into both these procedures.</para></listitem>
 
-      <listitem><para>If you only have blue, the THS is frozen (think BLUE=COLD=FROZEN THS), so you
-      need to go Direct Law late (at Conf 3, V<subscript>APP</subscript>) to get neutral trimming of
-      the elevators. If you only have yellow, you only have one elevator (think
-      YELLOW=COWARDLY=Timid control response); combined with lack of slats this requires going
-      Direct Law early (at 200kt) to improve pitch response.</para></listitem>
+       <listitem><para>If you only have blue or yellow, it will be a Direct Law landing; Normal Law
+       is retained if green is available. Direct law is triggered by gear extension. If you only
+       have blue, the THS is frozen, so you need to trigger Direct Law late (at Conf 3,
+       V<subscript>APP</subscript>) to get neutral trimming of the elevators. If you only have
+       yellow, the aircraft handling is sluggish; trigger Direct Law early (at 200kt) to improve
+       responsiveness. Picturing a yellow slug (Limax flavus) is one way of remembering which way
+       round these are.</para></listitem>
 
       <listitem><para>You’re going to need a longish runway. Worst case is if you only have blue,
       since you have, at best, accumulator braking and you’re coming in fast due to lack of
