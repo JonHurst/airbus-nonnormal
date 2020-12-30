@@ -46,6 +46,9 @@
       Failure checklists no longer being applicable to any airframes in the easyJet
       fleet following software upgrades.</para></listitem>
 
+      <listitem><para>Changed <xref linkend="TCAS"/> to reflect changes to easyJet SOP
+      callouts.</para></listitem>
+
       <listitem><para>Added note to <xref linkend="adr-faults"/> that most of the easyJet fleet has
       now been updated so that the stall warner is not lost in the event of triple ADR
       failure. My thanks to Jannis Drew for pointing this out.</para></listitem>
@@ -3547,10 +3550,9 @@
     <para>TCAS warnings may be either traffic advisories (“Traffic, Traffic”) or resolution
     advisories (anything else).</para>
 
-    <para>From 28th January 2017, new easyJet deliveries are fitted with the
+    <para revisionflag="changed">From 28th January 2017, new easyJet deliveries are fitted with the
     new AP/FD TCAS mode. When this mode is fitted, the autopilot is capable of autonomously flying
-    the TCAS escape manoeuvre. PF simply calls “TCAS blue, I have control” to establish who will
-    take over if the autopilot does not respond appropriately, then calls the FMAs and monitors the
+    the TCAS escape manoeuvre. PF simply calls “TCAS blue” then calls the FMAs and monitors the
     autopilot as it flies the manoeuvre. If flying manually with flight directors and autothrust on,
     the flight directors will give standard guidance to fly the manoeuvre. If flying fully manually,
     the flight directors will pop up and the autothrust will engage, although it may be necessary to
