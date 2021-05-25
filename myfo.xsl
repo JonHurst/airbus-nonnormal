@@ -127,4 +127,6 @@
   </l:l10n>
 </l:i18n>
 
+<xsl:template name="book.verso.title"/>
+
 </xsl:stylesheet>
