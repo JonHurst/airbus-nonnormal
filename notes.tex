@@ -6,6 +6,7 @@
 \usepackage{color}
 \usepackage[color]{changebar}
 \cbcolor{blue}
+\usepackage{array}
 
 \title{A320 Family Non-Normal-Notes\\~\\\large{Version 2.6}}
 \author{Jon Hurst}
@@ -22,7 +23,6 @@
 \tableofcontents
 
 \chapter{Operating techniques}
-
 \section{Rejected Takeoff}
 
 The decision to reject rests solely with CM1. This decision is communicated with
@@ -356,14 +356,10 @@ following short term attitude and thrust settings to initiate a climb:
 \medskip
 \begin{tabular}{|l|c|c|}
   \hline
-  \textbf{Condition} & \textbf{Thrust} & \textbf{Pitch}\\
-  \hline
-  Below Thrust Reduction Altitude & TOGA & 15°\\
-  \hline
-  Below FL100 & CLB & 10°\\
-  \hline
-  Above FL100 & CLB & 5°\\
-  \hline
+  \textbf{Condition} & \textbf{Thrust} & \textbf{Pitch}\\\hline
+  Below Thrust Reduction Altitude & TOGA & 15°\\\hline
+  Below FL100 & CLB & 10°\\\hline
+  Above FL100 & CLB & 5°\\\hline
 \end{tabular}
 \medskip
 
@@ -549,7 +545,7 @@ Airbus refers to this as “Standard Strategy”.
 
 If obstacles remain a problem, MCT and green dot speed can be maintained to give
 a shallow climbing profile. Once obstacles are no longer a problem, descend to
-LRC ceiling (use V/S if <500 fpm descent rate), engage the autothrust and
+LRC ceiling (use V/S if $<$500 fpm descent rate), engage the autothrust and
 continue at LRC speed.
 
 \multicite{FCTM PRO.AEP.ENG.EFDC}
