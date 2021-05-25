@@ -1,12 +1,14 @@
 \documentclass[a5paper,11pt,twoside]{book}
-\usepackage{fontspec}
-\setmainfont{FreeSerif}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage[left=0.75in, bottom=1in]{geometry}
 \usepackage{microtype}
 \usepackage{color}
 \usepackage[color]{changebar}
 \cbcolor{blue}
 \usepackage{array}
+\usepackage{textcomp}
+\usepackage[hidelinks]{hyperref}
 
 \title{A320 Family Non-Normal-Notes\\~\\\large{Version 2.6}}
 \author{Jon Hurst}
@@ -75,28 +77,29 @@ FCU, then restart SOPs from the After Start checklist. Carefully consider brake
 temperatures; temperature indications continue to climb for some time after a
 significant braking event.
 
-\multicite{EOMB 3.10, FCTM PRO.AEP.MISC}
+\multicite{EOMB~3.10, FCTM~PRO.AEP.MISC}
 
 
-\section{Failures during takeoff when above \V{1}}
+\section{Failures during takeoff when above V1}
 
 If an engine has lost thrust, apply rudder conventionally. At V\textsubscript{r}
-rotate towards an initial pitch target of 12½° at a slightly reduced rate, then
-target speed \V{2} to \V{2}+15kt. Bank angle should be limited to 15° when more
-than 3kt below manoeuvring speed for the current configuration\footnote{This is
-a conservative rule of thumb. If the FMGC has correctly identified an engine out
-condition, the FD/AP will automatically limit bank angle according to a less
-conservative algorithm. [FCOM SYS.22.20.60.40]}.
+rotate towards an initial pitch target of 12\textonehalf\textdegree{ }at a
+slightly reduced rate, then target speed \V{2} to \V{2}+15kt. Bank angle should
+be limited to 15\textdegree{ }when more than 3kt below manoeuvring speed for
+the current configuration\footnote{This is a conservative rule of thumb. If the
+FMGC has correctly identified an engine out condition, the FD/AP will
+automatically limit bank angle according to a less conservative
+algorithm. [FCOM~SYS.22.20.60.40]}.
 
 When the ground to flight mode transition is complete\footnote{Introducing TOGA
 during the ground to flight mode transition (commences as the pitch increases
-through 8°, complete after 5 seconds) results in a pitch up moment at a time
+through 8\textdegree{ }, complete after 5 seconds) results in a pitch up moment at a time
 where the effect of stick pitch control is not wholly predictable: the stick
 will need to be moved forward of neutral to counteract the introduced pitch
 moment and then returned to neutral as flight mode blends in. A slight pause
 before selecting TOGA results in much more normal and predictable handling.},
 select TOGA (FLX may be used but this tends to allow speed to decay unless pitch
-is reduced), adjust and trim rudder to maintain β target and request “pull
+is reduced), adjust and trim rudder to maintain $\beta$ target and request “pull
 heading”. If the EOSID follows the track of the cleared SID, NAV may be used,
 but this is very rare with easyJet EOSIDs.  Engage the autopilot once gear is up
 and rudder is trimmed.
@@ -154,7 +157,7 @@ interrupt ECAM and accelerate.  High priority tasks are defined as:
   extinguished or both squibs have been fired.
 \end{itemize}
 
-\multicite{FCTM PRO.AEP.ENG}
+\multicite{FCTM~PRO.AEP.ENG}
 
 
 
@@ -207,7 +210,7 @@ If an EOSID is annotated as “STD”, then acceleration to green dot should be
 completed prior to commencing the first turn. If “NON-STD”, the turn takes
 priority.
 
-\multicite{EOMB 4.4.4, FCOM DSC.22\_20.60.40}
+\multicite{EOMB~4.4.4, FCOM~DSC.22\_20.60.40}
 
 \chapter{Miscellaneous}
 
@@ -229,7 +232,7 @@ Mach that is relevant.} Target altitude is FL100 or MORA if this is higher. If
 speed is low, allow speed to increase before deploying full speedbrake to
 prevent activation of the angle of attack protection. Landing gear may be used,
 but speed must be below \V{LO} when it is extended and remain below \V{LE}. If
-on an airway, consider turning 90° to the left.
+on an airway, consider turning 90\textdegree{ }to the left.
 
 PM’s only memory action is to turn the seatbelt signs on.\footnote{Prior to a
 2017 update from Airbus, PM would complete a fairly lengthy list of memory items
@@ -255,7 +258,7 @@ advise cabin crew and passengers that it is safe to remove their masks. To
 deactivate the mask microphone and switch off the oxygen flow, close the oxygen
 mask stowage compartment and press the “PRESS TO RESET” oxygen control slide.
 
-\multicite{EOMB 3.80.2, QRH AEP.MISC, FCOM AEP.MISC, FCTM AEP.MISC}
+\multicite{EOMB~3.80.2, QRH~AEP.MISC, FCOM~AEP.MISC, FCTM~AEP.MISC}
 
 
 \section{Windshear \emph{(memory item)}}
@@ -283,9 +286,9 @@ on the PFD and a “WINDSHEAR, WINDSHEAR, WINDSHEAR” aural warning.
 
 If a warning occurs when airborne, call “Windshear, TOGA”, apply TOGA power and
 maintain current configuration. The autopilot can fly the escape manoeuvre as
-long as $\mathrm{\alpha_{req}<\alpha_{prot}}$. If the
+long as \mbox{$\mathrm{\alpha_{req}<\alpha_{prot}}$}. If the
 autopilot is not engaged, follow the SRS orders on the FD. If the FD is not
-available, initially pitch up to 17.5°, then increase as required.
+available, initially pitch up to 17.5\textdegree, then increase as required.
 
 Do not change configuration until out of the windshear.
 
@@ -297,11 +300,11 @@ achieved by pressing the “instinctive disconnect pb” on the thrust levers th
 flying manual thrust until the situation has sufficiently stabilised to
 re-engage the autothrust.
 
-\multicite{FCOM PRO.AEP.SURV}
+\multicite{FCOM~PRO.AEP.SURV}
 
 \subsection{Predictive}
 
-When below 2300ft AGL, the weather radar scans a 5nm radius 60° arc ahead of the
+When below 2300ft AGL, the weather radar scans a 5nm radius 60\textdegree{ }arc ahead of the
 aircraft for returns indicating potential windshear.
 
 Alerts are categorised as advisory, caution or warning, in increasing order of
@@ -327,7 +330,7 @@ windshear is serviceable the crew may downgrade the warning to a caution. If a
 caution alert occurs during approach, consider use of CONF 3 and increasing
 \V{APP} to a maximum of \V{LS}+15.
 
-\multicite{FCOM PRO.AES.SURV}
+\multicite{FCOM~PRO.AES.SURV}
 
 \section{Unreliable airspeed \emph{(memory item)}}
 
@@ -353,15 +356,15 @@ buffet or low aerodynamic noise.
 If the aircraft flight path is in doubt, disconnect the automatics and fly the
 following short term attitude and thrust settings to initiate a climb:
 
-\medskip
+\bigskip
 \begin{tabular}{|l|c|c|}
   \hline
   \textbf{Condition} & \textbf{Thrust} & \textbf{Pitch}\\\hline
-  Below Thrust Reduction Altitude & TOGA & 15°\\\hline
-  Below FL100 & CLB & 10°\\\hline
-  Above FL100 & CLB & 5°\\\hline
+  Below Thrust Reduction Altitude & TOGA & 15\textdegree \\\hline
+  Below FL100 & CLB & 10\textdegree \\\hline
+  Above FL100 & CLB & 5\textdegree \\\hline
 \end{tabular}
-\medskip
+\bigskip
 
 If configured CONF Full, select CONF 3, otherwise flap/slat configuration should
 be maintained. The gear and speedbrake should be retracted. If there is any
@@ -401,20 +404,20 @@ If all ADRs are considered unreliable, turn off any two of them; one is kept on
 to provide stall warning from the alpha probes. More recent aircraft have backup
 speed/altitude scales based on AOA probes and GPS altitudes which are activated
 when below FL250 by turning off the third ADR. The ALL ADR OFF procedure in
-QRH AEP.NAV describes the use of these scales, but it boils down to fly the
+QRH~AEP.NAV describes the use of these scales, but it boils down to fly the
 green on the speed scale and anticipate slightly reduced accuracy from the
 altitude scale.  For aircraft without this functionality, tables are provided in
 section AEP.NAV.USI of the QRH to enable all phases of flight to be flown using
 just pitch and thrust settings. Acceleration and clean up are carried out in
 level flight. Flap 1 can be selected as soon as climb thrust is selected, flap 0
 once the appropriate S speed pitch attitude from the table on the first page of
-the QRH AEP.NAV.USI procedure is reached. Configuration for approach is also
+the QRH~AEP.NAV.USI procedure is reached. Configuration for approach is also
 carried out in level flight, stabilising in each configuration using the
 technique described above. The approach is flown in CONF 3 at an attitude that
-should result in VLS+10 when flying a 3° glide. Landing distance will be
-increased.
+should result in \V{LS}+10 when flying a 3\textdegree{ }glide. Landing distance
+will be increased.
 
-\multicite{QRH AEP.NAV, FCOM PRO.AEP.NAV, FCTM PRO.AEP.NAV}
+\multicite{QRH~AEP.NAV, FCOM~PRO.AEP.NAV, FCTM~PRO.AEP.NAV}
 
 \section{Incapacitation}
 
@@ -423,7 +426,7 @@ should strap the incapacitated pilot to his seat, move the seat back, then recli
 are two cabin crew available, the body can be moved. Medical help should be sought from
 passengers, and the presence of any type rated company pilots on board ascertained.
 
-\multicite{FCTM PRO.AEP.MISC}
+\multicite{FCTM~PRO.AEP.MISC}
 
 \section{Forced Landing (inc. Ditching)}
 
@@ -444,7 +447,7 @@ available for extensive preparation of cabin and cockpit. It is highly likely
 that these checklists will need adapting to the situation.
 
 The fundamentals are the same with or without power. Ditching will be gear up
-with a target pitch attitude of 11° and minimal vertical speed, and should be
+with a target pitch attitude of 11\textdegree{ }and minimal vertical speed, and should be
 made parallel to the swell unless there are strong crosswinds, in which case an
 into wind landing is preferred. Forced landing will be gear down with the
 spoilers armed. The aircraft should be depressurised for the landing, with the
@@ -459,7 +462,7 @@ for the latter. Approach speeds must also be high enough to prevent RAT stall
 (i.e. >140kt) if it is being relied upon. The combination of these factors means
 that much lower landing speeds can be achieved if power is available.
 
-\multicite{QRH AEP.MISC}
+\multicite{QRH~AEP.MISC}
 
 \section{Evacuation}
 
@@ -486,7 +489,7 @@ Finally, order the evacuation. This is primarily done with the PA “Evacuate,
 unfasten your seat belts and get out”, with the evacuation alarm being triggered
 as a backup.
 
-\multicite{EOMB 3.80.1, FCOM PRO.AER.MISC, FCTM PRO.AER.MISC}
+\multicite{EOMB~3.80.1, FCOM~PRO.AER.MISC, FCTM~PRO.AER.MISC}
 
 
 \section{Overweight landing}
@@ -494,24 +497,24 @@ as a backup.
 A landing can be made at any weight, providing sufficient landing distance is
 available. In general, automatic landings are only certified up to MLW, but the
 FCOM specifies that, for the A319 only, autoland is available up to 69000kg in
-case of emergency. The preferred landing configuration is CONF FULL, but lower
-settings may be used if required by QRH/ECAM procedures. QRH AER.MISC.OL also
-specifies CONF 3 if the aircraft weight exceeds the CONF 3 go around limit; this
+case of emergency. The preferred landing configuration is CONF~FULL, but lower
+settings may be used if required by QRH/ECAM procedures. QRH~AER.MISC.OL also
+specifies CONF~3 if the aircraft weight exceeds the CONF~3 go around limit; this
 will only ever be a factor for airfields with elevations above 1000ft. Packs
 should be turned off to provide additional go around thrust. If planned landing
 configuration is less than FULL, use 1+F for go-around.
 
-It is possible that S speed will be higher than \V{FE next} for CONF 2. In this
-case, a speed below \V{FE next} should be selected until CONF 2 is achieved,
+It is possible that S speed will be higher than \V{FE~next} for CONF 2. In this
+case, a speed below \V{FE~next} should be selected until CONF 2 is achieved,
 then managed speed can be re-engaged.
 
 In the final stages of the approach, reduce speed to achieve \V{LS} at runway
 threshold. Land as smoothly as possible, and apply max reverse as soon as the
 main gear touches down. Maximum braking can be used after nosewheel
 touchdown. After landing, switch on the brake fans and monitor brake
-temperatures carefully. If temperatures exceed 800°C, tyre deflation may occur.
+temperatures carefully. If temperatures exceed 800\textdegree C, tyre deflation may occur.
 
-\multicite{QRH AER.MISC, FCOM PRO.AER.MISC, FCTM PRO.AER.MISC}
+\multicite{QRH~AER.MISC, FCOM~PRO.AER.MISC, FCTM~PRO.AER.MISC}
 
 \section{Engine failure in cruise}
 
@@ -545,20 +548,20 @@ Airbus refers to this as “Standard Strategy”.
 
 If obstacles remain a problem, MCT and green dot speed can be maintained to give
 a shallow climbing profile. Once obstacles are no longer a problem, descend to
-LRC ceiling (use V/S if $<$500 fpm descent rate), engage the autothrust and
+LRC ceiling (use V/S if <500 fpm descent rate), engage the autothrust and
 continue at LRC speed.
 
-\multicite{FCTM PRO.AEP.ENG.EFDC}
+\multicite{FCTM~PRO.AEP.ENG.EFDC}
 \section{Single engine circling}
 
 It may not be possible to fly level in the standard circling configuration of
-CONF 3 gear down. This can be ascertained by checking the table in QRH AEP.MISC
+CONF 3 gear down. This can be ascertained by checking the table in QRH~AEP.MISC
 One Engine Inoperative – Circling Approach. If affected, plan a FLAP 3 landing
 and delay gear extension until level flight is no longer required; a L/G NOT
 DOWN warning which will occur if circling below 750ft (can be silenced with the
 EMER CANC pb) and a TOO LOW GEAR should be anticipated if below 500ft RA.
 
-\multicite{QRH AEP.MISC}
+\multicite{QRH~AEP.MISC}
 
 \section{Bomb on board}
 
@@ -581,7 +584,7 @@ early as possible to avoid an explosion damaging landing systems.
 In the cabin, procedures are laid down for assessing the risks of moving the
 device and for moving the device to the LRBL at door 2R.
 
-\multicite{QRH AER.80, FCOM PRO.AER.MISC}
+\multicite{QRH~AER.80, FCOM~PRO.AER.MISC}
 
 \section{Stall recovery \emph{(memory item)}}
 
@@ -599,11 +602,12 @@ and thrust applied.
 To recover from a fully stalled condition, the angle of attack of the aerofoils
 must be reduced to below critical. The generic stall recovery is therefore
 simply to pitch the nose down sufficiently to break the stall and level the
-wings. In normal operations, the velocity vector of the aircraft is around 3°
-below the centerline of the aircraft (i.e. an attitude of around 3° is required
-to fly level). In a stalled condition, the velocity vector may be 40° or more
-below the centerline of the aircraft. Thus the amount of pitch down required to
-recover a fully stalled aircraft can be 30° or more.
+wings. In normal operations, the velocity vector of the aircraft is around
+3\textdegree{ }below the centerline of the aircraft (i.e. an attitude of around
+3\textdegree{ }is required to fly level). In a stalled condition, the velocity
+vector may be 40\textdegree{ }or more below the centerline of the
+aircraft. Thus the amount of pitch down required to recover a fully stalled
+aircraft can be 30\textdegree{ }or more.
 
 The aircraft’s thrust vector helps to accelerate the aircraft during the
 recovery, and increasing speed along the aircraft’s centerline acts to reduce
@@ -630,14 +634,14 @@ and exceedance of high speed airframe limitations becomes a threat.
 
 If a stall warner sounds on takeoff it is likely to be spurious since you are
 almost certainly in normal law. The procedure in this case is essentially to
-initially assume unreliable airspeed and fly TOGA, 15°, wings level until it can
-be confirmed that the warning is spurious.
+initially assume unreliable airspeed and fly TOGA, 15\textdegree , wings level
+until it can be confirmed that the warning is spurious.
 
 A stall warning may occur at high altitude to indicate that the aircraft is
 reaching $\mathrm{\alpha_{buffet}}$. In this case simply reduce the back
 pressure on the sidestick and/or reduce bank angle.
 
-\multicite{FCOM PRO.AER.MISC}
+\multicite{FCOM~PRO.AER.MISC}
 
 
 \section{Computer reset}
@@ -646,7 +650,7 @@ Abnormal computer behaviour can often be stopped by interrupting the power
 supply of the affected computer. This can be done either with cockpit controls
 or with circuit breakers. The general procedure is to interrupt the power
 supply, wait 3 seconds (5 seconds if a C/B was used), restore the power, then
-wait another three seconds for the reset to complete. QRH AER.SYSTEM RESET
+wait another three seconds for the reset to complete. QRH~AER.SYSTEM~RESET
 details the specific procedures for a variety of systems.
 
 On the ground, almost all computers can be reset. MOC can usually supply a reset
@@ -656,7 +660,7 @@ aircraft is not stopped.
 
 In flight, only the computers listed in the QRH should be considered for reset.
 
-\multicite{QRH AER.SYSTEM RESET}
+\multicite{QRH~AER.SYSTEM~RESET}
 
 \section{Landing distance calculations}
 
@@ -671,7 +675,7 @@ can calculate for multiple failures.
 
 The safety factor may be disregarded in exceptional circumstances.
 
-\multicite{QRH IFP, FCOM PER.LDG, EOMB 4.14.2}
+\multicite{QRH~IFP, FCOM~PER.LDG, EOMB~4.14.2}
 
 \section{Abnormal V Alpha Prot}
 
@@ -707,11 +711,12 @@ It is possible that the autopilot will automatically disengage and high speed
 protection will activate, resulting in an automatic pitch up. In this case,
 smoothly adjust pitch attitude as required.
 
-\multicite{FCTM PRO.AER.MISC}
+\multicite{FCTM~PRO.AER.MISC}
 
 \section{Volcanic Ash Encounter}
 
-Volcanic ash clouds are usually extensive, so a 180° will achieve the quickest exit.
+Volcanic ash clouds are usually extensive, so a 180\textdegree{ }will achieve
+the quickest exit.
 
 Air quality may be affected, so crew oxygen masks should be donned with 100\%
 oxygen to exclude fumes. Passenger oxygen may also need to be deployed.
@@ -733,6 +738,6 @@ thrust changes.
 Damage to the windshield may necessitate an autoland or landing with a sliding
 window open.
 
-\multicite{QRH AEP.MISC, FCOM PRO.AEP.MISC, FCTM PRO.AEP.MISC}
+\multicite{QRH~AEP.MISC, FCOM~PRO.AEP.MISC, FCTM~PRO.AEP.MISC}
 
 \end{document}
