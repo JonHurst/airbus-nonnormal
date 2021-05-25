@@ -1,0 +1,742 @@
+\documentclass[a5paper,11pt,twoside]{book}
+\usepackage{fontspec}
+\setmainfont{FreeSerif}
+\usepackage[left=0.75in, bottom=1in]{geometry}
+\usepackage{microtype}
+\usepackage{color}
+\usepackage[color]{changebar}
+\cbcolor{blue}
+
+\title{A320 Family Non-Normal-Notes\\~\\\large{Version 2.6}}
+\author{Jon Hurst}
+\date{}
+\newcommand{\multicite}[1]{
+  \nopagebreak
+  \noindent{\footnotesize\color{blue}{[ #1 ]}}
+}
+
+\newcommand{\V}[1]{V\textsubscript{#1}}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Operating techniques}
+
+\section{Rejected Takeoff}
+
+The decision to reject rests solely with CM1. This decision is communicated with
+the words “Stop” or “Go”. “Stop” implies that CM1 is taking control of the
+aircraft. Below 100kt the RTO is relatively risk free and a decision to stop
+should be made for any ECAM and most other problems. Above 100kt the RTO may be
+hazardous and stopping should only be considered for loss of engine thrust, any
+fire warning, any uninhibited ECAM\footnote{A change was introduced in Feb 2018
+  whereby five amber ECAM cautions requiring a high speed stop are specifically
+  listed. An exhaustive search of amber ECAM cautions that are not inhibited
+  between 80kt and lift off revealed only two cautions in addition to this list:
+  ENG 1(2) THR LEVER DISAGREE if the FADEC automatically selects idle thrust and
+  FWS FWC 1+2 FAULT. The first of these should theoretically never happen due to
+  FADEC logic. The second generates a message on the EWD but no master caution,
+  since it is the computers that generate master cautions that have failed. You
+  could therefore modify this rule to: stop for any ECAM warning or caution
+  except the caution-like FWS FWC 1+2 FAULT.} or anything which indicates the
+aircraft will be unsafe or unable to fly.
+
+If a stop is required, CM1 calls “Stop” while simultaneously bringing the thrust
+levers to idle, then to max reverse. If the stop was commenced below 72kt the
+ground spoilers will not automatically deploy and the autobrake will therefore
+not engage. Monitor automatic braking, and if there is any doubt, apply manual
+braking as required. If normal braking fails, announce “Loss of braking” and
+proceed with the loss of braking memory items (see <xref
+linkend="loss-of-braking"/>). If the reason for the stop was an engine fire on
+the upwind side, consider turning the aircraft to keep the fire away from the
+fuselage. If there is any chance of requiring evacuation, bring the aircraft to
+a complete halt, stow the reversers, apply the parking brake, and order
+“Attention, crew at stations” on the PA. If evacuation will definitely not be
+required, once the aircraft’s safety is assured the RTO can be discontinued and
+the runway cleared. In this case make a PA of “Cabin crew, normal
+operations”.
+
+During this initial phase, CM2 confirms reverse (“Reverse green”), confirms
+deceleration (“Decel”), cancels any audio warnings, informs ATC and announces
+“70 knots” when appropriate. CM2 then locates the emergency evacuation
+checklist.
+
+Once the aircraft has stopped, CM1 takes the radios and asks CM2 to carry out
+any required ECAM actions. Whilst the ECAM actions are being completed, CM1 will
+build up a decision as to whether to evacuate. If an evacuation is required see
+<xref linkend="evacuation"/>. Otherwise order “Cabin crew, normal operations”.
+
+If the aircraft has come to a complete halt using autobrake MAX, the brakes can
+be released by disarming the spoilers.
+
+If, following an RTO, a new takeoff is to be attempted, reset both FDs, set the
+FCU, then restart SOPs from the After Start checklist. Carefully consider brake
+temperatures; temperature indications continue to climb for some time after a
+significant braking event.
+
+\multicite{EOMB 3.10, FCTM PRO.AEP.MISC}
+
+
+\section{Failures during takeoff when above \V{1}}
+
+If an engine has lost thrust, apply rudder conventionally. At V\textsubscript{r}
+rotate towards an initial pitch target of 12½° at a slightly reduced rate, then
+target speed \V{2} to \V{2}+15kt. Bank angle should be limited to 15° when more
+than 3kt below manoeuvring speed for the current configuration\footnote{This is
+a conservative rule of thumb. If the FMGC has correctly identified an engine out
+condition, the FD/AP will automatically limit bank angle according to a less
+conservative algorithm. [FCOM SYS.22.20.60.40]}.
+
+When the ground to flight mode transition is complete\footnote{Introducing TOGA
+during the ground to flight mode transition (commences as the pitch increases
+through 8°, complete after 5 seconds) results in a pitch up moment at a time
+where the effect of stick pitch control is not wholly predictable: the stick
+will need to be moved forward of neutral to counteract the introduced pitch
+moment and then returned to neutral as flight mode blends in. A slight pause
+before selecting TOGA results in much more normal and predictable handling.},
+select TOGA (FLX may be used but this tends to allow speed to decay unless pitch
+is reduced), adjust and trim rudder to maintain β target and request “pull
+heading”. If the EOSID follows the track of the cleared SID, NAV may be used,
+but this is very rare with easyJet EOSIDs.  Engage the autopilot once gear is up
+and rudder is trimmed.
+
+Whilst below 400ft, the only failure related actions should be:
+\begin{itemize}
+\item If applicable, PM should state the title of the first displayed ECAM
+  procedure, but should delay confirmation.\footnote{ The Feb 2018 update to
+  EOM-B removed the “engine failure” and “engine fire” calls, but leaves the
+  timing of the reading of the ECAM title ambiguous. The advice given here is
+  one interpretation. Since these calls were good for situational awareness,
+  replacing them with a bald statement of the first ECAM procedure title seems
+  sensible.}
+
+\item Cancellation of master warning or master caution when both pilots confirm
+  they are aware of it.
+
+\item Heightened awareness of the possibility of missing essential normal
+  actions, such as calling rotate or raising the gear due to the distraction of
+  the failure.
+\end{itemize}
+
+
+Once above 400ft with safe flight path assured, decide on an initial
+strategy. In general, where a loss of thrust has occurred or is anticipated, the
+strategy will be to fly the EOSID with a level acceleration segment (see <xref
+linkend="eosid"/>). Otherwise, it will be to remain on the normal SID and fly a
+normal climb profile. Any deviation from the cleared SID will require ATC to be
+informed as a priority, usually as part of a PAN or MAYDAY message. In rare
+cases where the cleared SID requires a very early turn it may be necessary to
+determine and action a strategy when below 400ft. If this is the case, it must
+be thoroughly briefed.
+
+Once the flight path strategy has been agreed and actioned, the failure can be
+triaged, diagnosed and contained. Once the diagnosis is agreed, PF will take the
+radios and request PNF to carry out the containment actions. The standard
+phraseology is “My Radios, ECAM actions”. PF taking the radios is also a good
+trigger to consider a Mayday and an “Attention crew at stations”.
+
+When applying ECAM procedures, PF is responsible for moving the thrust levers
+once confirmed by PNF. PNF is responsible for everything else, but movement of
+engine master switches, IR selectors and any guarded switch must be confirmed
+with PF.
+
+PNF indicates high priority tasks are completed with the phrase “Engine is
+secure.”  This call is not official SOP (i.e. it is not mentioned in any
+manual), but has evolved to be standard in the sim since it is PF’s trigger to
+interrupt ECAM and accelerate.  High priority tasks are defined as:
+
+\begin{itemize}
+\item For engine failure, the master switch of the affected engine has been
+  turned off.
+
+\item For engine fire, one squib has been fired and the fire warning has
+  extinguished or both squibs have been fired.
+\end{itemize}
+
+\multicite{FCTM PRO.AEP.ENG}
+
+
+
+
+\section{EOSID}
+
+Before the divergence point (the last common point between the SID and the
+EOSID), if the aircraft detects a loss of thrust the EOSID will be displayed as
+a temporary flight plan. In this case the temporary flight plan can be inserted
+and NAV mode used. Otherwise it will be necessary to pull heading and manually
+follow either the yellow line or bring up a pre-prepared secondary flight plan
+and follow the white line.
+
+If beyond the divergence point, pull heading and make an \emph{immediate} turn
+the shortest way onto the EOSID. Airbus specifically recommends against this in
+FCOM.AS.22\_20.60.40, but easyJet states it as policy in EOMB 4.4.4.
+
+Electing to fly the EOSID implies a level acceleration segment:
+
+\begin{itemize}
+\item Initially fly a TOGA climb at the higher of \V{2} or current speed, up to
+  a limit of \V{2}+15kt. If a FLEX takeoff was carried out, a FLEX climb is
+  permissible. This climb is continued until all high priority tasks are
+  complete (see <xref linkend="efato"/>) and the aircraft is above single engine
+  acceleration altitude (usually 1000ft QFE, but may be higher if so specified
+  by the take-off performance calculation). If the FMGS has detected the engine
+  out condition, the automatic mode change from SRS to CLB will be inhibited; if
+  not, intervention with selected modes will be required to prevent untimely
+  acceleration.
+
+\item The next segment is a TOGA level acceleration and clean up, either to Conf
+  1 and S speed if an immediate VMC return is desired or to Conf 0 and green
+  dot. Again FLEX may be used if a FLEX takeoff was carried out. Level
+  acceleration is usually achieved by pushing V/S; if the FMGS has detected the
+  engine out condition, all preselected speeds entered in the MCDU will have
+  been deleted, so the managed target speed should automatically move to
+  250kt. The phrases “Stop ECAM” and “Continue ECAM” can be used to interrupt
+  ECAM procedures in order to initiate this segment.
+
+\item The final segment is a MCT climb segment to MSA, either at S speed if in
+  Conf 1 or at green dot speed if in Conf 0. This is usually achieved in open
+  climb; if the FMGS has detected the engine out condition, the managed target
+  speed becomes dependent on flight phase, and in this case should automatically
+  select green dot.
+\end{itemize}
+
+TOGA may be used for a maximum of 10 minutes.
+
+If an EOSID is annotated as “STD”, then acceleration to green dot should be
+completed prior to commencing the first turn. If “NON-STD”, the turn takes
+priority.
+
+\multicite{EOMB 4.4.4, FCOM DSC.22\_20.60.40}
+
+\chapter{Miscellaneous}
+
+\section{Emergency descent \emph{(memory item)}}
+
+If an emergency descent is required, the Captain should consider taking control
+if not already PF. PF initiates the memory items by announcing “Emergency
+Descent.”
+
+Don oxygen masks and establish communication.
+
+PF then flies the emergency descent.  Descent with autopilot and autothrust
+engaged is preferred. The configuration is thrust idle, full speed brake and
+maximum appropriate speed, taking into account possible structural
+damage.\footnote{According to Airbus, structural damage may be suspected if
+there has been a “loud bang” or there is a high cabin vertical speed. When
+limiting descent speed due to suspected structural damage, it is IAS rather than
+Mach that is relevant.} Target altitude is FL100 or MORA if this is higher. If
+speed is low, allow speed to increase before deploying full speedbrake to
+prevent activation of the angle of attack protection. Landing gear may be used,
+but speed must be below \V{LO} when it is extended and remain below \V{LE}. If
+on an airway, consider turning 90° to the left.
+
+PM’s only memory action is to turn the seatbelt signs on.\footnote{Prior to a
+2017 update from Airbus, PM would complete a fairly lengthy list of memory items
+at the start of the Emergency Descent procedure. It was found that PM was more
+usefully employed monitoring PF’s actions, and hence most of these memory items
+were removed to a read and do checklist to be completed once descent had been
+initiated.} Initially, PM’s main task is to ensure that PF has promptly and
+correctly initiated the descent.
+
+Once the memory actions are complete and the aircraft is descending, PF should
+call for the Emergency Descent Checklist (“My radios, Emergency Descent
+Checklist”). This will lead PF to finesse the speed and altitude targets and
+inform ATC of the descent; PM to set continuous ignition on the engines and set
+7700 on the transponder. Both pilots then set their oxygen flows to the N
+position\footnote{There may be insufficient oxygen to cover the entire emergency
+descent profile if the oxygen masks are left set to 100\%.} and, if cabin
+altitude will exceed 14,000ft, PM deploys the cabin oxygen masks. On easyJet
+aircraft, the CIDS/PRAM will automatically play a suitable PA, so it is not
+necessary for the flight crew to carry out the EMER DESCENT (PA) action.
+
+Once level, restore the aircraft to a normal configuration. When safe to do so,
+advise cabin crew and passengers that it is safe to remove their masks. To
+deactivate the mask microphone and switch off the oxygen flow, close the oxygen
+mask stowage compartment and press the “PRESS TO RESET” oxygen control slide.
+
+\multicite{EOMB 3.80.2, QRH AEP.MISC, FCOM AEP.MISC, FCTM AEP.MISC}
+
+
+\section{Windshear \emph{(memory item)}}
+
+\subsection{Reactive}
+
+The windshear detection system is a function of the Flight Augmentation Computer
+(FAC). It only operates during the takeoff and landing phases with at least CONF
+1 selected. In the takeoff phase, warnings are provided from 3 seconds after
+lift off until 1300ft RA is achieved. In the landing phase warnings are provided
+between 1300ft RA and 50ft RA. A warning is indicated by a red “WINDSHEAR” flag
+on the PFD and a “WINDSHEAR, WINDSHEAR, WINDSHEAR” aural warning.
+
+ When on the ground, windshear is \emph{only} indicated by significant airspeed
+ variations. It is possible that these fluctuations may cause \V{1} to occur
+ significantly later in the takeoff run then it should. It therefore falls to
+ the Captain to make an assessment of whether sufficient runway remains to
+ reject the takeoff, or whether getting airborne below \V{r} would be the better
+ option. If the takeoff is to be continued in windshear conditions, call
+ “Windshear, TOGA” and apply TOGA power.  Rotate at \V{r} or with sufficient
+ runway remaining and follow SRS orders.\footnote{“Sufficient runway remaining”
+ is actually Boeing advice – Airbus offers no guidance for the case where there
+ is insufficient runway available to stop nor to rotate at normal speeds.} SRS
+ will maintain a minimum rate of climb, even if airspeed must be sacrificed.
+
+If a warning occurs when airborne, call “Windshear, TOGA”, apply TOGA power and
+maintain current configuration. The autopilot can fly the escape manoeuvre as
+long as $\mathrm{\alpha_{req}<\alpha_{prot}}$. If the
+autopilot is not engaged, follow the SRS orders on the FD. If the FD is not
+available, initially pitch up to 17.5°, then increase as required.
+
+Do not change configuration until out of the windshear.
+
+In severe windshear, it is possible that ALPHA FLOOR protection will
+activate. As TOGA will already be selected, this will have no immediate
+effect. Once clear of the windshear, however, TOGA LK will be active, requiring
+the autothrust to be disconnected to avoid an overspeed. This is most naturally
+achieved by pressing the “instinctive disconnect pb” on the thrust levers then
+flying manual thrust until the situation has sufficiently stabilised to
+re-engage the autothrust.
+
+\multicite{FCOM PRO.AEP.SURV}
+
+\subsection{Predictive}
+
+When below 2300ft AGL, the weather radar scans a 5nm radius 60° arc ahead of the
+aircraft for returns indicating potential windshear.
+
+Alerts are categorised as advisory, caution or warning, in increasing order of
+severity. Severity is determined by range, position and phase of flight. Alerts
+are only provided when between 50ft and 1500ft, or on the ground when below
+100kt.
+
+All types of alert produce an indication of windshear position on the ND,
+providing the ND range is set to 10nm. A message on the ND instructs the crew to
+change range to 10nm if not already set. Cautions also give an amber “W/S AHEAD”
+message on both PFDs and an aural “MONITOR RADAR DISPLAY” warning. Warnings give
+a red “W/S AHEAD” message on the PFDs and either a “WINDSHEAR AHEAD, WINDSHEAR
+AHEAD” or “GO AROUND, WINDSHEAR AHEAD” aural message.
+
+If a warning alert occurs during the takeoff roll, reject the takeoff. If it
+occurs during initial climb, call “Windshear, TOGA”, apply TOGA thrust and
+follow SRS orders. Configuration may be changed as long as the windshear is not
+entered.
+
+If a warning alert occurs during approach, fly a normal go-around. If positive
+verification is made that no hazard exists, providing that the reactive
+windshear is serviceable the crew may downgrade the warning to a caution. If a
+caution alert occurs during approach, consider use of CONF 3 and increasing
+\V{APP} to a maximum of \V{LS}+15.
+
+\multicite{FCOM PRO.AES.SURV}
+
+\section{Unreliable airspeed \emph{(memory item)}}
+
+Unreliable airspeed indications may result from radome damage and/or
+unserviceable probes or ports. Altitude indications may also be erroneous if
+static probes are affected.
+
+The FMGCs normally reject erroneous ADR data by isolating a single source that
+has significant differences to the other two sources. It is possible that a
+single remaining good source may be rejected if the other two sources are
+erroneous in a sufficiently similar way. In this case, it falls to the pilots to
+identify and turn off the erroneous sources to recover good data.
+
+The first problem is recognition of a failure, since the aircraft systems may be
+unable to warn of a problem. The primary method of doing this is correlation of
+aircraft attitude and thrust to displayed performance. Correlation of radio
+altimeter and GPIRS derived data (available on GPS MONITOR page) may also aid
+identification. The stall warning (available in alternate or direct law) is
+based on alpha probes, so will likely be valid. Other clues may include
+fluctuations in readings, abnormal behaviour of the automatics, high speed
+buffet or low aerodynamic noise.
+
+If the aircraft flight path is in doubt, disconnect the automatics and fly the
+following short term attitude and thrust settings to initiate a climb:
+
+\medskip
+\begin{tabular}{|l|c|c|}
+  \hline
+  \textbf{Condition} & \textbf{Thrust} & \textbf{Pitch}\\
+  \hline
+  Below Thrust Reduction Altitude & TOGA & 15°\\
+  \hline
+  Below FL100 & CLB & 10°\\
+  \hline
+  Above FL100 & CLB & 5°\\
+  \hline
+\end{tabular}
+\medskip
+
+If configured CONF Full, select CONF 3, otherwise flap/slat configuration should
+be maintained. The gear and speedbrake should be retracted. If there is any
+doubt over the validity of altitude information, the FPV must be disregarded. If
+altitude information is definitely good, the FPV may be used.
+
+It is important to understand that at this stage, while the pilot has identified
+that airspeed is unreliable, the aircraft systems have not. Thus flight envelope
+protections based on airspeed data from unreliable ADRs may activate. This may
+lead to pitch inputs from the flight computers that cannot be overridden with
+the sidesticks. In this case, immediately switch off any two ADRs; this causes
+the flight computers to revert to Alternate Law with no protections, and thus
+allows control of the aircraft to be regained.
+
+Once the flight path is under control and a safe altitude is attained, the
+aircraft should be transitioned into level flight. Refer to the QRH to
+extract a ballpark thrust setting, a reference attitude and a reference speed
+for the current configuration, bearing in mind that an auto-retraction of the
+flap may have occurred. Set the ballpark thrust setting and adjust pitch
+attitude to fly level; if barometric altitude data is considered accurate use
+the VSI, otherwise fly a constant GPS altitude. The thrust should then be
+adjusted until level flight is achieved with the reference attitude. Note that
+in the radome damage case, the required N1 may be as much as 5\% greater than
+the ballpark figure. Once stable, the speed will be equal to the reference
+speed.
+
+If there is insufficient data available to fly level (e.g. GPS data unavailable
+and barometric data unreliable), fly the reference attitude with the ballpark
+thrust setting. This will give approximately level flight at approximately
+reference speed.
+
+With the speed now known, the ADRs can be checked to see if any are giving
+accurate data. If at least one ADR is reliable, turn off the faulty ADRs. GPS
+and IRS ground speeds may also be used for an approximate cross check.
+
+If all ADRs are considered unreliable, turn off any two of them; one is kept on
+to provide stall warning from the alpha probes. More recent aircraft have backup
+speed/altitude scales based on AOA probes and GPS altitudes which are activated
+when below FL250 by turning off the third ADR. The ALL ADR OFF procedure in
+QRH AEP.NAV describes the use of these scales, but it boils down to fly the
+green on the speed scale and anticipate slightly reduced accuracy from the
+altitude scale.  For aircraft without this functionality, tables are provided in
+section AEP.NAV.USI of the QRH to enable all phases of flight to be flown using
+just pitch and thrust settings. Acceleration and clean up are carried out in
+level flight. Flap 1 can be selected as soon as climb thrust is selected, flap 0
+once the appropriate S speed pitch attitude from the table on the first page of
+the QRH AEP.NAV.USI procedure is reached. Configuration for approach is also
+carried out in level flight, stabilising in each configuration using the
+technique described above. The approach is flown in CONF 3 at an attitude that
+should result in VLS+10 when flying a 3° glide. Landing distance will be
+increased.
+
+\multicite{QRH AEP.NAV, FCOM PRO.AEP.NAV, FCTM PRO.AEP.NAV}
+
+\section{Incapacitation}
+
+Take control, using the stick priority button if necessary. Contact cabin crew ASAP. They
+should strap the incapacitated pilot to his seat, move the seat back, then recline it. If there
+are two cabin crew available, the body can be moved. Medical help should be sought from
+passengers, and the presence of any type rated company pilots on board ascertained.
+
+\multicite{FCTM PRO.AEP.MISC}
+
+\section{Forced Landing (inc. Ditching)}
+
+There are two scenarios where off field forced landing or ditching would be
+considered: either you have insufficient energy to reach a suitable airfield
+(e.g actual or impending fuel exhaustion, catastrophic failure of both engines),
+or you have insufficient time to do so (e.g. uncontained fire).
+
+Ditching and off field forced landing without power are discussed in <xref
+linkend="all-engine-failure"/>. Support for such landings is provided by the ALL
+ENGINES FAILURE ECAM and the ALL ENG FAIL QRH checklist.
+
+Support for ditching and forced landing with power is provided by the QRH
+Ditching and QRH Forced Landing checklists respectively. Necessarily implicit in
+these checklists is the assumption that the aircraft is fully servicable, which
+is unlikely to be the case. There is also an assumption that plenty of time is
+available for extensive preparation of cabin and cockpit. It is highly likely
+that these checklists will need adapting to the situation.
+
+The fundamentals are the same with or without power. Ditching will be gear up
+with a target pitch attitude of 11° and minimal vertical speed, and should be
+made parallel to the swell unless there are strong crosswinds, in which case an
+into wind landing is preferred. Forced landing will be gear down with the
+spoilers armed. The aircraft should be depressurised for the landing, with the
+Ditching PB pushed for the ditching case; in the without power cases this is
+achieved using RAM AIR, and this is the same for with power forced landing. The
+“with power” ditching achieves depressurisation by turning off all bleeds, which
+provides a slightly more watertight hull.
+
+The main difference between the with and without power cases is that max
+available slats and flaps are used in the former case, wheras CONF 2 is mandated
+for the latter. Approach speeds must also be high enough to prevent RAT stall
+(i.e. >140kt) if it is being relied upon. The combination of these factors means
+that much lower landing speeds can be achieved if power is available.
+
+\multicite{QRH AEP.MISC}
+
+\section{Evacuation}
+
+Evacuation should be carried out in accordance with the emergency evacuation
+checklist. The easyJet procedure is for CM1 to call for the checklist and then
+send a Mayday message to ATC before commencing the checklist.
+
+The first two items confirm the RTO actions of stopping the aircraft, setting
+the parking brake and alerting the cabin crew. The next item confirms ATC has
+been alerted.
+
+The next four items prepare the aircraft for evacuation. If manual cabin
+pressure has been used, CM2 checks cabin diff is zero, and if necessary manually
+opens the outflow valve. CM2 then shuts the engines down with their master
+switches, and pushes all the fire buttons (including the APU). Confirmation is
+not required before carrying out these actions.\footnote{The Airbus Training
+Study Guide was recently (mid 2017) changed to align with the FCTM.}  In
+response to the next checklist item, “Agents”, CM1 decides if any extinguishing
+agents should be discharged and instructs CM2 to discharge them as
+required. Engine agent 2 will not be available. Agents should only be discharged
+if there are positive signs of fire.
+
+Finally, order the evacuation. This is primarily done with the PA “Evacuate,
+unfasten your seat belts and get out”, with the evacuation alarm being triggered
+as a backup.
+
+\multicite{EOMB 3.80.1, FCOM PRO.AER.MISC, FCTM PRO.AER.MISC}
+
+
+\section{Overweight landing}
+
+A landing can be made at any weight, providing sufficient landing distance is
+available. In general, automatic landings are only certified up to MLW, but the
+FCOM specifies that, for the A319 only, autoland is available up to 69000kg in
+case of emergency. The preferred landing configuration is CONF FULL, but lower
+settings may be used if required by QRH/ECAM procedures. QRH AER.MISC.OL also
+specifies CONF 3 if the aircraft weight exceeds the CONF 3 go around limit; this
+will only ever be a factor for airfields with elevations above 1000ft. Packs
+should be turned off to provide additional go around thrust. If planned landing
+configuration is less than FULL, use 1+F for go-around.
+
+It is possible that S speed will be higher than \V{FE next} for CONF 2. In this
+case, a speed below \V{FE next} should be selected until CONF 2 is achieved,
+then managed speed can be re-engaged.
+
+In the final stages of the approach, reduce speed to achieve \V{LS} at runway
+threshold. Land as smoothly as possible, and apply max reverse as soon as the
+main gear touches down. Maximum braking can be used after nosewheel
+touchdown. After landing, switch on the brake fans and monitor brake
+temperatures carefully. If temperatures exceed 800°C, tyre deflation may occur.
+
+\multicite{QRH AER.MISC, FCOM PRO.AER.MISC, FCTM PRO.AER.MISC}
+
+\section{Engine failure in cruise}
+
+Engine out ceiling is highly dependent on weight; ISA deviation also has a
+modest effect. It will generally lie between FL180 and FL350.
+
+The first action will be to select both thrust levers to MCT so as to allow the
+autothrust its full engine out range. If the N1 gauges indicate a thrust margin
+exists, then the aircraft is below engine out ceiling; descent may be
+appropriate to increase the available thrust margin, but there is no immediate
+threat. If, however, the N1 gauges indicate that the autothrust is commanding
+MCT, and the speed is still decaying, then the aircraft is above engine out
+ceiling and prompt execution of a drift down procedure is required.
+
+Drift down with autopilot engaged in OP DES is preferred. Engagement of this
+vertical mode normally results in the autothrust commanding idle thrust, which
+is not what is desired. Thus, having set the thrust lever to MCT, the autothrust
+is disconnected. The PROG page provides a REC MAX EO flight level to use as an
+altitude target. If the speed decay is modest, it may be possible to alert ATC
+before initiating the descent, but in-service events have shown that speed decay
+is often very rapid, requiring descent initiation to be prioritised.
+
+Once drift down has been initiated, a decision needs to be made about speed. If
+obstacles are a concern, the lowest drift down rate and highest ceiling are
+achieved at green dot. Airbus refers to drifting down at green dot as “Obstacle
+strategy”. Flying at green dot reduces the chance of the FADECs automatically
+relighting the failed engine as the engine will be windmilling more
+slowly. Therefore, if obstacles are not a concern, M.78/300kt is flown, a speed
+that will always fall within the stabilized windmill engine relight envelope;
+Airbus refers to this as “Standard Strategy”.
+
+If obstacles remain a problem, MCT and green dot speed can be maintained to give
+a shallow climbing profile. Once obstacles are no longer a problem, descend to
+LRC ceiling (use V/S if <500 fpm descent rate), engage the autothrust and
+continue at LRC speed.
+
+\multicite{FCTM PRO.AEP.ENG.EFDC}
+\section{Single engine circling}
+
+It may not be possible to fly level in the standard circling configuration of
+CONF 3 gear down. This can be ascertained by checking the table in QRH AEP.MISC
+One Engine Inoperative – Circling Approach. If affected, plan a FLAP 3 landing
+and delay gear extension until level flight is no longer required; a L/G NOT
+DOWN warning which will occur if circling below 750ft (can be silenced with the
+EMER CANC pb) and a TOO LOW GEAR should be anticipated if below 500ft RA.
+
+\multicite{QRH AEP.MISC}
+
+\section{Bomb on board}
+
+The primary aim is to get the aircraft on the ground and evacuated ASAP.
+
+The secondary aim is to prevent detonation of the device. This is achieved by
+preventing further increases in cabin altitude through the use of manual
+pressure control and by avoiding sharp manoeuvres and turbulence.
+
+The tertiary aim is to minimise the effect of any explosion. This is achieved by
+reducing the diff to 1 psi. The method is to set cabin vertical speed to zero
+using manual pressurisation control, then descend to an altitude 2500ft above
+cabin altitude. As further descent is required, cabin vertical speed should be
+adjusted to maintain the 1 psi diff for as long as possible. Automatic pressure
+control is then reinstated on approach. Low speeds reduce the damage from an
+explosion but increase the risk of a timed explosion occurring whilst airborne;
+a compromise needs to be found. The aircraft should be configured for landing as
+early as possible to avoid an explosion damaging landing systems.
+
+In the cabin, procedures are laid down for assessing the risks of moving the
+device and for moving the device to the LRBL at door 2R.
+
+\multicite{QRH AER.80, FCOM PRO.AER.MISC}
+
+\section{Stall recovery \emph{(memory item)}}
+
+Aerofoil stall is always and only an angle of attack issue. It is not possible
+to directly prove an unstalled condition from attitude and airspeed data. The
+flight recorders from the December 2014 Air Asia accident recorded an angle of
+attack of 40 degrees (i.e. around 25 degrees greater than critical angle) with
+both pitch and roll zero and speeds up to 160kt. Importantly, it is perfectly
+possible to be fully stalled in the emergency configurations described in <xref
+linkend="unreliable-airspeed"/>. Identification of a fully stalled condition is
+thus largely dependent on identifying a high and uncontrollable descent rate
+that does not correlate with normal flight path expectations for the attitude
+and thrust applied.
+
+To recover from a fully stalled condition, the angle of attack of the aerofoils
+must be reduced to below critical. The generic stall recovery is therefore
+simply to pitch the nose down sufficiently to break the stall and level the
+wings. In normal operations, the velocity vector of the aircraft is around 3°
+below the centerline of the aircraft (i.e. an attitude of around 3° is required
+to fly level). In a stalled condition, the velocity vector may be 40° or more
+below the centerline of the aircraft. Thus the amount of pitch down required to
+recover a fully stalled aircraft can be 30° or more.
+
+The aircraft’s thrust vector helps to accelerate the aircraft during the
+recovery, and increasing speed along the aircraft’s centerline acts to reduce
+the stalled angle of attack. Thus, while thrust is not a primary means of
+recovery, it does help. Unfortunately, Airbus have determined that due to the
+pitch couple associated with underslung engines, there may be insufficient
+longitudinal control authority to pitch the aircraft sufficiently to recover
+from a stall if TOGA is selected. It may therefore be necessary to initially
+reduce thrust to allow the primary recovery technique to be applied; this is
+extremely counterintuitive.
+
+In the two recent Airbus accidents involving stalls, the lack of physical cross
+coupling of sidesticks was a major factor. If one pilot elects to hold full back
+sidestick, the aircraft cannot be recovered by the other pilot unless the
+takeover pushbutton is used. With all the alarms, it is easy to miss “Dual
+Input”.
+
+Once there are no longer any indications of the stall, smoothly recover from the
+dive, adjust thrust, check speedbrakes retracted and if appropriate (clean and
+below 20,000ft) deploy the slats by selecting flaps 1. The load factor
+associated with an overly aggressive pull out can induce a secondary stall; on
+the flip side, once reattachment of the airflow occurs, drag rapidly diminishes
+and exceedance of high speed airframe limitations becomes a threat.
+
+If a stall warner sounds on takeoff it is likely to be spurious since you are
+almost certainly in normal law. The procedure in this case is essentially to
+initially assume unreliable airspeed and fly TOGA, 15°, wings level until it can
+be confirmed that the warning is spurious.
+
+A stall warning may occur at high altitude to indicate that the aircraft is
+reaching $\mathrm{\alpha_{buffet}}$. In this case simply reduce the back
+pressure on the sidestick and/or reduce bank angle.
+
+\multicite{FCOM PRO.AER.MISC}
+
+
+\section{Computer reset}
+
+Abnormal computer behaviour can often be stopped by interrupting the power
+supply of the affected computer. This can be done either with cockpit controls
+or with circuit breakers. The general procedure is to interrupt the power
+supply, wait 3 seconds (5 seconds if a C/B was used), restore the power, then
+wait another three seconds for the reset to complete. QRH AER.SYSTEM RESET
+details the specific procedures for a variety of systems.
+
+On the ground, almost all computers can be reset. MOC can usually supply a reset
+procedure if nothing applicable is available in the QRH. The exceptions are the
+ECU and EIU while the associated engine is running and the BSCU when the
+aircraft is not stopped.
+
+In flight, only the computers listed in the QRH should be considered for reset.
+
+\multicite{QRH AER.SYSTEM RESET}
+
+\section{Landing distance calculations}
+
+Many failures result in a longer than normal landing distance. The QRH inflight
+performance section has tables for calculating \V{APP} and Reference Landing
+Distances for single failures. These reflect the performance achievable in a
+typical operational landing without margin. easyJet requires a factor of 1.15 to
+be applied to these distances.
+
+The EFB module provides both factored and unfactored landing distances, and also
+can calculate for multiple failures.
+
+The safety factor may be disregarded in exceptional circumstances.
+
+\multicite{QRH IFP, FCOM PER.LDG, EOMB 4.14.2}
+
+\section{Abnormal V Alpha Prot}
+
+If two or more angle of attack vanes become blocked at the same angle during
+climb, alpha floor protection will be activated once a Mach number is reached
+where the angle of attack at which the vanes were blocked becomes indicative of
+an incipient stall condition. Since the flight computer’s attempts to reduce
+angle of attack will not be registered by the blocked vanes, a continuous nose
+down pitch rate which cannot be stopped with sidestick inputs will result.
+
+Indications of the incipient condition are available from the Alpha Prot and
+Alpha max strips. If the Alpha Max strip (solid red) completely hides the Alpha
+Prot strip (black and amber) or the Alpha Prot strip moves rapidly by more than
+30kt during flight manoeuvres with AP on and speed brakes retracted, blocked
+angle of attack vanes should be suspected.
+
+The solution is to force the flight computers into Alternate Law where the
+protection does not apply. This is most conveniently done by turning off any two
+ADRs. Once in Alternate Law, the stall warning strip (red and black) becomes
+available. Since this may be receiving data from a blocked angle of attack vane,
+erroneous presentation is possible.
+
+\multicite{OEBPROC-48}
+
+\section{Overspeed Recovery}
+
+In general the response to an overspeed should be to deploy the speedbrake and
+monitor the thrust reduction actioned by the autothrust. Disconnection of the
+autopilot will not normally be required. If autothrust is not in use, the thrust
+levers will need to be manually retarded.
+
+It is possible that the autopilot will automatically disengage and high speed
+protection will activate, resulting in an automatic pitch up. In this case,
+smoothly adjust pitch attitude as required.
+
+\multicite{FCTM PRO.AER.MISC}
+
+\section{Volcanic Ash Encounter}
+
+Volcanic ash clouds are usually extensive, so a 180° will achieve the quickest exit.
+
+Air quality may be affected, so crew oxygen masks should be donned with 100\%
+oxygen to exclude fumes. Passenger oxygen may also need to be deployed.
+
+Be prepared to carry out the unreliable speed procedure as airspeed indications
+may be compromised.
+
+Disconnect the autothrust to prevent thrust variations. To minimise the impact
+on the engines, if conditions permit thrust should be reduced. Turn on all
+anti-ice and set pack flow to high in order to increase bleed demand and thus
+increase stall margin. Wing anti-ice should be turned off before restart in case
+of double engine flameout.
+
+If engine EGT limits are exceeded, consider precautionary engine shutdown with
+restart once clear of volcanic ash. Engine acceleration may be very slow during
+restart. Since compressor and turbine blades may have been eroded, avoid sudden
+thrust changes.
+
+Damage to the windshield may necessitate an autoland or landing with a sliding
+window open.
+
+\multicite{QRH AEP.MISC, FCOM PRO.AEP.MISC, FCTM PRO.AEP.MISC}
+
+\end{document}
