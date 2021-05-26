@@ -14,12 +14,19 @@
 \title{A320 Family Non-Normal-Notes\\~\\\large{Version 2.6}}
 \author{Jon Hurst}
 \date{}
-\newcommand{\multicite}[1]{
+
+\newcommand{\inlcite}[1]{{\footnotesize\scshape\MakeLowercase{[#1]}}}
+
+\newcommand{\multicite}[1]{%
+
   \nopagebreak
-  \noindent{\footnotesize\color{blue}{[ #1 ]}}
+  \noindent{{\color{blue}\inlcite{#1}}}
 }
 
 \newcommand{\V}[1]{V\textsubscript{#1}}
+
+\newcommand{\ac}[1]{{\scshape\MakeLowercase{#1}}}
+\newcommand{\ecam}[2]{{\scshape\MakeLowercase{\uline{#1} #2}}}
 
 \begin{document}
 \maketitle
@@ -28,55 +35,57 @@
 \chapter{Operating techniques}
 \section{Rejected Takeoff}
 
-The decision to reject rests solely with CM1. This decision is communicated with
-the words ``Stop'' or “Go''. ``Stop'' implies that CM1 is taking control of the
-aircraft. Below 100kt the RTO is relatively risk free and a decision to stop
-should be made for any ECAM and most other problems. Above 100kt the RTO may be
-hazardous and stopping should only be considered for loss of engine thrust, any
-fire warning, any uninhibited ECAM\footnote{A change was introduced in Feb 2018
-  whereby five amber ECAM cautions requiring a high speed stop are specifically
-  listed. An exhaustive search of amber ECAM cautions that are not inhibited
-  between 80kt and lift off revealed only two cautions in addition to this list:
-  ENG 1(2) THR LEVER DISAGREE if the FADEC automatically selects idle thrust and
-  FWS FWC 1+2 FAULT. The first of these should theoretically never happen due to
-  FADEC logic. The second generates a message on the EWD but no master caution,
-  since it is the computers that generate master cautions that have failed. You
-  could therefore modify this rule to: stop for any ECAM warning or caution
-  except the caution-like FWS FWC 1+2 FAULT.} or anything which indicates the
-aircraft will be unsafe or unable to fly.
+The decision to reject rests solely with \ac{CM1}. This decision is communicated
+with the words ``Stop'' or “Go''. ``Stop'' implies that \ac{CM1} is taking
+control of the aircraft. Below 100kt the \ac{RTO} is relatively risk free and a
+decision to stop should be made for any \ac{ECAM} and most other problems. Above
+100kt the \ac{RTO} may be hazardous and stopping should only be considered for
+loss of engine thrust, any fire warning, any uninhibited \ac{ECAM}\footnote{A
+change was introduced in Feb 2018 whereby five amber \ac{ECAM} cautions
+requiring a high speed stop are specifically listed. An exhaustive search of
+amber \ac{ECAM} cautions that are not inhibited between 80kt and lift off
+revealed only two cautions in addition to this list: \ecam{ENG}{ 1(2) THR LEVER
+  DISAGREE} if the \ac{FADEC} automatically selects idle thrust and
+\ecam{FWS}{FWC 1+2 FAULT}. The first of these should theoretically never happen
+due to \ac{FADEC} logic. The second generates a message on the \ac{EWD} but no
+master caution, since it is the computers that generate master cautions that
+have failed. You could therefore modify this rule to: stop for any \ac{ECAM}
+warning or caution except the caution-like \ecam{FWS}{FWC 1+2 FAULT}.} or
+anything which indicates the aircraft will be unsafe or unable to fly.
 
-If a stop is required, CM1 calls ``Stop'' while simultaneously bringing the thrust
-levers to idle, then to max reverse. If the stop was commenced below 72kt the
-ground spoilers will not automatically deploy and the autobrake will therefore
-not engage. Monitor automatic braking, and if there is any doubt, apply manual
-braking as required. If normal braking fails, announce ``Loss of braking'' and
-proceed with the loss of braking memory items (see <xref
+If a stop is required, \ac{CM1} calls ``Stop'' while simultaneously bringing the
+thrust levers to idle, then to max reverse. If the stop was commenced below 72kt
+the ground spoilers will not automatically deploy and the autobrake will
+therefore not engage. Monitor automatic braking, and if there is any doubt,
+apply manual braking as required. If normal braking fails, announce ``Loss of
+braking'' and proceed with the loss of braking memory items (see <xref
 linkend="loss-of-braking"/>). If the reason for the stop was an engine fire on
 the upwind side, consider turning the aircraft to keep the fire away from the
 fuselage. If there is any chance of requiring evacuation, bring the aircraft to
 a complete halt, stow the reversers, apply the parking brake, and order
-``Attention, crew at stations'' on the PA. If evacuation will definitely not be
-required, once the aircraft's safety is assured the RTO can be discontinued and
-the runway cleared. In this case make a PA of ``Cabin crew, normal
-operations''.
+``Attention, crew at stations'' on the \ac{PA}. If evacuation will definitely
+not be required, once the aircraft's safety is assured the \ac{RTO} can be
+discontinued and the runway cleared. In this case make a \ac{PA} of ``Cabin
+crew, normal operations''.
 
-During this initial phase, CM2 confirms reverser deployment (``Reverse green''),
-confirms deceleration (``Decel''), cancels any audio warnings, informs ATC and
-announces ``70 knots'' when appropriate. CM2 then locates the emergency
-evacuation checklist.
+During this initial phase, \ac{CM2} confirms reverser deployment (``Reverse
+green''), confirms deceleration (``Decel''), cancels any audio warnings, informs
+\ac{ATC} and announces ``70 knots'' when appropriate. \ac{CM2} then locates the
+emergency evacuation checklist.
 
-Once the aircraft has stopped, CM1 takes the radios and asks CM2 to carry out
-any required ECAM actions. Whilst the ECAM actions are being completed, CM1 will
-build up a decision as to whether to evacuate. If an evacuation is required see
-<xref linkend="evacuation"/>. Otherwise order ``Cabin crew, normal operations''.
+Once the aircraft has stopped, \ac{CM1} takes the radios and asks \ac{CM2} to
+carry out any required \ac{ECAM} actions. Whilst the \ac{ECAM} actions are being
+completed, \ac{CM1} will build up a decision as to whether to evacuate. If an
+evacuation is required see <xref linkend="evacuation"/>. Otherwise order ``Cabin
+crew, normal operations''.
 
-If the aircraft has come to a complete halt using autobrake MAX, the brakes can
-be released by disarming the spoilers.
+If the aircraft has come to a complete halt using autobrake \ac{MAX}, the brakes
+can be released by disarming the spoilers.
 
-If, following an RTO, a new takeoff is to be attempted, reset both FDs, set the
-FCU, then restart SOPs from the After Start checklist. Carefully consider brake
-temperatures; temperature indications continue to climb for some time after a
-significant braking event.
+If, following an \ac{RTO}, a new takeoff is to be attempted, reset both
+\ac{FD}s, set the \ac{FCU}, then restart \ac{SOP}s from the After Start
+checklist. Carefully consider brake temperatures; temperature indications
+continue to climb for some time after a significant braking event.
 
 \multicite{EOMB~3.10, FCTM~PRO.AEP.MISC}
 
@@ -86,34 +95,35 @@ significant braking event.
 If an engine has lost thrust, apply rudder conventionally. At V\textsubscript{r}
 rotate towards an initial pitch target of 12\textonehalf\textdegree{ }at a
 slightly reduced rate, then target speed \V{2} to \V{2}+15kt. Bank angle should
-be limited to 15\textdegree{ }when more than 3kt below manoeuvring speed for
-the current configuration\footnote{This is a conservative rule of thumb. If the
-FMGC has correctly identified an engine out condition, the FD/AP will
+be limited to 15\textdegree{ }when more than 3kt below manoeuvring speed for the
+current configuration\footnote{This is a conservative rule of thumb. If the
+\ac{FMGC} has correctly identified an engine out condition, the \ac{FD/AP} will
 automatically limit bank angle according to a less conservative
-algorithm. [FCOM~SYS.22.20.60.40]}.
+algorithm. \inlcite{FCOM~SYS.22.20.60.40}}.
 
-When the ground to flight mode transition is complete\footnote{Introducing TOGA
-during the ground to flight mode transition (commences as the pitch increases
-through 8\textdegree{ }, complete after 5 seconds) results in a pitch up moment at a time
-where the effect of stick pitch control is not wholly predictable: the stick
-will need to be moved forward of neutral to counteract the introduced pitch
-moment and then returned to neutral as flight mode blends in. A slight pause
-before selecting TOGA results in much more normal and predictable handling.},
-select TOGA (FLX may be used but this tends to allow speed to decay unless pitch
-is reduced), adjust and trim rudder to maintain $\beta$ target and request ``pull
-heading''. If the EOSID follows the track of the cleared SID, NAV may be used,
-but this is very rare with easyJet EOSIDs.  Engage the autopilot once gear is up
-and rudder is trimmed.
+When the ground to flight mode transition is complete\footnote{Introducing
+\ac{TOGA} during the ground to flight mode transition (commences as the pitch
+increases through 8\textdegree{ }, complete after 5 seconds) results in a pitch
+up moment at a time where the effect of stick pitch control is not wholly
+predictable: the stick will need to be moved forward of neutral to counteract
+the introduced pitch moment and then returned to neutral as flight mode blends
+in. A slight pause before selecting \ac{TOGA} results in much more normal and
+predictable handling.}, select \ac{TOGA} (\ac{FLX} may be used but this tends to
+allow speed to decay unless pitch is reduced), adjust and trim rudder to
+maintain $\beta$ target and request ``pull heading''. If the \ac{EOSID} follows
+the track of the cleared \ac{SID}, \ac{NAV} may be used, but this is very rare
+with easyJet \ac{EOSID}s.  Engage the autopilot once gear is up and rudder is
+trimmed.
 
 Whilst below 400ft, the only failure related actions should be:
 \begin{itemize}
-\item If applicable, PM should state the title of the first displayed ECAM
-  procedure, but should delay confirmation.\footnote{ The Feb 2018 update to
-  EOM-B removed the ``engine failure'' and ``engine fire'' calls, but leaves the
-  timing of the reading of the ECAM title ambiguous. The advice given here is
-  one interpretation. Since these calls were good for situational awareness,
-  replacing them with a bald statement of the first ECAM procedure title seems
-  sensible.}
+\item If applicable, \ac{PM} should state the title of the first displayed
+  \ac{ECAM} procedure, but should delay confirmation.\footnote{ The Feb 2018
+  update to \inlcite{EOM-B} removed the ``engine failure'' and ``engine fire''
+  calls, but leaves the timing of the reading of the \ac{ECAM} title
+  ambiguous. The advice given here is one interpretation. Since these calls were
+  good for situational awareness, replacing them with a bald statement of the
+  first \ac{ECAM} procedure title seems sensible.}
 
 \item Cancellation of master warning or master caution when both pilots confirm
   they are aware of it.
@@ -126,29 +136,30 @@ Whilst below 400ft, the only failure related actions should be:
 
 Once above 400ft with safe flight path assured, decide on an initial
 strategy. In general, where a loss of thrust has occurred or is anticipated, the
-strategy will be to fly the EOSID with a level acceleration segment (see <xref
-linkend="eosid"/>). Otherwise, it will be to remain on the normal SID and fly a
-normal climb profile. Any deviation from the cleared SID will require ATC to be
-informed as a priority, usually as part of a PAN or MAYDAY message. In rare
-cases where the cleared SID requires a very early turn it may be necessary to
-determine and action a strategy when below 400ft. If this is the case, it must
-be thoroughly briefed.
+strategy will be to fly the \ac{EOSID} with a level acceleration segment (see
+<xref linkend="eosid"/>). Otherwise, it will be to remain on the normal \ac{SID}
+and fly a normal climb profile. Any deviation from the cleared \ac{SID} will
+require \ac{ATC} to be informed as a priority, usually as part of a Pan or
+Mayday message. In rare cases where the cleared \ac{SID} requires a very early
+turn it may be necessary to determine and action a strategy when below 400ft. If
+this is the case, it must be thoroughly briefed.
 
 Once the flight path strategy has been agreed and actioned, the failure can be
-triaged, diagnosed and contained. Once the diagnosis is agreed, PF will take the
-radios and request PNF to carry out the containment actions. The standard
-phraseology is ``My Radios, ECAM actions''. PF taking the radios is also a good
-trigger to consider a Mayday and an ``Attention crew at stations''.
+triaged, diagnosed and contained. Once the diagnosis is agreed, \ac{PF} will
+take the radios and request \ac{PNF} to carry out the containment actions. The
+standard phraseology is ``My Radios, \ac{ECAM} actions''. \ac{PF} taking the
+radios is also a good trigger to consider a Mayday and an ``Attention crew at
+stations''.
 
-When applying ECAM procedures, PF is responsible for moving the thrust levers
-once confirmed by PNF. PNF is responsible for everything else, but movement of
-engine master switches, IR selectors and any guarded switch must be confirmed
-with PF.
+When applying \ac{ECAM} procedures, \ac{PF} is responsible for moving the thrust
+levers once confirmed by \ac{PNF}. \ac{PNF} is responsible for everything else,
+but movement of engine master switches, \ac{IR} selectors and any guarded switch
+must be confirmed with \ac{PF}.
 
-PNF indicates high priority tasks are completed with the phrase ``Engine is
-secure.''  This call is not official SOP (i.e. it is not mentioned in any
-manual), but has evolved to be standard in the sim since it is PF's trigger to
-interrupt ECAM and accelerate.  High priority tasks are defined as:
+\ac{PNF} indicates high priority tasks are completed with the phrase ``Engine is
+secure.''  This call is not official \ac{SOP} (i.e. it is not mentioned in any
+manual), but has evolved to be standard in the sim since it is \ac{PF}'s trigger
+to interrupt \ac{ECAM} and accelerate.  High priority tasks are defined as:
 
 \begin{itemize}
 \item For engine failure, the master switch of the affected engine has been
@@ -161,54 +172,54 @@ interrupt ECAM and accelerate.  High priority tasks are defined as:
 \multicite{FCTM~PRO.AEP.ENG}
 
 
-
-
 \section{EOSID}
 
-Before the divergence point (the last common point between the SID and the
-EOSID), if the aircraft detects a loss of thrust the EOSID will be displayed as
-a temporary flight plan. In this case the temporary flight plan can be inserted
-and NAV mode used. Otherwise it will be necessary to pull heading and manually
-follow either the yellow line or bring up a pre-prepared secondary flight plan
-and follow the white line.
+Before the divergence point (the last common point between the \ac{SID} and the
+\ac{EOSID}), if the aircraft detects a loss of thrust the \ac{EOSID} will be
+displayed as a temporary flight plan. In this case the temporary flight plan can
+be inserted and \ac{NAV} mode used. Otherwise it will be necessary to pull
+heading and manually follow either the yellow line or bring up a pre-prepared
+secondary flight plan and follow the white line.
 
 If beyond the divergence point, pull heading and make an \emph{immediate} turn
-the shortest way onto the EOSID. Airbus specifically recommends against this in
-FCOM.AS.22\_20.60.40, but easyJet states it as policy in EOMB 4.4.4.
+the shortest way onto the \ac{EOSID}. Airbus specifically recommends against
+this in \inlcite{FCOM~AS.22\_20.60.40}, but easyJet states it as policy in
+\inlcite{EOMB 4.4.4}.
 
-Electing to fly the EOSID implies a level acceleration segment:
+Electing to fly the \ac{EOSID} implies a level acceleration segment:
 
 \begin{itemize}
-\item Initially fly a TOGA climb at the higher of \V{2} or current speed, up to
-  a limit of \V{2}+15kt. If a FLEX takeoff was carried out, a FLEX climb is
-  permissible. This climb is continued until all high priority tasks are
-  complete (see <xref linkend="efato"/>) and the aircraft is above single engine
-  acceleration altitude (usually 1000ft QFE, but may be higher if so specified
-  by the take-off performance calculation). If the FMGS has detected the engine
-  out condition, the automatic mode change from SRS to CLB will be inhibited; if
-  not, intervention with selected modes will be required to prevent untimely
-  acceleration.
+\item Initially fly a \ac{TOGA} climb at the higher of \V{2} or current speed,
+  up to a limit of \V{2}+15kt. If a \ac{FLEX} takeoff was carried out, a
+  \ac{FLEX} climb is permissible. This climb is continued until all high
+  priority tasks are complete (see <xref linkend="efato"/>) and the aircraft is
+  above single engine acceleration altitude (usually 1000ft \ac{QFE}, but may be
+  higher if so specified by the take-off performance calculation). If the
+  \ac{FMGS} has detected the engine out condition, the automatic mode change
+  from \ac{SRS} to \ac{CLB} will be inhibited; if not, intervention with
+  selected modes will be required to prevent untimely acceleration.
 
-\item The next segment is a TOGA level acceleration and clean up, either to Conf
-  1 and S speed if an immediate VMC return is desired or to Conf 0 and green
-  dot. Again FLEX may be used if a FLEX takeoff was carried out. Level
-  acceleration is usually achieved by pushing V/S; if the FMGS has detected the
-  engine out condition, all preselected speeds entered in the MCDU will have
-  been deleted, so the managed target speed should automatically move to
-  250kt. The phrases ``Stop ECAM'' and ``Continue ECAM'' can be used to interrupt
-  ECAM procedures in order to initiate this segment.
+\item The next segment is a \ac{TOGA} level acceleration and clean up, either to
+  \ac{Conf} 1 and S speed if an immediate \ac{VMC} return is desired or to
+  \ac{Conf} 0 and green dot. Again \ac{FLEX} may be used if a \ac{FLEX} takeoff
+  was carried out. Level acceleration is usually achieved by pushing \ac{V/S};
+  if the \ac{FMGS} has detected the engine out condition, all preselected speeds
+  entered in the \ac{MCDU} will have been deleted, so the managed target speed
+  should automatically move to 250kt. The phrases ``Stop \ac{ECAM}'' and
+  ``Continue \ac{ECAM}'' can be used to interrupt \ac{ECAM} procedures in order
+  to initiate this segment.
 
-\item The final segment is a MCT climb segment to MSA, either at S speed if in
-  Conf 1 or at green dot speed if in Conf 0. This is usually achieved in open
-  climb; if the FMGS has detected the engine out condition, the managed target
-  speed becomes dependent on flight phase, and in this case should automatically
-  select green dot.
+\item The final segment is a \ac{MCT} climb segment to \ac{MSA}, either at S
+  speed if in \ac{Conf} 1 or at green dot speed if in \ac{Conf} 0. This is
+  usually achieved in open climb; if the \ac{FMGS} has detected the engine out
+  condition, the managed target speed becomes dependent on flight phase, and in
+  this case should automatically select green dot.
 \end{itemize}
 
-TOGA may be used for a maximum of 10 minutes.
+\ac{TOGA} may be used for a maximum of 10 minutes.
 
-If an EOSID is annotated as ``STD'', then acceleration to green dot should be
-completed prior to commencing the first turn. If ``NON-STD'', the turn takes
+If an \ac{EOSID} is annotated as ``\ac{STD}'', then acceleration to green dot should
+be completed prior to commencing the first turn. If ``\ac{NON-STD}'', the turn takes
 priority.
 
 \multicite{EOMB~4.4.4, FCOM~DSC.22\_20.60.40}
@@ -218,46 +229,46 @@ priority.
 \section{Emergency descent \emph{(memory item)}}
 
 If an emergency descent is required, the Captain should consider taking control
-if not already PF. PF initiates the memory items by announcing ``Emergency
-Descent.''
+if not already \ac{PF}. \ac{PF} initiates the memory items by announcing
+``Emergency Descent.''
 
 Don oxygen masks and establish communication.
 
-PF then flies the emergency descent.  Descent with autopilot and autothrust
+\ac{PF}J then flies the emergency descent.  Descent with autopilot and autothrust
 engaged is preferred. The configuration is thrust idle, full speed brake and
 maximum appropriate speed, taking into account possible structural
 damage.\footnote{According to Airbus, structural damage may be suspected if
 there has been a ``loud bang'' or there is a high cabin vertical speed. When
-limiting descent speed due to suspected structural damage, it is IAS rather than
-Mach that is relevant.} Target altitude is FL100 or MORA if this is higher. If
-speed is low, allow speed to increase before deploying full speedbrake to
-prevent activation of the angle of attack protection. Landing gear may be used,
-but speed must be below \V{LO} when it is extended and remain below \V{LE}. If
-on an airway, consider turning 90\textdegree{ }to the left.
+limiting descent speed due to suspected structural damage, it is \ac{IAS} rather
+than Mach that is relevant.} Target altitude is \ac{FL100} or \ac{MORA} if this
+is higher. If speed is low, allow speed to increase before deploying full
+speedbrake to prevent activation of the angle of attack protection. Landing gear
+may be used, but speed must be below \V{LO} when it is extended and remain below
+\V{LE}. If on an airway, consider turning 90\textdegree{ }to the left.
 
-PM's only memory action is to turn the seatbelt signs on.\footnote{Prior to a
-2017 update from Airbus, PM would complete a fairly lengthy list of memory items
-at the start of the Emergency Descent procedure. It was found that PM was more
-usefully employed monitoring PF's actions, and hence most of these memory items
-were removed to a read and do checklist to be completed once descent had been
-initiated.} Initially, PM's main task is to ensure that PF has promptly and
-correctly initiated the descent.
+\ac{PM}'s only memory action is to turn the seatbelt signs on.\footnote{Prior to
+a 2017 update from Airbus, \ac{PM} would complete a fairly lengthy list of
+memory items at the start of the Emergency Descent procedure. It was found that
+\ac{PM} was more usefully employed monitoring \ac{PF}'s actions, and hence most
+of these memory items were removed to a read and do checklist to be completed
+once descent had been initiated.} Initially, \ac{PM}'s main task is to ensure
+that \ac{PF} has promptly and correctly initiated the descent.
 
-Once the memory actions are complete and the aircraft is descending, PF should
-call for the Emergency Descent Checklist (``My radios, Emergency Descent
-Checklist''). This will lead PF to finesse the speed and altitude targets and
-inform ATC of the descent; PM to set continuous ignition on the engines and set
-7700 on the transponder. Both pilots then set their oxygen flows to the N
+Once the memory actions are complete and the aircraft is descending, \ac{PF}
+should call for the Emergency Descent Checklist (``My radios, Emergency Descent
+Checklist''). This will lead \ac{PF} to finesse the speed and altitude targets and
+inform \ac{ATC} of the descent; \ac{PM} to set continuous ignition on the engines and set
+7700 on the transponder. Both pilots then set their oxygen flows to the \ac{N}
 position\footnote{There may be insufficient oxygen to cover the entire emergency
 descent profile if the oxygen masks are left set to 100\%.} and, if cabin
-altitude will exceed 14,000ft, PM deploys the cabin oxygen masks. On easyJet
-aircraft, the CIDS/PRAM will automatically play a suitable PA, so it is not
-necessary for the flight crew to carry out the EMER DESCENT (PA) action.
+altitude will exceed 14,000ft, \ac{PM} deploys the cabin oxygen masks. On easyJet
+aircraft, the \ac{CIDS}/\ac{PRAM} will automatically play a suitable \ac{PA}, so it is not
+necessary for the flight crew to carry out the \ecam{}{EMER DESCENT (PA)} action.
 
 Once level, restore the aircraft to a normal configuration. When safe to do so,
 advise cabin crew and passengers that it is safe to remove their masks. To
 deactivate the mask microphone and switch off the oxygen flow, close the oxygen
-mask stowage compartment and press the ``PRESS TO RESET'' oxygen control slide.
+mask stowage compartment and press the ``\ac{PRESS TO RESET}'' oxygen control slide.
 
 \multicite{EOMB~3.80.2, QRH~AEP.MISC, FCOM~AEP.MISC, FCTM~AEP.MISC}
 
@@ -267,11 +278,12 @@ mask stowage compartment and press the ``PRESS TO RESET'' oxygen control slide.
 \subsection{Reactive}
 
 The windshear detection system is a function of the Flight Augmentation Computer
-(FAC). It only operates during the takeoff and landing phases with at least CONF
-1 selected. In the takeoff phase, warnings are provided from 3 seconds after
-lift off until 1300ft RA is achieved. In the landing phase warnings are provided
-between 1300ft RA and 50ft RA. A warning is indicated by a red ``WINDSHEAR'' flag
-on the PFD and a ``WINDSHEAR, WINDSHEAR, WINDSHEAR'' aural warning.
+(\ac{FAC}). It only operates during the takeoff and landing phases with at least
+\ac{CONF} 1 selected. In the takeoff phase, warnings are provided from 3 seconds
+after lift off until 1300ft \ac{RA} is achieved. In the landing phase warnings
+are provided between 1300ft \ac{RA} and 50ft \ac{RA}. A warning is indicated by
+a red ``\ac{WINDSHEAR}'' flag on the \ac{PFD} and a ``Windshear, Windshear,
+Windshear'' aural warning.
 
  When on the ground, windshear is \emph{only} indicated by significant airspeed
  variations. It is possible that these fluctuations may cause \V{1} to occur
@@ -279,56 +291,59 @@ on the PFD and a ``WINDSHEAR, WINDSHEAR, WINDSHEAR'' aural warning.
  the Captain to make an assessment of whether sufficient runway remains to
  reject the takeoff, or whether getting airborne below \V{r} would be the better
  option. If the takeoff is to be continued in windshear conditions, call
- ``Windshear, TOGA'' and apply TOGA power.  Rotate at \V{r} or with sufficient
- runway remaining and follow SRS orders.\footnote{``Sufficient runway remaining''
- is actually Boeing advice – Airbus offers no guidance for the case where there
- is insufficient runway available to stop nor to rotate at normal speeds.} SRS
- will maintain a minimum rate of climb, even if airspeed must be sacrificed.
+ ``Windshear, \ac{TOGA''} and apply \ac{TOGA} power.  Rotate at \V{r} or with
+ sufficient runway remaining and follow \ac{SRS} orders.\footnote{``Sufficient
+ runway remaining'' is actually Boeing advice – Airbus offers no guidance for
+ the case where there is insufficient runway available to stop nor to rotate at
+ normal speeds.} \ac{SRS} will maintain a minimum rate of climb, even if
+ airspeed must be sacrificed.
 
-If a warning occurs when airborne, call ``Windshear, TOGA'', apply TOGA power and
-maintain current configuration. The autopilot can fly the escape manoeuvre as
-long as \mbox{$\mathrm{\alpha_{req}<\alpha_{prot}}$}. If the
-autopilot is not engaged, follow the SRS orders on the FD. If the FD is not
-available, initially pitch up to 17.5\textdegree, then increase as required.
+If a warning occurs when airborne, call ``Windshear, \ac{TOGA}'', apply
+\ac{TOGA} power and maintain current configuration. The autopilot can fly the
+escape manoeuvre as long as \mbox{$\mathrm{\alpha_{req}<\alpha_{prot}}$}. If the
+autopilot is not engaged, follow the \ac{SRS} orders on the \ac{FD}. If the
+\ac{FD} is not available, initially pitch up to 17.5\textdegree, then increase
+as required.
 
 Do not change configuration until out of the windshear.
 
-In severe windshear, it is possible that ALPHA FLOOR protection will
-activate. As TOGA will already be selected, this will have no immediate
-effect. Once clear of the windshear, however, TOGA LK will be active, requiring
-the autothrust to be disconnected to avoid an overspeed. This is most naturally
-achieved by pressing the ``instinctive disconnect pb'' on the thrust levers then
-flying manual thrust until the situation has sufficiently stabilised to
-re-engage the autothrust.
+In severe windshear, it is possible that Alpha Floor protection will
+activate. As \ac{TOGA} will already be selected, this will have no immediate
+effect. Once clear of the windshear, however, \ac{TOGA} lock will be active,
+requiring the autothrust to be disconnected to avoid an overspeed. This is most
+naturally achieved by pressing the ``instinctive disconnect pb'' on the thrust
+levers then flying manual thrust until the situation has sufficiently stabilised
+to re-engage the autothrust.
 
 \multicite{FCOM~PRO.AEP.SURV}
 
 \subsection{Predictive}
 
-When below 2300ft AGL, the weather radar scans a 5nm radius 60\textdegree{ }arc ahead of the
-aircraft for returns indicating potential windshear.
+When below 2300ft \ac{AGL}, the weather radar scans a 5nm radius 60\textdegree{
+}arc ahead of the aircraft for returns indicating potential windshear.
 
 Alerts are categorised as advisory, caution or warning, in increasing order of
 severity. Severity is determined by range, position and phase of flight. Alerts
 are only provided when between 50ft and 1500ft, or on the ground when below
 100kt.
 
-All types of alert produce an indication of windshear position on the ND,
-providing the ND range is set to 10nm. A message on the ND instructs the crew to
-change range to 10nm if not already set. Cautions also give an amber ``W/S AHEAD''
-message on both PFDs and an aural ``MONITOR RADAR DISPLAY'' warning. Warnings give
-a red ``W/S AHEAD'' message on the PFDs and either a ``WINDSHEAR AHEAD, WINDSHEAR
-AHEAD'' or ``GO AROUND, WINDSHEAR AHEAD'' aural message.
+All types of alert produce an indication of windshear position on the \ac{ND},
+providing the \ac{ND} range is set to 10nm. A message on the \ac{ND} instructs
+the crew to change range to 10nm if not already set. Cautions also give an amber
+``\ac{W/S AHEAD}'' message on both \ac{PFD}s and an aural ``Monitor Radar
+Display'' warning. Warnings give a red ``\ac{W/S AHEAD}'' message on the
+\ac{PFD}s and either a ``Windshear Ahead, Windshear Ahead'' or ``Go Around,
+Windshear Ahead'' aural message.
 
 If a warning alert occurs during the takeoff roll, reject the takeoff. If it
-occurs during initial climb, call ``Windshear, TOGA'', apply TOGA thrust and
-follow SRS orders. Configuration may be changed as long as the windshear is not
-entered.
+occurs during initial climb, call ``Windshear, \ac{TOGA}'', apply \ac{TOGA}
+thrust and follow \ac{SRS} orders. Configuration may be changed as long as the
+windshear is not entered.
 
 If a warning alert occurs during approach, fly a normal go-around. If positive
 verification is made that no hazard exists, providing that the reactive
 windshear is serviceable the crew may downgrade the warning to a caution. If a
-caution alert occurs during approach, consider use of CONF 3 and increasing
+caution alert occurs during approach, consider use of \ac{CONF} 3 and increasing
 \V{APP} to a maximum of \V{LS}+15.
 
 \multicite{FCOM~PRO.AES.SURV}
