@@ -24,7 +24,7 @@
   \noindent{{\color{blue}\footnotesize[\inlcite{#1}]}}
 }
 \newcommand{\V}[1]{V\textsubscript{#1}}
-
+\newcommand{\strong}[1]{\textbf{#1}}
 
 \begin{document}
 \frontmatter
@@ -325,34 +325,37 @@ stabilised to re-engage the autothrust.
 
 \subsection{Predictive}
 
-When below 2300ft \ac{AGL}, the weather radar scans a 5nm radius 60\textdegree{
-}arc ahead of the aircraft for returns indicating potential windshear.
+Below 2300ft \ac{AGL}, the weather radar scans a 5nm radius 60\textdegree\ arc
+ahead of the aircraft for returns indicating potential windshear.
 
-Alerts are categorised as advisory, caution or warning, in increasing order of
-severity. Severity is determined by range, position and phase of flight. Alerts
-are only provided when between 50ft and 1500ft, or on the ground when below
-100kt.
+Alerts are categorised as \strong{advisory}, \strong{caution} or
+\strong{warning}, in increasing order of severity. Severity is determined by
+range, position and phase of flight. Alerts are only provided when between 50ft
+and 1500ft, or on the ground when below 100kt.
 
 All types of alert produce an indication of windshear position on the \ac{ND},
-providing the \ac{ND} range is set to 10nm. A message on the \ac{ND} instructs
-the crew to change range to 10nm if not already set. Cautions also give an amber
-``\ac{W/S AHEAD}'' message on both \ac{PFD}s and an aural ``Monitor Radar
-Display'' warning. Warnings give a red ``\ac{W/S AHEAD}'' message on the
+provided that the \ac{ND} range is set to 10nm. A message on the \ac{ND}
+instructs the crew to change range to 10nm if not already set. A
+\strong{caution} additionally gives an amber ``\cphrase{W/S AHEAD}'' message on
+both \ac{PFD}s and an aural ``Monitor Radar Display'' warning. A
+\strong{warning} additionally gives a red ``\cphrase{W/S AHEAD}'' message on the
 \ac{PFD}s and either a ``Windshear Ahead, Windshear Ahead'' or ``Go Around,
 Windshear Ahead'' aural message.
 
-If a warning alert occurs during the takeoff roll, reject the takeoff. If it
+If a \strong{warning} occurs during the takeoff roll, reject the takeoff. If it
 occurs during initial climb, call ``Windshear, \ac{TOGA}'', apply \ac{TOGA}
-thrust and follow \ac{SRS} orders. Configuration may be changed as long as the
-windshear is not entered.
+thrust and follow \ac{SRS} orders. If it occurs during approach, fly a normal
+go-around. Configuration may be changed as long as the windshear is not entered.
 
-If a warning alert occurs during approach, fly a normal go-around. If positive
-verification is made that no hazard exists, providing that the reactive
-windshear is serviceable the crew may downgrade the warning to a caution. If a
-caution alert occurs during approach, consider use of \ac{CONF} 3 and increasing
-\V{APP} to a maximum of \V{LS}+15.
+If a \strong{caution} occurs during approach, use \ac{CONF} 3 to optimise
+go-around climb gradient and consider increasing \V{APP}; up to a maximum of
+\V{LS}+15 may be used.
 
-\multicite{FCOM~PRO.AES.SURV}
+If positive verification is made that no hazard exists and providing that the
+reactive windshear is serviceable the crew may downgrade the \strong{warning} to
+a \strong{caution.}
+
+\multicite{FCTM PR.NP.SP.10.10}
 
 \section{Unreliable airspeed \emph{(memory item)}}
 
