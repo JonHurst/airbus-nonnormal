@@ -372,8 +372,8 @@ identify and turn off the erroneous sources to recover good data.
 The first problem is recognition of a failure, since the aircraft systems may be
 unable to warn of a problem. The primary method of doing this is correlation of
 aircraft attitude and thrust to displayed performance. Correlation of radio
-altimeter and \ac{GPIRS} derived data (available on \ac{GPS MONITOR} page) may
-also aid identification. The stall warning (available in alternate or direct
+altimeter and \ac{GPIRS} derived data (available on \cphrase{GPS MONITOR} page)
+may also aid identification. The stall warning (available in alternate or direct
 law) is based on alpha probes, so will likely be valid. Other clues may include
 fluctuations in readings, abnormal behaviour of the automatics, high speed
 buffet or low aerodynamic noise.
@@ -406,16 +406,16 @@ this causes the flight computers to revert to Alternate Law with no protections,
 and thus allows control of the aircraft to be regained.
 
 Once the flight path is under control and a safe altitude is attained, the
-aircraft should be transitioned into level flight. Refer to the \ac{QRH} to
-extract a ballpark thrust setting, a reference attitude and a reference speed
-for the current configuration, bearing in mind that an auto-retraction of the
-flap may have occurred. Set the ballpark thrust setting and adjust pitch
-attitude to fly level; if barometric altitude data is considered accurate use
-the \ac{VSI}, otherwise fly a constant \ac{GPS} altitude. The thrust should then
-be adjusted until level flight is achieved with the reference attitude. Note
-that in the radome damage case, the required N1 may be as much as 5\% greater
-than the ballpark figure. Once stable, the speed will be equal to the reference
-speed.
+aircraft should be transitioned into level flight. Refer to the \ac{QRH}
+\ecam{NAV}{Unreliable Speed Indication} procedure to extract a ballpark thrust
+setting, a reference attitude and a reference speed for the current
+configuration, bearing in mind that an auto-retraction of the flap may have
+occurred. Set the ballpark thrust setting and adjust pitch attitude to fly
+level; if barometric altitude data is considered accurate use the \ac{VSI},
+otherwise fly a constant \ac{GPS} altitude. The thrust should then be adjusted
+until level flight is achieved with the reference attitude. Note that in the
+radome damage case, the required N1 may be as much as 5\% greater than the
+ballpark figure. Once stable, the speed will be equal to the reference speed.
 
 If there is insufficient data available to fly level (e.g. \ac{GPS} data
 unavailable and barometric data unreliable), fly the reference attitude with the
@@ -431,15 +431,15 @@ If all \ac{ADR}s are considered unreliable, turn off any two of them; one is
 kept on to provide stall warning from the alpha probes. More recent aircraft
 have backup speed/altitude scales based on \ac{AOA} probes and \ac{GPS}
 altitudes which are activated when below \ac{FL}250 by turning off the third
-\ac{ADR}. The \ac{ALL ADR OFF} procedure in \inlcite{QRH~AEP.NAV} describes the
-use of these scales, but it boils down to fly the green on the speed scale and
+\ac{ADR}. The \ac{QRH} \ecam{NAV}{ALL ADR OFF} procedure describes the use of
+these scales, but it boils down to fly the green on the speed scale and
 anticipate slightly reduced accuracy from the altitude scale.  For aircraft
-without this functionality, tables are provided in section \inlcite{AEP.NAV.USI}
-of the \ac{QRH} to enable all phases of flight to be flown using just pitch and
-thrust settings. Acceleration and clean up are carried out in level flight. Flap
-1 can be selected as soon as climb thrust is selected, flap 0 once the
-appropriate S speed pitch attitude from the table on the first page of the
-\ac{QRH} \inlcite{AEP.NAV.USI} procedure is reached. Configuration for approach
+without this functionality, tables are provided in the \ac{QRH}
+\ecam{NAV}{Unreliable Speed Indication} procedure to enable all phases of flight
+to be flown using just pitch and thrust settings. Acceleration and clean up are
+carried out in level flight. \ac{CONF} 1 can be selected as soon as climb thrust
+is selected, \ac{CONF} 0 once the appropriate S speed pitch attitude from the
+table on the first page of the procedure is reached. Configuration for approach
 is also carried out in level flight, stabilising in each configuration using the
 technique described above. The approach is flown in \ac{CONF} 3 at an attitude
 that should result in \V{LS}+10 when flying a 3\textdegree{ }glide. Landing
