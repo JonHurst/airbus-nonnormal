@@ -277,45 +277,46 @@ mask stowage compartment and press the ``\cphrase{PRESS TO RESET}'' oxygen contr
 
 \section{Windshear \emph{(memory item)}}
 
+\subsection{Takeoff roll}
+
+Windshear encountered on the takeoff roll is \emph{only} detectable by
+significant airspeed fluctuations. It is possible that these fluctuations may
+cause \V{1} to occur significantly later in the takeoff roll then it should. In
+this case it falls to the Captain to make an assessment of whether sufficient
+runway remains to reject the takeoff, or whether getting airborne would be the
+better option. If the takeoff is to be continued, call ``Windshear, \ac{TOGA''}
+and apply \ac{TOGA} power.  Rotate at \V{r} or with sufficient runway
+remaining\footnote{``Sufficient runway remaining'' is actually Boeing advice –
+Airbus offers no guidance for the case where there is insufficient runway
+available to stop nor to rotate at normal speeds.} and follow \ac{SRS}
+orders. \ac{SRS} will maintain a minimum rate of climb, even if airspeed must be
+sacrificed.
+
 \subsection{Reactive}
 
-The windshear detection system is a function of the Flight Augmentation Computer
-(\ac{FAC}). It only operates during the takeoff and landing phases with at least
-\ac{CONF} 1 selected. In the takeoff phase, warnings are provided from 3 seconds
-after lift off until 1300ft \ac{RA} is achieved. In the landing phase warnings
-are provided between 1300ft \ac{RA} and 50ft \ac{RA}. A warning is indicated by
-a red ``\ac{WINDSHEAR}'' flag on the \ac{PFD} and a ``Windshear, Windshear,
-Windshear'' aural warning.
+The reactive windshear detection system is a function of the \ac{FAC}s. It only
+operates when below 1300ft \ac{RA} with at least \ac{CONF} 1 selected. In the
+takeoff phase, it is inhibited until 3 seconds after lift off and in the landing
+phase it is inhibited below 50ft \ac{RA}.
 
- When on the ground, windshear is \emph{only} indicated by significant airspeed
- variations. It is possible that these fluctuations may cause \V{1} to occur
- significantly later in the takeoff run then it should. It therefore falls to
- the Captain to make an assessment of whether sufficient runway remains to
- reject the takeoff, or whether getting airborne below \V{r} would be the better
- option. If the takeoff is to be continued in windshear conditions, call
- ``Windshear, \ac{TOGA''} and apply \ac{TOGA} power.  Rotate at \V{r} or with
- sufficient runway remaining and follow \ac{SRS} orders.\footnote{``Sufficient
- runway remaining'' is actually Boeing advice – Airbus offers no guidance for
- the case where there is insufficient runway available to stop nor to rotate at
- normal speeds.} \ac{SRS} will maintain a minimum rate of climb, even if
- airspeed must be sacrificed.
+A warning is indicated by a red \cphrase{WINDSHEAR} flag on the \ac{PFD} and a
+``Windshear, Windshear, Windshear'' aural warning. Call ``Windshear, \ac{TOGA}''
+and apply \ac{TOGA} power.
 
-If a warning occurs when airborne, call ``Windshear, \ac{TOGA}'', apply
-\ac{TOGA} power and maintain current configuration. The autopilot can fly the
-escape manoeuvre as long as \mbox{$\mathrm{\alpha_{req}<\alpha_{prot}}$}. If the
-autopilot is not engaged, follow the \ac{SRS} orders on the \ac{FD}. If the
-\ac{FD} is not available, initially pitch up to 17.5\textdegree, then increase
-as required.
+The autopilot can fly the escape manoeuvre as long as required \ac{AOA} is less
+than $\alpha$\textsubscript{prot}. If the autopilot is not engaged, follow the
+\ac{SRS} orders on the \ac{FD}s. If the \ac{FD}s are not available, initially
+pitch up to 17.5\textdegree, then increase as required.
 
 Do not change configuration until out of the windshear.
 
 In severe windshear, it is possible that Alpha Floor protection will
 activate. As \ac{TOGA} will already be selected, this will have no immediate
-effect. Once clear of the windshear, however, \ac{TOGA} lock will be active,
-requiring the autothrust to be disconnected to avoid an overspeed. This is most
-naturally achieved by pressing the ``instinctive disconnect pb'' on the thrust
-levers then flying manual thrust until the situation has sufficiently stabilised
-to re-engage the autothrust.
+effect. Once clear of the windshear, however, \ac{TOGA} lock will be active, requiring
+the autothrust to be disconnected to avoid an overspeed. This is most naturally
+achieved by pressing the instinctive disconnect \ac{PB} on the thrust levers
+then flying manual thrust until the situation has sufficiently stabilised to
+re-engage the autothrust.
 
 \multicite{FCOM~PRO.AEP.SURV}
 
